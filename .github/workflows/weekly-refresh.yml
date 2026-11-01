@@ -38,5 +38,6 @@ jobs:
             echo "No changes"
           else
             git commit -m "Weekly check $(date -u +%F)"
+            git pull --rebase -X theirs origin main
             git push
           fi

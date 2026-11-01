@@ -61,7 +61,27 @@ def main(src):
         dump(DATA / "metrics.json", m)
     r = load(src / "_reviews.json", None)
     if r:
-        dump(DATA / "reviews.json", r)
+        # Merge into the repo copy so ratings refreshed by the weekly Action are not overwritten.
+        cur = load(DATA / "reviews.json", {"companies": {}})
+        cc = cur.setdefault("companies", {})
+        for cid, rv in (r.get("companies") or {}).items():
+            tgt = cc.setdefault(cid, {})
+            for k, v in (rv or {}).items():
+                if v in (None, [], {}, ""):
+                    continue
+                if k in ("android", "ios", "digital_servicing") and isinstance(v, dict):
+                    old = tgt.get(k) or {}
+                    newer_auto = k != "digital_servicing" and old.get("rating") is not None and \
+                        (old.get("observed_on") or "") > (v.get("observed_on") or "")
+                    base, top = (v, old) if newer_auto else (old, v)
+                    merged = dict(base)
+                    merged.update({kk: vv for kk, vv in top.items() if vv is not None})
+                    tgt[k] = merged
+                else:
+                    tgt[k] = v
+        cur["researched_on"] = r.get("researched_on") or cur.get("researched_on")
+        dump(DATA / "reviews.json", cur)
+        r = cur
         for c in companies:
             rv = (r.get("companies") or {}).get(c["id"]) or {}
             apps = {}

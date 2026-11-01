@@ -34,6 +34,69 @@ HEADERS = {
     "Accept-Language": "en-IN,en;q=0.9",
 }
 PAGE_KEYS = ["product_list_url", "riders_url", "group_url", "withdrawn_list_url"]
+# Developer/seller name fragments used to recognise each insurer's own app in store search results
+APP_MATCH = {
+    "lic": ["life insurance corporation"], "sbi": ["sbi life"], "hdfc": ["hdfc life"],
+    "icici": ["icici prudential life", "icici pru"], "axismax": ["max life"], "bajaj": ["bajaj allianz life", "bajaj life"],
+    "tataaia": ["tata aia"], "kotak": ["kotak mahindra life", "kotak life"], "absli": ["aditya birla sun life insurance"],
+    "pnbmetlife": ["pnb metlife", "metlife india"], "canarahsbc": ["canara hsbc"], "indiafirst": ["indiafirst", "india first life"],
+    "sud": ["star union", "sud life"], "ageasfederal": ["ageas federal"], "indusindnippon": ["nippon life"],
+    "bharti": ["bharti axa life", "bharti life"], "generalicentral": ["generali"], "edelweiss": ["edelweiss life", "edelweiss tokio"],
+    "pramerica": ["pramerica"], "aviva": ["aviva life"], "shriram": ["shriram life"], "bandhan": ["bandhan life", "aegon life"],
+    "creditaccess": ["creditaccess life", "credit access life"], "godigit": ["go digit life", "digit life"], "acko": ["acko"],
+    "indiapost": ["department of posts"],
+}
+NOT_CUSTOMER_APP = re.compile(r"agent|advis|partner|sales|employee|\bpos\b|recruit|\bcrm\b|channel|mitra|saathi|sathi|"
+                              r"dealer|branch|\bhr\b|training|learning|\bdms\b|bancassurance|distributor", re.I)
+
+
+def _pick(results, tokens, title_key, dev_keys):
+    for r in results:
+        title = str(r.get(title_key) or "")
+        dev = " ".join(str(r.get(k) or "") for k in dev_keys).lower()
+        if NOT_CUSTOMER_APP.search(title):
+            continue
+        if any(t in dev for t in tokens):
+            return r
+    return None
+
+
+def discover_apps(companies):
+    """Find a customer-servicing app id for insurers that have none (store search + developer-name match)."""
+    found = []
+    try:
+        from google_play_scraper import search as play_search
+    except Exception:  # noqa: BLE001
+        play_search = None
+    for comp in companies:
+        tokens = APP_MATCH.get(comp["id"])
+        if not tokens:
+            continue
+        apps = comp.setdefault("apps", {})
+        query = comp.get("name") or comp.get("short")
+        if not apps.get("android") and play_search:
+            try:
+                hit = _pick(play_search(query, lang="en", country="in", n_hits=10) or [], tokens, "title", ["developer"])
+                if hit:
+                    apps["android"] = hit["appId"]
+                    found.append({"company_id": comp["id"], "store": "android", "id": hit["appId"],
+                                  "title": hit.get("title"), "developer": hit.get("developer")})
+            except Exception as e:  # noqa: BLE001
+                found.append({"company_id": comp["id"], "store": "android", "error": str(e)[:120]})
+        if not apps.get("ios"):
+            try:
+                r = requests.get("https://itunes.apple.com/search", headers=HEADERS, timeout=30,
+                                 params={"term": query, "country": "in", "entity": "software", "limit": 10})
+                hit = _pick(r.json().get("results") or [], tokens, "trackName", ["sellerName", "artistName"])
+                if hit:
+                    apps["ios"] = str(hit["trackId"])
+                    found.append({"company_id": comp["id"], "store": "ios", "id": str(hit["trackId"]),
+                                  "title": hit.get("trackName"), "developer": hit.get("sellerName")})
+            except Exception as e:  # noqa: BLE001
+                found.append({"company_id": comp["id"], "store": "ios", "error": str(e)[:120]})
+        if not apps:
+            comp.pop("apps", None)
+    return found
 
 
 def load(p, default):
@@ -228,6 +291,9 @@ def main():
     result = {"run_at": dt.datetime.now(IST).isoformat(timespec="minutes"), "source": "github-actions"}
     result["product_pages"] = check_products(companies, today, changelog, only)
     if "--no-ratings" not in args:
+        result["apps_discovered"] = discover_apps(companies)
+        if any("id" in a for a in result["apps_discovered"]):
+            dump(DATA / "companies.json", companies)
         result["ratings"] = check_ratings(companies, today, changelog)
     dump(DATA / "changelog.json", changelog)
     dump(DATA / "refresh" / "last_run.json", result)
