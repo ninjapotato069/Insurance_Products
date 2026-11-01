@@ -96,8 +96,11 @@ def normalize(p):
             p.pop(k)
     if cd:
         p["category_details"] = cd
-    if p.get("uin"):
-        p["uin"] = re.sub(r"\s+", "", str(p["uin"])).upper()
+    u = p.get("uin")
+    if isinstance(u, str) and u.strip().lower() in ("", "none", "null", "n/a", "na", "-"):
+        p.pop("uin")
+    elif u:
+        p["uin"] = re.sub(r"\s+", "", str(u)).upper()
     el = p.get("eligibility")
     if isinstance(el, dict):
         for k in NUM_AGE:
