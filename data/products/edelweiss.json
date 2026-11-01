@@ -1,0 +1,5523 @@
+{
+ "company_id": "edelweiss",
+ "company_name": "Edelweiss Life Insurance Company Ltd",
+ "researched_on": "2026-10-28",
+ "urls": {
+  "website": "https://www.edelweisslife.in",
+  "product_list_url": "https://www.edelweisslife.in/product-downloads",
+  "withdrawn_list_url": "https://www.edelweisslife.in/en/discontinued-products",
+  "riders_url": "https://www.edelweisslife.in/riders",
+  "group_url": "https://www.edelweisslife.in/group-insurance-plans",
+  "newsroom_url": null
+ },
+ "products": [
+  {
+   "uin": "147N080V01",
+   "name": "Zindagi Protect Plus",
+   "segment": "Individual",
+   "category": "Term",
+   "plan_structure": "Pure Term",
+   "sub_category": "Term with optional return of premium and spouse/child/premium-break add-ons",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Life Cover",
+     "summary": "Pure term cover; payout as lump sum, monthly income or a mix; add-ons available"
+    },
+    {
+     "name": "Return of Premium",
+     "summary": "Death cover plus return of all premiums paid if the insured survives the term"
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 65,
+    "maturity_age_max_years": 100,
+    "policy_term_min_years": 5,
+    "policy_term_max_years": null,
+    "whole_life": false,
+    "ppt_options": [
+     "Regular",
+     "Limited 5",
+     "Limited 7",
+     "Limited 10",
+     "Limited 15",
+     "Limited 20",
+     "Limited to age 60"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": 3000,
+    "min_single_premium_inr": null,
+    "max_premium_text": "No limit, subject to board-approved underwriting policy",
+    "min_sum_assured_inr": 5000000,
+    "max_sum_assured_text": "No limit, subject to board-approved underwriting policy",
+    "notes": "Max entry age Life Cover: 65 (limited pay 5/7/10/15/20), 55 regular pay, 50 pay-to-60; ROP option: 60 limited pay, 50 pay-to-60 and regular pay. Min maturity age 23 (Life Cover) / 28 (ROP); max term = 100 minus entry age. Min term 10 yrs (5/7-pay), 15 (10-pay), 20 (15-pay), 25 (20-pay), 5 yrs regular-pay Life Cover, 10 yrs regular-pay ROP. Brochure minimum premium by mode: half-yearly 1,536, quarterly 780, monthly 264 (web page shows different figures). Better Half spouse SA 25 lakh to 1 crore; Child's Future Protect SA 10-100% of base SA."
+   },
+   "benefits": {
+    "death": "Base sum assured (plus any Child's Future Protect cover) on death in term; ROP option pays at least 105% of premiums paid. Paid as lump sum, monthly income (36 or 60 months) or a lump sum plus income.",
+    "maturity": "Life Cover: none. Return of Premium: 100% of total premiums paid (excluding extra premiums and taxes).",
+    "survival_income": null,
+    "guaranteed": true,
+    "return_of_premium": true,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": "Better Half Benefit (spouse cover after insured's death), Child's Future Protect Benefit, Premium Break Benefit (skip up to 8 premiums, PPT 10+ yrs), Special Exit Benefit for limited-pay Life Cover."
+   },
+   "category_details": {
+    "term": {
+     "rop_option": true,
+     "whole_life_cover_option": true,
+     "ci_or_accelerated_benefit": false,
+     "payout_options": "Lump sum / Monthly income / Lump sum + income"
+    },
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Two options: Life Cover and Return of Premium",
+    "Optional Better Half Benefit covers the spouse after the insured's death",
+    "Child's Future Protect adds 10-100% extra cover for a child",
+    "Premium Break Benefit lets you skip up to 8 premiums",
+    "Death payout as lump sum, monthly income or both"
+   ],
+   "riders_available": [
+    "Accidental Death Benefit Rider",
+    "Accidental Total & Permanent Disability Rider",
+    "Critical Illness Rider",
+    "Waiver of Premium Rider"
+   ],
+   "online_purchase": true,
+   "channels": [
+    "Direct/Online"
+   ],
+   "tax_benefits": "Premiums and benefits eligible for tax benefits under prevailing Income Tax law (page cites Income Tax Act, 2025); subject to change.",
+   "description": "Non-linked, non-participating term plan with Life Cover and Return of Premium options plus optional spouse, child and premium-break add-ons, for people wanting high-value protection.",
+   "urls": {
+    "product_page": "https://www.edelweisslife.in/zindagi-protect-plus",
+    "brochure": "https://www.edelweisslife.in/documents/20121/5219612/Edelweiss+Life_+Zindagi+Protect+Plus_ProductBrochure.pdf"
+   },
+   "sources": [
+    "https://www.edelweisslife.in/zindagi-protect-plus",
+    "https://www.edelweisslife.in/documents/d/guest/edelwiesslife_zindagiprotectplus_productbrochuredocument",
+    "https://www.edelweisslife.in/product-downloads"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N112V01",
+   "name": "Guaranteed Flexi STAR",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": "Guaranteed Income",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Lumpsum",
+     "summary": "Sum assured on maturity plus accrued guaranteed additions paid at the end of the term"
+    },
+    {
+     "name": "Lumpsum with Income",
+     "summary": "Guaranteed annual income after the premium-paying term plus a maturity lump sum; income can be preponed"
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 0,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": 10,
+    "policy_term_max_years": 43,
+    "whole_life": null,
+    "ppt_options": [
+     "Limited 5",
+     "Limited 6",
+     "Limited 7",
+     "Limited 8",
+     "Limited 9",
+     "Limited 10",
+     "Limited 11",
+     "Limited 12"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": 120000,
+    "max_sum_assured_text": "No limit, subject to board-approved underwriting policy",
+    "notes": "Page states entry age 0 to 70 for the policyholder; life-assured maximum not confirmed. Lumpsum option term 10-40 yrs (PPT 5-8) or 15-40 (PPT 9-12); Lumpsum with Income terms are PPT-specific (19-43). Min SA 168,000 for ages 0-49, 120,000 for 50+."
+   },
+   "benefits": {
+    "death": "Life cover as a multiple of annualised premium (page says 10x; FAQ says 5x/7x/10x depending on PPT and entry age).",
+    "maturity": "Lumpsum: sum assured on maturity plus accrued guaranteed additions. Lumpsum with Income: final income instalment plus sum assured on maturity (higher of 10x or PPT x annualised premium).",
+    "survival_income": "Lumpsum with Income option pays guaranteed annual income from the 2nd policy year after PPT; can be preponed to start from year 1 up to PPT+1.",
+    "guaranteed": true,
+    "return_of_premium": null,
+    "loan": true,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": {
+     "payout_type": "Lump sum + Income",
+     "bonus_type": "None"
+    },
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [
+    "Accidental Death Benefit Rider",
+    "Accidental Total & Permanent Disability Rider",
+    "Waiver of Premium Rider",
+    "Payor Waiver Benefit Rider",
+    "Critical Illness Rider"
+   ],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": "Tax benefits as per prevailing Income Tax law (page cites Income Tax Act, 2025); subject to change.",
+   "description": null,
+   "urls": {
+    "product_page": "https://www.edelweisslife.in/guaranteed-flexi-star",
+    "brochure": "https://www.edelweisslife.in/documents/20121/5219612/Edelweiss+Life_+Guaranteed+Flexi+STAR_ProductBrochure.pdf"
+   },
+   "sources": [
+    "https://www.edelweisslife.in/guaranteed-flexi-star",
+    "https://www.edelweisslife.in/product-downloads"
+   ],
+   "completeness": "partial",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N116V01",
+   "name": "Assured Income STAR",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": "Guaranteed Income",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Regular Income",
+     "summary": "Guaranteed income from policy year 1 plus maturity lump sum and life cover"
+    },
+    {
+     "name": "Regular Income Advantage",
+     "summary": "Pays 40% or 50% of annualised premium upfront in year 1, then regular income from year 2, plus maturity lump sum"
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 0,
+    "entry_age_max_years": 65,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": 20,
+    "policy_term_max_years": 40,
+    "whole_life": null,
+    "ppt_options": [
+     "Limited 5",
+     "Limited 6",
+     "Limited 7",
+     "Limited 8",
+     "Limited 10",
+     "Limited 12"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": 30000,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": 150000,
+    "max_sum_assured_text": "No limit, subject to board-approved underwriting policy",
+    "notes": "Min SA 150,000 for entry age 50+ and 210,000 for ages 0-49. Terms: Regular Income 20/25/30/35/40 yrs; Regular Income Advantage 25/30/35/40 yrs (annual mode only). Term 20 not available for PPT 5/6/7 under death option 2. Life cover 7x (age under 50) or 5x (50+) annualised premium under option 1, 10x under option 2."
+   },
+   "benefits": {
+    "death": "Sum assured to the nominee on death in term; cover is 7x/5x annualised premium (option 1) or 10x (option 2).",
+    "maturity": "Lump sum maturity benefit if the life assured survives the term and the policy is in force.",
+    "survival_income": "Guaranteed income paid annually in arrears from year 1 until maturity or death, can be taken monthly, quarterly, half-yearly or yearly.",
+    "guaranteed": true,
+    "return_of_premium": null,
+    "loan": true,
+    "partial_withdrawal": null,
+    "other": "Income can be accrued instead of paid out; guarantees apply only if all due premiums are paid. Free look 30 days."
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": {
+     "payout_type": "Lump sum + Income",
+     "income_duration": "Annual from policy year 1 until maturity or death",
+     "bonus_type": "None",
+     "deferment_option": true
+    },
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Guaranteed regular income plus lump sum at maturity",
+    "Regular Income or Regular Income Advantage (upfront payout) options",
+    "Income payout monthly, quarterly, half-yearly or yearly",
+    "Policy loan after surrender value is acquired",
+    "Five optional riders"
+   ],
+   "riders_available": [
+    "Accidental Death Benefit Rider",
+    "Accidental Total & Permanent Disability Rider",
+    "Payor Waiver Benefit Rider",
+    "Waiver of Premium Rider",
+    "Critical Illness Rider"
+   ],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": "Premiums may qualify under Section 80C and benefits under Section 10(10D) (page cites Income Tax Act, 2025); subject to change.",
+   "description": "Non-linked, non-participating savings plan paying guaranteed income from the first policy year (with an upfront-payout variant) plus a maturity lump sum and life cover, for people wanting steady cash flow.",
+   "urls": {
+    "product_page": "https://www.edelweisslife.in/assured-income-star",
+    "brochure": "https://www.edelweisslife.in/documents/20121/5219612/Edelweiss+Life_+Assured+Income+STAR_Productbrochure.pdf"
+   },
+   "sources": [
+    "https://www.edelweisslife.in/assured-income-star"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N077V05",
+   "name": "Premier Guaranteed STAR",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": "Guaranteed Income",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": 0,
+    "entry_age_max_years": 65,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": 20,
+    "policy_term_max_years": 44,
+    "whole_life": null,
+    "ppt_options": [
+     "Limited 5",
+     "Limited 8",
+     "Limited 10",
+     "Limited 12"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": 500000,
+    "max_sum_assured_text": "No limit, subject to board-approved underwriting policy",
+    "notes": "Terms by PPT: 5-pay 22/27/32/37; 8-pay 20/25/30/35/40; 10-pay 22/27/32/37/42; 12-pay 24/29/34/39/44 yrs. Page shows monthly premium from Rs 4,400 but no annual minimum."
+   },
+   "benefits": {
+    "death": "Life cover of at least 10x annualised premium throughout the term while the policy is in force.",
+    "maturity": "If the lump sum option is chosen at inception: sum assured on maturity (higher of 10 or PPT times annualised premium) with the last income; otherwise none.",
+    "survival_income": "Income starts from the 3rd policy year after PPT and continues to maturity or death; payout is a percentage of annualised premium and rises 5% every 5 policy years.",
+    "guaranteed": true,
+    "return_of_premium": null,
+    "loan": true,
+    "partial_withdrawal": null,
+    "other": "Suicide within 12 months pays at least 80% of premiums paid or surrender value if higher. Free look 30 days."
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": {
+     "payout_type": "Income",
+     "income_duration": "Until maturity or death",
+     "bonus_type": "None"
+    },
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Guaranteed income that steps up every 5 policy years",
+    "Choice of 5, 8, 10 or 12 year premium-paying term",
+    "Optional lump sum at maturity (chosen only at inception)",
+    "Life cover of at least 10x annualised premium",
+    "Policy loan after surrender value builds"
+   ],
+   "riders_available": [
+    "Accidental Death Benefit Rider",
+    "Accidental Total & Permanent Disability Rider",
+    "Payor Waiver Benefit Rider",
+    "Critical Illness Rider",
+    "Waiver of Premium Rider"
+   ],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": "Premiums under Section 80C and income/maturity under Section 10(10D) (page cites Income Tax Act, 2025); subject to change.",
+   "description": "Non-linked, non-participating savings plan that pays guaranteed, step-up income from the third year after the premium-paying term, with an optional maturity lump sum, for long-horizon income planning.",
+   "urls": {
+    "product_page": "https://www.edelweisslife.in/premier-guaranteed-star",
+    "brochure": "https://www.edelweisslife.in/documents/20121/5219612/Edelweiss+Life_+Premier+Guaranteed+STAR_ProductBrochure.pdf"
+   },
+   "sources": [
+    "https://www.edelweisslife.in/premier-guaranteed-star"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N115V02",
+   "name": "Premier Guaranteed STAR Pro",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": "Guaranteed Income",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.edelweisslife.in/premier-guaranteed-star-pro",
+    "brochure": "https://www.edelweisslife.in/documents/20121/5002827/Premier+Guaranteed+STAR+Pro_ProductBrochure.pdf"
+   },
+   "sources": [
+    "https://www.edelweisslife.in/product-downloads"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N117V01",
+   "name": "Flexi Goal Secure",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.edelweisslife.in/flexi-goal-secure",
+    "brochure": "https://www.edelweisslife.in/documents/20121/5314981/EdelweissLife_FlexiGoalSecure_ProductBrochure.pdf"
+   },
+   "sources": [
+    "https://www.edelweisslife.in/product-downloads"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N114V01",
+   "name": "Flexi Dream Plan",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.edelweisslife.in/flexi-dream-plan",
+    "brochure": "https://www.edelweisslife.in/documents/20121/5219612/Edelweiss+Life_+Flexi+Dream+Plan_ProductBrochure.pdf"
+   },
+   "sources": [
+    "https://www.edelweisslife.in/product-downloads"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N088V03",
+   "name": "Bharat Savings STAR",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.edelweisslife.in/bharat-savings-star",
+    "brochure": "https://www.edelweisslife.in/documents/20121/5219612/Edelweiss+Life_+Bharat+Savings+STAR_ProductBrochure.pdf"
+   },
+   "sources": [
+    "https://www.edelweisslife.in/product-downloads"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N073V03",
+   "name": "Guaranteed Income STAR",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": "Guaranteed Income",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.edelweisslife.in/guaranteed-income-star",
+    "brochure": "https://www.edelweisslife.in/documents/20121/5219612/Edelweiss+Life_+Guaranteed+Income+STAR_ProductBrochure.pdf"
+   },
+   "sources": [
+    "https://www.edelweisslife.in/product-downloads"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N075V04",
+   "name": "Flexi Savings Plan",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.edelweisslife.in/flexi-savings-plan",
+    "brochure": "https://www.edelweisslife.in/documents/20121/4504292/Edelweiss_Life_Flexi_Savings_Plan_Sales_Literature_Clean.pdf"
+   },
+   "sources": [
+    "https://www.edelweisslife.in/product-downloads"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N038V05",
+   "name": "POS Saral Nivesh",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": null,
+    "brochure": "https://www.edelweisslife.in/documents/20121/5219612/Edelweiss+Life_+POS+Saral+Nivesh_ProductBrochure.pdf"
+   },
+   "sources": [
+    "https://www.edelweisslife.in/product-downloads"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147L055V04",
+   "name": "Wealth Plus",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Wealth"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.edelweisslife.in/wealth-plus",
+    "brochure": "https://www.edelweisslife.in/documents/20121/5219612/EdelweissLife_WealthPlus_ProductBrochure.pdf"
+   },
+   "sources": [
+    "https://www.edelweisslife.in/product-downloads"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147L076V02",
+   "name": "Wealth Rise+",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Wealth"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.edelweisslife.in/wealth-rise-plus",
+    "brochure": "https://www.edelweisslife.in/documents/20121/3442029/EdelweissLife_WealthRisePlus_ProductBrochure.pdf"
+   },
+   "sources": [
+    "https://www.edelweisslife.in/product-downloads"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147L037V04",
+   "name": "Wealth Ultima",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Wealth"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.edelweisslife.in/wealth-ultima",
+    "brochure": "https://www.edelweisslife.in/documents/20121/5219612/EdelwiessLifeInsurance_WealthUltima_ProductBrochure.pdf"
+   },
+   "sources": [
+    "https://www.edelweisslife.in/product-downloads"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147L066V04",
+   "name": "Wealth Premier",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Wealth"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": null,
+    "brochure": "https://www.edelweisslife.in/documents/20121/301865/EdelweissLife_WealthPremier_ProductBrochure.pdf"
+   },
+   "sources": [
+    "https://www.edelweisslife.in/product-downloads"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N069V02",
+   "name": "Saral Jeevan Bima",
+   "segment": "Individual",
+   "category": "Term",
+   "plan_structure": "Pure Term",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": "Saral Jeevan Bima",
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.edelweisslife.in/saral-jeevan-bima",
+    "brochure": "https://www.edelweisslife.in/documents/20121/5219612/Edelweiss+Life_+Saral+Jeevan+Bima_ProductBrochure.pdf"
+   },
+   "sources": [
+    "https://www.edelweisslife.in/product-downloads"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N070V02",
+   "name": "Saral Pension",
+   "segment": "Individual",
+   "category": "Pension & Annuity",
+   "plan_structure": "Immediate Annuity",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Retirement"
+   ],
+   "standard_product": "Saral Pension",
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": null,
+    "brochure": "https://www.edelweisslife.in/documents/20121/5219612/Edelweiss+Life_+Saral+Pension_ProductBrochure.pdf"
+   },
+   "sources": [
+    "https://www.edelweisslife.in/product-downloads"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N113V03",
+   "name": "Active Pension Plus Advantage",
+   "segment": "Individual",
+   "category": "Pension & Annuity",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Retirement"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.edelweisslife.in/active-pension-plus-advantage",
+    "brochure": "https://www.edelweisslife.in/documents/20121/5555735/Edelweiss+Life_+Active+Pension+Plus+Advantage+V03.pdf"
+   },
+   "sources": [
+    "https://www.edelweisslife.in/product-downloads"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147L034V04",
+   "name": "Easy Pension",
+   "segment": "Individual",
+   "category": "Pension & Annuity",
+   "plan_structure": "Pension Accumulation",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Retirement"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": null,
+    "brochure": "https://www.edelweisslife.in/documents/20121/356385/EdelweissLife_EayPension_Product_Brochure.pdf"
+   },
+   "sources": [
+    "https://www.edelweisslife.in/product-downloads"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N083V01",
+   "name": "Suraksha Kavach Bima Yojana",
+   "segment": "Micro",
+   "category": "Micro Insurance",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Edelweiss Life micro insurance plan listed under its Micro Insurance Plans range.",
+   "urls": {
+    "product_page": "https://www.edelweisslife.in/micro-insurance-plans/suraksha-kavach-bima-yojana",
+    "brochure": "https://www.edelweisslife.in/documents/20121/5333845/ETL_Suraksha+Kavach_ProductBrochure.pdf"
+   },
+   "sources": [
+    "https://www.edelweisslife.in/product-downloads",
+    "https://www.edelweisslife.in/product-listing"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N058V02",
+   "name": "Jan Suraksha",
+   "segment": "Micro",
+   "category": "Micro Insurance",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Micro insurance scheme in Edelweiss Life's Micro Plans range (customer information sheet is issued to members, i.e. a group-type micro cover).",
+   "urls": {
+    "product_page": null,
+    "brochure": "https://www.edelweisslife.in/documents/20121/3525952/EdelweissLife_JanSuraksha_ProductBrochure_Final.pdf"
+   },
+   "sources": [
+    "https://www.edelweisslife.in/product-downloads",
+    "https://www.edelweisslife.in/product_brochures"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N059V03",
+   "name": "Group Total Secure",
+   "segment": "Group",
+   "category": "Group Term",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.edelweisslife.in/group-insurance-plans/group-total-secure",
+    "brochure": "https://www.edelweisslife.in/documents/20121/3525952/EdelweissLife_GroupTotalSecure_ProductBrochure_Final.pdf"
+   },
+   "sources": [
+    "https://www.edelweisslife.in/product-downloads",
+    "https://www.edelweisslife.in/productlisting"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N008V05",
+   "name": "Group Life Protection",
+   "segment": "Group",
+   "category": "Group Term",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.edelweisslife.in/group-insurance-plans/group-life-protection",
+    "brochure": "https://www.edelweisslife.in/documents/20121/2427026/EdelweissLife_GroupLifeProtection_ProductBrochure.pdf"
+   },
+   "sources": [
+    "https://www.edelweisslife.in/product-downloads",
+    "https://www.edelweisslife.in/productlisting"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147L014V02",
+   "name": "Group Wealth Accumulation",
+   "segment": "Group",
+   "category": "Group Fund (Gratuity/Superannuation/Leave)",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.edelweisslife.in/group-insurance-plans/group-wealth-accumulation",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/product-downloads",
+    "https://www.edelweisslife.in/productlisting"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N064V01",
+   "name": "Group Employee Benefit Plus",
+   "segment": "Group",
+   "category": "Group Fund (Gratuity/Superannuation/Leave)",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.edelweisslife.in/group-insurance-plans/group-employee-benefit-plus",
+    "brochure": "https://www.edelweisslife.in/documents/20121/2178541/Group-Employee-Benefit-Plus-Brochure.pdf"
+   },
+   "sources": [
+    "https://www.edelweisslife.in/productlisting",
+    "https://www.edelweisslife.in/product_brochures"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N082V01",
+   "name": "Pradhan Mantri Jeevan Jyoti Bima Yojana",
+   "segment": "Group",
+   "category": "Govt Scheme",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Edelweiss Life's offering of the government-backed PMJJBY one-year renewable group term cover.",
+   "urls": {
+    "product_page": "https://www.edelweisslife.in/group-insurance-plans/pradhan-mantri-jeevan-jyoti-bima-yojana",
+    "brochure": "https://www.edelweisslife.in/documents/20121/5018047/ELI_PMJJBY_ProductBrochure.pdf"
+   },
+   "sources": [
+    "https://www.edelweisslife.in/product-downloads"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147B002V05",
+   "name": "Accidental Death Benefit Rider",
+   "segment": "Rider",
+   "category": "Accidental Death/Disability",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 65,
+    "maturity_age_max_years": 70,
+    "policy_term_min_years": 5,
+    "policy_term_max_years": 52,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": 10000,
+    "max_sum_assured_text": "No limit, subject to reinsurance and base sum assured",
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Optional rider paying an additional sum assured if death results from an accident.",
+   "urls": {
+    "product_page": "https://www.edelweisslife.in/riders",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/riders",
+    "https://www.edelweisslife.in/zindagi-protect-plus"
+   ],
+   "completeness": "partial",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147B001V05",
+   "name": "Accidental Total & Permanent Disability Rider",
+   "segment": "Rider",
+   "category": "Accidental Death/Disability",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 65,
+    "maturity_age_max_years": 70,
+    "policy_term_min_years": 5,
+    "policy_term_max_years": 52,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": 100000,
+    "max_sum_assured_text": "No limit, subject to reinsurance and base sum assured",
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Optional rider paying a lump sum if an accident causes total and permanent disability (benefit starts after 180 days).",
+   "urls": {
+    "product_page": "https://www.edelweisslife.in/riders",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/riders",
+    "https://www.edelweisslife.in/zindagi-protect-plus"
+   ],
+   "completeness": "partial",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147B005V05",
+   "name": "Critical Illness Rider",
+   "segment": "Rider",
+   "category": "Critical Illness",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 65,
+    "maturity_age_max_years": 70,
+    "policy_term_min_years": 5,
+    "policy_term_max_years": 52,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": "Up to 5,000,000",
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Optional rider paying a lump sum once on diagnosis of a listed critical illness (12-13 illnesses depending on page).",
+   "urls": {
+    "product_page": "https://www.edelweisslife.in/riders",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/riders",
+    "https://www.edelweisslife.in/zindagi-protect-plus"
+   ],
+   "completeness": "partial",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147B003V06",
+   "name": "Waiver of Premium Rider",
+   "segment": "Rider",
+   "category": "Waiver of Premium",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 65,
+    "maturity_age_max_years": 70,
+    "policy_term_min_years": 5,
+    "policy_term_max_years": 52,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Optional rider waiving future premiums on critical illness, accidental total and permanent disability, or death of the life insured.",
+   "urls": {
+    "product_page": "https://www.edelweisslife.in/riders",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/riders",
+    "https://www.edelweisslife.in/zindagi-protect-plus"
+   ],
+   "completeness": "partial",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147B014V06",
+   "name": "Payor Waiver Benefit Rider",
+   "segment": "Rider",
+   "category": "Waiver of Premium",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Optional rider that waives future premiums and keeps the life insured's policy running if the proposer dies, is disabled or has a critical illness.",
+   "urls": {
+    "product_page": "https://www.edelweisslife.in/riders",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/riders",
+    "https://www.edelweisslife.in/product-downloads"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147B015V02",
+   "name": "Income Benefit Rider",
+   "segment": "Rider",
+   "category": "Term Rider",
+   "plan_structure": "Rider",
+   "sub_category": "Family income benefit",
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Optional rider that provides the family a regular income after the insured's death.",
+   "urls": {
+    "product_page": "https://www.edelweisslife.in/riders",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/riders",
+    "https://www.edelweisslife.in/product-downloads"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N074V03",
+   "name": "Guaranteed Savings STAR",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": "Guaranteed Income",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Withdrawn plan listed on Edelweiss Life's discontinued products page; category inferred from name and UIN series.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/en/discontinued-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N057V03",
+   "name": "Income Builder",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": "Guaranteed Income",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Withdrawn plan listed on Edelweiss Life's discontinued products page; category inferred from name and UIN series.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/en/discontinued-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N090V02",
+   "name": "Legacy Plus",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Withdrawn plan listed on Edelweiss Life's discontinued products page; category inferred from name and UIN series.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/en/discontinued-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N072V03",
+   "name": "Premier Guaranteed Income (PGI)",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": "Guaranteed Income",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Withdrawn plan listed on Edelweiss Life's discontinued products page; category inferred from name and UIN series.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/en/discontinued-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N018V04",
+   "name": "Single Pay Endowment Assurance Plan",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": "Endowment",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Withdrawn plan listed on Edelweiss Life's discontinued products page; category inferred from name and UIN series.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/en/discontinued-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N040V03",
+   "name": "Smart Life Style Cover",
+   "segment": "Individual",
+   "category": null,
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Withdrawn plan listed on Edelweiss Life's discontinued products page; category not stated there.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/en/discontinued-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147L061V03",
+   "name": "Wealth Gain Plus",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Wealth"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Withdrawn plan listed on Edelweiss Life's discontinued products page; category inferred from name and UIN series.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/en/discontinued-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147L062V02",
+   "name": "Wealth Secure Plus",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Wealth"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Withdrawn plan listed on Edelweiss Life's discontinued products page; category inferred from name and UIN series.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/en/discontinued-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N078V02",
+   "name": "Zindagi Protect",
+   "segment": "Individual",
+   "category": "Term",
+   "plan_structure": "Pure Term",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Earlier term plan in the Zindagi line; the current plan is Zindagi Protect Plus (its product page may still be online).",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/en/discontinued-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N065V02",
+   "name": "Active Income Plan",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": "Guaranteed Income",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Withdrawn plan listed on Edelweiss Life's discontinued products page; category inferred from name and UIN series.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/en/discontinued-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N028V03",
+   "name": "Cashflow Protection Plus",
+   "segment": "Individual",
+   "category": "Savings - Par",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Par",
+   "need_tags": [
+    "Savings",
+    "Retirement"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Withdrawn participating savings plan positioned for retirement income; brochure describes it as an individual, non-linked, participating savings plan.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/en/discontinued-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N030V02",
+   "name": "Criti Care Plus",
+   "segment": "Individual",
+   "category": "Health & CI",
+   "plan_structure": "Fixed Benefit Health",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Health"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Withdrawn plan listed on Edelweiss Life's discontinued products page; category inferred from name and UIN series.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/en/discontinued-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N033V03",
+   "name": "Dhan Labh",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Withdrawn plan listed on Edelweiss Life's discontinued products page; category inferred from name and UIN series.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/en/discontinued-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N068V02",
+   "name": "Forever Pension",
+   "segment": "Individual",
+   "category": "Pension & Annuity",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Retirement"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Withdrawn plan listed on Edelweiss Life's discontinued products page; category inferred from name and UIN series.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/en/discontinued-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N031V03",
+   "name": "GCAP",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Withdrawn plan listed on Edelweiss Life's discontinued products page; category inferred from name and UIN series.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/en/discontinued-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N089V02",
+   "name": "Guaranteed Growth Plan",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Withdrawn plan listed on Edelweiss Life's discontinued products page; category inferred from name and UIN series.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/en/discontinued-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N091V01",
+   "name": "Active Pension Plus",
+   "segment": "Individual",
+   "category": "Pension & Annuity",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Retirement"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Earlier plan in the Active Pension Plus line; the current plan is Active Pension Plus Advantage.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/en/discontinued-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N023V01",
+   "name": "Cash Income",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Withdrawn Edelweiss Tokio Life-era plan (the insurer is now Edelweiss Life); category inferred from name and UIN series.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/en/discontinued-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N022V01",
+   "name": "EduSave",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Child",
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Withdrawn Edelweiss Tokio Life-era plan (the insurer is now Edelweiss Life); category inferred from name and UIN series.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/en/discontinued-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N060V01",
+   "name": "Elite Plus",
+   "segment": "Individual",
+   "category": null,
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Withdrawn plan listed on Edelweiss Life's discontinued products page; category not stated there.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/en/discontinued-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N021V01",
+   "name": "Guaranteed Income Plan",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": "Guaranteed Income",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Withdrawn Edelweiss Tokio Life-era plan (the insurer is now Edelweiss Life); category inferred from name and UIN series.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/en/discontinued-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N024V01",
+   "name": "Milestones Plan",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Withdrawn Edelweiss Tokio Life-era plan (the insurer is now Edelweiss Life); category inferred from name and UIN series.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/en/discontinued-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N036V01",
+   "name": "Total Secure",
+   "segment": "Individual",
+   "category": "Term",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Withdrawn Edelweiss Tokio Life-era plan (the insurer is now Edelweiss Life); category inferred from name and UIN series.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/en/discontinued-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N032V01",
+   "name": "Triple Advantage Plan",
+   "segment": "Individual",
+   "category": null,
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Withdrawn plan listed on Edelweiss Life's discontinued products page; category not stated there.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/en/discontinued-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N041V01",
+   "name": "Health Shield Plus",
+   "segment": "Individual",
+   "category": "Health & CI",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Health"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Withdrawn Edelweiss Tokio Life-era plan (the insurer is now Edelweiss Life); category inferred from name and UIN series.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/en/discontinued-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N019V01",
+   "name": "Immediate Annuity",
+   "segment": "Individual",
+   "category": "Pension & Annuity",
+   "plan_structure": "Immediate Annuity",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Retirement"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Withdrawn Edelweiss Tokio Life-era plan (the insurer is now Edelweiss Life); category inferred from name and UIN series.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/en/discontinued-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N027V01",
+   "name": "My Life",
+   "segment": "Individual",
+   "category": null,
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Withdrawn plan listed on Edelweiss Life's discontinued products page; category not stated there.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/en/discontinued-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N007V02",
+   "name": "Protection",
+   "segment": "Individual",
+   "category": "Term",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Withdrawn Edelweiss Tokio Life-era plan (the insurer is now Edelweiss Life); category inferred from name and UIN series.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/en/discontinued-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N015V02",
+   "name": "Safe n Sure",
+   "segment": "Individual",
+   "category": null,
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Withdrawn plan listed on Edelweiss Life's discontinued products page; category not stated there.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/en/discontinued-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N026V01",
+   "name": "Wealth Builder",
+   "segment": "Individual",
+   "category": null,
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Withdrawn plan listed on Edelweiss Life's discontinued products page; category not stated there.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/en/discontinued-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N056V03",
+   "name": "Zindagi Plus",
+   "segment": "Individual",
+   "category": "Term",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Withdrawn Edelweiss Tokio Life-era plan (the insurer is now Edelweiss Life); category inferred from name and UIN series.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/en/discontinued-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147L003V02",
+   "name": "Wealth Accumulation Accelerated Cover (WAAC)",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Wealth"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Withdrawn Edelweiss Tokio Life-era plan (the insurer is now Edelweiss Life); category inferred from name and UIN series.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/en/discontinued-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147L004V02",
+   "name": "Wealth Accumulation Cover Plus",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Wealth"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Withdrawn Edelweiss Tokio Life-era plan (the insurer is now Edelweiss Life); category inferred from name and UIN series.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/en/discontinued-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147L011V02",
+   "name": "Wealth Accumulation Privilege",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Wealth"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Withdrawn Edelweiss Tokio Life-era plan (the insurer is now Edelweiss Life); category inferred from name and UIN series.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/en/discontinued-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Pension Plan",
+   "segment": "Individual",
+   "category": "Pension & Annuity",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [
+    "Retirement"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": "2018-11-15",
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Pension plan shown on the discontinued page with the note 'discontinued 15.11.18'; no UIN given.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/en/discontinued-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N002V03",
+   "name": "Group Credit Protection",
+   "segment": "Group",
+   "category": "Credit Life",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Withdrawn plan listed on Edelweiss Life's discontinued products page; category inferred from name and UIN series.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/en/discontinued-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N029V02",
+   "name": "Group Employee Benefit Plan",
+   "segment": "Group",
+   "category": "Group Fund (Gratuity/Superannuation/Leave)",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Withdrawn Edelweiss Tokio Life-era plan (the insurer is now Edelweiss Life); category inferred from name and UIN series.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/en/discontinued-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147G039V01",
+   "name": "Pradhan Mantri Jeevan Jyoti Bima Yojana",
+   "segment": "Group",
+   "category": "Govt Scheme",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Earlier UIN of Edelweiss Life's PMJJBY group scheme; the current listing uses 147N082V01 (the productlisting disclaimer still quotes this older UIN).",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/en/discontinued-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147B006V03",
+   "name": "Hospital Cash Benefit Rider",
+   "segment": "Rider",
+   "category": "Health/Hospital",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Withdrawn plan listed on Edelweiss Life's discontinued products page; category inferred from name and UIN series.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/en/discontinued-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147B013V04",
+   "name": "Group Critical Illness Rider",
+   "segment": "Rider",
+   "category": "Critical Illness",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Withdrawn plan listed on Edelweiss Life's discontinued products page; category inferred from name and UIN series.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/en/discontinued-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147B009V04",
+   "name": "Group Extended Critical Illness Rider",
+   "segment": "Rider",
+   "category": "Critical Illness",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Withdrawn plan listed on Edelweiss Life's discontinued products page; category inferred from name and UIN series.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/en/discontinued-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147B008V02",
+   "name": "Group Accidental Total and Permanent Disability Rider",
+   "segment": "Rider",
+   "category": "Accidental Death/Disability",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Withdrawn Edelweiss Tokio Life-era plan (the insurer is now Edelweiss Life); category inferred from name and UIN series.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/en/discontinued-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147B007V02",
+   "name": "Group Total and Permanent Disability Rider",
+   "segment": "Rider",
+   "category": "Accidental Death/Disability",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Withdrawn Edelweiss Tokio Life-era plan (the insurer is now Edelweiss Life); category inferred from name and UIN series.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/en/discontinued-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147B010V01",
+   "name": "Group Accidental Death Benefit Rider",
+   "segment": "Rider",
+   "category": "Accidental Death/Disability",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Withdrawn Edelweiss Tokio Life-era plan (the insurer is now Edelweiss Life); category inferred from name and UIN series.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/en/discontinued-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147B011V01",
+   "name": "Group Accidental Death and Dismemberment Benefit Rider",
+   "segment": "Rider",
+   "category": "Accidental Death/Disability",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Withdrawn Edelweiss Tokio Life-era plan (the insurer is now Edelweiss Life); category inferred from name and UIN series.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/en/discontinued-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147B012V02",
+   "name": "Group Hospital Cash Benefit Rider",
+   "segment": "Rider",
+   "category": "Health/Hospital",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Withdrawn Edelweiss Tokio Life-era plan (the insurer is now Edelweiss Life); category inferred from name and UIN series.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/en/discontinued-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147C004V01",
+   "name": "Term Rider",
+   "segment": "Rider",
+   "category": "Term Rider",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Withdrawn Edelweiss Tokio Life-era plan (the insurer is now Edelweiss Life); category inferred from name and UIN series.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/en/discontinued-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N079V01",
+   "name": "Gramin Bima",
+   "segment": "Micro",
+   "category": "Micro Insurance",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Withdrawn plan listed on Edelweiss Life's discontinued products page; category inferred from name and UIN series.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/en/discontinued-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N012V02",
+   "name": "Raksha Kavach",
+   "segment": "Micro",
+   "category": "Micro Insurance",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Withdrawn plan listed on Edelweiss Life's discontinued products page; category inferred from name and UIN series.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/en/discontinued-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "147N081V01",
+   "name": "Raksha Kavach Bima Yojana",
+   "segment": "Micro",
+   "category": "Micro Insurance",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Withdrawn plan listed on Edelweiss Life's discontinued products page; category inferred from name and UIN series.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.edelweisslife.in/en/discontinued-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  }
+ ],
+ "notes": "Inventory from product-downloads (25 products + 6 riders with UINs), productlisting (live cards) and en/discontinued-products (125 rows, mostly old brochure archive; no withdrawal dates except 'Pension Plan discontinued 15.11.18'). The discontinued page also shows brochures of products still on product-downloads (POS Saral Nivesh, Bharat Savings STAR, Guaranteed Income STAR, Group Life Protection, Group Wealth Accumulation, Jan Suraksha, Group Employee Benefit Plus) - treated as Active; verify. Superseded versions of active families and ~25 UIN-less legacy brochures (COVIDshield, Dhan Nivesh Bima Yojana, Income Replacement, Multigain, Save n Grow, Save N Prosper, My Term, Simply Protect, TPP etc.) not listed. Rider UIN versions conflict between pages (ADB V04/V05, WOP V05/V06, CI V04/V05); product-downloads versions used."
+}

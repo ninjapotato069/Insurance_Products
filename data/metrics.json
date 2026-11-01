@@ -1,0 +1,579 @@
+{
+ "researched_on": "2026-10-28",
+ "industry": {
+  "metrics": {
+   "nbp_cr": {
+    "value": 459715,
+    "period": "FY2025-26",
+    "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+    "note": "Sum of 25 insurers' NBP in source table; Angel One/Informist report ~4.59-4.60 lakh cr"
+   },
+   "nbp_growth_pct": {
+    "value": 15.7,
+    "period": "FY2025-26",
+    "source": "https://www.angelone.in/news/market-updates/lic-bajaj-allianz-sbi-life-report-higher-premium-collections-as-industry-crosses-4-trillion-in-fy26",
+    "note": "Industry NBP growth YoY; Informist also reports 15.7% (Rs 4.60 trn vs Rs 3.97 trn)"
+   },
+   "lic_share_pct": {
+    "value": 56.66,
+    "period": "FY2025-26",
+    "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+    "note": "LIC share of industry NBP; private insurers combined ~43.3%"
+   }
+  },
+  "life_insurers_count": 26,
+  "notes": "FY2025-26 industry NBP ~Rs 4.59-4.60 lakh cr (+15.7%): LIC ~56.7% share (Rs 2.60 lakh cr, +14.9%), private insurers ~43.3% (+~16.8%). SBI Life, HDFC Life, ICICI Pru lead private; fastest growers off small base are CreditAccess Life, Acko Life, Bandhan Life, Bharti Life, Go Digit Life. 26 licensed life insurers = LIC + 25 private (incl. Sahara India Life, under administration, no new business)."
+ },
+ "companies": {
+  "lic": {
+   "metrics": {
+    "nbp_cr": {
+     "value": 260464.0,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "Total new business premium (first-year + single premium, individual + group) per Life Insurance Council/IRDAI monthly data as compiled by CafeMutual; cross-checked vs Angel One (LIC ~2.6 lakh cr, SBI Life 42,550, Bajaj 14,585.82; industry ~4.59 lakh cr)"
+    },
+    "nbp_market_share_pct": {
+     "value": 56.66,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "Share of industry NBP as reported in source table"
+    },
+    "nbp_growth_pct": {
+     "value": 14.9,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "YoY vs FY2024-25 NBP as reported in source table (FY2024-25 NBP in Rs cr: see source)"
+    }
+   }
+  },
+  "sbi": {
+   "metrics": {
+    "nbp_cr": {
+     "value": 42550.0,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "Total new business premium (first-year + single premium, individual + group) per Life Insurance Council/IRDAI monthly data as compiled by CafeMutual; cross-checked vs Angel One (LIC ~2.6 lakh cr, SBI Life 42,550, Bajaj 14,585.82; industry ~4.59 lakh cr)"
+    },
+    "nbp_market_share_pct": {
+     "value": 9.26,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "Share of industry NBP as reported in source table"
+    },
+    "nbp_growth_pct": {
+     "value": 19.6,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "YoY vs FY2024-25 NBP as reported in source table (FY2024-25 NBP in Rs cr: see source)"
+    }
+   }
+  },
+  "hdfc": {
+   "metrics": {
+    "nbp_cr": {
+     "value": 36646.0,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "Total new business premium (first-year + single premium, individual + group) per Life Insurance Council/IRDAI monthly data as compiled by CafeMutual; cross-checked vs Angel One (LIC ~2.6 lakh cr, SBI Life 42,550, Bajaj 14,585.82; industry ~4.59 lakh cr)"
+    },
+    "nbp_market_share_pct": {
+     "value": 7.97,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "Share of industry NBP as reported in source table"
+    },
+    "nbp_growth_pct": {
+     "value": 8.5,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "YoY vs FY2024-25 NBP as reported in source table (FY2024-25 NBP in Rs cr: see source)"
+    }
+   }
+  },
+  "icici": {
+   "metrics": {
+    "nbp_cr": {
+     "value": 24810.0,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "Total new business premium (first-year + single premium, individual + group) per Life Insurance Council/IRDAI monthly data as compiled by CafeMutual; cross-checked vs Angel One (LIC ~2.6 lakh cr, SBI Life 42,550, Bajaj 14,585.82; industry ~4.59 lakh cr)"
+    },
+    "nbp_market_share_pct": {
+     "value": 5.4,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "Share of industry NBP as reported in source table"
+    },
+    "nbp_growth_pct": {
+     "value": 9.9,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "YoY vs FY2024-25 NBP as reported in source table (FY2024-25 NBP in Rs cr: see source)"
+    }
+   }
+  },
+  "bajaj": {
+   "metrics": {
+    "nbp_cr": {
+     "value": 14586.0,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "Total new business premium (first-year + single premium, individual + group) per Life Insurance Council/IRDAI monthly data as compiled by CafeMutual; cross-checked vs Angel One (LIC ~2.6 lakh cr, SBI Life 42,550, Bajaj 14,585.82; industry ~4.59 lakh cr)"
+    },
+    "nbp_market_share_pct": {
+     "value": 3.17,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "Share of industry NBP as reported in source table"
+    },
+    "nbp_growth_pct": {
+     "value": 18.7,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "YoY vs FY2024-25 NBP as reported in source table (FY2024-25 NBP in Rs cr: see source)"
+    }
+   }
+  },
+  "axismax": {
+   "metrics": {
+    "nbp_cr": {
+     "value": 14501.0,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "Total new business premium (first-year + single premium, individual + group) per Life Insurance Council/IRDAI monthly data as compiled by CafeMutual; cross-checked vs Angel One (LIC ~2.6 lakh cr, SBI Life 42,550, Bajaj 14,585.82; industry ~4.59 lakh cr)"
+    },
+    "nbp_market_share_pct": {
+     "value": 3.15,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "Share of industry NBP as reported in source table"
+    },
+    "nbp_growth_pct": {
+     "value": 19.1,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "YoY vs FY2024-25 NBP as reported in source table (FY2024-25 NBP in Rs cr: see source)"
+    }
+   }
+  },
+  "absli": {
+   "metrics": {
+    "nbp_cr": {
+     "value": 12590.0,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "Total new business premium (first-year + single premium, individual + group) per Life Insurance Council/IRDAI monthly data as compiled by CafeMutual; cross-checked vs Angel One (LIC ~2.6 lakh cr, SBI Life 42,550, Bajaj 14,585.82; industry ~4.59 lakh cr)"
+    },
+    "nbp_market_share_pct": {
+     "value": 2.74,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "Share of industry NBP as reported in source table"
+    },
+    "nbp_growth_pct": {
+     "value": 23.2,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "YoY vs FY2024-25 NBP as reported in source table (FY2024-25 NBP in Rs cr: see source)"
+    }
+   }
+  },
+  "tataaia": {
+   "metrics": {
+    "nbp_cr": {
+     "value": 12290.0,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "Total new business premium (first-year + single premium, individual + group) per Life Insurance Council/IRDAI monthly data as compiled by CafeMutual; cross-checked vs Angel One (LIC ~2.6 lakh cr, SBI Life 42,550, Bajaj 14,585.82; industry ~4.59 lakh cr)"
+    },
+    "nbp_market_share_pct": {
+     "value": 2.67,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "Share of industry NBP as reported in source table"
+    },
+    "nbp_growth_pct": {
+     "value": 19.1,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "YoY vs FY2024-25 NBP as reported in source table (FY2024-25 NBP in Rs cr: see source)"
+    }
+   }
+  },
+  "kotak": {
+   "metrics": {
+    "nbp_cr": {
+     "value": 10184.0,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "Total new business premium (first-year + single premium, individual + group) per Life Insurance Council/IRDAI monthly data as compiled by CafeMutual; cross-checked vs Angel One (LIC ~2.6 lakh cr, SBI Life 42,550, Bajaj 14,585.82; industry ~4.59 lakh cr)"
+    },
+    "nbp_market_share_pct": {
+     "value": 2.22,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "Share of industry NBP as reported in source table"
+    },
+    "nbp_growth_pct": {
+     "value": 24.0,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "YoY vs FY2024-25 NBP as reported in source table (FY2024-25 NBP in Rs cr: see source)"
+    }
+   }
+  },
+  "pnbmetlife": {
+   "metrics": {
+    "nbp_cr": {
+     "value": 5366.0,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "Total new business premium (first-year + single premium, individual + group) per Life Insurance Council/IRDAI monthly data as compiled by CafeMutual; cross-checked vs Angel One (LIC ~2.6 lakh cr, SBI Life 42,550, Bajaj 14,585.82; industry ~4.59 lakh cr)"
+    },
+    "nbp_market_share_pct": {
+     "value": 1.17,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "Share of industry NBP as reported in source table"
+    },
+    "nbp_growth_pct": {
+     "value": 14.3,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "YoY vs FY2024-25 NBP as reported in source table (FY2024-25 NBP in Rs cr: see source)"
+    }
+   }
+  },
+  "sud": {
+   "metrics": {
+    "nbp_cr": {
+     "value": 5119.0,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "Total new business premium (first-year + single premium, individual + group) per Life Insurance Council/IRDAI monthly data as compiled by CafeMutual; cross-checked vs Angel One (LIC ~2.6 lakh cr, SBI Life 42,550, Bajaj 14,585.82; industry ~4.59 lakh cr)"
+    },
+    "nbp_market_share_pct": {
+     "value": 1.11,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "Share of industry NBP as reported in source table"
+    },
+    "nbp_growth_pct": {
+     "value": 19.1,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "YoY vs FY2024-25 NBP as reported in source table (FY2024-25 NBP in Rs cr: see source)"
+    }
+   }
+  },
+  "canarahsbc": {
+   "metrics": {
+    "nbp_cr": {
+     "value": 3847.0,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "Total new business premium (first-year + single premium, individual + group) per Life Insurance Council/IRDAI monthly data as compiled by CafeMutual; cross-checked vs Angel One (LIC ~2.6 lakh cr, SBI Life 42,550, Bajaj 14,585.82; industry ~4.59 lakh cr)"
+    },
+    "nbp_market_share_pct": {
+     "value": 0.84,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "Share of industry NBP as reported in source table"
+    },
+    "nbp_growth_pct": {
+     "value": 25.9,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "YoY vs FY2024-25 NBP as reported in source table (FY2024-25 NBP in Rs cr: see source)"
+    }
+   }
+  },
+  "indiafirst": {
+   "metrics": {
+    "nbp_cr": {
+     "value": 3499.0,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "Total new business premium (first-year + single premium, individual + group) per Life Insurance Council/IRDAI monthly data as compiled by CafeMutual; cross-checked vs Angel One (LIC ~2.6 lakh cr, SBI Life 42,550, Bajaj 14,585.82; industry ~4.59 lakh cr)"
+    },
+    "nbp_market_share_pct": {
+     "value": 0.76,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "Share of industry NBP as reported in source table"
+    },
+    "nbp_growth_pct": {
+     "value": 17.8,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "YoY vs FY2024-25 NBP as reported in source table (FY2024-25 NBP in Rs cr: see source)"
+    }
+   }
+  },
+  "shriram": {
+   "metrics": {
+    "nbp_cr": {
+     "value": 2425.0,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "Total new business premium (first-year + single premium, individual + group) per Life Insurance Council/IRDAI monthly data as compiled by CafeMutual; cross-checked vs Angel One (LIC ~2.6 lakh cr, SBI Life 42,550, Bajaj 14,585.82; industry ~4.59 lakh cr)"
+    },
+    "nbp_market_share_pct": {
+     "value": 0.53,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "Share of industry NBP as reported in source table"
+    },
+    "nbp_growth_pct": {
+     "value": 6.5,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "YoY vs FY2024-25 NBP as reported in source table (FY2024-25 NBP in Rs cr: see source)"
+    }
+   }
+  },
+  "ageasfederal": {
+   "metrics": {
+    "nbp_cr": {
+     "value": 1581.0,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "Total new business premium (first-year + single premium, individual + group) per Life Insurance Council/IRDAI monthly data as compiled by CafeMutual; cross-checked vs Angel One (LIC ~2.6 lakh cr, SBI Life 42,550, Bajaj 14,585.82; industry ~4.59 lakh cr)"
+    },
+    "nbp_market_share_pct": {
+     "value": 0.34,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "Share of industry NBP as reported in source table"
+    },
+    "nbp_growth_pct": {
+     "value": 18.1,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "YoY vs FY2024-25 NBP as reported in source table (FY2024-25 NBP in Rs cr: see source)"
+    }
+   }
+  },
+  "generalicentral": {
+   "metrics": {
+    "nbp_cr": {
+     "value": 1483.0,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "Total new business premium (first-year + single premium, individual + group) per Life Insurance Council/IRDAI monthly data as compiled by CafeMutual; cross-checked vs Angel One (LIC ~2.6 lakh cr, SBI Life 42,550, Bajaj 14,585.82; industry ~4.59 lakh cr)"
+    },
+    "nbp_market_share_pct": {
+     "value": 0.32,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "Share of industry NBP as reported in source table"
+    },
+    "nbp_growth_pct": {
+     "value": 24.4,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "YoY vs FY2024-25 NBP as reported in source table (FY2024-25 NBP in Rs cr: see source)"
+    }
+   }
+  },
+  "indusindnippon": {
+   "metrics": {
+    "nbp_cr": {
+     "value": 1475.0,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "Total new business premium (first-year + single premium, individual + group) per Life Insurance Council/IRDAI monthly data as compiled by CafeMutual; cross-checked vs Angel One (LIC ~2.6 lakh cr, SBI Life 42,550, Bajaj 14,585.82; industry ~4.59 lakh cr)"
+    },
+    "nbp_market_share_pct": {
+     "value": 0.32,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "Share of industry NBP as reported in source table"
+    },
+    "nbp_growth_pct": {
+     "value": 18.5,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "YoY vs FY2024-25 NBP as reported in source table (FY2024-25 NBP in Rs cr: see source)"
+    }
+   }
+  },
+  "godigit": {
+   "metrics": {
+    "nbp_cr": {
+     "value": 1473.0,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "Total new business premium (first-year + single premium, individual + group) per Life Insurance Council/IRDAI monthly data as compiled by CafeMutual; cross-checked vs Angel One (LIC ~2.6 lakh cr, SBI Life 42,550, Bajaj 14,585.82; industry ~4.59 lakh cr)"
+    },
+    "nbp_market_share_pct": {
+     "value": 0.32,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "Share of industry NBP as reported in source table"
+    },
+    "nbp_growth_pct": {
+     "value": 37.8,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "YoY vs FY2024-25 NBP as reported in source table (FY2024-25 NBP in Rs cr: see source)"
+    }
+   }
+  },
+  "pramerica": {
+   "metrics": {
+    "nbp_cr": {
+     "value": 1470.0,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "Total new business premium (first-year + single premium, individual + group) per Life Insurance Council/IRDAI monthly data as compiled by CafeMutual; cross-checked vs Angel One (LIC ~2.6 lakh cr, SBI Life 42,550, Bajaj 14,585.82; industry ~4.59 lakh cr)"
+    },
+    "nbp_market_share_pct": {
+     "value": 0.32,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "Share of industry NBP as reported in source table"
+    },
+    "nbp_growth_pct": {
+     "value": 19.3,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "YoY vs FY2024-25 NBP as reported in source table (FY2024-25 NBP in Rs cr: see source)"
+    }
+   }
+  },
+  "bharti": {
+   "metrics": {
+    "nbp_cr": {
+     "value": 1069.0,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "Total new business premium (first-year + single premium, individual + group) per Life Insurance Council/IRDAI monthly data as compiled by CafeMutual; cross-checked vs Angel One (LIC ~2.6 lakh cr, SBI Life 42,550, Bajaj 14,585.82; industry ~4.59 lakh cr)"
+    },
+    "nbp_market_share_pct": {
+     "value": 0.23,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "Share of industry NBP as reported in source table"
+    },
+    "nbp_growth_pct": {
+     "value": 44.1,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "YoY vs FY2024-25 NBP as reported in source table (FY2024-25 NBP in Rs cr: see source)"
+    }
+   }
+  },
+  "edelweiss": {
+   "metrics": {
+    "nbp_cr": {
+     "value": 639.0,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "Total new business premium (first-year + single premium, individual + group) per Life Insurance Council/IRDAI monthly data as compiled by CafeMutual; cross-checked vs Angel One (LIC ~2.6 lakh cr, SBI Life 42,550, Bajaj 14,585.82; industry ~4.59 lakh cr)"
+    },
+    "nbp_market_share_pct": {
+     "value": 0.14,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "Share of industry NBP as reported in source table"
+    },
+    "nbp_growth_pct": {
+     "value": 5.3,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "YoY vs FY2024-25 NBP as reported in source table (FY2024-25 NBP in Rs cr: see source)"
+    }
+   }
+  },
+  "creditaccess": {
+   "metrics": {
+    "nbp_cr": {
+     "value": 626.0,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "Total new business premium (first-year + single premium, individual + group) per Life Insurance Council/IRDAI monthly data as compiled by CafeMutual; cross-checked vs Angel One (LIC ~2.6 lakh cr, SBI Life 42,550, Bajaj 14,585.82; industry ~4.59 lakh cr)"
+    },
+    "nbp_market_share_pct": {
+     "value": 0.14,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "Share of industry NBP as reported in source table"
+    },
+    "nbp_growth_pct": {
+     "value": 224.2,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "YoY vs FY2024-25 NBP as reported in source table (FY2024-25 NBP in Rs cr: see source)"
+    }
+   }
+  },
+  "bandhan": {
+   "metrics": {
+    "nbp_cr": {
+     "value": 487.0,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "Total new business premium (first-year + single premium, individual + group) per Life Insurance Council/IRDAI monthly data as compiled by CafeMutual; cross-checked vs Angel One (LIC ~2.6 lakh cr, SBI Life 42,550, Bajaj 14,585.82; industry ~4.59 lakh cr)"
+    },
+    "nbp_market_share_pct": {
+     "value": 0.11,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "Share of industry NBP as reported in source table"
+    },
+    "nbp_growth_pct": {
+     "value": 109.3,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "YoY vs FY2024-25 NBP as reported in source table (FY2024-25 NBP in Rs cr: see source)"
+    }
+   }
+  },
+  "aviva": {
+   "metrics": {
+    "nbp_cr": {
+     "value": 351.0,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "Total new business premium (first-year + single premium, individual + group) per Life Insurance Council/IRDAI monthly data as compiled by CafeMutual; cross-checked vs Angel One (LIC ~2.6 lakh cr, SBI Life 42,550, Bajaj 14,585.82; industry ~4.59 lakh cr)"
+    },
+    "nbp_market_share_pct": {
+     "value": 0.08,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "Share of industry NBP as reported in source table"
+    },
+    "nbp_growth_pct": {
+     "value": 10.6,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "YoY vs FY2024-25 NBP as reported in source table (FY2024-25 NBP in Rs cr: see source)"
+    }
+   }
+  },
+  "acko": {
+   "metrics": {
+    "nbp_cr": {
+     "value": 184.0,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "Total new business premium (first-year + single premium, individual + group) per Life Insurance Council/IRDAI monthly data as compiled by CafeMutual; cross-checked vs Angel One (LIC ~2.6 lakh cr, SBI Life 42,550, Bajaj 14,585.82; industry ~4.59 lakh cr)"
+    },
+    "nbp_market_share_pct": {
+     "value": 0.04,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "Share of industry NBP as reported in source table"
+    },
+    "nbp_growth_pct": {
+     "value": 189.7,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
+     "note": "YoY vs FY2024-25 NBP as reported in source table (FY2024-25 NBP in Rs cr: see source)"
+    }
+   }
+  }
+ }
+}

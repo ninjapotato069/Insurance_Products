@@ -1,0 +1,3051 @@
+{
+ "company_id": "tataaia",
+ "company_name": "Tata AIA Life Insurance Company Ltd",
+ "researched_on": "2026-10-28",
+ "urls": {
+  "website": "https://www.tataaia.com",
+  "product_list_url": "https://www.tataaia.com/active-and-withdrawn-product-status.html",
+  "withdrawn_list_url": "https://www.tataaia.com/customer-service/download-centre.html?id=withdrawnproducts.html",
+  "riders_url": "https://www.tataaia.com/life-insurance-plans/life-insurance-riders.html",
+  "group_url": "https://www.tataaia.com/life-insurance-plans/group-insurance-solutions.html",
+  "newsroom_url": "https://www.tataaia.com/about-us/press-release.html"
+ },
+ "products": [
+  {
+   "uin": "110N176V09",
+   "name": "Sampoorna Raksha Promise",
+   "segment": "Individual",
+   "category": "Term",
+   "plan_structure": "Pure Term",
+   "sub_category": "Term cover to age 100 with optional return of premium",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Life Promise",
+     "summary": "Single-life term cover (option 1 in the policy wording)"
+    },
+    {
+     "name": "Life Promise Plus",
+     "summary": "Single-life Plus option (option 2); the plan advertises a return-of-premium feature"
+    },
+    {
+     "name": "Joint Life Promise",
+     "summary": "Cover on two lives, the life insured and spouse (option 3)"
+    },
+    {
+     "name": "Joint Life Promise Plus",
+     "summary": "Two-life Plus option (option 4)"
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": 100,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": true,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Entry age, term, premium and sum assured limits not yet verified from an official brochure. UIN V09 per Dec 2025 press release; the policy wording seen was V07."
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": true,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": "Future premiums waived on terminal illness diagnosis; premium holiday of up to 12 months; interim claim payout of up to Rs 3 lakh mentioned in a press release (conditions unverified)."
+   },
+   "category_details": {
+    "term": {
+     "rop_option": true,
+     "whole_life_cover_option": true,
+     "women_or_nonsmoker_discount": "About 15% lower premium for women; salaried and digital discounts advertised"
+    },
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Cover can run to age 100",
+    "Optional return of premium on survival (Plus options)",
+    "Premium holiday of up to 12 months",
+    "Terminal illness diagnosis waives future premiums",
+    "Women get about 15% lower premiums",
+    "Online purchase, claims and premium payment"
+   ],
+   "riders_available": [
+    "Terminal Illness with Term Booster (TTB)",
+    "Accidental Death Benefit (ADB)",
+    "Accidental Total and Permanent Disability (ATPD)"
+   ],
+   "online_purchase": true,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Non-linked, non-participating term plan with cover up to age 100, single and joint-life options and an optional return of premium, for long-duration family protection.",
+   "urls": {
+    "product_page": "https://www.tataaia.com/life-insurance-plans/term-insurance/sampoorna-raksha-promise.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.tataaia.com/life-insurance-plans/term-insurance/sampoorna-raksha-promise.html",
+    "https://www.tribuneindia.com/news/business/tata-aia-sampoorna-raksha-promise-helps-families-secure-financial-goals-amid-rising-cost-of-living",
+    "https://www.americanexpress.com/content/dam/amex/in/Insurance/life-insurance-policy-wordings-tata-aia.pdf"
+   ],
+   "completeness": "partial",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "110N171V12",
+   "name": "Maha Raksha Supreme Select",
+   "segment": "Individual",
+   "category": "Term",
+   "plan_structure": "Pure Term",
+   "sub_category": "Total-protection term plan with life-stage cover increases and optional return of premium",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Life Secure",
+     "summary": "Single-life pure term cover"
+    },
+    {
+     "name": "Life Secure Plus",
+     "summary": "Single-life cover that returns 100% of premiums paid on survival to maturity"
+    },
+    {
+     "name": "Joint Life Secure",
+     "summary": "Joint cover for spouses"
+    },
+    {
+     "name": "Joint Life Secure Plus",
+     "summary": "Joint cover with return of 100% of premiums on survival"
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 65,
+    "maturity_age_max_years": 100,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": true,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Entry age and cover-to-100 from an aggregator review (Ditto). Minimum sum assured shown inconsistently there (Rs 25 lakh vs Rs 2 crore), so left blank. UIN V12 per Nov 2025 press release."
+   },
+   "benefits": {
+    "death": "Highest of sum assured, 10x annualised premium or 105% of premiums paid (aggregator).",
+    "maturity": "Nil on Secure options; Plus options return 100% of premiums paid (excluding modal loadings and discounts) on survival.",
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": true,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": "Terminal illness pays 50% of effective sum assured early and waives later premiums; cover steps up at marriage (+50%), first child (+25%), second child (+25%) and home loan (up to +100% of loan); annual top-ups of 5-20%; FlexiPay premium deferral up to 12 months; Rs 3 lakh instant payout within one working day after 3 policy years; joint-life survivor can continue via a one-time premium."
+   },
+   "category_details": {
+    "term": {
+     "rop_option": true,
+     "whole_life_cover_option": true,
+     "ci_or_accelerated_benefit": "Terminal illness 50% accelerated payout; critical illness via CritiCare Plus rider (up to Rs 1 crore, 40 illnesses)",
+     "payout_options": "Lump sum + income option",
+     "women_or_nonsmoker_discount": "Women about 15% lower premium; salaried 8.5% off first-year premium; digital 10% off (limited/regular pay)",
+     "increasing_cover_option": "Yes - at marriage, childbirth, home loan and via annual top-ups"
+    },
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Four options: single or joint life, with or without return of premium",
+    "Cover rises automatically at marriage, childbirth and home loan",
+    "Premium holiday (FlexiPay) of up to 12 months",
+    "Terminal illness pays 50% of cover early",
+    "Discounts for women, salaried and digital buyers"
+   ],
+   "riders_available": [
+    "Accidental Death Benefit",
+    "Accidental Total and Permanent Disability",
+    "Waiver of Premium",
+    "Comprehensive Protection Rider",
+    "Vitality Protect",
+    "Vitality Health",
+    "CritiCare Plus",
+    "Hospicare"
+   ],
+   "online_purchase": true,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Non-linked, non-participating term plan with life-event cover increases, single and joint life options and optional return of premium, for customers wanting cover that grows with life stages.",
+   "urls": {
+    "product_page": "https://www.tataaia.com/life-insurance-plans/term-insurance/maha-raksha-supreme-select.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.theweek.in/wire-updates/business/2025/11/19/dcm71-tata-aia.html",
+    "https://joinditto.in/term-insurance/tata-aia/maha-raksha-supreme-select/",
+    "https://www.oneassure.in/term-insurance/tata-aia-life-insurance-company/tata-aia-maha-raksha-supreme-select"
+   ],
+   "completeness": "partial",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Shubh Shakti",
+   "segment": "Individual",
+   "category": "Term",
+   "plan_structure": "Pure Term",
+   "sub_category": "Women-focused term plan (reported as built on Sampoorna Raksha Promise)",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Shubh Shakti Select",
+     "summary": "Second purchase link on the Shubh Shakti page; details not yet verified"
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 65,
+    "maturity_age_max_years": 100,
+    "policy_term_min_years": 5,
+    "policy_term_max_years": 82,
+    "whole_life": null,
+    "ppt_options": [
+     "Single",
+     "Limited",
+     "Regular"
+    ],
+    "premium_modes": [
+     "Single",
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": 2500000,
+    "max_sum_assured_text": "No upper limit",
+    "notes": "All limits from a Feb 2026 aggregator article (Ditto). UIN not found; the plan is reported as sharing the Sampoorna Raksha Promise base (110N176)."
+   },
+   "benefits": {
+    "death": "Sum assured paid to nominee as lump sum, monthly income or a mix.",
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": "Terminal illness: up to 50% of death benefit paid early; Rs 3 lakh interim payout (policy in force, death after 3rd policy year, sum assured of at least Rs 1 crore); optional child-education monthly payouts to age 21 or 25; premium waiver on spouse's accidental death; premium holiday of up to 12 months around pregnancy."
+   },
+   "category_details": {
+    "term": {
+     "payout_options": "Lump sum / Monthly income / Lump sum + income",
+     "ci_or_accelerated_benefit": "Terminal illness early payout up to 50%; critical illness rider (40 illnesses) optional",
+     "women_or_nonsmoker_discount": "Up to 15% lower premium than men; extra 1% for single mothers"
+    },
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Premiums up to about 15% lower for women",
+    "Premium holiday of up to 12 months for pregnancy",
+    "Optional child-education income to age 21 or 25",
+    "Premium waiver on spouse's accidental death",
+    "Health Buddy Enhance wellness services (PCOD, IVF counselling, weight management, HPV vaccination support)"
+   ],
+   "riders_available": [
+    "Accidental Death Benefit",
+    "Accidental Total and Permanent Disability",
+    "Hospicare (Vitality Health)",
+    "Waiver of Premium on Critical Illness",
+    "Waiver of Premium on ATPD",
+    "Critical Illness Rider",
+    "Health Buddy Enhance"
+   ],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Women-focused non-linked term plan with lower premiums, pregnancy premium holiday and child-education income options.",
+   "urls": {
+    "product_page": "https://www.tataaia.com/life-insurance-plans/term-insurance/shubh-shakti.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://joinditto.in/articles/term-insurance/tata-aia-shubh-shakti-term-plan-review/",
+    "https://www.policybazaar.com/term-insurance/news/tata-aia-launches-shubh-shakti-term-plan-for-women/",
+    "https://www.tataaia.com/life-insurance-plans/term-insurance/shubh-shakti.html"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "110N158V12",
+   "name": "Fortune Guarantee Plus",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": "Guaranteed Income",
+   "sub_category": "Guaranteed regular-income savings plan with return of premium",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Savings",
+    "Retirement"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Option 1 - Regular Income",
+     "summary": "Guaranteed income for 20 to 45 years after the policy term; single, limited or regular pay"
+    },
+    {
+     "name": "Option 2 - Regular Income with inbuilt CI",
+     "summary": "Regular pay only; guaranteed income for 25-30 years with critical illness cover for 40 illnesses and premium waiver"
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 1,
+    "entry_age_max_years": 60,
+    "maturity_age_max_years": 77,
+    "policy_term_min_years": 5,
+    "policy_term_max_years": 16,
+    "whole_life": null,
+    "ppt_options": [
+     "Single",
+     "Limited 5-12 years",
+     "Regular 5 or 10 years"
+    ],
+    "premium_modes": [
+     "Single",
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": 24000,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Figures read from a superseded V06 landing page; V12 brochure not yet checked. Option 1 entry age 1-60, option 2 18-60; max age at maturity 77 (option 1) or 70 (option 2). Policy term: single pay 5 years; limited pay PPT+1 to PPT+5; regular pay (option 2) 5 or 10 years. Income period 20-45 years (option 1), 25-30 years (option 2). Single-pay minimum shown there as Rs 5,000 - verify."
+   },
+   "benefits": {
+    "death": null,
+    "maturity": "Guaranteed income from maturity through the income period irrespective of survival; total premiums paid returned at the end of the income period.",
+    "survival_income": null,
+    "guaranteed": true,
+    "return_of_premium": true,
+    "loan": true,
+    "partial_withdrawal": null,
+    "other": "Loan up to 80% of surrender value; option 2 waives premiums on critical illness diagnosis."
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": {
+     "payout_type": "Income",
+     "income_duration": "20-45 years (option 1); 25-30 years (option 2)",
+     "bonus_type": "None"
+    },
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Guaranteed annual or monthly income for 20 to 45 years after maturity (option 1)",
+    "Option 2 adds built-in critical illness cover for 40 illnesses with premium waiver",
+    "Return of total premiums at the end of the income period",
+    "Choice of single, limited (5-12 years) or regular pay",
+    "Policy loan up to 80% of surrender value"
+   ],
+   "riders_available": [
+    "Vitality Protect",
+    "Vitality Health",
+    "Comprehensive Protection Rider",
+    "Comprehensive Health Rider"
+   ],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": "As per prevailing income-tax laws; Section 80C illustration shown on the page",
+   "description": "Non-linked, non-participating savings plan paying a guaranteed income for decades after the policy term, for goals such as retirement or children's needs.",
+   "urls": {
+    "product_page": "https://www.tataaia.com/life-insurance-plans/savings-solutions/fortune-guarantee-plus.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.tataaia.com/product-pages/fortune-guarantee-plus.html",
+    "https://tataaia.com/life-insurance-plans/savings-solutions/fortune-guarantee-plus.html",
+    "https://www.tataaia.com/lead-page/lead-page-FGplus.html"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "110N207V02",
+   "name": "Shubh Flexi Income Plan",
+   "segment": "Individual",
+   "category": "Savings - Par",
+   "plan_structure": "Endowment",
+   "sub_category": "Participating savings plan with Endowment, Early Income and Deferred Income options",
+   "linkage": "Non-Linked",
+   "participation": "Par",
+   "need_tags": [
+    "Savings",
+    "Wealth"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": "2025-03",
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Endowment",
+     "summary": "Lump sum at maturity: sum assured plus accrued bonuses and terminal bonus if declared"
+    },
+    {
+     "name": "Early Income",
+     "summary": "Yearly cash bonuses from the first policy year, lump sum at the end of the term"
+    },
+    {
+     "name": "Deferred Income",
+     "summary": "Cash bonuses start after the premium payment term and payouts can be postponed"
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [
+     "Single",
+     "Limited 5-12 years",
+     "Regular 10-50 years"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Entry age, policy term and minimum premium not yet verified. Sum assured multiples on the landing page: 7x or 11x annualised premium under age 50; 11x, 7x or 5x from age 50."
+   },
+   "benefits": {
+    "death": "Cover Continuance: on the life assured's death an immediate lump sum is paid, future premiums are waived and future benefits continue to the nominee; Waiver of Premium option covers the proposer's death.",
+    "maturity": "Endowment: sum assured plus accrued bonuses plus terminal bonus if declared; Early and Deferred Income: lump sum at the end of the term.",
+    "survival_income": "Early Income: yearly cash bonus from year 1; Deferred Income: cash bonus after the premium payment term.",
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": true,
+    "other": "Sub-wallet holds cash bonuses, earns interest, can fund future premiums and can be withdrawn partly or fully."
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": {
+     "payout_type": "Lump sum + Income",
+     "bonus_type": "Reversionary + Cash",
+     "deferment_option": true
+    },
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Three options: Endowment, Early Income, Deferred Income",
+    "Bonuses held in an interest-earning sub-wallet usable for premiums",
+    "Policy continues for the nominee after the life assured's death with premiums waived",
+    "Discounts: 2% first-year for women, 4% family discount, 20% first-year for Tata Group employees",
+    "4-hour express claim settlement (conditions apply)"
+   ],
+   "riders_available": [
+    "Accidental Death Benefit",
+    "Accidental Total and Permanent Disability",
+    "Comprehensive Protection Rider",
+    "Vitality Protect",
+    "Vitality Health",
+    "Benefit Protection Rider"
+   ],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": "Premiums under Section 80C and maturity under Section 10(10D), subject to prevailing law and conditions",
+   "description": "Participating savings plan with endowment, early-income and deferred-income choices for customers wanting bonuses and flexible payouts.",
+   "urls": {
+    "product_page": "https://www.tataaia.com/life-insurance-plans/savings-solutions/shubh-flexi-income-plan.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.tataaia.com/Tata-AIA-SFIP.html",
+    "https://www.business-standard.com/amp/finance/personal-finance/tata-aia-launches-shubh-flexi-income-plan-for-smart-savings-and-life-cover-125031300269_1.html"
+   ],
+   "completeness": "partial",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Smart Value Income Plan",
+   "segment": "Individual",
+   "category": "Savings - Par",
+   "plan_structure": null,
+   "sub_category": "Category provisional: inferred from the earlier 'Value Income Plan' (110N153V01, participating)",
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.tataaia.com/life-insurance-plans/savings-solutions/tata-aia-life-insurance-smart-value-income-plan.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.tataaia.com/active-and-withdrawn-product-status.html",
+    "https://www.tataaia.com/product-pages/value-income-plan1.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "110L156V02",
+   "name": "Smart Sampoorna Raksha Supreme",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": "ULIP with refund of allocation and mortality charges, cover to age 100",
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Wealth",
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 60,
+    "maturity_age_max_years": 100,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [
+     "Limited 5",
+     "Limited 10",
+     "Limited 12",
+     "Regular",
+     "Single"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": "No limit, subject to underwriting",
+    "notes": "UIN V02 read from a landing page titled 'Smart Sampoorna Raksha'; confirm it maps to the 'Supreme' product and the current version. Minimum sum assured is 10x annualised premium. Page also shows policy term 30-40 years (unverified)."
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": "Refund of premium allocation charges and mortality charges at points during the term; Personal Medical Case Management for 3 months on heart ailments or cancer."
+   },
+   "category_details": {
+    "term": null,
+    "ulip": {
+     "funds_count": 11,
+     "return_of_mortality_charges": true
+    },
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Market-linked returns with life cover to age 100",
+    "Refund of allocation and mortality charges at points in the term",
+    "Choice of 11 funds from equity-oriented to fixed income",
+    "Enhanced SMART systematic investment strategy and fund switching",
+    "Riders: Linked Comprehensive Protection and Health riders"
+   ],
+   "riders_available": [
+    "Linked Comprehensive Protection Rider",
+    "Linked Comprehensive Health Rider",
+    "Hospitalization Benefits",
+    "3C Protection",
+    "Accidental Death and Disability"
+   ],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": "As per applicable laws; Section 10(10D) exemption may not apply to ULIPs issued on or after 1 Feb 2021 if annual premium exceeds Rs 2.5 lakh",
+   "description": null,
+   "urls": {
+    "product_page": "https://www.tataaia.com/life-insurance-plans/wealth-solutions/smart-sampoorna-raksha-supreme.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.tataaia.com/product-pages/smart-sampoorna-raksha.html"
+   ],
+   "completeness": "partial",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Param Raksha Life Pro +",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": "Listed under Term + Wealth Plans; construct to verify (may be a bundle)",
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Wealth",
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.tataaia.com/life-insurance-plans/wealth-solutions/param-raksha-life-pro-plus.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Param Raksha Life Pro",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": "Listed under Term + Wealth Plans; construct to verify (may be a bundle)",
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Wealth",
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.tataaia.com/life-insurance-plans/wealth-solutions/param-raksha-life-pro.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Param Raksha Life Maxima +",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": "Listed under Term + Wealth Plans; construct to verify (may be a bundle)",
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Wealth",
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.tataaia.com/life-insurance-plans/wealth-solutions/param-raksha-life-maxima-plus.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Shubh Invest Protect",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": "Listed under Term + Wealth Plans; construct to verify (may be a bundle)",
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Wealth",
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.tataaia.com/life-insurance-plans/wealth-solutions/shubh-invest-protect.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Premier SIP",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Wealth"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.tataaia.com/life-insurance-plans/wealth-solutions/premier-sip.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Smart Fortune Plus",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Wealth"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.tataaia.com/life-insurance-plans/wealth-solutions/smart-fortune-plus.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Fortune Pro",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Wealth"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.tataaia.com/life-insurance-plans/wealth-solutions/fortune-pro.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Smart SIP",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Wealth"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.tataaia.com/life-insurance-plans/wealth-solutions/smart-sip.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Systematic Insurance Plan (iSIP)",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": "Category provisional; listed as iSIP under ULIP Plans",
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Wealth"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Shubh Muhurat",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": "Category provisional; listed under Savings + Wealth plans, URL under wealth-solutions",
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Wealth"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.tataaia.com/life-insurance-plans/wealth-solutions/shubh-muhurat.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Fortune Guarantee Secure",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": null,
+   "sub_category": "Category provisional (Fortune Guarantee family, listed under Savings Plans)",
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.tataaia.com/life-insurance-plans/savings-solutions/fortune-guarantee-secure.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Smart Pension Secure",
+   "segment": "Individual",
+   "category": "Pension & Annuity",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [
+    "Retirement"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.tataaia.com/life-insurance-plans/retirement-and-pension-solutions/smart-pension-secure.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Fortune Guarantee Pension",
+   "segment": "Individual",
+   "category": "Pension & Annuity",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [
+    "Retirement"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.tataaia.com/life-insurance-plans/retirement-and-pension-solutions/tata-AIA-life-insurance-fortune-guarantee-pension-plan.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Saral Pension Plan",
+   "segment": "Individual",
+   "category": "Pension & Annuity",
+   "plan_structure": "Immediate Annuity",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Retirement"
+   ],
+   "standard_product": "Saral Pension",
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.tataaia.com/life-insurance-plans/retirement-and-pension-solutions/saral-pension-plan.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Shubh Flexi Pension",
+   "segment": "Individual",
+   "category": "Pension & Annuity",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [
+    "Retirement"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.tataaia.com/life-insurance-plans/retirement-and-pension-solutions/shubh-flexi-pension-plan.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Sampoorna Care - Cancer",
+   "segment": "Individual",
+   "category": "Health & CI",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [
+    "Health"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.tataaia.com/health-insurance-plans/sampoorna-care-cancer.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Sampoorna Care - Cancer Fund",
+   "segment": "Individual",
+   "category": "Health & CI",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [
+    "Health"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.tataaia.com/health-insurance-plans/sampoorna-care-cancer-fund.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Pro-Fit",
+   "segment": "Individual",
+   "category": "Health & CI",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [
+    "Health"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.tataaia.com/health-insurance-plans/tata-aia-pro-fit.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Health Buddy",
+   "segment": "Individual",
+   "category": "Health & CI",
+   "plan_structure": null,
+   "sub_category": "May be a wellness service rather than an insured product; verify",
+   "linkage": null,
+   "participation": null,
+   "need_tags": [
+    "Health"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.tataaia.com/health-insurance-plans/health-buddy.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Shubh Global Invest",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": null,
+   "sub_category": "NRI plan on international.tataaia.com; category provisional",
+   "linkage": null,
+   "participation": null,
+   "need_tags": [
+    "Wealth"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://international.tataaia.com/life-insurance-plans/wealth-plans/shubh-global-invest.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.tataaia.com/life-insurance-plans.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Life Protect Supreme (USD Denominated)",
+   "segment": "Individual",
+   "category": "Term",
+   "plan_structure": null,
+   "sub_category": "NRI USD-denominated plan on international.tataaia.com; category provisional",
+   "linkage": null,
+   "participation": null,
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://international.tataaia.com/life-insurance-plans/term-insurance/life-protect-supreme-usd-denominated.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.tataaia.com/life-insurance-plans.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Group Critical Illness",
+   "segment": "Group",
+   "category": "Group Health & Accident",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.tataaia.com/life-insurance-plans/group-insurance-solutions/group-critical-illness.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.tataaia.com/life-insurance-plans/group-insurance-solutions.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Group Sampoorna Raksha Supreme",
+   "segment": "Group",
+   "category": "Group Term",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.tataaia.com/life-insurance-plans/group-insurance-solutions/group-sampoorna-raksha-supreme.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.tataaia.com/life-insurance-plans/group-insurance-solutions.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Group Micro Raksha Supreme",
+   "segment": "Micro",
+   "category": "Micro Insurance",
+   "plan_structure": null,
+   "sub_category": "Group micro-insurance term cover; segment inferred from name",
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.tataaia.com/life-insurance-plans/group-insurance-solutions/group-micro-raksha-supreme.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.tataaia.com/life-insurance-plans/group-insurance-solutions.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Group Loan Protect",
+   "segment": "Group",
+   "category": "Credit Life",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.tataaia.com/life-insurance-plans/group-insurance-solutions/group-loan-protect.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.tataaia.com/life-insurance-plans/group-insurance-solutions.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Group Term Life",
+   "segment": "Group",
+   "category": "Group Term",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.tataaia.com/life-insurance-plans/group-insurance-solutions/group-term-life.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.tataaia.com/life-insurance-plans/group-insurance-solutions.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "110B046V04",
+   "name": "Vitality Protect",
+   "segment": "Rider",
+   "category": "Other Rider",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Wellness-linked protection rider that earns premium discounts for healthy behaviour.",
+   "urls": {
+    "product_page": "https://www.tataaia.com/life-insurance-plans/tata-aia-life-vitality-protect.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.tataaia.com/Tata-AIA-SFIP.html",
+    "https://www.tataaia.com/life-insurance-plans/life-insurance-riders.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "110B045V03",
+   "name": "Vitality Health",
+   "segment": "Rider",
+   "category": "Health/Hospital",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Wellness-linked health rider (hospital cash style cover) that earns premium discounts for healthy behaviour.",
+   "urls": {
+    "product_page": "https://www.tataaia.com/life-insurance-plans/tata-aia-life-vitality-health.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.tataaia.com/Tata-AIA-SFIP.html",
+    "https://www.tataaia.com/life-insurance-plans/life-insurance-riders.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "110B033V04",
+   "name": "Non-Linked Comprehensive Protection Rider",
+   "segment": "Rider",
+   "category": "Other Rider",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Multi-benefit protection rider with CritiCare Plus critical illness, accidental death and accidental total permanent disability options.",
+   "urls": {
+    "product_page": "https://www.tataaia.com/life-insurance-plans/non-linked-comprehensive-protection.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.tataaia.com/Tata-AIA-SFIP.html",
+    "https://www.tataaia.com/lead-page/lead-page-PRplus.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "110B049V03",
+   "name": "Benefit Protection Rider",
+   "segment": "Rider",
+   "category": "Other Rider",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.tataaia.com/life-insurance-plans/benefit-protection-rider.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.tataaia.com/Tata-AIA-SFIP.html",
+    "https://www.tataaia.com/life-insurance-plans/life-insurance-riders.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Vitality Protect Plus",
+   "segment": "Rider",
+   "category": "Other Rider",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "ULIP version of the Vitality Protect wellness-linked rider.",
+   "urls": {
+    "product_page": "https://www.tataaia.com/life-insurance-plans/tata-aia-life-vitality-protect-plus.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.tataaia.com/life-insurance-plans/life-insurance-riders.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Vitality Health Plus",
+   "segment": "Rider",
+   "category": "Health/Hospital",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "ULIP version of the Vitality Health wellness-linked rider.",
+   "urls": {
+    "product_page": "https://www.tataaia.com/life-insurance-plans/tata-aia-life-vitality-health-plus.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.tataaia.com/life-insurance-plans/life-insurance-riders.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Linked Comprehensive Protection Rider",
+   "segment": "Rider",
+   "category": "Other Rider",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Multi-benefit rider for ULIPs covering death, accidental death or disability, critical illness and terminal illness.",
+   "urls": {
+    "product_page": "https://www.tataaia.com/life-insurance-plans/linked-comprehensive-protection-rider.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.tataaia.com/product-pages/smart-sampoorna-raksha.html",
+    "https://www.tataaia.com/life-insurance-plans/life-insurance-riders.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Health Secure",
+   "segment": "Rider",
+   "category": "Health/Hospital",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.tataaia.com/health-insurance-plans/tata-aia-healthsecure.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.tataaia.com/life-insurance-plans/life-insurance-riders.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "110N160V04",
+   "name": "Sampoorna Raksha Supreme",
+   "segment": "Individual",
+   "category": "Term",
+   "plan_structure": "Pure Term",
+   "sub_category": "Withdrawn status inferred: absent from current active list; lead page SRS-lead-page.html still online (V04; V03 seen in older InstaProtect page)",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.tataaia.com/SRS-lead-page.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "110N126V05",
+   "name": "Smart Income Plus",
+   "segment": "Individual",
+   "category": null,
+   "plan_structure": null,
+   "sub_category": "Withdrawn status inferred: absent from current active list",
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.hdfc.bank.in/life-insurance/tata-aia-insurance-smart-income-plus"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  }
+ ],
+ "notes": "Run 1 partial (usage limit hit). Official product pages are JS-rendered: static HTML gives names, not UINs or specs. UINs come from landing-page titles, press releases and policy wordings, so versions may lag. Combo 'Solutions' (Capital Guarantee ..., InstaProtect) look like bundles of existing UINs and are not listed as products. Withdrawn list is JS-only; withdrawn rows are inferred from absence in the active list."
+}

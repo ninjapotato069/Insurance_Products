@@ -1,0 +1,952 @@
+{
+ "company_id": "sahara",
+ "company_name": "Sahara India Life Insurance Co Ltd",
+ "researched_on": "2026-10-28",
+ "urls": {
+  "website": null,
+  "product_list_url": "https://www.policybazaar.com/insurance-companies/sahara-life-insurance",
+  "withdrawn_list_url": null,
+  "riders_url": null,
+  "group_url": null,
+  "newsroom_url": null
+ },
+ "products": [
+  {
+   "uin": null,
+   "name": "Sahara Shrestha Nivesh Jeevan Bima",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": "Endowment",
+   "sub_category": "Single-premium endowment, without profits",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Aggregator-listed (unverified): entry 9-60, term 5-10 yrs."
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Historic single-premium endowment plan of Sahara Life (aggregator-listed).",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.bankbazaar.com/insurance/sahara-life-insurance.html",
+    "https://www.policybazaar.com/insurance-companies/sahara-life-insurance"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Sahara Shubh Nivesh Jeevan Bima",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": "Endowment",
+   "sub_category": "Single-premium endowment with life cover, without profits",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Aggregator-listed (unverified): entry 9-60, 10-yr term."
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Historic single-premium endowment plan with life cover (aggregator-listed).",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.bankbazaar.com/insurance/sahara-life-insurance.html",
+    "https://www.policybazaar.com/insurance-companies/sahara-life-insurance"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Sahara Dhan Sanchay Jeevan Bima",
+   "segment": "Individual",
+   "category": "Savings - Par",
+   "plan_structure": "Endowment",
+   "sub_category": "Participating endowment",
+   "linkage": "Non-Linked",
+   "participation": "Par",
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Aggregator-listed (unverified): entry 14-50, term 15-40 yrs, max maturity age 70."
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Historic participating endowment plan (aggregator-listed).",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.bankbazaar.com/insurance/sahara-life-insurance.html",
+    "https://www.policybazaar.com/insurance-companies/sahara-life-insurance"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Sahara Pay Back Jeevan Bima",
+   "segment": "Individual",
+   "category": "Savings - Par",
+   "plan_structure": "Money Back",
+   "sub_category": "Limited-premium participating money-back",
+   "linkage": "Non-Linked",
+   "participation": "Par",
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Aggregator-listed (unverified): entry 16-50, term 12, 16 or 20 yrs."
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Historic limited-premium participating money-back plan (aggregator-listed).",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.bankbazaar.com/insurance/sahara-life-insurance.html",
+    "https://www.policybazaar.com/insurance-companies/sahara-life-insurance"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Sahara Dhanvriddhi Jeevan Bima",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": "Money Back",
+   "sub_category": "Single-premium money-back, without profits",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Aggregator-listed (unverified): entry 9-60, term 9, 12 or 15 yrs, max maturity age 70."
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Historic single-premium money-back plan (aggregator-listed).",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.bankbazaar.com/insurance/sahara-life-insurance.html",
+    "https://www.policybazaar.com/insurance-companies/sahara-life-insurance"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Sahara Dhanvarsha Jeevan Bima",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": "Money Back",
+   "sub_category": "Limited-premium non-participating money-back",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Aggregator-listed (unverified): entry 15-55, term 15 or 20 yrs, max maturity age 70."
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Historic limited-premium non-participating money-back plan (aggregator-listed).",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.bankbazaar.com/insurance/sahara-life-insurance.html",
+    "https://www.policybazaar.com/insurance-companies/sahara-life-insurance"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Sahara Sanchit Jeevan Bima",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": "Single-premium ULIP",
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Wealth"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Aggregator-listed (unverified): entry 10-65, term 5-10 yrs."
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Historic single-premium unit-linked plan (aggregator-listed).",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.bankbazaar.com/insurance/sahara-life-insurance.html",
+    "https://www.policybazaar.com/insurance-companies/sahara-life-insurance"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Sahara Utkarsh Jeevan Bima",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": "ULIP, single or regular premium",
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Wealth"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Aggregator-listed (unverified): entry 10 or 12 to 55, term 8-20 yrs."
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Historic unit-linked plan (aggregator-listed).",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.bankbazaar.com/insurance/sahara-life-insurance.html",
+    "https://www.policybazaar.com/insurance-companies/sahara-life-insurance"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Sahara Sugam Jeevan Bima",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": "Regular-premium ULIP",
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Wealth"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Aggregator-listed (unverified): entry 10-55, term 10, 15 or 20 yrs."
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Historic unit-linked plan (aggregator-listed).",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.bankbazaar.com/insurance/sahara-life-insurance.html",
+    "https://www.policybazaar.com/insurance-companies/sahara-life-insurance"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Sahara Samooh Suraksha",
+   "segment": "Group",
+   "category": "Group Term",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Aggregator-listed (unverified): member age 18-64."
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Historic group term cover (aggregator-listed).",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.bankbazaar.com/insurance/sahara-life-insurance.html",
+    "https://www.policybazaar.com/insurance-companies/sahara-life-insurance"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Sahara Jamakarta Samooh Bima",
+   "segment": "Group",
+   "category": "Group Term",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Historic group term insurance plan (aggregator-listed on BankBazaar).",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.bankbazaar.com/insurance/sahara-life-insurance.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Sahara Accidental Death Benefit Rider",
+   "segment": "Rider",
+   "category": "Accidental Death/Disability",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Aggregator-listed (unverified): entry 18-60, max maturity age 65."
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Historic accidental death benefit rider (aggregator-listed).",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.bankbazaar.com/insurance/sahara-life-insurance.html",
+    "https://www.policybazaar.com/insurance-companies/sahara-life-insurance"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Sahara Social Security Plan",
+   "segment": "Individual",
+   "category": "Term",
+   "plan_structure": "Pure Term",
+   "sub_category": "Listed as term, non-participating - segment unverified",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Historic non-participating term plan (Policybazaar listing only).",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.policybazaar.com/insurance-companies/sahara-life-insurance"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Sahara Surakshit Pariwar Jeevan Bima",
+   "segment": "Micro",
+   "category": "Micro Insurance",
+   "plan_structure": "Endowment",
+   "sub_category": "Micro-endowment, non-linked non-participating",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Savings",
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Aggregator-listed (unverified): entry 18-50, premium paid for 5 or 10 yrs."
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Historic micro-insurance endowment plan (Policybazaar listing only).",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.policybazaar.com/insurance-companies/sahara-life-insurance"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  }
+ ],
+ "notes": "Run-off insurer. Per the assignment brief (not confirmed by any fetched source): under IRDAI administration since 2017, policies transferred to SBI Life in 2023, no new business; hence every row is Withdrawn. The 14 plan names come from undated aggregator pages (Policybazaar and BankBazaar, which do not mention the administrator or the SBI Life transfer); no UINs, launch or withdrawal dates were found, so all are list-only. Entry-age and term ranges quoted in eligibility.notes are aggregator-listed and unverified (Utkarsh entry shown as 10-55 on one page and 12-55 on the other). Segment/category for Social Security Plan is a best guess ('Term, non-participating' per Policybazaar). Policybazaar says operations began in October 2004. Official website not verified, left null."
+}

@@ -1,0 +1,1268 @@
+<title>Insurance Products</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Every Indian life insurer's products, specs, riders, group plans, claim and grievance metrics and customer ratings, refreshed weekly.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@500;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+<style>
+/* Layout: sticky ledger header + tab strip over one scrolling column (max 1280px); panels only around charts and tables. */
+:root{
+  --bg:#f1f4f1;          /* page plane: faint green-grey, like policy-bond security paper */
+  --surface:#fbfcfa;     /* panels, chart surface */
+  --surface-2:#e8ece7;   /* table heads, chips */
+  --ink:#111a16;
+  --ink-2:#46524d;
+  --muted:#76837d;
+  --line:#d8dfda;
+  --line-strong:#bcc6c0;
+  --accent:#0b6a5a;      /* policy green: links, active states, single-series marks */
+  --accent-ink:#ffffff;
+  --accent-wash:#d9ebe5;
+  --stamp:#5a3db3;       /* rubber-stamp violet: administrative states (new, withdrawn, review) */
+  --stamp-wash:#ece6fb;
+  --emph-muted:#c3ccc7;  /* de-emphasised marks when an insurer is highlighted */
+  --good-text:#006300; --crit-text:#b3312f; --warn-text:#8a5a00;
+  --cat-1:#2a78d6; --cat-2:#eb6834; --cat-3:#1baf7a; --cat-4:#eda100; --cat-5:#e87ba4; --cat-6:#008300;
+  --seq-1:#e3eefb; --seq-2:#cde2fb; --seq-3:#9ec5f4; --seq-4:#6da7ec; --seq-5:#3987e5; --seq-6:#256abf; --seq-7:#184f95;
+  --font-ui:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --font-display:"IBM Plex Sans Condensed","IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --font-mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  --r:6px;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0d1210; --surface:#141a17; --surface-2:#1c2420; --ink:#e7edea; --ink-2:#b1bdb7; --muted:#7d8a84;
+    --line:#252f2b; --line-strong:#36423d; --accent:#3cb8a2; --accent-ink:#06120f; --accent-wash:#15332c;
+    --stamp:#a593f2; --stamp-wash:#241e40; --emph-muted:#38433f;
+    --good-text:#3ccb5a; --crit-text:#ef7b78; --warn-text:#f2b84b;
+    --cat-1:#3987e5; --cat-2:#d95926; --cat-3:#199e70; --cat-4:#c98500; --cat-5:#d55181; --cat-6:#008300;
+    --seq-1:#18222d; --seq-2:#1b3150; --seq-3:#1d4a80; --seq-4:#2565b0; --seq-5:#3a86de; --seq-6:#6ea9ee; --seq-7:#a8cdf6;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0d1210; --surface:#141a17; --surface-2:#1c2420; --ink:#e7edea; --ink-2:#b1bdb7; --muted:#7d8a84;
+  --line:#252f2b; --line-strong:#36423d; --accent:#3cb8a2; --accent-ink:#06120f; --accent-wash:#15332c;
+  --stamp:#a593f2; --stamp-wash:#241e40; --emph-muted:#38433f;
+  --good-text:#3ccb5a; --crit-text:#ef7b78; --warn-text:#f2b84b;
+  --cat-1:#3987e5; --cat-2:#d95926; --cat-3:#199e70; --cat-4:#c98500; --cat-5:#d55181; --cat-6:#008300;
+  --seq-1:#18222d; --seq-2:#1b3150; --seq-3:#1d4a80; --seq-4:#2565b0; --seq-5:#3a86de; --seq-6:#6ea9ee; --seq-7:#a8cdf6;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 var(--font-ui);-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:40;background:var(--bg)}
+[hidden]{display:none!important}
+a{color:var(--accent);text-decoration-thickness:1px;text-underline-offset:2px}
+button,select,input{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:3px}
+h1,h2,h3{font-family:var(--font-display);font-weight:600;line-height:1.15;text-wrap:balance;margin:0}
+h1{font-size:1.75rem;letter-spacing:.005em}
+h2{font-size:1.3rem}
+h3{font-size:1.05rem}
+p{margin:0}
+.mono{font-family:var(--font-mono);font-size:.86em;letter-spacing:.01em}
+.num{font-variant-numeric:tabular-nums}
+.muted{color:var(--muted)}
+.ink2{color:var(--ink-2)}
+.small{font-size:.82rem}
+.eyebrow{font-size:.7rem;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.wrap{max-width:1280px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+
+/* header */
+.top{position:relative;z-index:30;background:var(--bg);border-bottom:1px solid var(--line)}
+@media (min-width:761px){.top{position:sticky;top:env(safe-area-inset-top,0px)}}
+.top .wrap{display:flex;flex-wrap:wrap;align-items:flex-end;gap:8px 20px;padding-block:14px 0}
+.brand{flex:1 1 320px;min-width:0}
+.brand h1{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.brand .sub{color:var(--ink-2);font-size:.86rem;margin-top:2px}
+.bench{display:flex;align-items:center;gap:8px;font-size:.82rem;color:var(--ink-2);padding-bottom:6px}
+.bench select{min-width:0;max-width:210px}
+.tabs{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;flex:1 1 100%;margin-top:6px}
+.tabs::-webkit-scrollbar{display:none}
+.tabs a{flex:0 0 auto;padding:9px 12px 10px;color:var(--ink-2);text-decoration:none;font-weight:500;font-size:.92rem;border-bottom:2px solid transparent}
+.tabs a:hover{color:var(--ink)}
+.tabs a[aria-current="page"]{color:var(--ink);border-bottom-color:var(--accent)}
+main{padding-block:22px 110px}
+.view-head{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:10px 24px;margin-bottom:18px}
+.view-head p{color:var(--ink-2);max-width:68ch;margin-top:6px}
+
+/* form controls */
+select,input[type="search"],input[type="text"]{background:var(--surface);border:1px solid var(--line-strong);border-radius:5px;padding:7px 9px;font-size:.88rem;min-height:36px}
+select{padding-right:26px}
+input[type="search"]{min-width:0}
+.btn{display:inline-flex;align-items:center;gap:6px;background:var(--surface);border:1px solid var(--line-strong);border-radius:5px;padding:7px 12px;font-size:.86rem;font-weight:500;min-height:36px;color:var(--ink);text-decoration:none}
+.btn:hover{border-color:var(--accent);color:var(--accent)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.btn.primary:hover{filter:brightness(1.08);color:var(--accent-ink)}
+.btn.ghost{background:transparent;border-color:transparent;color:var(--ink-2);padding-inline:8px}
+.btn.ghost:hover{color:var(--accent)}
+.btn[disabled]{opacity:.45;cursor:not-allowed}
+.linkbtn{background:none;border:0;padding:0;color:var(--accent);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:2px;font-size:inherit}
+
+/* layout */
+.grid{display:grid;gap:16px;align-items:start}
+.g2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.g3{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media (max-width:900px){.g2,.g3{grid-template-columns:minmax(0,1fr)}}
+.stack{display:flex;flex-direction:column;gap:16px}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px;min-width:0}
+.panel-head{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;margin-bottom:12px}
+.panel-head .t{min-width:0}
+.panel-head .s{color:var(--muted);font-size:.8rem;margin-top:2px}
+.section{margin-top:28px}
+.section > h2{margin-bottom:12px}
+
+/* KPI tiles */
+.kpis{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+.kpi{background:var(--surface);padding:14px 16px;min-width:0}
+.kpi .v{font-size:1.85rem;font-weight:600;line-height:1.1;margin-top:4px}
+.kpi .l{font-size:.8rem;color:var(--ink-2)}
+.kpi .d{font-size:.75rem;color:var(--muted);margin-top:3px}
+@media (max-width:1050px){.kpis{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:560px){.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.kpi .v{font-size:1.5rem}}
+
+/* chips & stamps */
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{display:inline-flex;align-items:center;gap:6px;background:var(--surface-2);border-radius:999px;padding:3px 10px;font-size:.78rem;color:var(--ink-2);white-space:nowrap}
+.chip .dot{width:8px;height:8px;border-radius:50%;flex:0 0 8px}
+.chip.on{background:var(--accent-wash);color:var(--ink)}
+.stamp{display:inline-block;font:600 .68rem/1 var(--font-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--stamp);border:1.5px solid currentColor;border-radius:3px;padding:3px 6px 2px;white-space:nowrap}
+.stamp.solid{background:var(--stamp-wash)}
+.stamp.big{font-size:.8rem;padding:5px 9px 4px;transform:rotate(-2deg);border-width:2px}
+.stamp.neutral{color:var(--muted)}
+.catdot{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:6px;vertical-align:baseline}
+
+/* tables */
+.tablewrap{overflow-x:auto;-webkit-overflow-scrolling:touch;border:1px solid var(--line);border-radius:var(--r);background:var(--surface)}
+table{border-collapse:separate;border-spacing:0;width:100%;font-size:.86rem}
+th,td{padding:8px 10px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line)}
+th{background:var(--surface-2);font-weight:600;color:var(--ink-2);font-size:.76rem;white-space:nowrap;position:sticky;top:0}
+tbody tr:last-child td{border-bottom:0}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+tbody tr.click{cursor:pointer}
+tbody tr.click:hover td{background:var(--accent-wash)}
+tr.bench td{background:color-mix(in srgb,var(--accent-wash) 70%,transparent)}
+.sticky1 th:first-child,.sticky1 td:first-child{position:sticky;left:0;z-index:1;background:var(--surface);box-shadow:1px 0 0 var(--line)}
+.sticky1 th:first-child{z-index:2;background:var(--surface-2)}
+.sticky1 tbody tr.click:hover td:first-child{background:var(--accent-wash)}
+.sticky1 tr.bench td:first-child{background:var(--accent-wash)}
+th button.sort{background:none;border:0;padding:0;font:inherit;color:inherit;display:inline-flex;gap:4px;align-items:center}
+th button.sort[aria-sort="ascending"]::after{content:"↑"}
+th button.sort[aria-sort="descending"]::after{content:"↓"}
+.pname{font-weight:600;color:var(--ink);min-width:200px;max-width:320px}
+.pname .ins{display:block;font-weight:400;color:var(--muted);font-size:.78rem}
+.yes{color:var(--good-text)} .no{color:var(--muted)}
+.cmpbtn{width:30px;height:30px;border-radius:50%;border:1px solid var(--line-strong);background:var(--surface);color:var(--ink-2);font-weight:600;line-height:1;display:inline-flex;align-items:center;justify-content:center}
+.cmpbtn[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.spec{font-size:.75rem;white-space:nowrap}
+
+/* filters */
+.filters{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:12px}
+.filters input[type="search"]{flex:1 1 220px}
+.filters select{flex:0 1 auto;max-width:100%}
+.resultbar{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:8px;margin-bottom:10px;font-size:.84rem;color:var(--ink-2)}
+details.filterbox > summary{list-style:none;cursor:pointer;display:inline-flex}
+details.filterbox > summary::-webkit-details-marker{display:none}
+@media (min-width:761px){details.filterbox > summary{display:none}}
+
+/* charts */
+.bars{display:flex;flex-direction:column;gap:5px}
+.bar-row{display:grid;grid-template-columns:minmax(96px,34%) minmax(0,1fr);align-items:center;gap:10px;font-size:.82rem;border-radius:4px;padding:1px 0}
+.bar-row .lab{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--ink-2)}
+.bar-row .lab.b{color:var(--ink);font-weight:600}
+.bar-row .track{display:flex;align-items:center;gap:6px;min-width:0}
+.bar-row .bar{height:14px;border-radius:0 4px 4px 0;background:var(--accent);min-width:2px;transition:filter .15s}
+.bar-row .bar.mut{background:var(--emph-muted)}
+.bar-row .val{font-variant-numeric:tabular-nums;color:var(--ink-2);white-space:nowrap;font-size:.78rem}
+.bar-row.click{cursor:pointer}
+.bar-row.click:hover .bar,.bar-row.click:focus-visible .bar{filter:brightness(1.15)}
+.bar-row.click:hover .lab{color:var(--ink)}
+.stackrow{display:grid;grid-template-columns:minmax(96px,24%) minmax(0,1fr) 34px;align-items:center;gap:10px;font-size:.8rem}
+.stackrow .lab{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--ink-2)}
+.stackrow .lab.b{color:var(--ink);font-weight:600}
+.stack100{display:flex;gap:2px;height:16px;background:var(--surface)}
+.stack100 > span{height:100%;min-width:2px}
+.stack100 > span:first-child{border-radius:0}
+.stack100 > span:last-child{border-radius:0 4px 4px 0}
+.legend{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:.78rem;color:var(--ink-2);margin-bottom:10px}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.legend i{width:10px;height:10px;border-radius:2px;display:inline-block}
+.svgchart{width:100%;display:block;overflow:visible}
+.svgchart text{fill:var(--muted);font:11px var(--font-ui)}
+.svgchart .lbl{fill:var(--ink-2);font-size:11px}
+.svgchart .lbl.b{fill:var(--ink);font-weight:600}
+.grid-line{stroke:var(--line);stroke-width:1}
+.axis-line{stroke:var(--line-strong);stroke-width:1}
+.med-line{stroke:var(--line-strong);stroke-width:1}
+.dot{fill:var(--accent);stroke:var(--surface);stroke-width:2}
+.dot.mut{fill:var(--emph-muted)}
+.hit{fill:transparent;cursor:pointer}
+.hit:hover + .dot,.hit:focus + .dot{stroke:var(--ink)}
+.cols{display:flex;align-items:flex-end;gap:2px;height:160px;padding-top:18px}
+.col{flex:1 1 0;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;min-width:0;height:100%}
+.col .c{width:min(24px,80%);background:var(--accent);border-radius:4px 4px 0 0;min-height:2px;position:relative}
+.col .c b{position:absolute;bottom:100%;left:50%;transform:translateX(-50%);font-size:.7rem;font-weight:500;color:var(--ink-2);padding-bottom:2px;font-variant-numeric:tabular-nums}
+.col .x{font-size:.7rem;color:var(--muted);margin-top:4px;font-variant-numeric:tabular-nums}
+.heat td.cell{text-align:center;font-variant-numeric:tabular-nums;cursor:pointer;min-width:52px;border-left:2px solid var(--surface)}
+.heat td.cell:hover{outline:2px solid var(--ink);outline-offset:-2px}
+.heat td.cell.zero{color:var(--muted);cursor:default}
+.heat td.cell.zero:hover{outline:0}
+.heat th.c{text-align:center;white-space:normal;min-width:64px;line-height:1.2}
+.heat td.tot{font-weight:600;text-align:right}
+.tbtoggle{font-size:.75rem}
+
+/* tooltip */
+#tip{position:fixed;z-index:60;pointer-events:none;background:var(--ink);color:var(--bg);border-radius:5px;padding:7px 9px;font-size:.78rem;line-height:1.35;max-width:260px;box-shadow:0 4px 18px rgba(0,0,0,.18)}
+#tip .tv{font-weight:600;font-size:.9rem}
+#tip .tl{opacity:.8}
+
+/* detail pages */
+.crumbs{font-size:.84rem;margin-bottom:10px;display:flex;gap:6px;flex-wrap:wrap;color:var(--muted)}
+.dhead{display:flex;flex-wrap:wrap;gap:12px 24px;justify-content:space-between;align-items:flex-start;margin-bottom:18px}
+.dhead .main{flex:1 1 420px;min-width:0}
+.dhead .ins{color:var(--ink-2);font-weight:500;margin-bottom:4px}
+.dhead h1{font-size:1.9rem}
+.dhead .desc{color:var(--ink-2);margin-top:10px;max-width:70ch}
+.actions{display:flex;flex-wrap:wrap;gap:8px}
+.uin{display:inline-flex;align-items:stretch;border:1px solid var(--line-strong);border-radius:5px;overflow:hidden;background:var(--surface)}
+.uin > span{display:flex;flex-direction:column;align-items:center;padding:6px 10px;border-right:1px solid var(--line)}
+.uin > span:last-child{border-right:0}
+.uin b{font:500 1.05rem/1.1 var(--font-mono)}
+.uin small{font-size:.66rem;color:var(--muted);margin-top:3px;white-space:nowrap}
+.kv{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+.kv > div{background:var(--surface);padding:10px 12px;min-width:0}
+.kv dt{font-size:.74rem;color:var(--muted)}
+.kv dd{margin:2px 0 0;font-weight:500;overflow-wrap:anywhere}
+dl{margin:0}
+.flags{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.flag{font-size:.78rem;padding:3px 9px;border-radius:999px;border:1px solid var(--line-strong);color:var(--ink-2)}
+.flag.y{border-color:var(--accent);color:var(--ink);background:var(--accent-wash)}
+ul.feat{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:6px}
+.variants{display:flex;flex-direction:column;gap:8px}
+.variants > div{border-left:2px solid var(--line-strong);padding-left:10px}
+.sources{font-size:.8rem;display:flex;flex-direction:column;gap:3px;overflow-wrap:anywhere}
+.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px}
+.tile{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:12px 14px;min-width:0}
+.tile .l{font-size:.78rem;color:var(--ink-2)}
+.tile .v{font-size:1.45rem;font-weight:600;margin-top:2px;line-height:1.2}
+.tile .p{font-size:.72rem;color:var(--muted);margin-top:2px}
+.tile .p.clamp{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;cursor:help}
+td.desc{min-width:260px;max-width:460px;color:var(--ink-2);font-size:.82rem}
+.tile .cmp{font-size:.76rem;margin-top:6px;display:flex;gap:5px;align-items:center}
+.better{color:var(--good-text)} .worse{color:var(--crit-text)}
+.theme-list{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:4px;font-size:.9rem}
+
+/* compare */
+.cmpgrid th[scope="row"]{background:var(--surface);color:var(--ink-2);font-weight:500;font-size:.8rem;white-space:normal;min-width:150px;position:sticky;left:0;z-index:1;box-shadow:1px 0 0 var(--line)}
+.cmpgrid td{min-width:190px;max-width:280px}
+.cmpgrid tr.grp th{background:var(--surface-2);color:var(--ink);font-family:var(--font-display);font-size:.85rem;letter-spacing:.02em}
+.cmpgrid td.best{font-weight:600}
+.cmpgrid td.best::after{content:" ●";color:var(--accent);font-size:.7em;vertical-align:middle}
+.cmphead{display:flex;flex-direction:column;gap:6px}
+.picker{display:flex;flex-direction:column;gap:6px;margin-top:8px}
+.picker .opt{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:6px 8px;border:1px solid var(--line);border-radius:5px;background:var(--surface);font-size:.85rem}
+.tray{position:fixed;left:0;right:0;bottom:0;z-index:35;background:var(--ink);color:var(--bg);padding-bottom:env(safe-area-inset-bottom,0px)}
+.tray .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-block:10px}
+.tray a{color:var(--bg);font-weight:600}
+.tray .btn{background:transparent;color:var(--bg);border-color:color-mix(in srgb,var(--bg) 40%,transparent)}
+.empty{border:1px dashed var(--line-strong);border-radius:var(--r);padding:28px 18px;text-align:center;color:var(--ink-2);background:var(--surface)}
+.empty h3{margin-bottom:6px;color:var(--ink)}
+.log{display:flex;flex-direction:column}
+.logitem{display:grid;grid-template-columns:92px minmax(0,1fr);gap:12px;padding:10px 0;border-bottom:1px solid var(--line)}
+.logitem:last-child{border-bottom:0}
+.logitem .date{font-size:.78rem;color:var(--muted);font-variant-numeric:tabular-nums;padding-top:2px}
+.logitem .what{display:flex;flex-direction:column;gap:3px;min-width:0}
+.logitem .what .top{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.note{font-size:.82rem;color:var(--ink-2);background:var(--surface-2);border-radius:5px;padding:10px 12px}
+.loading{padding:60px 0;text-align:center;color:var(--muted)}
+.prose{max-width:72ch;display:flex;flex-direction:column;gap:10px;color:var(--ink-2)}
+.prose h3{color:var(--ink);margin-top:10px}
+@media (max-width:760px){
+  h1{font-size:1.45rem}
+  .dhead h1{font-size:1.5rem}
+  .bench{padding-bottom:0}
+  .panel{padding:12px}
+  .logitem{grid-template-columns:minmax(0,1fr);gap:2px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+<!-- BODY -->
+<header class="top">
+  <div class="wrap">
+    <div class="brand">
+      <h1>Insurance Products <span class="eyebrow" id="asof"></span></h1>
+      <div class="sub">Every Indian life insurer: products and specs, riders, group plans, claims and grievance record, customer ratings.</div>
+    </div>
+    <label class="bench" for="bench"><span>Highlight insurer</span>
+      <select id="bench" aria-label="Highlight insurer"><option value="">None</option></select>
+    </label>
+    <nav class="tabs" aria-label="Sections">
+      <a href="#overview" data-v="overview">Overview</a>
+      <a href="#insurers" data-v="insurers">Insurers</a>
+      <a href="#products" data-v="products">Products</a>
+      <a href="#compare" data-v="compare">Compare</a>
+      <a href="#changes" data-v="changes">Changes</a>
+      <a href="#about" data-v="about">About the data</a>
+    </nav>
+  </div>
+</header>
+<main class="wrap" id="view"><div class="loading">Loading the catalogue…</div></main>
+<div class="tray" id="tray" hidden><div class="wrap"><span id="traytext"></span><span class="actions"><button class="btn" id="trayclear" type="button">Clear</button><a class="btn" href="#compare" id="traygo">Open compare</a></span></div></div>
+<div id="tip" role="tooltip" hidden></div>
+<script>
+(() => {
+"use strict";
+const CAT_IND = ["Term","ULIP","Savings - Par","Savings - Non-Par","Pension & Annuity","Health & CI"];
+const CAT_VAR = {"Term":"--cat-1","ULIP":"--cat-2","Savings - Par":"--cat-3","Savings - Non-Par":"--cat-4","Pension & Annuity":"--cat-5","Health & CI":"--cat-6"};
+const METRICS = {
+  nbp_cr:{l:"New business premium",f:"cr",b:"high"},
+  nbp_market_share_pct:{l:"Share of industry new business",f:"pct",b:"high"},
+  nbp_growth_pct:{l:"New business growth (YoY)",f:"pcts",b:"high"},
+  individual_nbp_cr:{l:"Individual new business premium",f:"cr"},
+  new_individual_policies:{l:"Individual policies issued",f:"int"},
+  gross_premium_cr:{l:"Gross premium",f:"cr"},
+  aum_cr:{l:"Assets under management",f:"cr"},
+  solvency_ratio:{l:"Solvency ratio",f:"ratio",b:"high"},
+  csr_count_pct:{l:"Death claims settled (by number)",f:"pct2",b:"high"},
+  csr_amount_pct:{l:"Death claims settled (by amount)",f:"pct2",b:"high"},
+  claims_repudiated_pct:{l:"Death claims repudiated",f:"pct2",b:"low"},
+  grievances_per_10k:{l:"Grievances per 10,000 policies",f:"dec",b:"low"},
+  grievances_total:{l:"Grievances reported",f:"int",b:"low"},
+  ombudsman_complaints:{l:"Ombudsman complaints",f:"int",b:"low"},
+  persistency_13m_pct:{l:"13th-month persistency",f:"pct",b:"high"},
+  persistency_61m_pct:{l:"61st-month persistency",f:"pct",b:"high"},
+  agents_count:{l:"Individual agents",f:"int"},
+  branches_count:{l:"Branches",f:"int"},
+  pat_cr:{l:"Profit after tax",f:"cr"},
+  vnb_margin_pct:{l:"VNB margin",f:"pct"},
+  ulip_share_pct:{l:"ULIP share of new business",f:"pct"},
+  par_share_pct:{l:"Par share of new business",f:"pct"},
+  nonpar_savings_share_pct:{l:"Non-par savings share",f:"pct"},
+  protection_share_pct:{l:"Protection share",f:"pct"},
+  annuity_share_pct:{l:"Annuity share",f:"pct"}
+};
+const TILE_KEYS = ["nbp_cr","nbp_market_share_pct","nbp_growth_pct","csr_count_pct","csr_amount_pct","claims_repudiated_pct","grievances_per_10k","ombudsman_complaints","solvency_ratio","aum_cr","persistency_13m_pct","persistency_61m_pct","gross_premium_cr","new_individual_policies","agents_count","branches_count","pat_cr","vnb_margin_pct","ulip_share_pct","par_share_pct","nonpar_savings_share_pct","protection_share_pct","annuity_share_pct","individual_nbp_cr","grievances_total"];
+const CHANGE_TYPES = {
+  launch:{l:"Launch",s:"new"}, new_version:{l:"New version",s:"revised"}, withdrawal:{l:"Withdrawal",s:"withdrawn"},
+  new_uin:{l:"New UIN spotted",s:"review"}, missing_uin:{l:"UIN missing from list",s:"review"},
+  rating_change:{l:"Rating change",s:"rating"}, spec_update:{l:"Spec update",s:"updated"},
+  metric_update:{l:"Metric update",s:"updated"}, baseline:{l:"Baseline",s:"baseline"}, rename:{l:"Rename",s:"renamed"},
+  page_failed:{l:"Source unreachable",s:"check"}
+};
+const UIN_TYPE = {N:"Non-linked",L:"Linked",B:"Rider",G:"Group",A:"Annuity"};
+
+const S = {
+  d:null, comp:{}, prod:{}, route:{v:"overview",id:null}, bench:"",
+  f:{q:"",segment:"Individual",category:"",company:"",status:"Active",linkage:"",participation:"",need:"",online:""},
+  sort:{k:"",dir:1}, shown:60, cmpP:[], cmpI:[], insSort:{k:"nbp_market_share_pct",dir:-1}, logType:"", logCo:""
+};
+
+/* ---------- utilities ---------- */
+const nfIN = new Intl.NumberFormat("en-IN");
+const nf1 = new Intl.NumberFormat("en-IN",{maximumFractionDigits:1});
+const nf2 = new Intl.NumberFormat("en-IN",{maximumFractionDigits:2});
+const $ = (sel, root=document) => root.querySelector(sel);
+function h(tag, attrs, ...kids){
+  const e = document.createElement(tag);
+  if (attrs) for (const [k,v] of Object.entries(attrs)){
+    if (v == null || v === false) continue;
+    if (k === "class") e.className = v;
+    else if (k === "text") e.textContent = v;
+    else if (k === "style") e.setAttribute("style", v);
+    else if (k.startsWith("on") && typeof v === "function") e.addEventListener(k.slice(2), v);
+    else e.setAttribute(k, v === true ? "" : v);
+  }
+  for (const k of kids.flat(Infinity)){
+    if (k == null || k === false || k === "") continue;
+    e.append(k instanceof Node ? k : document.createTextNode(String(k)));
+  }
+  return e;
+}
+const SVGNS = "http://www.w3.org/2000/svg";
+function sv(tag, attrs, ...kids){
+  const e = document.createElementNS(SVGNS, tag);
+  if (attrs) for (const [k,v] of Object.entries(attrs)){ if (v == null) continue; if (k === "text") e.textContent = v; else if (k.startsWith("on") && typeof v === "function") e.addEventListener(k.slice(2), v); else e.setAttribute(k, v); }
+  for (const k of kids.flat()) if (k) e.append(k);
+  return e;
+}
+const ls = {
+  get(k, d){ try { const v = localStorage.getItem(k); return v == null ? d : JSON.parse(v); } catch { return d; } },
+  set(k, v){ try { localStorage.setItem(k, JSON.stringify(v)); } catch {} }
+};
+function trimNum(x){ return nf2.format(Math.round(x*100)/100); }
+function inr(n){
+  if (n == null || isNaN(n)) return "—";
+  if (n >= 1e7) return "₹" + trimNum(n/1e7) + " Cr";
+  if (n >= 1e5) return "₹" + trimNum(n/1e5) + " L";
+  return "₹" + nfIN.format(n);
+}
+function fmtMetric(key, v){
+  if (v == null || isNaN(v)) return "—";
+  const f = (METRICS[key]||{}).f;
+  switch (f){
+    case "cr": return "₹" + nfIN.format(Math.round(v)) + " Cr";
+    case "pct": return nf1.format(v) + "%";
+    case "pct2": return nf2.format(v) + "%";
+    case "pcts": return (v > 0 ? "+" : "") + nf1.format(v) + "%";
+    case "ratio": return nf2.format(v) + "×";
+    case "dec": return nf1.format(v);
+    case "int": return nfIN.format(Math.round(v));
+    default: return nf2.format(v);
+  }
+}
+function mval(c, key){ const m = c && c.metrics && c.metrics[key]; return m && typeof m.value === "number" ? m.value : null; }
+function ageTxt(n){ if (n == null) return null; if (n < 1){ const d = Math.round(n*365); return d <= 31 ? d + " days" : Math.round(n*12) + " months"; } return trimNum(n); }
+function entryAge(e){
+  if (!e) return "—";
+  const a = ageTxt(e.entry_age_min_years), b = ageTxt(e.entry_age_max_years);
+  if (a == null && b == null) return "—";
+  const unitA = a && /days|months/.test(a);
+  if (b == null) return "from " + a + (unitA ? "" : " yrs");
+  if (a == null) return "up to " + b + " yrs";
+  return unitA ? `${a} – ${b} yrs` : `${a}–${b} yrs`;
+}
+function termTxt(e){
+  if (!e) return "—";
+  if (e.whole_life) return "Whole life" + (e.maturity_age_max_years ? ` (to ${e.maturity_age_max_years})` : "");
+  const a = e.policy_term_min_years, b = e.policy_term_max_years;
+  if (a == null && b == null) return "—";
+  if (a != null && b != null && a !== b) return `${trimNum(a)}–${trimNum(b)} yrs`;
+  return `${trimNum(a ?? b)} yrs`;
+}
+function pptTxt(e){ const p = e && e.ppt_options; return p && p.length ? p.join(", ") : "—"; }
+function minPrem(e){
+  if (!e) return "—";
+  if (e.min_annual_premium_inr != null) return inr(e.min_annual_premium_inr) + (e.min_single_premium_inr != null ? " · SP " + inr(e.min_single_premium_inr) : "");
+  if (e.min_single_premium_inr != null) return inr(e.min_single_premium_inr) + " single";
+  return "—";
+}
+function yn(v){ return v === true ? "Yes" : v === false ? "No" : "—"; }
+function fmtDate(s){
+  if (!s) return "—";
+  const p = s.split("-"); const M = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  if (p.length === 3) return `${+p[2]} ${M[+p[1]-1]} ${p[0]}`;
+  if (p.length === 2) return `${M[+p[1]-1]} ${p[0]}`;
+  return p[0];
+}
+function catColor(cat){ return CAT_VAR[cat] ? `var(${CAT_VAR[cat]})` : "var(--line-strong)"; }
+function cname(id){ const c = S.comp[id]; return c ? (c.short || c.name) : id; }
+function median(a){ const v = a.filter(x => x != null && !isNaN(x)).sort((x,y) => x-y); if (!v.length) return null; const m = Math.floor(v.length/2); return v.length % 2 ? v[m] : (v[m-1]+v[m])/2; }
+function go(hash){ if (location.hash === "#" + hash) render(); else location.hash = hash; }
+function linkTo(hash, text, cls){ return h("a", {href:"#"+hash, class:cls}, text); }
+function ext(url, text){ return url ? h("a", {href:url, target:"_blank", rel:"noopener"}, text || url) : null; }
+function host(u){ try { return new URL(u).hostname.replace(/^www\./, ""); } catch { return u; } }
+
+/* ---------- tooltip ---------- */
+const tip = $("#tip");
+function showTip(ev, value, label, extra){
+  tip.replaceChildren(h("div", {class:"tv"}, value), h("div", {class:"tl"}, label), extra ? h("div", {class:"tl"}, extra) : null);
+  tip.hidden = false;
+  let x, y;
+  if (ev && ev.clientX != null && (ev.clientX || ev.clientY)){ x = ev.clientX; y = ev.clientY; }
+  else { const r = ev.target.getBoundingClientRect(); x = r.left + r.width/2; y = r.top; }
+  const w = tip.offsetWidth, hh = tip.offsetHeight;
+  tip.style.left = Math.max(8, Math.min(window.innerWidth - w - 8, x + 12)) + "px";
+  tip.style.top = Math.max(8, y - hh - 12) + "px";
+}
+function hideTip(){ tip.hidden = true; }
+function hover(node, fn){
+  const on = ev => { const r = fn(); showTip(ev, r[0], r[1], r[2]); };
+  node.addEventListener("pointermove", on); node.addEventListener("pointerenter", on);
+  node.addEventListener("pointerleave", hideTip); node.addEventListener("focus", on); node.addEventListener("blur", hideTip);
+}
+window.addEventListener("scroll", hideTip, {passive:true});
+
+/* ---------- chart card with table twin ---------- */
+function card(title, sub, chartFn, table, extraHead){
+  const body = h("div");
+  let asTable = false;
+  const btn = h("button", {class:"btn ghost tbtoggle", type:"button", "aria-pressed":"false"}, "Table");
+  const draw = () => { body.replaceChildren(asTable ? table() : chartFn()); btn.textContent = asTable ? "Chart" : "Table"; btn.setAttribute("aria-pressed", String(asTable)); };
+  btn.addEventListener("click", () => { asTable = !asTable; draw(); });
+  draw();
+  return h("section", {class:"panel"},
+    h("div", {class:"panel-head"}, h("div", {class:"t"}, h("h3", null, title), sub ? h("div", {class:"s"}, sub) : null), h("div", {class:"actions"}, extraHead, table ? btn : null)),
+    body);
+}
+function simpleTable(cols, rows){
+  return h("div", {class:"tablewrap"}, h("table", null,
+    h("thead", null, h("tr", null, cols.map(c => h("th", {class:c.n ? "n" : null}, c.l)))),
+    h("tbody", null, rows.map(r => h("tr", null, cols.map(c => h("td", {class:c.n ? "n" : null}, c.v(r))))))));
+}
+
+/* ---------- charts ---------- */
+function barList(rows, {fmt, onClick, tipLabel}){
+  const max = Math.max(...rows.map(r => r.v || 0), 0) || 1;
+  return h("div", {class:"bars"}, rows.map(r => {
+    const mut = S.bench && r.id !== S.bench;
+    const row = h("div", {class:"bar-row" + (onClick ? " click" : ""), tabindex: onClick ? "0" : null, role: onClick ? "link" : null},
+      h("div", {class:"lab" + (r.id && r.id === S.bench ? " b" : "")}, r.l),
+      h("div", {class:"track"}, h("div", {class:"bar" + (mut ? " mut" : ""), style:`width:${Math.max(0.6, 100 * (r.v || 0) / max) * 0.86}%`}), h("span", {class:"val"}, fmt(r.v))));
+    if (onClick){ row.addEventListener("click", () => onClick(r)); row.addEventListener("keydown", e => { if (e.key === "Enter") onClick(r); }); }
+    hover(row, () => [fmt(r.v), r.l, tipLabel ? tipLabel(r) : null]);
+    return row;
+  }));
+}
+function niceTicks(lo, hi, n=5){
+  const span = hi - lo || 1, step0 = span / n, mag = Math.pow(10, Math.floor(Math.log10(step0)));
+  const step = [1,2,2.5,5,10].map(m => m*mag).find(s => span/s <= n) || mag*10;
+  const t = []; for (let v = Math.ceil(lo/step)*step; v <= hi + 1e-9; v += step) t.push(+v.toFixed(6));
+  return t;
+}
+function scatter(points, {xKey, yKey, xLabel, yLabel, xFmt, yFmt}){
+  const holder = h("div");
+  const drawIt = () => {
+    const W = Math.max(300, holder.clientWidth || 600), H = Math.min(360, Math.max(260, W * 0.6));
+    const m = {l:44, r:16, t:12, b:40};
+    const xs = points.map(p => p.x), ys = points.map(p => p.y);
+    let x0 = Math.min(...xs), x1 = Math.max(...xs), y1 = Math.max(...ys);
+    x0 = Math.floor(x0 - (x1-x0)*0.08 - 0.1); x1 = Math.min(100.2, Math.max(x1 + (x1-x0)*0.05, x0 + 1));
+    const xt = niceTicks(x0, x1, W < 420 ? 4 : 6).filter(t => t >= x0 && t <= x1), yt = niceTicks(0, y1 * 1.12, 5);
+    const yMax = yt[yt.length-1] || 1;
+    const X = v => m.l + (v - x0) / (x1 - x0) * (W - m.l - m.r), Y = v => H - m.b - v / yMax * (H - m.t - m.b);
+    const g = sv("svg", {viewBox:`0 0 ${W} ${H}`, class:"svgchart", role:"img", "aria-label":`${yLabel} against ${xLabel}`});
+    yt.forEach(t => { g.append(sv("line", {x1:m.l, x2:W-m.r, y1:Y(t), y2:Y(t), class:"grid-line"}), sv("text", {x:m.l-6, y:Y(t)+4, "text-anchor":"end", text:yFmt(t)})); });
+    xt.forEach(t => g.append(sv("text", {x:X(t), y:H-m.b+16, "text-anchor":"middle", text:xFmt(t)})));
+    g.append(sv("line", {x1:m.l, x2:W-m.r, y1:H-m.b, y2:H-m.b, class:"axis-line"}));
+    g.append(sv("text", {x:(m.l + W - m.r)/2, y:H-6, "text-anchor":"middle", text:xLabel + " →"}));
+    g.append(sv("text", {x:12, y:(m.t + H - m.b)/2, "text-anchor":"middle", transform:`rotate(-90 12 ${(m.t + H - m.b)/2})`, text:"← " + yLabel}));
+    const mx = median(xs), my = median(ys);
+    if (mx != null) g.append(sv("line", {x1:X(mx), x2:X(mx), y1:m.t, y2:H-m.b, class:"med-line"}), sv("text", {x:X(mx)+4, y:m.t+10, text:"median"}));
+    if (my != null) g.append(sv("line", {x1:m.l, x2:W-m.r, y1:Y(my), y2:Y(my), class:"med-line"}));
+    const lab = new Set();
+    const sx = [...points].sort((a,b) => a.x - b.x), sy = [...points].sort((a,b) => b.y - a.y);
+    [sx[0], sy[0], sy[1]].forEach(p => p && lab.add(p.id)); if (S.bench) lab.add(S.bench);
+    points.forEach(p => {
+      const mut = S.bench && p.id !== S.bench;
+      const cx = X(p.x), cy = Y(p.y);
+      const hit = sv("circle", {cx, cy, r:12, class:"hit", tabindex:"0", role:"link", "aria-label":`${p.l}: ${xFmt(p.x)}, ${yFmt(p.y)}`});
+      const dot = sv("circle", {cx, cy, r:5, class:"dot" + (mut ? " mut" : "")});
+      hit.addEventListener("click", () => go("insurer-" + p.id));
+      hit.addEventListener("keydown", e => { if (e.key === "Enter") go("insurer-" + p.id); });
+      hover(hit, () => [`${xFmt(p.x)} · ${yFmt(p.y)}`, p.l, `${xLabel} · ${yLabel}`]);
+      g.append(hit, dot);
+      if (lab.has(p.id)){
+        const right = cx < W - 120;
+        g.append(sv("text", {x: right ? cx + 9 : cx - 9, y: cy + 4, "text-anchor": right ? "start" : "end", class:"lbl" + (p.id === S.bench ? " b" : ""), text:p.l}));
+      }
+    });
+    holder.replaceChildren(g);
+  };
+  requestAnimationFrame(drawIt);
+  holder._redraw = drawIt;
+  return holder;
+}
+function columns(rows, fmt){
+  const max = Math.max(...rows.map(r => r.v), 1);
+  return h("div", {class:"cols"}, rows.map(r => {
+    const col = h("div", {class:"col", tabindex:"0"}, h("div", {class:"c", style:`height:${Math.max(1.5, 100 * r.v / max) * 0.88}%`}, h("b", null, r.v ? fmt(r.v) : "")), h("div", {class:"x"}, r.l));
+    hover(col, () => [fmt(r.v), r.tl || r.l]);
+    return col;
+  }));
+}
+
+/* ---------- data ---------- */
+function companies(){ return S.d.companies; }
+function products(){ return S.d.products; }
+function activeInd(cid){ return products().filter(p => p.status_label === "Active" && p.segment === "Individual" && (!cid || p.company_id === cid)); }
+
+/* ---------- views ---------- */
+function setTabs(v){
+  document.querySelectorAll(".tabs a").forEach(a => {
+    const on = a.dataset.v === v || (v === "insurer" && a.dataset.v === "insurers") || (v === "product" && a.dataset.v === "products");
+    if (on) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
+  });
+}
+
+function viewOverview(){
+  const c = S.d.meta.counts || {};
+  const view = h("div");
+  view.append(h("div", {class:"view-head"}, h("div", null,
+    h("h2", null, "Market overview"),
+    h("p", null, `${c.insurers || 0} insurers — LIC, every private life insurer licensed by IRDAI, and India Post's PLI/RPLI — with ${nfIN.format(c.active_individual || 0)} individual products on sale today.`))));
+  const kp = [
+    ["Insurers tracked", c.insurers, "26 IRDAI-licensed + India Post"],
+    ["Individual products on sale", c.active_individual, "term, savings, ULIP, pension, health"],
+    ["Riders on sale", c.active_rider, "add-on covers"],
+    ["Group products", (c.active_group || 0) + (c.active_micro || 0), (c.active_micro ? `incl. ${c.active_micro} micro` : "credit life, gratuity, PMJJBY…")],
+    ["Launched in last 12 months", c.launches_12m, "where launch month is published"],
+    ["Withdrawn or replaced", (c.withdrawn || 0) + (c.superseded || 0), `${nfIN.format(c.superseded || 0)} replaced by a newer version`]
+  ];
+  view.append(h("div", {class:"kpis"}, kp.map(([l, v, d]) => h("div", {class:"kpi"}, h("div", {class:"l"}, l), h("div", {class:"v"}, v == null ? "—" : nfIN.format(v)), h("div", {class:"d"}, d)))));
+
+  // market share + customer signals
+  const share = companies().map(x => ({id:x.id, l:cname(x.id), v:mval(x, "nbp_market_share_pct"), m:x.metrics && x.metrics.nbp_market_share_pct})).filter(r => r.v != null).sort((a,b) => b.v - a.v);
+  const period = share[0] && share[0].m && share[0].m.period;
+  const pts = companies().map(x => ({id:x.id, l:cname(x.id), x:mval(x, "csr_count_pct"), y:mval(x, "grievances_per_10k")})).filter(p => p.x != null && p.y != null);
+  const csrP = (companies().find(x => x.metrics && x.metrics.csr_count_pct) || {}).metrics?.csr_count_pct?.period;
+  const row1 = h("div", {class:"grid g2 section"});
+  row1.append(share.length ? card("Share of new business premium", period ? `${period} · individual + group first-year premium` : "first-year premium",
+      () => barList(share, {fmt: v => nf1.format(v) + "%", onClick: r => go("insurer-" + r.id), tipLabel: r => r.m && r.m.period}),
+      () => simpleTable([{l:"Insurer", v:r => r.l}, {l:"Share", n:1, v:r => nf2.format(r.v) + "%"}, {l:"NBP", n:1, v:r => fmtMetric("nbp_cr", mval(S.comp[r.id], "nbp_cr"))}], share))
+    : emptyPanel("Market share", "Market share figures are not loaded yet."));
+  row1.append(pts.length >= 3 ? card("Claims settled vs grievances", `${csrP || "latest year"} · lower right is better · tap a dot to open the insurer`,
+      () => scatter(pts, {xKey:"x", yKey:"y", xLabel:"Death claims settled, % by number", yLabel:"Grievances per 10k policies", xFmt: v => nf1.format(v) + "%", yFmt: v => nf1.format(v)}),
+      () => simpleTable([{l:"Insurer", v:r => r.l}, {l:"Claims settled", n:1, v:r => nf2.format(r.x) + "%"}, {l:"Grievances /10k", n:1, v:r => nf1.format(r.y)}], [...pts].sort((a,b) => b.x - a.x)))
+    : emptyPanel("Claims settled vs grievances", "Claim and grievance figures are not loaded yet."));
+  view.append(row1);
+
+  // who sells what
+  view.append(h("div", {class:"section"}, heatPanel()));
+
+  // category snapshot, portfolio mix, then changes beside launch activity
+  view.append(h("div", {class:"section"}, categorySnapshot()));
+  view.append(h("div", {class:"section"}, mixPanel()));
+  const row4 = h("div", {class:"grid g2 section"});
+  row4.append(recentChanges(8));
+  row4.append(launchPanel());
+  view.append(row4);
+  return view;
+}
+function emptyPanel(title, msg){ return h("section", {class:"panel"}, h("h3", null, title), h("p", {class:"muted small", style:"margin-top:8px"}, msg)); }
+
+function heatPanel(){
+  const cols = [...CAT_IND.map(c => ({k:c, l:c, ind:true})), {k:"Rider", l:"Riders"}, {k:"Group", l:"Group"}];
+  const rows = companies().map(c => {
+    const st = c.stats || {};
+    const r = {id:c.id, l:cname(c.id), tot:st.active_individual || 0};
+    CAT_IND.forEach(k => r[k] = (st.by_category || {})[k] || 0);
+    r.Rider = st.active_rider || 0; r.Group = (st.active_group || 0) + (st.active_micro || 0);
+    return r;
+  }).sort((a,b) => b.tot - a.tot);
+  const maxInd = Math.max(1, ...rows.flatMap(r => CAT_IND.map(k => r[k]))), maxOther = Math.max(1, ...rows.flatMap(r => [r.Rider, r.Group]));
+  const step = (v, max) => v <= 0 ? 0 : Math.min(7, 1 + Math.floor(6 * v / max));
+  const ink = s => s >= 5 ? "#ffffff" : "var(--ink)";
+  const table = h("div", {class:"tablewrap"}, h("table", {class:"heat sticky1"},
+    h("thead", null, h("tr", null, h("th", null, "Insurer"), cols.map(c => h("th", {class:"c"}, c.ind ? h("span", {class:"catdot", style:`background:${catColor(c.k)}`}) : null, c.l)), h("th", {class:"n"}, "Individual total"))),
+    h("tbody", null, rows.map(r => h("tr", {class: r.id === S.bench ? "bench" : null},
+      h("td", null, linkTo("insurer-" + r.id, r.l)),
+      cols.map(c => {
+        const v = r[c.k], s = step(v, c.ind ? maxInd : maxOther);
+        const td = h("td", {class:"cell" + (v ? "" : " zero"), style: s ? `background:var(--seq-${s});color:${ink(s)}` : null, tabindex: v ? "0" : null}, v ? String(v) : "·");
+        if (v){
+          const open = () => { Object.assign(S.f, {company:r.id, status:"Active", q:"", linkage:"", participation:"", need:"", online:""}); if (c.ind){ S.f.segment = "Individual"; S.f.category = c.k; } else { S.f.segment = c.k; S.f.category = ""; } S.shown = 60; go("products"); };
+          td.addEventListener("click", open); td.addEventListener("keydown", e => { if (e.key === "Enter") open(); });
+          hover(td, () => [`${v} ${c.ind ? "products" : c.l.toLowerCase()}`, `${r.l} · ${c.l}`, "Tap to list them"]);
+        }
+        return td;
+      }),
+      h("td", {class:"tot n"}, String(r.tot)))))));
+  return h("section", {class:"panel"}, h("div", {class:"panel-head"}, h("div", {class:"t"}, h("h3", null, "Who sells what"), h("div", {class:"s"}, "Active products by insurer and category · darker = more products · tap a cell to list them"))), table);
+}
+
+function categorySnapshot(){
+  const rows = CAT_IND.map(cat => {
+    const ps = products().filter(p => p.status_label === "Active" && p.segment === "Individual" && p.category === cat);
+    const ins = new Set(ps.map(p => p.company_id));
+    const online = ps.filter(p => p.online_purchase === true).length, known = ps.filter(p => p.online_purchase != null).length;
+    const newest = ps.filter(p => p.launch_date && p.launch_date.length >= 7).sort((a,b) => b.launch_date.localeCompare(a.launch_date))[0];
+    return {cat, n:ps.length, ins:ins.size, mat:median(ps.map(p => p.eligibility && p.eligibility.maturity_age_max_years)), online: known ? Math.round(100*online/known) : null, newest};
+  });
+  const tb = h("div", {class:"tablewrap"}, h("table", null,
+    h("thead", null, h("tr", null, h("th", null, "Category"), h("th", {class:"n"}, "Products"), h("th", {class:"n"}, "Insurers"), h("th", {class:"n"}, "Median max age at maturity"), h("th", {class:"n"}, "Buyable online"), h("th", null, "Newest launch"))),
+    h("tbody", null, rows.map(r => {
+      const tr = h("tr", {class:"click"},
+        h("td", null, h("span", {class:"catdot", style:`background:${catColor(r.cat)}`}), r.cat),
+        h("td", {class:"n"}, String(r.n)), h("td", {class:"n"}, String(r.ins)),
+        h("td", {class:"n"}, r.mat == null ? "—" : trimNum(r.mat) + " yrs"),
+        h("td", {class:"n"}, r.online == null ? "—" : r.online + "%"),
+        h("td", null, r.newest ? h("span", null, r.newest.name, h("span", {class:"muted small"}, ` · ${cname(r.newest.company_id)} · ${fmtDate(r.newest.launch_date)}`)) : "—"));
+      tr.addEventListener("click", () => { Object.assign(S.f, {segment:"Individual", category:r.cat, company:"", status:"Active", q:""}); S.shown = 60; go("products"); });
+      return tr;
+    }))));
+  return h("section", {class:"panel"}, h("div", {class:"panel-head"}, h("div", {class:"t"}, h("h3", null, "Category snapshot"), h("div", {class:"s"}, "Individual products on sale · tap a row to browse the category"))), tb);
+}
+
+function changeItem(e){
+  const t = CHANGE_TYPES[e.type] || {l:e.type || "Change", s:"note"};
+  const p = e.uin && S.prod[e.uin];
+  return h("div", {class:"logitem"},
+    h("div", {class:"date"}, fmtDate(e.date)),
+    h("div", {class:"what"},
+      h("div", {class:"top"}, h("span", {class:"stamp" + (e.status === "needs_review" ? " solid" : "")}, e.status === "needs_review" ? "needs review" : t.s), e.company_id ? linkTo("insurer-" + e.company_id, cname(e.company_id), "small") : null, h("span", {class:"muted small"}, t.l)),
+      h("div", null, p ? linkTo("product-" + p.id, e.title || p.name) : (e.title || "")),
+      e.details ? h("div", {class:"small ink2"}, e.details) : null,
+      e.source ? h("div", {class:"small"}, ext(e.source, host(e.source))) : null));
+}
+function recentChanges(n){
+  const all = S.d.changelog || [];
+  const log = all.filter(e => e.type !== "baseline").slice(0, n);
+  const base = all.filter(e => e.type === "baseline").length;
+  return h("section", {class:"panel"}, h("div", {class:"panel-head"}, h("div", {class:"t"}, h("h3", null, "Recent changes"), h("div", {class:"s"}, "Launches, withdrawals and flags from the weekly refresh")), linkTo("changes", "All changes", "small")),
+    log.length ? h("div", {class:"log"}, log.map(changeItem)) : h("p", {class:"muted small"}, `No launches or withdrawals logged yet. ${base ? `Baselines recorded for ${base} insurers; ` : ""}the weekly check runs every Monday morning and compares each official product list against them.`));
+}
+
+function mixPanel(){
+  const rows = companies().map(c => {
+    const bc = (c.stats || {}).by_category || {}, tot = CAT_IND.reduce((s,k) => s + (bc[k] || 0), 0);
+    return {id:c.id, l:cname(c.id), tot, bc};
+  }).filter(r => r.tot > 0).sort((a,b) => b.tot - a.tot);
+  const legend = h("div", {class:"legend"}, CAT_IND.map(k => h("span", null, h("i", {style:`background:${catColor(k)}`}), k)));
+  const chart = () => h("div", null, legend.cloneNode(true), h("div", {class:"bars"}, rows.map(r => h("div", {class:"stackrow"},
+    h("a", {class:"lab" + (r.id === S.bench ? " b" : ""), href:"#insurer-" + r.id}, r.l),
+    h("div", {class:"stack100"}, CAT_IND.filter(k => r.bc[k]).map(k => { const s = h("span", {style:`width:${100*r.bc[k]/r.tot}%;background:${catColor(k)}`, tabindex:"0"}); hover(s, () => [`${r.bc[k]} of ${r.tot} (${Math.round(100*r.bc[k]/r.tot)}%)`, `${r.l} · ${k}`]); return s; })),
+    h("span", {class:"small muted num"}, String(r.tot))))));
+  const table = () => simpleTable([{l:"Insurer", v:r => r.l}, ...CAT_IND.map(k => ({l:k, n:1, v:r => String(r.bc[k] || 0)})), {l:"Total", n:1, v:r => String(r.tot)}], rows);
+  return card("Portfolio mix", "Share of each insurer's individual products on sale, by category", chart, table);
+}
+
+function launchPanel(){
+  const years = {};
+  products().forEach(p => { if (p.launch_date && (p.segment === "Individual")){ const y = +p.launch_date.slice(0,4); if (y >= 2015) years[y] = (years[y] || 0) + 1; } });
+  const ys = Object.keys(years).map(Number).sort();
+  if (!ys.length) return emptyPanel("Launch activity", "Launch dates are not loaded yet.");
+  const rows = []; for (let y = ys[0]; y <= ys[ys.length-1]; y++) rows.push({l:String(y).slice(2) === String(y).slice(2) ? "’" + String(y).slice(2) : y, tl:`${y}: individual products launched (still on sale or since withdrawn)`, v:years[y] || 0, y});
+  return card("Launch activity", "Individual products by launch year, where the insurer publishes a launch date",
+    () => columns(rows, v => String(v)),
+    () => simpleTable([{l:"Year", v:r => String(r.y)}, {l:"Products launched", n:1, v:r => String(r.v)}], rows));
+}
+
+/* ---------- insurers ---------- */
+function viewInsurers(){
+  const keys = [["nbp_market_share_pct","Share"],["nbp_cr","New business"],["nbp_growth_pct","Growth"],["csr_count_pct","Claims settled"],["grievances_per_10k","Grievances /10k"],["solvency_ratio","Solvency"],["persistency_13m_pct","13M persistency"]];
+  const rows = companies().map(c => ({c, id:c.id, l:cname(c.id), sector:c.sector, listed:c.listed, ind:(c.stats||{}).active_individual || 0, launches:(c.stats||{}).launches_12m || 0, rating:(c.reviews && c.reviews.android && c.reviews.android.rating) ?? null}));
+  const k = S.insSort.k, dir = S.insSort.dir;
+  const val = r => k === "name" ? r.l : k === "ind" ? r.ind : k === "rating" ? r.rating : k === "launches" ? r.launches : mval(r.c, k);
+  rows.sort((a,b) => { const x = val(a), y = val(b); if (x == null && y == null) return a.l.localeCompare(b.l); if (x == null) return 1; if (y == null) return -1; return (typeof x === "string" ? x.localeCompare(y) : x - y) * dir; });
+  const sortBtn = (key, label) => { const b = h("button", {class:"sort", type:"button", "aria-sort": S.insSort.k === key ? (S.insSort.dir > 0 ? "ascending" : "descending") : null}, label); b.addEventListener("click", () => { if (S.insSort.k === key) S.insSort.dir *= -1; else S.insSort = {k:key, dir: key === "name" ? 1 : -1}; render(); }); return b; };
+  const view = h("div");
+  view.append(h("div", {class:"view-head"}, h("div", null, h("h2", null, "Insurers"), h("p", null, "Tap an insurer for its profile, metrics against the industry median, full product list and customer reviews. Sort any column."))));
+  const tbl = h("div", {class:"tablewrap"}, h("table", {class:"sticky1"},
+    h("thead", null, h("tr", null, h("th", null, sortBtn("name", "Insurer")), h("th", null, "Sector"), keys.map(([kk, l]) => h("th", {class:"n"}, sortBtn(kk, l))), h("th", {class:"n"}, sortBtn("rating", "App rating")), h("th", {class:"n"}, sortBtn("ind", "Products")), h("th", {class:"n"}, sortBtn("launches", "New (12m)")), h("th", null, ""))),
+    h("tbody", null, rows.map(r => {
+      const sel = S.cmpI.includes(r.id);
+      const cb = h("button", {class:"cmpbtn", type:"button", "aria-pressed": String(sel), title: sel ? "Remove from compare" : "Add to compare", "aria-label":"Compare " + r.l}, sel ? "✓" : "+");
+      cb.addEventListener("click", e => { e.stopPropagation(); toggleCmp("I", r.id); render(); });
+      const tr = h("tr", {class:"click" + (r.id === S.bench ? " bench" : "")},
+        h("td", null, h("div", {class:"pname", style:"min-width:150px"}, r.l, h("span", {class:"ins"}, r.listed && /^Listed/.test(r.listed) ? r.listed : (r.c.former_names && r.c.former_names[0] ? "formerly " + r.c.former_names[0] : "")))),
+        h("td", {class:"small ink2"}, r.sector || "—"),
+        keys.map(([kk]) => h("td", {class:"n"}, fmtMetric(kk, mval(r.c, kk)))),
+        h("td", {class:"n"}, r.rating == null ? "—" : nf1.format(r.rating) + " ★"),
+        h("td", {class:"n"}, String(r.ind)), h("td", {class:"n"}, String(r.launches)), h("td", null, cb));
+      tr.addEventListener("click", () => go("insurer-" + r.id));
+      return tr;
+    }))));
+  view.append(tbl);
+  const med = S.d.industry && S.d.industry.medians || {};
+  view.append(h("p", {class:"small muted", style:"margin-top:10px"}, `Industry medians (excluding India Post and Sahara): claims settled ${fmtMetric("csr_count_pct", med.csr_count_pct)}, grievances per 10k ${fmtMetric("grievances_per_10k", med.grievances_per_10k)}, solvency ${fmtMetric("solvency_ratio", med.solvency_ratio)}. Each figure's period and source are on the insurer page.`));
+  return view;
+}
+
+function metricTile(c, key){
+  const m = c.metrics && c.metrics[key]; if (!m || m.value == null) return null;
+  const def = METRICS[key] || {l:key};
+  const med = S.d.industry && S.d.industry.medians && S.d.industry.medians[key];
+  let cmp = null;
+  if (med != null && def.b && !["indiapost","sahara"].includes(c.id)){
+    const better = def.b === "high" ? m.value > med : m.value < med, same = Math.abs(m.value - med) < 1e-9;
+    cmp = h("div", {class:"cmp " + (same ? "muted" : better ? "better" : "worse")}, same ? "= " : better ? "▲ " : "▼ ", same ? "At industry median" : `${better ? "Better" : "Worse"} than median ${fmtMetric(key, med)}`);
+  }
+  return h("div", {class:"tile"}, h("div", {class:"l"}, def.l), h("div", {class:"v"}, fmtMetric(key, m.value)),
+    h("div", {class:"p"}, m.period, m.source ? [" · ", ext(m.source, host(m.source))] : null), m.note ? h("div", {class:"p clamp", title:m.note}, m.note) : null, cmp);
+}
+
+function viewInsurer(id){
+  const c = S.comp[id];
+  if (!c) return notFound("Insurer not found", "insurers");
+  const view = h("div");
+  view.append(h("div", {class:"crumbs"}, linkTo("insurers", "Insurers"), h("span", null, "/"), h("span", null, cname(id))));
+  const sel = S.cmpI.includes(id);
+  const cmpB = h("button", {class:"btn" + (sel ? " primary" : ""), type:"button"}, sel ? "✓ In compare" : "Add to compare");
+  cmpB.addEventListener("click", () => { toggleCmp("I", id); render(); });
+  const benchB = h("button", {class:"btn", type:"button"}, S.bench === id ? "Highlighted" : "Highlight everywhere");
+  benchB.addEventListener("click", () => { setBench(S.bench === id ? "" : id); render(); });
+  view.append(h("div", {class:"dhead"},
+    h("div", {class:"main"},
+      h("div", {class:"ins"}, [c.sector, c.irdai_reg_no ? "IRDAI reg. " + c.irdai_reg_no : null, c.established_year ? "since " + c.established_year : null, c.hq_city].filter(Boolean).join(" · ")),
+      h("h1", null, c.legal_name || c.name || cname(id)),
+      c.former_names && c.former_names.length ? h("div", {class:"small muted", style:"margin-top:4px"}, "Formerly " + c.former_names.join("; ")) : null,
+      c.status_note ? h("div", {style:"margin-top:8px"}, h("span", {class:"stamp solid"}, c.status_note)) : null,
+      h("div", {class:"desc"}, [c.ownership, c.listed, c.md_ceo ? "MD & CEO: " + c.md_ceo : null].filter(Boolean).join(" · ")),
+      h("div", {class:"chips", style:"margin-top:10px"}, c.website ? h("a", {class:"chip", href:c.website, target:"_blank", rel:"noopener"}, host(c.website)) : null, (c.urls && c.urls.product_list_url) ? h("a", {class:"chip", href:c.urls.product_list_url, target:"_blank", rel:"noopener"}, "Official product list") : null)),
+    h("div", {class:"actions"}, cmpB, benchB)));
+
+  const tiles = TILE_KEYS.map(k => metricTile(c, k)).filter(Boolean);
+  view.append(h("h2", {style:"margin:6px 0 12px"}, "Key metrics"), tiles.length ? h("div", {class:"tiles"}, tiles) : h("p", {class:"muted"}, "No published metrics captured for this insurer yet."));
+
+  // portfolio
+  const st = c.stats || {};
+  const bc = st.by_category || {};
+  const rows = CAT_IND.map(k => ({id:k, l:k, v:bc[k] || 0}));
+  const port = h("div", {class:"grid g2 section"});
+  port.append(card("Individual products on sale", `${st.active_individual || 0} products · ${st.active_rider || 0} riders · ${(st.active_group || 0) + (st.active_micro || 0)} group/micro · ${st.withdrawn || 0} withdrawn on record`,
+    () => h("div", {class:"bars"}, rows.map(r => { const row = h("div", {class:"bar-row click", tabindex:"0"}, h("div", {class:"lab"}, h("span", {class:"catdot", style:`background:${catColor(r.l)}`}), r.l), h("div", {class:"track"}, h("div", {class:"bar", style:`width:${(r.v ? Math.max(2, 86 * r.v / Math.max(1, ...rows.map(x => x.v))) : 0)}%;background:${catColor(r.l)}`}), h("span", {class:"val"}, String(r.v)))); row.addEventListener("click", () => { Object.assign(S.f, {company:id, segment:"Individual", category:r.l, status:"Active", q:""}); go("products"); }); hover(row, () => [String(r.v), `${cname(id)} · ${r.l}`]); return row; })),
+    () => simpleTable([{l:"Category", v:r => r.l}, {l:"Products", n:1, v:r => String(r.v)}], rows)));
+  port.append(reviewsPanel(c));
+  view.append(port);
+
+  // products list
+  const mine = products().filter(p => p.company_id === id);
+  const segs = ["Individual","Rider","Group","Micro"].filter(s => mine.some(p => p.segment === s));
+  const lists = h("section", {class:"section"});
+  lists.append(h("div", {class:"panel-head"}, h("div", {class:"t"}, h("h2", null, "Products"), h("div", {class:"s"}, "Active products by segment · open the full catalogue for filters and withdrawn plans")),
+    h("button", {class:"btn", type:"button", onclick: () => { Object.assign(S.f, {company:id, segment:"", category:"", status:"", q:""}); go("products"); }}, "Open in catalogue")));
+  segs.forEach(sg => {
+    const ps = mine.filter(p => p.segment === sg && p.status_label === "Active");
+    if (!ps.length) return;
+    lists.append(h("h3", {style:"margin:14px 0 8px"}, `${sg} · ${ps.length}`), productTable(ps, {compact:true}));
+  });
+  view.append(lists);
+
+  const log = (S.d.changelog || []).filter(e => e.company_id === id).slice(0, 12);
+  if (log.length) view.append(h("section", {class:"section panel"}, h("h3", null, "Changes"), h("div", {class:"log"}, log.map(changeItem))));
+  const srcs = Object.entries(c.metrics || {}).map(([k, m]) => m.source).filter(Boolean);
+  if (c.catalogue_notes || srcs.length) view.append(h("section", {class:"section"}, h("h3", {style:"margin-bottom:8px"}, "Notes and sources"),
+    c.catalogue_notes ? h("p", {class:"note"}, c.catalogue_notes) : null,
+    h("div", {class:"sources", style:"margin-top:8px"}, [...new Set(srcs)].map(u => ext(u, u)))));
+  return view;
+}
+
+function reviewsPanel(c){
+  const r = c.reviews || {};
+  const body = h("div", {class:"stack"});
+  const apps = [];
+  if (r.android) apps.push(["Android", r.android]);
+  if (r.ios) apps.push(["iOS", r.ios]);
+  if (apps.length) body.append(h("div", {class:"tiles"}, apps.map(([store, a]) => h("div", {class:"tile"}, h("div", {class:"l"}, `${store} app${a.app_name ? " · " + a.app_name : ""}`), h("div", {class:"v"}, a.rating != null ? nf1.format(a.rating) + " ★" : "—"), h("div", {class:"p"}, [a.ratings_count != null ? nfIN.format(a.ratings_count) + " ratings" : null, a.installs ? a.installs + " installs" : null, a.observed_on ? "as of " + fmtDate(a.observed_on) : null].filter(Boolean).join(" · "))))));
+  if (r.third_party && r.third_party.length) body.append(h("div", null, h("div", {class:"eyebrow", style:"margin-bottom:6px"}, "Review sites"), h("div", {class:"chips"}, r.third_party.map(t => h("a", {class:"chip", href:t.url, target:"_blank", rel:"noopener"}, `${t.site}: ${t.rating != null ? nf1.format(t.rating) + "/" + (t.scale || 5) : "—"}${t.reviews_count ? " · " + nfIN.format(t.reviews_count) + " reviews" : ""}`)))));
+  if (r.review_summary) body.append(h("p", {class:"ink2"}, r.review_summary));
+  const themes = h("div", {class:"grid g2"});
+  if (r.positives && r.positives.length) themes.append(h("div", null, h("div", {class:"eyebrow better", style:"margin-bottom:6px"}, "▲ Customers like"), h("ul", {class:"theme-list"}, r.positives.map(t => h("li", null, t)))));
+  if (r.negatives && r.negatives.length) themes.append(h("div", null, h("div", {class:"eyebrow worse", style:"margin-bottom:6px"}, "▼ Customers complain about"), h("ul", {class:"theme-list"}, r.negatives.map(t => h("li", null, t)))));
+  if (themes.childNodes.length) body.append(themes);
+  const ds = r.digital_servicing;
+  if (ds) body.append(h("div", null, h("div", {class:"eyebrow", style:"margin-bottom:6px"}, "Digital servicing"), h("div", {class:"flags"},
+    [["WhatsApp", ds.whatsapp, ds.whatsapp_number], ["Customer app", ds.customer_app], ["Website chatbot", ds.web_chatbot], ["Self-service portal", ds.customer_portal]].map(([l, v, x]) => h("span", {class:"flag" + (v ? " y" : "")}, (v ? "✓ " : v === false ? "✕ " : "? ") + l + (x ? " " + x : ""))))));
+  if (!body.childNodes.length) body.append(h("p", {class:"muted small"}, "No customer reviews captured yet."));
+  return h("section", {class:"panel"}, h("div", {class:"panel-head"}, h("div", {class:"t"}, h("h3", null, "Customer reviews"), h("div", {class:"s"}, "App store ratings, review sites and recurring themes"))), body);
+}
+
+/* ---------- products ---------- */
+function lensCols(cat){
+  const cd = p => p.category_details || {};
+  switch (cat){
+    case "Term": return [
+      {l:"Return of premium", v:p => yn((cd(p).term||{}).rop_option)},
+      {l:"Whole-life cover", v:p => yn((cd(p).term||{}).whole_life_cover_option)},
+      {l:"Critical illness / accelerated", v:p => yn((cd(p).term||{}).ci_or_accelerated_benefit)},
+      {l:"Payout", v:p => (cd(p).term||{}).payout_options || "—"}];
+    case "ULIP": return [
+      {l:"Funds", n:1, v:p => (cd(p).ulip||{}).funds_count ?? "—"},
+      {l:"Max FMC", n:1, v:p => (cd(p).ulip||{}).fmc_max_pct != null ? nf2.format(cd(p).ulip.fmc_max_pct) + "%" : "—"},
+      {l:"Loyalty additions", v:p => yn((cd(p).ulip||{}).loyalty_additions)},
+      {l:"Return of mortality charges", v:p => yn((cd(p).ulip||{}).return_of_mortality_charges)}];
+    case "Savings - Par": case "Savings - Non-Par": return [
+      {l:"Payout", v:p => (cd(p).savings||{}).payout_type || "—"},
+      {l:"Guaranteed", v:p => yn((p.benefits||{}).guaranteed)},
+      {l:"Bonus", v:p => (cd(p).savings||{}).bonus_type || "—"},
+      {l:"Published return", v:p => (cd(p).savings||{}).illustrative_return || "—"}];
+    case "Pension & Annuity": return [
+      {l:"Type", v:p => (cd(p).annuity||{}).immediate_or_deferred || p.sub_category || "—"},
+      {l:"Annuity options", n:1, v:p => (cd(p).annuity||{}).annuity_options_count ?? "—"},
+      {l:"Joint life", v:p => yn((cd(p).annuity||{}).joint_life)},
+      {l:"Min purchase price", n:1, v:p => (cd(p).annuity||{}).min_purchase_price_inr != null ? inr(cd(p).annuity.min_purchase_price_inr) : "—"}];
+    case "Health & CI": return [
+      {l:"Conditions covered", n:1, v:p => (cd(p).health||{}).conditions_covered ?? "—"},
+      {l:"Benefit", v:p => (cd(p).health||{}).benefit_type || "—"},
+      {l:"Waiting period", n:1, v:p => (cd(p).health||{}).waiting_period_days != null ? cd(p).health.waiting_period_days + " days" : "—"}];
+    default: return [];
+  }
+}
+const SORTS = {
+  name:p => p.name || "", mat:p => p.eligibility && p.eligibility.maturity_age_max_years, emax:p => p.eligibility && p.eligibility.entry_age_max_years,
+  prem:p => p.eligibility && (p.eligibility.min_annual_premium_inr ?? p.eligibility.min_single_premium_inr), sa:p => p.eligibility && p.eligibility.min_sum_assured_inr, launch:p => p.launch_date || ""
+};
+function compactTable(list){
+  return h("div", {class:"tablewrap"}, h("table", {class:"sticky1"},
+    h("thead", null, h("tr", null, h("th", null, "Product"), h("th", null, "UIN"), h("th", null, "Category"), h("th", null, "What it covers"), h("th", null, ""))),
+    h("tbody", null, list.map(p => {
+      const sel = S.cmpP.includes(p.id);
+      const cb = h("button", {class:"cmpbtn", type:"button", "aria-pressed": String(sel), title: sel ? "Remove from compare" : "Add to compare", "aria-label":"Compare " + p.name}, sel ? "✓" : "+");
+      cb.addEventListener("click", ev => { ev.stopPropagation(); toggleCmp("P", p.id); render(); });
+      const tr = h("tr", {class:"click" + (p.company_id === S.bench ? " bench" : "")},
+        h("td", null, h("div", {class:"pname"}, p.name, p.status_label !== "Active" ? h("span", {class:"stamp neutral", style:"margin-left:6px"}, p.status_label) : null, h("span", {class:"ins"}, cname(p.company_id) + (p.withdrawn_date ? " · withdrawn " + fmtDate(p.withdrawn_date) : "")))),
+        h("td", {class:"mono", style:"white-space:nowrap"}, p.uin || "—"),
+        h("td", {class:"small", style:"white-space:nowrap"}, p.category || "—"),
+        h("td", {class:"desc"}, p.description || (p.key_features || [])[0] || p.sub_category || "—"),
+        h("td", null, cb));
+      tr.addEventListener("click", () => go("product-" + p.id));
+      return tr;
+    }))));
+}
+function productTable(list, opt={}){
+  if (list.length && list.every(p => p.segment !== "Individual" || p.status_label === "Withdrawn")) return compactTable(list);
+  const lens = opt.lens ? lensCols(opt.lens) : [];
+  const sortable = !opt.compact;
+  const th = (key, label, n) => {
+    if (!sortable || !key) return h("th", {class:n ? "n" : null}, label);
+    const b = h("button", {class:"sort", type:"button", "aria-sort": S.sort.k === key ? (S.sort.dir > 0 ? "ascending" : "descending") : null}, label);
+    b.addEventListener("click", () => { if (S.sort.k === key) S.sort.dir *= -1; else S.sort = {k:key, dir: key === "name" ? 1 : (key === "prem" || key === "sa" ? 1 : -1)}; render(); });
+    return h("th", {class:n ? "n" : null}, b);
+  };
+  const specDot = p => p.completeness === "full" ? "● full" : p.completeness === "partial" ? "◐ partial" : "○ listed";
+  return h("div", {class:"tablewrap"}, h("table", {class:"sticky1"},
+    h("thead", null, h("tr", null, th("name", "Product"), h("th", null, "UIN"), h("th", null, "Category"), th("emax", "Entry age", 0), th("mat", "Max age at maturity", 1), h("th", null, "Policy term"), h("th", null, "Premium paying term"), th("prem", "Min premium", 1), th("sa", "Min sum assured", 1), h("th", null, "Online"), lens.map(c => h("th", {class:c.n ? "n" : null}, c.l)), th("launch", "Launched"), h("th", null, "Spec"), h("th", null, ""))),
+    h("tbody", null, list.map(p => {
+      const e = p.eligibility || {};
+      const sel = S.cmpP.includes(p.id);
+      const cb = h("button", {class:"cmpbtn", type:"button", "aria-pressed": String(sel), title: sel ? "Remove from compare" : "Add to compare", "aria-label":"Compare " + p.name}, sel ? "✓" : "+");
+      cb.addEventListener("click", ev => { ev.stopPropagation(); toggleCmp("P", p.id); render(); });
+      const tr = h("tr", {class:"click" + (p.company_id === S.bench ? " bench" : "")},
+        h("td", null, h("div", {class:"pname"}, p.name, p.is_new ? h("span", {class:"stamp", style:"margin-left:6px"}, "new") : null, p.status_label !== "Active" ? h("span", {class:"stamp neutral", style:"margin-left:6px"}, p.status_label) : null, h("span", {class:"ins"}, cname(p.company_id) + (p.alt_code ? " · " + p.alt_code : "")))),
+        h("td", {class:"mono", style:"white-space:nowrap"}, p.uin || "—"),
+        h("td", {class:"small", style:"white-space:nowrap"}, h("span", {class:"catdot", style:`background:${catColor(p.category)}`}), p.category || "—", p.plan_structure ? h("div", {class:"muted"}, p.plan_structure) : null),
+        h("td", {class:"num", style:"white-space:nowrap"}, entryAge(e)),
+        h("td", {class:"n"}, e.maturity_age_max_years != null ? trimNum(e.maturity_age_max_years) : "—"),
+        h("td", {class:"num small", style:"white-space:nowrap"}, termTxt(e)),
+        h("td", {class:"small", style:"min-width:120px"}, pptTxt(e)),
+        h("td", {class:"n"}, minPrem(e)),
+        h("td", {class:"n"}, inr(e.min_sum_assured_inr)),
+        h("td", {class:p.online_purchase ? "yes" : "no"}, yn(p.online_purchase)),
+        lens.map(c => h("td", {class:c.n ? "n" : "small"}, String(c.v(p)))),
+        h("td", {class:"num small", style:"white-space:nowrap"}, fmtDate(p.launch_date)),
+        h("td", {class:"spec muted"}, specDot(p)),
+        h("td", null, cb));
+      tr.addEventListener("click", () => go("product-" + p.id));
+      return tr;
+    }))));
+}
+function filtered(){
+  const f = S.f, q = f.q.trim().toLowerCase();
+  let list = products().filter(p =>
+    (!f.segment || p.segment === f.segment) && (!f.category || p.category === f.category) && (!f.company || p.company_id === f.company) &&
+    (!f.status || p.status_label === f.status) && (!f.linkage || p.linkage === f.linkage) && (!f.participation || p.participation === f.participation) &&
+    (!f.need || (p.need_tags || []).includes(f.need)) && (!f.online || (f.online === "yes" ? p.online_purchase === true : p.online_purchase !== true)) &&
+    (!q || (p.name || "").toLowerCase().includes(q) || (p.uin || "").toLowerCase().includes(q) || cname(p.company_id).toLowerCase().includes(q) || (p.alt_code || "").toLowerCase().includes(q) || (p.sub_category || "").toLowerCase().includes(q)));
+  if (S.sort.k && SORTS[S.sort.k]){
+    const g = SORTS[S.sort.k], d = S.sort.dir;
+    list = [...list].sort((a,b) => { const x = g(a), y = g(b); if (x == null || x === "") return 1; if (y == null || y === "") return -1; return (typeof x === "string" ? x.localeCompare(y) : x - y) * d; });
+  }
+  return list;
+}
+function viewProducts(){
+  const f = S.f;
+  const view = h("div");
+  view.append(h("div", {class:"view-head"}, h("div", null, h("h2", null, "Product catalogue"), h("p", null, "Filter by segment, category and insurer. Picking one category adds the columns that matter for it — return of premium for term, fund charges for ULIPs, payout and bonus for savings, annuity options for pensions."))));
+  const sel = (id, label, val, opts, onch) => {
+    const s = h("select", {id, "aria-label":label}, opts.map(([v, l]) => { const o = h("option", {value:v}, l); if (v === val) o.selected = true; return o; }));
+    s.addEventListener("change", () => { onch(s.value); S.shown = 60; render(); });
+    return s;
+  };
+  const cats = f.segment ? (S.d.taxonomy.categories[f.segment] || []) : [...new Set(products().map(p => p.category).filter(Boolean))];
+  const search = h("input", {type:"search", id:"q", placeholder:"Search name, UIN, LIC plan no.…", value:f.q, "aria-label":"Search products"});
+  let tmr; search.addEventListener("input", () => { clearTimeout(tmr); tmr = setTimeout(() => { f.q = search.value; S.shown = 60; renderList(); }, 180); });
+  const active = ["segment","category","company","status","linkage","participation","need","online"].filter(k => f[k]).length;
+  const box = h("details", {class:"filterbox"}, h("summary", {class:"btn"}, `Filters${active ? " (" + active + ")" : ""}`),
+    h("div", {class:"filters", style:"margin-top:8px"},
+      sel("f-seg", "Segment", f.segment, [["", "All segments"], ...S.d.taxonomy.segments.map(s => [s, s])], v => { f.segment = v; f.category = ""; }),
+      sel("f-cat", "Category", f.category, [["", "All categories"], ...cats.map(c => [c, c])], v => f.category = v),
+      sel("f-co", "Insurer", f.company, [["", "All insurers"], ...[...companies()].sort((a,b) => cname(a.id).localeCompare(cname(b.id))).map(c => [c.id, cname(c.id)])], v => f.company = v),
+      sel("f-st", "Status", f.status, [["", "Any status"], ["Active", "On sale"], ["Superseded", "Replaced by new version"], ["Withdrawn", "Withdrawn"]], v => f.status = v),
+      sel("f-lk", "Linkage", f.linkage, [["", "Linked & non-linked"], ["Linked", "Linked"], ["Non-Linked", "Non-linked"]], v => f.linkage = v),
+      sel("f-pa", "Participation", f.participation, [["", "Par & non-par"], ["Par", "Participating"], ["Non-Par", "Non-participating"]], v => f.participation = v),
+      sel("f-nd", "Need", f.need, [["", "Any need"], ...S.d.taxonomy.need_tags.map(t => [t, t])], v => f.need = v),
+      sel("f-on", "Online", f.online, [["", "Online & offline"], ["yes", "Buyable online"], ["no", "Not online / unknown"]], v => f.online = v),
+      h("button", {class:"btn ghost", type:"button", onclick: () => { Object.assign(f, {q:"", segment:"Individual", category:"", company:"", status:"Active", linkage:"", participation:"", need:"", online:""}); S.sort = {k:"", dir:1}; S.shown = 60; render(); }}, "Reset")));
+  if (window.innerWidth > 760 || active) box.open = true;
+  view.append(h("div", {class:"filters"}, search), box);
+  const listHost = h("div");
+  view.append(listHost);
+  function renderList(){
+    const list = filtered();
+    const shown = list.slice(0, S.shown);
+    const csv = (S.d.meta.repo || "") + "/blob/main/exports/products.csv";
+    listHost.replaceChildren(
+      h("div", {class:"resultbar"}, h("span", null, h("b", null, nfIN.format(list.length)), ` product${list.length === 1 ? "" : "s"}`, f.category ? ` · ${f.category}` : "", f.company ? ` · ${cname(f.company)}` : ""), h("span", {class:"actions"}, ext(csv, "Download all as CSV (GitHub)"))),
+      list.length ? productTable(shown, {lens: f.segment === "Individual" || !f.segment ? f.category : ""}) : h("div", {class:"empty"}, h("h3", null, "No products match"), h("p", null, "Clear a filter or search for a shorter name.")),
+      list.length > S.shown ? h("div", {style:"text-align:center;margin-top:12px"}, h("button", {class:"btn", type:"button", onclick: () => { S.shown += 60; renderList(); }}, `Show ${Math.min(60, list.length - S.shown)} more of ${nfIN.format(list.length - S.shown)}`)) : null);
+  }
+  renderList();
+  return view;
+}
+
+function decodeUIN(p){
+  const m = p.uin && /^(\d{3})([A-Z])(\d{3})V(\d{2})$/.exec(p.uin);
+  if (!m) return p.uin ? h("span", {class:"mono"}, p.uin) : h("span", {class:"muted small"}, p.alt_code ? `No IRDAI UIN · ${p.alt_code}` : "No IRDAI UIN");
+  return h("div", {class:"uin", title:"IRDAI Unique Identification Number"},
+    h("span", null, h("b", null, m[1]), h("small", null, "IRDAI reg. no.")),
+    h("span", null, h("b", null, m[2]), h("small", null, UIN_TYPE[m[2]] || "type code")),
+    h("span", null, h("b", null, m[3]), h("small", null, "product no.")),
+    h("span", null, h("b", null, "V" + m[4]), h("small", null, "version " + (+m[4]))));
+}
+function kvGrid(items){ return h("dl", {class:"kv"}, items.filter(([, v]) => v != null && v !== "" && v !== "—").map(([k, v]) => h("div", null, h("dt", null, k), h("dd", null, v)))); }
+
+function viewProduct(id){
+  const p = S.prod[id];
+  if (!p) return notFound("Product not found", "products");
+  const c = S.comp[p.company_id] || {};
+  const e = p.eligibility || {}, b = p.benefits || {}, cd = p.category_details || {};
+  const view = h("div");
+  view.append(h("div", {class:"crumbs"}, linkTo("products", "Products"), h("span", null, "/"), linkTo("insurer-" + p.company_id, cname(p.company_id)), h("span", null, "/"), h("span", null, p.name)));
+  const sel = S.cmpP.includes(p.id);
+  const cmpB = h("button", {class:"btn" + (sel ? " primary" : ""), type:"button"}, sel ? "✓ In compare" : "Add to compare");
+  cmpB.addEventListener("click", () => { toggleCmp("P", p.id); render(); });
+  const peersB = h("button", {class:"btn", type:"button"}, "Compare with peers");
+  peersB.addEventListener("click", () => { comparePeers(p); go("compare"); });
+  const stamps = [p.status_label !== "Active" ? h("span", {class:"stamp big"}, p.status_label) : null, p.is_new ? h("span", {class:"stamp big solid"}, "New launch") : null, p.standard_product ? h("span", {class:"stamp"}, "IRDAI standard: " + p.standard_product) : null];
+  view.append(h("div", {class:"dhead"},
+    h("div", {class:"main"},
+      h("div", {class:"ins"}, linkTo("insurer-" + p.company_id, c.legal_name || cname(p.company_id))),
+      h("h1", null, p.name),
+      h("div", {class:"chips", style:"margin-top:10px"}, h("span", {class:"chip"}, h("span", {class:"dot", style:`background:${catColor(p.category)}`}), p.category || p.segment), p.plan_structure ? h("span", {class:"chip"}, p.plan_structure) : null, p.sub_category ? h("span", {class:"chip"}, p.sub_category) : null, p.linkage ? h("span", {class:"chip"}, p.linkage) : null, p.participation ? h("span", {class:"chip"}, p.participation === "Par" ? "Participating" : "Non-participating") : null, (p.need_tags || []).map(t => h("span", {class:"chip"}, t))),
+      p.description ? h("p", {class:"desc"}, p.description) : null),
+    h("div", {class:"stack", style:"align-items:flex-end"}, h("div", {class:"actions"}, stamps), h("div", {class:"actions"}, cmpB, p.category && p.segment === "Individual" ? peersB : null))));
+  view.append(h("div", {style:"margin-bottom:18px;display:flex;flex-wrap:wrap;gap:10px;align-items:center"}, decodeUIN(p), p.alt_code ? h("span", {class:"chip"}, p.alt_code) : null, p.superseded_by ? h("span", {class:"small"}, "Replaced by ", linkTo("product-" + p.superseded_by, (S.prod[p.superseded_by] || {}).uin || p.superseded_by)) : null));
+
+  view.append(h("h2", {style:"margin-bottom:10px"}, "Eligibility and premiums"), kvGrid([
+    ["Entry age", entryAge(e)], ["Max age at maturity", e.maturity_age_max_years != null ? trimNum(e.maturity_age_max_years) + " yrs" : null], ["Policy term", termTxt(e)], ["Premium paying term", pptTxt(e)],
+    ["Premium modes", (e.premium_modes || []).join(", ")], ["Minimum premium", minPrem(e)], ["Maximum premium", e.max_premium_text], ["Minimum sum assured", e.min_sum_assured_inr != null ? inr(e.min_sum_assured_inr) : null],
+    ["Maximum sum assured", e.max_sum_assured_text], ["Buy online", p.online_purchase != null ? yn(p.online_purchase) : null], ["Channels", (p.channels || []).join(", ")], ["Launched", p.launch_date ? fmtDate(p.launch_date) : null],
+    ["Withdrawn", p.withdrawn_date ? fmtDate(p.withdrawn_date) : null], ["Tax", p.tax_benefits]]));
+  if (e.notes) view.append(h("p", {class:"note", style:"margin-top:10px"}, e.notes));
+
+  const ben = h("div", {class:"grid g2 section"});
+  ben.append(h("section", {class:"panel"}, h("h3", {style:"margin-bottom:10px"}, "Benefits"),
+    kvGrid([["On death", b.death], ["On maturity", b.maturity], ["Regular income", b.survival_income], ["Other", b.other]]),
+    h("div", {class:"flags"}, [["Guaranteed benefits", b.guaranteed], ["Return of premium", b.return_of_premium], ["Policy loan", b.loan], ["Partial withdrawal", b.partial_withdrawal]].filter(([, v]) => v != null).map(([l, v]) => h("span", {class:"flag" + (v ? " y" : "")}, (v ? "✓ " : "✕ ") + l)))));
+  const det = [];
+  const lab = {rop_option:"Return-of-premium option", whole_life_cover_option:"Whole-life cover option", ci_or_accelerated_benefit:"Critical illness / accelerated benefit", payout_options:"Death benefit payout", women_or_nonsmoker_discount:"Women / non-smoker rates", increasing_cover_option:"Increasing cover option", funds_count:"Fund options", fmc_max_pct:"Max fund management charge", loyalty_additions:"Loyalty additions", return_of_mortality_charges:"Return of mortality charges", free_switches_per_year:"Free switches a year", premium_allocation_charge:"Premium allocation charge", policy_admin_charge:"Policy administration charge", payout_type:"Payout type", income_duration:"Income duration", bonus_type:"Bonus", deferment_option:"Deferment option", illustrative_return:"Published return", annuity_options_count:"Annuity options", immediate_or_deferred:"Immediate or deferred", joint_life:"Joint life", return_of_purchase_price:"Return of purchase price", min_purchase_price_inr:"Min purchase price", max_deferment_years:"Max deferment", conditions_covered:"Conditions covered", benefit_type:"Benefit type", waiting_period_days:"Waiting period", survival_period_days:"Survival period"};
+  Object.values(cd).forEach(block => Object.entries(block || {}).forEach(([k, v]) => {
+    if (v == null) return;
+    let t = typeof v === "boolean" ? yn(v) : String(v);
+    if (k === "fmc_max_pct") t = nf2.format(v) + "% a year"; if (k === "min_purchase_price_inr") t = inr(v); if (/_days$/.test(k)) t = v + " days"; if (k === "max_deferment_years") t = v + " yrs";
+    det.push([lab[k] || k, t]);
+  }));
+  ben.append(h("section", {class:"panel"}, h("h3", {style:"margin-bottom:10px"}, p.category ? p.category + " specifics" : "Specifics"), det.length ? kvGrid(det) : h("p", {class:"muted small"}, "No category-specific details captured.")));
+  view.append(ben);
+
+  const more = h("div", {class:"grid g2 section"});
+  if (p.key_features && p.key_features.length) more.append(h("section", {class:"panel"}, h("h3", {style:"margin-bottom:10px"}, "Key features"), h("ul", {class:"feat"}, p.key_features.map(t => h("li", null, t)))));
+  if (p.variants && p.variants.length) more.append(h("section", {class:"panel"}, h("h3", {style:"margin-bottom:10px"}, `Variants and plan options · ${p.variants.length}`), h("div", {class:"variants"}, p.variants.map(v => h("div", null, h("b", null, v.name), v.summary ? h("div", {class:"small ink2"}, v.summary) : null)))));
+  if (p.riders_available && p.riders_available.length) more.append(h("section", {class:"panel"}, h("h3", {style:"margin-bottom:10px"}, "Riders available"), h("div", {class:"chips"}, p.riders_available.map(r => h("span", {class:"chip"}, r)))));
+  const sig = ["csr_count_pct","grievances_per_10k","solvency_ratio"].map(k => metricTile(c, k)).filter(Boolean);
+  const ar = c.reviews && c.reviews.android;
+  more.append(h("section", {class:"panel"}, h("h3", {style:"margin-bottom:10px"}, `${cname(p.company_id)}: company signals`), sig.length || ar ? h("div", {class:"tiles"}, sig, ar && ar.rating != null ? h("div", {class:"tile"}, h("div", {class:"l"}, "Android app rating"), h("div", {class:"v"}, nf1.format(ar.rating) + " ★"), h("div", {class:"p"}, ar.ratings_count ? nfIN.format(ar.ratings_count) + " ratings" : "")) : null) : h("p", {class:"muted small"}, "No company metrics captured.")));
+  view.append(more);
+
+  const versions = p.uin_base ? products().filter(x => x.uin_base === p.uin_base && x.company_id === p.company_id && x.id !== p.id) : [];
+  view.append(h("section", {class:"section"}, h("h3", {style:"margin-bottom:8px"}, "Documents and sources"),
+    h("div", {class:"chips", style:"margin-bottom:10px"}, p.urls && p.urls.product_page ? h("a", {class:"chip", href:p.urls.product_page, target:"_blank", rel:"noopener"}, "Product page ↗") : null, p.urls && p.urls.brochure ? h("a", {class:"chip", href:p.urls.brochure, target:"_blank", rel:"noopener"}, "Brochure ↗") : null),
+    versions.length ? h("p", {class:"small", style:"margin-bottom:8px"}, "Other versions on record: ", versions.map((v, i) => [i ? ", " : "", linkTo("product-" + v.id, `${v.uin} (${v.status_label.toLowerCase()})`)])) : null,
+    h("div", {class:"sources"}, (p.sources || []).map(u => ext(u, u))),
+    h("p", {class:"small muted", style:"margin-top:8px"}, `Spec coverage: ${p.completeness || "—"} · last verified ${fmtDate(p.last_verified)}. Confirm terms with the insurer's brochure before advising anyone.`)));
+  return view;
+}
+
+/* ---------- compare ---------- */
+function toggleCmp(kind, id){
+  const arr = kind === "P" ? S.cmpP : S.cmpI;
+  const i = arr.indexOf(id);
+  if (i >= 0) arr.splice(i, 1); else { if (arr.length >= 4) arr.shift(); arr.push(id); }
+  ls.set("ip.cmp", {P:S.cmpP, I:S.cmpI});
+  updateTray();
+}
+function comparePeers(p){
+  const peers = products().filter(x => x.status_label === "Active" && x.segment === "Individual" && x.category === p.category && x.company_id !== p.company_id && (!p.plan_structure || x.plan_structure === p.plan_structure));
+  const pool = peers.length >= 3 ? peers : products().filter(x => x.status_label === "Active" && x.segment === "Individual" && x.category === p.category && x.company_id !== p.company_id);
+  const share = id => mval(S.comp[id], "nbp_market_share_pct") || 0;
+  const seen = new Set(), pick = [];
+  [...pool].sort((a,b) => share(b.company_id) - share(a.company_id) || (b.completeness === "full") - (a.completeness === "full")).forEach(x => { if (pick.length < 3 && !seen.has(x.company_id)){ seen.add(x.company_id); pick.push(x.id); } });
+  S.cmpP = [p.id, ...pick];
+  ls.set("ip.cmp", {P:S.cmpP, I:S.cmpI});
+  updateTray();
+}
+function bestIdx(vals, dir){
+  const nums = vals.map(v => typeof v === "number" ? v : null);
+  const ok = nums.filter(v => v != null);
+  if (ok.length < 2 || new Set(ok).size < 2) return -1;
+  const target = dir === "high" ? Math.max(...ok) : Math.min(...ok);
+  return nums.indexOf(target);
+}
+function cmpTable(cols, groups){
+  return h("div", {class:"tablewrap"}, h("table", {class:"cmpgrid"},
+    h("thead", null, h("tr", null, h("th", {scope:"col"}, ""), cols.map(c => h("th", {scope:"col", style:"white-space:normal"}, c.head)))),
+    h("tbody", null, groups.map(g => [
+      h("tr", {class:"grp"}, h("th", {scope:"row", colspan:String(cols.length + 1)}, g.l)),
+      g.rows.map(r => {
+        const raw = cols.map(c => r.num ? r.num(c.x) : null);
+        const bi = r.best ? bestIdx(raw, r.best) : -1;
+        return h("tr", null, h("th", {scope:"row"}, r.l), cols.map((c, i) => h("td", {class: i === bi ? "best" : null}, r.v(c.x) ?? "—")));
+      })]))));
+}
+function viewCompare(){
+  const view = h("div");
+  view.append(h("div", {class:"view-head"}, h("div", null, h("h2", null, "Compare"), h("p", null, "Up to four products and four insurers side by side. A dot marks the best value in a row where better is clear-cut (higher maturity age, lower minimum premium, more claims settled, fewer grievances)."))));
+  // products
+  const ps = S.cmpP.map(id => S.prod[id]).filter(Boolean);
+  const pSec = h("section", {class:"section", style:"margin-top:0"});
+  pSec.append(h("div", {class:"panel-head"}, h("h3", null, `Products · ${ps.length}/4`), ps.length ? h("button", {class:"btn ghost", type:"button", onclick: () => { S.cmpP = []; ls.set("ip.cmp", {P:S.cmpP, I:S.cmpI}); updateTray(); render(); }}, "Clear products") : null));
+  pSec.append(picker("P"));
+  if (ps.length){
+    const cols = ps.map(p => ({x:p, head:h("div", {class:"cmphead"}, linkTo("product-" + p.id, p.name), h("span", {class:"small muted"}, cname(p.company_id) + (p.uin ? " · " + p.uin : "")), h("button", {class:"linkbtn small", type:"button", onclick: () => { toggleCmp("P", p.id); render(); }}, "Remove"))}));
+    const E = p => p.eligibility || {}, B = p.benefits || {}, D = p => p.category_details || {}, C = p => S.comp[p.company_id] || {};
+    const groups = [
+      {l:"Basics", rows:[{l:"Category", v:p => p.category}, {l:"Plan structure", v:p => p.plan_structure}, {l:"Linked / par", v:p => [p.linkage, p.participation].filter(Boolean).join(" · ")}, {l:"Status", v:p => p.status_label}, {l:"Launched", v:p => p.launch_date ? fmtDate(p.launch_date) : null}, {l:"Variants", v:p => p.variants && p.variants.length ? p.variants.map(v => v.name).join(", ") : null, num:p => p.variants ? p.variants.length : null, best:"high"}]},
+      {l:"Eligibility", rows:[{l:"Entry age", v:p => entryAge(E(p))}, {l:"Min entry age", v:p => ageTxt(E(p).entry_age_min_years), num:p => E(p).entry_age_min_years, best:"low"}, {l:"Max entry age", v:p => E(p).entry_age_max_years != null ? trimNum(E(p).entry_age_max_years) + " yrs" : null, num:p => E(p).entry_age_max_years, best:"high"}, {l:"Max age at maturity", v:p => E(p).maturity_age_max_years != null ? trimNum(E(p).maturity_age_max_years) + " yrs" : null, num:p => E(p).maturity_age_max_years, best:"high"}, {l:"Policy term", v:p => termTxt(E(p))}, {l:"Premium paying term", v:p => pptTxt(E(p))}, {l:"Premium modes", v:p => (E(p).premium_modes || []).join(", ")}]},
+      {l:"Premium and cover", rows:[{l:"Min annual premium", v:p => E(p).min_annual_premium_inr != null ? inr(E(p).min_annual_premium_inr) : null, num:p => E(p).min_annual_premium_inr, best:"low"}, {l:"Min single premium", v:p => E(p).min_single_premium_inr != null ? inr(E(p).min_single_premium_inr) : null, num:p => E(p).min_single_premium_inr, best:"low"}, {l:"Min sum assured", v:p => E(p).min_sum_assured_inr != null ? inr(E(p).min_sum_assured_inr) : null, num:p => E(p).min_sum_assured_inr, best:"low"}, {l:"Max sum assured", v:p => E(p).max_sum_assured_text}]},
+      {l:"Benefits", rows:[{l:"On death", v:p => (p.benefits||{}).death}, {l:"On maturity", v:p => (p.benefits||{}).maturity}, {l:"Regular income", v:p => (p.benefits||{}).survival_income}, {l:"Guaranteed", v:p => yn((p.benefits||{}).guaranteed)}, {l:"Return of premium", v:p => yn((p.benefits||{}).return_of_premium)}, {l:"Policy loan", v:p => yn((p.benefits||{}).loan)}, {l:"Partial withdrawal", v:p => yn((p.benefits||{}).partial_withdrawal)}]},
+      {l:"Category specifics", rows:[
+        {l:"Death benefit payout", v:p => (D(p).term||{}).payout_options}, {l:"Critical illness / accelerated", v:p => (D(p).term||{}).ci_or_accelerated_benefit != null ? yn(D(p).term.ci_or_accelerated_benefit) : null},
+        {l:"Fund options (ULIP)", v:p => (D(p).ulip||{}).funds_count, num:p => (D(p).ulip||{}).funds_count, best:"high"}, {l:"Max FMC (ULIP)", v:p => (D(p).ulip||{}).fmc_max_pct != null ? nf2.format(D(p).ulip.fmc_max_pct) + "%" : null, num:p => (D(p).ulip||{}).fmc_max_pct, best:"low"},
+        {l:"Payout type", v:p => (D(p).savings||{}).payout_type}, {l:"Bonus", v:p => (D(p).savings||{}).bonus_type}, {l:"Published return", v:p => (D(p).savings||{}).illustrative_return},
+        {l:"Annuity options", v:p => (D(p).annuity||{}).annuity_options_count, num:p => (D(p).annuity||{}).annuity_options_count, best:"high"}, {l:"Min purchase price", v:p => (D(p).annuity||{}).min_purchase_price_inr != null ? inr(D(p).annuity.min_purchase_price_inr) : null, num:p => (D(p).annuity||{}).min_purchase_price_inr, best:"low"},
+        {l:"Conditions covered", v:p => (D(p).health||{}).conditions_covered, num:p => (D(p).health||{}).conditions_covered, best:"high"}].filter(r => ps.some(p => { const v = r.v(p); return v != null && v !== "—"; }))},
+      {l:"Buying", rows:[{l:"Buy online", v:p => yn(p.online_purchase)}, {l:"Channels", v:p => (p.channels || []).join(", ")}, {l:"Riders", v:p => (p.riders_available || []).length ? p.riders_available.length + ": " + p.riders_available.slice(0, 4).join(", ") + (p.riders_available.length > 4 ? "…" : "") : null, num:p => (p.riders_available || []).length || null, best:"high"}]},
+      {l:"Insurer signals", rows:[{l:"Claims settled (by number)", v:p => fmtMetric("csr_count_pct", mval(C(p), "csr_count_pct")), num:p => mval(C(p), "csr_count_pct"), best:"high"}, {l:"Grievances per 10k policies", v:p => fmtMetric("grievances_per_10k", mval(C(p), "grievances_per_10k")), num:p => mval(C(p), "grievances_per_10k"), best:"low"}, {l:"Solvency ratio", v:p => fmtMetric("solvency_ratio", mval(C(p), "solvency_ratio")), num:p => mval(C(p), "solvency_ratio"), best:"high"}, {l:"Android app rating", v:p => { const a = (C(p).reviews||{}).android; return a && a.rating != null ? nf1.format(a.rating) + " ★" : null; }, num:p => { const a = (C(p).reviews||{}).android; return a ? a.rating : null; }, best:"high"}]}
+    ].filter(g => g.rows.length);
+    pSec.append(cmpTable(cols, groups));
+  } else pSec.append(h("div", {class:"empty", style:"margin-top:10px"}, h("h3", null, "No products picked yet"), h("p", null, "Search above, tap + on any catalogue row, or open a product and choose Compare with peers.")));
+  view.append(pSec);
+  // insurers
+  const is = S.cmpI.map(id => S.comp[id]).filter(Boolean);
+  const iSec = h("section", {class:"section"});
+  iSec.append(h("div", {class:"panel-head"}, h("h3", null, `Insurers · ${is.length}/4`), is.length ? h("button", {class:"btn ghost", type:"button", onclick: () => { S.cmpI = []; ls.set("ip.cmp", {P:S.cmpP, I:S.cmpI}); updateTray(); render(); }}, "Clear insurers") : null));
+  iSec.append(picker("I"));
+  if (is.length){
+    const cols = is.map(c => ({x:c, head:h("div", {class:"cmphead"}, linkTo("insurer-" + c.id, cname(c.id)), h("span", {class:"small muted"}, c.sector || ""), h("button", {class:"linkbtn small", type:"button", onclick: () => { toggleCmp("I", c.id); render(); }}, "Remove"))}));
+    const mrow = k => ({l:METRICS[k].l, v:c => { const m = c.metrics && c.metrics[k]; return m ? fmtMetric(k, m.value) + (m.period ? ` (${m.period})` : "") : null; }, num:c => mval(c, k), best:METRICS[k].b});
+    const groups = [
+      {l:"Profile", rows:[{l:"Ownership", v:c => c.ownership}, {l:"Listing", v:c => c.listed}, {l:"Established", v:c => c.established_year}, {l:"Head office", v:c => c.hq_city}]},
+      {l:"Scale", rows:["nbp_cr","nbp_market_share_pct","nbp_growth_pct","gross_premium_cr","aum_cr","new_individual_policies","agents_count"].map(mrow)},
+      {l:"Claims and service", rows:["csr_count_pct","csr_amount_pct","claims_repudiated_pct","grievances_per_10k","ombudsman_complaints","persistency_13m_pct","persistency_61m_pct"].map(mrow)},
+      {l:"Strength", rows:["solvency_ratio","pat_cr","vnb_margin_pct"].map(mrow)},
+      {l:"Products on sale", rows:[{l:"Individual", v:c => (c.stats||{}).active_individual, num:c => (c.stats||{}).active_individual, best:"high"}, ...CAT_IND.map(k => ({l:k, v:c => ((c.stats||{}).by_category||{})[k] || 0})), {l:"Riders", v:c => (c.stats||{}).active_rider}, {l:"Group", v:c => (c.stats||{}).active_group}, {l:"Launched in 12 months", v:c => (c.stats||{}).launches_12m, num:c => (c.stats||{}).launches_12m, best:"high"}]},
+      {l:"Customers", rows:[{l:"Android app rating", v:c => { const a = (c.reviews||{}).android; return a && a.rating != null ? `${nf1.format(a.rating)} ★ (${a.ratings_count ? nfIN.format(a.ratings_count) : "?"})` : null; }, num:c => ((c.reviews||{}).android||{}).rating, best:"high"}, {l:"iOS app rating", v:c => { const a = (c.reviews||{}).ios; return a && a.rating != null ? `${nf1.format(a.rating)} ★ (${a.ratings_count ? nfIN.format(a.ratings_count) : "?"})` : null; }, num:c => ((c.reviews||{}).ios||{}).rating, best:"high"}, {l:"WhatsApp servicing", v:c => yn(((c.reviews||{}).digital_servicing||{}).whatsapp)}, {l:"Top complaint theme", v:c => ((c.reviews||{}).negatives||[])[0]}]}
+    ];
+    groups.forEach(g => g.rows = g.rows.filter(r => is.some(c => { const v = r.v(c); return v != null && v !== "—"; })));
+    iSec.append(cmpTable(cols, groups.filter(g => g.rows.length)));
+  } else iSec.append(h("div", {class:"empty", style:"margin-top:10px"}, h("h3", null, "No insurers picked yet"), h("p", null, "Search above or tap + on the Insurers table.")));
+  view.append(iSec);
+  return view;
+}
+function picker(kind){
+  const input = h("input", {type:"search", id:"pick-" + kind, placeholder: kind === "P" ? "Add a product: type a name or UIN" : "Add an insurer: type a name", "aria-label": kind === "P" ? "Find a product to compare" : "Find an insurer to compare"});
+  const out = h("div", {class:"picker"});
+  input.addEventListener("input", () => {
+    const q = input.value.trim().toLowerCase();
+    if (q.length < 2){ out.replaceChildren(); return; }
+    const hits = kind === "P"
+      ? products().filter(p => p.status_label === "Active" && ((p.name || "").toLowerCase().includes(q) || (p.uin || "").toLowerCase().includes(q) || cname(p.company_id).toLowerCase().includes(q))).slice(0, 8)
+      : companies().filter(c => cname(c.id).toLowerCase().includes(q) || (c.legal_name || "").toLowerCase().includes(q)).slice(0, 8);
+    out.replaceChildren(...hits.map(x => {
+      const id = x.id, on = (kind === "P" ? S.cmpP : S.cmpI).includes(id);
+      return h("div", {class:"opt"}, h("span", null, kind === "P" ? x.name : cname(id), h("span", {class:"muted small"}, kind === "P" ? ` · ${cname(x.company_id)} · ${x.category || x.segment}` : "")),
+        h("button", {class:"btn" + (on ? " primary" : ""), type:"button", onclick: () => { toggleCmp(kind, id); render(); }}, on ? "Added" : "Add"));
+    }));
+  });
+  return h("div", {style:"max-width:560px"}, input, out);
+}
+
+/* ---------- changes ---------- */
+function viewChanges(){
+  const view = h("div");
+  const log = S.d.changelog || [];
+  view.append(h("div", {class:"view-head"}, h("div", null, h("h2", null, "Change log"), h("p", null, "Every Monday a scheduled job re-reads each insurer's official product list and the app stores; a second pass researches anything new and updates the catalogue. Items marked ‘needs review’ were spotted automatically and are waiting for that check."))));
+  const types = [...new Set(log.map(e => e.type))];
+  const tsel = h("select", {id:"log-type", "aria-label":"Change type"}, h("option", {value:""}, "All change types"), types.map(t => { const o = h("option", {value:t}, (CHANGE_TYPES[t] || {l:t}).l); if (t === S.logType) o.selected = true; return o; }));
+  tsel.addEventListener("change", () => { S.logType = tsel.value; render(); });
+  const csel = h("select", {id:"log-co", "aria-label":"Insurer"}, h("option", {value:""}, "All insurers"), [...companies()].sort((a,b) => cname(a.id).localeCompare(cname(b.id))).map(c => { const o = h("option", {value:c.id}, cname(c.id)); if (c.id === S.logCo) o.selected = true; return o; }));
+  csel.addEventListener("change", () => { S.logCo = csel.value; render(); });
+  view.append(h("div", {class:"filters"}, tsel, csel));
+  const list = log.filter(e => (!S.logType || e.type === S.logType) && (!S.logCo || e.company_id === S.logCo));
+  view.append(list.length ? h("section", {class:"panel"}, h("div", {class:"log"}, list.slice(0, 300).map(changeItem))) : h("div", {class:"empty"}, h("h3", null, "Nothing logged for this filter"), h("p", null, "The weekly refresh adds launches, withdrawals and rating changes here.")));
+  const lr = S.d.meta.last_refresh;
+  view.append(h("p", {class:"small muted", style:"margin-top:12px"}, lr && lr.run_at ? `Last automated check: ${fmtDate((lr.run_at || "").slice(0,10))} · product lists read ${lr.product_pages ? lr.product_pages.ok + "/" + (lr.product_pages.ok + (lr.product_pages.failed || []).length) : "—"} · app ratings refreshed ${lr.ratings ? (lr.ratings.android_ok || 0) + " Android, " + (lr.ratings.ios_ok || 0) + " iOS" : "—"}.` : "The automated weekly check has not run yet."));
+  return view;
+}
+
+/* ---------- about ---------- */
+function viewAbout(){
+  const m = S.d.meta, view = h("div");
+  view.append(h("div", {class:"view-head"}, h("div", null, h("h2", null, "About the data"), h("p", null, `Built ${fmtDate((m.built_at || "").slice(0,10))} from public sources. Source code, raw data and CSV exports live in the GitHub repository.`)), h("div", {class:"actions"}, ext(m.repo, "Open repository ↗"))));
+  const rows = companies().map(c => ({c, l:cname(c.id), n:(c.stats||{}).active_individual || 0, full:(c.stats||{}).full_spec_pct, r:(c.stats||{}).active_rider || 0, g:(c.stats||{}).active_group || 0, w:((c.stats||{}).withdrawn || 0) + ((c.stats||{}).superseded || 0), on:c.catalogue_researched_on, url:c.urls && c.urls.product_list_url}));
+  view.append(h("div", {class:"grid g2"},
+    h("section", {class:"prose"},
+      h("h3", null, "What is covered"),
+      h("p", null, "All 26 IRDAI-licensed life insurers — LIC and the private insurers, including the 2024 entrants and Sahara India Life (under administration, no new business) — plus India Post's Postal Life Insurance and Rural PLI, which sit outside IRDAI. For each: individual products on sale with eligibility, premium and benefit specs; riders; group products; and withdrawn products on record."),
+      h("h3", null, "Where it comes from"),
+      h("p", null, "Product data comes from each insurer's own product lists, product pages and brochures, with aggregator pages used only where an insurer's page could not be read (each product lists its sources). Company metrics come from the Life Insurance Council, IRDAI's annual report, the Insurance Ombudsman and insurers' public disclosures; each figure shows its period and source. App ratings come from Google Play and the App Store; review themes are summarised from app and review-site comments."),
+      h("h3", null, "How it stays current"),
+      h("p", null, "Mondays 08:00 IST: a GitHub Action re-reads every insurer's official product list for new or missing UINs and refreshes app ratings. Mondays mid-morning: a scheduled Claude session researches each flagged item, adds new products with full specs, confirms withdrawals, refreshes metrics when new periods are published, and re-checks a rotating set of insurers in depth."),
+      h("h3", null, "Reading the specs"),
+      h("p", null, "UIN is IRDAI's Unique Identification Number: insurer registration number, type letter (N non-linked, L linked), product number and version. ‘Replaced by new version’ means the same product number was refiled. ‘Spec’ shows how much of a product's detail was captured: full, partial, or listed only. Ages are in completed years; premiums exclude GST."),
+      h("p", {class:"note"}, "Compiled from public information for comparison. Product terms change; confirm against the insurer's current brochure and policy wording before relying on any figure.")),
+    h("section", null, h("h3", {style:"margin-bottom:10px"}, "Coverage by insurer"), h("div", {class:"tablewrap"}, h("table", {class:"sticky1"},
+      h("thead", null, h("tr", null, h("th", null, "Insurer"), h("th", {class:"n"}, "Individual"), h("th", {class:"n"}, "Full spec"), h("th", {class:"n"}, "Riders"), h("th", {class:"n"}, "Group"), h("th", {class:"n"}, "Withdrawn"), h("th", null, "Researched"), h("th", null, "Product list"))),
+      h("tbody", null, rows.map(r => h("tr", null, h("td", null, linkTo("insurer-" + r.c.id, r.l)), h("td", {class:"n"}, String(r.n)), h("td", {class:"n"}, r.full == null ? "—" : r.full + "%"), h("td", {class:"n"}, String(r.r)), h("td", {class:"n"}, String(r.g)), h("td", {class:"n"}, String(r.w)), h("td", {class:"small num"}, fmtDate(r.on)), h("td", {class:"small"}, r.url ? ext(r.url, host(r.url)) : "—")))))))));
+  return view;
+}
+
+function notFound(msg, back){ return h("div", {class:"empty"}, h("h3", null, msg), h("p", null, linkTo(back, "Back to the list"))); }
+
+/* ---------- shell ---------- */
+function setBench(id){ S.bench = id; ls.set("ip.bench", id); $("#bench").value = id; }
+function updateTray(){
+  const n = S.cmpP.length + S.cmpI.length;
+  const tray = $("#tray");
+  tray.hidden = !n || S.route.v === "compare";
+  $("#traytext").textContent = [S.cmpP.length ? `${S.cmpP.length} product${S.cmpP.length > 1 ? "s" : ""}` : null, S.cmpI.length ? `${S.cmpI.length} insurer${S.cmpI.length > 1 ? "s" : ""}` : null].filter(Boolean).join(" · ") + " in compare";
+}
+function parseHash(){
+  const raw = decodeURIComponent((location.hash || "").replace(/^#/, ""));
+  if (raw.startsWith("insurer-")) return {v:"insurer", id:raw.slice(8)};
+  if (raw.startsWith("product-")) return {v:"product", id:raw.slice(8)};
+  return {v:["overview","insurers","products","compare","changes","about"].includes(raw) ? raw : "overview", id:null};
+}
+let lastKey = "";
+function render(){
+  if (!S.d) return;
+  hideTip();
+  const r = parseHash(); S.route = r;
+  setTabs(r.v);
+  const key = r.v + ":" + (r.id || "");
+  const main = $("#view");
+  let node;
+  switch (r.v){
+    case "insurers": node = viewInsurers(); break;
+    case "insurer": node = viewInsurer(r.id); break;
+    case "products": node = viewProducts(); break;
+    case "product": node = viewProduct(r.id); break;
+    case "compare": node = viewCompare(); break;
+    case "changes": node = viewChanges(); break;
+    case "about": node = viewAbout(); break;
+    default: node = viewOverview();
+  }
+  const keepScroll = key === lastKey;
+  const y = window.scrollY;
+  main.replaceChildren(node);
+  if (keepScroll) window.scrollTo(0, y); else window.scrollTo(0, 0);
+  lastKey = key;
+  updateTray();
+  const title = r.v === "product" && S.prod[r.id] ? S.prod[r.id].name : r.v === "insurer" && S.comp[r.id] ? cname(r.id) : null;
+  document.title = title ? `${title} · Insurance Products` : "Insurance Products";
+}
+function init(d){
+  S.d = d;
+  d.companies.forEach(c => S.comp[c.id] = c);
+  d.products.forEach(p => S.prod[p.id] = p);
+  const saved = ls.get("ip.cmp", {P:[], I:[]});
+  S.cmpP = (saved.P || []).filter(id => S.prod[id]); S.cmpI = (saved.I || []).filter(id => S.comp[id]);
+  const bsel = $("#bench");
+  [...d.companies].sort((a,b) => cname(a.id).localeCompare(cname(b.id))).forEach(c => bsel.append(h("option", {value:c.id}, cname(c.id))));
+  const b = ls.get("ip.bench", ""); if (b && S.comp[b]) { S.bench = b; bsel.value = b; }
+  bsel.addEventListener("change", () => { setBench(bsel.value); render(); });
+  $("#asof").textContent = d.meta.data_as_of ? "Data as of " + fmtDate(d.meta.data_as_of) : "";
+  $("#trayclear").addEventListener("click", () => { S.cmpP = []; S.cmpI = []; ls.set("ip.cmp", {P:[], I:[]}); updateTray(); if (S.route.v === "compare") render(); });
+  window.addEventListener("hashchange", render);
+  let rt; window.addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(() => document.querySelectorAll(".svgchart").forEach(svg => { const holder = svg.parentNode; if (holder && holder._redraw) holder._redraw(); }), 200); });
+  render();
+}
+fetch("data/dashboard.json", {cache:"no-cache"})
+  .then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+  .then(init)
+  .catch(err => { $("#view").replaceChildren(h("div", {class:"empty"}, h("h3", null, "The catalogue file did not load"), h("p", null, "Reload the page. If it keeps failing, the data file data/dashboard.json is missing from the published files (" + err.message + ")."))); });
+})();
+</script>

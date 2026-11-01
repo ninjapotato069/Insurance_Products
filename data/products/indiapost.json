@@ -1,0 +1,840 @@
+{
+ "company_id": "indiapost",
+ "company_name": "India Post - Postal Life Insurance (PLI) and Rural Postal Life Insurance (RPLI), Department of Posts",
+ "researched_on": "2026-10-28",
+ "urls": {
+  "website": "https://pli.indiapost.gov.in",
+  "product_list_url": "https://indiapost.gov.in/Financial/Pages/Content/pli.aspx",
+  "withdrawn_list_url": null,
+  "riders_url": null,
+  "group_url": null,
+  "newsroom_url": null
+ },
+ "products": [
+  {
+   "uin": null,
+   "name": "Suraksha (Whole Life Assurance)",
+   "segment": "Individual",
+   "category": "Savings - Par",
+   "plan_structure": "Whole Life",
+   "sub_category": "PLI - whole life assurance",
+   "linkage": "Non-Linked",
+   "participation": "Par",
+   "need_tags": [
+    "Savings",
+    "Legacy"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "PLI is open to central and state government, defence and para-military, PSU, bank, educational-institution and local-body employees, professionals (doctors, engineers, CAs, MBAs, lawyers) and employees of NSE/BSE-listed companies."
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": true,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "PLI whole life policy with bonus for eligible government, institutional and professional employees.",
+   "urls": {
+    "product_page": "https://indiapost.gov.in/Financial/Pages/Content/pli.aspx",
+    "brochure": null
+   },
+   "sources": [
+    "https://indiapost.gov.in/Financial/Pages/Content/pli.aspx"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28",
+   "alt_code": "PLI-Suraksha"
+  },
+  {
+   "uin": null,
+   "name": "Suvidha (Convertible Whole Life Assurance)",
+   "segment": "Individual",
+   "category": "Savings - Par",
+   "plan_structure": "Whole Life",
+   "sub_category": "PLI - convertible whole life assurance",
+   "linkage": "Non-Linked",
+   "participation": "Par",
+   "need_tags": [
+    "Savings",
+    "Legacy"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Same PLI eligible classes as Suraksha."
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": true,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "PLI convertible whole life policy with bonus for eligible employees and professionals.",
+   "urls": {
+    "product_page": "https://indiapost.gov.in/Financial/Pages/Content/pli.aspx",
+    "brochure": null
+   },
+   "sources": [
+    "https://indiapost.gov.in/Financial/Pages/Content/pli.aspx"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28",
+   "alt_code": "PLI-Suvidha"
+  },
+  {
+   "uin": null,
+   "name": "Santosh (Endowment Assurance)",
+   "segment": "Individual",
+   "category": "Savings - Par",
+   "plan_structure": "Endowment",
+   "sub_category": "PLI - endowment assurance",
+   "linkage": "Non-Linked",
+   "participation": "Par",
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Same PLI eligible classes as Suraksha."
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": true,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "PLI endowment policy with bonus for eligible employees and professionals.",
+   "urls": {
+    "product_page": "https://indiapost.gov.in/Financial/Pages/Content/pli.aspx",
+    "brochure": null
+   },
+   "sources": [
+    "https://indiapost.gov.in/Financial/Pages/Content/pli.aspx"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28",
+   "alt_code": "PLI-Santosh"
+  },
+  {
+   "uin": null,
+   "name": "Sumangal (Anticipated Endowment Assurance)",
+   "segment": "Individual",
+   "category": "Savings - Par",
+   "plan_structure": "Money Back",
+   "sub_category": "PLI - anticipated endowment with periodic survival benefits",
+   "linkage": "Non-Linked",
+   "participation": "Par",
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Same PLI eligible classes as Suraksha."
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": true,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "PLI anticipated endowment (money-back) policy paying periodic survival benefits, with bonus.",
+   "urls": {
+    "product_page": "https://indiapost.gov.in/Financial/Pages/Content/pli.aspx",
+    "brochure": null
+   },
+   "sources": [
+    "https://indiapost.gov.in/Financial/Pages/Content/pli.aspx"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28",
+   "alt_code": "PLI-Sumangal"
+  },
+  {
+   "uin": null,
+   "name": "Yugal Suraksha (Joint Life Assurance)",
+   "segment": "Individual",
+   "category": "Savings - Par",
+   "plan_structure": "Other",
+   "sub_category": "PLI - joint life assurance",
+   "linkage": "Non-Linked",
+   "participation": "Par",
+   "need_tags": [
+    "Savings",
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Same PLI eligible classes as Suraksha."
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": true,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "PLI joint-life policy covering two lives under one policy, with bonus.",
+   "urls": {
+    "product_page": "https://indiapost.gov.in/Financial/Pages/Content/pli.aspx",
+    "brochure": null
+   },
+   "sources": [
+    "https://indiapost.gov.in/Financial/Pages/Content/pli.aspx"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28",
+   "alt_code": "PLI-YugalSuraksha"
+  },
+  {
+   "uin": null,
+   "name": "Children Policy",
+   "segment": "Individual",
+   "category": "Savings - Par",
+   "plan_structure": null,
+   "sub_category": "PLI - children policy",
+   "linkage": "Non-Linked",
+   "participation": "Par",
+   "need_tags": [
+    "Child",
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "PLI policy for children of eligible PLI policyholders, with bonus (the official PLI page labels it Bal Jeevan Bima).",
+   "urls": {
+    "product_page": "https://indiapost.gov.in/Financial/Pages/Content/pli.aspx",
+    "brochure": null
+   },
+   "sources": [
+    "https://indiapost.gov.in/Financial/Pages/Content/pli.aspx"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28",
+   "alt_code": "PLI-Children"
+  },
+  {
+   "uin": null,
+   "name": "Gram Suraksha",
+   "segment": "Individual",
+   "category": "Savings - Par",
+   "plan_structure": "Whole Life",
+   "sub_category": "RPLI - whole life assurance (rural)",
+   "linkage": "Non-Linked",
+   "participation": "Par",
+   "need_tags": [
+    "Savings",
+    "Legacy"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "RPLI whole life policy with bonus for rural customers.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28",
+   "alt_code": "RPLI-GramSuraksha"
+  },
+  {
+   "uin": null,
+   "name": "Gram Suvidha",
+   "segment": "Individual",
+   "category": "Savings - Par",
+   "plan_structure": "Whole Life",
+   "sub_category": "RPLI - convertible whole life assurance (rural)",
+   "linkage": "Non-Linked",
+   "participation": "Par",
+   "need_tags": [
+    "Savings",
+    "Legacy"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "RPLI convertible whole life policy with bonus for rural customers.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28",
+   "alt_code": "RPLI-GramSuvidha"
+  },
+  {
+   "uin": null,
+   "name": "Gram Santosh",
+   "segment": "Individual",
+   "category": "Savings - Par",
+   "plan_structure": "Endowment",
+   "sub_category": "RPLI - endowment assurance (rural)",
+   "linkage": "Non-Linked",
+   "participation": "Par",
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "RPLI endowment policy with bonus for rural customers.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28",
+   "alt_code": "RPLI-GramSantosh"
+  },
+  {
+   "uin": null,
+   "name": "Gram Sumangal",
+   "segment": "Individual",
+   "category": "Savings - Par",
+   "plan_structure": "Money Back",
+   "sub_category": "RPLI - anticipated endowment (rural)",
+   "linkage": "Non-Linked",
+   "participation": "Par",
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "RPLI anticipated endowment (money-back) policy with bonus for rural customers.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28",
+   "alt_code": "RPLI-GramSumangal"
+  },
+  {
+   "uin": null,
+   "name": "Gram Priya",
+   "segment": "Individual",
+   "category": "Savings - Par",
+   "plan_structure": "Money Back",
+   "sub_category": "RPLI - money-back (rural); plan type to be confirmed",
+   "linkage": "Non-Linked",
+   "participation": "Par",
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "RPLI money-back style policy with bonus for rural customers.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28",
+   "alt_code": "RPLI-GramPriya"
+  },
+  {
+   "uin": null,
+   "name": "Bal Jeevan Bima",
+   "segment": "Individual",
+   "category": "Savings - Par",
+   "plan_structure": null,
+   "sub_category": "RPLI - children policy (rural)",
+   "linkage": "Non-Linked",
+   "participation": "Par",
+   "need_tags": [
+    "Child",
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "RPLI child policy with bonus, taken on a child's life by rural parents.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28",
+   "alt_code": "RPLI-BalJeevanBima"
+  }
+ ],
+ "notes": "Government schemes outside IRDAI, so no UINs (uin null); alt_code holds a short scheme code. All are with-profit (bonus) plans, so participation Par and category Savings - Par. PLI scheme names and general rules come from the official indiapost.gov.in PLI page, which lists Suraksha, Suvidha, Santosh, Yugal Suraksha, Sumangal and Children Policy (labelled Bal Jeevan Bima there). pli.indiapost.gov.in blocks automated fetching (robots.txt), so entry ages, sum assured limits, terms and bonus rates are not yet captured. RPLI scheme names follow the assignment brief; their plan types follow the usual Gram-scheme naming and need confirming."
+}

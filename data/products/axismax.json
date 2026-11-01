@@ -1,0 +1,3475 @@
+{
+ "company_id": "axismax",
+ "company_name": "Axis Max Life Insurance Limited",
+ "researched_on": "2026-10-28",
+ "urls": {
+  "website": "https://www.axismaxlife.com",
+  "product_list_url": "https://www.axismaxlife.com/all-insurance-plans",
+  "withdrawn_list_url": "https://www.axismaxlife.com/customer-servicing/withdrawn-plans",
+  "riders_url": "https://www.axismaxlife.com/all-insurance-plans",
+  "group_url": "https://www.axismaxlife.com/all-insurance-plans",
+  "newsroom_url": null
+ },
+ "products": [
+  {
+   "uin": "104N116V16",
+   "name": "Axis Max Life Smart Wealth Plan",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/investment-plans/smart-wealth-plan",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.axismaxlife.com/all-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "104N120V04",
+   "name": "Axis Max Life Smart Wealth Income Plan",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/investment-plans/smart-wealth-income-plan",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.axismaxlife.com/all-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "104N123V07",
+   "name": "Axis Max Life Smart Fixed-return Digital Plan",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/investment-plans/smart-fd-plan",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.axismaxlife.com/all-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "104N111V04",
+   "name": "Axis Max Life Savings Advantage Plan",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Website calculator offers premium payment terms of 1 year and 5-12 years; brochure not retrieved."
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [
+    "Accidental Death and Dismemberment Rider",
+    "Term Plus Rider",
+    "Waiver of Premium Plus Rider"
+   ],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/investment-plans/savings-advantage-plan",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.axismaxlife.com/insurance-calculators/savings-advantage-plan-calculator"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "104N124V17",
+   "name": "Axis Max Life Smart Wealth Advantage Guarantee Plan",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/investment-plans/smart-wealth-advantage-guarantee-plan",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.axismaxlife.com/all-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "104N135V04",
+   "name": "Axis Max Life Smart Wealth Advantage Growth Par Plan",
+   "segment": "Individual",
+   "category": "Savings - Par",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/investment-plans/smart-wealth-advantage-growth-par-plan",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.axismaxlife.com/all-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "104N138V05",
+   "name": "Axis Max Life Smart Wealth Advantage Guarantee Elite Plan",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/investment-plans/smart-wealth-advantage-guarantee-elite-plan",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.axismaxlife.com/all-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "104N159V05",
+   "name": "Axis Max Life Smart Value Income & Benefit Enhancer Plan",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": "Other",
+   "sub_category": "Income plan with Income Booster (three variants)",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Insta Wealth",
+     "summary": "Insta and Flexi income during term; Future Income Benefit plus milestone benefit at maturity."
+    },
+    {
+     "name": "Future Wealth",
+     "summary": "Flexi income only during term; Future Income Benefit plus milestone benefit at maturity."
+    },
+    {
+     "name": "Insta Wealth Boost",
+     "summary": "Insta and Flexi income during term; guaranteed lump sum at maturity."
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Read from the V03 policy document (V05 is current): entry age, term and PPT figures sit in the policy schedule and were not stated in the text - verify. Death multiple 5x, 7x or 11x annualised premium."
+   },
+   "benefits": {
+    "death": "Higher of sum assured on death (chosen multiple x annualised premium), 105% of premiums paid or surrender value.",
+    "maturity": "Insta Wealth/Future Wealth: Future Income Benefit over the future income period plus Future Milestone Benefit; Insta Wealth Boost: guaranteed lump sum.",
+    "survival_income": "Insta Income and Flexi Income (Future Wealth: Flexi only), paid monthly to yearly.",
+    "guaranteed": true,
+    "return_of_premium": null,
+    "loan": true,
+    "partial_withdrawal": true,
+    "other": "Income Booster accrues from year 2; Enhanced Maturity Booster of 10% of annualised premium in eligible cases; optional Senior Citizen Benefit; loan up to 85% of surrender value."
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": {
+     "payout_type": "Lump sum + Income",
+     "bonus_type": "None",
+     "deferment_option": "Income benefits can be accumulated at RBI Bank Rate + 1%"
+    },
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Three variants fixed at inception",
+    "Income Booster accrues each year from year 2",
+    "Enhanced Maturity Booster of 10% of annualised premium for eligible cases",
+    "Option to accumulate income benefits or take lump sum at maturity",
+    "Optional Senior Citizen Benefit on terminal/critical illness at 60+"
+   ],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": "Subject to prevailing tax law.",
+   "description": "Non-linked non-participating savings plan paying early and flexible income with a maturity benefit and income booster, for goal-based savers.",
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/investment-plans/smart-value-income-benefit-enhancer-plan",
+    "brochure": "https://www.axismaxlife.com/static-page/assets/homepage/104N159V03_Smart%20VIBE_Policy%20Document_Withdrawn.pdf"
+   },
+   "sources": [
+    "https://www.axismaxlife.com/static-page/assets/homepage/104N159V03_Smart%20VIBE_Policy%20Document_Withdrawn.pdf"
+   ],
+   "completeness": "partial",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "104L131V03",
+   "name": "Axis Max Life Online Savings Plan Plus",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": "Online ULIP with five variants (Wealth to Titanium)",
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Wealth",
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Wealth",
+     "summary": "Single, limited or regular pay; death benefit is cover multiple of premium or fund value, whichever is higher."
+    },
+    {
+     "name": "Wealth Whole Life",
+     "summary": "Limited pay with whole-life style term (35-100 years)."
+    },
+    {
+     "name": "Gold",
+     "summary": "Adds monthly family income and 1x premium funding on death; policy continues."
+    },
+    {
+     "name": "Platinum",
+     "summary": "Adds monthly family income and 2x premium funding on death; policy continues."
+    },
+    {
+     "name": "Titanium",
+     "summary": "Lump sum death benefit plus 3x premium funding; policy continues."
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 0.08,
+    "entry_age_max_years": 65,
+    "maturity_age_max_years": 100,
+    "policy_term_min_years": 10,
+    "policy_term_max_years": 100,
+    "whole_life": true,
+    "ppt_options": [
+     "Single",
+     "Limited",
+     "Regular"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly",
+     "Single"
+    ],
+    "min_annual_premium_inr": 6000,
+    "min_single_premium_inr": 200000,
+    "max_premium_text": "No limit, subject to board-approved underwriting policy",
+    "min_sum_assured_inr": 30000,
+    "max_sum_assured_text": "No limit, subject to underwriting",
+    "notes": "Specs read from the V02 prospectus (V02 now withdrawn; V03 is current) - verify. Min entry age 31 days for Wealth/Wealth Whole Life, 18 for Gold/Platinum/Titanium. Max maturity age 100 (Whole Life), 85 (Wealth), 64 (Gold/Platinum/Titanium). Terms: 10-20 yrs single pay; to 85 yrs limited/regular; 35-100 Whole Life; 10-30 Gold/Platinum/Titanium. Min SA 2.2 lakh single pay, 30,000 limited/regular."
+   },
+   "benefits": {
+    "death": "Wealth variants: highest of sum assured, 105% of premiums paid or fund value. Gold/Platinum/Titanium: lump sum (higher of sum assured or 105% of premiums) plus family income and premium funding; policy continues.",
+    "maturity": "Fund value at maturity, as lump sum or systematic payout over up to 5 years.",
+    "survival_income": "Optional systematic withdrawals from fund value; returns not guaranteed.",
+    "guaranteed": false,
+    "return_of_premium": false,
+    "loan": false,
+    "partial_withdrawal": true,
+    "other": "Return of up to 150% (125% if term under 15 years) of policy admin charges at maturity; women empowerment extra allocation; five-year lock-in; premium reduction once after year 5."
+   },
+   "category_details": {
+    "term": null,
+    "ulip": {
+     "funds_count": 25,
+     "fmc_max_pct": 1.35,
+     "loyalty_additions": "Return of policy admin charges (up to 150%) at maturity",
+     "free_switches_per_year": "Unlimited",
+     "premium_allocation_charge": "Nil",
+     "policy_admin_charge": "Limited/regular pay 0.30% of premium per month (0.25% if premium Rs 10 lakh+), capped Rs 500/month; single pay 0.10% per month, stops after year 10"
+    },
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Five variants chosen at inception, from wealth-focused to protection-rich",
+    "No premium allocation charge; policy admin charge is the main premium deduction",
+    "25 funds and 5 investment strategies including lifecycle and trigger-based",
+    "Unlimited free switches; no charge on partial or smart withdrawals",
+    "Five-year lock-in on partial withdrawals"
+   ],
+   "riders_available": [
+    "Critical Illness and Disability - Secure Rider",
+    "Smart Ultra Protect Rider"
+   ],
+   "online_purchase": true,
+   "channels": [],
+   "tax_benefits": "Subject to prevailing tax law; GST applies to charges.",
+   "description": "Online-sold unit-linked plan with five variants, no premium allocation charge and 25 funds, for investors wanting market-linked growth with optional family-income protection.",
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/investment-plans/online-savings-plan-plus",
+    "brochure": "https://www.axismaxlife.com/static-page/assets/homepage/104L131V02_Online-Savings-Plan-Plus-Prospectus_Withdrawn.pdf"
+   },
+   "sources": [
+    "https://www.axismaxlife.com/static-page/assets/homepage/104L131V02_Online-Savings-Plan-Plus-Prospectus_Withdrawn.pdf"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "104L115V04",
+   "name": "Axis Max Life Flexi Wealth Plus Plan",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/investment-plans/ulip-plans/flexi-wealth-plus-plan",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.axismaxlife.com/all-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "104L082V06",
+   "name": "Axis Max Life Fast Track Super Plan",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/ulip-plans/fast-track-super-plan",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.axismaxlife.com/all-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "104L133V01",
+   "name": "Axis Max Life Platinum Wealth Plan",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/ulip-plans/platinum-wealth-plan",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.axismaxlife.com/all-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "104L128V01",
+   "name": "Axis Max Life Smart Term with Additional Returns ULIP",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/investment-plans/smart-term-with-additional-returns",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.axismaxlife.com/all-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "104L121V05",
+   "name": "Axis Max Life Flexi Wealth Advantage Plan",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/ulip-plans/flexi-wealth-Advantage-Plan",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.axismaxlife.com/all-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "104L098V06",
+   "name": "Axis Max Life Online Savings Plan",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/investment-plans/ulip-plans/wealth-investment-plan",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.axismaxlife.com/all-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "MAXL001V003",
+   "name": "Axis Max Life Smart Global Investment Fostering Tomorrow Plan",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/investment-plans/ulip-plans/smart-global-investment-fostering-tomorrow-plan",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.axismaxlife.com/all-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "104L084V20",
+   "name": "Axis Max Life Shiksha Plus Super Plan",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/child-insurance-plans/shiksha-plus-super",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.axismaxlife.com/all-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "104N076V22",
+   "name": "Axis Max Life Guaranteed Lifetime Income Plan",
+   "segment": "Individual",
+   "category": "Pension & Annuity",
+   "plan_structure": "Immediate Annuity",
+   "sub_category": "General annuity: immediate and deferred, single/joint life",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Retirement"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Single Life Immediate Annuity (no death benefit)",
+     "summary": "Lifetime fixed income; payments stop on death, nothing returned."
+    },
+    {
+     "name": "Single Life Immediate Annuity (with death benefit)",
+     "summary": "Lifetime fixed income; 100% of single premium returned to nominee on death."
+    },
+    {
+     "name": "Joint Life Immediate Annuity (no death benefit)",
+     "summary": "Income until last survivor dies; nothing returned."
+    },
+    {
+     "name": "Joint Life Immediate Annuity (with death benefit)",
+     "summary": "Income until last survivor dies; 100% of single premium to nominee."
+    },
+    {
+     "name": "Single Life Deferred Annuity (with death benefit)",
+     "summary": "Single or limited pay; lifetime income starts after deferment; death benefit during deferment."
+    },
+    {
+     "name": "Joint Life Deferred Annuity (with death benefit)",
+     "summary": "As above for two lives; income continues while either is alive."
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": 85,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": true,
+    "ppt_options": [
+     "Single",
+     "Limited 5-10 (deferred only)"
+    ],
+    "premium_modes": [
+     "Single",
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": "No maximum limit",
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Prospectus extract indicates immediate-annuity entry from a very low age and up to 85; deferred annuity min entry age 25 (verify). Point-of-sale variant: entry 40-70, single-life immediate with death benefit only. Min payout Rs 1,000/month or Rs 12,000/year. Deferment 1 year (single pay) or equal to premium term, up to 10 years. Vesting age 26 (single pay) or 30 (limited pay) to 90; QROPS min vesting 55. Single-pay top-up min Rs 1 lakh at age 50+."
+   },
+   "benefits": {
+    "death": "Immediate annuity with death benefit returns 100% of single premium; deferred variants pay higher of premiums plus guaranteed additions less payouts, or 105% of premiums; none for no-death-benefit options.",
+    "maturity": null,
+    "survival_income": "Guaranteed fixed annuity for life, payable monthly, quarterly, half-yearly or yearly.",
+    "guaranteed": true,
+    "return_of_premium": true,
+    "loan": true,
+    "partial_withdrawal": null,
+    "other": "Surrender value available (single pay after free look; limited pay after thresholds). Guaranteed additions accrue during deferment; reduced paid-up for limited pay."
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": {
+     "annuity_options_count": 6,
+     "immediate_or_deferred": "Both",
+     "joint_life": true,
+     "return_of_purchase_price": true,
+     "max_deferment_years": 10
+    },
+    "health": null
+   },
+   "key_features": [
+    "Guaranteed lifetime income with single or joint life choices",
+    "Deferred variants lock in today's annuity rates for later payouts",
+    "Flexible premium payment and deferment periods within variant limits",
+    "Death benefit returns purchase price or at least 105% of premiums, depending on variant",
+    "Loan available on deferred variants once surrender value is acquired"
+   ],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": "Possible benefits subject to prevailing tax law.",
+   "description": "Non-linked non-participating general annuity offering six immediate and deferred lifetime-income options on single or joint lives, for retirees seeking guaranteed income.",
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/retirement-plans/guaranteed-lifetime-income-plan",
+    "brochure": "https://ds4reac9d5tsg.cloudfront.net/static-page/assets/homepage/GLIP-Prospectus.pdf"
+   },
+   "sources": [
+    "https://ds4reac9d5tsg.cloudfront.net/static-page/assets/homepage/GLIP-Prospectus.pdf"
+   ],
+   "completeness": "partial",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "104N137V16",
+   "name": "Axis Max Life Smart Wealth Annuity Guaranteed Pension Plan",
+   "segment": "Individual",
+   "category": "Pension & Annuity",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/pension-plans/smart-wealth-annuity-guaranteed-pension-plan",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.axismaxlife.com/all-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "104N119V04",
+   "name": "Axis Max Life Saral Pension Plan",
+   "segment": "Individual",
+   "category": "Pension & Annuity",
+   "plan_structure": "Immediate Annuity",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/saral-pension-plan",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.axismaxlife.com/all-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "104N160V01",
+   "name": "Axis Max Life Smart Retirement Income with Sustained Earnings Plan",
+   "segment": "Individual",
+   "category": "Pension & Annuity",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/pension-plans/smart-rise-plan",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.axismaxlife.com/all-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "104L075V11",
+   "name": "Axis Max Life Forever Young Pension Plan",
+   "segment": "Individual",
+   "category": "Pension & Annuity",
+   "plan_structure": "Pension Accumulation",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/retirement-plans/forever-young-pension-plan",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.axismaxlife.com/all-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "104N122V26",
+   "name": "Axis Max Life Smart Guaranteed Pension Plan",
+   "segment": "Individual",
+   "category": "Pension & Annuity",
+   "plan_structure": "Immediate Annuity",
+   "sub_category": "Single-premium immediate annuity (incl. NPS annuity)",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Retirement"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Single Life (no death benefit)",
+     "summary": "Lifetime fixed income, stops on death."
+    },
+    {
+     "name": "Single Life (with death benefit)",
+     "summary": "Lifetime income; 100% of purchase price to nominee on death."
+    },
+    {
+     "name": "Joint Life (no death benefit)",
+     "summary": "Income until last survivor dies."
+    },
+    {
+     "name": "Joint Life (with death benefit)",
+     "summary": "Income until last survivor dies; purchase price returned; optional advance of 5 years' annuity."
+    },
+    {
+     "name": "NPS Family Income",
+     "summary": "For NPS subscribers only, per PFRDA rules."
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 30,
+    "entry_age_max_years": 85,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": true,
+    "ppt_options": [
+     "Single"
+    ],
+    "premium_modes": [
+     "Single"
+    ],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": "As per board-approved underwriting policy",
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Specs read from the V23 policy contract (V26 current) - verify. Under 30 only for compulsory annuity purchases; QROPS min 55. Annuity payable annual/half-yearly/quarterly/monthly; min payout Rs 12,000 p.a. / 6,000 half-yearly / 3,000 quarterly / 1,000 monthly. No medical underwriting. Top-ups in first 10 years, min Rs 1 lakh."
+   },
+   "benefits": {
+    "death": "Death-benefit variants return 100% of single premium plus top-ups to nominee; policy then ends.",
+    "maturity": "None.",
+    "survival_income": "Fixed guaranteed annuity in arrears while annuitant(s) alive.",
+    "guaranteed": true,
+    "return_of_premium": true,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": "Surrender only for death-benefit variants after free look: 50% of single premium less annuities paid that year. Joint-life option to take 5 years' annuity in advance on first death."
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": {
+     "annuity_options_count": 5,
+     "immediate_or_deferred": "Immediate",
+     "joint_life": true,
+     "return_of_purchase_price": true
+    },
+    "health": null
+   },
+   "key_features": [
+    "Guaranteed fixed income for life on single or joint lives",
+    "Death-benefit variants return the purchase price to nominees",
+    "Top-ups allowed in first 10 years, min Rs 1 lakh each",
+    "Choice of annual, half-yearly, quarterly or monthly payouts",
+    "NPS subscribers can buy annuity from NPS proceeds"
+   ],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": "Subject to prevailing tax law; NRI/OCI NPS annuities subject to TDS.",
+   "description": "Non-linked non-participating single-premium immediate annuity giving guaranteed lifetime income, also usable for NPS annuity purchase.",
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/retirement-plans/smart-guaranteed-pension-plan",
+    "brochure": "https://ds4reac9d5tsg.cloudfront.net/static-page/assets/homepage/Smart%20Guaranteed%20Pension%20Plan%20-%20Individual%20Policy%20Contract_V23_Withdrawn.pdf"
+   },
+   "sources": [
+    "https://ds4reac9d5tsg.cloudfront.net/static-page/assets/homepage/Smart%20Guaranteed%20Pension%20Plan%20-%20Individual%20Policy%20Contract_V23_Withdrawn.pdf",
+    "https://www.axismaxlife.com/AnnuityRates"
+   ],
+   "completeness": "partial",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "104N132V01",
+   "name": "Axis Max Life Smart Term Plan Plus",
+   "segment": "Individual",
+   "category": "Term",
+   "plan_structure": "Pure Term",
+   "sub_category": "Multi-variant term incl. ROP and whole-life cover",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Regular Cover",
+     "summary": "Level death cover, no maturity payout."
+    },
+    {
+     "name": "Early ROP Plus",
+     "summary": "50% of premiums returned at a set age (higher of 60 or entry age + PPT + 10) while keeping 50% cover; remainder at term end."
+    },
+    {
+     "name": "Smart Cover",
+     "summary": "Pays 150% of base sum assured on death in the first 15 years, 100% thereafter."
+    },
+    {
+     "name": "Return of Premium",
+     "summary": "Level cover; 100% of premiums refunded on survival to term end."
+    },
+    {
+     "name": "Whole Life Cover",
+     "summary": "Early-ROP style plan with cover to age 100; balance 50% of premiums returned at 100."
+    },
+    {
+     "name": "Income Protection Cover",
+     "summary": "Pays a monthly income to nominee instead of a lump sum."
+    },
+    {
+     "name": "Credit Protect Cover",
+     "summary": "Cover reduces monthly in line with a chosen loan interest rate."
+    },
+    {
+     "name": "Classic Cover",
+     "summary": "Basic level cover without terminal illness benefit."
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": 100,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [
+     "Single",
+     "Limited"
+    ],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Entry age, policy term and sum assured limits not stated on product page. Cover to age 85 on standard variants (10-pay example); Whole Life Cover variant to age 100. Advertised from Rs 902/month for Rs 2 crore cover (20-year-old male). Online calculator offers Rs 50 lakh to Rs 5 crore cover."
+   },
+   "benefits": {
+    "death": "Highest of 10x annualised premium (1.25x single premium for single pay), 105% of premiums paid, or the sum assured.",
+    "maturity": "Only Return of Premium pays 100% of premiums at term end; Early ROP Plus and Whole Life pay the remaining 50%; other variants nil.",
+    "survival_income": "Early ROP Plus and Whole Life return 50% of premiums at the higher of age 60 or entry age + PPT + 10.",
+    "guaranteed": true,
+    "return_of_premium": true,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": "Terminal illness accelerated payout of Rs 1 crore at no extra premium (not in Classic Cover); insta payment of accelerated portion within one working day of claim registration."
+   },
+   "category_details": {
+    "term": {
+     "rop_option": "Return of Premium, Early ROP Plus and Whole Life variants",
+     "whole_life_cover_option": "Yes - Whole Life Cover variant to age 100",
+     "ci_or_accelerated_benefit": "Terminal illness accelerated Rs 1 crore inbuilt; critical illness (64 illnesses) via separate rider",
+     "payout_options": "Lump sum / Monthly income / Lump sum + income",
+     "women_or_nonsmoker_discount": "Flat 15% discount for female lives for full PPT; salaried first-year discount possible"
+    },
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Eight cover variants from basic level cover to whole life and ROP designs",
+    "Terminal illness cover accelerates Rs 1 crore at no extra premium",
+    "Insta payment of accelerated portion within one working day",
+    "Optional accident and maternity cover; female-specific Lifeline Plus top-up",
+    "Health management services such as second opinions"
+   ],
+   "riders_available": [
+    "Waiver of Premium Plus Rider",
+    "Critical Illness and Disability Rider",
+    "Accidental Death and Dismemberment Rider"
+   ],
+   "online_purchase": true,
+   "channels": [],
+   "tax_benefits": "Premiums and benefits may qualify under Sections 80C/10(10D) of the old regime, subject to prevailing law.",
+   "description": "Modular term plan with eight cover variants, including return-of-premium and whole-life designs, for buyers wanting tailored protection.",
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/term-insurance-plans/smart-term-plan-plus",
+    "brochure": "https://www.axismaxlife.com/static-page/assets/homepage/STPP-Prospectus.pdf"
+   },
+   "sources": [
+    "https://www.axismaxlife.com/term-insurance-plans/smart-term-plan-plus"
+   ],
+   "completeness": "partial",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "104N118V13",
+   "name": "Axis Max Life Smart Secure Plus Plan",
+   "segment": "Individual",
+   "category": "Term",
+   "plan_structure": "Pure Term",
+   "sub_category": "Term with increasing cover and optional ROP",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Life Cover",
+     "summary": "Level death cover equal to the sum assured for the whole term."
+    },
+    {
+     "name": "Increasing Life Cover",
+     "summary": "Cover grows 5% (simple) a year, capped at 200% of the base sum assured."
+    },
+    {
+     "name": "Accident Cover Option",
+     "summary": "Optional extra payout on accidental death for additional premium."
+    },
+    {
+     "name": "Return of Premium",
+     "summary": "Optional; refunds premiums paid if the life survives the term, at extra premium."
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 65,
+    "maturity_age_max_years": 85,
+    "policy_term_min_years": 5,
+    "policy_term_max_years": 67,
+    "whole_life": null,
+    "ppt_options": [
+     "Single",
+     "Regular",
+     "Limited 5",
+     "Limited 10",
+     "Limited 12",
+     "Limited 15",
+     "Pay till 60"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly",
+     "Single"
+    ],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Max entry age 65 (55 for POS channel; 44 for Pay Till 60); max maturity age 85 (65 for POS). Base cover term 10-67 years; accident cover term 5-67 years. PPT limits vary by policy term. Min/max sum assured not stated on page."
+   },
+   "benefits": {
+    "death": "Lump sum, monthly income over 120 instalments, or a mix, based on level or increasing cover; includes inbuilt terminal illness benefit.",
+    "maturity": "Nil for base cover; Return of Premium option refunds total premiums paid on survival.",
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": true,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": "Terminal illness benefit of 100% of guaranteed death benefit capped at Rs 1 crore is inbuilt. Optional joint-life cover, accident cover, premium break and voluntary sum assured top-up."
+   },
+   "category_details": {
+    "term": {
+     "rop_option": "Optional at extra premium; not combinable with special exit value",
+     "ci_or_accelerated_benefit": "Terminal illness benefit inbuilt (capped Rs 1 crore); critical illness (64 illnesses) via separate rider",
+     "payout_options": "Lump sum / Monthly income (120 instalments) / Lump sum + income",
+     "women_or_nonsmoker_discount": "15% lifetime discount on male rates for female lives",
+     "increasing_cover_option": "5% simple p.a., capped at 200% of base sum assured"
+    },
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Choose level cover or cover that rises 5% a year up to 2x the base amount",
+    "Terminal illness payout built in, capped at Rs 1 crore",
+    "Optional return of premium, accident cover and joint-life cover at extra cost",
+    "Special exit value on pure-protection terms of 40 years or more",
+    "Premium break available after year 10 on eligible long policies"
+   ],
+   "riders_available": [
+    "Waiver of Premium Plus Rider",
+    "Critical Illness and Disability Rider"
+   ],
+   "online_purchase": true,
+   "channels": [],
+   "tax_benefits": "Premiums may qualify for deduction and benefits for exemption under Sections 80C/10(10D) of the old regime, subject to prevailing law.",
+   "description": "Term plan with level or 5%-escalating life cover, inbuilt terminal illness payout and optional return of premium, for buyers wanting flexible pure protection.",
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/term-insurance-plans/smart-secure-plus-plan",
+    "brochure": "https://www.axismaxlife.com/static-page/assets/homepage/SSPP-Leaflet.pdf"
+   },
+   "sources": [
+    "https://www.axismaxlife.com/term-insurance-plans/smart-secure-plus-plan"
+   ],
+   "completeness": "partial",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "104N117V02",
+   "name": "Axis Max Life Saral Jeevan Bima",
+   "segment": "Individual",
+   "category": "Term",
+   "plan_structure": "Pure Term",
+   "sub_category": "IRDAI standard term product",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": "Saral Jeevan Bima",
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 65,
+    "maturity_age_max_years": 70,
+    "policy_term_min_years": 5,
+    "policy_term_max_years": 40,
+    "whole_life": null,
+    "ppt_options": [
+     "Regular",
+     "Limited 5",
+     "Limited 10",
+     "Single"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Monthly",
+     "Single"
+    ],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": 500000,
+    "max_sum_assured_text": "Up to Rs 25 lakh",
+    "notes": "Entry age as per last birthday; cover up to age 70."
+   },
+   "benefits": {
+    "death": "Sum assured paid as lump sum; in the first 45 days only accidental death pays the sum assured, other deaths pay 100% of premiums paid (excl. taxes).",
+    "maturity": "None - pure risk cover.",
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": false,
+    "loan": false,
+    "partial_withdrawal": null,
+    "other": "No surrender value. Grace period 30 days (15 for monthly). Free-look 15 days (30 for distance mode)."
+   },
+   "category_details": {
+    "term": {
+     "payout_options": "Lump sum to nominee"
+    },
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "IRDAI-standardised pure term cover with no investment component",
+    "Sum assured between Rs 5 lakh and Rs 25 lakh",
+    "Policy term 5-40 years, cover up to age 70",
+    "Regular, limited (5 or 10 year) or single premium payment",
+    "No add-on riders offered"
+   ],
+   "riders_available": [],
+   "online_purchase": true,
+   "channels": [],
+   "tax_benefits": "Premiums deductible as per prevailing tax laws.",
+   "description": "Axis Max Life's version of the IRDAI-mandated Saral Jeevan Bima, a basic low-cost term cover of Rs 5-25 lakh.",
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/term-insurance-plans/saral-jeevan-bima",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.axismaxlife.com/term-insurance-plans/saral-jeevan-bima"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "104N125V10",
+   "name": "Axis Max Life Smart Total Elite Protection Term Plan",
+   "segment": "Individual",
+   "category": "Term",
+   "plan_structure": "Pure Term",
+   "sub_category": "Pure term with early/special exit values",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 65,
+    "maturity_age_max_years": 85,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [
+     "Single",
+     "Regular",
+     "Limited 5",
+     "Limited 10",
+     "Limited 12",
+     "Limited 15",
+     "Pay till 60"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly",
+     "Single"
+    ],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": "No upper limit, subject to underwriting",
+    "notes": "Policy term limits and minimum sum assured not stated on product page (subject to underwriting). Advertised from Rs 902/month for Rs 2 crore cover. Cover Continuance Benefit not available for single pay; Early Exit Value applies only to limited pay after all premiums paid."
+   },
+   "benefits": {
+    "death": "Guaranteed benefit: highest of 10x annualised premium (1.25x single premium), 105% of premiums paid, or the sum assured.",
+    "maturity": "None - pure term.",
+    "survival_income": null,
+    "guaranteed": true,
+    "return_of_premium": false,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": "Terminal illness accelerated benefit up to Rs 1 crore; Special Exit Value returns premiums paid (term 40+ years, exercisable from year 30 excluding last 4 years); optional accident cover; insta payment of Rs 25,000-2 lakh within one working day after 1-year wait."
+   },
+   "category_details": {
+    "term": {
+     "rop_option": "Special Exit Value returns premiums paid on long terms (40+ years); no standard ROP",
+     "ci_or_accelerated_benefit": "Terminal illness accelerates up to Rs 1 crore; critical illness via separate rider",
+     "payout_options": "Lump sum / Monthly income for 10 years / Part lump sum + income (10% multiples)",
+     "women_or_nonsmoker_discount": "15% lifetime discount on male rates for female lives"
+    },
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Customisable cover with optional accident cover and riders",
+    "Cover Continuance Benefit lets one premium be deferred up to 12 months after year 3",
+    "Insta payment within one working day of claim registration after 1-year wait",
+    "Terminal illness benefit accelerates up to Rs 1 crore",
+    "Cover available up to age 85"
+   ],
+   "riders_available": [
+    "Waiver of Premium Plus Rider",
+    "Critical Illness and Disability Rider"
+   ],
+   "online_purchase": true,
+   "channels": [],
+   "tax_benefits": "Section 80C deduction up to Rs 1.5 lakh (old regime) and 10(10D) exemption, subject to conditions and prevailing law.",
+   "description": "Pure term plan with terminal illness acceleration, premium-deferral and exit-value features, aimed at buyers wanting high cover to age 85.",
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/term-insurance-plans/smart-total-elite-protection-plan",
+    "brochure": "https://www.axismaxlife.com/static-page/assets/homepage/STEP-Prospectus.pdf"
+   },
+   "sources": [
+    "https://www.axismaxlife.com/term-insurance-plans/smart-total-elite-protection-plan"
+   ],
+   "completeness": "partial",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "104N136V03",
+   "name": "Axis Max Life Secure Earnings & Wellness Advantage Plan",
+   "segment": "Individual",
+   "category": "Health & CI",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/health-insurance-plans/secure-earnings-wellness-advantage-plan",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.axismaxlife.com/all-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "104N095V03",
+   "name": "Axis Max Life Group Credit Life Premier",
+   "segment": "Group",
+   "category": "Credit Life",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/group-insurance-plans/credit-life-premier",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.axismaxlife.com/all-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "104N072V04",
+   "name": "Axis Max Life Group Credit Life Secure Plan",
+   "segment": "Group",
+   "category": "Credit Life",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/group-insurance-plans/credit-life-secure",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.axismaxlife.com/all-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "104N112V04",
+   "name": "Axis Max Life Group Term Life Platinum Assurance Plan",
+   "segment": "Group",
+   "category": "Group Term",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/group-insurance-plans/group-term-life",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.axismaxlife.com/all-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "104L087V02",
+   "name": "Axis Max Life Group Gratuity Premier Plan",
+   "segment": "Group",
+   "category": "Group Fund (Gratuity/Superannuation/Leave)",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/group-insurance-plans/gratuity-premier-plan",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.axismaxlife.com/all-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "104N114V03",
+   "name": "Axis Max Life Group Saral Suraksha Plan",
+   "segment": "Group",
+   "category": "Group Term",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/group-insurance-plans/max-life-group-saral-suraksha",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.axismaxlife.com/all-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "104N126V01",
+   "name": "Axis Max Life Smart Group Term Life Insurance Plan",
+   "segment": "Group",
+   "category": "Group Term",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/group-insurance-plans/smart-group-term-life",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.axismaxlife.com/all-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "104N088V04",
+   "name": "Axis Max Life Smart Group Super Life Premier Plan",
+   "segment": "Group",
+   "category": "Group Term",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/group-insurance-plans/super-life-premier",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.axismaxlife.com/all-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "104N129V01",
+   "name": "Axis Max Life Group Smart Health Insurance Plan",
+   "segment": "Group",
+   "category": "Group Health & Accident",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/group-insurance-plans/smart-health-insurance-plan",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.axismaxlife.com/all-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "104N130V01",
+   "name": "Axis Max Life CARES Plan",
+   "segment": "Group",
+   "category": "Group Other",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/group-insurance-plans/cares-plan",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.axismaxlife.com/all-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "104Y134V01",
+   "name": "Axis Max Life Insurance & Niva Bupa Health Insurance Smart Life-N-Health LoanSure Plan",
+   "segment": "Group",
+   "category": "Credit Life",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/group-insurance-plans/smart-life-n-health-loansure-plan",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.axismaxlife.com/all-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "104A049V03",
+   "name": "Axis Max Life Smart Ultra Protect Rider",
+   "segment": "Rider",
+   "category": "Accidental Death/Disability",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/health-insurance-plans/smart-ultra-protect-rider",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.axismaxlife.com/all-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "104B033V03",
+   "name": "Axis Max Life Critical Illness and Disability Rider",
+   "segment": "Rider",
+   "category": "Critical Illness",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/term-insurance-plans/critical-illness",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.axismaxlife.com/all-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "104A034V02",
+   "name": "Axis Max Life Critical Illness and Disability - Secure Rider",
+   "segment": "Rider",
+   "category": "Critical Illness",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/term-insurance-plans/critical-illness-disability-secure-rider",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.axismaxlife.com/all-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "104B027V05",
+   "name": "Axis Max Life Accidental Death and Dismemberment Rider",
+   "segment": "Rider",
+   "category": "Accidental Death/Disability",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/term-insurance-plans/accidental-death-dismemberment-rider",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.axismaxlife.com/all-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "104B029V06",
+   "name": "Axis Max Life Waiver of Premium Plus Rider",
+   "segment": "Rider",
+   "category": "Waiver of Premium",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/term-insurance-plans/waiver-of-premium-plus-rider",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.axismaxlife.com/all-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "104B026V04",
+   "name": "Axis Max Life Term Plus Rider",
+   "segment": "Rider",
+   "category": "Term Rider",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/term-insurance-plans/term-plus-rider",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.axismaxlife.com/all-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "104B030V04",
+   "name": "Axis Max Life Group Total and Permanent Disability (Accident) Premier Rider",
+   "segment": "Rider",
+   "category": "Accidental Death/Disability",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/group-insurance-plans/total-permanent-disability-accident-premier-rider",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.axismaxlife.com/all-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "104B032V03",
+   "name": "Axis Max Life Group Critical Illness Secure (Accelerated Benefit) Rider",
+   "segment": "Rider",
+   "category": "Critical Illness",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/group-insurance-plans/group-critical-illness-secure-accelerated-benefit-rider",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.axismaxlife.com/all-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "104B024V04",
+   "name": "Axis Max Life Group Accidental Death Benefit Premier Rider",
+   "segment": "Rider",
+   "category": "Accidental Death/Disability",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/group-insurance-plans/accidental-death-benefit-premier-rider",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.axismaxlife.com/all-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "104B031V04",
+   "name": "Axis Max Life Group Critical Illness (Additional Benefit) Premier Rider",
+   "segment": "Rider",
+   "category": "Critical Illness",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/group-insurance-plans/group-critical-illness-additional-benefit-premier-rider",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.axismaxlife.com/all-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "104B028V04",
+   "name": "Axis Max Life Group Accelerated Terminal Illness Rider",
+   "segment": "Rider",
+   "category": "Other Rider",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/group-insurance-plans/group-accelerated-terminal-illness-rider",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.axismaxlife.com/all-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  }
+ ],
+ "notes": ""
+}

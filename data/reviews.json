@@ -1,0 +1,674 @@
+{
+ "researched_on": "2026-10-28",
+ "companies": {
+  "lic": {
+   "android": {
+    "package": "com.lic.liccustomer",
+    "app_name": "LIC Digital (formerly LIC Customer)",
+    "rating": null,
+    "ratings_count": null,
+    "installs": null,
+    "last_updated": null,
+    "observed_on": "2026-10-28",
+    "source": "https://apkmirror.com/apk/life-insurance-corporation-of-india/lic-customer/lic-digital-1-4-4-release/lic-digital-1-4-4-android-apk-download"
+   },
+   "ios": null,
+   "third_party": [],
+   "positives": [],
+   "negatives": [],
+   "review_summary": null,
+   "digital_servicing": {
+    "whatsapp": null,
+    "whatsapp_number": null,
+    "customer_app": null,
+    "web_chatbot": null,
+    "customer_portal": null,
+    "notes": null
+   },
+   "notes": null,
+   "sources": []
+  },
+  "hdfc": {
+   "android": null,
+   "ios": {
+    "app_id": "900441427",
+    "app_name": "HDFC Life Insurance App",
+    "rating": 4.3,
+    "ratings_count": 6200,
+    "observed_on": "2026-10-28",
+    "source": "https://apps.apple.com/in/app/hdfc-life-insurance-app/id900441427"
+   },
+   "third_party": [],
+   "positives": [],
+   "negatives": [],
+   "review_summary": null,
+   "digital_servicing": {
+    "whatsapp": null,
+    "whatsapp_number": null,
+    "customer_app": null,
+    "web_chatbot": null,
+    "customer_portal": null,
+    "notes": null
+   },
+   "notes": "iOS ratings_count is the rounded figure shown on the App Store page (6.2K). Android package for the main app still to be confirmed: com.hdfcclife.activities is the separate 'HDFC Life USA: NRI Services' app, not the main customer app.",
+   "sources": []
+  },
+  "axismax": {
+   "android": {
+    "package": "com.maxlifeinsurance.www.twa",
+    "app_name": "Axis Max Life Insurance (new all-in-one app)",
+    "rating": 4.64,
+    "ratings_count": null,
+    "installs": "2.4M (AppGoblin estimate)",
+    "last_updated": "2026-10-23",
+    "observed_on": "2026-10-26",
+    "source": "https://appgoblin.info/apps/com.maxlifeinsurance.www.twa"
+   },
+   "ios": null,
+   "third_party": [],
+   "positives": [],
+   "negatives": [],
+   "review_summary": null,
+   "digital_servicing": {
+    "whatsapp": true,
+    "whatsapp_number": "+91 7428396005",
+    "customer_app": true,
+    "web_chatbot": null,
+    "customer_portal": true,
+    "notes": "Official page lists the Axis Max Life Insurance App plus an older 'Lite' app users are told to upgrade from."
+   },
+   "notes": null,
+   "sources": [
+    "https://www.axismaxlife.com/axis-max-life-insurance-mobile-app"
+   ]
+  },
+  "icici": {
+   "android": {
+    "package": "com.ipru.iciciprulife.customer.release",
+    "app_name": "ICICI Life Insurance App (formerly ICICI Prudential Life App)",
+    "rating": 4.7,
+    "ratings_count": 104000,
+    "installs": "2.9M (AppGoblin estimate)",
+    "last_updated": "2026-10-17",
+    "observed_on": "2026-10-26",
+    "source": "https://appgoblin.info/apps/com.ipru.iciciprulife.customer.release"
+   },
+   "ios": null,
+   "third_party": [],
+   "positives": [],
+   "negatives": [],
+   "review_summary": null,
+   "digital_servicing": {
+    "whatsapp": null,
+    "whatsapp_number": null,
+    "customer_app": null,
+    "web_chatbot": null,
+    "customer_portal": null,
+    "notes": null
+   },
+   "notes": null,
+   "sources": []
+  },
+  "kotak": {
+   "android": null,
+   "ios": null,
+   "third_party": [],
+   "positives": [],
+   "negatives": [],
+   "review_summary": null,
+   "digital_servicing": {
+    "whatsapp": null,
+    "whatsapp_number": null,
+    "customer_app": null,
+    "web_chatbot": null,
+    "customer_portal": null,
+    "notes": null
+   },
+   "notes": null,
+   "sources": []
+  },
+  "absli": {
+   "android": null,
+   "ios": null,
+   "third_party": [],
+   "positives": [],
+   "negatives": [],
+   "review_summary": null,
+   "digital_servicing": {
+    "whatsapp": null,
+    "whatsapp_number": null,
+    "customer_app": null,
+    "web_chatbot": null,
+    "customer_portal": null,
+    "notes": null
+   },
+   "notes": null,
+   "sources": []
+  },
+  "tataaia": {
+   "android": null,
+   "ios": null,
+   "third_party": [],
+   "positives": [],
+   "negatives": [],
+   "review_summary": null,
+   "digital_servicing": {
+    "whatsapp": null,
+    "whatsapp_number": null,
+    "customer_app": null,
+    "web_chatbot": null,
+    "customer_portal": null,
+    "notes": null
+   },
+   "notes": null,
+   "sources": []
+  },
+  "sbi": {
+   "android": null,
+   "ios": null,
+   "third_party": [],
+   "positives": [],
+   "negatives": [],
+   "review_summary": null,
+   "digital_servicing": {
+    "whatsapp": null,
+    "whatsapp_number": null,
+    "customer_app": null,
+    "web_chatbot": null,
+    "customer_portal": null,
+    "notes": null
+   },
+   "notes": null,
+   "sources": []
+  },
+  "bajaj": {
+   "android": null,
+   "ios": null,
+   "third_party": [],
+   "positives": [],
+   "negatives": [],
+   "review_summary": null,
+   "digital_servicing": {
+    "whatsapp": null,
+    "whatsapp_number": null,
+    "customer_app": null,
+    "web_chatbot": null,
+    "customer_portal": null,
+    "notes": null
+   },
+   "notes": null,
+   "sources": []
+  },
+  "pnbmetlife": {
+   "android": null,
+   "ios": null,
+   "third_party": [],
+   "positives": [],
+   "negatives": [],
+   "review_summary": null,
+   "digital_servicing": {
+    "whatsapp": null,
+    "whatsapp_number": null,
+    "customer_app": null,
+    "web_chatbot": null,
+    "customer_portal": null,
+    "notes": null
+   },
+   "notes": null,
+   "sources": []
+  },
+  "indusindnippon": {
+   "android": null,
+   "ios": null,
+   "third_party": [],
+   "positives": [],
+   "negatives": [],
+   "review_summary": null,
+   "digital_servicing": {
+    "whatsapp": null,
+    "whatsapp_number": null,
+    "customer_app": null,
+    "web_chatbot": null,
+    "customer_portal": null,
+    "notes": null
+   },
+   "notes": null,
+   "sources": []
+  },
+  "aviva": {
+   "android": null,
+   "ios": null,
+   "third_party": [],
+   "positives": [],
+   "negatives": [],
+   "review_summary": null,
+   "digital_servicing": {
+    "whatsapp": null,
+    "whatsapp_number": null,
+    "customer_app": null,
+    "web_chatbot": null,
+    "customer_portal": null,
+    "notes": null
+   },
+   "notes": null,
+   "sources": []
+  },
+  "sahara": {
+   "android": null,
+   "ios": null,
+   "third_party": [],
+   "positives": [],
+   "negatives": [],
+   "review_summary": null,
+   "digital_servicing": {
+    "whatsapp": null,
+    "whatsapp_number": null,
+    "customer_app": null,
+    "web_chatbot": null,
+    "customer_portal": null,
+    "notes": null
+   },
+   "notes": null,
+   "sources": []
+  },
+  "shriram": {
+   "android": null,
+   "ios": null,
+   "third_party": [],
+   "positives": [],
+   "negatives": [],
+   "review_summary": null,
+   "digital_servicing": {
+    "whatsapp": null,
+    "whatsapp_number": null,
+    "customer_app": null,
+    "web_chatbot": null,
+    "customer_portal": null,
+    "notes": null
+   },
+   "notes": null,
+   "sources": []
+  },
+  "bharti": {
+   "android": null,
+   "ios": null,
+   "third_party": [],
+   "positives": [],
+   "negatives": [],
+   "review_summary": null,
+   "digital_servicing": {
+    "whatsapp": null,
+    "whatsapp_number": null,
+    "customer_app": null,
+    "web_chatbot": null,
+    "customer_portal": null,
+    "notes": null
+   },
+   "notes": null,
+   "sources": []
+  },
+  "generalicentral": {
+   "android": null,
+   "ios": null,
+   "third_party": [],
+   "positives": [],
+   "negatives": [],
+   "review_summary": null,
+   "digital_servicing": {
+    "whatsapp": null,
+    "whatsapp_number": null,
+    "customer_app": null,
+    "web_chatbot": null,
+    "customer_portal": null,
+    "notes": null
+   },
+   "notes": null,
+   "sources": []
+  },
+  "ageasfederal": {
+   "android": null,
+   "ios": null,
+   "third_party": [],
+   "positives": [],
+   "negatives": [],
+   "review_summary": null,
+   "digital_servicing": {
+    "whatsapp": null,
+    "whatsapp_number": null,
+    "customer_app": null,
+    "web_chatbot": null,
+    "customer_portal": null,
+    "notes": null
+   },
+   "notes": null,
+   "sources": []
+  },
+  "canarahsbc": {
+   "android": null,
+   "ios": null,
+   "third_party": [],
+   "positives": [],
+   "negatives": [],
+   "review_summary": null,
+   "digital_servicing": {
+    "whatsapp": null,
+    "whatsapp_number": null,
+    "customer_app": null,
+    "web_chatbot": null,
+    "customer_portal": null,
+    "notes": null
+   },
+   "notes": null,
+   "sources": []
+  },
+  "bandhan": {
+   "android": null,
+   "ios": null,
+   "third_party": [],
+   "positives": [],
+   "negatives": [],
+   "review_summary": null,
+   "digital_servicing": {
+    "whatsapp": null,
+    "whatsapp_number": null,
+    "customer_app": null,
+    "web_chatbot": null,
+    "customer_portal": null,
+    "notes": null
+   },
+   "notes": null,
+   "sources": []
+  },
+  "pramerica": {
+   "android": null,
+   "ios": null,
+   "third_party": [],
+   "positives": [],
+   "negatives": [],
+   "review_summary": null,
+   "digital_servicing": {
+    "whatsapp": null,
+    "whatsapp_number": null,
+    "customer_app": null,
+    "web_chatbot": null,
+    "customer_portal": null,
+    "notes": null
+   },
+   "notes": null,
+   "sources": []
+  },
+  "sud": {
+   "android": null,
+   "ios": null,
+   "third_party": [],
+   "positives": [],
+   "negatives": [],
+   "review_summary": null,
+   "digital_servicing": {
+    "whatsapp": null,
+    "whatsapp_number": null,
+    "customer_app": null,
+    "web_chatbot": null,
+    "customer_portal": null,
+    "notes": null
+   },
+   "notes": null,
+   "sources": []
+  },
+  "indiafirst": {
+   "android": null,
+   "ios": null,
+   "third_party": [],
+   "positives": [],
+   "negatives": [],
+   "review_summary": null,
+   "digital_servicing": {
+    "whatsapp": null,
+    "whatsapp_number": null,
+    "customer_app": null,
+    "web_chatbot": null,
+    "customer_portal": null,
+    "notes": null
+   },
+   "notes": null,
+   "sources": []
+  },
+  "edelweiss": {
+   "android": null,
+   "ios": null,
+   "third_party": [],
+   "positives": [],
+   "negatives": [],
+   "review_summary": null,
+   "digital_servicing": {
+    "whatsapp": null,
+    "whatsapp_number": null,
+    "customer_app": null,
+    "web_chatbot": null,
+    "customer_portal": null,
+    "notes": null
+   },
+   "notes": null,
+   "sources": []
+  },
+  "creditaccess": {
+   "android": null,
+   "ios": null,
+   "third_party": [],
+   "positives": [],
+   "negatives": [],
+   "review_summary": null,
+   "digital_servicing": {
+    "whatsapp": null,
+    "whatsapp_number": null,
+    "customer_app": null,
+    "web_chatbot": null,
+    "customer_portal": null,
+    "notes": null
+   },
+   "notes": null,
+   "sources": []
+  },
+  "acko": {
+   "android": null,
+   "ios": null,
+   "third_party": [],
+   "positives": [],
+   "negatives": [],
+   "review_summary": null,
+   "digital_servicing": {
+    "whatsapp": null,
+    "whatsapp_number": null,
+    "customer_app": null,
+    "web_chatbot": null,
+    "customer_portal": null,
+    "notes": null
+   },
+   "notes": null,
+   "sources": []
+  },
+  "godigit": {
+   "android": null,
+   "ios": null,
+   "third_party": [],
+   "positives": [],
+   "negatives": [],
+   "review_summary": null,
+   "digital_servicing": {
+    "whatsapp": null,
+    "whatsapp_number": null,
+    "customer_app": null,
+    "web_chatbot": null,
+    "customer_portal": null,
+    "notes": null
+   },
+   "notes": null,
+   "sources": []
+  },
+  "indiapost": {
+   "android": null,
+   "ios": null,
+   "third_party": [],
+   "positives": [],
+   "negatives": [],
+   "review_summary": null,
+   "digital_servicing": {
+    "whatsapp": null,
+    "whatsapp_number": null,
+    "customer_app": null,
+    "web_chatbot": null,
+    "customer_portal": null,
+    "notes": null
+   },
+   "notes": null,
+   "sources": []
+  }
+ },
+ "hdfc": {
+  "android": {
+   "package": "com.hdfcclife.activities",
+   "app_name": "HDFC Life Insurance App",
+   "rating": 3.37,
+   "ratings_count": 37000,
+   "installs": "7.3M+ (AppGoblin estimate)",
+   "last_updated": "2026-10-09",
+   "observed_on": "2026-10-26",
+   "source": "https://appgoblin.info/apps/com.hdfcclife.activities"
+  },
+  "positives": [
+   "Easy-to-use layout for viewing policy details",
+   "Smooth premium payment with several payment options",
+   "Policy tracking, claims status and reminders in one place"
+  ],
+  "negatives": [
+   "Occasional lag and login problems",
+   "Slow customer-support response",
+   "Customers want more self-service options"
+  ],
+  "review_summary": "Sampled iOS reviewers like the simple layout, smooth premium payment and handy reminders. Complaints are occasional lag or login problems, slow support replies and a wish for more self-service (very small sample of five visible reviews).",
+  "digital_servicing": {
+   "whatsapp": true,
+   "whatsapp_number": "+91 8291890569",
+   "customer_app": true,
+   "customer_portal": true,
+   "notes": "WhatsApp bot is called Etty; number and portal (myaccount.hdfclife.com) come from a Ditto article, not the insurer site."
+  },
+  "notes": "Android package is the Play link given by Ditto's HDFC Life article for the HDFC Life Insurance App; AppGoblin's copy of the same listing currently shows the title 'HDFC Life USA: NRI Services' (likely a US-locale listing title for the same package) - re-confirm on Google Play en-IN. Android figures are AppGoblin's crawl of 2026-10-26 and rounded (37K ratings; installs are an AppGoblin estimate, not a Play band). iOS count is the rounded 6.2K shown on the App Store page. Other HDFC Life apps: instA Business (iOS 1364891064, advisor), MLearn (1580724410), InstaQuote 2.0 (6639613496), Life Rewards (1630065331), HLI-BancaBuzz (6503999293). Ditto's own 4.9 Google rating shown on its article is Ditto's, not HDFC Life's.",
+  "sources": [
+   "https://apps.apple.com/in/app/hdfc-life-insurance-app/id900441427",
+   "https://appgoblin.info/apps/com.hdfcclife.activities",
+   "https://www.joinditto.in/articles/life-insurance/hdfc-life-policy-status/"
+  ]
+ },
+ "lic": {
+  "ios": {
+   "app_id": "6740513802",
+   "app_name": "My LIC",
+   "rating": 4.7,
+   "ratings_count": 56000,
+   "observed_on": "2026-10-28",
+   "source": "https://apps.apple.com/in/app/id6740513802"
+  },
+  "positives": [
+   "Seen as a convenient digital channel for policyholders",
+   "Welcomed as a worthwhile LIC digital initiative"
+  ],
+  "negatives": [
+   "Persistent 'technical issues' errors reported over months despite updates",
+   "Navigation bugs, e.g. no clear back option and premium screen not listing all policies together",
+   "App refuses to run when certain remote-desktop apps are installed"
+  ],
+  "review_summary": "The new My LIC app is liked as a convenient policyholder channel, and its India iOS rating is high. The few visible reviews, though, report recurring technical errors, clumsy navigation and a security block that locks some users out.",
+  "digital_servicing": {
+   "customer_app": true
+  },
+  "notes": "LIC has two customer apps: the newer 'My LIC' customer super app (iOS 6740513802; Android package not yet found) and the older 'LIC Digital' (iOS 1324159013; Android com.lic.liccustomer, last APKMirror version seen 1.4.4 from Jan 2025). The android block holds LIC Digital only because its package is the one verified - replace with My LIC's package once found. iOS count is the rounded 56K shown on the page; themes come from only a handful of visible reviews. Agent apps: LIC Super Sales Saathi (6740514037), LIC's Sales Saathi Productivity (6667117496).",
+  "sources": [
+   "https://apps.apple.com/in/app/id6740513802",
+   "https://apps.apple.com/sg/app/lic-customer/id1324159013",
+   "https://apkmirror.com/apk/life-insurance-corporation-of-india/lic-customer/lic-digital-1-4-4-release/lic-digital-1-4-4-android-apk-download"
+  ]
+ },
+ "icici": {
+  "ios": {
+   "app_id": "1495618064",
+   "app_name": "ICICI Life Insurance App (formerly ICICI Prudential Life App)",
+   "observed_on": "2026-10-28",
+   "source": "https://apps.apple.com/in/app/icici-prudential-life-app/id1495618064"
+  },
+  "notes": "Company and app appear rebranded: Play listing text says 'ICICI Life Insurance App (formerly known as ICICI Prudential Life App)', iciciprulife.com now redirects to icicilife.com, and the US App Store snapshot already names the iOS app 'ICICI Life Insurance App'. iOS India rating not captured (only US-storefront pages were reachable). Android figures are AppGoblin's crawl of 2026-10-26; installs are an AppGoblin estimate. Other ICICI group apps seen in results, not evaluated: iPru Edge (iOS 6455888282), iPru Saksham (1577184588), ICICI PruPFM (1597293635).",
+  "sources": [
+   "https://appgoblin.info/apps/com.ipru.iciciprulife.customer.release",
+   "https://apps.apple.com/us/app/-/id1495618064"
+  ]
+ },
+ "axismax": {
+  "ios": {
+   "app_id": "6447048056",
+   "app_name": "Axis Max Life Insurance",
+   "observed_on": "2026-10-28",
+   "source": "https://apps.apple.com/in/app/axis-max-life-insurance/id6447048056"
+  },
+  "digital_servicing": {
+   "customer_portal": true,
+   "notes": "Customer login portal: axismaxlife.com/cs/login. Official site also names an older 'Axis Max Life Lite App' users are told to upgrade from."
+  },
+  "notes": "IDs need confirmation. AppGoblin lists com.maxlifeinsurance.www.twa as 'Axis Max life Insurance' (4.64 stars, rating count unavailable, installs an AppGoblin estimate). Ditto's article links a different Play id, com.maxlifeinsurance.maxlifeapp, and iOS id 6443855899 for the 'Axis Max Life Mobile App'. Apple's India similar-apps list shows iOS 6447048056 with subtitle 'Insurance, Savings, Wellness', matching the 2025 all-in-one app, so that is used here. net.gcsolutions.maxlife is mSaarthi, an advisor learning app, not a customer app.",
+  "sources": [
+   "https://www.axismaxlife.com/axis-max-life-insurance-mobile-app",
+   "https://appgoblin.info/apps/com.maxlifeinsurance.www.twa",
+   "https://joinditto.in/articles/life-insurance/axis-max-life-insurance-policy-status/"
+  ]
+ },
+ "sbi": {
+  "android": {
+   "package": "com.sbilife.smartcare",
+   "app_name": "SBI Life SmartCare",
+   "observed_on": "2026-10-28",
+   "source": "https://joinditto.in/articles/life-insurance/sbi-life-insurance-login/"
+  },
+  "ios": {
+   "app_id": "1627221447",
+   "app_name": "SBI Life Smart Care",
+   "observed_on": "2026-10-28",
+   "source": "https://apps.apple.com/us/app/-/id1627221447"
+  },
+  "digital_servicing": {
+   "whatsapp": true,
+   "whatsapp_number": "+91 8750633334",
+   "customer_app": true,
+   "customer_portal": true,
+   "notes": "SmartCare portal at sbilife.co.in/SmartCare/login; Smart Group Care portal for employer policies; policies can also be linked inside YONO SBI. WhatsApp number is from a Ditto article, not the insurer site."
+  },
+  "notes": "Android package is taken from the Play link in Ditto's SBI Life login article; the Play listing itself was not directly checked, so ratings are null. iOS seller confirmed as SBI Life Insurance Company Limited, but the only page reachable was the US storefront (1.7 stars on 23 ratings, not representative of India), so iOS rating is null.",
+  "sources": [
+   "https://joinditto.in/articles/life-insurance/sbi-life-insurance-login/",
+   "https://apps.apple.com/us/app/-/id1627221447"
+  ]
+ },
+ "bajaj": {
+  "ios": {
+   "app_id": "6749006543",
+   "app_name": "Bajaj Life Insurance",
+   "observed_on": "2026-10-28",
+   "source": "https://apps.apple.com/in/app/bajaj-life-insurance/id6749006543"
+  },
+  "notes": "iOS id from Apple's India similar-apps list (subtitle 'Life | Insurance | Investments'); a fintech.global item dated 2025-10-24 reports an upgraded Bajaj Life policyholder app. Ratings and Android package not yet found.",
+  "sources": [
+   "https://apps.apple.com/us/app/id6749006543",
+   "https://fintech.global/2025/10/24/bajaj-life-launches-upgraded-insurance-app-for-policyholders/"
+  ]
+ },
+ "tataaia": {
+  "ios": {
+   "app_id": "1634923478",
+   "app_name": "Tata AIA Life Insurance",
+   "observed_on": "2026-10-28",
+   "source": "https://apps.apple.com/in/app/tata-aia-life-insurance/id1634923478"
+  },
+  "notes": "iOS id from Apple's India similar-apps list on the My LIC page. Ratings and Android package not yet found."
+ },
+ "godigit": {
+  "notes": "No separate life-insurance app found yet. The group's Digit Insurance app (iOS 1453841964) is a general-insurance app and is not recorded as the Go Digit Life app because life servicing there is unconfirmed."
+ }
+}

@@ -1,0 +1,1146 @@
+{
+ "company_id": "godigit",
+ "company_name": "Go Digit Life Insurance Ltd",
+ "researched_on": "2026-10-28",
+ "urls": {
+  "website": "https://www.godigit.com/life/about",
+  "product_list_url": "https://www.godigit.com/life/download-policy",
+  "withdrawn_list_url": "https://www.godigit.com/life/withdrawn-products",
+  "riders_url": null,
+  "group_url": "https://www.godigit.com/life-insurance/group-term-life-insurance",
+  "newsroom_url": null
+ },
+ "products": [
+  {
+   "uin": "165N007V03",
+   "name": "Digit Glow Plus Term Life Insurance",
+   "segment": "Individual",
+   "category": "Term",
+   "plan_structure": "Pure Term",
+   "sub_category": "Term with optional return-of-premium variant; POSP version exists",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Term Insurance",
+     "summary": "Death cover plus inbuilt accelerated terminal-illness benefit; no maturity payout"
+    },
+    {
+     "name": "Term Insurance with Return of Premium",
+     "summary": "Same cover, and 100% of premiums paid (excluding optional-benefit premiums) refunded on surviving the term"
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 65,
+    "maturity_age_max_years": 85,
+    "policy_term_min_years": 1,
+    "policy_term_max_years": 67,
+    "whole_life": false,
+    "ppt_options": [
+     "Single",
+     "Limited 3",
+     "Limited 4",
+     "Limited 5",
+     "Limited 10",
+     "Limited 12",
+     "Limited 15",
+     "Limited till age 60",
+     "Regular"
+    ],
+    "premium_modes": [
+     "Single",
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": 225000,
+    "max_sum_assured_text": "No limit, subject to underwriting policy",
+    "notes": "Brochure as on 2 Jul 2026: Term variant min term 1 yr single pay, PPT+5 limited pay, 3 yrs regular; ROP variant min 15 yrs single pay, 10 yrs regular/limited; max term 67 yrs. POSP version: entry 18-60, maturity 23-65, min SA Rs 2.5 lakh in multiples of Rs 50,000, max term 47 yrs. No fixed minimum premium. Web page shows older or simplified figures (term 5-40 yrs, min SA Rs 10 lakh); brochure used."
+   },
+   "benefits": {
+    "death": "Lump sum equal to the highest of sum assured, 105% of premiums paid or 10x annualised premium (limited/regular pay), or 1.25x single premium (single pay)",
+    "maturity": "Term variant: none. Return-of-premium variant: 100% of premiums paid (excluding optional-benefit premiums)",
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": true,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": "Inbuilt accelerated terminal-illness benefit (lower of death benefit or Rs 2 crore; future premiums waived if death benefit exceeds Rs 2 crore); Smart Exit returns 100% of premiums after 29 policy years (not with ROP); Pay Later allows premium pause up to 12 months; premium can be cut up to 50% after 3 years; optional ADB and ATPD benefits"
+   },
+   "category_details": {
+    "term": {
+     "rop_option": "Yes - separate return-of-premium variant (100% of premiums at maturity)",
+     "ci_or_accelerated_benefit": "Inbuilt accelerated terminal-illness benefit (lower of death benefit or Rs 2 crore); no critical-illness cover",
+     "payout_options": "Lump sum",
+     "women_or_nonsmoker_discount": "Lower rates for women (no percentage stated); no separate non-smoker discount; first-year salaried discount 4-10% for SA from Rs 50 lakh"
+    },
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Pure-protection plan with an optional return-of-premium variant",
+    "Terminal-illness payout built in at no extra premium",
+    "Smart Exit returns all premiums after 29 years on the non-ROP variant",
+    "Pay Later lets you pause premiums up to 12 months after 3 years of timely payment",
+    "Lower rates for women and first-year discounts for salaried buyers with larger cover"
+   ],
+   "riders_available": [
+    "Additional Accidental Death Benefit (optional)",
+    "Additional Accidental Total and Permanent Disability Benefit (optional)"
+   ],
+   "online_purchase": true,
+   "channels": [
+    "Direct/Online",
+    "POSP"
+   ],
+   "tax_benefits": null,
+   "description": "Digit Life's online term plan, with an optional return-of-premium variant, for adults aged 18-65 seeking low-cost life cover.",
+   "urls": {
+    "product_page": "https://www.godigit.com/life-insurance/term-insurance/digit-glow-plus-term-life-insurance",
+    "brochure": "https://godigit.com/content/dam/godigit/life/product-documents/digit-glow-plus-term-life-insurance-sales-brochure.pdf"
+   },
+   "sources": [
+    "https://godigit.com/content/dam/godigit/life/product-documents/digit-glow-plus-term-life-insurance-sales-brochure.pdf",
+    "https://www.godigit.com/life-insurance/term-insurance/digit-glow-plus-term-life-insurance",
+    "https://www.godigit.com/life/withdrawn-products"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "165N006V01",
+   "name": "Digit Glow Lite Term Life Insurance",
+   "segment": "Micro",
+   "category": "Micro Insurance",
+   "plan_structure": "Pure Term",
+   "sub_category": "Individual micro term (SA Rs 25,000 to 2 lakh)",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 65,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": 5,
+    "policy_term_max_years": 40,
+    "whole_life": false,
+    "ppt_options": [
+     "Single",
+     "Limited",
+     "Regular"
+    ],
+    "premium_modes": [
+     "Single",
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": 25000,
+    "max_sum_assured_text": "Rs 2,00,000, subject to underwriting",
+    "notes": "POSP version: min SA Rs 50,000, max maturity age 65. Regular-pay PPT 3-40 yrs. Page lists maximum maturity age inconsistently, so not captured."
+   },
+   "benefits": {
+    "death": "Lump sum equal to the highest of sum assured, 105% of premiums paid or 10x annualised premium; policy ends on payout",
+    "maturity": "None",
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": false,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": "Accelerated terminal-illness benefit; optional ADB and ATPD benefits up to 100% of sum assured (not for POSP)"
+   },
+   "category_details": {
+    "term": {
+     "ci_or_accelerated_benefit": "Accelerated terminal-illness benefit only; no critical-illness cover",
+     "payout_options": "Lump sum"
+    },
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Low-ticket pure-risk cover with sum assured from Rs 25,000 up to Rs 2 lakh",
+    "Single, limited or regular premium payment",
+    "Accelerated payout on terminal illness",
+    "Optional accidental death and accidental disability add-ons",
+    "Bought online through website or Digit app"
+   ],
+   "riders_available": [
+    "Additional Accidental Death Benefit (optional)",
+    "Additional Accidental Total and Permanent Disability Benefit (optional)"
+   ],
+   "online_purchase": true,
+   "channels": [
+    "Direct/Online",
+    "POSP"
+   ],
+   "tax_benefits": "Tagged for Sec 80C savings on the product page",
+   "description": "Digit Life's small-ticket online term plan for adults aged 18-65 who want basic cover of up to Rs 2 lakh.",
+   "urls": {
+    "product_page": "https://www.godigit.com/life-insurance/term-insurance/digit-glow-lite-term-life-insurance",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.godigit.com/life-insurance/term-insurance/digit-glow-lite-term-life-insurance"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "165N011V04",
+   "name": "Digit ICON Guaranteed Savings Plan",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": "Guaranteed Income",
+   "sub_category": "Non-linked guaranteed savings with lump-sum, income and whole-life variants",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Lumpsum Benefit",
+     "summary": "Guaranteed lump sum on maturity"
+    },
+    {
+     "name": "Income Benefit",
+     "summary": "Regular guaranteed income during the payout period"
+    },
+    {
+     "name": "Income plus Lumpsum Benefit",
+     "summary": "Guaranteed income plus a maturity lump sum"
+    },
+    {
+     "name": "Whole Life Benefit",
+     "summary": "Guaranteed income paid up to age 100"
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 18,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": 50,
+    "whole_life": true,
+    "ppt_options": [
+     "Single",
+     "Limited",
+     "Regular"
+    ],
+    "premium_modes": [
+     "Single",
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Max entry age roughly 50-60 depending on variant and term (exact table not retrieved); whole_life flag reflects the Whole Life variant only. Minimum premium and sum assured not stated on the page."
+   },
+   "benefits": {
+    "death": "Death benefit payable during the policy term plus inbuilt accidental death cover (page cites 2x sum assured); future premiums waived and policy continues on death",
+    "maturity": "Guaranteed lump sum on maturity (lump-sum and income-plus-lump-sum variants)",
+    "survival_income": "Guaranteed income in the income variants; whole-life variant pays income to age 100",
+    "guaranteed": true,
+    "return_of_premium": null,
+    "loan": true,
+    "partial_withdrawal": null,
+    "other": "Reduced paid-up option; accelerated critical-illness benefit of 5x annualised premium if a listed illness is diagnosed after age 60; wellness services via third parties"
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": {
+     "payout_type": "Lump sum + Income",
+     "income_duration": "Whole-life variant: to age 100",
+     "bonus_type": "None"
+    },
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Guaranteed non-participating returns in four variants",
+    "Whole-life variant pays income to age 100",
+    "Inbuilt accidental death cover and waiver of future premiums on death",
+    "Surrender value and policy loans available",
+    "Policy terms up to 50 years"
+   ],
+   "riders_available": [],
+   "online_purchase": true,
+   "channels": [
+    "Direct/Online"
+   ],
+   "tax_benefits": "Sec 80C and 10(10D), subject to prevailing law",
+   "description": "Digit Life's guaranteed savings plan offering lump-sum, income or whole-life payouts for goal-based saving.",
+   "urls": {
+    "product_page": "https://www.godigit.com/life-insurance/digit-icon-guaranteed-returns-savings-plan",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.godigit.com/life-insurance/digit-icon-guaranteed-returns-savings-plan",
+    "https://www.godigit.com/life/withdrawn-products"
+   ],
+   "completeness": "partial",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "165N032V01",
+   "name": "Digit Life Pension Plan",
+   "segment": "Individual",
+   "category": "Pension & Annuity",
+   "plan_structure": "Deferred Annuity",
+   "sub_category": "General annuity, immediate or deferred; guaranteed (Sukoon) and Nifty 50-linked hybrid (Boss) variants",
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Retirement"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": "2026-07-15",
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Digit Sukoon",
+     "summary": "100% guaranteed lifetime annuity with eight annuity options (A-H) incl. return of purchase price on death, CI/ATPD or milestone survival"
+    },
+    {
+     "name": "Digit Boss",
+     "summary": "Guaranteed annuity (60/70/80% share) plus a variable annuity linked to the Nifty 50; single option with return of purchase price on death"
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 85,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [
+     "Single",
+     "Limited 5",
+     "Limited 6",
+     "Limited 7",
+     "Limited 8",
+     "Limited 10",
+     "Limited 12",
+     "Regular"
+    ],
+    "premium_modes": [
+     "Single",
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Entry age min 18 (single pay) or 25 (limited/regular); max 85 immediate, 80 deferred, 70 for milestone and CI options. Deferment 1-15 yrs (single pay), PPT+1 to 15 yrs (limited), equal to PPT (regular); regular-pay PPT 5,6,7,8,10,12,15 yrs. Minimum annuity: Sukoon Rs 12,500 a year, Boss Rs 12,295 a year, Rs 1,000 a month for both; no separate minimum purchase price stated."
+   },
+   "benefits": {
+    "death": "Depends on annuity option: Boss returns 100% of premiums paid on death (second death for joint life); Sukoon options include return of purchase price or balance of purchase price. No sum assured on death",
+    "maturity": "None payable",
+    "survival_income": "Lifetime annuity (level or rising 5% simple a year), single or joint life, paid monthly, quarterly, half-yearly or yearly; Boss pays a guaranteed share plus a Nifty 50-linked variable share",
+    "guaranteed": true,
+    "return_of_premium": null,
+    "loan": true,
+    "partial_withdrawal": true,
+    "other": "Premium-waiver options on annuitant death or CI/ATPD (Sukoon); advance annuity payouts and partial withdrawals (Sukoon); wellness services; 30-day free look"
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": {
+     "annuity_options_count": 8,
+     "immediate_or_deferred": "Both",
+     "joint_life": true,
+     "return_of_purchase_price": true,
+     "max_deferment_years": 15
+    },
+    "health": null
+   },
+   "key_features": [
+    "Two variants: fully guaranteed Digit Sukoon and Nifty 50-linked hybrid Digit Boss",
+    "Immediate or deferred annuity, deferment up to 15 years",
+    "Single-life or joint-life income, level or rising 5% a year",
+    "Single, limited (5-12 yrs) or regular (5-15 yrs) premium payment",
+    "Open to individual and group customers"
+   ],
+   "riders_available": [],
+   "online_purchase": true,
+   "channels": [
+    "Direct/Online"
+   ],
+   "tax_benefits": null,
+   "description": "Digit Life's first retirement plan, offering guaranteed or Nifty 50-linked lifetime annuity income for individuals and groups.",
+   "urls": {
+    "product_page": "https://www.godigit.com/life-insurance/retirement-and-pension-plans/guaranteed-pension-plans",
+    "brochure": "https://www.godigit.com/content/dam/godigit/life/cis/digit-life-pension-plan-sales-brochure.pdf"
+   },
+   "sources": [
+    "https://www.godigit.com/content/dam/godigit/life/cis/digit-life-pension-plan-sales-brochure.pdf",
+    "https://www.godigit.com/content/dam/godigit/life/cis/digit-life-pension-plan-digit-sukoon-cis.pdf",
+    "https://www.godigit.com/content/dam/godigit/life/financials/digit-life-pension-plan-revised.pdf",
+    "https://english.dainikjagranmpcg.com/national/digit-life-insurance-launches-guaranteed-and-index-based-variable-annuity-plans/article-22639",
+    "https://www.structuredretailproducts.com/insights/84164/go-digit-rolls-out-guaranteed-and-hybrid-annuity-variants-under-new-pension-plan"
+   ],
+   "completeness": "partial",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "165N007V02",
+   "name": "Digit Glow Plus Term Life Insurance",
+   "segment": "Individual",
+   "category": "Term",
+   "plan_structure": "Pure Term",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Earlier version 02 of Digit Glow Plus, superseded by 165N007V03.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.godigit.com/life/withdrawn-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "165N007V01",
+   "name": "Digit Glow Plus Term Life Insurance",
+   "segment": "Individual",
+   "category": "Term",
+   "plan_structure": "Pure Term",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Original version 01 of Digit Glow Plus.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.godigit.com/life/withdrawn-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "165N011V03",
+   "name": "Digit Icon",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": "Guaranteed Income",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Whole Life Variant",
+     "summary": "Whole-life income"
+    },
+    {
+     "name": "Lumpsum Variant",
+     "summary": "Maturity lump sum"
+    },
+    {
+     "name": "Income Variant",
+     "summary": "Regular income"
+    },
+    {
+     "name": "Income Plus Lumpsum Variant",
+     "summary": "Income plus maturity lump sum"
+    },
+    {
+     "name": "Income / Lumpsum / Income Plus Lumpsum with Inbuilt Optional Benefits",
+     "summary": "Variants bundling optional benefits"
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Version 03 of the Digit Icon guaranteed savings plan, superseded by 165N011V04.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.godigit.com/life/withdrawn-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "165N011V02",
+   "name": "Digit Icon",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": "Guaranteed Income",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Whole Life Variant",
+     "summary": "Whole-life income"
+    },
+    {
+     "name": "Lumpsum Variant",
+     "summary": "Maturity lump sum"
+    },
+    {
+     "name": "Income Variant",
+     "summary": "Regular income"
+    },
+    {
+     "name": "Income Plus Lumpsum Variant",
+     "summary": "Income plus maturity lump sum"
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Version 02 of the Digit Icon guaranteed savings plan.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.godigit.com/life/withdrawn-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "165N011V01",
+   "name": "Digit Icon",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": "Guaranteed Income",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Whole Life Variant",
+     "summary": "Whole-life income"
+    },
+    {
+     "name": "Lumpsum Variant",
+     "summary": "Maturity lump sum"
+    },
+    {
+     "name": "Income Variant",
+     "summary": "Regular income"
+    },
+    {
+     "name": "Income Plus Lumpsum Variant",
+     "summary": "Income plus maturity lump sum"
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Original version 01 of the Digit Icon guaranteed savings plan.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.godigit.com/life/withdrawn-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "165N001V01",
+   "name": "Digit Life Group Term Insurance",
+   "segment": "Group",
+   "category": "Group Term",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Group term life plan, listed among Digit Life's withdrawn products (likely the maiden product reported in June 2023).",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.godigit.com/life/withdrawn-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "165N002V01",
+   "name": "Digit Life Group Long Term Plan",
+   "segment": "Group",
+   "category": "Group Term",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Group long-term cover plan (category is a best guess), listed as withdrawn.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.godigit.com/life/withdrawn-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "165N003V01",
+   "name": "Digit Life Group Micro Term Insurance",
+   "segment": "Micro",
+   "category": "Micro Insurance",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Group micro term insurance, listed as withdrawn (version 01).",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.godigit.com/life/withdrawn-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "165N004V01",
+   "name": "Digit Life Group Term Life Insurance",
+   "segment": "Group",
+   "category": "Group Term",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Group term life insurance, listed as withdrawn (version 01).",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.godigit.com/life/withdrawn-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "GODHLIP25032V012425",
+   "name": "Digit Life Healthy Glow Policy",
+   "segment": "Individual",
+   "category": "Health & CI",
+   "plan_structure": null,
+   "sub_category": "Category is a best guess; UIN is in general-insurer health format",
+   "linkage": null,
+   "participation": null,
+   "need_tags": [
+    "Health"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Health-linked policy listed as withdrawn; nature not confirmed.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.godigit.com/life/withdrawn-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  }
+ ],
+ "notes": "Withdrawn list (godigit.com/life/withdrawn-products; HTML S.No|Name|UIN|documents, no dates) has 23 rows but only 10 distinct UINs (Icon variants and a duplicated Group Micro Term row collapsed). Active list built from live product pages and brochures: Glow Plus 165N007V03 (brochure as on 2 Jul 2026), Glow Lite 165N006V01, ICON 165N011V04 (page disclaimer still shows V03), Digit Life Pension Plan 165N032V01 (launched 15 Jul 2026; UIN from KID/CIS PDFs). Quarterly product-disclosure PDFs and /life/other-product-documents returned client_error, so active group versions are unconfirmed: the site still has pages for Group Term Life, Group Long Term Plan and Group Micro Term, but only V01 UINs appear (as withdrawn). Glow Lite is placed in segment Micro (page calls it a micro term plan; SA cap Rs 2 lakh). Digit Life Healthy Glow Policy (withdrawn) has a general-insurer style UIN (GODHLIP25032V012425); its category is a best guess. No separate riders with UINs found: ADB and ATPD are optional benefits inside Glow Plus/Lite. Conflict: Glow Plus web page says term 5-40 yrs and min SA Rs 10 lakh, brochure says term up to 67 yrs and min SA Rs 2.25 lakh (brochure used). Pension Plan marketing pages (guaranteed-pension-plans, annuity) are generic and show no UIN. Business Standard (2023-06-26) reports the maiden product was a group term plan."
+}

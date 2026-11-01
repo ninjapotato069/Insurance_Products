@@ -1,0 +1,204 @@
+[
+ {
+  "id": "lic",
+  "name": "Life Insurance Corporation of India",
+  "short": "LIC",
+  "sector": "Public sector",
+  "apps": {
+   "android": "com.lic.liccustomer"
+  }
+ },
+ {
+  "id": "sbi",
+  "name": "SBI Life Insurance",
+  "short": "SBI Life",
+  "sector": "Private"
+ },
+ {
+  "id": "hdfc",
+  "name": "HDFC Life Insurance",
+  "short": "HDFC Life",
+  "sector": "Private",
+  "apps": {
+   "ios": "900441427"
+  }
+ },
+ {
+  "id": "icici",
+  "name": "ICICI Prudential Life Insurance",
+  "short": "ICICI Pru Life",
+  "sector": "Private",
+  "apps": {
+   "android": "com.ipru.iciciprulife.customer.release"
+  }
+ },
+ {
+  "id": "axismax",
+  "name": "Axis Max Life Insurance",
+  "short": "Axis Max Life",
+  "sector": "Private",
+  "former_names": [
+   "Max Life Insurance"
+  ],
+  "apps": {
+   "android": "com.maxlifeinsurance.www.twa"
+  }
+ },
+ {
+  "id": "bajaj",
+  "name": "Bajaj Life Insurance",
+  "short": "Bajaj Life",
+  "sector": "Private",
+  "former_names": [
+   "Bajaj Allianz Life Insurance"
+  ]
+ },
+ {
+  "id": "tataaia",
+  "name": "Tata AIA Life Insurance",
+  "short": "Tata AIA",
+  "sector": "Private"
+ },
+ {
+  "id": "kotak",
+  "name": "Kotak Mahindra Life Insurance",
+  "short": "Kotak Life",
+  "sector": "Private"
+ },
+ {
+  "id": "absli",
+  "name": "Aditya Birla Sun Life Insurance",
+  "short": "Aditya Birla SL",
+  "sector": "Private"
+ },
+ {
+  "id": "pnbmetlife",
+  "name": "PNB MetLife India Insurance",
+  "short": "PNB MetLife",
+  "sector": "Private"
+ },
+ {
+  "id": "canarahsbc",
+  "name": "Canara HSBC Life Insurance",
+  "short": "Canara HSBC Life",
+  "sector": "Private"
+ },
+ {
+  "id": "indiafirst",
+  "name": "IndiaFirst Life Insurance",
+  "short": "IndiaFirst Life",
+  "sector": "Private"
+ },
+ {
+  "id": "sud",
+  "name": "Star Union Dai-ichi Life Insurance",
+  "short": "SUD Life",
+  "sector": "Private"
+ },
+ {
+  "id": "ageasfederal",
+  "name": "Ageas Federal Life Insurance",
+  "short": "Ageas Federal",
+  "sector": "Private",
+  "former_names": [
+   "IDBI Federal Life Insurance"
+  ]
+ },
+ {
+  "id": "indusindnippon",
+  "name": "IndusInd Nippon Life Insurance",
+  "short": "IndusInd Nippon",
+  "sector": "Private",
+  "former_names": [
+   "Reliance Nippon Life Insurance"
+  ]
+ },
+ {
+  "id": "bharti",
+  "name": "Bharti Life Insurance",
+  "short": "Bharti Life",
+  "sector": "Private",
+  "former_names": [
+   "Bharti AXA Life Insurance"
+  ]
+ },
+ {
+  "id": "generalicentral",
+  "name": "Generali Central Life Insurance",
+  "short": "Generali Central",
+  "sector": "Private",
+  "former_names": [
+   "Future Generali India Life Insurance"
+  ]
+ },
+ {
+  "id": "edelweiss",
+  "name": "Edelweiss Life Insurance",
+  "short": "Edelweiss Life",
+  "sector": "Private",
+  "former_names": [
+   "Edelweiss Tokio Life Insurance"
+  ]
+ },
+ {
+  "id": "pramerica",
+  "name": "Pramerica Life Insurance",
+  "short": "Pramerica Life",
+  "sector": "Private",
+  "former_names": [
+   "DHFL Pramerica Life Insurance"
+  ]
+ },
+ {
+  "id": "aviva",
+  "name": "Aviva Life Insurance Company India",
+  "short": "Aviva Life",
+  "sector": "Private"
+ },
+ {
+  "id": "shriram",
+  "name": "Shriram Life Insurance",
+  "short": "Shriram Life",
+  "sector": "Private"
+ },
+ {
+  "id": "bandhan",
+  "name": "Bandhan Life Insurance",
+  "short": "Bandhan Life",
+  "sector": "Private",
+  "former_names": [
+   "Aegon Life Insurance"
+  ]
+ },
+ {
+  "id": "creditaccess",
+  "name": "CreditAccess Life Insurance",
+  "short": "CreditAccess Life",
+  "sector": "Private"
+ },
+ {
+  "id": "godigit",
+  "name": "Go Digit Life Insurance",
+  "short": "Go Digit Life",
+  "sector": "Private"
+ },
+ {
+  "id": "acko",
+  "name": "Acko Life Insurance",
+  "short": "Acko Life",
+  "sector": "Private"
+ },
+ {
+  "id": "sahara",
+  "name": "Sahara India Life Insurance",
+  "short": "Sahara Life",
+  "sector": "Private",
+  "status_note": "Under IRDAI administration; policies transferred to SBI Life in 2023; no new business"
+ },
+ {
+  "id": "indiapost",
+  "name": "India Post Postal Life Insurance & Rural PLI",
+  "short": "India Post PLI",
+  "sector": "Government (outside IRDAI)"
+ }
+]

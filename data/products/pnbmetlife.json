@@ -1,0 +1,3889 @@
+{
+ "company_id": "pnbmetlife",
+ "company_name": "PNB MetLife India Insurance Company Ltd",
+ "researched_on": "2026-10-28",
+ "urls": {
+  "website": "https://www.pnbmetlife.com",
+  "product_list_url": "https://www.pnbmetlife.com/active-plans.html",
+  "withdrawn_list_url": "https://www.pnbmetlife.com/withdrawn-insurance-plans.html",
+  "riders_url": "https://www.pnbmetlife.com/insurance-plans/riders.html",
+  "group_url": "https://www.pnbmetlife.com/insurance-plans/group-insurance-plans.html",
+  "newsroom_url": "https://www.pnbmetlife.com/news.html"
+ },
+ "products": [
+  {
+   "uin": "117N141V03",
+   "name": "PNB MetLife DigiProtect Term Plan",
+   "segment": "Individual",
+   "category": "Term",
+   "plan_structure": "Pure Term",
+   "sub_category": "Online pure term with limited-pay and pay-till-60 options",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Regular Pay",
+     "summary": "Premiums paid throughout the policy term"
+    },
+    {
+     "name": "Limited Pay",
+     "summary": "Premiums paid for 5, 10, 15 or 20 years"
+    },
+    {
+     "name": "Pay till 60",
+     "summary": "Premiums stop at age 60; entry age capped lower"
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 60,
+    "maturity_age_max_years": 85,
+    "policy_term_min_years": 10,
+    "policy_term_max_years": 67,
+    "whole_life": false,
+    "ppt_options": [
+     "Regular",
+     "Limited 5",
+     "Limited 10",
+     "Limited 15",
+     "Limited 20",
+     "Pay till 60"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": "No limit, subject to Board Approved Underwriting Policy",
+    "min_sum_assured_inr": 5000000,
+    "max_sum_assured_text": "No limit, subject to Board Approved Underwriting Policy",
+    "notes": "Entry age cap is 49 for Pay till 60; policy term is PPT+1 minimum for limited pay above 5 years; max term is lower of 67 or (85 - entry age). Monthly mode only by standing instruction/direct debit."
+   },
+   "benefits": {
+    "death": "Higher of 7x annualised premium, 105% of premiums paid to date, or basic sum assured; also payable early on terminal illness diagnosis.",
+    "maturity": "None (pure risk cover).",
+    "survival_income": null,
+    "guaranteed": true,
+    "return_of_premium": false,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": "Express Claim Payout of Rs 3 lakh within 1 working day (after 3-year waiting period); Premium Break for 12 months after year 3; Special Exit Value of 100% of premiums from policy year 30 (regular pay)."
+   },
+   "category_details": {
+    "term": {
+     "whole_life_cover_option": false,
+     "ci_or_accelerated_benefit": "Terminal illness accelerated payout in base plan; critical illness via Serious Illness Rider",
+     "payout_options": "Lump sum / Monthly income / Lump sum + monthly income (nominee's choice)"
+    },
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Online-first pure term plan with cover up to age 85",
+    "Nominee can take death benefit as lump sum, monthly income, or a mix",
+    "First-year premium discounts: 12% online, 5% salaried, 4% income-tax filers",
+    "Premium Break option and Special Exit Value feature",
+    "Rs 3 lakh express claim payout within one working day"
+   ],
+   "riders_available": [
+    "Accidental Death Benefit Rider Plus",
+    "Serious Illness Rider",
+    "Accidental Disability Benefit Rider"
+   ],
+   "online_purchase": true,
+   "channels": [
+    "Direct/Online"
+   ],
+   "tax_benefits": null,
+   "description": "A low-cost online pure term plan for salaried and self-employed buyers who want large cover with flexible premium payment and payout choices.",
+   "urls": {
+    "product_page": "https://www.pnbmetlife.com/insurance-plans/family-protection/pnb-metlife-digiprotect-term-plan.html",
+    "brochure": "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/product/Download_Brochure/digiprotect-brochure.pdf"
+   },
+   "sources": [
+    "https://www.pnbmetlife.com/insurance-plans/family-protection/pnb-metlife-digiprotect-term-plan.html",
+    "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/kmp/Product-performance-report.pdf"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "117N126V04",
+   "name": "PNB MetLife Mera Term Plan Plus",
+   "segment": "Individual",
+   "category": "Term",
+   "plan_structure": "Pure Term",
+   "sub_category": "Term with whole-life, ROP, spouse cover and cover-enhancement options",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Protection",
+    "Legacy"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Life",
+     "summary": "Death cover only"
+    },
+    {
+     "name": "Life Plus",
+     "summary": "Death cover plus terminal illness benefit and premium waiver on accidental permanent disability or 50 listed critical illnesses"
+    },
+    {
+     "name": "Life Plus Health",
+     "summary": "Life Plus features plus accelerated lump sum on listed critical illness"
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 60,
+    "maturity_age_max_years": 99,
+    "policy_term_min_years": 10,
+    "policy_term_max_years": null,
+    "whole_life": true,
+    "ppt_options": [
+     "Single",
+     "Limited 5",
+     "Limited 10",
+     "Limited 15",
+     "Limited 20",
+     "Pay till 60",
+     "Regular"
+    ],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": 2500000,
+    "max_sum_assured_text": "No limit, subject to underwriting",
+    "notes": "Entry age max is 55 for Pay till 60. Maturity age 99 for Life/Life Plus, 75 for Life Plus Health and for ROP option. Max term = 99 - entry age (Life/Life Plus), 75 - entry age (Life Plus Health), 40 years with ROP."
+   },
+   "benefits": {
+    "death": "Sum assured payable on death; enhanced by chosen cover-enhancement option (Step Up, Life Stage or Child Education Support).",
+    "maturity": "Payable only if Return of Premiums option is chosen (premiums returned on survival).",
+    "survival_income": null,
+    "guaranteed": true,
+    "return_of_premium": true,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": "Optional Spouse Coverage under the same policy; Step Up raises cover 10% of basic SA yearly for 10 years."
+   },
+   "category_details": {
+    "term": {
+     "rop_option": true,
+     "whole_life_cover_option": true,
+     "ci_or_accelerated_benefit": "Premium waiver on 50 listed CIs (Life Plus, Life Plus Health); accelerated lump sum on listed CI (Life Plus Health only)",
+     "payout_options": "Lump sum / Monthly income for 10 years / Lump sum + monthly income for 10 years",
+     "increasing_cover_option": "Step Up (10% of basic SA yearly for 10 years); Life Stage (SA rises on marriage, child birth or home loan)"
+    },
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Three benefit options from basic cover to cover with built-in critical illness acceleration",
+    "Whole-life cover up to age 99 available",
+    "Return of Premiums and Spouse Coverage as add-on options",
+    "One cover-enhancement choice at inception: Step Up, Life Stage or Child Education Support",
+    "Four riders can be attached (accident and illness)"
+   ],
+   "riders_available": [
+    "Accidental Death Benefit Rider Plus",
+    "Accidental Disability Benefit Rider",
+    "Serious Illness Rider",
+    "Critical Illness Rider"
+   ],
+   "online_purchase": true,
+   "channels": [
+    "Direct/Online"
+   ],
+   "tax_benefits": null,
+   "description": "A feature-rich term plan with whole-life, critical-illness and return-of-premium options for buyers who want customisable long-term protection.",
+   "urls": {
+    "product_page": "https://www.pnbmetlife.com/insurance-plans/family-protection/pnb-metlife-mera-term-plan-plus.html",
+    "brochure": "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/product/Download_Brochure/mmtp_plus_brochure.pdf"
+   },
+   "sources": [
+    "https://www.pnbmetlife.com/insurance-plans/family-protection/pnb-metlife-mera-term-plan-plus.html",
+    "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/kmp/Product-performance-report.pdf"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "117N122V06",
+   "name": "PNB MetLife Aajeevan Suraksha Plan",
+   "segment": "Individual",
+   "category": "Term",
+   "plan_structure": "Pure Term",
+   "sub_category": "Term / whole life with lump sum, life partner and income benefit options",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Protection",
+    "Legacy"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Lump Sum",
+     "summary": "Sum assured paid on death"
+    },
+    {
+     "name": "Life Partner",
+     "summary": "Adds second-life cover of up to 50% of first-life sum assured (Rs 25 lakh to Rs 1 crore), fixed term only"
+    },
+    {
+     "name": "Fixed Income",
+     "summary": "Lump sum of 100x chosen monthly income plus that income for 120 months"
+    },
+    {
+     "name": "Increasing Income",
+     "summary": "Same lump sum with monthly income rising 10% simple p.a. over 120 months"
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 65,
+    "maturity_age_max_years": 99,
+    "policy_term_min_years": 10,
+    "policy_term_max_years": 40,
+    "whole_life": true,
+    "ppt_options": [
+     "Single",
+     "Limited 5-15",
+     "Regular"
+    ],
+    "premium_modes": [],
+    "min_annual_premium_inr": 3975,
+    "min_single_premium_inr": null,
+    "max_premium_text": "Subject to Board Approved Underwriting Policy",
+    "min_sum_assured_inr": 2500000,
+    "max_sum_assured_text": "No limit, subject to Board Approved Underwriting Policy",
+    "notes": "Min premium Rs 3,975 for regular pay and Rs 5,000 for other pay types. Cover: Fixed Term 10-40 years (30 with ROP; maturity age max 80) or Whole Life to age 99. Regular pay is available for Fixed Term only."
+   },
+   "benefits": {
+    "death": "Varies by benefit option: lump sum, lump sum plus monthly income for 120 months, or increasing income; terminal illness benefit included.",
+    "maturity": "Only with With Return of Premiums option (fixed term): guaranteed sum assured on maturity.",
+    "survival_income": null,
+    "guaranteed": true,
+    "return_of_premium": true,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": "Terminal illness benefit on diagnosis with life expectancy of 12 months or less."
+   },
+   "category_details": {
+    "term": {
+     "rop_option": true,
+     "whole_life_cover_option": true,
+     "ci_or_accelerated_benefit": "Terminal illness benefit; critical illness via Serious Illness Rider",
+     "payout_options": "Lump sum / Fixed monthly income / Increasing monthly income (120 months) / Life Partner second-life cover"
+    },
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Choose fixed-term cover (to age 80) or whole-life cover (to age 99)",
+    "Four payout structures including increasing monthly income for the family",
+    "Optional Return of Premiums on survival for fixed-term cover",
+    "Life Partner option covers a second life under one policy",
+    "Single, limited or regular premium payment"
+   ],
+   "riders_available": [
+    "Accidental Death Benefit Rider Plus",
+    "Serious Illness Rider"
+   ],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "A term and whole-life protection plan with family-income payout designs for buyers wanting long or lifelong cover.",
+   "urls": {
+    "product_page": "https://www.pnbmetlife.com/insurance-plans/family-protection/pnb-metlife-aajeevan-suraksha-plan.html",
+    "brochure": "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/product/Download_Brochure/MAS_Brochure.pdf"
+   },
+   "sources": [
+    "https://www.pnbmetlife.com/insurance-plans/family-protection/pnb-metlife-aajeevan-suraksha-plan.html",
+    "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/kmp/Product-performance-report.pdf"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "117N128V04",
+   "name": "PNB MetLife Saral Jeevan Bima",
+   "segment": "Individual",
+   "category": "Term",
+   "plan_structure": "Pure Term",
+   "sub_category": "IRDAI standard term plan",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": "Saral Jeevan Bima",
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 65,
+    "maturity_age_max_years": 70,
+    "policy_term_min_years": 5,
+    "policy_term_max_years": 40,
+    "whole_life": false,
+    "ppt_options": [
+     "Single",
+     "Limited 5",
+     "Limited 10",
+     "Regular"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": 500000,
+    "max_sum_assured_text": "Rs 50,00,000",
+    "notes": "Limited 5 Pay needs min term 6 years; Limited 10 Pay needs min term 11 years. Monthly mode only via ECS/NACH. Sum assured Rs 5 lakh to Rs 50 lakh as per IRDAI standard-product rules."
+   },
+   "benefits": {
+    "death": "Regular/limited pay: highest of 10x annualised premium, 105% of premiums paid, or sum assured. Single pay: higher of 125% of single premium or sum assured. Non-accidental death in waiting period: 100% of premiums paid.",
+    "maturity": "None.",
+    "survival_income": null,
+    "guaranteed": true,
+    "return_of_premium": false,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": {
+     "rop_option": false,
+     "whole_life_cover_option": false,
+     "payout_options": "Lump sum"
+    },
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "IRDAI-prescribed standard term plan with uniform features across insurers",
+    "Cover from Rs 5 lakh to Rs 50 lakh up to age 70",
+    "Single, limited (5/10) or regular premium payment",
+    "Death benefit is the highest of a premium multiple, 105% of premiums or sum assured"
+   ],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "PNB MetLife's version of the regulator-standardised basic term cover for first-time buyers wanting simple, low-ticket protection.",
+   "urls": {
+    "product_page": "https://www.pnbmetlife.com/insurance-plans/family-protection/pnb-metlife-saral-jeevan-bima.html",
+    "brochure": "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/product/Download_Brochure/MSJB_Brochure_new.pdf"
+   },
+   "sources": [
+    "https://www.pnbmetlife.com/insurance-plans/family-protection/pnb-metlife-saral-jeevan-bima.html",
+    "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/kmp/Product-performance-report.pdf"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "117N119V04",
+   "name": "PNB MetLife POS Suraksha",
+   "segment": "Individual",
+   "category": "Term",
+   "plan_structure": "Term with ROP",
+   "sub_category": "Small-ticket term plan returning 100% of premiums on maturity",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Protection",
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 55,
+    "maturity_age_max_years": 65,
+    "policy_term_min_years": 10,
+    "policy_term_max_years": 15,
+    "whole_life": false,
+    "ppt_options": [
+     "5",
+     "10",
+     "15"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": 50000,
+    "max_sum_assured_text": "Rs 25,00,000 (multiples of Rs 50,000)",
+    "notes": "Entry age max 55 for 10-year term and 50 for 15-year term. PPT 5 pairs with term 10; PPT 10 with term 10 or 15; PPT 15 with term 15. Sample annual premiums start at Rs 2,000; no stated minimum premium."
+   },
+   "benefits": {
+    "death": "Highest of 10x annualised premium, basic sum assured, or 105% of premiums received; payable as lump sum or level monthly income over 120 months.",
+    "maturity": "100% of total premiums paid on survival to maturity.",
+    "survival_income": null,
+    "guaranteed": true,
+    "return_of_premium": true,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": {
+     "rop_option": true,
+     "whole_life_cover_option": false,
+     "payout_options": "Lump sum / Level monthly income over 120 months"
+    },
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Premiums returned in full at maturity",
+    "Sum assured from Rs 50,000 to Rs 25 lakh in Rs 50,000 steps",
+    "Death benefit can be taken as monthly income over 10 years",
+    "Short 10 or 15 year terms with 5/10/15-year premium payment"
+   ],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "A low-sum-assured return-of-premium term plan aimed at first-time and entry-level buyers wanting basic cover with money back.",
+   "urls": {
+    "product_page": "https://www.pnbmetlife.com/insurance-plans/family-protection/pnb-metlife-pos-suraksha.html",
+    "brochure": "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/product/Download_Brochure/POS_Suraksha_Sales_Literature.pdf"
+   },
+   "sources": [
+    "https://www.pnbmetlife.com/insurance-plans/family-protection/pnb-metlife-pos-suraksha.html",
+    "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/kmp/Product-performance-report.pdf"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "117N124V17",
+   "name": "PNB MetLife Guaranteed Future Plan",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": "Endowment",
+   "sub_category": "Guaranteed additions plan with endowment and income options",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Savings",
+    "Child"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Endowment",
+     "summary": "Lump sum at maturity: sum assured plus accrued guaranteed and wealth additions"
+    },
+    {
+     "name": "Income",
+     "summary": "Guaranteed income during an income payout period of up to 20 years"
+    },
+    {
+     "name": "Income + Lumpsum",
+     "summary": "Guaranteed income plus wealth-additions lump sum at maturity"
+    },
+    {
+     "name": "Income + Boosters",
+     "summary": "Guaranteed income plus booster additions at set intervals"
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 0.08,
+    "entry_age_max_years": 60,
+    "maturity_age_max_years": 92,
+    "policy_term_min_years": 10,
+    "policy_term_max_years": 32,
+    "whole_life": false,
+    "ppt_options": [
+     "Single",
+     "2",
+     "3",
+     "4",
+     "5",
+     "7-15"
+    ],
+    "premium_modes": [
+     "Single",
+     "Annual",
+     "Half-yearly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": 11287,
+    "min_single_premium_inr": 200000,
+    "max_premium_text": "Rs 1,00,00,00,000 subject to underwriting policy",
+    "min_sum_assured_inr": 112870,
+    "max_sum_assured_text": "As per Board Approved Underwriting Policy; POS policies capped at Rs 25 lakh without medicals",
+    "notes": "Entry age 0 (30 days) only for terms of 18 years or more; higher minimum entry ages for shorter terms. Max entry age varies by PPT/channel (55 for POSP). Min premium Rs 1,00,000 for PPT 2-4, Rs 11,287 for PPT 5 and 7-15; min SA varies by PPT. Maturity age 80 single pay, 92 limited pay. Payouts can be deferred 1-2 years."
+   },
+   "benefits": {
+    "death": "Highest of basic sum assured, a multiple of premium (1.25x single; 7x/5x for PPT 2-4; 10x other limited pay), or 105% of premiums paid.",
+    "maturity": "Option 1: sum assured plus accrued guaranteed and wealth additions; Option 3: accrued wealth additions; none for Options 2 and 4.",
+    "survival_income": "Options 2-4: annualised premium plus accrued guaranteed additions paid as guaranteed income for up to 20 years; Option 4 adds booster additions.",
+    "guaranteed": true,
+    "return_of_premium": false,
+    "loan": true,
+    "partial_withdrawal": null,
+    "other": "Loan up to 80% of surrender value; income payouts deferrable by 1 or 2 years."
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": {
+     "payout_type": "Lump sum + Income",
+     "income_duration": "Up to 20 years",
+     "bonus_type": "None",
+     "deferment_option": "Income can be deferred 1 or 2 years"
+    },
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Four options: lump sum endowment, income, income plus lumpsum, income plus boosters",
+    "Guaranteed additions plus wealth additions build the benefit",
+    "Premium payment terms from 2 years to 15 years, or single pay",
+    "Loan available up to 80% of surrender value",
+    "Combined with Smart Platinum Pro in the 'Capital Guarantee Pro' solution"
+   ],
+   "riders_available": [
+    "Accidental Death Benefit Rider Plus",
+    "Serious Illness Rider",
+    "Goal Protector Waiver of Premium Rider"
+   ],
+   "online_purchase": null,
+   "channels": [
+    "POSP"
+   ],
+   "tax_benefits": null,
+   "description": "A guaranteed savings plan offering lump sum or long-duration guaranteed income for goals like child education and retirement.",
+   "urls": {
+    "product_page": "https://www.pnbmetlife.com/insurance-plans/long-term-savings/pnb-metlife-guaranteed-future-plan.html",
+    "brochure": "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/product/Download_Brochure/MGFP-Brochure.pdf"
+   },
+   "sources": [
+    "https://www.pnbmetlife.com/insurance-plans/long-term-savings/pnb-metlife-guaranteed-future-plan.html",
+    "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/kmp/Product-performance-report.pdf"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "117N131V06",
+   "name": "PNB MetLife Guaranteed Goal Plan",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": "Endowment",
+   "sub_category": "Guaranteed savings with lumpsum or income-plus-lumpsum options",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Savings",
+    "Child"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Lumpsum Option",
+     "summary": "Guaranteed maturity benefit paid at the end of the term"
+    },
+    {
+     "name": "Income + Lumpsum Option",
+     "summary": "Guaranteed yearly survival benefit after the premium payment term plus guaranteed maturity benefit"
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 0.08,
+    "entry_age_max_years": 65,
+    "maturity_age_max_years": 80,
+    "policy_term_min_years": 5,
+    "policy_term_max_years": 30,
+    "whole_life": false,
+    "ppt_options": [
+     "Single",
+     "5",
+     "7",
+     "10",
+     "12"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": 50000,
+    "max_premium_text": "Subject to maximum death sum assured limit under underwriting policy",
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Age tables on the source page were garbled: single life entry up to 65 (joint life 60) for single premium; limited pay max entry 50-60 by term. Joint life available for single premium; Family Care / Health Care waiver variants need entry age 18-55. Limited-pay min annualised premium shown as Rs 11,286 (to be confirmed from brochure). Minimum sum assured not reliably extracted."
+   },
+   "benefits": {
+    "death": "Limited pay: higher of 10x annualised premium or 105% of premiums paid. Single premium (single life): 1.25x single premium. Future premiums waived on death.",
+    "maturity": "Limited pay: sum assured plus accrued guaranteed and wealth additions; Income + Lumpsum: sum assured.",
+    "survival_income": "Income + Lumpsum: yearly payout after PPT made of guaranteed income, share of guaranteed additions and wealth additions.",
+    "guaranteed": true,
+    "return_of_premium": false,
+    "loan": null,
+    "partial_withdrawal": true,
+    "other": "Guaranteed additions of 5% of total annualised premium each year in the PPT; wealth additions 3.2%-9% (not guaranteed). Accumulated survival benefits can be withdrawn any time."
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": {
+     "payout_type": "Lump sum + Income",
+     "income_duration": "After PPT until maturity",
+     "bonus_type": "None"
+    },
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Guaranteed additions of 5% of annualised premium each year during the premium term",
+    "Choose lump sum at maturity or yearly income plus lump sum",
+    "Joint-life option on single premium",
+    "Waiver of premium on death or critical illness via Family Care / Health Care options",
+    "Single, 5, 7, 10 or 12-year premium payment"
+   ],
+   "riders_available": [
+    "Accidental Death Benefit Rider Plus",
+    "Serious Illness Rider"
+   ],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "A guaranteed-return savings plan for planned goals with a lump sum or yearly-income-plus-lump-sum payout.",
+   "urls": {
+    "product_page": "https://www.pnbmetlife.com/insurance-plans/long-term-savings/pnb-metlife-guaranteed-goal-plan.html",
+    "brochure": "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/product/Download_Brochure/mggp_brochure.pdf"
+   },
+   "sources": [
+    "https://www.pnbmetlife.com/insurance-plans/long-term-savings/pnb-metlife-guaranteed-goal-plan.html",
+    "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/kmp/Product-performance-report.pdf"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "117N169V01",
+   "name": "PNB MetLife RISE Plan",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": "Guaranteed Income",
+   "sub_category": "Early income plan with optional instant cashback",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Savings",
+    "Wealth"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Smart Income",
+     "summary": "Guaranteed income from a chosen start year plus 100% premium return at maturity"
+    },
+    {
+     "name": "Smart Income Pro",
+     "summary": "Instant cashback (5%-50% of first-year premium) in year 1, then guaranteed income from year 2; annual mode only"
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 0.08,
+    "entry_age_max_years": 65,
+    "maturity_age_max_years": 85,
+    "policy_term_min_years": 20,
+    "policy_term_max_years": 44,
+    "whole_life": false,
+    "ppt_options": [
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": 24000,
+    "min_single_premium_inr": null,
+    "max_premium_text": "No limit, subject to Board Approved Underwriting Policy",
+    "min_sum_assured_inr": 120000,
+    "max_sum_assured_text": "No limit, subject to Board Approved Underwriting Policy",
+    "notes": "Max entry age (Smart Income / Pro): PPT 5 = 55/50; PPT 6 = 60/55; PPT 7-12 = 65/60. Min SA Rs 1,68,000 for entry 0-49 and Rs 1,20,000 for 50+. SA multiple 10 or 7 (entry <50) / 10 or 5 (50+). Guaranteed Income start year 1-5; payout in advance or arrears. Policy term max for Pro not stated."
+   },
+   "benefits": {
+    "death": "Higher of sum assured on death (multiple of annualised premium), 105% of premiums paid, or surrender value.",
+    "maturity": "100% of all premiums paid on survival to maturity.",
+    "survival_income": "Guaranteed income from chosen start year (1-5) to end of payout period; Pro adds instant cashback in year 1.",
+    "guaranteed": true,
+    "return_of_premium": true,
+    "loan": true,
+    "partial_withdrawal": null,
+    "other": "Survival benefits can be left to accumulate at 3% p.a. compounded monthly."
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": {
+     "payout_type": "Income",
+     "income_duration": "Until end of policy term from chosen start year (year 1-5)",
+     "bonus_type": "None",
+     "deferment_option": "Income start year 1-5; accumulate at 3% p.a."
+    },
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Guaranteed income starts as early as year 1 to year 5",
+    "Smart Income Pro pays an instant cashback of 5%-50% of first-year premium",
+    "100% of premiums returned at maturity",
+    "Income can be taken in advance or arrears, with flexible frequency in arrears",
+    "Loan available against policy"
+   ],
+   "riders_available": [
+    "Accidental Death Benefit Rider Plus",
+    "Serious Illness Rider"
+   ],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "An early-income savings plan giving guaranteed income from the first few years plus return of all premiums at maturity.",
+   "urls": {
+    "product_page": "https://www.pnbmetlife.com/insurance-plans/long-term-savings/pnb-metlife-rise-plan.html",
+    "brochure": "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/product/Download_Brochure/rise_brochure.pdf"
+   },
+   "sources": [
+    "https://www.pnbmetlife.com/insurance-plans/long-term-savings/pnb-metlife-rise-plan.html",
+    "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/kmp/Product-performance-report.pdf"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "117N166V01",
+   "name": "PNB MetLife Long Income For Tomorrow (LIFT)",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": "Guaranteed Income",
+   "sub_category": "Deferred guaranteed income plan with 25-35 year payout",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Retirement",
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Life Option",
+     "summary": "Cover runs to the end of the deferment period; guaranteed income then paid"
+    },
+    {
+     "name": "Enhanced Life Option",
+     "summary": "Life cover continues through the income payout period"
+    },
+    {
+     "name": "Level / Increasing / Double Income",
+     "summary": "Fixed income, income rising 5% simple p.a. from year 2, or income doubled in the last 15 years"
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 0.08,
+    "entry_age_max_years": 60,
+    "maturity_age_max_years": 99,
+    "policy_term_min_years": 5,
+    "policy_term_max_years": 47,
+    "whole_life": false,
+    "ppt_options": [
+     "5",
+     "7",
+     "10"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": 24000,
+    "min_single_premium_inr": null,
+    "max_premium_text": "Not stated",
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Max entry age 50 (PPT 5), 55 (PPT 7), 60 (PPT 10). Life Option term 5-12 years (deferment); Enhanced Life Option term 30-47 years. Min annualised premium Rs 30,000 for PPT 5 and Rs 24,000 for PPT 7/10. Sum assured is 10x annualised premium (11x for PPT 10 Enhanced Life). Income duration 25, 30 or 35 years; deferment 0, 1 or 2 years."
+   },
+   "benefits": {
+    "death": "Highest of sum assured on death, 105% of premiums paid, or surrender value.",
+    "maturity": "Guaranteed income during the payout period plus a guaranteed money-back of 100% of total premiums paid at the end of the payout period.",
+    "survival_income": "Guaranteed income for 25, 30 or 35 years; level, increasing (5% simple) or double-income-in-last-15-years pattern.",
+    "guaranteed": true,
+    "return_of_premium": true,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": {
+     "payout_type": "Income",
+     "income_duration": "25, 30 or 35 years",
+     "bonus_type": "None",
+     "deferment_option": "Deferment of 0, 1 or 2 years"
+    },
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Guaranteed income stream for up to 35 years",
+    "Three income patterns: level, increasing 5% simple, or double income in the last 15 years",
+    "100% premium money-back guaranteed at the end of the payout period",
+    "Short premium payment of 5, 7 or 10 years"
+   ],
+   "riders_available": [
+    "Accidental Death Benefit Rider Plus",
+    "Serious Illness Rider"
+   ],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "A long-duration guaranteed income plan for people building a stable post-retirement or second-innings income stream.",
+   "urls": {
+    "product_page": "https://www.pnbmetlife.com/insurance-plans/long-term-savings/pnb-metlife-long-income-for-tomorrow.html",
+    "brochure": "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/product/Download_Brochure/LIFT_Brochure.pdf"
+   },
+   "sources": [
+    "https://www.pnbmetlife.com/insurance-plans/long-term-savings/pnb-metlife-long-income-for-tomorrow.html",
+    "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/kmp/Product-performance-report.pdf"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "117N135V04",
+   "name": "PNB MetLife Genius Plan",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": "Guaranteed Income",
+   "sub_category": "Child education income plan with waiver of premium",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Child",
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Future Secure",
+     "summary": "Parent is policyholder and life assured; income paid for the child's goals"
+    },
+    {
+     "name": "Child Secure",
+     "summary": "Child is life assured with parent/grandparent/guardian as policyholder; premiums waived on policyholder's death"
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": 10,
+    "policy_term_max_years": 25,
+    "whole_life": false,
+    "ppt_options": [
+     "5",
+     "7",
+     "10"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "PPT 5: term 10-25; PPT 7: term 12-25; PPT 10: term 15-25. Income payout period max 20 years (PPT 5), 18 (PPT 7), 15 (PPT 10), min 1 year. Entry ages, minimum premium and sum assured not stated on the product page; to be confirmed from brochure."
+   },
+   "benefits": {
+    "death": "Sum assured on death is the higher of 10x annualised premium or 105% of premiums paid; future premiums waived and income continues on policyholder's death (Child Secure).",
+    "maturity": "No separate maturity benefit; income benefits are paid and policy ends after all income is paid.",
+    "survival_income": "Lump sum or regular income = guaranteed income + share of guaranteed additions + wealth booster (5%/10%/15%/20% by 5-year block).",
+    "guaranteed": true,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": "Guaranteed additions equal 15% of total annualised premium paid, accrued each year in the PPT; built-in waiver of premium on death; optional waiver on accidental total permanent disability."
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": {
+     "payout_type": "Lump sum + Income",
+     "income_duration": "1 to 20 years",
+     "bonus_type": "None"
+    },
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Two structures: parent as life assured or child as life assured",
+    "Guaranteed additions of 15% of annualised premium during premium term",
+    "Wealth booster of up to 20% added to income in later blocks",
+    "Premium waiver on death built in, with optional waiver on accidental disability"
+   ],
+   "riders_available": [
+    "Accidental Death Benefit Rider Plus",
+    "Serious Illness Rider"
+   ],
+   "online_purchase": true,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "A child-future savings plan that turns premiums into guaranteed income for education and milestone expenses, with premium protection.",
+   "urls": {
+    "product_page": "https://www.pnbmetlife.com/insurance-plans/child-education/genius-plan.html",
+    "brochure": "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/product/Download_Brochure/Genius-brochure.pdf"
+   },
+   "sources": [
+    "https://www.pnbmetlife.com/insurance-plans/child-education/genius-plan.html",
+    "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/kmp/Product-performance-report.pdf"
+   ],
+   "completeness": "partial",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "117N129V04",
+   "name": "PNB MetLife Century Plan",
+   "segment": "Individual",
+   "category": "Savings - Par",
+   "plan_structure": "Whole Life",
+   "sub_category": "Participating whole-life income plan with Family Care option",
+   "linkage": "Non-Linked",
+   "participation": "Par",
+   "need_tags": [
+    "Savings",
+    "Legacy"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Super Income",
+     "summary": "Cash bonuses from year 1 with a guaranteed minimum cash bonus rate"
+    },
+    {
+     "name": "Smart Income",
+     "summary": "Cash bonuses (if declared) from year 1; no guaranteed minimum"
+    },
+    {
+     "name": "Future Income",
+     "summary": "Simple reversionary bonus in years 1-14, then fixed income plus cash bonus from year 15"
+    },
+    {
+     "name": "Family Care Benefit",
+     "summary": "Add-on that waives future premiums on death and continues survival and maturity benefits"
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 0.08,
+    "entry_age_max_years": 65,
+    "maturity_age_max_years": 100,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": true,
+    "ppt_options": [
+     "5-10",
+     "12",
+     "15"
+    ],
+    "premium_modes": [],
+    "min_annual_premium_inr": 24000,
+    "min_single_premium_inr": null,
+    "max_premium_text": "As per Board Approved Underwriting Policy",
+    "min_sum_assured_inr": 240000,
+    "max_sum_assured_text": "Subject to maximum BSA in Board Approved Underwriting Policy",
+    "notes": "Policy term = 80 or 100 minus entry age. Entry age 18+ with Family Care. Min annualised premium Rs 60,000 and min SA Rs 6,00,000 for PPT 5-9; Rs 24,000 / Rs 2,40,000 for PPT 10/12/15. Max entry age 55-65 depending on option and PPT (50 with Family Care). Future Income PPT 8/10/12/15 only."
+   },
+   "benefits": {
+    "death": "Sum assured on death (higher of 10x annualised premium or multiple) plus accrued bonuses and any terminal bonus; not less than 105% of premiums paid.",
+    "maturity": "Sum assured on maturity (total annualised premiums paid in PPT) plus accrued cash bonuses, unpaid fixed income and terminal bonus if declared.",
+    "survival_income": "Cash bonus / fixed income paid annually to monthly, with guaranteed minimum cash bonus rate under Super Income and Future Income.",
+    "guaranteed": false,
+    "return_of_premium": false,
+    "loan": null,
+    "partial_withdrawal": true,
+    "other": "Online buyers get an additional 10% of sum assured on maturity; accumulated cash bonuses can be withdrawn partly or fully."
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": {
+     "payout_type": "Lump sum + Income",
+     "income_duration": "Until maturity (age 80 or 100)",
+     "bonus_type": "Reversionary + Cash",
+     "deferment_option": "Future Income pays from end of year 15"
+    },
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Lifelong cover option up to age 100 with regular cash-bonus income",
+    "Three income designs with guaranteed minimum cash bonus under Super Income",
+    "Family Care add-on waives premiums on death while benefits continue",
+    "Combined with Smart Platinum Plus in the 'Century Pro Plus Solution'"
+   ],
+   "riders_available": [
+    "Goal Protector Waiver of Premium Rider",
+    "Accidental Death Benefit Rider Plus",
+    "Serious Illness Rider"
+   ],
+   "online_purchase": true,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "A participating income plan providing life-long cover and bonus-linked income for families planning long-term wealth transfer.",
+   "urls": {
+    "product_page": "https://www.pnbmetlife.com/insurance-plans/long-term-savings/pnb-metlife-century-plan.html",
+    "brochure": "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/product/Download_Brochure/century_plan_brochure.pdf"
+   },
+   "sources": [
+    "https://www.pnbmetlife.com/insurance-plans/long-term-savings/pnb-metlife-century-plan.html",
+    "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/kmp/Product-performance-report.pdf"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "117N167V01",
+   "name": "PNB MetLife GROW Plan",
+   "segment": "Individual",
+   "category": "Savings - Par",
+   "plan_structure": "Whole Life",
+   "sub_category": "Participating income plan with extended life cover to age 100",
+   "linkage": "Non-Linked",
+   "participation": "Par",
+   "need_tags": [
+    "Savings",
+    "Legacy"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Increasing Income",
+     "summary": "Income rises each year after the income start year until maturity"
+    },
+    {
+     "name": "Extended Life Cover",
+     "summary": "Increasing income plus life cover continuing after maturity to age 100"
+    },
+    {
+     "name": "Milestone Income",
+     "summary": "Accrued reversionary bonus paid every 4th or 5th policy year"
+    },
+    {
+     "name": "Wealth",
+     "summary": "Lump sum at end of term; no survival benefit"
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 0.08,
+    "entry_age_max_years": 60,
+    "maturity_age_max_years": 100,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [
+     "7-15"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": 24000,
+    "min_single_premium_inr": null,
+    "max_premium_text": "Subject to Board Approved Underwriting Policy",
+    "min_sum_assured_inr": 240000,
+    "max_sum_assured_text": null,
+    "notes": "Increasing Income PPT 7-15 (maturity age 70/75/80/85/100, entry age max 40/45/50/55/60 respectively); Milestone Income and Extended Life Cover maturity 70-85 with entry max 40-55; Wealth: entry up to 60, term 15/20 (PPT 7) or 20/25 (PPT 10). Term = maturity age minus entry age except Wealth. Monthly mode only via standing instruction."
+   },
+   "benefits": {
+    "death": "Higher of sum assured on death (10x annualised premium) plus accrued reversionary bonus, unpaid survival benefit and terminal bonus; 105% of premiums paid; or surrender benefit.",
+    "maturity": "Higher of sum assured on maturity (total annualised premiums paid in PPT) plus bonuses and unpaid survival benefit, or 105% of premiums paid.",
+    "survival_income": "Guaranteed income plus cash bonus (if declared) yearly in arrears from income start year (can start from year 2); Milestone Income pays accrued reversionary bonus every 4th/5th year.",
+    "guaranteed": false,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": true,
+    "other": "Shakti Benefit: 1% extra on benefit sum assured multiple for female lives; accumulated survival benefits accrue at 3% p.a. and can be withdrawn."
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": {
+     "payout_type": "Lump sum + Income",
+     "income_duration": "From income start year to maturity (up to age 100)",
+     "bonus_type": "Reversionary + Cash",
+     "deferment_option": "Income can start from the 2nd policy year or later"
+    },
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Four options: increasing income, extended life cover, milestone income, wealth lump sum",
+    "Life cover can extend to age 100 under Extended Life Cover",
+    "Higher benefit multiple for female lives (Shakti Benefit)",
+    "Entry from 30 days of age"
+   ],
+   "riders_available": [
+    "Accidental Death Benefit Rider Plus",
+    "Serious Illness Rider"
+   ],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "A participating plan for growing long-term income that rises over time, with life cover that can run to age 100.",
+   "urls": {
+    "product_page": "https://www.pnbmetlife.com/insurance-plans/long-term-savings/pnb-metlife-grow-plan.html",
+    "brochure": "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/product/Download_Brochure/GROW_Brochure.pdf"
+   },
+   "sources": [
+    "https://www.pnbmetlife.com/insurance-plans/long-term-savings/pnb-metlife-grow-plan.html",
+    "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/kmp/Product-performance-report.pdf"
+   ],
+   "completeness": "partial",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "117N123V03",
+   "name": "PNB MetLife Super Saver Plan",
+   "segment": "Individual",
+   "category": "Savings - Par",
+   "plan_structure": "Endowment",
+   "sub_category": "Participating endowment with Family Care / Health Care options",
+   "linkage": "Non-Linked",
+   "participation": "Par",
+   "need_tags": [
+    "Savings",
+    "Child"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Savings",
+     "summary": "Base participating endowment"
+    },
+    {
+     "name": "Savings + Family Care",
+     "summary": "Premiums waived on death of the life assured"
+    },
+    {
+     "name": "Savings + Health Care",
+     "summary": "Premium waiver on any of 35 listed critical illnesses"
+    },
+    {
+     "name": "Accumulation / Liquidity bonus options",
+     "summary": "Bonus accumulates, or cash bonus is paid each year after the PPT"
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 0.08,
+    "entry_age_max_years": 60,
+    "maturity_age_max_years": 80,
+    "policy_term_min_years": 10,
+    "policy_term_max_years": 20,
+    "whole_life": false,
+    "ppt_options": [
+     "5",
+     "7",
+     "10",
+     "12",
+     "15",
+     "Regular"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": 20000,
+    "min_single_premium_inr": null,
+    "max_premium_text": "Based on basic sum assured per underwriting policy",
+    "min_sum_assured_inr": 220000,
+    "max_sum_assured_text": "As per Board Approved Underwriting Policy",
+    "notes": "Min annualised premium: Rs 50,000 (PPT 5), Rs 35,000 (PPT 7), Rs 25,000 (PPT 10), Rs 20,000 (PPT 12, 15, regular). Entry age: Savings 0-60 annual mode (55 other modes); Family Care 18-50; Health Care 18-55. Regular pay terms 10, 12 or 15 only. Offline purchase via advisor/branch."
+   },
+   "benefits": {
+    "death": "Savings/Health Care: sum assured plus accrued simple reversionary bonuses and terminal bonus, with floor of 105% of premiums paid. Family Care: sum assured with future premiums waived.",
+    "maturity": "Sum assured plus accrued simple reversionary bonuses and terminal bonus (if declared).",
+    "survival_income": null,
+    "guaranteed": false,
+    "return_of_premium": false,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": "Liquidity option pays cash bonus each policy year after PPT, if declared."
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": {
+     "payout_type": "Lump sum",
+     "bonus_type": "Reversionary + Cash"
+    },
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Participating endowment with simple reversionary and terminal bonus",
+    "Family Care and Health Care options add premium waiver on death or 35 critical illnesses",
+    "Choose to accumulate bonus or take cash bonus each year after the premium term",
+    "Wide choice of premium terms: 5, 7, 10, 12, 15 years or regular pay"
+   ],
+   "riders_available": [],
+   "online_purchase": false,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "A traditional bonus-paying endowment plan for steady long-term savings with optional protection of the premium stream.",
+   "urls": {
+    "product_page": "https://www.pnbmetlife.com/insurance-plans/long-term-savings/pnb-metlife-super-saver-plan.html",
+    "brochure": "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/product/Download_Brochure/MSSP-Brochure.pdf"
+   },
+   "sources": [
+    "https://www.pnbmetlife.com/insurance-plans/long-term-savings/pnb-metlife-super-saver-plan.html",
+    "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/kmp/Product-performance-report.pdf"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "117N088V05",
+   "name": "PNB MetLife Bachat Yojana",
+   "segment": "Individual",
+   "category": "Savings - Par",
+   "plan_structure": "Endowment",
+   "sub_category": "Small-ticket participating endowment (payroll savings)",
+   "linkage": "Non-Linked",
+   "participation": "Par",
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": 20,
+    "entry_age_max_years": 60,
+    "maturity_age_max_years": 75,
+    "policy_term_min_years": 15,
+    "policy_term_max_years": 15,
+    "whole_life": false,
+    "ppt_options": [
+     "10"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": 6000,
+    "min_single_premium_inr": null,
+    "max_premium_text": "Rs 23,999 per life, all modes",
+    "min_sum_assured_inr": 64800,
+    "max_sum_assured_text": "Rs 5,00,000",
+    "notes": "Min premium: Rs 6,000 annual, Rs 10,000 half-yearly, Rs 15,000 monthly/payroll (monthly via ECS). Maturity age 35-75."
+   },
+   "benefits": {
+    "death": "Death sum assured plus bonuses, if declared.",
+    "maturity": "Base sum assured plus simple reversionary bonus (from year 3) and terminal bonus (from year 5), if declared.",
+    "survival_income": null,
+    "guaranteed": false,
+    "return_of_premium": false,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": "Suicide within 12 months: higher of 80% of premiums or surrender value."
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": {
+     "payout_type": "Lump sum",
+     "bonus_type": "Reversionary"
+    },
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Fixed 15-year term with 10-year premium payment",
+    "Annual premium capped at Rs 23,999 per life",
+    "Sum assured from Rs 64,800 to Rs 5 lakh",
+    "Payroll/monthly savings mode through ECS"
+   ],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "A small-ticket participating savings plan for first-time savers and salaried individuals building a modest corpus over 15 years.",
+   "urls": {
+    "product_page": "https://www.pnbmetlife.com/insurance-plans/long-term-savings/bachat-yojana.html",
+    "brochure": "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/product/Download_Brochure/MetLife%20Bachat%20Yojana%20-%20Brochure_tcm47-27823.pdf"
+   },
+   "sources": [
+    "https://www.pnbmetlife.com/insurance-plans/long-term-savings/bachat-yojana.html",
+    "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/kmp/Product-performance-report.pdf"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "117N168V01",
+   "name": "PNB MetLife Dhan Suraksha Yojna",
+   "segment": "Micro",
+   "category": "Micro Insurance",
+   "plan_structure": "Endowment",
+   "sub_category": "Individual micro-insurance single-premium savings plan",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Savings",
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "5-year term",
+     "summary": "Maturity value 126.12% (premium below Rs 10,000) or 127.63% of single premium"
+    },
+    {
+     "name": "10-year term",
+     "summary": "Maturity value 162.89% (premium below Rs 10,000) or 166.81% of single premium"
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 50,
+    "maturity_age_max_years": 60,
+    "policy_term_min_years": 5,
+    "policy_term_max_years": 10,
+    "whole_life": false,
+    "ppt_options": [
+     "Single"
+    ],
+    "premium_modes": [
+     "Single"
+    ],
+    "min_annual_premium_inr": 5000,
+    "min_single_premium_inr": 5000,
+    "max_premium_text": "Rs 1,00,000",
+    "min_sum_assured_inr": 6250,
+    "max_sum_assured_text": "Rs 1,25,000",
+    "notes": "Sum assured = 1.25x single premium. No medical examination. Product page metadata also calls it a micro group credit term plan, conflicting with its individual classification; the Mar-26 list classes it Individual / Micro-Insurance."
+   },
+   "benefits": {
+    "death": "Higher of 1.25x single premium or surrender value; policy terminates on payment.",
+    "maturity": "Single premium x maturity factor (5-year: 126.12% / 127.63%; 10-year: 162.89% / 166.81%).",
+    "survival_income": null,
+    "guaranteed": true,
+    "return_of_premium": false,
+    "loan": true,
+    "partial_withdrawal": null,
+    "other": "Inbuilt accidental death benefit: additional 1.25x single premium on accidental death within 180 days."
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Single premium Rs 5,000 to Rs 1,00,000",
+    "Guaranteed maturity multiple of 126%-167% of premium over 5 or 10 years",
+    "Inbuilt accidental death cover with no medical test",
+    "Loan available for emergencies"
+   ],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "A micro-insurance single-premium savings plan with built-in accident cover for low-income households.",
+   "urls": {
+    "product_page": "https://www.pnbmetlife.com/insurance-plans/long-term-savings/pnb-metlife-dhan-suraksha-yojna.html",
+    "brochure": "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/product/Download_Brochure/dhan-suraksha-yojna-Brochure_5.pdf"
+   },
+   "sources": [
+    "https://www.pnbmetlife.com/insurance-plans/long-term-savings/pnb-metlife-dhan-suraksha-yojna.html",
+    "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/kmp/Product-performance-report.pdf"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "117N095V10",
+   "name": "PNB MetLife Immediate Annuity Plan",
+   "segment": "Individual",
+   "category": "Pension & Annuity",
+   "plan_structure": "Immediate Annuity",
+   "sub_category": "Single-premium immediate annuity with single, joint-life and NPS options",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Retirement"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Single life options",
+     "summary": "Nine options paying for life, with or without return of purchase price or balance, guaranteed periods of 5 to 20 years, or income rising 3% a year"
+    },
+    {
+     "name": "Joint life options",
+     "summary": "Four last-survivor options, some with return of purchase price or 50% income to the survivor"
+    },
+    {
+     "name": "NPS family income options",
+     "summary": "Two options for NPS subscribers: life or joint-life annuity with return of purchase price"
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 0,
+    "entry_age_max_years": 90,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [
+     "Single"
+    ],
+    "premium_modes": [
+     "Single"
+    ],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": 300000,
+    "max_premium_text": "Payout depends on entry age and purchase price",
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Standalone purchase: single life entry 30-75, joint life both lives 40+ with age gap up to 20 years, QROPS 55+. Tied (vesting from a deferred pension plan): single life 0-90, joint life 18+. Min purchase price Rs 5,00,000 for increasing-annuity options and Rs 3,00,000 for others; payouts monthly, quarterly, half-yearly or yearly. Ages are last birthday."
+   },
+   "benefits": {
+    "death": "Depends on option: return-of-purchase-price or balance options pass capital to the nominee; suicide within 12 months pays higher of 80% of premiums or surrender value.",
+    "maturity": null,
+    "survival_income": "Lifetime annuity paid monthly to yearly; one option rises 3% a year.",
+    "guaranteed": true,
+    "return_of_premium": true,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": "Joint-life options continue income to the spouse; NPS family-pension options for subscribers."
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": {
+     "annuity_options_count": 15,
+     "immediate_or_deferred": "Immediate",
+     "joint_life": true,
+     "return_of_purchase_price": true,
+     "min_purchase_price_inr": 300000
+    },
+    "health": null
+   },
+   "key_features": [
+    "One-time premium buys income for life",
+    "Joint-life options keep paying the spouse",
+    "Return of purchase price or balance leaves a legacy",
+    "Increasing-income option to track rising costs",
+    "Fifteen annuity options including NPS exit choices"
+   ],
+   "riders_available": [],
+   "online_purchase": true,
+   "channels": [],
+   "tax_benefits": "As per Income Tax Act, 1961 as amended",
+   "description": "A single-premium immediate annuity giving guaranteed lifetime income, with joint-life, capital-return and NPS-exit options for retirees.",
+   "urls": {
+    "product_page": "https://www.pnbmetlife.com/insurance-plans/retirement/immediate-annuity-plan.html",
+    "brochure": "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/product/Download_Brochure/PMLI-Annuity-Plan_Brochure.pdf"
+   },
+   "sources": [
+    "https://www.pnbmetlife.com/insurance-plans/retirement/immediate-annuity-plan.html",
+    "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/kmp/Product-performance-report.pdf"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "117N134V09",
+   "name": "PNB MetLife Grand Assured Income Plan",
+   "segment": "Individual",
+   "category": "Pension & Annuity",
+   "plan_structure": "Deferred Annuity",
+   "sub_category": "Deferred annuity with locked-in rates (GAIN)",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Retirement"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Option A Life Annuity",
+     "summary": "Lifetime annuity, no premium return on death"
+    },
+    {
+     "name": "Option B Life Annuity with ROP",
+     "summary": "Lifetime annuity, purchase price returned on death"
+    },
+    {
+     "name": "Option C ROP on death or survival",
+     "summary": "Lifetime annuity with purchase price returned on death or survival; entry capped at 65"
+    },
+    {
+     "name": "Option D Joint Life with ROP",
+     "summary": "Two annuitants, purchase price returned on last death"
+    },
+    {
+     "name": "Option E Joint Life, 50% to survivor",
+     "summary": "Joint life paying 50% to survivor with ROP; single pay only"
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 30,
+    "entry_age_max_years": 84,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [
+     "Single",
+     "2",
+     "3",
+     "4",
+     "5",
+     "7",
+     "10"
+    ],
+    "premium_modes": [],
+    "min_annual_premium_inr": 20000,
+    "min_single_premium_inr": 100000,
+    "max_premium_text": "No limit for single pay",
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Max entry 65 for Option C, 84 for others; annuity must start by age 85. Limited pay only for Options A-D. Min purchase price Rs 30,000 (2/3/4/5/7 pay) and Rs 20,000 (10 pay). Min annuity Rs 12,000 yearly or Rs 1,000 monthly. Deferment: single pay 1-10 yrs, 2-5 pay 5-10, 7 pay 7-12, 10 pay 10-15. QROPS buyers 55+."
+   },
+   "benefits": {
+    "death": "Options B-E return the purchase price on death; Option A does not. Suicide within 12 months pays higher of 80% of premiums or surrender value.",
+    "maturity": null,
+    "survival_income": "Guaranteed lifetime annuity after the deferment period, paid in arrears monthly to yearly.",
+    "guaranteed": true,
+    "return_of_premium": true,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": "Joint options continue income to a spouse; payout date selectable within a year after deferment."
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": {
+     "annuity_options_count": 5,
+     "immediate_or_deferred": "Deferred",
+     "joint_life": true,
+     "return_of_purchase_price": true,
+     "min_purchase_price_inr": 100000,
+     "max_deferment_years": 15
+    },
+    "health": null
+   },
+   "key_features": [
+    "Guaranteed lifetime income with annuity rate locked at purchase",
+    "Five payout options including joint life",
+    "Single or limited premium payment",
+    "Deferment of up to 15 years",
+    "Also sold inside the Smart Hybrid and Pension Hybrid combos with Smart Platinum Pro"
+   ],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": "Per prevailing Income Tax laws; GST exempt on individual policies",
+   "description": "A deferred annuity that locks in lifetime income rates today for retirement planners who want guaranteed pension from a future date.",
+   "urls": {
+    "product_page": "https://www.pnbmetlife.com/insurance-plans/retirement/pnb-metlife-grand-assured-income-plan.html",
+    "brochure": "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/product/Download_Brochure/Gain_Brochure.pdf"
+   },
+   "sources": [
+    "https://www.pnbmetlife.com/insurance-plans/retirement/pnb-metlife-grand-assured-income-plan.html",
+    "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/kmp/Product-performance-report.pdf"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "117N091V03",
+   "name": "PNB MetLife Retirement Savings Plan",
+   "segment": "Individual",
+   "category": "Pension & Annuity",
+   "plan_structure": "Pension Accumulation",
+   "sub_category": "Participating pension savings plan",
+   "linkage": "Non-Linked",
+   "participation": "Par",
+   "need_tags": [
+    "Retirement",
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": 30,
+    "entry_age_max_years": 65,
+    "maturity_age_max_years": 75,
+    "policy_term_min_years": 5,
+    "policy_term_max_years": 30,
+    "whole_life": null,
+    "ppt_options": [
+     "Single",
+     "5",
+     "10",
+     "Regular"
+    ],
+    "premium_modes": [],
+    "min_annual_premium_inr": 7044,
+    "min_single_premium_inr": 262250,
+    "max_premium_text": null,
+    "min_sum_assured_inr": 300000,
+    "max_sum_assured_text": "Per Board Underwriting Policy",
+    "notes": "Max entry 64 for Limited Pay 10. Vesting age 50-75. Min term 10 (regular, LP5), 11 (LP10), 5 (single); max term 20 for single pay, 30 otherwise. Min annualised premium: Rs 7,044 regular, Rs 13,128 LP10, Rs 38,820 LP5, Rs 2,62,250 single. Min SA Rs 5,00,000 for LP5 and single pay."
+   },
+   "benefits": {
+    "death": "Sum assured on death (105% of premiums paid) plus accrued simple reversionary bonus and terminal bonus; never below surrender value.",
+    "maturity": "Vesting benefit: basic sum assured plus accrued simple reversionary bonus and terminal bonus, if declared; usable as part lump sum with annuity on the balance.",
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": "Simple reversionary bonus from policy year 3, terminal bonus possible from year 5; bonuses not guaranteed. Suicide within 12 months: higher of 80% of premiums or surrender value."
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": {
+     "payout_type": "Lump sum + Income",
+     "bonus_type": "Reversionary"
+    },
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Participating pension plan that builds a retirement corpus with bonuses",
+    "Part lump sum at vesting with the balance used for annuity",
+    "Death benefit at least 105% of premiums paid",
+    "Single, 5, 10 or regular premium payment"
+   ],
+   "riders_available": [],
+   "online_purchase": false,
+   "channels": [],
+   "tax_benefits": "As per Income Tax Act, 1961 as amended",
+   "description": "A bonus-earning pension savings plan for people aged 30-65 building a retirement corpus to convert into annuity income.",
+   "urls": {
+    "product_page": "https://www.pnbmetlife.com/insurance-plans/retirement/retirement-savings-plan.html",
+    "brochure": "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/product/Download_Brochure/Retirement-Savings-Plan-Brochure.pdf"
+   },
+   "sources": [
+    "https://www.pnbmetlife.com/insurance-plans/retirement/retirement-savings-plan.html",
+    "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/kmp/Product-performance-report.pdf"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "117N130V02",
+   "name": "PNB MetLife Saral Pension",
+   "segment": "Individual",
+   "category": "Pension & Annuity",
+   "plan_structure": "Immediate Annuity",
+   "sub_category": "IRDAI standard immediate annuity",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Retirement"
+   ],
+   "standard_product": "Saral Pension",
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Life annuity with ROP",
+     "summary": "Fixed lifetime annuity; 100% purchase price to nominee on death"
+    },
+    {
+     "name": "Joint Life Last Survivor with ROP",
+     "summary": "Annuity continues to spouse; purchase price returned after both deaths"
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 40,
+    "entry_age_max_years": 80,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [
+     "Single"
+    ],
+    "premium_modes": [
+     "Single"
+    ],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": "No limit",
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Single premium (purchase price). Annuity payout monthly, quarterly, half-yearly or yearly; minimum annuity Rs 1,000 monthly, Rs 3,000 quarterly, Rs 6,000 half-yearly, Rs 12,000 yearly."
+   },
+   "benefits": {
+    "death": "100% of purchase price to nominee or heirs (after the spouse in joint life option).",
+    "maturity": "None.",
+    "survival_income": "Fixed annuity for as long as the annuitant (and spouse in joint option) lives.",
+    "guaranteed": true,
+    "return_of_premium": true,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": "Surrender allowed after 6 months on listed critical illness of annuitant, spouse or child: 95% of purchase price less loans."
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": {
+     "annuity_options_count": 2,
+     "immediate_or_deferred": "Immediate",
+     "joint_life": true,
+     "return_of_purchase_price": true
+    },
+    "health": null
+   },
+   "key_features": [
+    "Standardised plan with uniform features across insurers",
+    "Choice of single-life or joint-life annuity",
+    "Full purchase price returned to the family",
+    "Surrender on critical illness after 6 months"
+   ],
+   "riders_available": [],
+   "online_purchase": true,
+   "channels": [],
+   "tax_benefits": "As per Income Tax Act, 1961 as amended",
+   "description": "The regulator-standardised lifetime annuity for people aged 40-80 who want simple guaranteed pension income with capital return.",
+   "urls": {
+    "product_page": "https://www.pnbmetlife.com/insurance-plans/retirement/pnb-metlife-saral-pension.html",
+    "brochure": "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/product/Download_Brochure/Saral_Pension_brochure.pdf"
+   },
+   "sources": [
+    "https://www.pnbmetlife.com/insurance-plans/retirement/pnb-metlife-saral-pension.html",
+    "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/kmp/Product-performance-report.pdf"
+   ],
+   "completeness": "partial",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "117L138V06",
+   "name": "PNB MetLife Smart Invest Pension Plan Pro",
+   "segment": "Individual",
+   "category": "Pension & Annuity",
+   "plan_structure": "Pension Accumulation",
+   "sub_category": "Unit-linked pension plan",
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Retirement",
+    "Wealth"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Retire Secure",
+     "summary": "Policyholder receives vesting proceeds; single pay available; mortality charges returned at vesting"
+    },
+    {
+     "name": "Retire Secure Plus",
+     "summary": "Premiums waived on death and policy continues to term; claimant receives vesting proceeds"
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 25,
+    "entry_age_max_years": 70,
+    "maturity_age_max_years": 80,
+    "policy_term_min_years": 10,
+    "policy_term_max_years": 50,
+    "whole_life": null,
+    "ppt_options": [
+     "Single",
+     "Regular",
+     "Limited 5",
+     "Limited 7",
+     "Limited 10",
+     "Limited 15"
+    ],
+    "premium_modes": [
+     "Single",
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": 24000,
+    "min_single_premium_inr": 49999,
+    "max_premium_text": "No limit, per Board Approved Underwriting Policy",
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Entry max 70 for Retire Secure; for Retire Secure Plus 60 (regular), 55 (LP 5/7), 50 (LP 10/15). Vesting age 35-80 (Plus: 75). Min term 10 (single/regular/LP5), 12 (LP7), 15 (LP10), 20 (LP15); max 40 single pay, 50 otherwise. Single pay only under Retire Secure. Min premium by mode: Rs 12,000 half-yearly, Rs 6,000 quarterly, Rs 2,000 monthly."
+   },
+   "benefits": {
+    "death": "Retire Secure: higher of Rs 10,000, fund value or sum assured (105% of premiums paid). Retire Secure Plus: premiums waived and an instalment added to fund each due date; policy runs to term.",
+    "maturity": "Fund value (including top-up) on vesting; use for annuity, commute up to 60% as lump sum, or buy annuity elsewhere with up to 50%.",
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": true,
+    "other": "Postponement of vesting available until age 60; minimum annuity Rs 1,000 per month; top-ups allowed; partial withdrawals 3 times after the 5-year lock-in."
+   },
+   "category_details": {
+    "term": null,
+    "ulip": {
+     "funds_count": 8,
+     "return_of_mortality_charges": "100% of mortality charges returned at vesting (Retire Secure)",
+     "free_switches_per_year": "Unlimited",
+     "premium_allocation_charge": "Nil",
+     "policy_admin_charge": "Nil"
+    },
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Zero premium allocation and policy administration charges",
+    "Return of all mortality charges at vesting under Retire Secure",
+    "Eight funds including a new passive momentum-quality index pension fund",
+    "Self-managed, systematic transfer and auto asset rebalancing strategies",
+    "Commutation of up to 60% at vesting"
+   ],
+   "riders_available": [],
+   "online_purchase": true,
+   "channels": [],
+   "tax_benefits": "Per prevailing Income Tax laws; GST applies",
+   "description": "A low-charge unit-linked retirement plan with return of mortality charges for building a market-linked pension corpus.",
+   "urls": {
+    "product_page": "https://www.pnbmetlife.com/insurance-plans/retirement/pnb-metlife-smart-invest-pension-plan-pro.html",
+    "brochure": "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/product/Download_Brochure/SIPP-Pro-brochure.pdf"
+   },
+   "sources": [
+    "https://www.pnbmetlife.com/insurance-plans/retirement/pnb-metlife-smart-invest-pension-plan-pro.html",
+    "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/kmp/Product-performance-report.pdf"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "117L137V04",
+   "name": "PNB MetLife Smart Invest Pension Plan",
+   "segment": "Individual",
+   "category": "Pension & Annuity",
+   "plan_structure": "Pension Accumulation",
+   "sub_category": "Unit-linked pension plan",
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Retirement",
+    "Wealth"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": 25,
+    "entry_age_max_years": 70,
+    "maturity_age_max_years": 80,
+    "policy_term_min_years": 10,
+    "policy_term_max_years": 50,
+    "whole_life": null,
+    "ppt_options": [
+     "Single",
+     "Regular",
+     "Limited 5",
+     "Limited 7",
+     "Limited 10",
+     "Limited 15"
+    ],
+    "premium_modes": [
+     "Single",
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": 24000,
+    "min_single_premium_inr": 49999,
+    "max_premium_text": "No limit, per Board Approved Underwriting Policy",
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Vesting age 35-80. Min term 10 (single/regular/LP5), 12 (LP7), 15 (LP10), 20 (LP15); max 40 single pay, 50 otherwise. Min premium by mode: Rs 12,000 half-yearly, Rs 6,000 quarterly, Rs 2,000 monthly. Page does not say whether the base plan is still open to new sales; the Pro version is the one with a buy-online link."
+   },
+   "benefits": {
+    "death": "Higher of Rs 10,000, fund value (incl. top-up) or sum assured (105% of premiums paid); nominee may take annuity or lump sum.",
+    "maturity": "Fund value on vesting; annuitise fully or commute up to 60%; up to 50% of balance can buy annuity from another insurer.",
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": true,
+    "other": "Partial withdrawal 3 times after the 5-year lock-in; vesting can be postponed until age 60; minimum annuity Rs 1,000 per month."
+   },
+   "category_details": {
+    "term": null,
+    "ulip": {
+     "funds_count": 5,
+     "return_of_mortality_charges": "100% of mortality charges added back at maturity",
+     "free_switches_per_year": "Unlimited",
+     "premium_allocation_charge": "Nil",
+     "policy_admin_charge": "Nil"
+    },
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Zero premium allocation and administration charges",
+    "Mortality charges returned in full at maturity",
+    "Three investment strategies: self-managed, systematic transfer, auto rebalancing",
+    "Unlimited fund switches and premium redirections"
+   ],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": "Per Income Tax Act, 1961 as amended; GST applies",
+   "description": "A unit-linked pension plan with no allocation or admin charges for retirement savers who prefer market-linked growth.",
+   "urls": {
+    "product_page": "https://www.pnbmetlife.com/insurance-plans/retirement/pnb-metlife-smart-invest-pension-plan.html",
+    "brochure": "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/product/Download_Brochure/SIPP_brochure.pdf"
+   },
+   "sources": [
+    "https://www.pnbmetlife.com/insurance-plans/retirement/pnb-metlife-smart-invest-pension-plan.html",
+    "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/kmp/Product-performance-report.pdf"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "117N049V04",
+   "name": "PNB MetLife Group Term Life Plus",
+   "segment": "Group",
+   "category": "Group Term",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Group term life cover for employers and other groups.",
+   "urls": {
+    "product_page": "https://www.pnbmetlife.com/insurance-plans/group-insurance-plans/group-term-life-plus.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/kmp/Product-performance-report.pdf",
+    "https://www.pnbmetlife.com/llms.txt"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "117N127V02",
+   "name": "PNB MetLife Group Flexi Term Plus",
+   "segment": "Group",
+   "category": "Group Term",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Flexible group term life plan for employer and affinity groups.",
+   "urls": {
+    "product_page": "https://www.pnbmetlife.com/insurance-plans/group-insurance-plans/pnb-metlife-group-flexi-term-plus.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/kmp/Product-performance-report.pdf",
+    "https://www.pnbmetlife.com/llms.txt"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "117N140V01",
+   "name": "PNB MetLife Group Protection Plan",
+   "segment": "Group",
+   "category": "Group Term",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Group protection (term) plan for organisations insuring members.",
+   "urls": {
+    "product_page": "https://www.pnbmetlife.com/insurance-plans/group-insurance-plans/group-protection-plan.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/kmp/Product-performance-report.pdf",
+    "https://www.pnbmetlife.com/llms.txt"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "117N093V06",
+   "name": "PNB MetLife Complete Care Plus",
+   "segment": "Group",
+   "category": "Group Term",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Group term life plan with added care benefits; insurer classes it as Group/Term.",
+   "urls": {
+    "product_page": "https://www.pnbmetlife.com/insurance-plans/group-insurance-plans/complete-care-plus.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/kmp/Product-performance-report.pdf",
+    "https://www.pnbmetlife.com/llms.txt"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "117N080V03",
+   "name": "PNB MetLife Loan & Life Suraksha",
+   "segment": "Group",
+   "category": "Credit Life",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Group credit life cover that protects outstanding loans of borrowers.",
+   "urls": {
+    "product_page": "https://www.pnbmetlife.com/insurance-plans/group-insurance-plans/loan-life-suraksha.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/kmp/Product-performance-report.pdf",
+    "https://www.pnbmetlife.com/llms.txt"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "117N104V04",
+   "name": "PNB MetLife Complete Loan Protection Plan",
+   "segment": "Group",
+   "category": "Credit Life",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Group credit life plan covering loan outstanding for lenders and borrowers.",
+   "urls": {
+    "product_page": "https://www.pnbmetlife.com/insurance-plans/group-insurance-plans/pnb-metlife-complete-loan-protection-plan.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/kmp/Product-performance-report.pdf",
+    "https://www.pnbmetlife.com/llms.txt"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "117L084V04",
+   "name": "PNB MetLife Unit Linked Employee Benefits Plan",
+   "segment": "Group",
+   "category": "Group Fund (Gratuity/Superannuation/Leave)",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Unit-linked group plan for employers funding employee benefit liabilities.",
+   "urls": {
+    "product_page": "https://www.pnbmetlife.com/insurance-plans/group-insurance-plans/unit-linked-employee-benefit-plan.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/kmp/Product-performance-report.pdf",
+    "https://www.pnbmetlife.com/llms.txt"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "117N085V03",
+   "name": "PNB MetLife Traditional Employee Benefits Plan",
+   "segment": "Group",
+   "category": "Group Fund (Gratuity/Superannuation/Leave)",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Traditional (non-linked) group plan for employers funding employee benefit liabilities.",
+   "urls": {
+    "product_page": "https://www.pnbmetlife.com/insurance-plans/group-insurance-plans/traditional-employee-benefits-plan.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/kmp/Product-performance-report.pdf",
+    "https://www.pnbmetlife.com/llms.txt"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "117N132V02",
+   "name": "PNB MetLife Group Secured Gain",
+   "segment": "Group",
+   "category": "Group Other",
+   "plan_structure": "Group Scheme",
+   "sub_category": "Group savings",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Group savings plan; insurer classes it as Group/Group Savings.",
+   "urls": {
+    "product_page": "https://www.pnbmetlife.com/insurance-plans/group-insurance-plans/group-secured-gain.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/kmp/Product-performance-report.pdf",
+    "https://www.pnbmetlife.com/llms.txt"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "117G094V01",
+   "name": "PNB MetLife Pradhan Mantri Jeevan Jyoti Bima Yojana",
+   "segment": "Group",
+   "category": "Govt Scheme",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Government-backed renewable one-year group term cover offered under PMJJBY.",
+   "urls": {
+    "product_page": "https://www.pnbmetlife.com/insurance-plans/group-insurance-plans/pradhan-mantri-jeevan-jyoti-bima-yojana.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/kmp/Product-performance-report.pdf",
+    "https://www.pnbmetlife.com/llms.txt"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "117N120V02",
+   "name": "PNB MetLife Bima Yojana (Group Micro-Insurance)",
+   "segment": "Micro",
+   "category": "Micro Insurance",
+   "plan_structure": "Group Scheme",
+   "sub_category": "Group micro credit term",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Group micro-insurance credit term cover for small borrowers.",
+   "urls": {
+    "product_page": "https://www.pnbmetlife.com/insurance-plans/group-insurance-plans/pnb-metlife-bima-yojana.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/kmp/Product-performance-report.pdf",
+    "https://www.pnbmetlife.com/llms.txt"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "117B020V04",
+   "name": "PNB MetLife Accidental Death Benefit Rider Plus",
+   "segment": "Rider",
+   "category": "Accidental Death/Disability",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Extra lump sum if the life assured dies in an accident; attaches to eligible non-linked individual plans.",
+   "urls": {
+    "product_page": "https://www.pnbmetlife.com/insurance-plans/riders/accidental-death-benefit-rider-plus.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.pnbmetlife.com/insurance-plans/riders.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "117B021V04",
+   "name": "PNB MetLife Serious Illness Rider",
+   "segment": "Rider",
+   "category": "Critical Illness",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Lump sum on diagnosis of a listed serious illness (10 illnesses per the Mera Term Plan Plus page).",
+   "urls": {
+    "product_page": "https://www.pnbmetlife.com/insurance-plans/riders/serious-illness-rider.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.pnbmetlife.com/insurance-plans/riders.html",
+    "https://www.pnbmetlife.com/insurance-plans/family-protection/pnb-metlife-mera-term-plan-plus.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "117B023V03",
+   "name": "PNB MetLife Critical Illness Rider",
+   "segment": "Rider",
+   "category": "Critical Illness",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Benefit on diagnosis of covered critical illnesses (cancer and heart attack cited on the Mera Term Plan Plus page).",
+   "urls": {
+    "product_page": "https://www.pnbmetlife.com/insurance-plans/riders/critical-illness-rider.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.pnbmetlife.com/insurance-plans/riders.html",
+    "https://www.pnbmetlife.com/insurance-plans/family-protection/pnb-metlife-mera-term-plan-plus.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "117B022V03",
+   "name": "PNB MetLife Accidental Disability Benefit Rider",
+   "segment": "Rider",
+   "category": "Accidental Death/Disability",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Financial benefit if the life assured suffers accidental disability.",
+   "urls": {
+    "product_page": "https://www.pnbmetlife.com/insurance-plans/riders/accidental-disability-benefit-rider.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.pnbmetlife.com/insurance-plans/riders.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "117B028V01",
+   "name": "PNB MetLife Goal Protector Waiver of Premium Rider",
+   "segment": "Rider",
+   "category": "Waiver of Premium",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Waives future premiums of the base savings plan on specified events so the goal stays funded.",
+   "urls": {
+    "product_page": "https://www.pnbmetlife.com/insurance-plans/riders/pnb-metlife-goal-protector-waiver-of-premium-rider.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.pnbmetlife.com/insurance-plans/riders.html",
+    "https://www.pnbmetlife.com/insurance-plans/long-term-savings/pnb-metlife-guaranteed-future-plan.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "117A024V01",
+   "name": "PNB MetLife Linked Accidental Death Benefit Rider",
+   "segment": "Rider",
+   "category": "Accidental Death/Disability",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Pays 100% of rider sum assured on accidental death; attaches to PNB MetLife unit-linked plans at inception or any anniversary.",
+   "urls": {
+    "product_page": "https://www.pnbmetlife.com/insurance-plans/riders/accidental-death-benefit-rider.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.pnbmetlife.com/insurance-plans/riders.html",
+    "https://www.pnbmetlife.com/insurance-plans/ulip-plans/tulip.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "PNB MetLife Linked Critical Illness Rider",
+   "segment": "Rider",
+   "category": "Critical Illness",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Critical illness benefit for unit-linked plans in Silver (10 illnesses), Gold (20) and Platinum (60) tiers; UIN not shown on listing.",
+   "urls": {
+    "product_page": "https://www.pnbmetlife.com/insurance-plans/riders/pnb-metlife-linked-critical-illness-rider.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.pnbmetlife.com/insurance-plans/riders.html",
+    "https://www.pnbmetlife.com/insurance-plans/pnb-metlife-360-health-saving-plan.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "PNB MetLife Linked Surgicash Benefit Rider",
+   "segment": "Rider",
+   "category": "Health/Hospital",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Lump sum as a percentage of the surgical sum assured when a listed surgery is performed; UIN not shown on listing.",
+   "urls": {
+    "product_page": "https://www.pnbmetlife.com/insurance-plans/riders/pnb-metlife-linked-surgicash-benefit-rider.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.pnbmetlife.com/insurance-plans/riders.html",
+    "https://www.pnbmetlife.com/insurance-plans/pnb-metlife-360-health-saving-plan.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "PNB MetLife Linked Hospicash Benefit Rider",
+   "segment": "Rider",
+   "category": "Health/Hospital",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Daily hospital cash of Rs 1,000-20,000 for 30 or 60 hospital days a policy year; UIN not shown on listing.",
+   "urls": {
+    "product_page": "https://www.pnbmetlife.com/insurance-plans/riders/pnb-metlife-linked-hospicash-benefit-rider.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.pnbmetlife.com/insurance-plans/riders.html",
+    "https://www.pnbmetlife.com/insurance-plans/pnb-metlife-360-health-saving-plan.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "PNB MetLife Group Accidental Benefit Rider",
+   "segment": "Rider",
+   "category": "Accidental Death/Disability",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Accident benefit rider for group plans; UIN not shown on listing.",
+   "urls": {
+    "product_page": "https://www.pnbmetlife.com/insurance-plans/riders/group-accidental-benefit-rider.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.pnbmetlife.com/insurance-plans/riders.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "117B016V02",
+   "name": "MetLife Group Accidental Permanent and Total Disability Plus",
+   "segment": "Rider",
+   "category": "Accidental Death/Disability",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Group rider paying on accidental permanent total disability.",
+   "urls": {
+    "product_page": "https://www.pnbmetlife.com/insurance-plans/riders/group-accident-permanent-total-disability-plus.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.pnbmetlife.com/insurance-plans/riders.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "MetLife Group Accidental Permanent and Partial Disability Plus",
+   "segment": "Rider",
+   "category": "Accidental Death/Disability",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Group rider paying on accidental permanent partial disability. The riders page prints its UIN as 117B07V02, which is not a valid format, so the UIN is left blank.",
+   "urls": {
+    "product_page": "https://www.pnbmetlife.com/insurance-plans/riders/group-accidental-permanent-partial-disability-plus.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.pnbmetlife.com/insurance-plans/riders.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "117B018V02",
+   "name": "MetLife Group Serious Illness Rider",
+   "segment": "Rider",
+   "category": "Critical Illness",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Group rider paying on diagnosis of a listed serious illness.",
+   "urls": {
+    "product_page": "https://www.pnbmetlife.com/insurance-plans/riders/group-serious-illness.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.pnbmetlife.com/insurance-plans/riders.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "117B019V02",
+   "name": "MetLife Group Accidental Death Benefit Plus",
+   "segment": "Rider",
+   "category": "Accidental Death/Disability",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Group rider paying on accidental death.",
+   "urls": {
+    "product_page": "https://www.pnbmetlife.com/insurance-plans/riders/group-accidental-death-benefit-plus.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.pnbmetlife.com/insurance-plans/riders.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "117N096V01",
+   "name": "PNB MetLife Guaranteed Savings Plan",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": "Endowment",
+   "sub_category": "Category is a best guess from the name",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Older guaranteed savings plan; policy document sits in the insurer's withdrawn-plans folder.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://newsite.pnbmetlife.com/content/dam/pnb-metlife/docs/withdrawn-insurance-plans/117N096V01-PNB%20MetLife%20Guaranteed%20Savings%20Plan_tcm47-69773.pdf"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "117N097V02",
+   "name": "PNB MetLife Guaranteed Income Plan",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": "Endowment",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Older non-linked non-participating endowment plan (policy document header shows V01, schedule V02); sits in the insurer's withdrawn-plans folder.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/withdrawn-insurance-plans/117N097V02-PNB%20MetLife%20Guaranteed%20Income%20Plan_tcm47-69777.pdf"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "117N103V02",
+   "name": "PNB MetLife Income Protection Plan",
+   "segment": "Individual",
+   "category": "Term",
+   "plan_structure": "Term with ROP",
+   "sub_category": "Return-of-premium protection plan; category is a best guess",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 55,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": 15,
+    "policy_term_max_years": 20,
+    "whole_life": null,
+    "ppt_options": [
+     "5",
+     "7",
+     "10"
+    ],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Return of premium options 100%/110%/130%/150%; max basic SA Rs 10 lakh; 150% option entry up to 50. From an aggregator article."
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Withdrawn plan combining life cover with return of premiums on survival.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://joinditto.in/articles/life-insurance/pnb-metlife-income-protection-plan/"
+   ],
+   "completeness": "partial",
+   "last_verified": "2026-10-28"
+  }
+ ],
+ "notes": ""
+}

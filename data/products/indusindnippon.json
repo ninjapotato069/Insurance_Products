@@ -1,0 +1,2233 @@
+{
+ "company_id": "indusindnippon",
+ "company_name": "IndusInd Nippon Life Insurance",
+ "researched_on": "2026-10-28",
+ "urls": {
+  "website": "https://www.indusindnipponlife.com",
+  "product_list_url": "https://www.indusindnipponlife.com/all-plans",
+  "withdrawn_list_url": null,
+  "riders_url": null,
+  "group_url": "https://websitedr.indusindnipponlife.com/all-plans/group-insurance-plans",
+  "newsroom_url": null
+ },
+ "products": [
+  {
+   "uin": "121N135V03",
+   "name": "IndusInd Nippon Life Digi-Term Insurance Plan",
+   "segment": "Individual",
+   "category": "Term",
+   "plan_structure": "Pure Term",
+   "sub_category": "Pure term with whole-life and income options",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Life Secure",
+     "summary": "Level sum assured paid on death or terminal illness during the term."
+    },
+    {
+     "name": "Enhanced Life Secure",
+     "summary": "Sum assured rises 5% simple a year up to 100% of base SA; no maturity benefit."
+    },
+    {
+     "name": "Whole Life Secure",
+     "summary": "Lump sum on death or terminal illness at any age; policy ends on payout; builds surrender and paid-up value."
+    },
+    {
+     "name": "Life & Income Secure (Level)",
+     "summary": "Lump sum plus monthly income of 0.5% of base SA for 10 years."
+    },
+    {
+     "name": "Life & Income Secure (Increasing)",
+     "summary": "Lump sum plus monthly income of 0.5% of base SA rising 10% simple a year for 10 years."
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 60,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": 15,
+    "policy_term_max_years": 40,
+    "whole_life": true,
+    "ppt_options": [
+     "Regular",
+     "Limited (65 minus entry age)"
+    ],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": 2500000,
+    "max_sum_assured_text": "No stated upper limit, subject to board-approved underwriting policy",
+    "notes": "Whole Life Secure option: entry 25-60. SA in multiples of Rs 1 lakh. Minimum premium depends on SA, term and option. Spec read from the Sep-2021 brochure (v03); later revisions and current sale status not confirmed (listed by Ditto Aug-2026, absent from Policybazaar list)."
+   },
+   "benefits": {
+    "death": "Lump sum on death or terminal illness: highest of 10x annualised premium, sum assured, or 105% of premiums paid.",
+    "maturity": "None under any option.",
+    "survival_income": "Life & Income Secure options add 0.5% of base SA monthly for 10 years (level, or rising 10% simple a year).",
+    "guaranteed": null,
+    "return_of_premium": false,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": {
+     "rop_option": false,
+     "whole_life_cover_option": true,
+     "ci_or_accelerated_benefit": "Terminal illness payout built in; Critical Illness rider optional",
+     "payout_options": "Lump sum / Lump sum + monthly income (10 years)",
+     "increasing_cover_option": true
+    },
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Five cover options from level term to whole life",
+    "Terminal illness benefit included in the death benefit",
+    "Enhanced option grows cover 5% a year",
+    "Income-plus-lump-sum options for family cash flow",
+    "Optional accident and critical illness riders"
+   ],
+   "riders_available": [
+    "Accidental Death Benefit Rider (121B032V02)",
+    "Accidental Death and Disability Rider (121B017V02)",
+    "Accidental Death and Disability Plus Rider (121B016V02)",
+    "Critical Illness Rider (121B018V01)"
+   ],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Individual non-linked pure-protection term plan, earlier branded Reliance Nippon Life Digi-Term Insurance Plan, with level, rising, whole-life and income-paying options.",
+   "urls": {
+    "product_page": null,
+    "brochure": "https://healthstatic.insurancedekho.com/prod/planpdf/20210901194709.pdf"
+   },
+   "sources": [
+    "https://healthstatic.insurancedekho.com/prod/planpdf/20210901194709.pdf",
+    "https://www.insurancedekho.com/life-insurance/term-insurance/reliance/digi-term-insurance-plan/benefits",
+    "https://www.joinditto.in/articles/life-insurance/reliance-nippon-life-insurance-review/"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "IndusInd Nippon Life Super Suraksha Plus",
+   "segment": "Individual",
+   "category": "Term",
+   "plan_structure": "Pure Term",
+   "sub_category": "Term with optional return of premium (Life Plus)",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Life",
+     "summary": "Pure protection; entry 18-60, cover to age 85; enhanced cover at life events for those under 45."
+    },
+    {
+     "name": "Life Plus",
+     "summary": "Adds maturity benefit of 100% of base premiums paid (riders excluded); entry 18-55, cover to age 75."
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 60,
+    "maturity_age_max_years": 85,
+    "policy_term_min_years": 20,
+    "policy_term_max_years": 50,
+    "whole_life": null,
+    "ppt_options": [
+     "Regular",
+     "Limited 5",
+     "Limited 7",
+     "Limited 10",
+     "Limited 15",
+     "Limited 20"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": 5000000,
+    "max_sum_assured_text": "No upper limit, subject to underwriting",
+    "notes": "Life: entry 18-60, max maturity age 85, limited pay 5/7/10/15 years. Life Plus: entry 18-55, max maturity age 75, limited pay 5/7/10/15/20 years. Min term 20 years quoted for regular pay and min SA Rs 50 lakh quoted by Ditto - verify against brochure."
+   },
+   "benefits": {
+    "death": "Lump sum of the higher of base SA (at least 11x annualised premium) or 105% of premiums paid; can be taken as lump sum, 120 monthly instalments, or a mix.",
+    "maturity": "Life: none. Life Plus: 100% of base premiums paid on survival to end of term.",
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": true,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": "Rs 1 lakh InstaPayout on claim intimation; cover can be lowered from age 45."
+   },
+   "category_details": {
+    "term": {
+     "rop_option": true,
+     "ci_or_accelerated_benefit": "Rs 1 lakh InstaPayout on claim intimation; separate Critical Illness rider (25 illnesses)",
+     "payout_options": "Lump sum / Monthly income for 10 years / Lump sum + income",
+     "increasing_cover_option": "Enhanced Cover Benefit at marriage, birth/adoption or home loan (Life variant, apply within 180 days)"
+    },
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Two variants: pure cover (Life) and return of premium (Life Plus)",
+    "Death benefit as lump sum, 10-year monthly income, or both",
+    "Rs 1 lakh InstaPayout on claim intimation",
+    "Cover can be raised at marriage, childbirth or home loan (Life variant)",
+    "Optional accident and critical illness riders"
+   ],
+   "riders_available": [
+    "Accidental Death Benefit",
+    "Accidental Death and Disability",
+    "Accidental Death and Disability Plus",
+    "Critical Illness (25 illnesses)"
+   ],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": "Premium deduction (old regime, up to Rs 1.5 lakh) and tax-exempt death benefit, subject to prevailing tax law",
+   "description": "Individual non-linked term plan with a pure-cover Life variant and a return-of-premium Life Plus variant, formerly sold under the Reliance Nippon Life brand.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://joinditto.in/articles/term-insurance/indusind-nippon-life-super-suraksha-plus/",
+    "https://www.policybazaar.com/term-insurance/indusind-nippon-life-super-suraksha-plus/"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "IndusInd Nippon Life Super Suraksha Elite",
+   "segment": "Individual",
+   "category": "Term",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Term plan listed alongside Super Suraksha Plus on current aggregator lists; details not yet retrieved.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.policybazaar.com/life-insurance/companies/reliance-life-insurance-company-ltd/",
+    "https://www.joinditto.in/articles/life-insurance/reliance-nippon-life-insurance-review/"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "IndusInd Nippon Life Saral Jeevan Bima",
+   "segment": "Individual",
+   "category": "Term",
+   "plan_structure": "Pure Term",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": "Saral Jeevan Bima",
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "IRDAI-mandated standard individual pure term plan offered by IndusInd Nippon Life (formerly Reliance Nippon Life).",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.policybazaar.com/life-insurance/companies/reliance-life-insurance-company-ltd/",
+    "https://www.joinditto.in/articles/life-insurance/reliance-nippon-life-insurance-review/"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "121N142V03",
+   "name": "IndusInd Nippon Life Nishchit Samrudhi",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": "Guaranteed Income",
+   "sub_category": "Guaranteed income or endowment, limited or single pay",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Income Option",
+     "summary": "Guaranteed yearly income after the premium term (30%-80% of annualised premium for 6-11 pay) plus base SA at maturity."
+    },
+    {
+     "name": "Endowment Option",
+     "summary": "No income; base SA paid in 4 equal yearly instalments at maturity; 6/7-year limited pay or single pay."
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 1,
+    "entry_age_max_years": 55,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": 15,
+    "policy_term_max_years": 44,
+    "whole_life": null,
+    "ppt_options": [
+     "Single",
+     "Limited 6",
+     "Limited 7",
+     "Limited 8",
+     "Limited 9",
+     "Limited 10",
+     "Limited 11"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly",
+     "Single"
+    ],
+    "min_annual_premium_inr": 75000,
+    "min_single_premium_inr": 250000,
+    "max_premium_text": "No limit, subject to underwriting policy",
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Income Option: entry 11-55, PPT 6-11 years, term 24-44 years by PPT. Endowment Option: entry 1-55, PPT 6-7 years or single pay, term 15-20 years. Quarterly/monthly need electronic payment; modal loading half-yearly 1%, quarterly 2%, monthly 4%."
+   },
+   "benefits": {
+    "death": "Limited pay: higher of SA on death (higher of 11x annualised premium or base SA) and 105% of premiums paid. Single pay: higher of 1.25x single premium or base SA.",
+    "maturity": "Income Option: base SA as lump sum. Endowment Option: base SA in 4 equal yearly instalments.",
+    "survival_income": "Income Option only: guaranteed yearly income of 30/40/50/60/70/80% of annualised premium for 6/7/8/9/10/11-year pay.",
+    "guaranteed": true,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": {
+     "payout_type": "Lump sum + Income",
+     "bonus_type": "None"
+    },
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Two options: guaranteed income or endowment",
+    "Fully guaranteed benefits, no bonuses",
+    "Limited pay or single pay",
+    "Income as a share of annualised premium rising with the premium term",
+    "Optional accident and critical illness riders"
+   ],
+   "riders_available": [
+    "Accidental Death Benefit (121B032V03)",
+    "Accidental Death and Disability (121B017V03)",
+    "Accidental Death and Disability Plus (121B016V03)",
+    "Critical Illness - 25 illnesses (121B018V03)"
+   ],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Individual non-linked non-participating savings plan offering guaranteed income or a staggered endowment payout; sold earlier under the Reliance Nippon Life name.",
+   "urls": {
+    "product_page": null,
+    "brochure": "https://2.zoppoz.workers.dev/https/www.scribd.com/document/850905669/Nishchit-Samrudhi-Plan-Brochure-07"
+   },
+   "sources": [
+    "https://2.zoppoz.workers.dev/https/www.scribd.com/document/850905669/Nishchit-Samrudhi-Plan-Brochure-07",
+    "https://www.policybazaar.com/life-insurance/companies/reliance-life-insurance-company-ltd/"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "IndusInd Nippon Life Nishchit Bhavishya Plan",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": "Guaranteed Income",
+   "sub_category": "Guaranteed income / money-back with protection",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Savings",
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": "2023-04",
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Variant 1",
+     "summary": "Income starts after the premium term and rises 5% simple a year, with a lump sum at maturity."
+    },
+    {
+     "name": "Variant 2",
+     "summary": "Money-back payouts of 75% and 125% of annualised premium in years 4 and 8, then rising income from year 12."
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 5,
+    "entry_age_max_years": 50,
+    "maturity_age_max_years": 92,
+    "policy_term_min_years": 24,
+    "policy_term_max_years": 42,
+    "whole_life": null,
+    "ppt_options": [
+     "Limited 8",
+     "Limited 10",
+     "Limited 12"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": 34500,
+    "min_single_premium_inr": null,
+    "max_premium_text": "No limit, subject to underwriting",
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Terms offered: 24, 28, 30, 35, 36, 42 years (maturity age 74-92). Pairing of PPT to term read from aggregator table - verify."
+   },
+   "benefits": {
+    "death": "Lump sum; during the premium term the cover is a multiple of annualised premium (11x-37x per launch release) with a floor of 120%-132% of premiums paid (aggregators differ); after the premium term includes base SA plus loyalty addition.",
+    "maturity": "Base SA plus fixed loyalty addition (20%/25%/30% of base SA for 8/10/12-year pay).",
+    "survival_income": "Variant 1: income after the premium term rising 5% simple a year; Variant 2: payouts in years 4 and 8, then income from year 12.",
+    "guaranteed": true,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": {
+     "payout_type": "Lump sum + Income",
+     "bonus_type": "None",
+     "income_duration": "Until maturity (income rises 5% simple a year)"
+    },
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Guaranteed income growing 5% simple a year",
+    "Two variants: income-first or money-back-then-income",
+    "High death cover during the premium term",
+    "Fixed loyalty addition at maturity",
+    "Optional accident, disability and critical illness riders"
+   ],
+   "riders_available": [
+    "Accidental Death Benefit",
+    "Accidental Disability",
+    "Critical Illness"
+   ],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Individual non-linked non-participating savings plan with growing guaranteed income and protection, launched Apr 2023 as Reliance Nippon Life Nishchit Bhavishya.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://theprint.in/ani-press-releases/reliance-nippon-life-insurance-unveils-the-nishchit-bhavishya-plan-a-savings-plus-protection-plan-with-increasing-benefits/1513214",
+    "https://www.holisticinvestment.in/reliance-nippon-life-nishchit-bhavishya-plan-review-good-bad-insights-analysis/",
+    "https://www.policybazaar.com/insurance-companies/reliance-life-investment-plans/nishchit-bhavishya/"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "IndusInd Nippon Life Super Endowment Plan",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": "Endowment",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": 8,
+    "entry_age_max_years": 60,
+    "maturity_age_max_years": 75,
+    "policy_term_min_years": 14,
+    "policy_term_max_years": 20,
+    "whole_life": null,
+    "ppt_options": [
+     "Limited 7",
+     "Limited 10"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": 100000,
+    "max_sum_assured_text": "No stated upper limit",
+    "notes": "Terms 14 or 20 years. Paisabazaar page may reflect an older version of the plan."
+   },
+   "benefits": {
+    "death": "Highest of 10x annualised premium, 105% of premiums paid, or guaranteed sum assured.",
+    "maturity": "Guaranteed sum assured.",
+    "survival_income": null,
+    "guaranteed": true,
+    "return_of_premium": null,
+    "loan": true,
+    "partial_withdrawal": null,
+    "other": "Loan up to 80% of surrender value (per Paisabazaar)."
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": {
+     "payout_type": "Lump sum",
+     "bonus_type": "None"
+    },
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Guaranteed sum assured at maturity",
+    "Limited pay of 7 or 10 years",
+    "Loan against surrender value"
+   ],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Individual non-linked non-participating endowment plan with guaranteed maturity sum, sold earlier as Reliance Nippon Life Super Endowment Plan.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.paisabazaar.com/reliance-nippon-super-endowment-plan/",
+    "https://www.policybazaar.com/life-insurance/companies/reliance-life-insurance-company-ltd/"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "IndusInd Nippon Life Super Bachat Plus Suraksha Plan",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": "Endowment",
+   "sub_category": "Guaranteed additions with high death cover",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Savings",
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Plan Option A",
+     "summary": "Death cover of 2x base SA, rising 5% simple a year from year 2."
+    },
+    {
+     "name": "Plan Option B",
+     "summary": "Death cover of 1.5x base SA, rising 5% simple a year from year 2."
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 50,
+    "maturity_age_max_years": 70,
+    "policy_term_min_years": 10,
+    "policy_term_max_years": 20,
+    "whole_life": null,
+    "ppt_options": [
+     "Regular",
+     "Limited 7",
+     "Limited 10",
+     "Limited 15",
+     "Limited 20"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": 30000,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Terms 10, 15, 20 years; min SA depends on entry age, term, premium term and annualised premium."
+   },
+   "benefits": {
+    "death": "Higher of (SA on death plus accrued guaranteed loyalty additions) and 105% of premiums paid; SA on death is the higher of 11x annualised premium and the option's death cover.",
+    "maturity": "Base SA plus guaranteed maturity addition plus accrued guaranteed loyalty additions.",
+    "survival_income": null,
+    "guaranteed": true,
+    "return_of_premium": null,
+    "loan": true,
+    "partial_withdrawal": null,
+    "other": "Guaranteed loyalty addition accrues every 5th policy year; loan up to 70% of surrender value."
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": {
+     "payout_type": "Lump sum",
+     "bonus_type": "None"
+    },
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Guaranteed loyalty additions every five years",
+    "Two plan options with 1.5x or 2x death cover that rises 5% a year",
+    "Regular or limited pay",
+    "Loan against surrender value"
+   ],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Individual non-linked non-participating savings plan combining guaranteed additions with high death cover, sold earlier as Reliance Nippon Life Super Bachat Plus Suraksha Plan.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.holisticinvestment.in/reliance-nippon-super-bachat-plus-suraksha-plan-review-good-bad-insights-analysis/",
+    "https://www.policybazaar.com/life-insurance/companies/reliance-life-insurance-company-ltd/"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "IndusInd Nippon Life Super Assured Future Endowment Plan",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": "Endowment",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": 1,
+    "entry_age_max_years": 55,
+    "maturity_age_max_years": 76,
+    "policy_term_min_years": 15,
+    "policy_term_max_years": 21,
+    "whole_life": null,
+    "ppt_options": [
+     "Limited 5",
+     "Limited 7",
+     "Limited 8",
+     "Limited 10",
+     "Limited 12"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": 35000,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Terms 15/16/20/21 years for 5/7/8/10-year pay; 20 or 21 years for 12-year pay. Minimum maturity age 18."
+   },
+   "benefits": {
+    "death": "Higher of SA on death, or 105% of premiums paid, plus accrued guaranteed additions and loyalty additions.",
+    "maturity": "Base SA plus guaranteed additions plus guaranteed loyalty additions.",
+    "survival_income": null,
+    "guaranteed": true,
+    "return_of_premium": null,
+    "loan": true,
+    "partial_withdrawal": null,
+    "other": "Settlement option to take maturity as income over 5, 10 or 15 years; loan up to 70% of surrender value."
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": {
+     "payout_type": "Lump sum",
+     "bonus_type": "None",
+     "income_duration": "Optional settlement income over 5, 10 or 15 years"
+    },
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Guaranteed additions accrue from year 1",
+    "Guaranteed loyalty additions after a set number of years",
+    "Settlement option converts maturity into 5/10/15-year income",
+    "Loan up to 70% of surrender value"
+   ],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Individual non-linked non-participating limited-pay endowment plan with guaranteed and loyalty additions, formerly Reliance Nippon Life Super Assured Future.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://pbuat.policybazaar.com/insurance-companies/reliance-life-investment-plans/super-assured-future-endowment/",
+    "https://o.holisticinvestment.in/?p=47442"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "IndusInd Nippon Life Nishchit Samrudhi Plus Plan",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": "Guaranteed Income",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Flexi Wallet",
+     "summary": "Part or all of the income can be left in a wallet; wallet balance is paid at maturity or death, with a settlement option over up to 5 years."
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 0,
+    "entry_age_max_years": 60,
+    "maturity_age_max_years": 100,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [
+     "Limited 5",
+     "Limited 8",
+     "Limited 10",
+     "Limited 12"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": 100000,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Max entry age 55-60 depending on premium term; minimum maturity age 18; income period 10-30 years; deferment 0-2 years. Policy term range not stated on source."
+   },
+   "benefits": {
+    "death": "Greater of SA on death (11x annual premium) or death benefit factor times premiums paid, plus any Flexi Wallet balance.",
+    "maturity": "SA on maturity plus any Flexi Wallet balance.",
+    "survival_income": "Guaranteed yearly income during the income period (10-30 years), increasing 5% a year.",
+    "guaranteed": true,
+    "return_of_premium": null,
+    "loan": true,
+    "partial_withdrawal": null,
+    "other": "Loan up to 70% of surrender value."
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": {
+     "payout_type": "Income",
+     "income_duration": "10-30 years",
+     "bonus_type": "None",
+     "deferment_option": "0-2 years"
+    },
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Guaranteed income growing 5% a year",
+    "Income period of 10 to 30 years",
+    "Flexi Wallet to bank part of the income",
+    "Limited pay of 5, 8, 10 or 12 years"
+   ],
+   "riders_available": [
+    "Accidental Death Benefit",
+    "Accidental Death and Disability",
+    "Accidental Death and Disability Plus",
+    "Critical Illness"
+   ],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Individual non-linked non-participating plan paying a rising guaranteed income over 10-30 years, formerly Reliance Nippon Life Nishchit Samrudhi Plus.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.policybazaar.com/insurance-companies/reliance-life-investment-plans/nishchit-samrudhi-plus/"
+   ],
+   "completeness": "partial",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "IndusInd Nippon Life Smart Zindagi Plus Plan",
+   "segment": "Individual",
+   "category": "Savings - Par",
+   "plan_structure": "Endowment",
+   "sub_category": "Participating with cash bonuses",
+   "linkage": "Non-Linked",
+   "participation": "Par",
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 55,
+    "maturity_age_max_years": 85,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [
+     "Limited 10",
+     "Limited 12",
+     "Limited 15",
+     "Limited 20"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": 250000,
+    "max_sum_assured_text": null,
+    "notes": "Max entry age varies with term. Policy term options not stated on source."
+   },
+   "benefits": {
+    "death": "Higher of sum assured or 105% of premiums paid, as lump sum.",
+    "maturity": "Sum assured plus terminal bonus and attached additions.",
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": true,
+    "partial_withdrawal": null,
+    "other": "Cash bonuses from end of year 1 (not guaranteed), payable or reinvested as paid-up additions; loan up to 70% of surrender value."
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": {
+     "payout_type": "Lump sum",
+     "bonus_type": "Cash bonus"
+    },
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Participating plan with annual cash bonuses from year 1",
+    "Terminal bonus at maturity or claim",
+    "Bonuses can be taken as cash or reinvested",
+    "Limited pay of 10 to 20 years"
+   ],
+   "riders_available": [
+    "Accidental Death Benefit",
+    "Accidental Death and Disability",
+    "Accidental Death and Disability Plus",
+    "Critical Illness"
+   ],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Individual non-linked participating savings plan paying cash bonuses and a terminal bonus, sold earlier under the Reliance Nippon Life brand.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://pbuat.policybazaar.com/insurance-companies/reliance-life-investment-plans/smart-zindagi-plus/"
+   ],
+   "completeness": "partial",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "IndusInd Nippon Life Smart Total Advantage Return Plan",
+   "segment": "Individual",
+   "category": "Savings - Par",
+   "plan_structure": "Endowment",
+   "sub_category": "Participating with Life and Life Plus variants",
+   "linkage": "Non-Linked",
+   "participation": "Par",
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Life Variant",
+     "summary": "Entry 91 days-55; cover to age 95 fixed term or 100 whole life per aggregator."
+    },
+    {
+     "name": "Life Plus Variant",
+     "summary": "Entry 18-55; adds benefit continuation for beneficiaries after death without extra premium."
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 0.25,
+    "entry_age_max_years": 55,
+    "maturity_age_max_years": 100,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [
+     "Limited 8",
+     "Limited 10",
+     "Limited 12",
+     "Limited 15"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": 50000,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Life Variant entry 91 days-55, maturity age 20-95 (term) or 100 (whole life); Life Plus entry 18-55, maturity age 38-80. Min annual premium Rs 50,000-1,00,000 by variant. Policy term not stated on source."
+   },
+   "benefits": {
+    "death": "Higher of sum assured on death or 105% of premiums paid, with bonuses possibly added.",
+    "maturity": "Assured base sum plus terminal bonus and accrued benefits.",
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": true,
+    "partial_withdrawal": null,
+    "other": "Annual cash bonuses from year 1 (payout or paid-up additions); guaranteed loyalty addition as lump sum at end of premium term; loan up to 70% of surrender value."
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": {
+     "payout_type": "Lump sum",
+     "bonus_type": "Cash bonus"
+    },
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Annual cash bonuses from the first year",
+    "Guaranteed loyalty addition after the premium term",
+    "Life Plus variant continues benefits to beneficiaries after death",
+    "Limited pay of 8 to 15 years"
+   ],
+   "riders_available": [
+    "Accidental Death Benefit",
+    "Accidental Death and Disability",
+    "Accidental Death and Disability Plus",
+    "Critical Illness"
+   ],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Individual non-linked participating savings plan with annual cash bonuses and a guaranteed loyalty addition, formerly Reliance Nippon Life Smart Total Advantage Return.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://pbuat.policybazaar.com/insurance-companies/reliance-life-investment-plans/smart-total-advantage-return/"
+   ],
+   "completeness": "partial",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "IndusInd Nippon Life Wealth and Insurance Plan",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Wealth"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": 0.08,
+    "entry_age_max_years": 60,
+    "maturity_age_max_years": 70,
+    "policy_term_min_years": 10,
+    "policy_term_max_years": 30,
+    "whole_life": null,
+    "ppt_options": [
+     "Regular",
+     "Limited 5",
+     "Limited 7",
+     "Limited 10",
+     "Single"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly",
+     "Single"
+    ],
+    "min_annual_premium_inr": 200000,
+    "min_single_premium_inr": 500000,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Entry from 30 days; min maturity age 18. Limited pay 10-year needs term 15-30 years. Single-pay minimum read from ambiguous source wording."
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": true,
+    "other": "2 free partial withdrawals a year after the 5-year lock-in (Rs 100 each beyond); 5-year lock-in."
+   },
+   "category_details": {
+    "term": null,
+    "ulip": {
+     "funds_count": 7,
+     "fmc_max_pct": 1.35,
+     "loyalty_additions": "Wealth Boosters from end of year 8: 0.30% a year of average fund value (regular/limited pay), 0.50% (single pay)",
+     "free_switches_per_year": 52,
+     "premium_allocation_charge": "Regular/limited: 4% year 1, 3% years 2-4, 2.75% year 5, 1.5% after; single pay: 1.5% below Rs 10 lakh, 1% above",
+     "policy_admin_charge": "Rs 300 a month (regular/limited), Rs 200 a month (single pay)"
+    },
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Seven funds plus a discontinued-policy fund (equity, balanced, bond, money market)",
+    "52 free switches a year",
+    "Wealth Boosters loyalty units from year 8",
+    "Single, limited or regular pay"
+   ],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Individual unit-linked plan combining market-linked growth with life cover, formerly Reliance Nippon Life Wealth and Insurance Plan.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.holisticinvestment.in/reliance-nippon-wealth-insurance-plan-review-good-bad-insights-analysis-ulip/",
+    "https://www.policybazaar.com/life-insurance/companies/reliance-life-insurance-company-ltd/"
+   ],
+   "completeness": "partial",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "IndusInd Nippon Life Premier Wealth Insurance Plan",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Wealth"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": 0.08,
+    "entry_age_max_years": 60,
+    "maturity_age_max_years": 70,
+    "policy_term_min_years": 10,
+    "policy_term_max_years": 30,
+    "whole_life": null,
+    "ppt_options": [
+     "Regular",
+     "Limited 5",
+     "Limited 7",
+     "Limited 10",
+     "Single"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly",
+     "Single"
+    ],
+    "min_annual_premium_inr": 200000,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Review page gives figures identical to the Wealth and Insurance Plan page - verify against the brochure."
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": {
+     "funds_count": 7,
+     "fmc_max_pct": 1.35,
+     "loyalty_additions": "Wealth Boosters from end of year 8: 0.30% a year (regular/limited), 0.50% (single pay)",
+     "free_switches_per_year": 52,
+     "premium_allocation_charge": "Regular/limited: 4% year 1, 3% years 2-4, 2.75% year 5, 1.5% after; single pay 1.5%/1%",
+     "policy_admin_charge": "Rs 300 a month (regular/limited)"
+    },
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Seven funds plus a discontinued-policy fund",
+    "52 free switches a year",
+    "Wealth Boosters from year 8"
+   ],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Individual unit-linked wealth plan, formerly Reliance Nippon Life Premier Wealth Insurance Plan.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.holisticinvestment.in/reliance-nippon-life-premier-wealth-insurance-plan-review-good-bad-insights-analysis-ulip/",
+    "https://www.policybazaar.com/life-insurance/companies/reliance-life-insurance-company-ltd/"
+   ],
+   "completeness": "partial",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "IndusInd Nippon Life Smart Savings Insurance Plan",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Wealth",
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": 1,
+    "entry_age_max_years": 60,
+    "maturity_age_max_years": 70,
+    "policy_term_min_years": 10,
+    "policy_term_max_years": 30,
+    "whole_life": null,
+    "ppt_options": [
+     "Regular",
+     "Limited 5",
+     "Limited 7",
+     "Limited 10"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": 48000,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Entry age varies by option; min maturity age 18; 5-year lock-in."
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": true,
+    "other": "Partial withdrawals allowed after the 5-year lock-in."
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Unit-linked savings with life cover",
+    "Premium term from 5 years to regular pay",
+    "5-year lock-in with partial withdrawals afterwards"
+   ],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Individual unit-linked savings plan from IndusInd Nippon Life (formerly Reliance Nippon Life) with flexible premium terms.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.policybazaar.com/insurance-companies/reliance-life-ulip-plans/smart-savings-insurance-plan/"
+   ],
+   "completeness": "partial",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "IndusInd Nippon Life Prosperity Plus Plan",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Wealth"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Unit-linked plan on current aggregator lists; details not yet retrieved.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.policybazaar.com/life-insurance/companies/reliance-life-insurance-company-ltd/"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "IndusInd Nippon Life Classic Plan II",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Wealth"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Older unit-linked plan still on aggregator lists; sale status and details not yet verified.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.policybazaar.com/life-insurance/companies/reliance-life-insurance-company-ltd/",
+    "https://www.joinditto.in/articles/life-insurance/reliance-nippon-life-insurance-review/"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "IndusInd Nippon Life Immediate Annuity Plan",
+   "segment": "Individual",
+   "category": "Pension & Annuity",
+   "plan_structure": "Immediate Annuity",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [
+    "Retirement"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Immediate annuity plan on current aggregator lists; details not yet retrieved.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.policybazaar.com/life-insurance/companies/reliance-life-insurance-company-ltd/"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "IndusInd Nippon Life Smart Pension Plan",
+   "segment": "Individual",
+   "category": "Pension & Annuity",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [
+    "Retirement"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Retirement plan on current aggregator lists; details not yet retrieved.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.policybazaar.com/life-insurance/companies/reliance-life-insurance-company-ltd/"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "IndusInd Nippon Life Saral Pension Plan",
+   "segment": "Individual",
+   "category": "Pension & Annuity",
+   "plan_structure": "Immediate Annuity",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [
+    "Retirement"
+   ],
+   "standard_product": "Saral Pension",
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "IRDAI standard immediate annuity (Saral Pension) offered by IndusInd Nippon Life.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.policybazaar.com/life-insurance/companies/reliance-life-insurance-company-ltd/"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "IndusInd Nippon Life Group Term Assurance Plus",
+   "segment": "Group",
+   "category": "Group Term",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Group term cover for employers and other groups; details not yet retrieved.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.joinditto.in/articles/life-insurance/reliance-nippon-life-insurance-review/",
+    "https://insurancedekho.com/life-insurance/reliance/plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "IndusInd Nippon Life Group Credit Protection Plus",
+   "segment": "Group",
+   "category": "Credit Life",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Group credit life cover for lenders' borrowers; details not yet retrieved.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.joinditto.in/articles/life-insurance/reliance-nippon-life-insurance-review/"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "IndusInd Nippon Life Group Employee Benefits Plan",
+   "segment": "Group",
+   "category": "Group Fund (Gratuity/Superannuation/Leave)",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [
+    "Retirement"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Group employee-benefit (gratuity/leave/superannuation) fund plan; details not yet retrieved.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://insurancedekho.com/life-insurance/reliance/plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "IndusInd Nippon Life Group Unit Linked Employee Benefits Plan",
+   "segment": "Group",
+   "category": "Group Fund (Gratuity/Superannuation/Leave)",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": null,
+   "need_tags": [
+    "Retirement"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Unit-linked group employee-benefit fund plan; details not yet retrieved.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://insurancedekho.com/life-insurance/reliance/plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "121B032V03",
+   "name": "Accidental Death Benefit Rider",
+   "segment": "Rider",
+   "category": "Accidental Death/Disability",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Optional rider paying an extra sum on accidental death; attaches to IndusInd Nippon (ex-Reliance Nippon) base plans.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://2.zoppoz.workers.dev/https/www.scribd.com/document/850905669/Nishchit-Samrudhi-Plan-Brochure-07",
+    "https://healthstatic.insurancedekho.com/prod/planpdf/20210901194709.pdf"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "121B017V03",
+   "name": "Accidental Death and Disability Rider",
+   "segment": "Rider",
+   "category": "Accidental Death/Disability",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Optional rider covering accidental death and disability.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://2.zoppoz.workers.dev/https/www.scribd.com/document/850905669/Nishchit-Samrudhi-Plan-Brochure-07",
+    "https://healthstatic.insurancedekho.com/prod/planpdf/20210901194709.pdf"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "121B016V03",
+   "name": "Accidental Death and Disability Plus Rider",
+   "segment": "Rider",
+   "category": "Accidental Death/Disability",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Optional rider with enhanced accidental death and disability cover.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://2.zoppoz.workers.dev/https/www.scribd.com/document/850905669/Nishchit-Samrudhi-Plan-Brochure-07",
+    "https://healthstatic.insurancedekho.com/prod/planpdf/20210901194709.pdf"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "121B018V03",
+   "name": "Critical Illness Rider",
+   "segment": "Rider",
+   "category": "Critical Illness",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Optional rider paying a lump sum on diagnosis of any of 25 listed critical illnesses.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://2.zoppoz.workers.dev/https/www.scribd.com/document/850905669/Nishchit-Samrudhi-Plan-Brochure-07",
+    "https://healthstatic.insurancedekho.com/prod/planpdf/20210901194709.pdf"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  }
+ ],
+ "notes": "Renamed from Reliance Nippon Life Insurance effective 10 Dec 2025 (Ditto). Official site pages were not fetchable (WebFetch allowlist), so inventory comes from aggregators (Policybazaar, Ditto, InsuranceDekho, Paisabazaar, holisticinvestment reviews) plus two brochure copies (Digi-Term 121N135V03 Sep-2021 v03; Nishchit Samrudhi 121N142V03). Most UINs still unknown (null); product_list_url is the official all-plans page cited on Wikipedia, not yet opened. Savings plans on Policybazaar's current list with type/par status unverified (not saved): Increasing Income Insurance Plan, Guaranteed Money Back Plan, Guaranteed Earnings for Milestone, Nishchit Ace, Guaranteed Money Back Plus, Guaranteed Advantage Income Plan, Milestone Plan. Names seen only on Ditto/InsuranceDekho, status unknown (possibly legacy): Protection Plus, Bluechip Savings, Nishchit Pension, Education Plan, Child Plan, Life Long Savings, Super Money Back, Increasing Money Back, Future Income, Fixed Money Back, Fixed Savings, Cancer Protection Plus. Rider versions seen: ADB 121B032V02/V03, ADD 121B017V02/V03, ADD Plus 121B016V02/V03, CI 121B018V01/V03 (latest saved)."
+}

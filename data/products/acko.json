@@ -1,0 +1,915 @@
+{
+ "company_id": "acko",
+ "company_name": "Acko Life Insurance Ltd",
+ "researched_on": "2026-10-28",
+ "urls": {
+  "website": "https://www.acko.com/life-insurance/",
+  "product_list_url": "https://www.acko.com/life/product-disclosures/",
+  "withdrawn_list_url": "https://www.acko.com/life/product-disclosures/",
+  "riders_url": "https://www.acko.com/life/product-disclosures/",
+  "group_url": "https://www.acko.com/life/product-disclosures/",
+  "newsroom_url": null
+ },
+ "products": [
+  {
+   "uin": "164N003V01",
+   "name": "Acko Life Flexi Term Plan",
+   "segment": "Individual",
+   "category": "Term",
+   "plan_structure": "Pure Term",
+   "sub_category": "Pure-risk term with adjustable cover",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": "2024-12",
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 65,
+    "maturity_age_max_years": 70,
+    "policy_term_min_years": 5,
+    "policy_term_max_years": 40,
+    "whole_life": false,
+    "ppt_options": [
+     "Regular"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": 2500000,
+    "max_sum_assured_text": "No fixed cap; subject to underwriting",
+    "notes": "Figures from acko.com pages and aggregators (Ditto, PolicyX); official brochure not readable, so verify. PolicyX shows entry up to 70, maturity up to 85 and single/limited pay; Ditto and Acko show 18-65, maturity 70, regular pay only. Premium modes per PolicyX."
+   },
+   "benefits": {
+    "death": "Sum assured paid to the nominee on death in the term; can be taken as lump sum, monthly income, increasing monthly income, or lump sum plus monthly income",
+    "maturity": "None (pure-risk plan)",
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": false,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": "Cover can be raised once a year and lowered after 3 policy years (Rs 25 lakh blocks, not below Rs 25 lakh); optional ADB and ATPD riders (up to Rs 2 crore each) and 21-illness CI rider (up to Rs 50 lakh); premium waiver only via CI/ATPD rider"
+   },
+   "category_details": {
+    "term": {
+     "ci_or_accelerated_benefit": "CI through optional rider (21 illnesses); no inbuilt terminal-illness benefit per aggregator",
+     "payout_options": "Lump sum / Monthly income / Increasing monthly income / Lump sum + income",
+     "increasing_cover_option": "Yes - sum assured can be increased once a year; decrease allowed after 3 policy years"
+    },
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Pure-risk, non-linked, non-participating term cover bought fully online",
+    "Sum assured can be stepped up once a year and reduced after the third policy year",
+    "Death payout as lump sum, monthly income, rising monthly income or a mix",
+    "Optional accidental death, accidental TPD and 21-illness critical illness riders",
+    "Complimentary digital will-writing service through a partner"
+   ],
+   "riders_available": [
+    "Acko Life Accidental Death Benefit Rider",
+    "Acko Life Accidental Total Permanent Disability Benefit Rider",
+    "Acko Life Critical Illness Benefit Rider"
+   ],
+   "online_purchase": true,
+   "channels": [
+    "Direct/Online"
+   ],
+   "tax_benefits": "Premiums eligible under Sec 80C; death proceeds tax-free under Sec 10(10D), subject to prevailing law",
+   "description": "Acko's flexible online term plan for adults aged 18-65 who want pure life cover with the option to raise or lower the sum assured later.",
+   "urls": {
+    "product_page": "https://www.acko.com/life-insurance/term-insurance/",
+    "brochure": "https://acko-cms.ackoassets.com/Retail_term_life_Product_Brochure_Effective_October_1_2024_643f02810e.pdf"
+   },
+   "sources": [
+    "https://www.acko.com/life/product-disclosures/",
+    "https://www.acko.com/life-insurance/1-crore-term-insurance/",
+    "https://www.acko.com/life-insurance/term-insurance/",
+    "https://joinditto.in/term-insurance/acko-life-insurance/flexi-term-plan/",
+    "https://www.policyx.com/term-insurance/acko-term-insurance/life-flexi-term-plan.php",
+    "https://prnewswire.com/in/news-releases/acko-ensures-long-term-financial-security-for-young-indians-302322326.html"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "164N009V01",
+   "name": "Acko Life Saral Jeevan Bima",
+   "segment": "Individual",
+   "category": "Term",
+   "plan_structure": "Pure Term",
+   "sub_category": "IRDAI standard term product",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": "Saral Jeevan Bima",
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Acko's version of the IRDAI-mandated standard individual pure-term plan, Saral Jeevan Bima.",
+   "urls": {
+    "product_page": null,
+    "brochure": "https://acko-cms.ackoassets.com/2_ACKO_Life_Saral_Jeevan_Bima_Prospectus_Logo_b12f4b2eef.pdf"
+   },
+   "sources": [
+    "https://www.acko.com/life/product-disclosures/",
+    "https://www.acko.com/life/download/"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "164B004V01",
+   "name": "Acko Life Accidental Death Benefit Rider",
+   "segment": "Rider",
+   "category": "Accidental Death/Disability",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": "Up to Rs 2 crore (aggregator figure)",
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Optional rider paying an extra sum if death is caused by an accident; attaches to the Acko Life Flexi Term Plan.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.acko.com/life/product-disclosures/",
+    "https://joinditto.in/term-insurance/acko-life-insurance/flexi-term-plan/"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "164B006V01",
+   "name": "Acko Life Critical Illness Benefit Rider",
+   "segment": "Rider",
+   "category": "Critical Illness",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [
+    "Protection",
+    "Health"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": "Up to Rs 50 lakh (aggregator figure)",
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Optional rider paying a lump sum on diagnosis of any of 21 listed critical illnesses, with future premiums waived; attaches to the Flexi Term Plan.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.acko.com/life/product-disclosures/",
+    "https://joinditto.in/term-insurance/acko-life-insurance/flexi-term-plan/",
+    "https://prnewswire.com/in/news-releases/acko-ensures-long-term-financial-security-for-young-indians-302322326.html"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "164B008V01",
+   "name": "Acko Life Accidental Total Permanent Disability Benefit Rider",
+   "segment": "Rider",
+   "category": "Accidental Death/Disability",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": "Up to Rs 2 crore (aggregator figure)",
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Optional rider paying a lump sum on accidental total and permanent disability, with future premiums waived; attaches to the Flexi Term Plan.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.acko.com/life/product-disclosures/",
+    "https://joinditto.in/term-insurance/acko-life-insurance/flexi-term-plan/"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "164B005V01",
+   "name": "Acko Life Accidental Total Permanent Disability Benefit Rider",
+   "segment": "Rider",
+   "category": "Accidental Death/Disability",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Earlier version of the ATPD rider, superseded by 164B008V01.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.acko.com/life/product-disclosures/"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "164N001V02",
+   "name": "Acko Life Group Credit Protect",
+   "segment": "Group",
+   "category": "Credit Life",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Group credit life cover that lenders buy for their borrowers (policy documents are titled Credit Life), protecting the loan if the borrower dies.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.acko.com/life/product-disclosures/",
+    "https://www.acko.com/life/download/"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "164N001V01",
+   "name": "Acko Life Group Credit Protect",
+   "segment": "Group",
+   "category": "Credit Life",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "First version of Group Credit Protect, replaced by version 02.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.acko.com/life/product-disclosures/"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "164Y007V02",
+   "name": "Acko Group Credit Shield Combi Plan",
+   "segment": "Group",
+   "category": "Credit Life",
+   "plan_structure": "Group Scheme",
+   "sub_category": "Credit life plus group health combi",
+   "linkage": null,
+   "participation": null,
+   "need_tags": [
+    "Protection",
+    "Health"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Group combi plan pairing credit life cover with a group health component for lender portfolios; separate life and health customer information sheets are published.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.acko.com/life/product-disclosures/",
+    "https://www.acko.com/life/download/"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "164Y007V01",
+   "name": "Acko Group Credit Shield Combi Plan",
+   "segment": "Group",
+   "category": "Credit Life",
+   "plan_structure": "Group Scheme",
+   "sub_category": "Credit life plus group health combi",
+   "linkage": null,
+   "participation": null,
+   "need_tags": [
+    "Protection",
+    "Health"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "First version of the Credit Shield Combi plan, replaced by version 02 (version 02 documents are dated January 2025).",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.acko.com/life/product-disclosures/"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "164N010V01",
+   "name": "Acko Life Group Term Protect",
+   "segment": "Group",
+   "category": "Group Term",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Group term life cover sold on a master-policy basis to employers and other groups.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.acko.com/life/product-disclosures/",
+    "https://www.acko.com/life/download/"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "164N002V01",
+   "name": "Acko Life Group Credit Protect (Micro-Insurance)",
+   "segment": "Micro",
+   "category": "Micro Insurance",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "IRDAI micro-insurance version of Acko's group credit life cover.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.acko.com/life/product-disclosures/",
+    "https://www.acko.com/life/download/"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "164N011V01",
+   "name": "Acko Life Group Term Protect (Micro-Insurance) Product",
+   "segment": "Micro",
+   "category": "Micro Insurance",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "IRDAI micro-insurance version of Acko's group term life cover.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.acko.com/life/product-disclosures/",
+    "https://www.acko.com/life/download/"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  }
+ ],
+ "notes": "Inventory = acko.com/life/product-disclosures (static two-table page, columns Products|UIN only, no dates or categories; 10 Active + 3 Withdrawn; scraper-friendly). Segment/category inferred from product names and document titles (e.g. 'Credit Life' master policies); the two Micro-Insurance group products are placed in segment Micro. Acko says it currently sells only term insurance (individual: Flexi Term, Saral Jeevan Bima). Official brochures/CIS hosted on acko-cms.ackoassets.com and assets.ctfassets.net were not fetchable (host not on fetch allowlist), so Flexi Term specs come from acko.com marketing pages plus aggregators, with unresolved conflicts: max entry age 65 (Acko page, Ditto) vs 70 (PolicyX); max maturity age 70 (Ditto) vs 85 (PolicyX); PPT regular-only (Ditto) vs regular/single/limited (PolicyX); min SA Rs 25 lakh (Acko banner, Ditto) vs Rs 10 lakh-90 crore on another Acko page. Flexi Term launch per PR Newswire 2024-12-04 (brochure effective 2024-10-01). Saral Jeevan Bima specs not retrieved (IRDAI standard-product limits apply). Withdrawn rows are superseded versions (V01 replaced by V02); Credit Shield Combi V02 documents are dated Jan 2025; no withdrawal dates are shown. Rider limits (ADB/ATPD up to Rs 2 crore, CI up to Rs 50 lakh for 21 illnesses) are aggregator (Ditto) figures. Group and micro product specs not collected."
+}

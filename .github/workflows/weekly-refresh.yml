@@ -1,0 +1,42 @@
+name: Weekly product & ratings check
+
+on:
+  schedule:
+    - cron: "30 2 * * 1"   # Mondays 08:00 IST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-refresh
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+      - name: Check product lists and app ratings
+        run: python scripts/weekly_check.py
+      - name: Rebuild dashboard data and site
+        run: |
+          python scripts/build.py
+          python scripts/make_site.py
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data exports index.html
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Weekly check $(date -u +%F)"
+            git push
+          fi

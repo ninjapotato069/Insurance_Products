@@ -1,0 +1,2369 @@
+{
+ "company_id": "generalicentral",
+ "company_name": "Generali Central Life Insurance Company Limited",
+ "researched_on": "2026-10-28",
+ "urls": {
+  "website": "https://www.generalicentrallife.com",
+  "product_list_url": "https://life2.futuregenerali.in/insurance-plans/guaranteed-plans",
+  "withdrawn_list_url": null,
+  "riders_url": "https://life2.futuregenerali.in/insurance-plans/guaranteed-plans",
+  "group_url": "https://life2.futuregenerali.in/insurance-plans/guaranteed-plans",
+  "newsroom_url": null
+ },
+ "products": [
+  {
+   "uin": "133N090V06",
+   "name": "Generali Central Long Term Income Plan",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": "Guaranteed Income",
+   "sub_category": "Limited-pay long-term income plan (immediate or deferred income)",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Savings",
+    "Retirement"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Option 1 - Plan for yourself",
+     "summary": "Income to the life assured for 30-50 years; death pays the highest of sum assured, 105% of premiums, 150% of premiums less income paid, or surrender value"
+    },
+    {
+     "name": "Option 2 - Plan for yourself and loved ones",
+     "summary": "Sum assured paid as lump sum on death while income and maturity benefits continue and future premiums stop"
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 0,
+    "entry_age_max_years": 65,
+    "maturity_age_max_years": 100,
+    "policy_term_min_years": 30,
+    "policy_term_max_years": 50,
+    "whole_life": null,
+    "ppt_options": [
+     "Limited 8",
+     "Limited 10",
+     "Limited 12"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": 25000,
+    "min_single_premium_inr": null,
+    "max_premium_text": "No limit, per board-approved underwriting policy",
+    "min_sum_assured_inr": 200000,
+    "max_sum_assured_text": "No limit, per board-approved underwriting policy",
+    "notes": "Terms 30, 40 or 50 years. Option 1 entry from 0 days to 65 with age bands tied to death-benefit multiple 10x/7x/5x (exact band split to verify); Option 2 entry 18-45. Maturity age 30-100 (Option 1), 48-85 (Option 2). Min annual premium Rs 25,000 for entry 0-50 and Rs 50,000 for 51-65; lower band half-yearly 13,000, quarterly 6,625, monthly 2,208."
+   },
+   "benefits": {
+    "death": "Option 1: highest of sum assured on death (10x, 7x or 5x annualised premium by age band), 105% of premiums paid, 150% of premiums paid less income paid, or surrender value. Option 2: sum assured as lump sum; income and maturity continue with premiums stopped.",
+    "maturity": "Sum assured on maturity plus a Maturity Loyalty Addition equal to the sum assured",
+    "survival_income": "Guaranteed income plus Income Loyalty Addition (from policy year 11, stepping up every 5 years); immediate variant pays from end of year 1, deferred from end of year 6; yearly, half-yearly, quarterly or monthly in arrears",
+    "guaranteed": true,
+    "return_of_premium": null,
+    "loan": true,
+    "partial_withdrawal": null,
+    "other": "Loan up to 85% of surrender value (min Rs 10,000); surrender allowed after year 1 once one full year's premium is received"
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": {
+     "payout_type": "Lump sum + Income",
+     "income_duration": "From end of year 1 (immediate) or year 6 (deferred) to end of the 30/40/50-year term",
+     "deferment_option": true
+    },
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Choose immediate income (first payout end of year 1) or deferred income (end of year 6)",
+    "30, 40 or 50 year terms with premiums payable for only 8, 10 or 12 years",
+    "Maturity Loyalty Addition equal to sum assured, plus Income Loyalty Addition rising in 5-year steps from year 11",
+    "Option 2 pays the death benefit as a lump sum while income and maturity payouts carry on",
+    "Optional accidental death, accidental TPD and term riders"
+   ],
+   "riders_available": [
+    "Accidental Death Benefit Rider (133B054V01)",
+    "Accidental Total & Permanent Disability Rider (133B056V01)",
+    "Term Rider (133B060V01)"
+   ],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": "Tax benefits on premiums and proceeds as per prevailing Income Tax law, subject to change",
+   "description": "Limited-pay non-participating plan that pays guaranteed income for 30-50 years with loyalty additions, aimed at buyers wanting long-term retirement or family income.",
+   "urls": {
+    "product_page": null,
+    "brochure": "https://life2.futuregenerali.in/media/450ncxhv/gc_ltip-_brochure.pdf"
+   },
+   "sources": [
+    "https://life2.futuregenerali.in/media/450ncxhv/gc_ltip-_brochure.pdf",
+    "https://life2.futuregenerali.in/banners-disclaimers"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "133N054V05",
+   "name": "Generali Central Assured Income Plan",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": "Guaranteed Income",
+   "sub_category": "Limited-pay guaranteed income with life cover",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Savings",
+    "Retirement"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "11-year or 15-year option",
+     "summary": "Premiums paid for 11 or 15 years, followed by 11 or 15 yearly income payouts"
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [
+     "Limited 11",
+     "Limited 15"
+    ],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "AU Bank example: pay 15 years, income in years 16-30. Entry age, premium and sum assured limits not captured (brochure not retrievable); AU page showed V04, menu page V05."
+   },
+   "benefits": {
+    "death": "15.3x to 27.0x of annualised premium depending on entry age and term",
+    "maturity": "Additional benefit of up to 4.5x annualised premium paid with the last income payout, depending on entry age",
+    "survival_income": "Guaranteed yearly income for 11 or 15 years after the premium-paying term",
+    "guaranteed": true,
+    "return_of_premium": null,
+    "loan": true,
+    "partial_withdrawal": null,
+    "other": "Loan up to 85% of surrender value; auto cover gives one year of full cover if premiums lapse after 2 years paid (once per term)"
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Guaranteed yearly income after the premium-paying term",
+    "Life cover of 15.3x-27x annualised premium depending on age and term",
+    "Auto cover: one year of full cover after a lapse once 2 years of premiums are paid",
+    "Extra payout of up to 4.5x annualised premium with the last income instalment",
+    "Loan facility up to 85% of surrender value"
+   ],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": "Premium and benefit exemptions as per prevailing Income Tax law, subject to change",
+   "description": "Non-participating limited-pay plan that converts 11 or 15 years of premiums into an equal number of years of guaranteed yearly income with life cover.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.au.bank.in/personal-banking/life-insurance/savings-plan/generali-central/assured-income-plan",
+    "https://life2.futuregenerali.in/insurance-plans/guaranteed-plans"
+   ],
+   "completeness": "partial",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "133N030V05",
+   "name": "Generali Central Care Plus",
+   "segment": "Individual",
+   "category": "Term",
+   "plan_structure": "Pure Term",
+   "sub_category": "Term plan with lump-sum or monthly-income death payout",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": "Paid under either of two protection options; payout can be taken as lump sum, fixed monthly income or a mix",
+    "maturity": "No maturity benefit",
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": false,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": {
+     "payout_options": "Lump sum / Monthly income / Lump sum + income",
+     "women_or_nonsmoker_discount": true
+    },
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Two protection options with selectable death-benefit payout (lump sum, monthly income or both)",
+    "Policy term and premium payment term chosen by the buyer",
+    "Lower premium rates for women",
+    "No maturity benefit; not sold online"
+   ],
+   "riders_available": [],
+   "online_purchase": false,
+   "channels": [],
+   "tax_benefits": "As per Income Tax Act 1961, subject to change",
+   "description": "Non-linked term plan with two protection options and flexible lump-sum or monthly-income death payouts, priced lower for women and sold offline only.",
+   "urls": {
+    "product_page": null,
+    "brochure": "https://www.generalicentrallife.com/media/408325/fg-care-plus-brochure.pdf"
+   },
+   "sources": [
+    "https://www.au.bank.in/personal-banking/life-insurance/term-plan/generali-central/generali-central-care-plus",
+    "https://life2.futuregenerali.in/banners-disclaimers"
+   ],
+   "completeness": "partial",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "133N087V01",
+   "name": "Generali Central Saral Jeevan Bima",
+   "segment": "Individual",
+   "category": "Term",
+   "plan_structure": "Pure Term",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": "Saral Jeevan Bima",
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": "Higher of 10x annualised premium, 105% of premiums paid to date, or the sum assured",
+    "maturity": "No maturity benefit",
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": false,
+    "loan": false,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "IRDAI standard pure-risk term product with uniform design across insurers",
+    "Death benefit is the highest of 10x annualised premium, 105% of premiums paid, or sum assured",
+    "No maturity benefit and no loan facility",
+    "30-day free-look period"
+   ],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Generali Central's version of the IRDAI standard Saral Jeevan Bima, a simple pure-risk term cover paying a lump sum on death.",
+   "urls": {
+    "product_page": "https://life2.futuregenerali.in/insurance-plans/term-insurance-plans/saral-jeevan-bima",
+    "brochure": "https://www.generalicentrallife.com/media/d0jlyveq/final-saral-jeevan-bima-brochure.pdf"
+   },
+   "sources": [
+    "https://life2.futuregenerali.in/media/wbxjmp3t/annexure-xxx_fg-saral-jeevan-bima_customer-information-sheet_133n087v01_final.pdf"
+   ],
+   "completeness": "partial",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "133N057V03",
+   "name": "Generali Central Assured Education Plan",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": "Endowment",
+   "sub_category": "Child education plan with staggered maturity payouts",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Child",
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Option A",
+     "summary": "Maturity money paid over 4 years as 40/30/20/10% of sum assured"
+    },
+    {
+     "name": "Option B",
+     "summary": "Maturity money paid over 4 years as 10/10/10/70% of sum assured"
+    },
+    {
+     "name": "Option C",
+     "summary": "100% of sum assured paid at the end of the term"
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 21,
+    "entry_age_max_years": 50,
+    "maturity_age_max_years": 71,
+    "policy_term_min_years": 7,
+    "policy_term_max_years": 21,
+    "whole_life": null,
+    "ppt_options": [
+     "Regular"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": 40000,
+    "min_single_premium_inr": null,
+    "max_premium_text": "No limit, per board-approved underwriting policy",
+    "min_sum_assured_inr": 280368,
+    "max_sum_assured_text": "Per board-approved underwriting policy",
+    "notes": "Ages shown are for the parent (life assured), min maturity age 35. Child age 0-17 in the plan-details table although the introduction says 0-21 (source conflict). Premium term equals policy term. Monthly mode via ECS only; min premium Rs 20,800 half-yearly, 10,600 quarterly, 3,532 monthly."
+   },
+   "benefits": {
+    "death": "Highest of 10x annualised premium, 105% of premiums paid or sum assured; additionally 5% of sum assured on death and on each death anniversary during the term (minimum one payment); future premiums waived",
+    "maturity": "100% of sum assured paid as per the chosen option",
+    "survival_income": "Maturity money released yearly over up to 4 years after the term ends (Options A and B)",
+    "guaranteed": true,
+    "return_of_premium": null,
+    "loan": true,
+    "partial_withdrawal": null,
+    "other": "Loan up to 85% of surrender value (min Rs 10,000); no riders available"
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": {
+     "payout_type": "Lump sum + Income",
+     "income_duration": "Up to 4 yearly instalments after the term (Options A/B); lump sum for Option C",
+     "bonus_type": "None"
+    },
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Parent pays; child's education money is released after the term in one to four yearly instalments",
+    "Three payout patterns (40/30/20/10, 10/10/10/70 or lump sum)",
+    "Premiums waived and plan continues if the parent dies",
+    "Extra 5% of sum assured paid on death and each death anniversary during the term",
+    "Loan up to 85% of surrender value"
+   ],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": "Premiums under Sec 80C and benefits under Sec 10(10D) as applicable, subject to change in law",
+   "description": "Non-participating child education plan where the parent pays premiums and the maturity amount is paid in staggered instalments to match education costs.",
+   "urls": {
+    "product_page": "https://life2.futuregenerali.in/insurance-plans/guaranteed-plans/assured-education-plan",
+    "brochure": "https://life2.futuregenerali.in/media/zuqkwjyp/gc_aep_brochure.pdf"
+   },
+   "sources": [
+    "https://life2.futuregenerali.in/media/zuqkwjyp/gc_aep_brochure.pdf",
+    "https://life2.futuregenerali.in/media/ltrlxwwr/annexure-xxx-gc-assured-education-plan_133n057v03_customer-information-sheet_24072025.pdf"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Generali Central Saral Pension",
+   "segment": "Individual",
+   "category": "Pension & Annuity",
+   "plan_structure": "Immediate Annuity",
+   "sub_category": "Single-premium immediate annuity with return of purchase price",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Retirement"
+   ],
+   "standard_product": "Saral Pension",
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Option 1 - Single life",
+     "summary": "Annuity for life, purchase price returned to nominee on death"
+    },
+    {
+     "name": "Option 2 - Joint life last survivor",
+     "summary": "Annuity continues to the survivor; purchase price returned after the last death"
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 40,
+    "entry_age_max_years": 80,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [
+     "Single"
+    ],
+    "premium_modes": [
+     "Single"
+    ],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Entry age 40-80 read from the brochure without a clear label, confirm. Annuity payable monthly, quarterly, half-yearly or yearly in arrears; minimum annuity Rs 1,000 monthly / 3,000 quarterly / 6,000 half-yearly / 12,000 yearly."
+   },
+   "benefits": {
+    "death": "Option 1: annuity stops and 100% of purchase price goes to nominee. Option 2: annuity continues for the survivor, purchase price paid after last death",
+    "maturity": null,
+    "survival_income": "Lifetime annuity at chosen frequency",
+    "guaranteed": true,
+    "return_of_premium": true,
+    "loan": true,
+    "partial_withdrawal": null,
+    "other": "Loan after 6 months; surrender allowed after 6 months only on a listed critical illness (95% of purchase price less loan)"
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": {
+     "annuity_options_count": 2,
+     "immediate_or_deferred": "Immediate",
+     "joint_life": true,
+     "return_of_purchase_price": true
+    },
+    "health": null
+   },
+   "key_features": [
+    "IRDAI standard immediate annuity: single life or joint life with 100% return of purchase price",
+    "Single premium; payout frequency can be monthly to yearly",
+    "Loan available after 6 months",
+    "Surrender at 95% of purchase price on critical illness diagnosis"
+   ],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Standard single-premium immediate annuity that pays lifetime income and returns the full purchase price to the nominee.",
+   "urls": {
+    "product_page": null,
+    "brochure": "https://life2.futuregenerali.in/media/jrva5gd1/gc_saral_pension_brochure.pdf"
+   },
+   "sources": [
+    "https://life2.futuregenerali.in/media/jrva5gd1/gc_saral_pension_brochure.pdf"
+   ],
+   "completeness": "partial",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "133N086V03",
+   "name": "Generali Central Lifetime Partner Plan",
+   "segment": "Individual",
+   "category": "Savings - Par",
+   "plan_structure": "Guaranteed Income",
+   "sub_category": "Participating plan with guaranteed income (immediate or deferred) and cash bonus",
+   "linkage": "Non-Linked",
+   "participation": "Par",
+   "need_tags": [
+    "Savings",
+    "Retirement"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Option 1 - Immediate Income",
+     "summary": "Guaranteed income in arrears from policy year 1 to year 25"
+    },
+    {
+     "name": "Option 2 - Deferred Income",
+     "summary": "Guaranteed income from PPT+3 to PPT+12"
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "CIS shows only a sample (60-year term, 8-year PPT, yearly premium); entry age, term and premium ranges not captured. Grace 30 days, revival within 5 years."
+   },
+   "benefits": {
+    "death": "Higher of 105% of premiums paid or sum assured on death (10x annualised premium), plus terminal bonus if declared",
+    "maturity": "Sum assured on maturity (2x sum assured) plus terminal bonus if declared",
+    "survival_income": "Guaranteed income (rate x sum assured) in arrears per option, plus annual cash bonus if declared",
+    "guaranteed": true,
+    "return_of_premium": null,
+    "loan": true,
+    "partial_withdrawal": null,
+    "other": "Loan up to 85% of surrender value; surrender after year 1 once one full year's premium is received"
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": {
+     "payout_type": "Lump sum + Income",
+     "bonus_type": "Cash bonus",
+     "deferment_option": true
+    },
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Choose income from year 1 or deferred income starting three years after the premium term",
+    "Annual cash bonus (if declared) and terminal bonus on top of guaranteed income",
+    "Sum assured on maturity is twice the base sum assured",
+    "Loan up to 85% of surrender value"
+   ],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Participating income plan offering guaranteed yearly income with cash bonuses over a very long term, for buyers seeking lifelong supplementary income.",
+   "urls": {
+    "product_page": null,
+    "brochure": "https://www.generalicentrallife.com/docs/lifetime_partner_plan/product_brochure.pdf"
+   },
+   "sources": [
+    "https://life2.futuregenerali.in/media/4jpijt0v/annexure-05b-gc-lifetime-partner-plan_customer-information-sheet_final.pdf",
+    "https://life2.futuregenerali.in/insurance-plans/guaranteed-plans"
+   ],
+   "completeness": "partial",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "133N065V03",
+   "name": "Generali Central New Assure Plus Plan",
+   "segment": "Individual",
+   "category": "Savings - Par",
+   "plan_structure": "Endowment",
+   "sub_category": "Participating endowment with compound reversionary bonus",
+   "linkage": "Non-Linked",
+   "participation": "Par",
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Option 1",
+     "summary": "Lump sum death benefit only; policy ends on death"
+    },
+    {
+     "name": "Option 2",
+     "summary": "Death lump sum paid and the maturity payout still follows at term end with no further premiums"
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 3,
+    "entry_age_max_years": 55,
+    "maturity_age_max_years": 70,
+    "policy_term_min_years": 10,
+    "policy_term_max_years": 30,
+    "whole_life": null,
+    "ppt_options": [
+     "Limited (min 5 years)",
+     "Regular"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": 10000,
+    "min_single_premium_inr": null,
+    "max_premium_text": "No limit",
+    "min_sum_assured_inr": 100000,
+    "max_sum_assured_text": "No limit",
+    "notes": "Min maturity age 18. PPT: Option 1 from 5 years up to policy term; Option 2 from 5 years up to term minus 5. Minors under 8 need a term of at least (18 - entry age); entry above 40 limits term to (70 - entry age)."
+   },
+   "benefits": {
+    "death": "Higher of 105% of premiums paid or death sum assured (highest of 10x annualised premium and guaranteed maturity sum assured), plus vested bonuses and terminal bonus under Option 1; Option 2 pays lump sum and keeps the maturity payout",
+    "maturity": "Sum assured plus vested compound reversionary bonuses plus terminal bonus",
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": true,
+    "partial_withdrawal": null,
+    "other": "Loan up to 85% of surrender value (min Rs 10,000); surrender after year 1; free look 30 days; not sold online; no riders"
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": {
+     "payout_type": "Lump sum",
+     "bonus_type": "Reversionary"
+    },
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Participating endowment with yearly compound reversionary bonus and a terminal bonus (non-guaranteed)",
+    "Dual-payout option keeps the maturity benefit alive after a death claim",
+    "Entry from age 3 with 10-30 year terms",
+    "Loan up to 85% of surrender value",
+    "No riders; offline sale only"
+   ],
+   "riders_available": [],
+   "online_purchase": false,
+   "channels": [],
+   "tax_benefits": "Premiums may qualify under Sec 80C and benefits under Sec 10(10D), subject to prevailing law",
+   "description": "With-profits endowment plan with bonus-linked maturity benefits and an optional dual-payout feature, for conservative long-term savers.",
+   "urls": {
+    "product_page": null,
+    "brochure": "https://life2.futuregenerali.in/media/u4xemcrk/gc_new_assure_brochure.pdf"
+   },
+   "sources": [
+    "https://life2.futuregenerali.in/media/u4xemcrk/gc_new_assure_brochure.pdf"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "133N085V04",
+   "name": "Generali Central New Assured Wealth Plan",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": "Endowment",
+   "sub_category": "Guaranteed additions savings plan",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "POS variant",
+     "summary": "Listed on the website as a separate point-of-sale (POS) version"
+    },
+    {
+     "name": "NON-POS variant",
+     "summary": "Regular version of the plan"
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "CIS shows only a sample (12-year term and PPT, Rs 51,000 annual premium); ranges not captured. Menu page shows V03, CIS V04."
+   },
+   "benefits": {
+    "death": "Higher of 10x annualised premium or 105% of premiums paid; policy continues and the maturity benefit is still paid at term end without further premiums",
+    "maturity": "Sum assured plus accrued Guaranteed Additions",
+    "survival_income": null,
+    "guaranteed": true,
+    "return_of_premium": null,
+    "loan": true,
+    "partial_withdrawal": null,
+    "other": "Simple Guaranteed Additions (% of sum assured) accrue for each completed year from the 8th year to term end; loan up to 85% of surrender value (min Rs 10,000)"
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": {
+     "payout_type": "Lump sum",
+     "bonus_type": "None"
+    },
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Guaranteed Additions accrue from the 8th policy year and are paid with the maturity benefit",
+    "Death benefit paid at once while the maturity benefit stays intact",
+    "Available as POS and non-POS variants",
+    "Optional accidental death and accidental TPD riders"
+   ],
+   "riders_available": [
+    "Accidental Death Benefit Rider",
+    "Accidental Total & Permanent Disability Rider"
+   ],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Non-participating savings plan that adds guaranteed additions each year from year 8 and keeps the maturity payout alive after a death claim.",
+   "urls": {
+    "product_page": "https://www.generalicentrallife.com/insurance-plans/savings-plans/generali-central-new-assured-wealth-plan-non-pos-variant",
+    "brochure": null
+   },
+   "sources": [
+    "https://corporatewebsiteprod-h2g9fafvbbbtg3gk.southindia-01.azurewebsites.net/docs/new_assured_wealth_plan_pos/customer_information_sheet.pdf",
+    "https://life2.futuregenerali.in/insurance-plans/guaranteed-plans"
+   ],
+   "completeness": "partial",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "133N088V05",
+   "name": "Generali Central Money Back Super Plan",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": "Money Back",
+   "sub_category": "Money back (participation not verified)",
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "POS variant",
+     "summary": "Listed separately on the website as the point-of-sale version"
+    },
+    {
+     "name": "NON-POS variant",
+     "summary": "Regular version of the plan"
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Money-back savings plan listed in two variants (POS and non-POS) on the Generali Central website; specifications not yet captured.",
+   "urls": {
+    "product_page": "https://www.generalicentrallife.com/insurance-plans/savings-plans/generali-central-money-back-super-plan-pos-variant",
+    "brochure": null
+   },
+   "sources": [
+    "https://life2.futuregenerali.in/insurance-plans/guaranteed-plans",
+    "https://life2.futuregenerali.in/banners-disclaimers"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "133N101V02",
+   "name": "Generali Central Single Premium Anchor Plan",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": "Endowment",
+   "sub_category": "Single-premium plan with wealth (lump sum) or income option",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Savings",
+    "Wealth"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Option 1 - Wealth",
+     "summary": "Lump sum at the end of the term (CIS sample: 25 years)"
+    },
+    {
+     "name": "Option 2 - Income",
+     "summary": "Yearly survival benefit from end of year 1 plus sum assured at maturity (CIS sample: 30 years)"
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [
+     "Single"
+    ],
+    "premium_modes": [
+     "Single"
+    ],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Terms of 25 and 30 years come from CIS sample illustrations (sample single premium Rs 1,00,000); entry age and premium limits not captured."
+   },
+   "benefits": {
+    "death": "Higher of 1.25x the single premium or the surrender value",
+    "maturity": "Option 1: lump sum at term end; Option 2: sum assured with the last survival benefit",
+    "survival_income": "Option 2: yearly payout from end of year 1 to term end",
+    "guaranteed": true,
+    "return_of_premium": null,
+    "loan": true,
+    "partial_withdrawal": null,
+    "other": "Loan up to 85% of surrender value (min Rs 10,000); no riders"
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": {
+     "payout_type": "Lump sum + Income",
+     "bonus_type": "None"
+    },
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "One-time premium with guaranteed benefits",
+    "Wealth option gives a lump sum at term end; Income option pays yearly from year 1",
+    "Death cover of 1.25x the single premium",
+    "Loan up to 85% of surrender value"
+   ],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Single-premium non-participating savings plan offering either a lump-sum maturity or a yearly income stream for investors with a one-time surplus.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://life2.futuregenerali.in/media/4opix1ge/annexure-xx_gc-single-premium-anchor-plan_customer-information-sheet_v1_final.pdf"
+   ],
+   "completeness": "partial",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "133L081V03",
+   "name": "Generali Central Big Dreams Plan",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": "ULIP with systematic withdrawal options",
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Wealth",
+    "Retirement"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Option 1 - Wealth Creation",
+     "summary": "Fund-value ULIP with monthly systematic partial withdrawals after the premium term"
+    },
+    {
+     "name": "Option 2 - Retire Smart",
+     "summary": "Retirement-oriented option with monthly systematic withdrawals after the premium term"
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [
+     "Single",
+     "Limited",
+     "Regular"
+    ],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "CIS shows only a sample (20-year term, Rs 1,00,000 annual premium, Rs 10,00,000 cover); other options may exist. Entry age, term and premium ranges not captured."
+   },
+   "benefits": {
+    "death": "Higher of sum assured less deductible withdrawals, fund value, or 105% of premiums paid less deductible withdrawals",
+    "maturity": "Fund value at the end of the policy term",
+    "survival_income": null,
+    "guaranteed": false,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": true,
+    "other": "5-year lock-in; surrender before year 5 moves value to the Discontinued Policy Fund (4% p.a. minimum interest); revival within 3 years"
+   },
+   "category_details": {
+    "term": null,
+    "ulip": {
+     "funds_count": 9
+    },
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Nine funds including Future Apex, Future Midcap, Future Multicap Equity and Future Income Plus",
+    "Unlimited free switches (min Rs 5,000); 5-year lock-in",
+    "Monthly systematic partial withdrawals after the premium term under Options 1 and 2",
+    "Optional accidental death, accidental TPD and critical illness riders"
+   ],
+   "riders_available": [
+    "Accidental Death Benefit",
+    "Accidental Total & Permanent Disability",
+    "Critical Illness"
+   ],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Unit-linked plan with wealth-creation and retirement options that can pay systematic withdrawals after the premium-paying term.",
+   "urls": {
+    "product_page": "https://www.generalicentrallife.com/insurance-plans/ulip-plans/generali-central-big-dreams-plan",
+    "brochure": null
+   },
+   "sources": [
+    "https://corporatewebsiteprod-h2g9fafvbbbtg3gk.southindia-01.azurewebsites.net/docs/big_dreams_plan/customer_information_sheet.pdf",
+    "https://www.au.bank.in/personal-banking/life-insurance/investment-plans/generali-central"
+   ],
+   "completeness": "partial",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "133L050V04",
+   "name": "Generali Central Dhan Vridhi",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": "Limited-premium-payment ULIP",
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Wealth"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": 8,
+    "entry_age_max_years": 65,
+    "maturity_age_max_years": 85,
+    "policy_term_min_years": 10,
+    "policy_term_max_years": 20,
+    "whole_life": null,
+    "ppt_options": [
+     "Limited 5",
+     "Limited 7",
+     "Limited 10",
+     "Limited 12",
+     "Limited 15",
+     "Limited 17"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": 20000,
+    "min_single_premium_inr": null,
+    "max_premium_text": "No limit, subject to underwriting",
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": "Death-benefit multiple x annualised premium",
+    "notes": "Terms 10/15/20 years; PPT 5 or 7 (10y), 10 or 12 (15y), 15 or 17 (20y). Min maturity age 18. Death multiple 10x (entry 8-44), 7x (45-50 for 5-yr PPT, 45-60 otherwise), 5x (51-65 for 5-yr PPT, 61-65 otherwise). Min premium Rs 10,000 half-yearly, 5,000 quarterly, 2,000 monthly."
+   },
+   "benefits": {
+    "death": "Higher of sum assured less deductible withdrawals, fund value, or 105% of premiums paid less deductible withdrawals",
+    "maturity": "Fund value on the maturity date",
+    "survival_income": null,
+    "guaranteed": false,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": true,
+    "other": "5-year lock-in; six free partial withdrawals per year after year 5 (min Rs 5,000); premium can be reduced up to 50% after year 5"
+   },
+   "category_details": {
+    "term": null,
+    "ulip": {
+     "funds_count": 9,
+     "fmc_max_pct": 1.35,
+     "free_switches_per_year": 12
+    },
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Pay for 5-17 years and stay invested for 10-20 years",
+    "Nine funds; 12 free switches a year and up to two premium redirections a year",
+    "Six free partial withdrawals a year after the 5-year lock-in",
+    "FMC 1.10% on Future Secure and 1.35% on other funds",
+    "Death cover of 5x-10x annualised premium by age"
+   ],
+   "riders_available": [
+    "Accidental Death Benefit (133A053V01)",
+    "Accidental Total & Permanent Disability (133A055V01)",
+    "Term Rider (133A059V01)",
+    "Critical Illness (133A057V01)"
+   ],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": "Sec 80C and 10(10D) as applicable, subject to change",
+   "description": "Limited-pay unit-linked plan with nine funds and flexible withdrawals, for investors wanting market-linked growth without paying premiums for the whole term.",
+   "urls": {
+    "product_page": null,
+    "brochure": "https://corporatewebsiteprod-h2g9fafvbbbtg3gk.southindia-01.azurewebsites.net/docs/dhan_vridhi/product_brochure.pdf"
+   },
+   "sources": [
+    "https://corporatewebsiteprod-h2g9fafvbbbtg3gk.southindia-01.azurewebsites.net/docs/dhan_vridhi/product_brochure.pdf"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "133L049V03",
+   "name": "Generali Central Bima Advantage Plus",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Wealth",
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": false,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": true,
+    "other": "Partial withdrawals after 5 policy years; no withdrawal or surrender before year 5"
+   },
+   "category_details": {
+    "term": null,
+    "ulip": {
+     "funds_count": 7
+    },
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Seven funds chosen by risk appetite",
+    "Customisable term and sum assured",
+    "Switching and premium redirection available as options",
+    "No liquidity in the first 5 years"
+   ],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Unit-linked plan combining life cover and market-linked investing across seven funds.",
+   "urls": {
+    "product_page": null,
+    "brochure": "https://www.generalicentrallife.com/media/1114879/fg-bima-advantage-plus-brochure-133l049v02.pdf"
+   },
+   "sources": [
+    "https://www.au.bank.in/personal-banking/life-insurance/investment-plans/generali-central/bima-advantage-plus-plan",
+    "https://life2.futuregenerali.in/banners-disclaimers"
+   ],
+   "completeness": "partial",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Generali Central Sampoorna Samadhaan Plan",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": "Term ULIP (TULIP)",
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Protection",
+    "Wealth"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 65,
+    "maturity_age_max_years": 85,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": "Life cover up to 100x annual premium",
+    "notes": null
+   },
+   "benefits": {
+    "death": "Life cover of up to 100 times the annual premium plus fund value (per press report)",
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": false,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": true,
+    "other": "Systematic partial withdrawals at regular intervals; investment modes: self-managed, systematic transfer or auto-invest rule"
+   },
+   "category_details": {
+    "term": null,
+    "ulip": {
+     "funds_count": 9,
+     "loyalty_additions": true,
+     "return_of_mortality_charges": true
+    },
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Term-ULIP with life cover up to 100x annual premium",
+    "Return of up to 2x premium allocation charges at the end of years 10-13",
+    "Up to 2x mortality charges credited back from year 11",
+    "Nine funds with auto-invest and systematic transfer options"
+   ],
+   "riders_available": [
+    "Linked Accidental Death Benefit Rider",
+    "Linked Accidental Total & Permanent Disability Rider"
+   ],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Term-plus-ULIP plan launched around October 2025 that pairs high life cover with fund-based savings and charge refunds.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://smestreet.in/infocus/generali-central-life-introduces-term-ulip-plan-for-financial-growth-10592093",
+    "https://life2.futuregenerali.in/insurance-plans/guaranteed-plans"
+   ],
+   "completeness": "partial",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "133A053V01",
+   "name": "Generali Central Linked Accidental Death Benefit Rider",
+   "segment": "Rider",
+   "category": "Accidental Death/Disability",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Optional rider on unit-linked plans paying 100% of the rider sum assured if death is caused by an accident.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://corporatewebsiteprod-h2g9fafvbbbtg3gk.southindia-01.azurewebsites.net/docs/dhan_vridhi/product_brochure.pdf",
+    "https://life2.futuregenerali.in/insurance-plans/guaranteed-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "133A055V01",
+   "name": "Generali Central Linked Accidental Total and Permanent Disability Rider",
+   "segment": "Rider",
+   "category": "Accidental Death/Disability",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Optional rider on unit-linked plans paying 100% of the rider sum assured on total and permanent disability caused by an accident.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://corporatewebsiteprod-h2g9fafvbbbtg3gk.southindia-01.azurewebsites.net/docs/dhan_vridhi/product_brochure.pdf",
+    "https://life2.futuregenerali.in/insurance-plans/guaranteed-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "133A057V01",
+   "name": "Generali Central Linked Critical Illness Rider",
+   "segment": "Rider",
+   "category": "Critical Illness",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Health",
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Optional rider on unit-linked plans paying 100% of the rider sum assured on diagnosis of a covered critical illness, with options covering 10, 30 or 60 illnesses.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://corporatewebsiteprod-h2g9fafvbbbtg3gk.southindia-01.azurewebsites.net/docs/dhan_vridhi/product_brochure.pdf"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "133A059V01",
+   "name": "Generali Central Linked Term Rider",
+   "segment": "Rider",
+   "category": "Term Rider",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Optional rider on unit-linked plans paying 100% of the rider sum assured on death of the life assured.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://corporatewebsiteprod-h2g9fafvbbbtg3gk.southindia-01.azurewebsites.net/docs/dhan_vridhi/product_brochure.pdf",
+    "https://life2.futuregenerali.in/insurance-plans/guaranteed-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "133B054V01",
+   "name": "Generali Central Non-Linked Accidental Death Benefit Rider",
+   "segment": "Rider",
+   "category": "Accidental Death/Disability",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Optional rider on non-linked savings plans paying the rider sum assured if death is caused by an accident.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://life2.futuregenerali.in/media/450ncxhv/gc_ltip-_brochure.pdf",
+    "https://life2.futuregenerali.in/insurance-plans/guaranteed-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "133B056V01",
+   "name": "Generali Central Non-Linked Accidental Total and Permanent Disability Rider",
+   "segment": "Rider",
+   "category": "Accidental Death/Disability",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Optional rider on non-linked savings plans paying the rider sum assured on accidental total and permanent disability.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://life2.futuregenerali.in/media/450ncxhv/gc_ltip-_brochure.pdf",
+    "https://life2.futuregenerali.in/insurance-plans/guaranteed-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "133B060V01",
+   "name": "Generali Central Non-Linked Term Rider",
+   "segment": "Rider",
+   "category": "Term Rider",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Optional rider on non-linked savings plans paying the rider sum assured on death of the life assured.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://life2.futuregenerali.in/media/450ncxhv/gc_ltip-_brochure.pdf",
+    "https://life2.futuregenerali.in/insurance-plans/guaranteed-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "133N003V05",
+   "name": "Generali Central Group Term Life Insurance Plan",
+   "segment": "Group",
+   "category": "Group Term",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": "Sum assured per member on death; no maturity, survival or surrender benefit",
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [
+    "Accident and Sickness TPD",
+    "Accelerated Terminal Illness",
+    "Accidental TPD",
+    "Core Critical Illness Accelerated",
+    "Accidental Death",
+    "Extended Critical Illness Accelerated",
+    "Core Critical Illness",
+    "Extended Critical Illness",
+    "Accidental Partial PD"
+   ],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Yearly renewable group term cover paying the sum assured on a member's death, with nine optional accident, disability and critical illness riders.",
+   "urls": {
+    "product_page": "https://life2.futuregenerali.in/insurance-plans/group-insurance-plans/group-term-life-insurance-plan",
+    "brochure": null
+   },
+   "sources": [
+    "https://corporatewebsiteprod-h2g9fafvbbbtg3gk.southindia-01.azurewebsites.net/docs/group_term_life_insurance_plan/customer_information_sheet.pdf"
+   ],
+   "completeness": "partial",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "133N103V01",
+   "name": "Generali Central Group Term Micro Insurance Plan",
+   "segment": "Micro",
+   "category": "Micro Insurance",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": "Level cover pays the full sum assured; reducing cover pays the outstanding loan or Rs 5,000, whichever is higher",
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Group micro-insurance term plan on single-premium or one-year renewable basis with level or reducing death cover and no riders.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://corporatewebsiteprod-h2g9fafvbbbtg3gk.southindia-01.azurewebsites.net/docs/group_term_micro_insurance_plan/customer_information_sheet.pdf"
+   ],
+   "completeness": "partial",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "133L080V02",
+   "name": "Generali Central Comprehensive Employee Benefit Plan",
+   "segment": "Group",
+   "category": "Group Fund (Gratuity/Superannuation/Leave)",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Retirement"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 79,
+    "maturity_age_max_years": 80,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Minimum 10 members; yearly renewable; min contribution Rs 50,000 at inception and Rs 5,000 later per scheme"
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Unit-linked yearly renewable group plan that lets an employer fund gratuity, leave encashment and superannuation (DB, DC or combined) schemes under one policy.",
+   "urls": {
+    "product_page": null,
+    "brochure": "https://life2.futuregenerali.in/media/p42lsf4k/gc_group_comprehensive_brochure.pdf"
+   },
+   "sources": [
+    "https://life2.futuregenerali.in/media/p42lsf4k/gc_group_comprehensive_brochure.pdf"
+   ],
+   "completeness": "partial",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Generali Central Group Superannuation Plan",
+   "segment": "Group",
+   "category": "Group Fund (Gratuity/Superannuation/Leave)",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [
+    "Retirement"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Group plan for employers to fund and manage a superannuation (pension) corpus for employees.",
+   "urls": {
+    "product_page": "https://life2.futuregenerali.in/insurance-plans/group-insurance-plans/group-superannuation-plan",
+    "brochure": null
+   },
+   "sources": [
+    "https://life2.futuregenerali.in/insurance-plans/guaranteed-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Generali Central Group Gratuity Plan",
+   "segment": "Group",
+   "category": "Group Fund (Gratuity/Superannuation/Leave)",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [
+    "Retirement"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Group plan for employers to fund employee gratuity liabilities.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://life2.futuregenerali.in/insurance-plans/guaranteed-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Generali Central Group Leave Encashment Plan",
+   "segment": "Group",
+   "category": "Group Fund (Gratuity/Superannuation/Leave)",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [
+    "Retirement"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Group plan for employers to fund employee leave-encashment liabilities.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://life2.futuregenerali.in/insurance-plans/guaranteed-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Generali Central Sampoorn Loan Suraksha",
+   "segment": "Group",
+   "category": "Credit Life",
+   "plan_structure": "Group Scheme",
+   "sub_category": "Type unverified (name suggests loan protection)",
+   "linkage": null,
+   "participation": null,
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Loan-protection plan listed on the all-plans page; segment and category inferred from the name and still to be verified.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://life2.futuregenerali.in/insurance-plans/guaranteed-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "133N063V03",
+   "name": "Generali Central Cancer Protect Plan",
+   "segment": "Individual",
+   "category": "Health & CI",
+   "plan_structure": "Fixed Benefit Health",
+   "sub_category": "Cancer cover (withdrawn status inferred: listed on an older page snapshot, absent from the current all-plans menu)",
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Fixed-benefit cancer cover seen on an older disclaimer page but not on the current plan menu.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://life2.futuregenerali.in/banners-disclaimers"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "133N083V01",
+   "name": "Future Generali Assured Wealth Plan",
+   "segment": "Individual",
+   "category": null,
+   "plan_structure": null,
+   "sub_category": "Predecessor of the New Assured Wealth Plan (UIN taken from brochure file name; status inferred)",
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Earlier version of the assured wealth savings plan, superseded by the New Assured Wealth Plan.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://life.Futuregenerali.in/media/1115052/future-generali-assured-wealth-plan-brochure-133n083v01.pdf"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  }
+ ],
+ "notes": "Formerly Future Generali India Life Insurance (IRDAI reg 133). Old domains life.futuregenerali.in / life2.futuregenerali.in 302-redirect to www.generalicentrallife.com, which WebFetch could not read; facts come from cached life2 pages, brochure/CIS PDFs and bank/aggregator pages. product_list_url is the all-plans menu page (names, some UINs); no official UIN list or withdrawn-products page found. Menu-page UIN versions can lag brochures (NAWP page V03 vs CIS V04; LTIP older page V01 vs brochure V06). CIS sheets give only sample illustrations, so several rows are partial. Leads not added as rows: Generali Central Wealth Protect Plan (ULIP listed on AU Bank page, no UIN), Big Income Multiplier Plan (FAQ mention only)."
+}

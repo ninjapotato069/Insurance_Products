@@ -1,0 +1,4565 @@
+{
+ "company_id": "kotak",
+ "company_name": "Kotak Mahindra Life Insurance Company Limited (Kotak Life)",
+ "researched_on": "2026-10-28",
+ "urls": {
+  "website": "https://www.kotaklife.com",
+  "product_list_url": "https://www.kotaklife.com/how-do-i/get-customer-information-sheet",
+  "withdrawn_list_url": "https://www.kotaklife.com/how-do-i/check-policy-document-specimen-withdrawn-products",
+  "riders_url": "https://www.kotaklife.com/how-do-i/get-customer-information-rider",
+  "group_url": "https://www.kotaklife.com/how-do-i/get-customer-information-group",
+  "newsroom_url": null
+ },
+ "products": [
+  {
+   "uin": "107N129V03",
+   "name": "Kotak e-Term",
+   "segment": "Individual",
+   "category": "Term",
+   "plan_structure": "Pure Term",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [
+    "Kotak Critical Illness Plus Benefit Rider (107B020V02)",
+    "Kotak Permanent Disability Benefit Rider (107B002V03)"
+   ],
+   "online_purchase": true,
+   "channels": [
+    "Direct/Online"
+   ],
+   "tax_benefits": null,
+   "description": "Online-only pure-risk term plan from Kotak Life for individuals who want straightforward life cover bought in a few clicks.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/term-insurance/termsconditions",
+    "https://www.kotaklife.com/homepage/termsconditions",
+    "https://www.kotaklife.com/how-do-i/get-customer-information-sheet"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107N005V07",
+   "name": "Kotak Term Plan",
+   "segment": "Individual",
+   "category": "Term",
+   "plan_structure": "Pure Term",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Regular / Limited / Single pay",
+     "summary": "Premium can run for the full term, for a limited 6-15 years, or be paid once."
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 65,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": 5,
+    "policy_term_max_years": 30,
+    "whole_life": false,
+    "ppt_options": [
+     "Single",
+     "Regular",
+     "Limited 6",
+     "Limited 7",
+     "Limited 8",
+     "Limited 10",
+     "Limited 12",
+     "Limited 15"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly",
+     "Single"
+    ],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": 300000,
+    "max_sum_assured_text": "INR 50 lakh",
+    "notes": "Brochure layout is garbled for maturity age (reads about 23 to 85) so it is left blank; term 5-30 is consistent with the Health Maximiser combo that uses this plan. Conversion to any non-term Kotak plan allowed with at least 5 years left."
+   },
+   "benefits": {
+    "death": "Lump sum equal to the sum assured less any premium balance unpaid for the policy year of death.",
+    "maturity": "None - pure risk cover.",
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": false,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": "Surrender value only under single and limited pay."
+   },
+   "category_details": {
+    "term": {
+     "rop_option": false,
+     "whole_life_cover_option": false,
+     "ci_or_accelerated_benefit": "Only through optional Critical Illness Plus rider (37 illnesses)",
+     "payout_options": "Lump sum",
+     "women_or_nonsmoker_discount": "Lower rates for female lives (percentage not stated)"
+    },
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Simple pure-risk cover with sum assured from 3 lakh to 50 lakh",
+    "Regular, limited (6-15 years) or single premium payment",
+    "Convertible to any non-term Kotak plan with 5+ years remaining",
+    "Optional riders: accidental death, permanent disability, critical illness plus"
+   ],
+   "riders_available": [
+    "Kotak Accidental Death Benefit Rider (107B001V04)",
+    "Kotak Permanent Disability Benefit Rider (107B002V03)",
+    "Kotak Critical Illness Plus Benefit Rider (107B020V02)"
+   ],
+   "online_purchase": true,
+   "channels": [
+    "Agency",
+    "Corporate Agent",
+    "Broker",
+    "Direct/Online"
+   ],
+   "tax_benefits": "Sections 80C and 10(10D) of the Income-tax Act, 1961, subject to conditions",
+   "description": "Basic non-participating term plan from Kotak Life, sold through agents, banks, brokers and online, for people needing affordable pure life cover.",
+   "urls": {
+    "product_page": "https://www.kotaklife.com/term-insurance/kotak-term-plan",
+    "brochure": "https://www.kotaklife.com/assets/images/uploads/insurance-plans/Kotak_Term_Plan_UIN_107N005V07_Brochure.pdf"
+   },
+   "sources": [
+    "https://www.kotaklife.com/assets/images/uploads/insurance-plans/Kotak_Term_Plan_UIN_107N005V07_Brochure.pdf",
+    "https://www.kotaklife.com/how-do-i/get-customer-information-sheet"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107N139V01",
+   "name": "Kotak Signature Term Plan",
+   "segment": "Individual",
+   "category": "Term",
+   "plan_structure": "Pure Term",
+   "sub_category": "High sum assured term (minimum INR 2 crore) with special exit benefit",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Regular Pay",
+     "summary": "Premium for the whole policy term."
+    },
+    {
+     "name": "Limited Pay",
+     "summary": "Premium for 5, 7, 10 or 15 years, or until age 60."
+    },
+    {
+     "name": "Single Pay",
+     "summary": "One-time premium."
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 65,
+    "maturity_age_max_years": 85,
+    "policy_term_min_years": 5,
+    "policy_term_max_years": 67,
+    "whole_life": false,
+    "ppt_options": [
+     "Regular",
+     "Limited 5",
+     "Limited 7",
+     "Limited 10",
+     "Limited 15",
+     "Pay till 60",
+     "Single"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly",
+     "Single"
+    ],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": "Not stated",
+    "min_sum_assured_inr": 20000000,
+    "max_sum_assured_text": "No limit, subject to underwriting policy",
+    "notes": "Pay-till-60 option allows entry only up to 50. Max term is the higher of 40 years or (65/70/75/85 minus entry age); FAQ quotes 67 years. Minimum limited-pay terms 10/12/15/20 years for 5/7/10/15-pay."
+   },
+   "benefits": {
+    "death": "Regular/limited pay: highest of sum assured, 11x annualised premium or 105% of premiums paid. Single pay: higher of sum assured or 1.25x single premium.",
+    "maturity": "None.",
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": false,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": "Special Exit Benefit returns total premiums paid (excl. taxes) if exercised in the allowed window (earlier of policy year 25 or age 60 for terms up to 40 years; year 30 for longer terms). Instant payout of INR 2 lakh advance on eligible claims after 3 policy years. Built-in telemedicine, home health care and pharmacy access."
+   },
+   "category_details": {
+    "term": {
+     "rop_option": "Special Exit Benefit (return of premiums paid on exit within a set window)",
+     "whole_life_cover_option": false,
+     "ci_or_accelerated_benefit": "Only via optional Critical Illness Plus rider (37 illnesses)",
+     "payout_options": "Lump sum; INR 2 lakh instant advance on eligible claims",
+     "women_or_nonsmoker_discount": "Female lives 16% lower premium for the whole premium term; extra 5% salaried discount in year 1 (regular/limited), 1% for single pay"
+    },
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Minimum cover of INR 2 crore, no stated upper cap",
+    "Special Exit Benefit returns premiums paid on leaving within the window",
+    "16% premium discount for women plus a first-year salaried discount",
+    "Instant INR 2 lakh advance payout on eligible claims after 3 years",
+    "Regular, limited, pay-till-60 or single payment"
+   ],
+   "riders_available": [
+    "Kotak Permanent Disability Benefit Rider (107B002V03)",
+    "Kotak Critical Illness Plus Benefit Rider (107B020V02)",
+    "Kotak Accidental Death Benefit Rider (107B001V04)"
+   ],
+   "online_purchase": true,
+   "channels": [
+    "Direct/Online",
+    "Agency"
+   ],
+   "tax_benefits": "Available under the Income-tax Act, 1961, subject to conditions and change",
+   "description": "Premium-segment pure term plan from Kotak Life with a INR 2 crore minimum cover, aimed at affluent buyers, with an exit benefit that returns premiums.",
+   "urls": {
+    "product_page": "https://www.kotaklife.com/term-insurance/kotak-signature-term-plan",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/term-insurance/kotak-signature-term-plan",
+    "https://www.kotaklife.com/homepage/termsconditions"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107N140V01",
+   "name": "Kotak Value Protect",
+   "segment": "Individual",
+   "category": "Term",
+   "plan_structure": "Pure Term",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Single Pay",
+     "summary": "One-time premium; non-lapsable."
+    },
+    {
+     "name": "Regular Pay",
+     "summary": "Premium for the whole term."
+    },
+    {
+     "name": "Limited Pay",
+     "summary": "Premium for 5, 7, 10 or 15 years."
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 18,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": 60,
+    "policy_term_min_years": 5,
+    "policy_term_max_years": 20,
+    "whole_life": false,
+    "ppt_options": [
+     "Single",
+     "Regular",
+     "Limited 5",
+     "Limited 7",
+     "Limited 10",
+     "Limited 15"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly",
+     "Single"
+    ],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": 500000,
+    "max_sum_assured_text": "INR 50 lakh",
+    "notes": "Maturity age 23 to 60; maximum entry age not stated in the brochure. Limited-pay combinations: 5-pay with 10/15/20 yr, 7-pay with 10/15/20, 10-pay with 15/20, 15-pay with 20."
+   },
+   "benefits": {
+    "death": "Regular/limited pay: highest of sum assured, 11x annualised premium or 105% of premiums paid. Single pay: higher of sum assured or 1.25x single premium. Paid as lump sum and policy ends.",
+    "maturity": "None.",
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": false,
+    "loan": false,
+    "partial_withdrawal": null,
+    "other": "Voluntary termination value only under limited/single pay (60% x unexpired term / policy term x premiums paid)."
+   },
+   "category_details": {
+    "term": {
+     "rop_option": false,
+     "whole_life_cover_option": false,
+     "ci_or_accelerated_benefit": "Only via optional Critical Illness Plus rider (37 illnesses)",
+     "payout_options": "Lump sum",
+     "women_or_nonsmoker_discount": "Preferential rates for female lives"
+    },
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Low-cost term cover for terms up to 20 years",
+    "Single, regular or limited premium payment",
+    "Sum assured INR 5 lakh to 50 lakh",
+    "Sold online only"
+   ],
+   "riders_available": [
+    "Kotak Accidental Death Benefit Rider (107B001V04)",
+    "Kotak Critical Illness Plus Benefit Rider (107B020V02)",
+    "Kotak Permanent Disability Benefit Rider (107B002V03)"
+   ],
+   "online_purchase": true,
+   "channels": [
+    "Direct/Online"
+   ],
+   "tax_benefits": "Available under the Income Tax Act, 1961, subject to conditions",
+   "description": "Online-only, shorter-term pure protection plan from Kotak Life aimed at buyers wanting inexpensive cover of up to INR 50 lakh.",
+   "urls": {
+    "product_page": null,
+    "brochure": "https://www.kotaklife.com/assets/images/uploads/insurance-plans/Kotak_Value_Protect_UIN_107N140V01_Brochure.pdf"
+   },
+   "sources": [
+    "https://www.kotaklife.com/assets/images/uploads/insurance-plans/Kotak_Value_Protect_UIN_107N140V01_Brochure.pdf"
+   ],
+   "completeness": "partial",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107N120V01",
+   "name": "Kotak Saral Jeevan Bima",
+   "segment": "Individual",
+   "category": "Term",
+   "plan_structure": "Pure Term",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": "Saral Jeevan Bima",
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Regular / Limited (5 or 10 pay) / Single",
+     "summary": "Standardised IRDAI term cover with four premium-payment choices."
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 65,
+    "maturity_age_max_years": 70,
+    "policy_term_min_years": 5,
+    "policy_term_max_years": 40,
+    "whole_life": false,
+    "ppt_options": [
+     "Regular",
+     "Single",
+     "Limited 5",
+     "Limited 10"
+    ],
+    "premium_modes": [
+     "Single",
+     "Annual",
+     "Half-yearly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": "Subject to board-approved underwriting policy",
+    "min_sum_assured_inr": 500000,
+    "max_sum_assured_text": "INR 25 lakh, in multiples of INR 50,000",
+    "notes": "Max entry 65 follows the IRDAI standard-product rules (brochure table unreadable in extraction). POS channel: max entry 60, max maturity 65. Monthly mode only via ECS/NACH. Min policy term 5 (regular/single), 6 (5-pay), 11 (10-pay)."
+   },
+   "benefits": {
+    "death": "First 45 days: full benefit only for accidental death, otherwise 100% of premiums paid. After 45 days: regular/limited pay - highest of 10x annualised premium, 105% of premiums paid or sum assured; single pay - higher of 125% of single premium or sum assured.",
+    "maturity": "None.",
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": false,
+    "loan": false,
+    "partial_withdrawal": false,
+    "other": "No surrender or paid-up value; cancellation value only for single and limited pay."
+   },
+   "category_details": {
+    "term": {
+     "rop_option": false,
+     "whole_life_cover_option": false,
+     "ci_or_accelerated_benefit": "Not available (no riders)",
+     "payout_options": "Lump sum"
+    },
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "IRDAI-standardised pure term cover, INR 5-25 lakh",
+    "45-day waiting period applies to non-accidental death",
+    "No riders, surrender value or loans",
+    "Available online, offline and through POS"
+   ],
+   "riders_available": [],
+   "online_purchase": true,
+   "channels": [
+    "Agency",
+    "Direct/Online",
+    "POSP"
+   ],
+   "tax_benefits": "Under the Income-tax Act, 1961, subject to conditions",
+   "description": "Kotak Life's version of the IRDAI-mandated Saral Jeevan Bima, a simple low-sum term plan for first-time or budget buyers.",
+   "urls": {
+    "product_page": "https://www.kotaklife.com/term-insurance/kotak-saral-jeevan-bima",
+    "brochure": "https://www.kotaklife.com/assets/images/uploads/insurance-plans/kotak-saral-jeevan-bima.pdf"
+   },
+   "sources": [
+    "https://www.kotaklife.com/assets/images/uploads/insurance-plans/kotak-saral-jeevan-bima.pdf"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107N143V01",
+   "name": "Kotak Vital Care",
+   "segment": "Individual",
+   "category": "Term",
+   "plan_structure": "Pure Term",
+   "sub_category": "Term with optional accident, cardiac and cancer covers",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Protection",
+    "Health"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Option A - Personal Accident",
+     "summary": "Lump sum on accidental death and on permanent total (100%) or partial (50%) disablement."
+    },
+    {
+     "name": "Option B - Cardiac Cover",
+     "summary": "25% of cover for 10 minor heart procedures, 100% for 7 major cardiac events."
+    },
+    {
+     "name": "Option C - Cancer Cover",
+     "summary": "25% for early-stage cancer, balance up to 100% for major-stage cancer."
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 50,
+    "maturity_age_max_years": 55,
+    "policy_term_min_years": 5,
+    "policy_term_max_years": null,
+    "whole_life": false,
+    "ppt_options": [
+     "Regular"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": 500000,
+    "max_sum_assured_text": null,
+    "notes": "Maturity age 23 to 55. Brochure states INR 5 lakh basic sum assured per option; maximum not stated. Waiting period 6 months and survival period 15 days for cardiac/cancer claims; none for accident. Cooling-off of 180 days between minor claims."
+   },
+   "benefits": {
+    "death": "Highest of basic sum assured, 11x annualised premium or 105% of premiums paid; Option A adds the PA sum assured on accidental death.",
+    "maturity": "None.",
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": false,
+    "loan": false,
+    "partial_withdrawal": null,
+    "other": "Cardiac/cancer options pay 25% on minor or early-stage events and up to 100% on major events, after which cover ends. Free teleconsultation, diagnostics booking, pharmacy and mental-wellbeing services. No surrender value."
+   },
+   "category_details": {
+    "term": {
+     "rop_option": false,
+     "whole_life_cover_option": false,
+     "ci_or_accelerated_benefit": "Built-in optional cardiac (17 conditions) and cancer (early and major stage) covers",
+     "payout_options": "Lump sum"
+    },
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Base life cover with three optional add-ons: accident, cardiac, cancer",
+    "Staged payouts: 25% on minor/early events, up to 100% on major events",
+    "Regular pay only, annual or monthly premium",
+    "Wellness services included at no extra premium"
+   ],
+   "riders_available": [],
+   "online_purchase": true,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Term plan from Kotak Life that bundles optional heart, cancer and accident benefits into the base cover, for working adults up to age 50.",
+   "urls": {
+    "product_page": "https://www.kotaklife.com/term-insurance/kotak-vital-care",
+    "brochure": "https://www.kotaklife.com/assets/images/uploads/insurance-plans/kotak-vital-care-brochure.pdf"
+   },
+   "sources": [
+    "https://www.kotaklife.com/assets/images/uploads/insurance-plans/kotak-vital-care-brochure.pdf"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Kotak Health Maximiser",
+   "segment": "Individual",
+   "category": "Term",
+   "plan_structure": "Pure Term",
+   "sub_category": "Combi: Kotak Term Plan life cover (107N005V06) plus Kotak Health Premier health cover issued by Kotak General Insurance",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Protection",
+    "Health"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Health tiers",
+     "summary": "Standard, Advantage, Edge, Elite, Absolute and 360/Total tiers with base health cover from INR 2 lakh to 2 crore."
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 65,
+    "maturity_age_max_years": 70,
+    "policy_term_min_years": 5,
+    "policy_term_max_years": 30,
+    "whole_life": false,
+    "ppt_options": [
+     "Single",
+     "Regular"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": 300000,
+    "max_sum_assured_text": "Life cover up to INR 24,99,999; health cover up to INR 2 crore",
+    "notes": "Health policy term 1/2/3 years and renews for life; child entry 91 days to 25 years. Health waiting periods: 30 days initial, 36-48 months pre-existing, 24 months specified diseases, 36 months maternity."
+   },
+   "benefits": {
+    "death": "Lump sum equal to chosen life sum insured on death of the proposer during the term; life cover then ends while health cover can continue for other members.",
+    "maturity": "None.",
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": "Health part: inpatient cover, 405 day-care procedures, restoration of 100% once a year, cumulative bonus of 10% per claim-free year, 7,800+ cashless hospitals."
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": {
+     "conditions_covered": "Hospitalisation incl. day care; optional critical illness, personal accident, maternity, air ambulance",
+     "benefit_type": "Indemnity hospital cover bundled with term life",
+     "waiting_period_days": 30
+    }
+   },
+   "key_features": [
+    "One combined purchase of term life cover and family health insurance",
+    "Seven health tiers with base cover up to INR 2 crore",
+    "Restoration benefit and cumulative bonus on the health side",
+    "Tax benefit under 80C/10(10D) for life and 80D for health"
+   ],
+   "riders_available": [
+    "Kotak Accidental Death Benefit Rider",
+    "Kotak Permanent Disability Benefit Rider",
+    "Kotak Critical Illness Plus Benefit Rider"
+   ],
+   "online_purchase": true,
+   "channels": [],
+   "tax_benefits": "Life part: sections 80C and 10(10D); health part: section 80D (subject to law changes)",
+   "description": "Combination offer from Kotak Life and Kotak General pairing a term life plan with a family health plan, for customers wanting both covers in one purchase.",
+   "urls": {
+    "product_page": "https://www.kotaklife.com/term-insurance/kotak-health-maximiser",
+    "brochure": "https://www.kotaklife.com/assets/images/uploads/insurance-plans/Kotak-Health-Maximiser-Brochure-Final.pdf"
+   },
+   "sources": [
+    "https://www.kotaklife.com/assets/images/uploads/insurance-plans/Kotak-Health-Maximiser-Brochure-Final.pdf"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28",
+   "alt_code": "KOTHLIP24026V012324"
+  },
+  {
+   "uin": "107N132V02",
+   "name": "Kotak Gen2Gen Protect",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": true,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Non-participating non-linked life plan from Kotak Life sold on its buy-online shelf; specifications not yet extracted.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/homepage/termsconditions",
+    "https://www.kotaklife.com/kotak-life-insurance-plans-bandhan-bank"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107L137V02",
+   "name": "Kotak e-Invest Plus",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Wealth"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Maximizer",
+     "summary": "Wealth-building option with return of mortality charges at maturity."
+    },
+    {
+     "name": "Rising Star",
+     "summary": "On death pays a lump sum plus monthly income of 1% of sum assured for 3-10 years and future premiums are waived and invested."
+    },
+    {
+     "name": "Retire Rich",
+     "summary": "Builds a retirement corpus with return of mortality charges after age 60 and an income option boosted 0.5% a year."
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [
+     "Regular",
+     "Limited"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Details taken from the V01 policy document (V02 is current); entry age, term and minimum premium not stated there. Maximizer ROMC table covers 10/12/15/20-year terms. 5-year lock-in."
+   },
+   "benefits": {
+    "death": "Maximizer/Retire Rich: highest of sum assured (less withdrawals), fund value or 105% of premiums paid. Rising Star: higher of sum assured or 105% of premiums plus monthly income and premium waiver.",
+    "maturity": "Fund value including yearly additions and return of mortality charges; Maximizer can take a settlement option over 5 years.",
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": true,
+    "other": "Withdrawals only after the 5-year lock-in, minimum INR 5,000, 4 free per term."
+   },
+   "category_details": {
+    "term": null,
+    "ulip": {
+     "funds_count": 8,
+     "fmc_max_pct": 1.35,
+     "loyalty_additions": "Yearly Additions of 3% of annual premium from the end of year 6 (V01); Income Booster of 0.5% p.a. on Retire Rich",
+     "return_of_mortality_charges": "Maximizer: 150%/160%/175%/200% of mortality charges for 10/12/15/20-year terms (entry age up to 50); lower for older entrants",
+     "free_switches_per_year": 12,
+     "premium_allocation_charge": "None",
+     "policy_admin_charge": "INR 400 per year, deducted monthly"
+    },
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "No premium allocation charge",
+    "Return of mortality charges on Maximizer and Retire Rich",
+    "Eight funds plus a discontinued-policy fund; self-managed or age-based strategies",
+    "12 free fund switches a year"
+   ],
+   "riders_available": [],
+   "online_purchase": true,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Online unit-linked plan from Kotak Life with wealth, child-protection-style income and retirement-income options and no premium allocation charge.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/assets/images/uploads/how_do_i/Kotak_e-Invest_Plus_UIN_107L137V01_Policy_Document.pdf",
+    "https://www.kotaklife.com/ulip-plans/termsconditions"
+   ],
+   "completeness": "partial",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107L131V03",
+   "name": "Kotak T.U.L.I.P",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": "Term-style cover with ULIP returns",
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Protection",
+    "Wealth"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": true,
+   "channels": [
+    "Direct/Online"
+   ],
+   "tax_benefits": null,
+   "description": "Online-only unit-linked plan from Kotak Life that pairs term-like life cover with market-linked fund returns.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/ulip-plans/termsconditions",
+    "https://www.kotaklife.com/how-do-i/get-customer-information-sheet"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107L138V01",
+   "name": "Kotak T-ULIP Nxt",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Wealth"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Non-participating unit-linked individual savings plan from Kotak Life; specifications not yet extracted.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/ulip-plans/termsconditions",
+    "https://www.kotaklife.com/insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107L073V05",
+   "name": "Kotak Invest Maxima",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Wealth"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Older Kotak Life unit-linked savings plan still listed on its ULIP pages; specifications not yet extracted.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/ulip-plans/termsconditions",
+    "https://www.kotaklife.com/insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107L065V05",
+   "name": "Kotak Single Invest Advantage",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": "Single-premium ULIP (per product name)",
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Wealth"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Kotak Life unit-linked plan listed on its plans page; specifications not yet extracted.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/how-do-i/get-customer-information-savings",
+    "https://www.kotaklife.com/insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107L067V07",
+   "name": "Kotak Platinum",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Wealth"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Kotak Life unit-linked investment plan offered through bank partners; specifications not yet extracted.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/kotak-life-insurance-plans-bandhan-bank",
+    "https://www.kotaklife.com/assets/images/uploads/how_do_i/Kotak_Platinum_UIN_107L067V07_Policy_Document.pdf"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107L118V03",
+   "name": "Kotak Wealth Optima Plan",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Wealth"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [
+     "Regular",
+     "Limited"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Entry age, policy term and minimum premium not in the policy document. Premium allocation bands run from INR 2 lakh to under INR 25 lakh annual premium (25 lakh and above not offered). 5-year lock-in."
+   },
+   "benefits": {
+    "death": "Highest of sum assured (less withdrawals), fund value incl. additions and boosters, or 105% of premiums paid.",
+    "maturity": "Fund value incl. yearly additions and wealth boosters, as lump sum or settlement option up to 5 years.",
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": false,
+    "partial_withdrawal": true,
+    "other": "Withdrawal after 5-year lock-in, minimum INR 10,000, fund to stay at or above 50% of premiums paid."
+   },
+   "category_details": {
+    "term": null,
+    "ulip": {
+     "funds_count": 8,
+     "fmc_max_pct": 1.35,
+     "loyalty_additions": "Yearly Additions 0.15%-0.40% p.a. of average fund value from year 6; Wealth Boosters 2.00%-2.50% p.a. of 3-year average fund value at years 10, 15, 20+",
+     "free_switches_per_year": 12,
+     "premium_allocation_charge": "3.5%/2%/0.5% (yr 1/2-5/6+) for INR 2-6.99 lakh premium, 2%/2%/0.5% for INR 10-24.99 lakh",
+     "policy_admin_charge": "0.20% p.m. of premium below INR 5 lakh, 0.10% p.m. from INR 5 lakh, capped at INR 500 p.m."
+    },
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "High-premium ULIP with premium bands from INR 2 lakh a year",
+    "Yearly Additions from year 6 and Wealth Boosters at years 10, 15, 20",
+    "Eight funds plus age-based strategies",
+    "12 free switches a year"
+   ],
+   "riders_available": [
+    "Kotak Accidental Death Protection Rider (Linked)",
+    "Kotak Critical Illness Benefit Rider (Linked)"
+   ],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "High-ticket unit-linked plan from Kotak Life with loyalty additions and wealth boosters, for investors paying INR 2 lakh or more a year.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/assets/images/uploads/how_do_i/Kotak_Wealth_Optima_Plan_UIN_107L118V03_Policy_Document2.pdf",
+    "https://www.kotaklife.com/ulip-plans/termsconditions"
+   ],
+   "completeness": "partial",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107L136V02",
+   "name": "Kotak Confident Retirement Builder",
+   "segment": "Individual",
+   "category": "Pension & Annuity",
+   "plan_structure": "Pension Accumulation",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Retirement"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": true,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Non-participating unit-linked pension plan from Kotak Life for building a retirement corpus; specifications not yet extracted.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/homepage/termsconditions",
+    "https://www.kotaklife.com/assets/images/uploads/how_do_i/Kotak_Confident_Retirement_Builder_UIN107L136V02_Policy_Document.pdf"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107N163V01",
+   "name": "Kotak Gen2Gen Income",
+   "segment": "Individual",
+   "category": "Savings - Par",
+   "plan_structure": "Whole Life",
+   "sub_category": "Participating lifelong income plan with legacy transfer option",
+   "linkage": "Non-Linked",
+   "participation": "Par",
+   "need_tags": [
+    "Savings",
+    "Legacy"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Life Income",
+     "summary": "Cash bonus income for the insured's whole life up to age 99."
+    },
+    {
+     "name": "Legacy Income",
+     "summary": "Two-life option: income passes to a younger secondary life insured after the primary (transfer age 75, 80 or 85)."
+    },
+    {
+     "name": "Life Paid-Up Additions",
+     "summary": "Bonuses accumulate as paid-up additions instead of cash."
+    },
+    {
+     "name": "Legacy Paid-Up Additions",
+     "summary": "Two-life legacy structure with paid-up additions."
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 0.25,
+    "entry_age_max_years": 55,
+    "maturity_age_max_years": 99,
+    "policy_term_min_years": 44,
+    "policy_term_max_years": 99,
+    "whole_life": true,
+    "ppt_options": [
+     "Limited 6",
+     "Limited 8",
+     "Limited 10",
+     "Limited 12"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": 50000,
+    "min_single_premium_inr": null,
+    "max_premium_text": "No stated cap, subject to board-approved underwriting policy",
+    "min_sum_assured_inr": 300000,
+    "max_sum_assured_text": "No stated cap, subject to underwriting policy",
+    "notes": "Life options: entry 90 days to 50 (6-pay) or 55 (8/10/12-pay), maturity age 99, term = 99 minus entry age. Legacy options: primary insured entry 18 to 45/50/55 for transfer age 75/80/85, secondary insured 90 days to 17, term = 85 minus secondary's entry age, PPT 8/10/12 only. Minimum shown is sum assured on maturity."
+   },
+   "benefits": {
+    "death": "Life cover up to age 85 or 99 depending on option; Legacy options pay on the death of both primary and secondary lives.",
+    "maturity": "Sum assured on maturity plus terminal bonus if declared (not guaranteed).",
+    "survival_income": "Cash bonus income (yearly or monthly) for life up to 99 or to a fixed age; under Legacy options income goes to the secondary life insured.",
+    "guaranteed": false,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": "Bonuses and terminal bonus are not guaranteed; benefit sum assured is enhanced for female lives and auto-debit premium payers."
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": {
+     "payout_type": "Lump sum + Income",
+     "income_duration": "Lifelong (to age 99) or to a fixed age under Legacy options",
+     "bonus_type": "Reversionary + Cash"
+    },
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Participating plan paying lifelong cash bonus income",
+    "Two-life Legacy options let a younger secondary insured continue the plan",
+    "Short premium-paying terms of 6 to 12 years",
+    "Paid-up addition options as an alternative to cash bonus"
+   ],
+   "riders_available": [
+    "Kotak Term Benefit Rider (107B003V03)",
+    "Kotak Accidental Death Benefit Rider (107B001V04)",
+    "Kotak Permanent Disability Benefit Rider (107B002V03)",
+    "Kotak Life Guardian Benefit Rider (107B012V02)",
+    "Kotak Accidental Disability Guardian Benefit Rider (107B011V02)",
+    "Kotak Critical Illness Plus Benefit Rider (107B020V02)"
+   ],
+   "online_purchase": true,
+   "channels": [],
+   "tax_benefits": "May be available under the Income Tax Act, 1961, subject to change",
+   "description": "Participating whole-life income plan from Kotak Life that pays lifelong cash bonus income and can pass the policy to the next generation.",
+   "urls": {
+    "product_page": "https://www.kotaklife.com/savings-plan/kotak-gen2gen-income",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/savings-plan/kotak-gen2gen-income"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107N125V03",
+   "name": "Kotak Fortune Maximiser",
+   "segment": "Individual",
+   "category": "Savings - Par",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Par",
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": true,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Participating non-linked savings plan from Kotak Life sold on its buy-online shelf and via bank partners; specifications not yet extracted.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/homepage/termsconditions",
+    "https://www.kotaklife.com/kotak-life-insurance-plans-bandhan-bank"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107N081V09",
+   "name": "Kotak Assured Savings Plan",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": true,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Non-participating non-linked savings plan from Kotak Life on its buy-online shelf; specifications not yet extracted.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/homepage/termsconditions",
+    "https://www.kotaklife.com/assets/images/uploads/how_do_i/Kotak_Assured_Savings_Plan_UIN_107N081V08_Policy_Document.pdf"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107N128V09",
+   "name": "Kotak Guaranteed Fortune Builder",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": true,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Non-participating non-linked guaranteed savings plan from Kotak Life; specifications not yet extracted.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/homepage/termsconditions",
+    "https://www.kotaklife.com/how-do-i/get-customer-information-savings"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107N141V02",
+   "name": "Kotak Get Assured Income Now",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": null,
+   "sub_category": "Income plan (par/non-par provisional)",
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Kotak Life savings plan marketed as GAIN with an income focus; participation status and specifications not yet verified.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/how-do-i/get-customer-information-savings",
+    "https://www.kotaklife.com/kotak-life-insurance-plans-bandhan-bank"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107N100V05",
+   "name": "Kotak Guaranteed Savings Plan",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": null,
+   "sub_category": "Category provisional (name-based)",
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Kotak Life savings plan listed on its plans page; specifications not yet extracted.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/how-do-i/get-customer-information-savings",
+    "https://www.kotaklife.com/insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107N102V04",
+   "name": "Kotak SmartLife Plan",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": null,
+   "sub_category": "Category provisional",
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Kotak Life savings plan listed on its plans page; specifications not yet extracted.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/how-do-i/get-customer-information-savings",
+    "https://www.kotaklife.com/assets/images/uploads/how_do_i/Kotak_SmartLife_Plan_UIN_107N102V04_Policy_Document.pdf"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107N164V02",
+   "name": "Kotak Early Defined Guaranteed Earnings (EDGE)",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": null,
+   "sub_category": "Category provisional (name-based)",
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Recent Kotak Life savings plan with defined guaranteed earnings; specifications not yet extracted.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/kotak-life-insurance-plans-bandhan-bank",
+    "https://www.kotaklife.com/assets/images/uploads/why_kotak/Media_release_-_Kotak_Life_EDGE_Final.pdf"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107N082V03",
+   "name": "Kotak Classic Endowment Plan",
+   "segment": "Individual",
+   "category": "Savings - Par",
+   "plan_structure": "Endowment",
+   "sub_category": "Category provisional (name-based)",
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Endowment savings plan from Kotak Life listed on its plans page; participation and specifications not yet verified.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/how-do-i/get-customer-information-savings",
+    "https://www.kotaklife.com/insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107N123V13",
+   "name": "Kotak Assured Pension",
+   "segment": "Individual",
+   "category": "Pension & Annuity",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Retirement"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Individual / Group / COA",
+     "summary": "Same UIN is used for individual, group and COA policy types."
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": true,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Non-participating non-linked general annuity plan from Kotak Life for retirement income; specifications not yet extracted.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/how-do-i/get-customer-information-retirement",
+    "https://www.kotaklife.com/homepage/termsconditions"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107N103V20",
+   "name": "Kotak Lifetime Income Plan",
+   "segment": "Individual",
+   "category": "Pension & Annuity",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Retirement"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Individual / Group / COA",
+     "summary": "Same UIN is used for individual, group and COA policy types."
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Kotak Life retirement income plan listed on its plans page; participation and specifications not yet extracted.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/how-do-i/get-customer-information-retirement",
+    "https://www.kotaklife.com/insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107N162V01",
+   "name": "Kotak Confident Retirement Savings Plan",
+   "segment": "Individual",
+   "category": "Pension & Annuity",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Retirement"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Newer non-linked retirement savings plan from Kotak Life; participation and specifications not yet extracted.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/how-do-i/get-customer-information-retirement",
+    "https://www.kotaklife.com/insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107N092V03",
+   "name": "Kotak Sampoorn Bima Micro-Insurance Plan",
+   "segment": "Micro",
+   "category": "Micro Insurance",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Protection",
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Individual micro-insurance plan from Kotak Life for low-income customers; specifications not yet extracted.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/how-do-i/get-customer-information-savings",
+    "https://www.kotaklife.com/insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107N101V05",
+   "name": "Kotak Raksha Group Micro Insurance Plan",
+   "segment": "Micro",
+   "category": "Micro Insurance",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Group micro-insurance plan from Kotak Life for low-income groups; specifications not yet extracted.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/how-do-i/get-customer-information-group",
+    "https://www.kotaklife.com/kotak-life-insurance-plans-bandhan-bank"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107N018V09",
+   "name": "Kotak Complete Cover Group Plan",
+   "segment": "Group",
+   "category": "Group Term",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Group pure-risk cover plan from Kotak Life for employers and other groups.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/how-do-i/get-customer-information-group",
+    "https://www.kotaklife.com/kotak-life-insurance-plans-bandhan-bank"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107N007V11",
+   "name": "Kotak Term Group Plan",
+   "segment": "Group",
+   "category": "Group Term",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Group term life plan from Kotak Life (name-based classification).",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/how-do-i/get-customer-information-group"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107N050V07",
+   "name": "Kotak Group Shield",
+   "segment": "Group",
+   "category": "Group Term",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Group pure-risk cover plan from Kotak Life.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/how-do-i/get-customer-information-group",
+    "https://www.kotaklife.com/kotak-life-insurance-plans-bandhan-bank"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107N006V05",
+   "name": "Kotak Credit Term Group Plan",
+   "segment": "Group",
+   "category": "Credit Life",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Group credit term plan from Kotak Life for lenders covering borrowers (name-based classification).",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/how-do-i/get-customer-information-group"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107N142V01",
+   "name": "Kotak Loan Protect Cover",
+   "segment": "Group",
+   "category": "Credit Life",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Loan-protection group cover from Kotak Life (name-based classification).",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/how-do-i/get-customer-information-group"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107N051V05",
+   "name": "Kotak Group Assure",
+   "segment": "Group",
+   "category": "Group Other",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Group plan from Kotak Life; purpose not extracted from the listing.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/how-do-i/get-customer-information-group"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107N098V05",
+   "name": "Kotak Group Secure One",
+   "segment": "Group",
+   "category": "Group Other",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Group plan from Kotak Life; purpose not extracted from the listing.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/how-do-i/get-customer-information-group"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107L122V01",
+   "name": "Kotak Group Secure Capital Plan",
+   "segment": "Group",
+   "category": "Group Fund (Gratuity/Superannuation/Leave)",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Unit-linked group plan from Kotak Life for employee-benefit funds (classification name-based).",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/how-do-i/get-customer-information-group"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107L010V07",
+   "name": "Kotak Gratuity Group Plan",
+   "segment": "Group",
+   "category": "Group Fund (Gratuity/Superannuation/Leave)",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Unit-linked group plan from Kotak Life for funding employer gratuity liabilities.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/how-do-i/get-customer-information-group",
+    "https://www.kotaklife.com/assets/images/uploads/how_do_i/Kotak_Gratuity_Group_Plan_107L010V07.pdf"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107N119V01",
+   "name": "Kotak Assured Return Employee Benefit Plan",
+   "segment": "Group",
+   "category": "Group Fund (Gratuity/Superannuation/Leave)",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Group employee-benefit fund plan from Kotak Life with assured returns (name-based classification).",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/how-do-i/get-customer-information-group"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107N087V04",
+   "name": "Kotak Secure Return Employee Benefit Plan",
+   "segment": "Group",
+   "category": "Group Fund (Gratuity/Superannuation/Leave)",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Group employee-benefit fund plan from Kotak Life (name-based classification).",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/how-do-i/get-customer-information-group"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107N086V04",
+   "name": "Kotak Secure Return Superannuation Plan",
+   "segment": "Group",
+   "category": "Group Fund (Gratuity/Superannuation/Leave)",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Group superannuation fund plan from Kotak Life (name-based classification).",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/how-do-i/get-customer-information-group"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107L127V02",
+   "name": "Kotak Corporate Benefit Plan",
+   "segment": "Group",
+   "category": "Group Fund (Gratuity/Superannuation/Leave)",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Unit-linked group plan for master policyholders from Kotak Life (classification name-based).",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/how-do-i/get-customer-information-group"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Kotak PMJJBY",
+   "segment": "Group",
+   "category": "Govt Scheme",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Kotak Life's offering of the government Pradhan Mantri Jeevan Jyoti Bima Yojana term cover; UIN not yet captured.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/assets/images/uploads/insurance-plans/kotak-pmjjby-product-presentation.pdf"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107B001V04",
+   "name": "Kotak Accidental Death Benefit Rider",
+   "segment": "Rider",
+   "category": "Accidental Death/Disability",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Rider paying an extra lump sum if the life insured dies in an accident.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/how-do-i/get-customer-information-rider"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107B002V03",
+   "name": "Kotak Permanent Disability Benefit Rider",
+   "segment": "Rider",
+   "category": "Accidental Death/Disability",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Rider paying the rider sum assured in instalments on permanent disability caused by an accident.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/how-do-i/get-customer-information-rider"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107B020V02",
+   "name": "Kotak Critical Illness Plus Benefit Rider",
+   "segment": "Rider",
+   "category": "Critical Illness",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [
+    "Health"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Rider paying a lump sum on diagnosis of any of 37 listed critical illnesses.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/how-do-i/get-customer-information-rider",
+    "https://www.kotaklife.com/assets/images/uploads/insurance-plans/Kotak_Value_Protect_UIN_107N140V01_Brochure.pdf"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107B003V03",
+   "name": "Kotak Term Benefit Rider",
+   "segment": "Rider",
+   "category": "Term Rider",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Rider adding extra term life cover to the base plan.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/how-do-i/get-customer-information-rider"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107B012V02",
+   "name": "Kotak Life Guardian Benefit Rider",
+   "segment": "Rider",
+   "category": "Other Rider",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Optional guardian-benefit rider for Kotak savings plans, not offered on the Legacy options of Gen2Gen Income; details not extracted.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/how-do-i/get-customer-information-rider",
+    "https://www.kotaklife.com/savings-plan/kotak-gen2gen-income"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107B011V02",
+   "name": "Kotak Accidental Disability Guardian Benefit Rider",
+   "segment": "Rider",
+   "category": "Accidental Death/Disability",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Optional guardian-benefit rider triggered by accidental disability, offered with Gen2Gen Income; details not extracted.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/how-do-i/get-customer-information-rider",
+    "https://www.kotaklife.com/savings-plan/kotak-gen2gen-income"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107B008V03",
+   "name": "Kotak Accidental Disability Benefit",
+   "segment": "Rider",
+   "category": "Accidental Death/Disability",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Rider paying a benefit on accidental disability; details not extracted.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/how-do-i/get-customer-information-rider"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107B005V06",
+   "name": "Kotak Accidental Death Benefit Rider (107B005)",
+   "segment": "Rider",
+   "category": "Accidental Death/Disability",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Second accidental death rider version listed by Kotak Life alongside 107B001; details not extracted.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/how-do-i/get-customer-information-rider"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107B009V07",
+   "name": "Kotak Critical Illness Benefit Rider",
+   "segment": "Rider",
+   "category": "Critical Illness",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [
+    "Health"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Earlier critical-illness rider listed by Kotak Life; details not extracted.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/how-do-i/get-customer-information-rider"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107B014V03",
+   "name": "Kotak Group Terminal Illness",
+   "segment": "Rider",
+   "category": "Other Rider",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Group rider linked to terminal illness (name-based); details not extracted.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/how-do-i/get-customer-information-rider"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107B023V01",
+   "name": "Kotak Group Daily HospiCash Benefit Rider (Micro)",
+   "segment": "Rider",
+   "category": "Health/Hospital",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [
+    "Health"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Group micro-insurance rider paying a daily cash benefit during hospitalisation (name-based).",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/how-do-i/get-customer-information-rider"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107A021V02",
+   "name": "Kotak Accidental Death Protection Rider (Linked)",
+   "segment": "Rider",
+   "category": "Accidental Death/Disability",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": null,
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Accidental death rider for Kotak's unit-linked plans such as Wealth Optima.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/how-do-i/get-customer-information-rider",
+    "https://www.kotaklife.com/homepage/termsconditions"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107A022V02",
+   "name": "Kotak Critical Illness Benefit Rider (Linked)",
+   "segment": "Rider",
+   "category": "Critical Illness",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": null,
+   "need_tags": [
+    "Health"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Critical illness rider for Kotak's unit-linked plans such as Wealth Optima.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/how-do-i/get-customer-information-rider",
+    "https://www.kotaklife.com/homepage/termsconditions"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "107L121V02",
+   "name": "Kotak e-Invest",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Wealth"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Earlier online unit-linked plan from Kotak Life, apparently replaced by Kotak e-Invest Plus; not on the current plans page.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/how-do-i/get-customer-information-savings"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Kotak Premier Endowment Plan",
+   "segment": "Individual",
+   "category": null,
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Older Kotak Life endowment plan whose policy document is still hosted; not on current plan listings.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/assets/images/uploads/how_do_i/Kotak_Premier_Endowment_Plan_Policy_Document1.pdf"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Kotak Premier Life Plan",
+   "segment": "Individual",
+   "category": null,
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Older Kotak Life plan (policy document dated April 2021); not on current plan listings.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/assets/images/uploads/how_do_i/Policy_Document_-_Kotak_Premier_Life_Plan_15042021-final_-_webupload.pdf"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Kotak Single Invest Plus",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": "Category best guess from name",
+   "linkage": "Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Older Kotak Life single-premium investment plan; not on current plan listings.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/assets/images/uploads/how_do_i/Policy_Document_Kotak_Single_Invest_Plus.pdf"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Kotak Headstart Assure Wealth",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": "Category best guess",
+   "linkage": "Linked",
+   "participation": null,
+   "need_tags": [
+    "Child",
+    "Wealth"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Older Kotak Life Headstart-series plan; brochure still hosted but not on current plan listings.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/assets/images/uploads/how_do_i/Headstart_Assure_Wealth_Brochure_UIN_107L35V02.pdf"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28",
+   "alt_code": "107L35V02 (as printed in brochure file name)"
+  },
+  {
+   "uin": null,
+   "name": "Kotak Headstart Child Assure",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": "Category best guess",
+   "linkage": "Linked",
+   "participation": null,
+   "need_tags": [
+    "Child"
+   ],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Older Kotak Life child plan; brochure still hosted but not on current plan listings.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/assets/images/uploads/insurance-plans/KotakHeadstartChildAsuure.pdf"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Kotak Ace Investment",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": "Category best guess from name",
+   "linkage": "Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Withdrawn",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Older Kotak Life investment plan; policy document still hosted but not on current plan listings.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.kotaklife.com/assets/images/uploads/how_do_i/pd_ace_investment.pdf"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  }
+ ],
+ "notes": "Inventory comes from Kotak Life customer-information-sheet (CIS) listing pages (sheet, savings, retirement, group, rider, withdrawn), the insurance-plans page (30 plans, names only) and the T&C pages; WebFetch returns model summaries so UINs were cross-checked where possible. Conflicts: (1) Saral Jeevan Bima UIN 107N120V01 per its brochure, although one CIS summary showed 107N139V01 (that is the Signature Term Plan). (2) EDGE: CIS lists 107N164V01 (also in withdrawn list) but a Kotak page shows 107N164V02 - V02 used. (3) Signature Legacy 107N135V01 appears only in the CIS withdrawn list while the plan is on the insurance-plans page - latest version unconfirmed. (4) Gen2Gen Protect: T&C page calls it a savings plan, a bank listing calls it protection. Par/non-par and category are PROVISIONAL (name-based) for GAIN, Guaranteed Savings Plan, SmartLife, Classic Endowment, EDGE, Signature Legacy, Gen2Gen Protect, Lifetime Income Plan, Confident Retirement Savings Plan. Older versions (Lifetime Income 107N103V15-V19, Assured Pension 107N123V09-V12, Guaranteed Fortune Builder 107N128V06-V08, Assured Savings 107N081V07-V08, TULIP V02, Term Plan V06, Retirement Builder V01, e-Invest Plus V01) are superseded versions, not separate products; Group/COA variants of Lifetime Income and Assured Pension share the individual UIN. Health Maximiser is a combi (Kotak Term Plan life cover + Kotak Health Premier from Kotak General); its own UIN belongs to the general insurer. cms.zurichkotak.com 'Products Withdrawn' PDFs belong to Zurich Kotak General Insurance, not Kotak Life - ignored. The Kotak Life withdrawn-products specimen page did not render through fetch; withdrawn rows come from policy-document file names. Status of legacy ULIPs/savings listed on the insurance-plans page (Invest Maxima, Platinum, Wealth Optima, Single Invest Advantage, SmartLife, Classic Endowment) taken as Active per that page. Weekly refresh should fill specs from brochures."
+}
