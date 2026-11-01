@@ -82,20 +82,46 @@
     "observed_on": "2026-11-01",
     "source": "https://apps.apple.com/in/app/hdfc-life-insurance-app/id900441427?uo=4"
    },
-   "third_party": [],
-   "positives": [],
-   "negatives": [],
-   "review_summary": null,
+   "third_party": [
+    {
+     "site": "InsuranceDekho",
+     "rating": 4.6,
+     "reviews_count": 146,
+     "url": "https://www.insurancedekho.com/life-insurance/hdfc/user-reviews",
+     "observed_on": "2026-11-02"
+    },
+    {
+     "site": "Policybazaar",
+     "rating": 4.5,
+     "scale": 5,
+     "reviews_count": 98,
+     "url": "https://www.policybazaar.com/hdfc-standard-life-insurance-reviews-769/",
+     "observed_on": "2026-11-01"
+    }
+   ],
+   "positives": [
+    "Helpful, responsive staff and claim help (about 14 of 30 visible InsuranceDekho reviews, mostly praising the broker's staff)",
+    "Wide plan choice, good value and useful extra features (about 12 of 30 InsuranceDekho reviews)",
+    "Easy, quick buying and online renewals; older Policybazaar reviews also cite easy claims and low premiums"
+   ],
+   "negatives": [
+    "Slow or late service and slow responses, several of them mild (about 6 of 98 Policybazaar reviews)",
+    "Low claim amounts or coverage percentages (2 of 98 Policybazaar reviews, so rare)"
+   ],
+   "review_summary": "HDFC Life's InsuranceDekho page shows 4.6 from 146 reviews, praising helpful staff, plan choice and quick buying, with no complaints among the 30 visible. Its Policybazaar page (4.5 from 98, filed under the earlier name HDFC Standard Life) adds a few complaints about slow responses, but both sites are brokers and most praise targets their platforms rather than HDFC Life's own claims or servicing.",
    "digital_servicing": {
     "whatsapp": null,
     "whatsapp_number": null,
     "customer_app": null,
     "web_chatbot": null,
     "customer_portal": null,
-    "notes": null
+    "notes": "WhatsApp, app and chatbot not shown for HDFC Life; the customer login and policy download links sit on the broker's domain, and a few older reviews praise online renewal without naming the portal owner."
    },
-   "notes": "iOS ratings_count is the rounded figure shown on the App Store page (6.2K). Android package for the main app still to be confirmed: com.hdfcclife.activities is the separate 'HDFC Life USA: NRI Services' app, not the main customer app.",
-   "sources": []
+   "notes": "InsuranceDekho says it does not rate insurers yet shows this 4.6; 116 of 146 reviews not visible.",
+   "sources": [
+    "https://www.insurancedekho.com/life-insurance/hdfc/user-reviews",
+    "https://www.policybazaar.com/hdfc-standard-life-insurance-reviews-769/"
+   ]
   },
   "axismax": {
    "android": {
@@ -187,7 +213,10 @@
      "observed_on": "2026-11-01"
     }
    ],
-   "positives": [],
+   "positives": [
+    "Faint praise only: one reviewer is content with three existing policies",
+    "A few reviewers say the initial sales pitch sounded good before they signed (faint praise, a few of 12)"
+   ],
    "negatives": [
     "Weak or unreachable customer support, with slow email replies and unresolved complaints (about 7 of 12 reviews)",
     "Misleading sales: benefits, withdrawal terms or policy types described differently from what buyers received (about 6 of 12)",
@@ -196,16 +225,17 @@
    ],
    "review_summary": "ICICI Prudential Life's Trustpilot profile has a TrustScore of 1.9/5 from 12 reviews, all one-star, with complaints about support, sales practices and claim denials. The profile is unclaimed and the sample is small, so treat it as an indicator rather than a representative measure.",
    "digital_servicing": {
-    "whatsapp": null,
+    "whatsapp": true,
     "whatsapp_number": null,
     "customer_app": null,
     "web_chatbot": null,
     "customer_portal": null,
-    "notes": null
+    "notes": "WhatsApp partnership per a news headline on ICICI Prudential Life's WhatsApp customer service (date and current status not checked; number not verified)."
    },
-   "notes": "No recurring praise in the Trustpilot sample; 2 of the 12 reviews fall in the last 12 months. No second source read yet.",
+   "notes": "Positives are faint only; 2 of the 12 reviews fall in the last 12 months. No second source read yet.",
    "sources": [
-    "https://www.trustpilot.com/review/iciciprulife.com"
+    "https://www.trustpilot.com/review/iciciprulife.com",
+    "https://www.punekarnews.in/?p=32791"
    ]
   },
   "kotak": {
@@ -227,20 +257,36 @@
     "observed_on": "2026-11-01",
     "source": "https://apps.apple.com/in/app/kli-boost-360/id1501295010?uo=4"
    },
-   "third_party": [],
-   "positives": [],
-   "negatives": [],
-   "review_summary": null,
+   "third_party": [
+    {
+     "site": "InsuranceDekho",
+     "rating": 4.6,
+     "reviews_count": 147,
+     "url": "https://www.insurancedekho.com/life-insurance/kotak/user-reviews",
+     "observed_on": "2026-11-01"
+    }
+   ],
+   "positives": [
+    "Prompt, helpful staff who advise and resolve questions (about 14 of 30 visible reviews, mostly praising the broker)",
+    "Quick, simple online buying, policy issuance and claims (about 8 of 30)",
+    "Clear policy terms, reasonable pricing and options for different budgets (about 7 of 30)"
+   ],
+   "negatives": [
+    "No complaint theme in the 30 visible reviews; the other 117 of 147 are not visible, so negatives are unknown"
+   ],
+   "review_summary": "Kotak Life's InsuranceDekho page shows 4.6 from 147 reviews, but only 30 are visible and they praise prompt staff, quick online buying and clear terms. None of the visible reviews is negative, and most praise is aimed at the broker's service rather than Kotak's own claims or servicing.",
    "digital_servicing": {
     "whatsapp": null,
     "whatsapp_number": null,
     "customer_app": null,
     "web_chatbot": null,
     "customer_portal": null,
-    "notes": null
+    "notes": "WhatsApp appears only in the broker's footer consent text; no Kotak WhatsApp line, app or chatbot shown."
    },
-   "notes": null,
-   "sources": []
+   "notes": "InsuranceDekho shows no scale and says it does not rate insurers; the 4.7 Google badge in its footer appears site-wide.",
+   "sources": [
+    "https://www.insurancedekho.com/life-insurance/kotak/user-reviews"
+   ]
   },
   "absli": {
    "android": {
@@ -254,20 +300,45 @@
     "source": "https://play.google.com/store/apps/details?id=com.bsli.servicebuddy"
    },
    "ios": null,
-   "third_party": [],
-   "positives": [],
-   "negatives": [],
-   "review_summary": null,
+   "third_party": [
+    {
+     "site": "MouthShut",
+     "rating": 1.24,
+     "scale": 5,
+     "url": "https://www.mouthshut.com/product-reviews/aditya-birla-sun-life-insurance-reviews-925030231",
+     "observed_on": "2026-11-02"
+    },
+    {
+     "site": "InsuranceDekho",
+     "rating": 4.6,
+     "reviews_count": 117,
+     "url": "https://www.insurancedekho.com/life-insurance/aditya-birla/user-reviews",
+     "observed_on": "2026-11-02"
+    }
+   ],
+   "positives": [
+    "Helpful information and advice from site content, comparison tools and staff (about 11 of 30 visible reviews)",
+    "Quick, simple, light-paperwork buying and payment (about 8 of 30)",
+    "Broad plan choice and customisation, including riders (about 7 of 30)",
+    "Reassurance on reliability and claims record, plus coverage and tax benefits (about 6 of 30)"
+   ],
+   "negatives": [
+    "Only isolated friction in the 30 visible reviews: trouble buying online that support later helped with (1), too many plans to choose from (1), and initial hesitation (2)"
+   ],
+   "review_summary": "Aditya Birla Sun Life's InsuranceDekho page shows 4.6 from 117 reviews, and the 30 visible ones praise helpful information, quick light-paperwork buying and broad plan choice, with no recurring complaints. MouthShut shows 1.24/5 from page metadata alone with no review text, and most praise concerns the broker's buying experience rather than claims or product performance, so the two sources conflict.",
    "digital_servicing": {
     "whatsapp": null,
     "whatsapp_number": null,
     "customer_app": null,
     "web_chatbot": null,
     "customer_portal": null,
-    "notes": null
+    "notes": "The insurer's own WhatsApp, app, portal and chatbot not shown; the FAQ covers online premium payment by net banking, cards, BillDesk and NEFT."
    },
-   "notes": null,
-   "sources": []
+   "notes": "InsuranceDekho shows no scale and says it does not rate insurers; the MouthShut figure comes from page metadata only; 87 of 117 reviews not visible; per-review stars not shown.",
+   "sources": [
+    "https://www.insurancedekho.com/life-insurance/aditya-birla/user-reviews",
+    "https://www.mouthshut.com/product-reviews/aditya-birla-sun-life-insurance-reviews-925030231"
+   ]
   },
   "tataaia": {
    "android": null,
@@ -279,20 +350,37 @@
     "observed_on": "2026-11-01",
     "source": "https://apps.apple.com/in/app/tata-aia-life-insurance/id1634923478?uo=4"
    },
-   "third_party": [],
-   "positives": [],
-   "negatives": [],
-   "review_summary": null,
+   "third_party": [
+    {
+     "site": "InsuranceDekho",
+     "rating": 4.8,
+     "reviews_count": 75,
+     "url": "https://www.insurancedekho.com/life-insurance/tata-aia/user-reviews",
+     "observed_on": "2026-11-01"
+    }
+   ],
+   "positives": [
+    "Responsive, helpful support and advisors (about 13 of 30 visible reviews, mostly praising the broker)",
+    "A website that makes comparing plans simple, with useful information (about 11 of 30)",
+    "Quick, low-paperwork buying and renewal (about 8 of 30)",
+    "Affordable premiums and good value (about 5 of 30)"
+   ],
+   "negatives": [
+    "Occasional snags in claim or account steps, such as a stalled claim step (about 3 of 30), each resolved with support"
+   ],
+   "review_summary": "Tata AIA Life's InsuranceDekho page shows 4.8 from 75 reviews, and the 30 visible entries praise responsive advisors, a simple plan-comparison site and quick low-paperwork buying. Most praise is for the broker rather than the Tata AIA plan itself, and only three visible reviews describe a snag, each resolved with help, so the rating says little about the insurer's own servicing.",
    "digital_servicing": {
     "whatsapp": null,
     "whatsapp_number": null,
     "customer_app": null,
     "web_chatbot": null,
     "customer_portal": null,
-    "notes": null
+    "notes": "WhatsApp appears only in the broker's footer text; one review says policy information and premium payments are reachable through the broker's portal; the FAQ says premiums can be paid online. Tata AIA's own app and WhatsApp not confirmed."
    },
-   "notes": null,
-   "sources": []
+   "notes": "The page shows no scale and the broker says it does not rate insurers; 45 of 75 reviews not visible; 25 of the 30 visible reviews are from 2023.",
+   "sources": [
+    "https://www.insurancedekho.com/life-insurance/tata-aia/user-reviews"
+   ]
   },
   "sbi": {
    "android": null,
@@ -363,20 +451,38 @@
     "observed_on": "2026-11-01",
     "source": "https://apps.apple.com/in/app/bajaj-life-insurance/id6749006543?uo=4"
    },
-   "third_party": [],
-   "positives": [],
-   "negatives": [],
-   "review_summary": null,
+   "third_party": [
+    {
+     "site": "InsuranceDekho",
+     "rating": 4.7,
+     "reviews_count": 57,
+     "url": "https://www.insurancedekho.com/life-insurance/bajaj-allianz/user-reviews",
+     "observed_on": "2026-11-01"
+    }
+   ],
+   "positives": [
+    "Helpful, knowledgeable advisors and support staff (about 14 of 30 visible reviews)",
+    "Quick, easy buying, often online (about 13 of 30)",
+    "Solid coverage at a reasonable cost that fits needs (about 12 of 30)",
+    "Trust and safety: a dependable firm with protected payments (about 5 of 30)"
+   ],
+   "negatives": [
+    "No complaint theme in the 30 visible reviews (57 stated); 27 are not visible, so complaints cannot be assessed"
+   ],
+   "review_summary": "Bajaj Life's InsuranceDekho page shows 4.7 from 57 reviews, and the 30 visible entries praise knowledgeable advisors, quick online buying and solid coverage at a reasonable cost. Most praise targets the broker's staff and process, the visible reviews contain no complaints, and the broker says it does not rate insurers, so the figure needs caution.",
    "digital_servicing": {
-    "whatsapp": null,
+    "whatsapp": true,
     "whatsapp_number": null,
     "customer_app": null,
     "web_chatbot": null,
     "customer_portal": null,
-    "notes": null
+    "notes": "WhatsApp servicing per a news headline on a Bajaj Allianz Life WhatsApp chatbot launch (launch date and current status not checked; number not verified). Insurer's own app and portal not shown; two reviews mention a portal on the broker's side."
    },
-   "notes": null,
-   "sources": []
+   "notes": "The InsuranceDekho page is headed Bajaj General Life Insurance, which may be a naming error on the broker's site; confirm the entity before use. Scale not shown; visible reviews run from May 2023 to June 2024.",
+   "sources": [
+    "https://www.insurancedekho.com/life-insurance/bajaj-allianz/user-reviews",
+    "https://www.adgully.com/bajaj-allianz-life-launches-ai-enabled-chat-bot-for-an-integrated-whatsapp-service-91578.html"
+   ]
   },
   "pnbmetlife": {
    "android": null,
@@ -388,20 +494,36 @@
     "observed_on": "2026-11-01",
     "source": "https://apps.apple.com/in/app/khushi/id1483018010?uo=4"
    },
-   "third_party": [],
-   "positives": [],
-   "negatives": [],
-   "review_summary": null,
+   "third_party": [
+    {
+     "site": "InsuranceDekho",
+     "rating": 4.7,
+     "reviews_count": 126,
+     "url": "https://www.insurancedekho.com/life-insurance/pnb-metlife/user-reviews",
+     "observed_on": "2026-11-01"
+    }
+   ],
+   "positives": [
+    "Patient, helpful advice on choosing a plan (about 15 of 30 visible reviews, mostly praising the broker's staff)",
+    "Low premiums with no hidden fees noted (about 7 of 30)",
+    "Easy, smooth buying, often through the broker's website (about 6 of 30)"
+   ],
+   "negatives": [
+    "Little negative feedback: pre-purchase doubts and long plan searches (about 4 of 30 visible reviews), all described as resolved"
+   ],
+   "review_summary": "PNB MetLife's InsuranceDekho page shows 4.7 from 126 reviews, of which 30 are visible, and those praise the broker's advice, low premiums and online buying. Few visible reviews assess the insurer's own claims or servicing, so the rating says little about its post-sale experience.",
    "digital_servicing": {
     "whatsapp": null,
     "whatsapp_number": null,
     "customer_app": null,
     "web_chatbot": null,
     "customer_portal": null,
-    "notes": null
+    "notes": "WhatsApp appears only in the broker's footer consent text; PNB MetLife's own app, WhatsApp and portal not confirmed."
    },
-   "notes": null,
-   "sources": []
+   "notes": "Scale not shown; 96 of 126 reviews not visible; the broker says it does not rate insurers yet shows this figure; the footer 4.7 Google badge appears site-wide.",
+   "sources": [
+    "https://www.insurancedekho.com/life-insurance/pnb-metlife/user-reviews"
+   ]
   },
   "indusindnippon": {
    "android": {
@@ -422,38 +544,73 @@
     "observed_on": "2026-11-01",
     "source": "https://apps.apple.com/in/app/inlic-customer-connect-app/id6499210554?uo=4"
    },
-   "third_party": [],
-   "positives": [],
-   "negatives": [],
-   "review_summary": null,
+   "third_party": [
+    {
+     "site": "InsuranceDekho",
+     "rating": 4.9,
+     "reviews_count": 152,
+     "url": "https://www.insurancedekho.com/life-insurance/reliance/user-reviews",
+     "observed_on": "2026-11-02"
+    }
+   ],
+   "positives": [
+    "Responsive support and guidance, including plan recommendations (about 8 of 30 visible reviews)",
+    "Simple, informative website and online tools (about 8 of 30)",
+    "Flexible features such as customisable cover, riders and critical-illness cover (about 7 of 30)",
+    "Quick, self-managed buying with little friction (about 7 of 30)"
+   ],
+   "negatives": [
+    "No complaint theme in the 30 visible reviews (152 stated); claims come up in only about 3 of 30, so claim experience is largely unknown"
+   ],
+   "review_summary": "IndusInd Nippon Life's InsuranceDekho page shows 4.9 from 152 reviews, and the 30 visible ones praise responsive guidance, a simple website and flexible riders. Most praise concerns buying through the broker rather than IndusInd's own service, and with no complaints visible the sample says little about post-sale experience.",
    "digital_servicing": {
     "whatsapp": null,
     "whatsapp_number": null,
     "customer_app": null,
     "web_chatbot": null,
     "customer_portal": null,
-    "notes": null
+    "notes": "IndusInd's own WhatsApp, app, chatbot and portal not shown; the only insurer-side channel mentioned is an in-person branch, used for premium-frequency changes."
    },
-   "notes": null,
-   "sources": []
+   "notes": "The broker's disclaimer says it does not rate insurers, yet the page shows this 4.9; scale not shown; 122 of 152 reviews not visible; visible reviews run from June 2023 to February 2024.",
+   "sources": [
+    "https://www.insurancedekho.com/life-insurance/reliance/user-reviews"
+   ]
   },
   "aviva": {
    "android": null,
    "ios": null,
-   "third_party": [],
-   "positives": [],
-   "negatives": [],
-   "review_summary": null,
+   "third_party": [
+    {
+     "site": "Policybazaar",
+     "rating": 4.3,
+     "scale": 5,
+     "reviews_count": 36,
+     "url": "https://www.policybazaar.com/aviva-life-insurance-reviews-683/",
+     "observed_on": "2026-11-02"
+    }
+   ],
+   "positives": [
+    "Buying or customising policies online through the broker's site (about 6 of 10 visible reviews)",
+    "Suitable plan quality, broad choice and useful benefits (about 6 of 10)",
+    "Family financial protection and a sense of safety (about 3 of 10)",
+    "Simple, clear information and a strong claim settlement ratio (about 2 of 10)"
+   ],
+   "negatives": [
+    "No complaint theme in the 10 visible reviews (all five-star); the 4.3 average implies the 26 hidden reviews average about four stars, so their content is unknown"
+   ],
+   "review_summary": "Aviva Life's Policybazaar page shows 4.3 from 36 reviews, and the 10 visible ones praise online buying, broad plan choice and family protection. Nine of the 10 mention the broker, none describes a claim payout, and the newest visible review is from July 2024, so the sample is dated and broker-led.",
    "digital_servicing": {
     "whatsapp": null,
     "whatsapp_number": null,
     "customer_app": null,
     "web_chatbot": null,
     "customer_portal": null,
-    "notes": null
+    "notes": "WhatsApp, app, portal and chatbot not shown for Aviva; the one claims reference points to Aviva's official website for the claim form."
    },
-   "notes": null,
-   "sources": []
+   "notes": "Only 10 of 36 reviews visible; the 4.3 figure is the broker's; Aviva's own app and WhatsApp not confirmed.",
+   "sources": [
+    "https://www.policybazaar.com/aviva-life-insurance-reviews-683/"
+   ]
   },
   "sahara": {
    "android": null,
@@ -483,20 +640,37 @@
     "observed_on": "2026-11-01",
     "source": "https://apps.apple.com/in/app/shrimithra/id6751533161?uo=4"
    },
-   "third_party": [],
-   "positives": [],
-   "negatives": [],
-   "review_summary": null,
+   "third_party": [
+    {
+     "site": "InsuranceDekho",
+     "rating": 4.8,
+     "reviews_count": 88,
+     "url": "https://www.insurancedekho.com/life-insurance/shriram/user-reviews",
+     "observed_on": "2026-11-02"
+    }
+   ],
+   "positives": [
+    "Helpful, responsive staff and advisors (about 12 of 30 visible reviews, mostly praising the broker)",
+    "Affordable, flexible plans with riders and family cover (about 10 of 30)",
+    "Quick, low-paperwork buying and renewals, with reminders (about 10 of 30)",
+    "Easy-to-use website and online tools (about 6 of 30)"
+   ],
+   "negatives": [
+    "No complaint theme in the 30 visible reviews (88 stated); none describes a claim, so claim experience is unknown"
+   ],
+   "review_summary": "Shriram Life's InsuranceDekho page shows 4.8 from 88 reviews, and all 30 visible entries are positive, praising responsive advisors, affordable plans and quick online buying. Most reviews describe buying or renewing through the broker and none of the visible ones describes a claim, so the rating says little about Shriram's own servicing.",
    "digital_servicing": {
     "whatsapp": null,
     "whatsapp_number": null,
     "customer_app": null,
     "web_chatbot": null,
     "customer_portal": null,
-    "notes": null
+    "notes": "WhatsApp, app and chatbot not shown for Shriram; its FAQ mentions a Policy Account login with no platform named, and one review mentions renewing through an unnamed online portal."
    },
-   "notes": null,
-   "sources": []
+   "notes": "Scale not shown; only 30 of 88 reviews visible; the footer 4.7 Google badge appears to belong to the broker, not Shriram.",
+   "sources": [
+    "https://www.insurancedekho.com/life-insurance/shriram/user-reviews"
+   ]
   },
   "bharti": {
    "android": null,
@@ -508,20 +682,46 @@
     "observed_on": "2026-11-01",
     "source": "https://apps.apple.com/in/app/bharti-axa-life/id6448939346?uo=4"
    },
-   "third_party": [],
-   "positives": [],
-   "negatives": [],
-   "review_summary": null,
+   "third_party": [
+    {
+     "site": "Policybazaar",
+     "rating": 4.2,
+     "scale": 5,
+     "reviews_count": 31,
+     "url": "https://www.policybazaar.com/bharti-axa-life-insurance-reviews-600/",
+     "observed_on": "2026-11-02"
+    },
+    {
+     "site": "MouthShut",
+     "rating": 1.31,
+     "scale": 5,
+     "url": "https://www.mouthshut.com/product-reviews/bharti-axa-life-insurance-reviews-925076590",
+     "observed_on": "2026-11-02"
+    }
+   ],
+   "positives": [
+    "Affordable premiums (about 6 of 10 visible reviews)",
+    "Easy online process for searching, comparing, buying or renewing (about 5 of 10)",
+    "Quick, helpful service and smooth claims (about 5 of 10)",
+    "Good coverage and returns (about 4 of 10)"
+   ],
+   "negatives": [
+    "No recurring complaint in the 10 visible reviews (all five-star); one reviewer had trouble getting a hard copy of the policy, later resolved by the broker's team"
+   ],
+   "review_summary": "Bharti Life's Policybazaar page shows 4.2 from 31 reviews, and the 10 visible ones praise affordable premiums, easy online buying and smooth claims. MouthShut rates the insurer 1.31/5 from page metadata with no review text retrieved, and the visible 10 are probably unrepresentative, so the two sources conflict.",
    "digital_servicing": {
     "whatsapp": null,
     "whatsapp_number": null,
     "customer_app": null,
     "web_chatbot": null,
     "customer_portal": null,
-    "notes": null
+    "notes": "WhatsApp, app, portal and chatbot not shown for the insurer; the only app and renewal links on the page are the broker's."
    },
-   "notes": null,
-   "sources": []
+   "notes": "Listed as Bharti AXA Life on Policybazaar, so the rename is not reflected; the page header shows 4.8 with garbled text that does not reconcile with 4.2; 21 of 31 reviews not visible; visible dates run from May 2016 to September 2021.",
+   "sources": [
+    "https://www.policybazaar.com/bharti-axa-life-insurance-reviews-600/",
+    "https://www.mouthshut.com/product-reviews/bharti-axa-life-insurance-reviews-925076590"
+   ]
   },
   "generalicentral": {
    "android": {
@@ -542,20 +742,38 @@
     "observed_on": "2026-11-01",
     "source": "https://apps.apple.com/in/app/gc-life/id1524802982?uo=4"
    },
-   "third_party": [],
-   "positives": [],
-   "negatives": [],
-   "review_summary": null,
+   "third_party": [
+    {
+     "site": "Policybazaar",
+     "rating": 4.2,
+     "scale": 5,
+     "reviews_count": 33,
+     "url": "https://www.policybazaar.com/future-generali-life-insurance-reviews-529/",
+     "observed_on": "2026-11-02"
+    }
+   ],
+   "positives": [
+    "Easy online buying, quoting, paying and renewing (about 5 of 10 visible reviews, mostly via the broker)",
+    "Affordable premiums and discounts (about 4 of 10)",
+    "Family protection and safety features (about 4 of 10)",
+    "Helpful service, claims handling and regular updates (about 2 of 10)"
+   ],
+   "negatives": [
+    "No complaints among the 10 visible reviews (all five-star); the 4.2 average implies the 23 hidden reviews average about 3.8 to 3.9 stars, so some complaints are likely but not visible"
+   ],
+   "review_summary": "Generali Central Life's Policybazaar page shows 4.2 from 33 reviews, although a page header also shows 4.8 with no scale, and the 10 visible reviews praise easy online buying, affordable premiums and family protection. Nine of the 10 mention the broker, the newest visible review is from July 2024, and the hidden reviews average lower, so the picture is dated and broker-led.",
    "digital_servicing": {
-    "whatsapp": null,
+    "whatsapp": true,
     "whatsapp_number": null,
     "customer_app": null,
     "web_chatbot": null,
-    "customer_portal": null,
-    "notes": null
+    "customer_portal": true,
+    "notes": "Per Policybazaar's description of the insurer's channels: WhatsApp for quick help and policy matters, and a round-the-clock online portal for policy management, premium payments, statements and claim tracking. Not checked on the insurer's site; the WhatsApp number is left out because it was not verified."
    },
-   "notes": null,
-   "sources": []
+   "notes": "Only Policybazaar's app is mentioned; 23 of 33 reviews not visible; one visible review concerns a Max Life policy rather than Generali.",
+   "sources": [
+    "https://www.policybazaar.com/future-generali-life-insurance-reviews-529/"
+   ]
   },
   "ageasfederal": {
    "android": null,
@@ -567,20 +785,37 @@
     "observed_on": "2026-11-01",
     "source": "https://apps.apple.com/in/app/ageas-federal-life-insurance/id6756178483?uo=4"
    },
-   "third_party": [],
-   "positives": [],
-   "negatives": [],
-   "review_summary": null,
+   "third_party": [
+    {
+     "site": "InsuranceDekho",
+     "rating": 5.0,
+     "reviews_count": 63,
+     "url": "https://www.insurancedekho.com/life-insurance/ageas-federal/user-reviews",
+     "observed_on": "2026-11-02"
+    }
+   ],
+   "positives": [
+    "Helpful guidance from the broker's team, including round-the-clock availability (about 8 of 30 visible reviews)",
+    "Simple, trouble-free buying and an easy-to-use website (about 6 of 30)",
+    "Bought online or fully digitally, often from home (about 5 of 30)",
+    "Reasonable premiums and savings from skipping an agent (about 5 of 30)"
+   ],
+   "negatives": [
+    "No complaints among the 30 visible reviews; two found plan choice confusing at first, and both resolved it by picking a plan"
+   ],
+   "review_summary": "Ageas Federal Life's InsuranceDekho page shows 5.0 from 63 reviews, and the 30 visible ones praise helpful broker guidance, simple online buying and reasonable premiums. Twenty-nine of the 30 name the same plan with similar wording, none is negative and none describes a claim, so the sample is narrow and broker-led.",
    "digital_servicing": {
     "whatsapp": null,
     "whatsapp_number": null,
     "customer_app": null,
     "web_chatbot": null,
     "customer_portal": null,
-    "notes": null
+    "notes": "WhatsApp, app, portal and chatbot not shown for Ageas Federal; two reviews praise the broker's website or portal, and a policy-download link appears without detail."
    },
-   "notes": null,
-   "sources": []
+   "notes": "The page does not label a scale; 33 of 63 reviews not visible; visible reviews run from July 2022 to January 2024, mostly 2022.",
+   "sources": [
+    "https://www.insurancedekho.com/life-insurance/ageas-federal/user-reviews"
+   ]
   },
   "canarahsbc": {
    "android": null,
@@ -592,38 +827,83 @@
     "observed_on": "2026-11-01",
     "source": "https://apps.apple.com/in/app/canara-hsbc-life/id1637840399?uo=4"
    },
-   "third_party": [],
-   "positives": [],
-   "negatives": [],
-   "review_summary": null,
+   "third_party": [
+    {
+     "site": "Policybazaar",
+     "rating": 4.5,
+     "scale": 5,
+     "reviews_count": 34,
+     "url": "https://www.policybazaar.com/canara-hsbc-life-insurance-reviews-486/",
+     "observed_on": "2026-11-01"
+    },
+    {
+     "site": "MouthShut",
+     "rating": 1.14,
+     "scale": 5,
+     "url": "https://www.mouthshut.com/product-reviews/canara-hsbc-life-insurance-reviews-925713437",
+     "observed_on": "2026-11-02"
+    }
+   ],
+   "positives": [
+    "Quick, helpful service and staff (about 20 of 34 reviews)",
+    "Coverage seen as strong, often cited as a percentage (about 20 of 34)",
+    "Claims seen as easy or well handled (about 18 of 34)",
+    "Premiums seen as cheap or affordable (about 17 of 34)"
+   ],
+   "negatives": [
+    "Coverage or claim outcomes seen as weaker than hoped (about 4 of 34)",
+    "Sluggish service and support gaps at times (about 2 of 34)",
+    "Website could be better (about 2 of 34)"
+   ],
+   "review_summary": "Canara HSBC Life's Policybazaar page averages 4.5 from 34 reviews, praising quick service, strong coverage, easy claims and affordable premiums, but its entries cluster in 2016, all show five stars and include near-identical pairs. MouthShut rates the insurer 1.14/5 from page metadata alone with no review text retrieved, so the two sources conflict.",
    "digital_servicing": {
     "whatsapp": null,
     "whatsapp_number": null,
     "customer_app": null,
     "web_chatbot": null,
     "customer_portal": null,
-    "notes": null
+    "notes": "Canara HSBC's own app, WhatsApp and portal not shown; about 10 reviews praise online buying through the broker's site."
    },
-   "notes": null,
-   "sources": []
+   "notes": "Sub-ratings are five stars each with no numbers; 24 of 34 reviews name Canara HSBC; only the broker's app is linked on the page; the MouthShut figure is from page metadata and its review text was not captured.",
+   "sources": [
+    "https://www.policybazaar.com/canara-hsbc-life-insurance-reviews-486/",
+    "https://www.mouthshut.com/product-reviews/canara-hsbc-life-insurance-reviews-925713437"
+   ]
   },
   "bandhan": {
    "android": null,
    "ios": null,
-   "third_party": [],
-   "positives": [],
-   "negatives": [],
-   "review_summary": null,
+   "third_party": [
+    {
+     "site": "InsuranceDekho",
+     "rating": 4.6,
+     "reviews_count": 144,
+     "url": "https://www.insurancedekho.com/life-insurance/aegon/user-reviews",
+     "observed_on": "2026-11-02"
+    }
+   ],
+   "positives": [
+    "Helpful staff who answer questions and guide buyers (about 12 of 30 visible reviews, mostly praising the broker)",
+    "Quick, simple buying or renewal (about 8 of 30)",
+    "Reassurance and family financial protection (about 6 of 30)",
+    "Affordability and choice in how premiums are paid (about 5 of 30)"
+   ],
+   "negatives": [
+    "No complaints among the 30 visible reviews (144 stated); no visible review describes a claim payout, so claims are unknown"
+   ],
+   "review_summary": "Bandhan Life's InsuranceDekho page, whose URL and most reviews still say Aegon, shows 4.6 from 144 reviews, with the 30 visible ones praising helpful staff, quick buying and family protection. None of the visible reviews complains or describes a claim, and the broker's disclaimer says it does not rate insurers, so the figure says little about Bandhan's post-sale servicing.",
    "digital_servicing": {
     "whatsapp": null,
     "whatsapp_number": null,
     "customer_app": null,
     "web_chatbot": null,
     "customer_portal": null,
-    "notes": null
+    "notes": "WhatsApp, app and chatbot not shown for Bandhan; the customer login and policy download links sit on the broker's domain."
    },
-   "notes": null,
-   "sources": []
+   "notes": "Visible reviews run from June 2023 to March 2024; the page does not explain how reviews are collected; scale not shown.",
+   "sources": [
+    "https://www.insurancedekho.com/life-insurance/aegon/user-reviews"
+   ]
   },
   "pramerica": {
    "android": {
@@ -637,20 +917,37 @@
     "source": "https://play.google.com/store/apps/details?id=com.pramericasuperapp"
    },
    "ios": null,
-   "third_party": [],
-   "positives": [],
-   "negatives": [],
-   "review_summary": null,
+   "third_party": [
+    {
+     "site": "InsuranceDekho",
+     "rating": 4.9,
+     "reviews_count": 124,
+     "url": "https://www.insurancedekho.com/life-insurance/pramerica/user-reviews",
+     "observed_on": "2026-11-02"
+    }
+   ],
+   "positives": [
+    "Quick, simple online buying and paperwork (about 13 of 30 visible reviews, mostly via the broker)",
+    "Supportive, responsive staff who guided choices (about 8 of 30)",
+    "Useful coverage such as family protection, critical-illness cover and plan-change options (about 8 of 30)",
+    "Reasonable premiums and good value (about 6 of 30)"
+   ],
+   "negatives": [
+    "No recurring complaint in the 30 visible reviews (124 stated); one reviewer was wary of entering details online at first, then reassured by staff"
+   ],
+   "review_summary": "Pramerica Life's InsuranceDekho page shows 4.9 from 124 reviews, and the 30 visible ones praise quick online buying, responsive staff and useful coverage, with no complaints. Most reviews describe buying through the broker, only one mentions a claim (how it was filed, not whether it was paid), and the broker says it does not rate insurers, so the figure needs caution.",
    "digital_servicing": {
     "whatsapp": null,
     "whatsapp_number": null,
     "customer_app": null,
     "web_chatbot": null,
     "customer_portal": null,
-    "notes": null
+    "notes": "Pramerica's own WhatsApp, app, portal and chatbot not shown; the online portal and chatbot mentions belong to the broker."
    },
-   "notes": null,
-   "sources": []
+   "notes": "Scale not shown (likely out of 5, unconfirmed); 94 of 124 reviews not visible; three visible reviews mention other products, which may point to reused wording.",
+   "sources": [
+    "https://www.insurancedekho.com/life-insurance/pramerica/user-reviews"
+   ]
   },
   "sud": {
    "ios": {
@@ -661,20 +958,45 @@
     "observed_on": "2026-11-01",
     "source": "https://apps.apple.com/in/app/you-matter-by-sud-life/id1636868769?uo=4"
    },
-   "third_party": [],
-   "positives": [],
-   "negatives": [],
-   "review_summary": null,
+   "third_party": [
+    {
+     "site": "InsuranceDekho",
+     "rating": 4.9,
+     "reviews_count": 21,
+     "url": "https://www.insurancedekho.com/life-insurance/daiichi/user-reviews",
+     "observed_on": "2026-11-02"
+    },
+    {
+     "site": "MouthShut",
+     "rating": 1.15,
+     "scale": 5,
+     "url": "https://www.mouthshut.com/product-reviews/star-union-dai-ichi-life-insurance-reviews-925615862",
+     "observed_on": "2026-11-02"
+    }
+   ],
+   "positives": [
+    "Quick, simple purchase and policy issuance on the broker's site (about 9 of 21 visible reviews)",
+    "Helpful advice and support, mostly from broker staff (about 7 of 21)",
+    "Broad plan choice and useful features or riders (about 6 of 21)",
+    "Online or paperless steps for documents, quotes and payments (about 4 of 21)"
+   ],
+   "negatives": [
+    "No complaint theme in the 21 visible InsuranceDekho reviews; one reviewer struggled to pick a plan and one had purchase concerns, both resolved with help"
+   ],
+   "review_summary": "SUD Life's InsuranceDekho page shows 4.9 from 21 reviews, almost all about quick online purchase and helpful broker advice, with no complaints visible. MouthShut rates the insurer 1.15/5 from page metadata alone, with no review text retrieved, so the two sources conflict and the post-sale picture is unclear.",
    "digital_servicing": {
     "whatsapp": null,
     "whatsapp_number": null,
     "customer_app": null,
     "web_chatbot": null,
     "customer_portal": null,
-    "notes": null
+    "notes": "WhatsApp, app and chatbot not shown; the FAQ says premiums can be paid online after logging into a portal (operator not named) and that complaints can be filed online."
    },
-   "notes": null,
-   "sources": []
+   "notes": "The InsuranceDekho page shows no scale and says it does not rate insurers; the MouthShut figure comes from page metadata and its content was cut off; the page names the insurer as Daiichi (Star Union Dai-ichi).",
+   "sources": [
+    "https://www.insurancedekho.com/life-insurance/daiichi/user-reviews",
+    "https://www.mouthshut.com/product-reviews/star-union-dai-ichi-life-insurance-reviews-925615862"
+   ]
   },
   "indiafirst": {
    "android": null,
@@ -686,20 +1008,45 @@
     "observed_on": "2026-11-01",
     "source": "https://apps.apple.com/in/app/indiafirst-life-bob/id6503947273?uo=4"
    },
-   "third_party": [],
-   "positives": [],
-   "negatives": [],
-   "review_summary": null,
+   "third_party": [
+    {
+     "site": "InsuranceDekho",
+     "rating": 4.9,
+     "reviews_count": 163,
+     "url": "https://www.insurancedekho.com/life-insurance/indiafirst/user-reviews",
+     "observed_on": "2026-11-02"
+    },
+    {
+     "site": "MouthShut",
+     "rating": 1.55,
+     "scale": 5,
+     "url": "https://www.mouthshut.com/product-reviews/indiafirst-life-insurance-reviews-925715824",
+     "observed_on": "2026-11-02"
+    }
+   ],
+   "positives": [
+    "Quick, easy online buying through the website, quote tool and fast issuance (about 8 of 30 visible reviews)",
+    "Helpful, responsive staff and guidance (about 8 of 30)",
+    "Flexible plans and add-on riders (about 5 of 30)",
+    "Low premiums and sizable payouts (about 4 of 30)"
+   ],
+   "negatives": [
+    "No complaint theme in the 30 visible reviews (163 stated), so complaint themes cannot be identified from this sample"
+   ],
+   "review_summary": "IndiaFirst Life's InsuranceDekho page shows 4.9 from 163 reviews, and its 30 visible entries praise quick online buying, responsive staff and flexible riders. MouthShut rates it 1.55/5 from page metadata alone, and the broker's disclaimer says it does not rate insurers, so the two sources conflict and the figure needs caution.",
    "digital_servicing": {
     "whatsapp": null,
     "whatsapp_number": null,
     "customer_app": null,
     "web_chatbot": null,
     "customer_portal": null,
-    "notes": null
+    "notes": "IndiaFirst's own app, WhatsApp, chatbot and portal not shown; its FAQ mentions online premium payment and renewal without naming a channel."
    },
-   "notes": null,
-   "sources": []
+   "notes": "Scale not shown on InsuranceDekho; 133 of 163 reviews not visible; newest visible review is from February 2024; the MouthShut figure is from page metadata and its review text was not captured.",
+   "sources": [
+    "https://www.insurancedekho.com/life-insurance/indiafirst/user-reviews",
+    "https://www.mouthshut.com/product-reviews/indiafirst-life-insurance-reviews-925715824"
+   ]
   },
   "edelweiss": {
    "android": {
@@ -713,20 +1060,46 @@
     "source": "https://play.google.com/store/apps/details?id=in.geogo.kriyam.fs.two"
    },
    "ios": null,
-   "third_party": [],
-   "positives": [],
-   "negatives": [],
-   "review_summary": null,
+   "third_party": [
+    {
+     "site": "Policybazaar",
+     "rating": 4.7,
+     "scale": 5,
+     "reviews_count": 41,
+     "url": "https://www.policybazaar.com/edelweiss-tokio-life-insurance-reviews-394/",
+     "observed_on": "2026-11-02"
+    },
+    {
+     "site": "MouthShut",
+     "rating": 1.69,
+     "scale": 5,
+     "url": "https://www.mouthshut.com/product-reviews/edelweiss-tokio-life-insurance-reviews-925715825",
+     "observed_on": "2026-11-02"
+    }
+   ],
+   "positives": [
+    "Broad coverage and useful extras (about 25 of 41 reviews)",
+    "Helpful, prompt staff during issuance and claims (about 21 of 41)",
+    "Affordable premiums that fit reviewers' budgets (about 19 of 41)",
+    "Easy buying through the broker's advisers and site, mostly praise for the broker rather than the insurer (about 21 of 41)"
+   ],
+   "negatives": [
+    "No complaints visible across the 41 reviews; the only dissatisfaction signal is MouthShut's 1.69/5 metadata rating, with its reasons not shown"
+   ],
+   "review_summary": "Edelweiss Life (formerly Edelweiss Tokio Life) has a PolicyBazaar page showing 4.7 from 41 reviews, praising broad coverage, prompt staff and affordable premiums. However, all 41 reviews and their sub-ratings are five-star, so the 4.7 cannot be reproduced, and MouthShut's 1.69/5 (page metadata only, no review text) points the other way.",
    "digital_servicing": {
     "whatsapp": null,
     "whatsapp_number": null,
     "customer_app": null,
     "web_chatbot": null,
     "customer_portal": null,
-    "notes": null
+    "notes": "WhatsApp, app, portal and chatbot not shown for the insurer; two 2016 reviews mention web or online-portal services without naming the provider; the app and renewal links on the page are the broker's."
    },
-   "notes": null,
-   "sources": []
+   "notes": "The PolicyBazaar page is still titled Edelweiss Tokio Life; most reviews date from 2016 (22 of 41); three October 2020 reviews describe a Canara HSBC plan, not Edelweiss.",
+   "sources": [
+    "https://www.policybazaar.com/edelweiss-tokio-life-insurance-reviews-394/",
+    "https://www.mouthshut.com/product-reviews/edelweiss-tokio-life-insurance-reviews-925715825"
+   ]
   },
   "creditaccess": {
    "android": null,
@@ -743,7 +1116,7 @@
     "customer_portal": null,
     "notes": null
    },
-   "notes": null,
+   "notes": "No CreditAccess Life customer-review pages were found: the searches returned only generic Policybazaar life-insurance pages and a credit-life explainer, which were not used. Values from the 2026-10-28 run were not re-confirmed.",
    "sources": []
   },
   "acko": {
@@ -761,7 +1134,7 @@
     "customer_portal": null,
     "notes": null
    },
-   "notes": null,
+   "notes": "No Acko Life customer-review pages were found: the searches returned only Acko General and Acko Health pages, which were not used. Values from the 2026-10-28 run were not re-confirmed.",
    "sources": []
   },
   "godigit": {
@@ -779,7 +1152,7 @@
     "customer_portal": null,
     "notes": null
    },
-   "notes": null,
+   "notes": "No Go Digit Life customer-review pages were found: the searches returned only Go Digit General and Digit Health pages, which were not used. Values from the 2026-10-28 run were not re-confirmed.",
    "sources": []
   },
   "indiapost": {
@@ -801,13 +1174,15 @@
    "digital_servicing": {
     "whatsapp": null,
     "whatsapp_number": null,
-    "customer_app": null,
+    "customer_app": true,
     "web_chatbot": null,
-    "customer_portal": null,
-    "notes": null
+    "customer_portal": true,
+    "notes": "Per the PLI customer portal page: premiums can be paid through the IPPB App (India Post Payments Bank), which has a download link, and NACH auto-debit is offered; a Customer Portal is referenced but not described. WhatsApp and chatbot not shown; no Android package id on the page."
    },
-   "notes": null,
-   "sources": []
+   "notes": "No third-party customer reviews or ratings for PLI or RPLI were found in the searches run, and the official portal shows no rating or review count, so review fields were not refreshed; values from the 2026-10-28 run were not re-confirmed.",
+   "sources": [
+    "https://pli.indiapost.gov.in/CustomerPortal/AboutUs.action"
+   ]
   }
  },
  "hdfc": {

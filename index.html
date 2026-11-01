@@ -30,6 +30,9 @@
   --good-text:#006300; --crit-text:#b3312f; --warn-text:#8a5a00;
   --cat-1:#2a78d6; --cat-2:#eb6834; --cat-3:#1baf7a; --cat-4:#eda100; --cat-5:#e87ba4; --cat-6:#008300;
   --seq-1:#e3eefb; --seq-2:#cde2fb; --seq-3:#9ec5f4; --seq-4:#6da7ec; --seq-5:#3987e5; --seq-6:#256abf; --seq-7:#184f95;
+  --div-pos:#2a78d6; --div-neg:#e34948; --div-mid:#f0efec;  /* diverging pair: blue above zero, red below, gray midpoint */
+  --on-cat-1:#ffffff; --on-cat-2:#0b0b0b; --on-cat-3:#0b0b0b; --on-cat-4:#0b0b0b; --on-cat-5:#0b0b0b; --on-cat-6:#ffffff;  /* label ink inside each categorical fill, whichever of white or near-black reads better */
+  --on-pos:#ffffff; --on-neg:#0b0b0b;
   --font-ui:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
   --font-display:"IBM Plex Sans Condensed","IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
   --font-mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
@@ -43,6 +46,8 @@
     --good-text:#3ccb5a; --crit-text:#ef7b78; --warn-text:#f2b84b;
     --cat-1:#3987e5; --cat-2:#d95926; --cat-3:#199e70; --cat-4:#c98500; --cat-5:#d55181; --cat-6:#008300;
     --seq-1:#18222d; --seq-2:#1b3150; --seq-3:#1d4a80; --seq-4:#2565b0; --seq-5:#3a86de; --seq-6:#6ea9ee; --seq-7:#a8cdf6;
+    --div-pos:#3987e5; --div-neg:#e66767; --div-mid:#383835;
+    --on-cat-1:#0b0b0b; --on-cat-2:#0b0b0b; --on-cat-3:#0b0b0b; --on-cat-4:#0b0b0b; --on-cat-5:#0b0b0b; --on-cat-6:#ffffff; --on-pos:#0b0b0b; --on-neg:#0b0b0b;
     color-scheme:dark;
   }
 }
@@ -53,6 +58,8 @@
   --good-text:#3ccb5a; --crit-text:#ef7b78; --warn-text:#f2b84b;
   --cat-1:#3987e5; --cat-2:#d95926; --cat-3:#199e70; --cat-4:#c98500; --cat-5:#d55181; --cat-6:#008300;
   --seq-1:#18222d; --seq-2:#1b3150; --seq-3:#1d4a80; --seq-4:#2565b0; --seq-5:#3a86de; --seq-6:#6ea9ee; --seq-7:#a8cdf6;
+  --div-pos:#3987e5; --div-neg:#e66767; --div-mid:#383835;
+  --on-cat-1:#0b0b0b; --on-cat-2:#0b0b0b; --on-cat-3:#0b0b0b; --on-cat-4:#0b0b0b; --on-cat-5:#0b0b0b; --on-cat-6:#ffffff; --on-pos:#0b0b0b; --on-neg:#0b0b0b;
   color-scheme:dark;
 }
 *{box-sizing:border-box}
@@ -205,6 +212,7 @@ details.filterbox > summary::-webkit-details-marker{display:none}
 .med-line{stroke:var(--line-strong);stroke-width:1}
 .dot{fill:var(--accent);stroke:var(--surface);stroke-width:2}
 .dot.mut{fill:var(--emph-muted)}
+.svgchart .dot{pointer-events:none}
 .hit{fill:transparent;cursor:pointer}
 .hit:hover + .dot,.hit:focus + .dot{stroke:var(--ink)}
 .cols{display:flex;align-items:flex-end;gap:2px;height:160px;padding-top:18px}
@@ -232,6 +240,7 @@ details.filterbox > summary::-webkit-details-marker{display:none}
 .dhead .ins{color:var(--ink-2);font-weight:500;margin-bottom:4px}
 .dhead h1{font-size:1.9rem}
 .dhead .desc{color:var(--ink-2);margin-top:10px;max-width:70ch}
+.dhead .stamp{white-space:normal;line-height:1.4;max-width:100%}
 .actions{display:flex;flex-wrap:wrap;gap:8px}
 .uin{display:inline-flex;align-items:stretch;border:1px solid var(--line-strong);border-radius:5px;overflow:hidden;background:var(--surface)}
 .uin > span{display:flex;flex-direction:column;align-items:center;padding:6px 10px;border-right:1px solid var(--line)}
@@ -286,12 +295,153 @@ td.desc{min-width:260px;max-width:460px;color:var(--ink-2);font-size:.82rem}
 .loading{padding:60px 0;text-align:center;color:var(--muted)}
 .prose{max-width:72ch;display:flex;flex-direction:column;gap:10px;color:var(--ink-2)}
 .prose h3{color:var(--ink);margin-top:10px}
+/* ownership, product analytics and the extra overview charts */
+.kpis.k4{grid-template-columns:repeat(4,minmax(0,1fr))}
+@media (max-width:1050px){.kpis.k4{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.grid.eq{align-items:stretch}
+.fn{font-size:.76rem;color:var(--muted);margin-top:10px;max-width:80ch}
+.fn a{color:inherit}
+.al-mid{transform:translateX(-50%)}
+.al-start{transform:none}
+.al-end{transform:translateX(-100%)}
+.legend i.dotk{border-radius:50%}
+.legend i.hollow{background:transparent;box-shadow:inset 0 0 0 2px var(--c,var(--accent))}
+.hatch{background:repeating-linear-gradient(45deg,var(--line-strong) 0 2px,transparent 2px 6px)}
+.legend i.hatch{box-shadow:inset 0 0 0 1px var(--line-strong)}
+.lead{color:var(--ink-2);margin-top:12px;max-width:72ch}
+
+/* collapsible section */
+details.fold{margin-bottom:22px}
+details.fold > summary{list-style:none;cursor:pointer;display:flex;align-items:flex-start;justify-content:space-between;gap:12px;padding-bottom:12px;border-bottom:1px solid var(--line)}
+details.fold > summary::-webkit-details-marker{display:none}
+details.fold[open] > summary{margin-bottom:16px}
+.fold-s{display:block;color:var(--muted);font-size:.8rem;margin-top:3px}
+.fold-k{flex:0 0 auto;display:inline-flex;align-items:center;gap:8px;font-size:.84rem;color:var(--ink-2);padding-top:4px}
+.fold-k::before{content:"Show"}
+details.fold[open] .fold-k::before{content:"Hide"}
+.fold-k::after{content:"";width:7px;height:7px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:translateY(-2px) rotate(45deg);transition:transform .15s}
+details.fold[open] .fold-k::after{transform:translateY(2px) rotate(-135deg)}
+
+/* 100% stacked rows */
+.srow{display:grid;grid-template-columns:minmax(104px,30%) minmax(0,1fr) 44px;align-items:center;gap:10px;font-size:.8rem}
+.srow .lab{min-width:0;color:var(--ink-2);text-decoration:none;line-height:1.2;display:block}
+.srow .lab .nm,.rc-lab .nm{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.srow .lab .sb,.rc-lab .sb{display:block;font-size:.7rem;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.srow .lab.b .nm,.rc-lab.b .nm{color:var(--ink);font-weight:600}
+.srow a.lab:hover .nm,a.rc-lab:hover .nm{color:var(--ink);text-decoration:underline}
+.srow .tr{text-align:right;color:var(--ink-2);font-variant-numeric:tabular-nums;font-size:.78rem;white-space:nowrap}
+.stack100 > span{transition:filter .15s}
+.stack100 > span:hover{filter:brightness(1.12)}
+.sax,.rc-axis{position:relative;height:18px;margin-top:4px}
+.sax span,.rc-axis span{position:absolute;top:0;font-size:.7rem;line-height:1.3;color:var(--muted);white-space:nowrap;font-variant-numeric:tabular-nums}
+
+/* tall segmented bar */
+.tallbar{display:flex;gap:2px;height:28px}
+.tallbar > .seg{height:100%;min-width:2px;border-radius:4px;display:flex;align-items:center;font:600 11.5px/1 var(--font-ui);white-space:nowrap;transition:filter .15s}
+.tallbar > .seg b{font-weight:600;padding-left:7px}
+.tallbar > .seg:hover,.tallbar > .seg:focus-visible{filter:brightness(1.12)}
+
+/* share bars: a gauge out of 100% */
+.shr{display:grid;grid-template-columns:minmax(110px,34%) minmax(0,1fr) 62px;align-items:center;gap:10px;font-size:.82rem;padding:9px 0;border-radius:4px}
+.shr + .shr{border-top:1px solid var(--line)}
+.shr:hover{background:color-mix(in srgb,var(--div-mid) 60%,transparent)}
+.shr .g{height:14px;background:var(--surface-2);border-radius:0 4px 4px 0}
+.shr .g > i{display:block;height:100%;background:var(--accent);border-radius:0 4px 4px 0;min-width:2px}
+.shr .lab{color:var(--ink-2);min-width:0;line-height:1.25}
+.shr .lab small{display:block;color:var(--muted);font-size:.7rem}
+.shr .v{text-align:right;line-height:1.15;font-variant-numeric:tabular-nums}
+.shr .v b{display:block;font-weight:600}
+.shr .v small{color:var(--muted);font-size:.7rem}
+
+/* row charts: labels on the left, marks on a shared scale */
+.rc{display:grid;grid-template-columns:minmax(96px,28%) minmax(0,1fr);column-gap:10px}
+.rc.wide{grid-template-columns:minmax(120px,36%) minmax(0,1fr)}
+.rc-labs,.rc-plot{min-width:0}
+.rc-lab{display:flex;flex-direction:column;justify-content:center;min-width:0;font-size:.8rem;line-height:1.25;color:var(--ink-2);text-decoration:none}
+.rc-plot{position:relative}
+.rc-gl{position:absolute;top:0;bottom:0;width:1px;background:var(--line);pointer-events:none}
+.rc-gl.zero{background:var(--line-strong)}
+.rc-row{position:relative;border-radius:3px}
+.rc-row.click{cursor:pointer}
+.rc-row:hover{background:color-mix(in srgb,var(--div-mid) 60%,transparent)}
+.rc-dot{position:absolute;top:50%;width:10px;height:10px;margin:-5px 0 0 -5px;border-radius:50%;background:var(--c,var(--accent));box-shadow:0 0 0 2px var(--surface);pointer-events:none;z-index:2}
+.rc-dot.hollow{background:var(--surface);box-shadow:inset 0 0 0 2px var(--c,var(--accent)),0 0 0 2px var(--surface)}
+.rc-dot.hot,.rc-row.one:hover .rc-dot,.rc-row.one:focus-visible .rc-dot{box-shadow:0 0 0 2px var(--surface),0 0 0 3.5px var(--ink)}
+.rc-dot.hollow.hot{box-shadow:inset 0 0 0 2px var(--c,var(--accent)),0 0 0 2px var(--surface),0 0 0 3.5px var(--ink)}
+.rc-dot.sm{width:8px;height:8px;margin:-4px 0 0 -4px}
+.rc-dot.ia{pointer-events:auto;cursor:pointer}
+.rc-dot.ia::after{content:"";position:absolute;inset:-7px;border-radius:50%}
+.rc-dot.ia:hover{box-shadow:0 0 0 2px var(--surface),0 0 0 3.5px var(--ink)}
+.rc-guide{position:absolute;top:50%;left:0;height:1px;background:var(--line-strong);pointer-events:none}
+.rc-bar{position:absolute;top:50%;height:4px;margin-top:-2px;border-radius:2px;background:var(--c,var(--accent));pointer-events:none}
+.rc-bar.thin{height:2px;margin-top:-1px;background:var(--line-strong)}
+.rc-t{position:absolute;top:50%;transform:translateY(-50%);font-size:.72rem;line-height:1;color:var(--ink-2);white-space:nowrap;pointer-events:none;font-variant-numeric:tabular-nums}
+.rc-t.up{top:4px;transform:translateX(-50%)}
+.rc-t.in{color:var(--on-pos)}
+.rc-t.in.neg{color:var(--on-neg)}
+.rc-med{position:absolute;top:6px;bottom:6px;width:2px;margin-left:-1px;border-radius:1px;background:var(--ink);pointer-events:none;z-index:3}
+.rc-ref{position:absolute;top:0;bottom:0;width:1px;background:var(--ink-2);opacity:.75;pointer-events:none;z-index:3}
+.dvb{position:absolute;top:50%;height:14px;margin-top:-7px;min-width:2px;background:var(--c);pointer-events:none}
+.dvb.pos{border-radius:0 4px 4px 0}
+.dvb.neg{border-radius:4px 0 0 4px}
+.dvb.mut{background:var(--emph-muted)}
+
+/* FDI cap steps */
+.fdi{position:relative;height:150px;margin:28px 0 0 34px}
+.fdi-gl{position:absolute;left:0;right:0;height:1px;background:var(--line)}
+.fdi-yl{position:absolute;left:-34px;width:28px;text-align:right;font-size:.7rem;color:var(--muted);transform:translateY(50%);font-variant-numeric:tabular-nums;line-height:1}
+.fdi-step{position:absolute;bottom:0;background:color-mix(in srgb,var(--accent) 10%,transparent);border-top:2px solid var(--accent);z-index:1}
+.fdi-step::before{content:"";position:absolute;left:-1px;bottom:var(--p,0%);top:-2px;width:2px;background:var(--accent)}
+.fdi-step::after{content:"";position:absolute;left:-5px;top:-6px;width:10px;height:10px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 2px var(--surface)}
+.fdi-v{position:absolute;left:9px;top:-26px;font-size:.8rem;font-weight:600;color:var(--ink);white-space:nowrap}
+.fdi-v.r{left:auto;right:6px}
+.fdi-pt{position:absolute;width:10px;height:10px;margin:-5px 0 0 -5px;border-radius:50%;background:var(--surface);box-shadow:inset 0 0 0 2px var(--accent),0 0 0 2px var(--surface);z-index:2}
+.fdi-x{position:relative;height:18px;margin:8px 0 0 34px}
+.fdi-x span{position:absolute;transform:translateX(-50%);font-size:.7rem;color:var(--muted);font-variant-numeric:tabular-nums}
+.fdi-list{list-style:none;margin:16px 0 0;padding:0}
+.fdi-list li{display:grid;grid-template-columns:40px 44px minmax(0,1fr);gap:2px 10px;padding:9px 0;border-top:1px solid var(--line);font-size:.86rem}
+.fdi-list .yr{font:500 .84rem var(--font-mono);color:var(--ink-2)}
+.fdi-list .cp{font-weight:600;font-variant-numeric:tabular-nums}
+.fdi-list .ev{color:var(--ink-2);min-width:0}
+
+/* partner countries */
+.ctry{display:grid;grid-template-columns:minmax(96px,30%) minmax(0,1fr);gap:0 10px;font-size:.82rem;padding:5px 0;border-radius:4px}
+.ctry + .ctry{border-top:1px solid var(--line)}
+.ctry .lab{color:var(--ink);font-weight:600;min-width:0}
+.ctry .track{display:flex;align-items:center;gap:6px;min-width:0}
+.ctry .bar{height:14px;border-radius:0 4px 4px 0;background:var(--accent);min-width:2px}
+.ctry .val{font-variant-numeric:tabular-nums;color:var(--ink-2);font-size:.78rem}
+.ctry .names{grid-column:2;font-size:.74rem;color:var(--muted);margin-top:3px;overflow-wrap:anywhere}
+.ctry:hover{background:color-mix(in srgb,var(--div-mid) 60%,transparent)}
+
+/* histogram axis */
+.hist{display:flex;align-items:flex-end;gap:2px;height:130px;border-bottom:1px solid var(--line-strong)}
+.hist > div{flex:1 1 0;min-width:0;height:100%;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;border-radius:4px 4px 0 0}
+.hist > div:hover,.hist > div:focus-visible{background:color-mix(in srgb,var(--div-mid) 60%,transparent)}
+.hist > div > b{font:600 .72rem/1 var(--font-ui);color:var(--ink-2);margin-bottom:3px;font-variant-numeric:tabular-nums}
+.hist > div > i{display:block;width:100%;background:var(--accent);border-radius:4px 4px 0 0}
+.hist-ax{position:relative;height:18px;margin-top:6px}
+.hist-ax span{position:absolute;top:0;transform:translateX(-50%);font-size:.7rem;color:var(--muted);white-space:nowrap;font-variant-numeric:tabular-nums}
+.holder-note{font-size:.76rem;color:var(--muted);display:block;margin-top:2px}
+.pnote{display:block;font-size:.68rem;font-weight:400;color:var(--muted);margin-top:1px;white-space:nowrap}
 @media (max-width:760px){
   h1{font-size:1.45rem}
   .dhead h1{font-size:1.5rem}
   .bench{padding-bottom:0}
   .panel{padding:12px}
   .logitem{grid-template-columns:minmax(0,1fr);gap:2px}
+}
+@media (max-width:560px){
+  /* stacked bars: name and figure on one line, the bar full width beneath */
+  .srow{grid-template-columns:minmax(0,1fr) auto;grid-template-areas:"lab tr" "bar bar";row-gap:4px}
+  .srow > .lab{grid-area:lab}
+  .srow > .stack100{grid-area:bar}
+  .srow > .tr{grid-area:tr;align-self:start}
+  .srow.ax{grid-template-columns:minmax(0,1fr);grid-template-areas:none}
+  .srow.ax > span{display:none}
+  .srow:not(.ax){padding-bottom:6px}
+  .rc{grid-template-columns:minmax(120px,34%) minmax(0,1fr)}
+  .rc.wide{grid-template-columns:minmax(120px,36%) minmax(0,1fr)}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 </style>
@@ -301,7 +451,7 @@ td.desc{min-width:260px;max-width:460px;color:var(--ink-2);font-size:.82rem}
   <div class="wrap">
     <div class="brand">
       <h1>Insurance Products <span class="eyebrow" id="asof"></span></h1>
-      <div class="sub">Every Indian life insurer: products and specs, riders, group plans, claims and grievance record, customer ratings.</div>
+      <div class="sub">Every Indian life insurer: products and specs, riders, group plans, claims and grievance record, customer ratings, ownership.</div>
     </div>
     <label class="bench" for="bench"><span>Highlight insurer</span>
       <select id="bench" aria-label="Highlight insurer"><option value="">None</option></select>
@@ -309,6 +459,7 @@ td.desc{min-width:260px;max-width:460px;color:var(--ink-2);font-size:.82rem}
     <nav class="tabs" aria-label="Sections">
       <a href="#overview" data-v="overview">Overview</a>
       <a href="#insurers" data-v="insurers">Insurers</a>
+      <a href="#ownership" data-v="ownership">Ownership</a>
       <a href="#products" data-v="products">Products</a>
       <a href="#compare" data-v="compare">Compare</a>
       <a href="#changes" data-v="changes">Changes</a>
@@ -364,7 +515,8 @@ const UIN_TYPE = {N:"Non-linked",L:"Linked",B:"Rider",G:"Group",A:"Annuity"};
 const S = {
   d:null, comp:{}, prod:{}, route:{v:"overview",id:null}, bench:"",
   f:{q:"",segment:"Individual",category:"",company:"",status:"Active",linkage:"",participation:"",need:"",online:""},
-  sort:{k:"",dir:1}, shown:60, cmpP:[], cmpI:[], insSort:{k:"nbp_market_share_pct",dir:-1}, logType:"", logCo:""
+  sort:{k:"",dir:1}, shown:60, cmpP:[], cmpI:[], insSort:{k:"nbp_market_share_pct",dir:-1}, logType:"", logCo:"",
+  ownType:"", ownCo:"", ownShown:25, anOpen:null
 };
 
 /* ---------- utilities ---------- */
@@ -449,7 +601,7 @@ function minPrem(e){
 function yn(v){ return v === true ? "Yes" : v === false ? "No" : "—"; }
 function fmtDate(s){
   if (!s) return "—";
-  const p = s.split("-"); const M = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  const p = String(s).split("-"); const M =["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
   if (p.length === 3) return `${+p[2]} ${M[+p[1]-1]} ${p[0]}`;
   if (p.length === 2) return `${M[+p[1]-1]} ${p[0]}`;
   return p[0];
@@ -519,23 +671,24 @@ function niceTicks(lo, hi, n=5){
   const t = []; for (let v = Math.ceil(lo/step)*step; v <= hi + 1e-9; v += step) t.push(+v.toFixed(6));
   return t;
 }
-function scatter(points, {xKey, yKey, xLabel, yLabel, xFmt, yFmt}){
+function scatter(points, {xKey, yKey, xLabel, yLabel, xFmt, yFmt, yFit, tip}){
   const holder = h("div");
   const drawIt = () => {
     const W = Math.max(300, holder.clientWidth || 600), H = Math.min(360, Math.max(260, W * 0.6));
-    const m = {l:44, r:16, t:12, b:40};
+    const m = {l:50, r:16, t:12, b:40};
     const xs = points.map(p => p.x), ys = points.map(p => p.y);
-    let x0 = Math.min(...xs), x1 = Math.max(...xs), y1 = Math.max(...ys);
+    let x0 = Math.min(...xs), x1 = Math.max(...xs), y1 = Math.max(...ys), y0 = 0;
     x0 = Math.floor(x0 - (x1-x0)*0.08 - 0.1); x1 = Math.min(100.2, Math.max(x1 + (x1-x0)*0.05, x0 + 1));
-    const xt = niceTicks(x0, x1, W < 420 ? 4 : 6).filter(t => t >= x0 && t <= x1), yt = niceTicks(0, y1 * 1.12, 5);
-    const yMax = yt[yt.length-1] || 1;
-    const X = v => m.l + (v - x0) / (x1 - x0) * (W - m.l - m.r), Y = v => H - m.b - v / yMax * (H - m.t - m.b);
+    if (yFit){ const yl = Math.min(...ys); y0 = Math.floor(yl - (y1-yl)*0.08 - 0.5); y1 = Math.min(100.2, y1 + (y1-yl)*0.06 + 0.5); }
+    const xt = niceTicks(x0, x1, W < 420 ? 4 : 6).filter(t => t >= x0 && t <= x1), yt = yFit ? niceTicks(y0, y1, 5).filter(t => t >= y0 && t <= y1) : niceTicks(0, y1 * 1.12, 5);
+    const yMax = yFit ? y1 : (yt[yt.length-1] || 1);
+    const X = v => m.l + (v - x0) / (x1 - x0) * (W - m.l - m.r), Y = v => H - m.b - (v - y0) / (yMax - y0) * (H - m.t - m.b);
     const g = sv("svg", {viewBox:`0 0 ${W} ${H}`, class:"svgchart", role:"img", "aria-label":`${yLabel} against ${xLabel}`});
     yt.forEach(t => { g.append(sv("line", {x1:m.l, x2:W-m.r, y1:Y(t), y2:Y(t), class:"grid-line"}), sv("text", {x:m.l-6, y:Y(t)+4, "text-anchor":"end", text:yFmt(t)})); });
     xt.forEach(t => g.append(sv("text", {x:X(t), y:H-m.b+16, "text-anchor":"middle", text:xFmt(t)})));
     g.append(sv("line", {x1:m.l, x2:W-m.r, y1:H-m.b, y2:H-m.b, class:"axis-line"}));
     g.append(sv("text", {x:(m.l + W - m.r)/2, y:H-6, "text-anchor":"middle", text:xLabel + " →"}));
-    g.append(sv("text", {x:12, y:(m.t + H - m.b)/2, "text-anchor":"middle", transform:`rotate(-90 12 ${(m.t + H - m.b)/2})`, text:"← " + yLabel}));
+    g.append(sv("text", {x:10, y:(m.t + H - m.b)/2, "text-anchor":"middle", transform:`rotate(-90 10 ${(m.t + H - m.b)/2})`, text:"← " + yLabel}));
     const mx = median(xs), my = median(ys);
     if (mx != null) g.append(sv("line", {x1:X(mx), x2:X(mx), y1:m.t, y2:H-m.b, class:"med-line"}), sv("text", {x:X(mx)+4, y:m.t+10, text:"median"}));
     if (my != null) g.append(sv("line", {x1:m.l, x2:W-m.r, y1:Y(my), y2:Y(my), class:"med-line"}));
@@ -549,12 +702,22 @@ function scatter(points, {xKey, yKey, xLabel, yLabel, xFmt, yFmt}){
       const dot = sv("circle", {cx, cy, r:5, class:"dot" + (mut ? " mut" : "")});
       hit.addEventListener("click", () => go("insurer-" + p.id));
       hit.addEventListener("keydown", e => { if (e.key === "Enter") go("insurer-" + p.id); });
-      hover(hit, () => [`${xFmt(p.x)} · ${yFmt(p.y)}`, p.l, `${xLabel} · ${yLabel}`]);
+      hover(hit, () => tip ? tip(p) : [`${xFmt(p.x)} · ${yFmt(p.y)}`, p.l, `${xLabel} · ${yLabel}`]);
       g.append(hit, dot);
-      if (lab.has(p.id)){
-        const right = cx < W - 120;
-        g.append(sv("text", {x: right ? cx + 9 : cx - 9, y: cy + 4, "text-anchor": right ? "start" : "end", class:"lbl" + (p.id === S.bench ? " b" : ""), text:p.l}));
+    });
+    // name labels: try right, then left, then nudged up or down, so no two labels (or the median tag) overlap
+    const taken = [{x0:X(mx) + 2, x1:X(mx) + 44, y0:m.t, y1:m.t + 13}];
+    const free = q => q.x0 >= 2 && q.x1 <= W - 2 && q.y0 >= 0 && q.y1 <= H - m.b && taken.every(t => q.x1 < t.x0 || q.x0 > t.x1 || q.y1 < t.y0 || q.y0 > t.y1);
+    points.filter(p => lab.has(p.id)).sort((a, b) => (b.id === S.bench) - (a.id === S.bench)).forEach(p => {
+      const cx = X(p.x), cy = Y(p.y), tw = textW(p.l) + 2;
+      let pick = null;
+      for (const dy of [0, -13, 13, -26, 26]) for (const sd of [1, -1]){
+        const x0 = sd > 0 ? cx + 9 : cx - 9 - tw, q = {x0, x1:x0 + tw, y0:cy + dy - 7, y1:cy + dy + 7};
+        if (!pick && free(q)) pick = {sd, dy, q};
       }
+      if (!pick){ const sd = cx < W - 120 ? 1 : -1, x0 = sd > 0 ? cx + 9 : cx - 9 - tw; pick = {sd, dy:0, q:{x0, x1:x0 + tw, y0:cy - 7, y1:cy + 7}}; }
+      taken.push(pick.q);
+      g.append(sv("text", {x: pick.sd > 0 ? cx + 9 : cx - 9, y: cy + pick.dy + 4, "text-anchor": pick.sd > 0 ? "start" : "end", class:"lbl" + (p.id === S.bench ? " b" : ""), text:p.l}));
     });
     holder.replaceChildren(g);
   };
@@ -569,6 +732,103 @@ function columns(rows, fmt){
     hover(col, () => [fmt(r.v), r.tl || r.l]);
     return col;
   }));
+}
+
+/* ---------- helpers for the ownership, analytics and extra overview charts ---------- */
+const num = v => typeof v === "number" && isFinite(v) ? v : (typeof v === "string" && v.trim() !== "" && isFinite(+v) ? +v : null);
+const arr = v => Array.isArray(v) ? v : [];
+const sum = a => a.reduce((s, x) => s + x, 0);
+const clamp = (v, a, b) => Math.min(b, Math.max(a, v));
+const pc = (v, d) => v == null ? "—" : (d === 2 ? nf2 : nf1).format(v) + "%";
+function safeUrl(u){ return typeof u === "string" && /^https?:\/\//i.test(u.trim()) ? u.trim() : null; }
+function srcLink(u, text){ const s = safeUrl(u); return s ? ext(s, text || host(s)) : (u ? h("span", {class:"muted"}, String(u)) : null); }
+function shortName(n){ const s = String(n || ""); return s.replace(/\s*\([^()]*\)\s*$/, "").trim() || s; }
+function periodOf(c, key){ const m = c && c.metrics && c.metrics[key]; return (m && m.period) || ""; }
+function periodPair(a, b){ return !a ? (b || "") : (!b || a === b) ? a : `${a} / ${b}`; }
+function metricP(c, key){ const v = mval(c, key); if (v == null) return null; const p = periodOf(c, key); return fmtMetric(key, v) + (p ? ` (${shortPeriod(p)})` : ""); }
+function shortPeriod(p){ return String(p || "").replace(/\s*\([^()]*\)\s*$/, "").replace(/^\d{1,2}\s+([A-Z][a-z]{2}\s+\d{4})$/, "$1"); }
+function legendOf(items){ return h("div", {class:"legend"}, items.map(it => h("span", null, h("i", {class:it.cls || null, style:it.style || (it.color ? `background:${it.color}` : null)}), it.l))); }
+let _cx, _cf;
+function textW(t){ _cx = _cx || document.createElement("canvas").getContext("2d"); _cf = _cf || "600 11.5px " + getComputedStyle(document.body).fontFamily; _cx.font = _cf; return _cx.measureText(t).width; }
+function ageLbl(v){ return v < 1 ? `${Math.max(1, Math.round(v * 12))} mo` : trimNum(v); }
+function ageSpan(a, b){ return `${ageLbl(a)}–${trimNum(b)} yrs`; }
+
+// 100% stacked rows on a shared 0-100 axis. rows: {id, l, sub, parts:{key:percent}, tr, tip}; segs: {k, l, color|cls}
+function stackRows(rows, segs, o = {}){
+  const list = h("div", {class:"bars"}, rows.map(r => {
+    const tot = sum(segs.map(s => r.parts[s.k] || 0)), scale = tot > 100.5 ? 100 / tot : 1;
+    const shown = segs.filter(s => (r.parts[s.k] || 0) > 0);
+    const bar = h("div", {class:"stack100", role:"img", "aria-label":`${r.l}: ` + shown.map(s => `${s.l} ${pc(r.parts[s.k])}`).join(", ")}, shown.map(s => {
+      const v = r.parts[s.k];
+      const span = h("span", {class:s.cls || null, style:`width:${v * scale}%` + (s.color ? `;background:${s.color}` : "")});
+      hover(span, () => o.segTip ? o.segTip(r, s, v) : [pc(v), r.l, s.l]);
+      return span;
+    }));
+    const inner = [h("span", {class:"nm"}, r.l), r.sub ? h("span", {class:"sb"}, r.sub) : null];
+    const lab = r.id ? h("a", {class:"lab" + (r.id === S.bench ? " b" : ""), href:"#insurer-" + r.id}, inner) : h("div", {class:"lab"}, inner);
+    if (r.tip) hover(lab, r.tip);
+    return h("div", {class:"srow"}, lab, bar, h("span", {class:"tr"}, r.tr == null ? "" : r.tr));
+  }));
+  const axis = h("div", {class:"srow ax"}, h("span"), h("div", {class:"sax"}, [0, 50, 100].map(t => h("span", {class:"al-" + (t === 0 ? "start" : t === 100 ? "end" : "mid"), style:`left:${t}%`}, t + "%"))), h("span"));
+  return h("div", null, o.legend ? legendOf(o.legend) : null, list, axis);
+}
+
+// One whole split into parts, 28px tall; a share is printed inside only where it fits
+function tallBar(parts){
+  const bar = h("div", {class:"tallbar", role:"img", "aria-label":parts.map(p => `${p.l} ${pc(p.v)}`).join(", ")});
+  const segs = parts.filter(p => p.v > 0).map(p => {
+    const t = pc(p.v), b = h("b", null, t);
+    const s = h("span", {class:"seg" + (p.cls ? " " + p.cls : ""), style:`width:${p.v}%;` + (p.color ? `background:${p.color};` : "") + (p.ink ? `color:${p.ink}` : ""), tabindex:"0"}, b);
+    hover(s, () => [t, p.l, p.tip || null]);
+    bar.append(s);
+    return {s, b, t};
+  });
+  const fit = () => segs.forEach(x => { x.b.hidden = false; x.b.hidden = x.s.getBoundingClientRect().width < textW(x.t) + 16; });
+  if (window.ResizeObserver) new ResizeObserver(fit).observe(bar); else requestAnimationFrame(fit);
+  return bar;
+}
+
+// Rows with labels on the left and marks on one shared scale (dot plots, dumbbells, diverging bars).
+// o: {x:v->percent, ticks, tickFmt|axis, rowH, wide, one, tip(r), attach(row,r,plot), marks(r), extra, zero, noOpen}
+function rowChart(rows, o){
+  const X = o.x, rh = o.rowH || 24;
+  const labs = h("div", {class:"rc-labs"}), plot = h("div", {class:"rc-plot"}), made = [];
+  arr(o.ticks).forEach(t => plot.append(h("span", {class:"rc-gl" + (t === o.zero ? " zero" : ""), style:`left:${X(t)}%`})));
+  rows.forEach(r => {
+    const hh = r.h || rh, subs = r.sub == null ? [] : [].concat(r.sub);
+    const inner = [h("span", {class:"nm"}, r.dot ? h("span", {class:"catdot", style:`background:${r.dot}`}) : null, r.l), subs.map(s => h("span", {class:"sb"}, s))];
+    const open = !!r.id && !o.noOpen;
+    const lab = open ? h("a", {class:"rc-lab" + (r.id === S.bench ? " b" : ""), href:"#insurer-" + r.id, style:`height:${hh}px`}, inner) : h("div", {class:"rc-lab", style:`height:${hh}px`}, inner);
+    const row = h("div", {class:"rc-row" + (open ? " click" : "") + (o.one ? " one" : ""), style:`height:${hh}px`, tabindex: (open || o.tip || o.attach) ? "0" : null}, o.marks(r));
+    if (open){ row.addEventListener("click", () => go("insurer-" + r.id)); row.addEventListener("keydown", e => { if (e.key === "Enter") go("insurer-" + r.id); }); }
+    if (o.attach) o.attach(row, r, plot); else if (o.tip) hover(row, () => o.tip(r));
+    labs.append(lab); plot.append(row); made.push({r, lab, row});
+  });
+  arr(o.extra).forEach(n => plot.append(n));
+  const items = o.axis || (o.tickFmt ? arr(o.ticks).map(t => ({at:t, text:o.tickFmt(t)})) : []);
+  const axis = h("div", {class:"rc-axis"}, items.map(a => { const x = X(a.at); return h("span", {class:"al-" + (a.align || (x < 6 ? "start" : x > 94 ? "end" : "mid")), style:`left:${x}%`}, a.text); }));
+  const wrap = h("div", {class:"rc" + (o.wide ? " wide" : "")}, labs, plot, h("div"), axis);
+  wrap._rows = made; wrap._plot = plot;
+  return wrap;
+}
+
+// Beeswarm offsets: keep dots at least d px apart, nudging them up or down in 4px steps
+function swarm(xs, d, maxOff){
+  const order = xs.map((x, i) => i).sort((a, b) => xs[a] - xs[b]), placed = [], out = new Array(xs.length).fill(0);
+  order.forEach(i => {
+    const x = xs[i];
+    let best = 0, bestOver = Infinity;
+    for (let k = 0; k * 4 <= maxOff && bestOver > 0; k++){
+      for (const sg of (k ? [1, -1] : [1])){
+        const y = sg * k * 4;
+        let over = 0;
+        for (const p of placed){ const dist = Math.hypot(p.x - x, p.y - y); if (dist < d) over += d - dist; }
+        if (over < bestOver){ bestOver = over; best = y; if (!over) break; }
+      }
+    }
+    placed.push({x, y:best}); out[i] = best;
+  });
+  return out;
 }
 
 /* ---------- data ---------- */
@@ -600,21 +860,30 @@ function viewOverview(){
   ];
   view.append(h("div", {class:"kpis"}, kp.map(([l, v, d]) => h("div", {class:"kpi"}, h("div", {class:"l"}, l), h("div", {class:"v"}, v == null ? "—" : nfIN.format(v)), h("div", {class:"d"}, d)))));
 
+  // who holds the market
+  view.append(h("div", {class:"section"}, concentrationCard()));
+
   // market share + customer signals
   const share = companies().map(x => ({id:x.id, l:cname(x.id), v:mval(x, "nbp_market_share_pct"), m:x.metrics && x.metrics.nbp_market_share_pct})).filter(r => r.v != null).sort((a,b) => b.v - a.v);
   const period = share[0] && share[0].m && share[0].m.period;
-  const pts = companies().map(x => ({id:x.id, l:cname(x.id), x:mval(x, "csr_count_pct"), y:mval(x, "grievances_per_10k")})).filter(p => p.x != null && p.y != null);
-  const csrP = (companies().find(x => x.metrics && x.metrics.csr_count_pct) || {}).metrics?.csr_count_pct?.period;
+  const pts = companies().map(x => ({id:x.id, l:cname(x.id), x:mval(x, "csr_count_pct"), y:mval(x, "persistency_13m_pct"), xp:periodOf(x, "csr_count_pct"), yp:periodOf(x, "persistency_13m_pct")})).filter(p => p.x != null && p.y != null);
+  const ptPeriod = [...new Set(pts.flatMap(p => [p.xp, p.yp]).filter(Boolean))].join(" / ");
   const row1 = h("div", {class:"grid g2 section"});
   row1.append(share.length ? card("Share of new business premium", period ? `${period} · individual + group first-year premium` : "first-year premium",
       () => barList(share, {fmt: v => nf1.format(v) + "%", onClick: r => go("insurer-" + r.id), tipLabel: r => r.m && r.m.period}),
-      () => simpleTable([{l:"Insurer", v:r => r.l}, {l:"Share", n:1, v:r => nf2.format(r.v) + "%"}, {l:"NBP", n:1, v:r => fmtMetric("nbp_cr", mval(S.comp[r.id], "nbp_cr"))}], share))
+      () => simpleTable([{l:"Insurer", v:r => r.l}, {l:"Share", n:1, v:r => nf2.format(r.v) + "%"}, {l:"NBP", n:1, v:r => fmtMetric("nbp_cr", mval(S.comp[r.id], "nbp_cr"))}, {l:"Period", v:r => (r.m && r.m.period) || "—"}], share))
     : emptyPanel("Market share", "Market share figures are not loaded yet."));
-  row1.append(pts.length >= 3 ? card("Claims settled vs grievances", `${csrP || "latest year"} · lower right is better · tap a dot to open the insurer`,
-      () => scatter(pts, {xKey:"x", yKey:"y", xLabel:"Death claims settled, % by number", yLabel:"Grievances per 10k policies", xFmt: v => nf1.format(v) + "%", yFmt: v => nf1.format(v)}),
-      () => simpleTable([{l:"Insurer", v:r => r.l}, {l:"Claims settled", n:1, v:r => nf2.format(r.x) + "%"}, {l:"Grievances /10k", n:1, v:r => nf1.format(r.y)}], [...pts].sort((a,b) => b.x - a.x)))
-    : emptyPanel("Claims settled vs grievances", "Claim and grievance figures are not loaded yet."));
+  row1.append(pts.length >= 3 ? card("Claims settled vs persistency", `${ptPeriod || "latest year"} · upper right is better · tap a dot to open the insurer`,
+      () => scatter(pts, {xKey:"x", yKey:"y", xLabel:"Death claims settled, % by number", yLabel:"13th-month persistency, %", xFmt: v => nf1.format(v) + "%", yFmt: v => nf1.format(v) + "%", yFit:true,
+        tip: p => [`${nf2.format(p.x)}% · ${nf1.format(p.y)}%`, p.l, p.xp === p.yp ? `Claims settled and persistency · ${p.xp || "period not stated"}` : `Claims settled ${p.xp || "—"} · persistency ${p.yp || "—"}`]}),
+      () => simpleTable([{l:"Insurer", v:r => r.l}, {l:"Claims settled", n:1, v:r => nf2.format(r.x) + "%"}, {l:"Persistency, 13th month", n:1, v:r => nf1.format(r.y) + "%"}, {l:"Period", v:r => periodPair(r.xp, r.yp) || "—"}], [...pts].sort((a,b) => b.x - a.x)))
+    : emptyPanel("Claims settled vs persistency", "Claim settlement and persistency figures are not loaded yet."));
   view.append(row1);
+
+  // growth and app ratings
+  const rowG = h("div", {class:"grid g2 section eq"});
+  rowG.append(growthCard(), appRatingsCard());
+  view.append(rowG);
 
   // who sells what
   view.append(h("div", {class:"section"}, heatPanel()));
@@ -629,6 +898,107 @@ function viewOverview(){
   return view;
 }
 function emptyPanel(title, msg){ return h("section", {class:"panel"}, h("h3", null, title), h("p", {class:"muted small", style:"margin-top:8px"}, msg)); }
+
+function concentrationCard(){
+  const all = companies().map(c => ({id:c.id, l:cname(c.id), v:mval(c, "nbp_market_share_pct"), sector:c.sector, p:periodOf(c, "nbp_market_share_pct")})).filter(r => r.v != null);
+  const lic = all.find(r => r.id === "lic");
+  const priv = all.filter(r => r.id !== "lic" && r.sector === "Private").sort((a, b) => b.v - a.v);
+  if (!lic || priv.length < 6) return emptyPanel("Who holds the market", "Market share figures are not loaded yet.");
+  const top = priv.slice(0, 5), nOther = all.length - 6;
+  const topSum = sum(top.map(r => r.v)), rest = Math.max(0, 100 - lic.v - topSum), period = lic.p;
+  const hues = ["var(--cat-1)", "var(--cat-2)", "var(--cat-3)", "var(--cat-4)", "var(--cat-5)", "var(--cat-6)"];
+  const inks = [1, 2, 3, 4, 5, 6].map(k => `var(--on-cat-${k})`);
+  const parts = [lic, ...top].map((r, i) => ({l:r.l, v:r.v, color:hues[i], ink:inks[i], tip:r.p || null, p:r.p}));
+  parts.push({l:`All others (${nOther})`, v:rest, color:"var(--emph-muted)", ink:"var(--ink)", tip:`${nOther} insurers${period ? " · " + period : ""}`, p:period});
+  const line = `${lic.l} writes ${Math.round(lic.v)}% of new business premium, the five largest private insurers add ${Math.round(topSum)}%, and the other ${nOther} insurers share ${Math.round(rest)}%.`;
+  return card("Who holds the market", `${period || "latest year"} · share of new business premium`,
+    () => { const lg = legendOf(parts.map(p => ({l:p.l, color:p.color}))); lg.style.margin = "10px 0 0"; return h("div", null, tallBar(parts), lg, h("p", {class:"lead"}, line)); },
+    () => simpleTable([{l:"Insurer", v:r => r.l}, {l:"Share", n:1, v:r => nf2.format(r.v) + "%"}, {l:"Period", v:r => r.p || "—"}], parts));
+}
+
+function growthCard(){
+  const rows = companies().map(c => ({id:c.id, l:cname(c.id), v:mval(c, "nbp_growth_pct"), nbp:mval(c, "nbp_cr"), p:periodOf(c, "nbp_growth_pct")})).filter(r => r.v != null).sort((a, b) => b.v - a.v);
+  if (rows.length < 3) return emptyPanel("New business growth", "Growth figures are not loaded yet.");
+  const ind = S.d.industry && S.d.industry.metrics && S.d.industry.metrics.nbp_growth_pct, iv = ind ? num(ind.value) : null;
+  const lo = Math.min(0, ...rows.map(r => r.v)), hi = Math.max(0, ...rows.map(r => r.v)), span = (hi - lo) || 1;
+  const d0 = lo < 0 ? lo - span * 0.14 : 0, d1 = hi > 0 ? hi + span * 0.14 : 0, dd = (d1 - d0) || 1;
+  const X = v => (v - d0) / dd * 100;
+  const periods = [...new Set(rows.map(r => r.p).filter(Boolean))].join(" / ");
+  const hasNeg = rows.some(r => r.v < 0);
+  const chart = () => {
+    const labs = [];
+    const wrap = rowChart(rows, {
+      x:X, rowH:22, ticks:[0], zero:0, one:true,
+      axis: iv != null ? [{at:iv, text:`Industry ${fmtMetric("nbp_growth_pct", iv)}`, align:"start"}] : [],
+      extra: iv != null ? [h("span", {class:"rc-ref", style:`left:${X(iv)}%`})] : [],
+      marks: r => {
+        const mut = !!S.bench && r.id !== S.bench, neg = r.v < 0, x0 = X(0), x = X(r.v), t = fmtMetric("nbp_growth_pct", r.v), lab = h("span", {class:"rc-t"}, t);
+        labs.push({el:lab, t, v:r.v});
+        return [h("span", {class:"dvb " + (neg ? "neg" : "pos") + (mut ? " mut" : ""), style:`left:${Math.min(x0, x)}%;width:${Math.abs(x - x0)}%;--c:${neg ? "var(--div-neg)" : "var(--div-pos)"}`}), lab];
+      },
+      tip: r => [fmtMetric("nbp_growth_pct", r.v), r.l, `${r.p || "period not stated"}${r.nbp != null ? " · new business " + fmtMetric("nbp_cr", r.nbp) : ""}${iv != null ? ` · ${r.v - iv >= 0 ? "+" : ""}${nf1.format(r.v - iv)} pts vs industry` : ""}`]
+    });
+    // the value sits beyond the bar end; where the plot has no room for it, it moves inside the bar
+    const fit = () => {
+      const W = wrap._plot.clientWidth; if (!W) return;
+      labs.forEach(l => {
+        const x = X(l.v), neg = l.v < 0, w = textW(l.t) + 10, barPx = Math.abs(x - X(0)) / 100 * W, room = (neg ? x : 100 - x) / 100 * W, inside = room < w && barPx >= w + 4, st = l.el.style;
+        st.left = st.right = st.marginLeft = st.marginRight = "";
+        l.el.classList.toggle("in", inside); l.el.classList.toggle("neg", neg);
+        if (neg !== inside){ st.right = (100 - x) + "%"; st.marginRight = "6px"; } else { st.left = x + "%"; st.marginLeft = "6px"; }
+      });
+    };
+    if (window.ResizeObserver) new ResizeObserver(fit).observe(wrap._plot); else requestAnimationFrame(fit);
+    return h("div", null, hasNeg ? legendOf([{l:"Growth", color:"var(--div-pos)"}, {l:"Decline", color:"var(--div-neg)"}]) : null, wrap,
+      h("p", {class:"fn"}, "Insurers starting from a small base can show very high growth. Tap a row to open the insurer."));
+  };
+  return card("New business growth", `${periods || "latest year"} · change in new business premium on the year before`, chart,
+    () => simpleTable([{l:"Insurer", v:r => r.l}, {l:"Growth", n:1, v:r => fmtMetric("nbp_growth_pct", r.v)}, {l:"New business", n:1, v:r => fmtMetric("nbp_cr", r.nbp)}, {l:"Period", v:r => r.p || "—"}], rows));
+}
+
+function appRatingsCard(){
+  const rows = companies().map(c => {
+    const rv = c.reviews || {}, auto = arr(c.apps_auto);
+    const dots = [["Android", rv.android, "android", "--cat-1"], ["iOS", rv.ios, "ios", "--cat-2"]]
+      .map(([store, a, key, hue]) => a && num(a.rating) != null ? {store, v:num(a.rating), n:num(a.ratings_count), auto:auto.includes(key), hue, obs:a.observed_on || ""} : null).filter(Boolean);
+    return {id:c.id, l:cname(c.id), dots, best:dots.length ? Math.max(...dots.map(d => d.v)) : null, n:sum(dots.map(d => d.n || 0))};
+  }).filter(r => r.dots.length).sort((a, b) => b.best - a.best || b.n - a.n || a.l.localeCompare(b.l));
+  if (rows.length < 3) return emptyPanel("App ratings", "App store ratings are not loaded yet.");
+  const unrated = companies().filter(c => !rows.some(r => r.id === c.id)).map(c => cname(c.id));
+  const anyAuto = rows.some(r => r.dots.some(d => d.auto));
+  const lo = 1, hi = 5.25, X = v => (v - lo) / (hi - lo) * 100;
+  const legend = [{l:"Android", cls:"dotk", style:"background:var(--cat-1)"}, {l:"iOS", cls:"dotk", style:"background:var(--cat-2)"}];
+  if (anyAuto) legend.push({l:"Hollow dot: app matched by store search, not verified", cls:"dotk hollow", style:"--c:var(--ink-2)"});
+  const asOf = asOfRange(rows.flatMap(r => r.dots.map(d => d.obs)));
+  const tipDot = (r, d) => [`${nf2.format(d.v)} ★`, `${r.l} · ${d.store}`, [d.n != null ? `${nfIN.format(d.n)} ratings` : "ratings count not published", d.obs ? "as of " + fmtDate(d.obs) : null, d.auto ? "matched by store search, not verified" : null].filter(Boolean).join(" · ")];
+  const chart = () => h("div", null, legendOf(legend), rowChart(rows, {
+    x:X, rowH:24, ticks:[1, 2, 3, 4, 5], tickFmt:t => String(t),
+    marks: r => {
+      const mut = !!S.bench && r.id !== S.bench, out = [];
+      if (r.dots.length === 2) out.push(h("span", {class:"rc-bar thin", style:`left:${X(Math.min(r.dots[0].v, r.dots[1].v))}%;width:${Math.abs(X(r.dots[0].v) - X(r.dots[1].v))}%`}));
+      r.dots.forEach(d => { d.el = h("span", {class:"rc-dot" + (d.auto ? " hollow" : ""), style:`left:${X(d.v)}%;--c:${mut ? "var(--emph-muted)" : `var(${d.hue})`}`}); out.push(d.el); });
+      return out;
+    },
+    attach: (row, r, plot) => {
+      const clear = () => r.dots.forEach(d => d.el && d.el.classList.remove("hot"));
+      const move = ev => {
+        const rect = plot.getBoundingClientRect(), px = (ev.clientX - rect.left) / (rect.width || 1) * 100;
+        let best = r.dots[0]; r.dots.forEach(d => { if (Math.abs(X(d.v) - px) < Math.abs(X(best.v) - px)) best = d; });
+        clear(); best.el.classList.add("hot");
+        const t = tipDot(r, best); showTip(ev, t[0], t[1], t[2]);
+      };
+      row.addEventListener("pointermove", move); row.addEventListener("pointerenter", move);
+      row.addEventListener("pointerleave", () => { clear(); hideTip(); });
+      row.addEventListener("focus", ev => showTip(ev, r.dots.map(d => `${d.store} ${nf2.format(d.v)} ★`).join(" · "), r.l, r.dots.map(d => `${d.store}: ${d.n != null ? nfIN.format(d.n) + " ratings" : "count not published"}${d.auto ? " (not verified)" : ""}`).join(" · ")));
+      row.addEventListener("blur", hideTip);
+    }
+  }), unrated.length ? h("p", {class:"fn"}, `No app rating found yet: ${unrated.join(", ")}.`) : null);
+  const cell = d => d ? `${nf2.format(d.v)} ★${d.auto ? " (not verified)" : ""}` : "—";
+  const cnt = d => d && d.n != null ? nfIN.format(d.n) : "—";
+  const pick = (r, s) => r.dots.find(d => d.store === s);
+  return card("App ratings", `Store rating out of 5${asOf ? " · " + asOf : ""} · sorted by the better of the two · tap a row to open the insurer`, chart,
+    () => simpleTable([{l:"Insurer", v:r => r.l}, {l:"Android", n:1, v:r => cell(pick(r, "Android"))}, {l:"Android ratings", n:1, v:r => cnt(pick(r, "Android"))}, {l:"iOS", n:1, v:r => cell(pick(r, "iOS"))}, {l:"iOS ratings", n:1, v:r => cnt(pick(r, "iOS"))}, {l:"As of", v:r => [...new Set(r.dots.map(d => d.obs).filter(Boolean))].map(fmtDate).join(" / ") || "—"}], rows));
+}
 
 function heatPanel(){
   const cols = [...CAT_IND.map(c => ({k:c, l:c, ind:true})), {k:"Rider", l:"Riders"}, {k:"Group", l:"Group"}];
@@ -729,16 +1099,19 @@ function launchPanel(){
 
 /* ---------- insurers ---------- */
 function viewInsurers(){
-  const keys = [["nbp_market_share_pct","Share"],["nbp_cr","New business"],["nbp_growth_pct","Growth"],["csr_count_pct","Claims settled"],["grievances_per_10k","Grievances /10k"],["solvency_ratio","Solvency"],["persistency_13m_pct","13M persistency"]];
-  const rows = companies().map(c => ({c, id:c.id, l:cname(c.id), sector:c.sector, listed:c.listed, ind:(c.stats||{}).active_individual || 0, launches:(c.stats||{}).launches_12m || 0, rating:(c.reviews && c.reviews.android && c.reviews.android.rating) ?? null}));
+  const keys = [["nbp_market_share_pct","Share"],["nbp_cr","New business"],["nbp_growth_pct","Growth"],["csr_count_pct","Claims settled"],["grievances_per_10k","Grievances /10k"],["solvency_ratio","Solvency"],["persistency_13m_pct","13M persistency"]].filter(([kk]) => companies().some(c => mval(c, kk) != null));
+  // the period most insurers report for each metric; a different one is printed under the figure
+  const modal = {};
+  keys.forEach(([kk]) => { const n = {}; companies().forEach(c => { const p = periodOf(c, kk); if (p && mval(c, kk) != null) n[p] = (n[p] || 0) + 1; }); modal[kk] = (Object.entries(n).sort((a, b) => b[1] - a[1])[0] || [""])[0]; });
+  const rows = companies().map(c => ({c, id:c.id, l:cname(c.id), sector:c.sector, listed:c.listed, foreign:foreignOf(c), ind:(c.stats||{}).active_individual || 0, launches:(c.stats||{}).launches_12m || 0, rating:(c.reviews && c.reviews.android && c.reviews.android.rating) ?? null}));
   const k = S.insSort.k, dir = S.insSort.dir;
-  const val = r => k === "name" ? r.l : k === "ind" ? r.ind : k === "rating" ? r.rating : k === "launches" ? r.launches : mval(r.c, k);
+  const val = r => k === "name" ? r.l : k === "ind" ? r.ind : k === "rating" ? r.rating : k === "launches" ? r.launches : k === "foreign" ? r.foreign : mval(r.c, k);
   rows.sort((a,b) => { const x = val(a), y = val(b); if (x == null && y == null) return a.l.localeCompare(b.l); if (x == null) return 1; if (y == null) return -1; return (typeof x === "string" ? x.localeCompare(y) : x - y) * dir; });
   const sortBtn = (key, label) => { const b = h("button", {class:"sort", type:"button", "aria-sort": S.insSort.k === key ? (S.insSort.dir > 0 ? "ascending" : "descending") : null}, label); b.addEventListener("click", () => { if (S.insSort.k === key) S.insSort.dir *= -1; else S.insSort = {k:key, dir: key === "name" ? 1 : -1}; render(); }); return b; };
   const view = h("div");
   view.append(h("div", {class:"view-head"}, h("div", null, h("h2", null, "Insurers"), h("p", null, "Tap an insurer for its profile, metrics against the industry median, full product list and customer reviews. Sort any column."))));
   const tbl = h("div", {class:"tablewrap"}, h("table", {class:"sticky1"},
-    h("thead", null, h("tr", null, h("th", null, sortBtn("name", "Insurer")), h("th", null, "Sector"), keys.map(([kk, l]) => h("th", {class:"n"}, sortBtn(kk, l))), h("th", {class:"n"}, sortBtn("rating", "App rating")), h("th", {class:"n"}, sortBtn("ind", "Products")), h("th", {class:"n"}, sortBtn("launches", "New (12m)")), h("th", null, ""))),
+    h("thead", null, h("tr", null, h("th", null, sortBtn("name", "Insurer")), h("th", null, "Sector"), h("th", {class:"n"}, sortBtn("foreign", "Foreign stake")), keys.map(([kk, l]) => h("th", {class:"n"}, sortBtn(kk, l))), h("th", {class:"n"}, sortBtn("rating", "App rating")), h("th", {class:"n"}, sortBtn("ind", "Products")), h("th", {class:"n"}, sortBtn("launches", "New (12m)")), h("th", null, ""))),
     h("tbody", null, rows.map(r => {
       const sel = S.cmpI.includes(r.id);
       const cb = h("button", {class:"cmpbtn", type:"button", "aria-pressed": String(sel), title: sel ? "Remove from compare" : "Add to compare", "aria-label":"Compare " + r.l}, sel ? "✓" : "+");
@@ -746,7 +1119,8 @@ function viewInsurers(){
       const tr = h("tr", {class:"click" + (r.id === S.bench ? " bench" : "")},
         h("td", null, h("div", {class:"pname", style:"min-width:150px"}, r.l, h("span", {class:"ins"}, r.listed && /^Listed/.test(r.listed) ? r.listed : (r.c.former_names && r.c.former_names[0] ? "formerly " + r.c.former_names[0] : "")))),
         h("td", {class:"small ink2"}, r.sector || "—"),
-        keys.map(([kk]) => h("td", {class:"n"}, fmtMetric(kk, mval(r.c, kk)))),
+        h("td", {class:"n", title: r.foreign == null ? null : "Stake held by foreign partners"}, r.foreign == null ? "—" : r.foreign === 0 ? "None" : pc(r.foreign)),
+        keys.map(([kk]) => { const p = periodOf(r.c, kk), v = mval(r.c, kk); return h("td", {class:"n", title: v != null && p ? p : null}, fmtMetric(kk, v), v != null && p && modal[kk] && p !== modal[kk] ? h("span", {class:"pnote"}, shortPeriod(p)) : null); }),
         h("td", {class:"n"}, r.rating == null ? "—" : nf1.format(r.rating) + " ★"),
         h("td", {class:"n"}, String(r.ind)), h("td", {class:"n"}, String(r.launches)), h("td", null, cb));
       tr.addEventListener("click", () => go("insurer-" + r.id));
@@ -754,7 +1128,11 @@ function viewInsurers(){
     }))));
   view.append(tbl);
   const med = S.d.industry && S.d.industry.medians || {};
-  view.append(h("p", {class:"small muted", style:"margin-top:10px"}, `Industry medians (excluding India Post and Sahara): claims settled ${fmtMetric("csr_count_pct", med.csr_count_pct)}, grievances per 10k ${fmtMetric("grievances_per_10k", med.grievances_per_10k)}, solvency ${fmtMetric("solvency_ratio", med.solvency_ratio)}. Each figure's period and source are on the insurer page.`));
+  const medTxt = [["csr_count_pct", "claims settled"], ["persistency_13m_pct", "13th-month persistency"], ["solvency_ratio", "solvency"], ["grievances_per_10k", "grievances per 10k"]].filter(([kk]) => med[kk] != null).map(([kk, l]) => `${l} ${fmtMetric(kk, med[kk])}`).join(", ");
+  const byPeriod = {};
+  keys.forEach(([kk, l]) => { if (modal[kk]) (byPeriod[modal[kk]] = byPeriod[modal[kk]] || []).push(l); });
+  view.append(h("p", {class:"small muted", style:"margin-top:10px"}, `${medTxt ? `Industry medians (excluding India Post and Sahara): ${medTxt}. ` : ""}Each figure's period and source are on the insurer page.`));
+  if (Object.keys(byPeriod).length) view.append(h("p", {class:"small muted", style:"margin-top:4px"}, "Periods: " + Object.entries(byPeriod).map(([p, ls]) => `${shortPeriod(p)} for ${ls.join(", ")}`).join("; ") + ". An insurer reporting a different period has it printed under the figure."));
   return view;
 }
 
@@ -787,7 +1165,7 @@ function viewInsurer(id){
       h("h1", null, c.legal_name || c.name || cname(id)),
       c.former_names && c.former_names.length ? h("div", {class:"small muted", style:"margin-top:4px"}, "Formerly " + c.former_names.join("; ")) : null,
       c.status_note ? h("div", {style:"margin-top:8px"}, h("span", {class:"stamp solid"}, c.status_note)) : null,
-      h("div", {class:"desc"}, [c.ownership, c.listed, c.md_ceo ? "MD & CEO: " + c.md_ceo : null].filter(Boolean).join(" · ")),
+      h("div", {class:"desc"}, [ownText(c), c.listed, c.md_ceo ? "MD & CEO: " + c.md_ceo : null].filter(Boolean).join(" · ")),
       h("div", {class:"chips", style:"margin-top:10px"}, c.website ? h("a", {class:"chip", href:c.website, target:"_blank", rel:"noopener"}, host(c.website)) : null, (c.urls && c.urls.product_list_url) ? h("a", {class:"chip", href:c.urls.product_list_url, target:"_blank", rel:"noopener"}, "Official product list") : null)),
     h("div", {class:"actions"}, cmpB, benchB)));
 
@@ -804,6 +1182,7 @@ function viewInsurer(id){
     () => simpleTable([{l:"Category", v:r => r.l}, {l:"Products", n:1, v:r => String(r.v)}], rows)));
   port.append(reviewsPanel(c));
   view.append(port);
+  view.append(h("div", {class:"section"}, ownershipPanel(c)));
 
   // products list
   const mine = products().filter(p => p.company_id === id);
@@ -845,6 +1224,457 @@ function reviewsPanel(c){
     [["WhatsApp", ds.whatsapp, ds.whatsapp_number], ["Customer app", ds.customer_app], ["Website chatbot", ds.web_chatbot], ["Self-service portal", ds.customer_portal]].map(([l, v, x]) => h("span", {class:"flag" + (v ? " y" : "")}, (v ? "✓ " : v === false ? "✕ " : "? ") + l + (x ? " " + x : ""))))));
   if (!body.childNodes.length) body.append(h("p", {class:"muted small"}, "No customer reviews captured yet."));
   return h("section", {class:"panel"}, h("div", {class:"panel-head"}, h("div", {class:"t"}, h("h3", null, "Customer reviews"), h("div", {class:"s"}, "App store ratings, review sites and recurring themes"))), body);
+}
+
+/* ---------- ownership ---------- */
+const OWN_GROUP = {"Foreign partner":"foreign", "Indian promoter":"domestic", "Bank":"domestic", "Government":"domestic"};
+const OWN_SEGS = [
+  {k:"foreign", l:"Foreign partner", color:"var(--cat-1)", ink:"var(--on-cat-1)"},
+  {k:"domestic", l:"Indian promoter, banks, government", color:"var(--cat-2)", ink:"var(--on-cat-2)"},
+  {k:"public", l:"Public, FPI and other", color:"var(--cat-3)", ink:"var(--on-cat-3)"},
+  {k:"rest", l:"Not itemised", cls:"hatch", ink:"var(--ink)"}
+];
+const OWN_EVENT_ORDER = ["Entry", "Stake increase", "Stake decrease", "Exit", "Merger", "Listing", "Rename"];
+const DERIVED_NOTE = "Indian-side stakes marked balance, derived are worked out as 100% minus IRDAI's foreign share. They are not filed shareholdings.";
+const ownKind = t => OWN_GROUP[t] || "public";
+const clip = (s, n) => { s = String(s || ""); return s.length > n ? s.slice(0, n - 1).trimEnd() + "…" : s; };
+function ownObj(c){ const o = c && c.ownership; return o && typeof o === "object" && !Array.isArray(o) ? o : null; }
+function foreignOf(c){ const o = ownObj(c); return o ? num(o.foreign_stake_pct) : null; }
+function holderBase(n){ return String(n || "").replace(/\s*\(balance,\s*derived\)/i, "").trim(); }
+function holderShort(s){ return shortName(holderBase(s.name)) + (s.derived ? " (balance)" : ""); }
+function asOfText(a){ return a ? fmtDate(a) : "date not stated"; }
+function asOfRange(list){
+  const v = [...new Set(list.filter(Boolean))].sort();
+  return !v.length ? "" : v.length === 1 ? fmtDate(v[0]) : `${fmtDate(v[0])} to ${fmtDate(v[v.length - 1])}`;
+}
+function ownInfo(c){
+  const o = ownObj(c);
+  if (!o) return null;
+  const holders = arr(o.shareholders).map(s => ({name:String((s && s.name) || "Unnamed holder"), type:String((s && s.type) || "Other"), country:(s && s.country) || "", stake:num(s && s.stake_pct), asOf:(s && s.as_of) || "", source:(s && s.source) || "", derived:/balance,\s*derived/i.test(String((s && s.name) || ""))}))
+    .filter(s => s.stake != null).sort((a, b) => b.stake - a.stake);
+  let partners = arr(o.foreign_partners).map(p => ({name:String((p && p.name) || "Foreign partner"), country:(p && p.country) || "Not stated", stake:num(p && p.stake_pct), since:(p && p.since) || null}));
+  if (!partners.length) partners = holders.filter(s => s.type === "Foreign partner").map(s => ({name:s.name, country:s.country || "Not stated", stake:s.stake, since:null}));
+  const parts = {foreign:0, domestic:0, public:0, rest:0};
+  holders.forEach(s => { parts[ownKind(s.type)] += s.stake; });
+  const tot = parts.foreign + parts.domestic + parts.public;
+  if (holders.length && 100 - tot >= 1) parts.rest = 100 - tot;
+  const foreign = num(o.foreign_stake_pct), fh = holders.find(s => s.type === "Foreign partner");
+  return {
+    holders, partners, parts, foreign, foreignAsOf: fh ? fh.asOf : "",
+    viaParent: foreign != null && foreign > 0 && foreign > parts.foreign + 0.5,
+    parentFpi: holders.some(s => /listed parent/i.test(s.name)),
+    fpi: num(o.fpi_pct), fpiAsOf: o.fpi_as_of || "", fpiSrc: o.fpi_source || "",
+    events: arr(o.events).filter(e => e && (e.text || e.type)),
+    notes: typeof o.notes === "string" ? o.notes : ""
+  };
+}
+function ownRows(){ return companies().map(c => ({c, id:c.id, l:cname(c.id), info:ownInfo(c)})).filter(r => r.info); }
+const partnerCountry = p => p.country && p.country !== "Not stated" ? p.country : "";
+function partnerText(i){
+  if (!i.partners.length) return "No foreign partner";
+  const cs = [...new Set(i.partners.map(partnerCountry).filter(Boolean))];
+  return i.partners.map(p => shortName(p.name)).join(", ") + " · " + (cs.length ? cs.join(", ") : "country not stated") + (i.viaParent ? " · via parent" : "");
+}
+// One plain line for the insurer page header and the compare table
+function ownText(c){
+  const i = ownInfo(c);
+  if (i && i.partners.length) return "Foreign partner: " + i.partners.map(p => `${shortName(p.name)}${partnerCountry(p) ? " (" + p.country + ")" : ""}${p.stake != null ? ", " + pc(p.stake) : ""}`).join("; ") + (i.viaParent ? ", held through its listed parent" : "");
+  if (i && i.holders.length) return `No foreign partner; largest holder ${holderShort(i.holders[0])} ${pc(i.holders[0].stake)}`;
+  return typeof c.ownership_text === "string" ? c.ownership_text : (typeof c.ownership === "string" ? c.ownership : "");
+}
+// A holder's name links to its source when that is a web address; otherwise it is plain text
+function holderCell(s){
+  const url = safeUrl(s.source), base = holderBase(s.name);
+  return h("span", null, url ? ext(url, base) : base, s.derived ? h("span", {class:"chip", style:"margin-left:6px", title:DERIVED_NOTE}, "balance, derived") : null);
+}
+function segHolders(i, k){
+  const hs = i.holders.filter(x => ownKind(x.type) === k), when = asOfRange(hs.map(x => x.asOf));
+  return hs.slice(0, 3).map(x => `${holderShort(x)} ${pc(x.stake, 2)}`).join("; ") + (hs.length > 3 ? ` and ${hs.length - 3} more` : "") + (when ? ` · as of ${when}` : "");
+}
+
+function fdiEntries(ind){
+  return arr(ind && ind.fdi_cap_timeline).map(e => ({year:num(e && e.year), cap:num(e && e.cap_pct), event:String((e && e.event) || ""), source:(e && e.source) || ""}))
+    .filter(e => e.year != null && e.cap != null).sort((a, b) => a.year - b.year);
+}
+function ownKpis(rows, ind){
+  const tl = fdiEntries(ind), capNow = tl.length ? tl[tl.length - 1].cap : null;
+  let since = null;
+  if (tl.length){ let k = tl.length - 1; while (k > 0 && tl[k - 1].cap === capNow) k--; since = tl[k].year; }
+  const known = rows.filter(r => r.info.foreign != null), withP = known.filter(r => r.info.foreign > 0);
+  const avg = withP.length ? sum(withP.map(r => r.info.foreign)) / withP.length : null;
+  const countries = new Set(), unstated = withP.reduce((n, r) => n + r.info.partners.filter(p => !partnerCountry(p)).length, 0);
+  withP.forEach(r => r.info.partners.forEach(p => { if (partnerCountry(p)) countries.add(p.country); }));
+  const kp = [
+    ["Foreign investment cap", capNow == null ? "—" : trimNum(capNow) + "%", since ? `since ${since}` : "timeline not loaded"],
+    ["Insurers with a foreign partner", known.length ? `${withP.length} of ${known.length}` : "—", "a non-Indian insurer or investor holds shares"],
+    ["Average foreign stake", avg == null ? "—" : pc(avg), withP.length ? `across those ${withP.length} insurers` : "no foreign partners recorded"],
+    ["Partner home countries", withP.length ? String(countries.size) : "—", unstated ? `plus ${unstated} not stated` : "by the partner's head office"]
+  ];
+  return h("div", {class:"kpis k4"}, kp.map(([l, v, d]) => h("div", {class:"kpi"}, h("div", {class:"l"}, l), h("div", {class:"v"}, v), h("div", {class:"d"}, d))));
+}
+
+function fdiCard(ind){
+  const tl = fdiEntries(ind);
+  if (tl.length < 2) return emptyPanel("Foreign investment cap", "The cap timeline is not loaded yet.");
+  const steps = tl.filter((e, k) => k === 0 || e.cap !== tl[k - 1].cap), same = tl.filter(e => !steps.includes(e));
+  const first = tl[0].year, end = Math.max(tl[tl.length - 1].year, new Date().getFullYear()) + 1, span = end - first;
+  const ymax = Math.max(100, ...tl.map(e => e.cap)), X = y => (y - first) / span * 100, Yp = v => v / ymax * 100;
+  const chart = () => {
+    const box = h("div", {class:"fdi", role:"img", "aria-label":"Foreign investment cap by year: " + steps.map(s => `${s.year} ${trimNum(s.cap)}%`).join(", ")});
+    [0, 25, 50, 75, 100].forEach(t => box.append(h("span", {class:"fdi-gl", style:`bottom:${Yp(t)}%`}), h("span", {class:"fdi-yl", style:`bottom:${Yp(t)}%`}, t + "%")));
+    steps.forEach((s, k) => {
+      const nx = steps[k + 1], pv = steps[k - 1], x0 = X(s.year), w = (nx ? X(nx.year) : 100) - x0;
+      const lab = h("span", {class:"fdi-v"}, trimNum(s.cap) + "%"), el = h("div", {class:"fdi-step", tabindex:"0", style:`left:${x0}%;width:${w}%;height:${Yp(s.cap)}%;--p:${pv ? pv.cap / s.cap * 100 : 0}%`}, lab);
+      hover(el, () => [`${trimNum(s.cap)}% cap`, nx ? `${s.year} to ${nx.year}` : `${s.year} onwards`, clip(s.event, 150)]);
+      el._lab = lab;
+      box.append(el);
+    });
+    // a value label sits at the step's left edge; where the step is too narrow for it, it moves to the right edge
+    const fitLabels = () => box.querySelectorAll(".fdi-step").forEach(el => el._lab.classList.toggle("r", el.clientWidth < textW(el._lab.textContent) + 24));
+    if (window.ResizeObserver) new ResizeObserver(fitLabels).observe(box); else requestAnimationFrame(fitLabels);
+    same.forEach(p => {
+      const el = h("span", {class:"fdi-pt", tabindex:"0", style:`left:${X(p.year)}%;top:${100 - Yp(p.cap)}%`});
+      hover(el, () => [`${trimNum(p.cap)}% cap, unchanged`, String(p.year), clip(p.event, 150)]);
+      box.append(el);
+    });
+    const xl = h("div", {class:"fdi-x"});
+    let lastX = -99;
+    [...steps, ...same].sort((a, b) => a.year - b.year).forEach(e => { const x = X(e.year); if (x - lastX >= 11){ xl.append(h("span", {style:`left:${x}%`}, String(e.year))); lastX = x; } });
+    const list = h("ul", {class:"fdi-list"}, tl.map(e => h("li", null, h("span", {class:"yr"}, String(e.year)), h("span", {class:"cp"}, trimNum(e.cap) + "%"), h("span", {class:"ev"}, e.event, e.source ? [" ", srcLink(e.source)] : null))));
+    return h("div", null, box, xl, list);
+  };
+  return card("Foreign investment cap", "Highest share of an insurer's equity that foreign investors may hold · a step marks each year the rule changed", chart,
+    () => simpleTable([{l:"Year", v:e => String(e.year)}, {l:"Cap", n:1, v:e => trimNum(e.cap) + "%"}, {l:"What changed", v:e => e.event || "—"}, {l:"Source", v:e => srcLink(e.source) || "—"}], tl));
+}
+
+function structureCard(rows){
+  const withBars = rows.filter(r => r.info.holders.length), without = rows.filter(r => !r.info.holders.length);
+  if (!withBars.length) return emptyPanel("Who owns each insurer", "Shareholder breakdowns are not loaded yet.");
+  const list = withBars.map(r => {
+    const i = r.info, top = i.holders[0];
+    return {id:r.id, l:r.l, info:i, parts:i.parts, sub:partnerText(i), foreign:i.foreign == null ? 0 : i.foreign, tr:i.foreign == null ? "—" : i.foreign > 0 ? pc(i.foreign) : "None",
+      tip: () => [i.foreign == null ? "Foreign stake not known" : i.foreign > 0 ? `${pc(i.foreign, 2)} foreign` : "No foreign partner", r.l,
+        i.partners.length ? i.partners.map(p => `${shortName(p.name)}${partnerCountry(p) ? ", " + p.country : ""}`).join("; ") + (i.viaParent ? ". Held through its listed parent, not as a direct stake." : "") : `Largest holder: ${holderShort(top)} ${pc(top.stake)}`]};
+  }).sort((a, b) => b.foreign - a.foreign || a.l.localeCompare(b.l));
+  const segs = OWN_SEGS.filter(s => s.k !== "rest" || list.some(r => r.parts.rest > 0));
+  const segTip = (r, s, v) => s.k === "rest" ? [pc(v), r.l, "Not itemised: the holders listed add up to less than 100%"] : [pc(v), `${r.l} · ${s.l}`, segHolders(r.info, s.k)];
+  const when = asOfRange(list.flatMap(r => r.info.holders.map(s => s.asOf)));
+  const missing = without.length ? `No shareholder breakdown found yet for ${without.map(r => r.l).join(", ")}.` : "";
+  const chart = () => h("div", null,
+    stackRows(list, segs, {legend:segs.map(s => ({l:s.l, color:s.color, cls:s.cls})), segTip}),
+    h("p", {class:"fn"}, "A foreign partner is a non-Indian insurer or investor holding shares in the insurer. Foreign portfolio investors in listed insurers sit under public, FPI and other. ", DERIVED_NOTE, missing ? " " + missing : ""));
+  const flat = [];
+  list.forEach(r => r.info.holders.forEach(s => flat.push({l:r.l, s})));
+  without.forEach(r => flat.push({l:r.l, s:null}));
+  return card("Who owns each insurer", `Share of equity by type of holder${when ? " · " + when : ""} · sorted by foreign stake · tap a name to open the insurer`, chart,
+    () => simpleTable([{l:"Insurer", v:x => x.l}, {l:"Holder", v:x => x.s ? holderCell(x.s) : "No shareholder breakdown found yet"}, {l:"Type", v:x => x.s ? x.s.type : "—"}, {l:"Stake", n:1, v:x => x.s ? pc(x.s.stake, 2) : "—"}, {l:"As of", v:x => x.s ? asOfText(x.s.asOf) : "—"}], flat));
+}
+
+function partnerCountryCard(rows){
+  const by = new Map();
+  rows.forEach(r => r.info.partners.forEach(p => { const k = partnerCountry(p) || "Not stated"; if (!by.has(k)) by.set(k, []); by.get(k).push({r, p}); }));
+  if (!by.size) return emptyPanel("Foreign partners by home country", "No foreign partners are recorded yet.");
+  const list = [...by].map(([country, items]) => ({country, items, n:new Set(items.map(x => x.r.id)).size}))
+    .sort((a, b) => (a.country === "Not stated") - (b.country === "Not stated") || b.n - a.n || a.country.localeCompare(b.country));
+  const max = Math.max(...list.map(g => g.n)), nm = g => g.country === "Not stated" ? "Country not stated" : g.country, cnt = g => `${g.n} insurer${g.n === 1 ? "" : "s"}`;
+  const chart = () => h("div", null, list.map(g => {
+    const row = h("div", {class:"ctry", tabindex:"0"},
+      h("div", {class:"lab"}, nm(g)),
+      h("div", {class:"track"}, h("div", {class:"bar", style:`width:${Math.max(3, g.n / max * 68)}%`}), h("span", {class:"val"}, cnt(g))),
+      h("div", {class:"names"}, g.items.map((x, k) => [k ? "; " : null, shortName(x.p.name), " in ", linkTo("insurer-" + x.r.id, x.r.l), x.p.stake != null ? ` (${pc(x.p.stake)})` : null])));
+    hover(row, () => [cnt(g), nm(g), g.items.map(x => `${shortName(x.p.name)} in ${x.r.l}${x.p.stake != null ? " " + pc(x.p.stake) : ""}`).join("; ")]);
+    return row;
+  }));
+  const flat = list.flatMap(g => g.items.map(x => ({g, ...x})));
+  return card("Foreign partners by home country", "Number of insurers with a partner from each country · partner and stake under each bar", chart,
+    () => simpleTable([{l:"Country", v:x => nm(x.g)}, {l:"Partner", v:x => shortName(x.p.name)}, {l:"Insurer", v:x => x.r.l}, {l:"Stake", n:1, v:x => x.p.stake == null ? "—" : pc(x.p.stake, 2)}, {l:"As of", v:x => x.r.info.foreignAsOf ? asOfText(x.r.info.foreignAsOf) : "—"}], flat));
+}
+
+function fpiCard(rows){
+  const list = rows.filter(r => r.info.fpi != null).map(r => ({id:r.id, name:r.l, l:r.l + (r.info.parentFpi ? "*" : ""), v:r.info.fpi, i:r.info})).sort((a, b) => b.v - a.v);
+  if (!list.length) return emptyPanel("Foreign portfolio investors", "No listed-insurer holdings are loaded yet.");
+  const when = asOfRange(list.map(x => x.i.fpiAsOf));
+  const chart = () => h("div", null,
+    barList(list, {fmt: v => nf1.format(v) + "%", onClick: r => go("insurer-" + r.id), tipLabel: r => `As of ${asOfText(r.i.fpiAsOf)}${r.i.parentFpi ? " · holding of the listed parent, not the insurer" : ""}`}),
+    h("p", {class:"fn"}, "Portfolio investors buy shares on the stock exchange. They are not partners in the business, so they are not counted as foreign partners." + (list.some(x => x.i.parentFpi) ? " * The figure is for the insurer's listed parent company, not the insurer." : "")));
+  return card("Foreign portfolio investors", `Share held by FPIs in listed insurers${when ? " · " + when : ""}`, chart,
+    () => simpleTable([{l:"Insurer", v:r => r.name + (r.i.parentFpi ? " (listed parent)" : "")}, {l:"FPI holding", n:1, v:r => pc(r.v, 2)}, {l:"As of", v:r => asOfText(r.i.fpiAsOf)}, {l:"Source", v:r => srcLink(r.i.fpiSrc) || "—"}], list));
+}
+
+function ownEventItem(e, noCo){
+  return h("div", {class:"logitem"}, h("div", {class:"date"}, fmtDate(e.date)),
+    h("div", {class:"what"},
+      h("div", {class:"top"}, h("span", {class:"stamp"}, e.type || "Event"), noCo ? null : linkTo("insurer-" + e.id, e.l, "small")),
+      h("div", null, e.text),
+      e.source ? h("div", {class:"small"}, srcLink(e.source)) : null));
+}
+function ownEventsPanel(rows){
+  const all = [];
+  rows.forEach(r => r.info.events.forEach(e => all.push({id:r.id, l:r.l, date:String(e.date || ""), type:String(e.type || "Other"), text:String(e.text || ""), source:e.source || ""})));
+  if (!all.length) return emptyPanel("Ownership events", "No ownership events are loaded yet.");
+  all.sort((a, b) => b.date.localeCompare(a.date) || a.l.localeCompare(b.l));
+  const types = [...new Set(all.map(e => e.type))].sort((a, b) => { const x = OWN_EVENT_ORDER.indexOf(a), y = OWN_EVENT_ORDER.indexOf(b); return (x < 0 ? 99 : x) - (y < 0 ? 99 : y) || a.localeCompare(b); });
+  const cos = rows.filter(r => all.some(e => e.id === r.id)).sort((a, b) => a.l.localeCompare(b.l));
+  if (S.ownType && !types.includes(S.ownType)) S.ownType = "";
+  if (S.ownCo && !cos.some(r => r.id === S.ownCo)) S.ownCo = "";
+  const tsel = h("select", {id:"own-type", "aria-label":"Event type"}, h("option", {value:""}, "All event types"), types.map(t => { const o = h("option", {value:t}, t); if (t === S.ownType) o.selected = true; return o; }));
+  tsel.addEventListener("change", () => { S.ownType = tsel.value; S.ownShown = 25; render(); });
+  const csel = h("select", {id:"own-co", "aria-label":"Insurer"}, h("option", {value:""}, "All insurers"), cos.map(r => { const o = h("option", {value:r.id}, r.l); if (r.id === S.ownCo) o.selected = true; return o; }));
+  csel.addEventListener("change", () => { S.ownCo = csel.value; S.ownShown = 25; render(); });
+  const list = all.filter(e => (!S.ownType || e.type === S.ownType) && (!S.ownCo || e.id === S.ownCo)), shown = list.slice(0, S.ownShown);
+  return h("div", null,
+    h("div", {class:"panel-head"}, h("div", {class:"t"}, h("h2", null, "Ownership events"), h("div", {class:"s"}, `${all.length} events · newest first · stake changes, exits, listings and renames`))),
+    h("div", {class:"filters"}, tsel, csel),
+    list.length ? h("section", {class:"panel"}, h("div", {class:"log"}, shown.map(e => ownEventItem(e))),
+      list.length > shown.length ? h("div", {style:"text-align:center;margin-top:12px"}, h("button", {class:"btn", type:"button", onclick: () => { S.ownShown += 25; render(); }}, `Show ${Math.min(25, list.length - shown.length)} more of ${list.length - shown.length}`)) : null)
+      : h("div", {class:"empty"}, h("h3", null, "No events for this filter"), h("p", null, "Choose another event type or insurer.")));
+}
+
+function ownRulesPanel(ind){
+  const flows = arr(ind && ind.fdi_inflows).filter(r => r && typeof r === "object"), srcs =arr(ind && ind.sources_extra).map(safeUrl).filter(Boolean);
+  if (!ind || (!ind.current_rules && !flows.length && !ind.notes && !srcs.length)) return emptyPanel("Rules, inflows and notes", "No industry-level ownership notes are loaded yet.");
+  const text = v => typeof v === "string" ? h("p", {class:"ink2"}, v) : Array.isArray(v) ? h("ul", {class:"theme-list"}, v.map(x => h("li", null, typeof x === "string" ? x : JSON.stringify(x)))) : v && typeof v === "object" ? kvGrid(Object.entries(v).map(([k, x]) => [k.replace(/_/g, " "), typeof x === "string" ? x : JSON.stringify(x)])) : null;
+  const body = h("div", {class:"stack"});
+  if (ind.current_rules) body.append(h("div", null, h("div", {class:"eyebrow", style:"margin-bottom:6px"}, "Rules today"), text(ind.current_rules)));
+  if (flows.length) body.append(h("div", null, h("div", {class:"eyebrow", style:"margin-bottom:6px"}, "Foreign money that came in"),
+    simpleTable([{l:"Period", v:r => r.period || "—"}, {l:"US$ million", n:1, v:r => num(r.value_usd_mn) == null ? "—" : nfIN.format(r.value_usd_mn)}, {l:"₹ crore", n:1, v:r => num(r.value_inr_cr) == null ? "—" : nfIN.format(r.value_inr_cr)}, {l:"What it covers", v:r => r.scope || "—"}, {l:"Source", v:r => srcLink(r.source) || "—"}], flows)));
+  if (ind.notes) body.append(h("div", null, h("div", {class:"eyebrow", style:"margin-bottom:6px"}, "Notes"), text(ind.notes)));
+  if (srcs.length) body.append(h("div", null, h("div", {class:"eyebrow", style:"margin-bottom:6px"}, "More sources"), h("div", {class:"sources"}, srcs.map(u => ext(u, u)))));
+  return h("section", {class:"panel"}, h("div", {class:"panel-head"}, h("div", {class:"t"}, h("h3", null, "Rules, inflows and notes"), h("div", {class:"s"}, "Industry level, from IRDAI, Parliament answers and news reports"))), body);
+}
+
+function viewOwnership(){
+  const rows = ownRows(), ind = (S.d.industry && S.d.industry.ownership) || null, view = h("div");
+  view.append(h("div", {class:"view-head"}, h("div", null, h("h2", null, "Ownership"),
+    h("p", null, "How much foreign money the law allows, which insurers have a foreign partner, who the partners are, and the deals that changed it."))));
+  if (!rows.length && !ind){
+    view.append(h("div", {class:"empty"}, h("h3", null, "Ownership data is not loaded yet"), h("p", null, "Import the ownership research and rebuild the dashboard to fill this page.")));
+    return view;
+  }
+  view.append(ownKpis(rows, ind));
+  view.append(h("div", {class:"section"}, fdiCard(ind)));
+  view.append(h("div", {class:"section"}, structureCard(rows)));
+  const g = h("div", {class:"grid g2 section"});
+  g.append(partnerCountryCard(rows), fpiCard(rows));
+  view.append(g);
+  view.append(h("div", {class:"section"}, ownEventsPanel(rows)));
+  view.append(h("div", {class:"section"}, ownRulesPanel(ind)));
+  const on = S.d.meta && S.d.meta.ownership_researched_on;
+  view.append(h("p", {class:"small muted", style:"margin-top:12px"}, `${on ? "Researched " + fmtDate(on) + " from" : "Compiled from"} IRDAI and Parliament answers, stock exchange filings, company reports and news. Holder names, events and notes link to their sources.`));
+  return view;
+}
+
+// Ownership block on an insurer page
+function ownershipPanel(c){
+  const i = ownInfo(c);
+  const head = sub => h("div", {class:"panel-head"}, h("div", {class:"t"}, h("h3", null, "Ownership"), sub ? h("div", {class:"s"}, sub) : null), linkTo("ownership", "All insurers", "small"));
+  if (!i || (!i.holders.length && !i.partners.length && i.foreign == null && !i.events.length && !i.notes))
+    return h("section", {class:"panel"}, head(null), h("p", {class:"muted small"}, "No ownership data has been captured for this insurer yet."));
+  const body = h("div", {class:"stack"}), when = asOfRange(i.holders.map(s => s.asOf));
+  const headline = i.foreign == null ? "Foreign stake not known" : i.foreign > 0 ? `Foreign stake ${pc(i.foreign, 2)}` : "No foreign partner";
+  if (i.holders.length){
+    const tot = i.parts.foreign + i.parts.domestic + i.parts.public + i.parts.rest, k = tot > 100 ? 100 / tot : 1;
+    const parts = OWN_SEGS.map(s => ({l:s.l, v:(i.parts[s.k] || 0) * k, color:s.color, cls:s.cls, ink:s.ink, tip: s.k === "rest" ? "Holders listed add up to less than 100%" : segHolders(i, s.k)})).filter(p => p.v > 0);
+    const lg = legendOf(parts.map(p => ({l:p.l, color:p.color, cls:p.cls}))); lg.style.margin = "10px 0 0";
+    body.append(h("div", null, tallBar(parts), lg));
+    body.append(simpleTable([{l:"Holder", v:s => holderCell(s)}, {l:"Type", v:s => s.type}, {l:"Stake", n:1, v:s => pc(s.stake, 2)}, {l:"As of", v:s => asOfText(s.asOf)}], i.holders));
+  }
+  if (i.partners.length) body.append(h("div", null, h("div", {class:"eyebrow", style:"margin-bottom:6px"}, "Foreign partner"),
+    h("ul", {class:"theme-list"}, i.partners.map(p => h("li", null, p.name, `, ${partnerCountry(p) || "country not stated"}`, p.stake != null ? ` · ${pc(p.stake, 2)}` : "", p.since ? ` · partner since ${p.since}` : "")))));
+  if (i.fpi != null) body.append(h("p", {class:"ink2"}, `Foreign portfolio investors hold ${pc(i.fpi, 2)}${i.parentFpi ? " of the listed parent company" : ""} (${asOfText(i.fpiAsOf)}). `, srcLink(i.fpiSrc)));
+  if (i.notes) body.append(h("div", null, h("div", {class:"eyebrow", style:"margin-bottom:6px"}, "Research notes"), h("p", {class:"note"}, i.notes)));
+  if (i.holders.some(s => s.derived)) body.append(h("p", {class:"fn", style:"margin-top:0"}, DERIVED_NOTE));
+  const ev = [...i.events].sort((a, b) => String(b.date || "").localeCompare(String(a.date || ""))).slice(0, 4).map(e => ({id:c.id, l:cname(c.id), date:String(e.date || ""), type:String(e.type || "Event"), text:String(e.text || ""), source:e.source || ""}));
+  if (ev.length) body.append(h("div", null, h("div", {class:"eyebrow", style:"margin-bottom:6px"}, "Ownership events"), h("div", {class:"log"}, ev.map(e => ownEventItem(e, true)))));
+  return h("section", {class:"panel"}, head(`${headline}${when ? " · as of " + when : ""}`), body);
+}
+
+/* ---------- product analytics ---------- */
+const elig = p => p.eligibility || {};
+const termOf = p => (p.category_details || {}).term || {};
+const ulipOf = p => (p.category_details || {}).ulip || {};
+const TERM_FEATURES = [
+  {k:"rop_option", l:"Return of premium"},
+  {k:"whole_life_cover_option", l:"Whole-life cover"},
+  {k:"ci_or_accelerated_benefit", l:"Critical illness or accelerated benefit"},
+  {k:"increasing_cover_option", l:"Increasing cover"}
+];
+// Answers are true/false or free text. Text counts as offered unless it says no, or only a separate rider is named.
+function featState(v){
+  if (v === true || v === false) return v;
+  if (typeof v !== "string") return null;
+  const s = v.trim().toLowerCase();
+  if (!s) return null;
+  if (/^(no|not|none|n\/a|nil)\b/.test(s) || /no standard/.test(s)) return false;
+  const t = s.replace(/\bno (in-?built|built-?in)[^;.]*/g, "");
+  if (/\brider/.test(t) && !/(in-?built|built-?in|accelerat|terminal|waiver|base plan|in base)/.test(t)) return false;
+  return true;
+}
+const noun = (n, one, many) => `${nfIN.format(n)} ${n === 1 ? one : many || one + "s"}`;
+
+function termFeaturesCard(act){
+  const terms = act.filter(p => p.category === "Term");
+  if (!terms.length) return emptyPanel("What term plans offer", "No term plans on sale are loaded yet.");
+  const rows = TERM_FEATURES.map(f => {
+    const st = terms.map(p => featState(termOf(p)[f.k])), yes = st.filter(x => x === true).length, no = st.filter(x => x === false).length, n = yes + no;
+    return {l:f.l, yes, no, n, miss:terms.length - n, share: n ? yes / n * 100 : null};
+  });
+  if (rows.every(r => !r.n)) return emptyPanel("What term plans offer", "Term plan features are not loaded yet.");
+  const chart = () => h("div", null,
+    rows.map(r => {
+      const row = h("div", {class:"shr", tabindex:"0"}, h("div", {class:"lab"}, r.l, h("small", null, `${r.n} of ${terms.length} plans recorded`)), h("div", {class:"g"}, r.share == null ? null : h("i", {style:`width:${r.share}%`})),
+        h("div", {class:"v"}, h("b", null, r.share == null ? "—" : Math.round(r.share) + "%"), h("small", null, r.n ? `${r.yes} of ${r.n}` : "no data")));
+      hover(row, () => [r.share == null ? "No data" : pc(r.share), r.l, r.n ? `${r.yes} of ${noun(r.n, "term plan")} with a recorded answer; ${r.miss} not recorded` : "No term plan has a recorded answer"]);
+      return row;
+    }),
+    h("p", {class:"fn"}, `Of ${noun(terms.length, "term plan")} on sale. Each bar counts only the plans where the answer is recorded, shown under the figure. Written answers count as offered unless they say no or name only a separate rider.`));
+  return card("What term plans offer", `${noun(terms.length, "individual term plan")} on sale · share that offer each feature`, chart,
+    () => simpleTable([{l:"Feature", v:r => r.l}, {l:"Offered", n:1, v:r => String(r.yes)}, {l:"Not offered", n:1, v:r => String(r.no)}, {l:"Not recorded", n:1, v:r => String(r.miss)}, {l:"Share offered", n:1, v:r => r.share == null ? "—" : pc(r.share)}], rows));
+}
+
+function termMaturityCard(act){
+  const by = {}, terms = act.filter(p => p.category === "Term");
+  terms.forEach(p => { const v = num(elig(p).maturity_age_max_years); if (v == null) return; const r = by[p.company_id] = by[p.company_id] || {id:p.company_id, l:cname(p.company_id), v:0, n:0}; r.v = Math.max(r.v, v); r.n++; });
+  const rows = Object.values(by).sort((a, b) => b.v - a.v || a.l.localeCompare(b.l));
+  if (rows.length < 3) return emptyPanel("Term plans: highest age at maturity", "Maturity ages for term plans are not loaded yet.");
+  const lo = Math.floor((rows[rows.length - 1].v - 5) / 5) * 5, hi = Math.ceil((rows[0].v + 11) / 5) * 5, X = v => (v - lo) / (hi - lo) * 100;
+  const ticks = []; for (let t = Math.ceil(lo / 10) * 10; t <= Math.ceil(rows[0].v / 10) * 10; t += 10) ticks.push(t);
+  const lab = new Set([rows[0].id, rows[rows.length - 1].id]); if (S.bench) lab.add(S.bench);
+  const none = [...new Set(terms.map(p => p.company_id))].filter(id => !by[id]).map(cname).sort();
+  const chart = () => h("div", null, rowChart(rows, {
+    x:X, rowH:22, ticks, tickFmt:t => String(t), one:true,
+    marks: r => { const mut = !!S.bench && r.id !== S.bench; return [h("span", {class:"rc-guide", style:`width:${X(r.v)}%`}), h("span", {class:"rc-dot", style:`left:${X(r.v)}%;--c:${mut ? "var(--emph-muted)" : "var(--accent)"}`}), lab.has(r.id) ? h("span", {class:"rc-t", style:`left:${X(r.v)}%;margin-left:9px`}, trimNum(r.v)) : null]; },
+    tip: r => [`${trimNum(r.v)} years`, r.l, `Highest of ${noun(r.n, "term plan")} with a recorded maturity age`]
+  }), h("p", {class:"fn"}, "Age in years at the end of the longest policy. Tap a row to open the insurer." + (none.length ? ` No maturity age recorded for term plans from ${none.join(", ")}.` : "")));
+  return card("Term plans: highest age at maturity", "Oldest age any term plan on sale runs to, by insurer", chart,
+    () => simpleTable([{l:"Insurer", v:r => r.l}, {l:"Highest age at maturity", n:1, v:r => trimNum(r.v)}, {l:"Term plans with the age recorded", n:1, v:r => String(r.n)}], rows));
+}
+
+function entryAgeCard(act){
+  const all = CAT_IND.map(cat => {
+    const ps = act.filter(p => p.category === cat).map(p => ({lo:num(elig(p).entry_age_min_years), hi:num(elig(p).entry_age_max_years)})).filter(x => x.lo != null && x.hi != null);
+    return {cat, id:null, l:cat, dot:catColor(cat), n:ps.length, lo:median(ps.map(x => x.lo)), hi:median(ps.map(x => x.hi)), h:44};
+  });
+  const rows = all.filter(r => r.n);
+  if (!rows.length) return emptyPanel("Entry age by category", "Entry ages are not loaded yet.");
+  const X = v => clamp(v, 0, 100);
+  rows.forEach(r => { r.sub = noun(r.n, "plan"); });
+  const chart = () => h("div", null,
+    legendOf([{l:"Median youngest entry age", cls:"dotk hollow", style:"--c:var(--ink-2)"}, {l:"Median oldest entry age", cls:"dotk", style:"background:var(--ink-2)"}]),
+    rowChart(rows, {
+      x:X, rowH:44, ticks:[0, 20, 40, 60, 80, 100], tickFmt:t => String(t), noOpen:true, one:true,
+      marks: r => [h("span", {class:"rc-bar", style:`left:${X(r.lo)}%;width:${Math.max(0.5, X(r.hi) - X(r.lo))}%;--c:${catColor(r.cat)}`}),
+        h("span", {class:"rc-dot hollow", style:`left:${X(r.lo)}%;--c:${catColor(r.cat)}`}), h("span", {class:"rc-dot", style:`left:${X(r.hi)}%;--c:${catColor(r.cat)}`}),
+        h("span", {class:"rc-t up", style:`left:${clamp((X(r.lo) + X(r.hi)) / 2, 14, 86)}%`}, ageSpan(r.lo, r.hi))],
+      tip: r => [ageSpan(r.lo, r.hi), r.cat, `Median youngest and oldest entry age across ${noun(r.n, "plan")}`]
+    }),
+    h("p", {class:"fn"}, "Ages in completed years. Each end is the median across plans in the category that publish both ages."));
+  return card("Entry age by category", "Typical range of ages a plan can be bought at", chart,
+    () => simpleTable([{l:"Category", v:r => r.cat}, {l:"Plans", n:1, v:r => String(r.n)}, {l:"Median youngest entry age", n:1, v:r => ageLbl(r.lo)}, {l:"Median oldest entry age", n:1, v:r => trimNum(r.hi)}], rows));
+}
+
+function premiumStripCard(act){
+  const rows = CAT_IND.map(cat => {
+    const dots = act.filter(p => p.category === cat).map(p => ({p, v:num(elig(p).min_annual_premium_inr)})).filter(d => d.v != null && d.v > 0);
+    return {cat, l:cat, dot:catColor(cat), dots, n:dots.length, med:median(dots.map(d => d.v)), h:62};
+  }).filter(r => r.n);
+  if (!rows.length) return emptyPanel("Minimum annual premium", "Minimum premiums are not loaded yet.");
+  const all = rows.flatMap(r => r.dots.map(d => d.v)), lo = Math.floor(Math.log10(Math.min(...all))), hi = Math.max(lo + 1, Math.ceil(Math.log10(Math.max(...all))));
+  const X = t => (t - lo) / (hi - lo) * 100, XV = v => X(Math.log10(v)), ticks = []; for (let t = lo; t <= hi; t++) ticks.push(t);
+  rows.forEach(r => { r.med = Math.round(r.med); r.sub = [noun(r.n, "plan"), `median ${inr(r.med)}`]; });
+  const chart = () => {
+    const wrap = rowChart(rows, {
+      x:X, ticks, tickFmt:t => inr(Math.pow(10, t)), wide:true, noOpen:true,
+      marks: r => {
+        const out = r.dots.map(d => {
+          d.el = h("span", {class:"rc-dot ia sm", tabindex:"0", role:"link", "aria-label":`${d.p.name}, ${cname(d.p.company_id)}, ${inr(d.v)}`, style:`left:${XV(d.v)}%;--c:${catColor(r.cat)}`});
+          hover(d.el, () => [inr(d.v), d.p.name, `${cname(d.p.company_id)} · ${r.cat}`]);
+          d.el.addEventListener("click", ev => { ev.stopPropagation(); go("product-" + d.p.id); });
+          d.el.addEventListener("keydown", ev => { if (ev.key === "Enter") go("product-" + d.p.id); });
+          return d.el;
+        });
+        out.push(h("span", {class:"rc-med", style:`left:${XV(r.med)}%`}));
+        return out;
+      }
+    });
+    // spread dots that would sit on top of each other, measured in pixels once the width is known
+    const place = () => {
+      const w = wrap._plot.clientWidth; if (!w) return;
+      rows.forEach(r => { const off = swarm(r.dots.map(d => XV(d.v) / 100 * w), 9, r.h / 2 - 7); r.dots.forEach((d, k) => { d.el.style.marginTop = (-4 + off[k]) + "px"; }); });
+    };
+    if (window.ResizeObserver) new ResizeObserver(place).observe(wrap._plot); else requestAnimationFrame(place);
+    return h("div", null, legendOf([{l:"One plan", cls:"dotk", style:"background:var(--ink-2)"}, {l:"Median", style:"width:2px;height:12px;border-radius:1px;background:var(--ink)"}]), wrap,
+      h("p", {class:"fn"}, `Log scale: each gridline is ten times the one before. Premiums exclude GST. ${nfIN.format(all.length)} of ${nfIN.format(act.length)} plans publish a minimum annual premium. Tap a dot to open the plan.`));
+  };
+  const flat = rows.flatMap(r => r.dots.map(d => ({cat:r.cat, ...d}))).sort((a, b) => a.v - b.v);
+  return card("Minimum annual premium", "Lowest yearly premium each plan accepts, by category", chart,
+    () => simpleTable([{l:"Plan", v:x => linkTo("product-" + x.p.id, x.p.name)}, {l:"Insurer", v:x => cname(x.p.company_id)}, {l:"Category", v:x => x.cat}, {l:"Minimum annual premium", n:1, v:x => inr(x.v)}], flat));
+}
+
+function ulipFmcCard(act){
+  const items = act.filter(p => p.category === "ULIP").map(p => ({p, v:num(ulipOf(p).fmc_max_pct)})).filter(x => x.v != null);
+  if (!items.length) return emptyPanel("ULIP fund management charge", "No ULIP charges are loaded yet.");
+  const vals = items.map(x => x.v), lo = Math.min(...vals), hi = Math.max(...vals);
+  const w = [0.05, 0.1, 0.2, 0.25, 0.5, 1].find(b => (hi - lo) / b >= 4) || 0.1, ix = v => Math.floor(v / w + 1e-9);
+  let i0 = ix(lo), i1 = ix(hi);
+  const pad = Math.max(0, Math.ceil((5 - (i1 - i0 + 1)) / 2)); i0 -= pad; i1 += pad;
+  const nb = i1 - i0 + 1, edge = k => +((i0 + k) * w).toFixed(2), bins = Array.from({length:nb}, () => []);
+  items.forEach(x => bins[ix(x.v) - i0].push(x));
+  const maxN = Math.max(...bins.map(b => b.length)), fmtE = v => nf2.format(v) + "%", step = nb > 8 ? 2 : 1;
+  const chart = () => h("div", null,
+    h("div", {class:"hist", role:"img", "aria-label":"Count of ULIPs by highest fund management charge"}, bins.map((b, k) => {
+      const col = h("div", {tabindex:"0"}, b.length ? h("b", null, String(b.length)) : null, b.length ? h("i", {style:`height:${b.length / maxN * 76}%`}) : null);
+      const names = {}; b.forEach(x => { const n = cname(x.p.company_id); names[n] = (names[n] || 0) + 1; });
+      hover(col, () => [noun(b.length, "plan"), `${fmtE(edge(k))} to ${fmtE(edge(k + 1))} a year`, Object.entries(names).slice(0, 5).map(([n, c]) => c > 1 ? `${n} ×${c}` : n).join(", ") + (Object.keys(names).length > 5 ? " and more" : "") || "No plans in this band"]);
+      return col;
+    })),
+    h("div", {class:"hist-ax"}, Array.from({length:nb + 1}, (_, k) => k).filter(k => k % step === 0).map(k => h("span", {style:`left:${k / nb * 100}%`}, fmtE(edge(k))))),
+    hi - lo < 1e-9 ? h("p", {class:"lead", style:"margin-top:8px"}, `All ${noun(items.length, "ULIP")} with a published figure charge a highest fund management charge of ${fmtE(lo)} a year.`) : null,
+    h("p", {class:"fn"}, `Number of ULIPs in each charge band. ${noun(items.length, "ULIP")} of ${nfIN.format(act.filter(p => p.category === "ULIP").length)} on sale publish this figure.`));
+  return card("ULIP fund management charge", "Highest charge taken from the fund each year", chart,
+    () => simpleTable([{l:"Plan", v:x => linkTo("product-" + x.p.id, x.p.name)}, {l:"Insurer", v:x => cname(x.p.company_id)}, {l:"Highest charge", n:1, v:x => pc(x.v, 2)}], [...items].sort((a, b) => b.v - a.v)));
+}
+
+function ulipFundsCard(act){
+  const by = {};
+  act.filter(p => p.category === "ULIP").forEach(p => { const v = num(ulipOf(p).funds_count); if (v != null) (by[p.company_id] = by[p.company_id] || []).push(v); });
+  const rows = Object.entries(by).map(([id, vs]) => ({id, l:cname(id), v:median(vs), n:vs.length, lo:Math.min(...vs), hi:Math.max(...vs)})).sort((a, b) => b.v - a.v || a.l.localeCompare(b.l));
+  if (!rows.length) return emptyPanel("ULIP fund options", "Fund counts are not loaded yet.");
+  return card("ULIP fund options", "Median number of funds to choose from across each insurer's ULIPs",
+    () => h("div", null, barList(rows, {fmt:v => trimNum(v), onClick:r => go("insurer-" + r.id), tipLabel:r => `${noun(r.n, "ULIP")} with a published count${r.lo !== r.hi ? ` · from ${trimNum(r.lo)} to ${trimNum(r.hi)} funds` : ""}`}), h("p", {class:"fn"}, "Insurers whose ULIPs do not publish a fund count are left out.")),
+    () => simpleTable([{l:"Insurer", v:r => r.l}, {l:"Median funds", n:1, v:r => trimNum(r.v)}, {l:"Fewest", n:1, v:r => trimNum(r.lo)}, {l:"Most", n:1, v:r => trimNum(r.hi)}, {l:"ULIPs counted", n:1, v:r => String(r.n)}], rows));
+}
+
+function onlineCard(act){
+  const by = {};
+  act.forEach(p => { const r = by[p.company_id] = by[p.company_id] || {id:p.company_id, l:cname(p.company_id), yes:0, no:0, unk:0}; if (p.online_purchase === true) r.yes++; else if (p.online_purchase === false) r.no++; else r.unk++; });
+  const rows = Object.values(by).map(r => { const t = r.yes + r.no + r.unk; return {...r, t, parts:{yes:r.yes / t * 100, no:r.no / t * 100, unk:r.unk / t * 100}, share:r.yes / t * 100}; })
+    .sort((a, b) => b.share - a.share || (b.yes + b.no) - (a.yes + a.no) || a.l.localeCompare(b.l));
+  if (!rows.length) return emptyPanel("Products you can buy online", "No individual products on sale are loaded yet.");
+  rows.forEach(r => { r.sub = `${r.yes} of ${noun(r.t, "product")}`; r.tr = r.yes + r.no ? Math.round(r.share) + "%" : "—"; });
+  const segs = [{k:"yes", l:"Can be bought online", color:"var(--cat-1)"}, {k:"no", l:"Not sold online", color:"var(--emph-muted)"}, {k:"unk", l:"Not recorded", cls:"hatch"}];
+  const tot = rows.reduce((a, r) => ({yes:a.yes + r.yes, no:a.no + r.no, unk:a.unk + r.unk, t:a.t + r.t}), {yes:0, no:0, unk:0, t:0});
+  const segTip = (r, s, v) => [pc(v), `${r.l} · ${s.l}`, `${noun(r[s.k], "product")} of ${r.t} on sale`];
+  return card("Products you can buy online", `Share of each insurer's individual products on sale · ${tot.yes} of ${nfIN.format(tot.t)} recorded as buyable online`,
+    () => h("div", null, stackRows(rows, segs, {legend:segs.map(s => ({l:s.l, color:s.color, cls:s.cls})), segTip}),
+      h("p", {class:"fn"}, `Most insurers do not say whether a plan can be bought online (${nfIN.format(tot.unk)} of ${nfIN.format(tot.t)} products), so the hatched part is unknown, not a no. The figure at the end is the share recorded as online.`)),
+    () => simpleTable([{l:"Insurer", v:r => r.l}, {l:"On sale", n:1, v:r => String(r.t)}, {l:"Online", n:1, v:r => String(r.yes)}, {l:"Not online", n:1, v:r => String(r.no)}, {l:"Not recorded", n:1, v:r => String(r.unk)}], rows));
+}
+
+function productAnalytics(){
+  const act = activeInd(), open = S.anOpen == null ? window.innerWidth > 760 : S.anOpen;
+  const det = h("details", {class:"fold"});
+  if (open) det.open = true;
+  det.addEventListener("toggle", () => { S.anOpen = det.open; });
+  det.append(h("summary", null, h("span", null, h("h2", null, "Product analytics"), h("span", {class:"fold-s"}, `What the ${nfIN.format(act.length)} individual products on sale have in common and where they differ.`)), h("span", {class:"fold-k", "aria-hidden":"true"})));
+  if (!act.length){ det.append(h("p", {class:"muted small"}, "No individual products on sale are loaded yet.")); return det; }
+  const body = h("div", {class:"stack"}), g1 = h("div", {class:"grid g2 eq"}), g2 = h("div", {class:"grid g2 eq"}), g3 = h("div", {class:"grid g2 eq"});
+  g1.append(termFeaturesCard(act), entryAgeCard(act));
+  g2.append(termMaturityCard(act), premiumStripCard(act));
+  g3.append(ulipFmcCard(act), ulipFundsCard(act));
+  body.append(g1, g2, g3, onlineCard(act));
+  det.append(body);
+  return det;
 }
 
 /* ---------- products ---------- */
@@ -953,6 +1783,7 @@ function viewProducts(){
   const f = S.f;
   const view = h("div");
   view.append(h("div", {class:"view-head"}, h("div", null, h("h2", null, "Product catalogue"), h("p", null, "Filter by segment, category and insurer. Picking one category adds the columns that matter for it — return of premium for term, fund charges for ULIPs, payout and bonus for savings, annuity options for pensions."))));
+  view.append(productAnalytics());
   const sel = (id, label, val, opts, onch) => {
     const s = h("select", {id, "aria-label":label}, opts.map(([v, l]) => { const o = h("option", {value:v}, l); if (v === val) o.selected = true; return o; }));
     s.addEventListener("change", () => { onch(s.value); S.shown = 60; render(); });
@@ -1109,7 +1940,7 @@ function viewCompare(){
   pSec.append(picker("P"));
   if (ps.length){
     const cols = ps.map(p => ({x:p, head:h("div", {class:"cmphead"}, linkTo("product-" + p.id, p.name), h("span", {class:"small muted"}, cname(p.company_id) + (p.uin ? " · " + p.uin : "")), h("button", {class:"linkbtn small", type:"button", onclick: () => { toggleCmp("P", p.id); render(); }}, "Remove"))}));
-    const E = p => p.eligibility || {}, B = p.benefits || {}, D = p => p.category_details || {}, C = p => S.comp[p.company_id] || {};
+    const E = p => p.eligibility || {}, D = p => p.category_details || {}, C = p => S.comp[p.company_id] || {};
     const groups = [
       {l:"Basics", rows:[{l:"Category", v:p => p.category}, {l:"Plan structure", v:p => p.plan_structure}, {l:"Linked / par", v:p => [p.linkage, p.participation].filter(Boolean).join(" · ")}, {l:"Status", v:p => p.status_label}, {l:"Launched", v:p => p.launch_date ? fmtDate(p.launch_date) : null}, {l:"Variants", v:p => p.variants && p.variants.length ? p.variants.map(v => v.name).join(", ") : null, num:p => p.variants ? p.variants.length : null, best:"high"}]},
       {l:"Eligibility", rows:[{l:"Entry age", v:p => entryAge(E(p))}, {l:"Min entry age", v:p => ageTxt(E(p).entry_age_min_years), num:p => E(p).entry_age_min_years, best:"low"}, {l:"Max entry age", v:p => E(p).entry_age_max_years != null ? trimNum(E(p).entry_age_max_years) + " yrs" : null, num:p => E(p).entry_age_max_years, best:"high"}, {l:"Max age at maturity", v:p => E(p).maturity_age_max_years != null ? trimNum(E(p).maturity_age_max_years) + " yrs" : null, num:p => E(p).maturity_age_max_years, best:"high"}, {l:"Policy term", v:p => termTxt(E(p))}, {l:"Premium paying term", v:p => pptTxt(E(p))}, {l:"Premium modes", v:p => (E(p).premium_modes || []).join(", ")}]},
@@ -1122,9 +1953,10 @@ function viewCompare(){
         {l:"Annuity options", v:p => (D(p).annuity||{}).annuity_options_count, num:p => (D(p).annuity||{}).annuity_options_count, best:"high"}, {l:"Min purchase price", v:p => (D(p).annuity||{}).min_purchase_price_inr != null ? inr(D(p).annuity.min_purchase_price_inr) : null, num:p => (D(p).annuity||{}).min_purchase_price_inr, best:"low"},
         {l:"Conditions covered", v:p => (D(p).health||{}).conditions_covered, num:p => (D(p).health||{}).conditions_covered, best:"high"}].filter(r => ps.some(p => { const v = r.v(p); return v != null && v !== "—"; }))},
       {l:"Buying", rows:[{l:"Buy online", v:p => yn(p.online_purchase)}, {l:"Channels", v:p => (p.channels || []).join(", ")}, {l:"Riders", v:p => (p.riders_available || []).length ? p.riders_available.length + ": " + p.riders_available.slice(0, 4).join(", ") + (p.riders_available.length > 4 ? "…" : "") : null, num:p => (p.riders_available || []).length || null, best:"high"}]},
-      {l:"Insurer signals", rows:[{l:"Claims settled (by number)", v:p => fmtMetric("csr_count_pct", mval(C(p), "csr_count_pct")), num:p => mval(C(p), "csr_count_pct"), best:"high"}, {l:"Grievances per 10k policies", v:p => fmtMetric("grievances_per_10k", mval(C(p), "grievances_per_10k")), num:p => mval(C(p), "grievances_per_10k"), best:"low"}, {l:"Solvency ratio", v:p => fmtMetric("solvency_ratio", mval(C(p), "solvency_ratio")), num:p => mval(C(p), "solvency_ratio"), best:"high"}, {l:"Android app rating", v:p => { const a = (C(p).reviews||{}).android; return a && a.rating != null ? nf1.format(a.rating) + " ★" : null; }, num:p => { const a = (C(p).reviews||{}).android; return a ? a.rating : null; }, best:"high"}]}
+      {l:"Insurer signals", rows:[{l:"Claims settled (by number)", v:p => metricP(C(p), "csr_count_pct"), num:p => mval(C(p), "csr_count_pct"), best:"high"}, {l:"Grievances per 10k policies", v:p => metricP(C(p), "grievances_per_10k"), num:p => mval(C(p), "grievances_per_10k"), best:"low"}, {l:"Solvency ratio", v:p => metricP(C(p), "solvency_ratio"), num:p => mval(C(p), "solvency_ratio"), best:"high"},{l:"Android app rating", v:p => { const a = (C(p).reviews||{}).android; return a && a.rating != null ? nf1.format(a.rating) + " ★" : null; }, num:p => { const a = (C(p).reviews||{}).android; return a ? a.rating : null; }, best:"high"}]}
     ].filter(g => g.rows.length);
-    pSec.append(cmpTable(cols, groups));
+    groups.forEach(g => g.rows = g.rows.filter(r => ps.some(p => { const v = r.v(p); return v != null && v !== "" && v !== "—"; })));
+    pSec.append(cmpTable(cols, groups.filter(g => g.rows.length)));
   } else pSec.append(h("div", {class:"empty", style:"margin-top:10px"}, h("h3", null, "No products picked yet"), h("p", null, "Search above, tap + on any catalogue row, or open a product and choose Compare with peers.")));
   view.append(pSec);
   // insurers
@@ -1136,7 +1968,13 @@ function viewCompare(){
     const cols = is.map(c => ({x:c, head:h("div", {class:"cmphead"}, linkTo("insurer-" + c.id, cname(c.id)), h("span", {class:"small muted"}, c.sector || ""), h("button", {class:"linkbtn small", type:"button", onclick: () => { toggleCmp("I", c.id); render(); }}, "Remove"))}));
     const mrow = k => ({l:METRICS[k].l, v:c => { const m = c.metrics && c.metrics[k]; return m ? fmtMetric(k, m.value) + (m.period ? ` (${m.period})` : "") : null; }, num:c => mval(c, k), best:METRICS[k].b});
     const groups = [
-      {l:"Profile", rows:[{l:"Ownership", v:c => c.ownership}, {l:"Listing", v:c => c.listed}, {l:"Established", v:c => c.established_year}, {l:"Head office", v:c => c.hq_city}]},
+      {l:"Profile", rows:[{l:"Listing", v:c => c.listed}, {l:"Established", v:c => c.established_year}, {l:"Head office", v:c => c.hq_city}]},
+      {l:"Ownership", rows:[
+        {l:"Summary", v:c => ownText(c)},
+        {l:"Foreign stake", v:c => { const f = foreignOf(c); return f == null ? null : f === 0 ? "None" : pc(f, 2); }},
+        {l:"Largest shareholder", v:c => { const i = ownInfo(c), t = i && i.holders[0]; return t ? `${holderShort(t)} ${pc(t.stake, 2)}` : null; }},
+        {l:"Foreign portfolio investors", v:c => { const i = ownInfo(c); return i && i.fpi != null ? `${pc(i.fpi, 2)}${i.parentFpi ? " (listed parent)" : ""}${i.fpiAsOf ? ", " + fmtDate(i.fpiAsOf) : ""}` : null; }},
+        {l:"Latest ownership event", v:c => { const i = ownInfo(c), e = i && [...i.events].sort((a, b) => String(b.date || "").localeCompare(String(a.date || "")))[0]; return e ? `${fmtDate(e.date)}: ${e.type || "Event"}. ${clip(e.text, 140)}` : null; }}]},
       {l:"Scale", rows:["nbp_cr","nbp_market_share_pct","nbp_growth_pct","gross_premium_cr","aum_cr","new_individual_policies","agents_count"].map(mrow)},
       {l:"Claims and service", rows:["csr_count_pct","csr_amount_pct","claims_repudiated_pct","grievances_per_10k","ombudsman_complaints","persistency_13m_pct","persistency_61m_pct"].map(mrow)},
       {l:"Strength", rows:["solvency_ratio","pat_cr","vnb_margin_pct"].map(mrow)},
@@ -1204,7 +2042,25 @@ function viewAbout(){
     h("section", null, h("h3", {style:"margin-bottom:10px"}, "Coverage by insurer"), h("div", {class:"tablewrap"}, h("table", {class:"sticky1"},
       h("thead", null, h("tr", null, h("th", null, "Insurer"), h("th", {class:"n"}, "Individual"), h("th", {class:"n"}, "Full spec"), h("th", {class:"n"}, "Riders"), h("th", {class:"n"}, "Group"), h("th", {class:"n"}, "Withdrawn"), h("th", null, "Researched"), h("th", null, "Product list"))),
       h("tbody", null, rows.map(r => h("tr", null, h("td", null, linkTo("insurer-" + r.c.id, r.l)), h("td", {class:"n"}, String(r.n)), h("td", {class:"n"}, r.full == null ? "—" : r.full + "%"), h("td", {class:"n"}, String(r.r)), h("td", {class:"n"}, String(r.g)), h("td", {class:"n"}, String(r.w)), h("td", {class:"small num"}, fmtDate(r.on)), h("td", {class:"small"}, r.url ? ext(r.url, host(r.url)) : "—")))))))));
+  view.append(h("div", {class:"section"}, specCoverageCard()));
   return view;
+}
+
+function specCoverageCard(){
+  const rows = companies().map(c => {
+    const ps = activeInd(c.id), n = ps.length, cnt = k => ps.filter(p => (p.completeness || "list-only") === k).length;
+    const full = cnt("full"), partial = cnt("partial"), listed = n - full - partial;
+    return {id:c.id, l:cname(c.id), n, full, partial, listed, parts:{full:n ? full / n * 100 : 0, partial:n ? partial / n * 100 : 0, listed:n ? listed / n * 100 : 0}};
+  }).filter(r => r.n).sort((a, b) => b.parts.full - a.parts.full || b.parts.partial - a.parts.partial || b.n - a.n || a.l.localeCompare(b.l));
+  if (!rows.length) return emptyPanel("How much detail each insurer has", "No individual products on sale are loaded yet.");
+  rows.forEach(r => { r.sub = `${r.n} on sale`; r.tr = String(r.n); });
+  const segs = [{k:"full", l:"Full spec", color:"var(--seq-7)"}, {k:"partial", l:"Partial spec", color:"var(--seq-5)"}, {k:"listed", l:"Listed only", color:"var(--seq-4)"}];
+  const tot = rows.reduce((a, r) => ({n:a.n + r.n, full:a.full + r.full, partial:a.partial + r.partial, listed:a.listed + r.listed}), {n:0, full:0, partial:0, listed:0});
+  const segTip = (r, s, v) => [pc(v), `${r.l} · ${s.l}`, `${noun(r[s.k], "product")} of ${r.n} on sale`];
+  return card("How much detail each insurer has", `Individual products on sale by how much of their spec was captured · ${nfIN.format(tot.full)} full, ${nfIN.format(tot.partial)} partial, ${nfIN.format(tot.listed)} listed only`,
+    () => h("div", null, stackRows(rows, segs, {legend:segs.map(s => ({l:s.l, color:s.color})), segTip}),
+      h("p", {class:"fn"}, "Spec shows how much of a product's detail was captured. Listed only means the product is known from the insurer's own list but its terms are not captured yet. The number at the end is the count on sale.")),
+    () => simpleTable([{l:"Insurer", v:r => r.l}, {l:"On sale", n:1, v:r => String(r.n)}, {l:"Full spec", n:1, v:r => String(r.full)}, {l:"Partial spec", n:1, v:r => String(r.partial)}, {l:"Listed only", n:1, v:r => String(r.listed)}], rows));
 }
 
 function notFound(msg, back){ return h("div", {class:"empty"}, h("h3", null, msg), h("p", null, linkTo(back, "Back to the list"))); }
@@ -1221,7 +2077,7 @@ function parseHash(){
   const raw = decodeURIComponent((location.hash || "").replace(/^#/, ""));
   if (raw.startsWith("insurer-")) return {v:"insurer", id:raw.slice(8)};
   if (raw.startsWith("product-")) return {v:"product", id:raw.slice(8)};
-  return {v:["overview","insurers","products","compare","changes","about"].includes(raw) ? raw : "overview", id:null};
+  return {v:["overview","insurers","ownership","products","compare","changes","about"].includes(raw) ? raw : "overview", id:null};
 }
 let lastKey = "";
 function render(){
@@ -1235,6 +2091,7 @@ function render(){
   switch (r.v){
     case "insurers": node = viewInsurers(); break;
     case "insurer": node = viewInsurer(r.id); break;
+    case "ownership": node = viewOwnership(); break;
     case "products": node = viewProducts(); break;
     case "product": node = viewProduct(r.id); break;
     case "compare": node = viewCompare(); break;

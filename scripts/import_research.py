@@ -6,6 +6,7 @@ Usage: python3 scripts/import_research.py <research_out_dir>
 <company_id>.json -> data/products/<company_id>.json  (validated shape, sorted products)
 _metrics.json     -> data/metrics.json
 _reviews.json     -> data/reviews.json (app ids also copied into data/companies.json as `apps`)
+_ownership.json   -> data/ownership.json (FDI cap timeline, shareholders, foreign partners, ownership events)
 A 'baseline' entry is added to data/changelog.json the first time an insurer's catalogue is imported.
 """
 import datetime as dt
@@ -92,8 +93,11 @@ def main(src):
             if apps:
                 c["apps"] = apps
         dump(DATA / "companies.json", companies)
+    o = load(src / "_ownership.json", None)
+    if o:
+        dump(DATA / "ownership.json", o)
     dump(DATA / "changelog.json", changelog)
-    print(f"imported catalogues: {', '.join(imported) or 'none'}; metrics: {bool(m)}; reviews: {bool(r)}")
+    print(f"imported catalogues: {', '.join(imported) or 'none'}; metrics: {bool(m)}; reviews: {bool(r)}; ownership: {bool(o)}")
 
 
 if __name__ == "__main__":

@@ -92,8 +92,8 @@ def validate(path):
         if status not in STATUS:
             errs.append(f"{tag}: bad status {status!r}")
         if seg in CATEGORIES:
-            if cat is None and status == "Withdrawn":
-                warns.append(f"{tag}: withdrawn item without category")
+            if cat is None:
+                warns.append(f"{tag}: no category yet (needs research)")
             elif cat not in CATEGORIES[seg]:
                 errs.append(f"{tag}: category {cat!r} not valid for segment {seg}")
         ps = p.get("plan_structure")

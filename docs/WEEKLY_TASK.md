@@ -39,6 +39,7 @@ withdrawals in the last 14 days ("<insurer> launches plan"). Add anything found 
 with `python3 scripts/changelog.py add ...`.
 
 ## 3. Spec backlog — up to 20 products
+First give a category to any active product the validator reports as "no category yet". Then
 `python3 scripts/backlog.py 20` lists active individual products without full specs, largest insurers
 first. Fetch each brochure/product page with the extraction prompt from `docs/SPEC.md`, save through
 `scripts/add_products.py`.
@@ -53,6 +54,10 @@ Check for newer periods and update `data/metrics.json` (`{"value", "period", "so
 metric, keys in `docs/METRICS_SPEC.md`): monthly new business premium and share (Life Insurance
 Council / IRDAI), quarterly public disclosures (solvency, persistency, AUM), IRDAI annual report
 (claims settled, grievances), Insurance Ombudsman annual report. Log each update as `metric_update`.
+
+Also refresh `data/ownership.json` (schema in its first lines; Ownership tab): FPI % from the latest quarterly
+shareholding pattern of listed insurers, and any stake sale, partner entry or exit, listing or rename in the
+news, each as an event with date, type and source.
 
 ## 6. Reviews — 3 insurers per week (rotation as in step 4, offsets 5, 14, 23)
 Refresh `positives`, `negatives`, `review_summary`, `third_party` in `data/reviews.json`

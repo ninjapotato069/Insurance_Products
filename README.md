@@ -31,6 +31,7 @@ data/companies.json        insurer master (names, former names, app ids)
 data/products/<id>.json    one catalogue per insurer (schema: docs/SPEC.md)
 data/metrics.json          company and industry metrics (docs/METRICS_SPEC.md)
 data/reviews.json          ratings, review themes, digital servicing (docs/REVIEWS_SPEC.md)
+data/ownership.json        FDI cap timeline, shareholders, foreign partners, ownership events (Ownership tab)
 data/changelog.json        launches, withdrawals, flags, metric updates
 data/refresh/              state of the automated checks
 data/history/ratings.csv   app-rating history

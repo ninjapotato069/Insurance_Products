@@ -7,6 +7,7 @@ Sources (edit these):
   data/reviews.json          app ratings, third-party ratings, review themes, digital servicing
   data/products/<id>.json    one product catalogue per insurer (schema: docs/SPEC.md)
   data/changelog.json        change log (weekly refresh + manual)
+  data/ownership.json        FDI cap timeline, shareholders, foreign partners, ownership events (optional)
   data/refresh/last_run.json status of the last automated refresh (optional)
 
 Outputs (never edit by hand):
@@ -104,6 +105,7 @@ def build():
     reviews_src = load(DATA / "reviews.json", {"companies": {}})
     changelog = load(DATA / "changelog.json", [])
     last_run = load(DATA / "refresh" / "last_run.json", None)
+    ownership_src = load(DATA / "ownership.json", None) or {}
 
     companies = {c["id"]: dict(c) for c in companies_src}
     order = [c["id"] for c in companies_src]
@@ -211,6 +213,18 @@ def build():
             "full_spec_pct": round(100 * full / n_ind) if n_ind else None,
         }
 
+    # ownership: structured block per insurer; a free-text `ownership` from the profile moves to `ownership_text`
+    own_by_co = ownership_src.get("companies") or {}
+    for cid, comp in companies.items():
+        if isinstance(comp.get("ownership"), str):
+            comp["ownership_text"] = comp.pop("ownership")
+        block = own_by_co.get(cid)
+        if isinstance(block, dict) and block:
+            comp["ownership"] = block
+    unknown_own = sorted(set(own_by_co) - set(companies))
+    if unknown_own:
+        print(f"warning: ownership.json has unknown company ids: {', '.join(unknown_own)}")
+
     # industry medians
     keys = set()
     for comp in companies.values():
@@ -249,13 +263,15 @@ def build():
             "data_as_of": max([q.get("last_verified") or "" for q in products] + [""]) or None,
             "repo": "https://github.com/ninjapotato069/Insurance_Products",
             "last_refresh": last_run,
+            "ownership_researched_on": ownership_src.get("researched_on"),
             "counts": counts,
             "lower_is_better": sorted(LOWER_IS_BETTER),
         },
         "taxonomy": TAXONOMY,
         "industry": {"metrics": (metrics_src.get("industry") or {}).get("metrics") or {},
                      "notes": (metrics_src.get("industry") or {}).get("notes"),
-                     "medians": medians},
+                     "medians": medians,
+                     "ownership": ownership_src.get("industry")},
         "companies": [companies[c] for c in order if c in companies],
         "products": products,
         "changelog": changelog,
@@ -267,6 +283,10 @@ def build():
 
     write_exports(dashboard)
     print(f"built {out.relative_to(ROOT)}: {counts} ({out.stat().st_size/1024:.0f} KB)")
+    n_own = sum(1 for c in dashboard["companies"] if isinstance(c.get("ownership"), dict))
+    n_ev = sum(len(c["ownership"].get("events") or []) for c in dashboard["companies"] if isinstance(c.get("ownership"), dict))
+    if n_own:
+        print(f"ownership: {n_own} insurers, {n_ev} events")
 
 
 def join(v):

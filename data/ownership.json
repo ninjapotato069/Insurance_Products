@@ -1,0 +1,986 @@
+{
+ "researched_on": "2026-11-02",
+ "industry": {
+  "fdi_cap_timeline": [
+   {
+    "year": 2000,
+    "cap_pct": 26,
+    "event": "Insurance opened to private players; foreign equity capped at 26% of paid-up capital",
+    "source": "https://www.business-standard.com/amp/industry/news/insurance-sector-received-rs-54-000-crore-fdi-in-9-years-says-dfs-secy-124031801161_1.html"
+   },
+   {
+    "year": 2015,
+    "cap_pct": 49,
+    "event": "Cap raised from 26% to 49% (Insurance Laws (Amendment) Act, 2015; Indian ownership and control retained)",
+    "source": "https://www.business-standard.com/amp/industry/news/insurance-sector-received-rs-54-000-crore-fdi-in-9-years-says-dfs-secy-124031801161_1.html"
+   },
+   {
+    "year": 2021,
+    "cap_pct": 74,
+    "event": "Cap raised from 49% to 74% (Insurance (Amendment) Act, 2021; Union Budget 2021-22 proposal); majority of directors and key managers had to be resident Indians",
+    "source": "https://www.business-standard.com/amp/industry/news/insurance-sector-received-rs-54-000-crore-fdi-in-9-years-says-dfs-secy-124031801161_1.html"
+   },
+   {
+    "year": 2025,
+    "cap_pct": 100,
+    "event": "Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act, 2025 passed by Parliament in Dec 2025 (Gazette notification 21 Dec 2025); allows up to 100% foreign investment (FDI plus FPI) in insurers; first announced in Union Budget 2025-26",
+    "source": "https://vinodkothari.com/2025/12/major-amendments-in-insurance-act-2025/"
+   },
+   {
+    "year": 2026,
+    "cap_pct": 100,
+    "event": "Act in force from 5 Feb 2026 (Section 25 excluded); DPIIT Press Note 1 (2026 Series) allows 100% FDI in insurers under the automatic route (reported 12 Feb 2026); LIC stays at 20% under the automatic route",
+    "source": "https://www.outlookbusiness.com/corporate/commerce-and-industry-ministry-notifies-100-fdi-in-insurance-companies"
+   }
+  ],
+  "current_rules": "Up to 100% foreign investment (FDI plus FPI) is allowed in Indian insurers under the automatic route (DPIIT Press Note 1 of 2026) following the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act, 2025 (Gazette 21 Dec 2025; most provisions in force 5 Feb 2026). At least one of Chairperson, MD or CEO must be a resident Indian citizen; the earlier majority-resident-directors/KMP rule has been dropped (Vinod Kothari dates the Press Note change to 2 May 2026). LIC's foreign limit stays at 20% (automatic route). No invest-premiums-in-India condition appears in the notified conditions reviewed (the Budget 2025-26 speech had linked 100% to it) - verify against the Press Note text.",
+  "fdi_inflows": [
+   {
+    "period": "Dec 2014 - Jan 2024",
+    "value_usd_mn": null,
+    "value_inr_cr": 53900,
+    "scope": "Cumulative FDI into insurance companies since the cap rose to 49%, per Financial Services Secretary (PTI interview, 18 Mar 2024); Finance Ministry figure, not a DPIIT table",
+    "source": "https://www.business-standard.com/amp/industry/news/insurance-sector-received-rs-54-000-crore-fdi-in-9-years-says-dfs-secy-124031801161_1.html"
+   },
+   {
+    "period": "Mar - May 2015",
+    "value_usd_mn": 185,
+    "value_inr_cr": null,
+    "scope": "FDI into the insurance sector in the first three months after the cap was raised to 49% (BS/ANI, Aug 2015)",
+    "source": "https://www.business-standard.com/amp/article/news-ani/indian-insurance-sector-got-fdi-of-usd-185-m-between-march-and-may-115080100628_1.html"
+   },
+   {
+    "period": "Cumulative to Nov 2025",
+    "value_usd_mn": null,
+    "value_inr_cr": 80000,
+    "scope": "Total foreign investment across the whole insurance sector (life, general, health), as stated by the IRDAI chairman",
+    "source": "https://www.business-standard.com/amp/industry/banking/foreign-investment-in-india-s-life-insurance-sector-stands-at-29-125111401467_1.html"
+   }
+  ],
+  "notes": "Foreign share of paid-up equity at 31 Dec 2024 (IRDAI annexure to Lok Sabha Starred Q112, 28 Jul 2025): private life insurers 47.82%, private general 40.80%, standalone health 29.46%; four life insurers at 74% (Ageas Federal, Aviva, CreditAccess Life, Generali Central). Whole life industry incl. LIC: 29.26% in FY24 (IRDAI via Business Standard, 14 Nov 2025). IRDAI foreign share includes FPI holdings in listed insurers. No insurance-specific DPIIT annual series found. 2026 deals: Prudential plc to buy 75% of Bharti Life (announced 17 May 2026, pending); Jio Financial-Allianz 50:50 insurance JV (Deccan Chronicle, 18 May 2026); Republic World (3 Jul 2026) reports IRDAI approved one unnamed insurer's move to 100% foreign ownership and is reviewing another; GoI sold 6.5% of LIC by OFS (Aug 2026).",
+  "sources_extra": [
+   "https://eparlib.sansad.in/bitstream/123456789/2993748/1/AS112_pkIjeD.pdf",
+   "https://www.india-briefing.com/news/india-insurance-100-percent-foreign-investment-42439.html",
+   "https://deccanchronicle.com/business/foreign-players-bet-on-raising-stake-in-indian-jvs-after-100-fdi-1957605"
+  ]
+ },
+ "companies": {
+  "sbi": {
+   "shareholders": [
+    {
+     "name": "State Bank of India (promoter)",
+     "type": "Bank",
+     "country": "India",
+     "stake_pct": 55.31,
+     "as_of": "2026-09",
+     "source": "https://upstox.com/stocks/sbi-life-insurance-co-ltd-shareholding"
+    },
+    {
+     "name": "Foreign portfolio investors",
+     "type": "Public & FPI",
+     "country": "Various",
+     "stake_pct": 20.68,
+     "as_of": "2026-09",
+     "source": "https://upstox.com/stocks/sbi-life-insurance-co-ltd-shareholding"
+    },
+    {
+     "name": "Mutual funds",
+     "type": "Public & FPI",
+     "country": "India",
+     "stake_pct": 15.77,
+     "as_of": "2026-09",
+     "source": "https://upstox.com/stocks/sbi-life-insurance-co-ltd-shareholding"
+    },
+    {
+     "name": "Other domestic institutions",
+     "type": "Public & FPI",
+     "country": "India",
+     "stake_pct": 4.3,
+     "as_of": "2026-09",
+     "source": "https://upstox.com/stocks/sbi-life-insurance-co-ltd-shareholding"
+    },
+    {
+     "name": "Retail and others",
+     "type": "Public & FPI",
+     "country": "India",
+     "stake_pct": 3.94,
+     "as_of": "2026-09",
+     "source": "https://upstox.com/stocks/sbi-life-insurance-co-ltd-shareholding"
+    }
+   ],
+   "foreign_stake_pct": 0,
+   "foreign_partners": [],
+   "fpi_pct": 20.68,
+   "fpi_as_of": "2026-09",
+   "fpi_source": "https://upstox.com/stocks/sbi-life-insurance-co-ltd-shareholding",
+   "notes": "Promoter line (55.31%) is the exchange-filing summary and matches SBI alone, so no foreign promoter is shown; a residual BNP Paribas Cardif holding (former JV partner) is not separately confirmed. IRDAI total foreign share was 24.12% at Dec 2024 (FPI plus any residual foreign holding).",
+   "events": []
+  },
+  "hdfc": {
+   "shareholders": [
+    {
+     "name": "HDFC Bank (promoter)",
+     "type": "Bank",
+     "country": "India",
+     "stake_pct": 50.53,
+     "as_of": "2026-09",
+     "source": "https://upstox.com/stocks/hdfc-life-ins-co-ltd-shareholding/"
+    },
+    {
+     "name": "Foreign portfolio investors",
+     "type": "Public & FPI",
+     "country": "Various",
+     "stake_pct": 18.75,
+     "as_of": "2026-09",
+     "source": "https://upstox.com/stocks/hdfc-life-ins-co-ltd-shareholding/"
+    },
+    {
+     "name": "Mutual funds",
+     "type": "Public & FPI",
+     "country": "India",
+     "stake_pct": 16.87,
+     "as_of": "2026-09",
+     "source": "https://upstox.com/stocks/hdfc-life-ins-co-ltd-shareholding/"
+    },
+    {
+     "name": "Other domestic institutions",
+     "type": "Public & FPI",
+     "country": "India",
+     "stake_pct": 2.25,
+     "as_of": "2026-09",
+     "source": "https://upstox.com/stocks/hdfc-life-ins-co-ltd-shareholding/"
+    },
+    {
+     "name": "Retail and others",
+     "type": "Public & FPI",
+     "country": "India",
+     "stake_pct": 11.59,
+     "as_of": "2026-09",
+     "source": "https://upstox.com/stocks/hdfc-life-ins-co-ltd-shareholding/"
+    }
+   ],
+   "foreign_stake_pct": 0,
+   "foreign_partners": [],
+   "fpi_pct": 18.75,
+   "fpi_as_of": "2026-09",
+   "fpi_source": "https://upstox.com/stocks/hdfc-life-ins-co-ltd-shareholding/",
+   "notes": "Promoter line (50.53%) is the exchange-filing summary and matches HDFC Bank alone, so no foreign promoter is shown; abrdn's earlier exit is not separately sourced here. IRDAI total foreign share was 25.30% at Dec 2024 (essentially FPI).",
+   "events": []
+  },
+  "lic": {
+   "shareholders": [
+    {
+     "name": "Government of India (promoter)",
+     "type": "Government",
+     "country": "India",
+     "stake_pct": 90.0,
+     "as_of": "2026-09",
+     "source": "https://www.equitymaster.com/stock-research/shareholding-pattern/LIC/LIFE-INSURANCE-CORPORATION-Shareholding-Pattern"
+    },
+    {
+     "name": "Mutual funds",
+     "type": "Public & FPI",
+     "country": "India",
+     "stake_pct": 5.5,
+     "as_of": "2026-09",
+     "source": "https://www.equitymaster.com/stock-research/shareholding-pattern/LIC/LIFE-INSURANCE-CORPORATION-Shareholding-Pattern"
+    },
+    {
+     "name": "Foreign portfolio investors",
+     "type": "Public & FPI",
+     "country": "Various",
+     "stake_pct": 1.55,
+     "as_of": "2026-09",
+     "source": "https://www.equitymaster.com/stock-research/shareholding-pattern/LIC/LIFE-INSURANCE-CORPORATION-Shareholding-Pattern"
+    },
+    {
+     "name": "Other public (retail, banks, insurers, others)",
+     "type": "Public & FPI",
+     "country": "India",
+     "stake_pct": 2.95,
+     "as_of": "2026-09",
+     "source": "https://www.equitymaster.com/stock-research/shareholding-pattern/LIC/LIFE-INSURANCE-CORPORATION-Shareholding-Pattern"
+    }
+   ],
+   "foreign_stake_pct": 0,
+   "foreign_partners": [],
+   "fpi_pct": 1.55,
+   "fpi_as_of": "2026-09",
+   "fpi_source": "https://www.equitymaster.com/stock-research/shareholding-pattern/LIC/LIFE-INSURANCE-CORPORATION-Shareholding-Pattern",
+   "events": [
+    {
+     "date": "2026-08",
+     "type": "Stake decrease",
+     "text": "Government of India sold up to 6.5% of LIC through an OFS (floor price Rs 382, about Rs 31,000 crore), cutting its holding from 96.5% to 90%; FPI holding rose from 0.44% (Jun 2026) to 1.55% (Sep 2026)",
+     "source": "https://www.psuconnect.in/stock/govt-sells-6-5-stake-in-lic-holding-drops-to-90"
+    }
+   ],
+   "notes": "Promoter row on the exchange summary is labelled Indian Promoters (Government of India); Other public = 10.00% public holding less mutual funds and FPIs (derived). Foreign investment in LIC stays capped at 20% under the automatic route even though other insurers can have 100%."
+  },
+  "icici": {
+   "shareholders": [
+    {
+     "name": "ICICI Bank (promoter)",
+     "type": "Bank",
+     "country": "India",
+     "stake_pct": 50.95,
+     "as_of": "2026-03",
+     "source": "https://www.outlookbusiness.com/corporate/uks-prudential-in-talks-to-exit-life-insurance-jv-with-icici-may-sell-shares-to-bharti"
+    },
+    {
+     "name": "Prudential Corporation Holdings (Prudential plc)",
+     "type": "Foreign partner",
+     "country": "United Kingdom",
+     "stake_pct": 21.93,
+     "as_of": "2026-03",
+     "source": "https://www.outlookbusiness.com/corporate/uks-prudential-in-talks-to-exit-life-insurance-jv-with-icici-may-sell-shares-to-bharti"
+    },
+    {
+     "name": "Foreign portfolio investors",
+     "type": "Public & FPI",
+     "country": "Various",
+     "stake_pct": 9.26,
+     "as_of": "2026-09",
+     "source": "https://upstox.com/stocks/icici-pru-life-ins-co-ltd-shareholding"
+    },
+    {
+     "name": "Mutual funds",
+     "type": "Public & FPI",
+     "country": "India",
+     "stake_pct": 9.3,
+     "as_of": "2026-09",
+     "source": "https://upstox.com/stocks/icici-pru-life-ins-co-ltd-shareholding"
+    },
+    {
+     "name": "Other domestic institutions",
+     "type": "Public & FPI",
+     "country": "India",
+     "stake_pct": 1.46,
+     "as_of": "2026-09",
+     "source": "https://upstox.com/stocks/icici-pru-life-ins-co-ltd-shareholding"
+    },
+    {
+     "name": "Retail and others",
+     "type": "Public & FPI",
+     "country": "India",
+     "stake_pct": 5.27,
+     "as_of": "2026-09",
+     "source": "https://upstox.com/stocks/icici-pru-life-ins-co-ltd-shareholding"
+    }
+   ],
+   "foreign_stake_pct": 21.93,
+   "foreign_partners": [
+    {
+     "name": "Prudential plc (via Prudential Corporation Holdings)",
+     "country": "United Kingdom",
+     "stake_pct": 21.93,
+     "since": 2000
+    }
+   ],
+   "fpi_pct": 9.26,
+   "fpi_as_of": "2026-09",
+   "fpi_source": "https://upstox.com/stocks/icici-pru-life-ins-co-ltd-shareholding",
+   "events": [
+    {
+     "date": "2026-03",
+     "type": "Exit",
+     "text": "CNBC-TV18 reported Prudential plc was exploring an exit from ICICI Prudential Life, in talks with the Bharti group company (unconfirmed at the time)",
+     "source": "https://www.outlookbusiness.com/corporate/uks-prudential-in-talks-to-exit-life-insurance-jv-with-icici-may-sell-shares-to-bharti"
+    },
+    {
+     "date": "2026-05",
+     "type": "Stake decrease",
+     "text": "Prudential plc agreed (17 May 2026) to buy 75% of Bharti Life; completion requires it to cut its ~22% ICICI Prudential Life holding below 10% and stop being a promoter, on a timeframe to be agreed with regulators; ICICI Pru shares fell ~9%",
+     "source": "https://www.businesstoday.in/markets/stocks/story/icici-prudential-life-shares-fall-9-after-prudentials-bharti-life-deal-heres-why-531909-2026-05-18"
+    }
+   ],
+   "notes": "Bank/Prudential stakes are Mar 2026 (Outlook Business); public split is Sep 2026 (Upstox). The exchange summary shows total promoter holding of 74.70% at Sep 2026, about 1.8 pts above the Mar 2026 ICICI Bank + Prudential sum (72.88%), so ICICI Bank's stake may have risen - verify on NSE/BSE. IRDAI foreign share was 36.91% at Dec 2024 (Prudential plus FPIs)."
+  },
+  "axismax": {
+   "shareholders": [
+    {
+     "name": "Max Financial Services Ltd (listed parent)",
+     "type": "Indian promoter",
+     "country": "India",
+     "stake_pct": 80.0,
+     "as_of": "2026-06",
+     "source": "https://en.wikipedia.org/wiki/Axis_Max_Life_Insurance"
+    },
+    {
+     "name": "Axis Bank",
+     "type": "Bank",
+     "country": "India",
+     "stake_pct": 19.9,
+     "as_of": "2026-06",
+     "source": "https://en.wikipedia.org/wiki/Axis_Max_Life_Insurance"
+    }
+   ],
+   "foreign_stake_pct": 21.86,
+   "foreign_partners": [
+    {
+     "name": "Mitsui Sumitomo Insurance (holds 21.86% of listed parent Max Financial Services; no direct stake in the insurer)",
+     "country": "Japan",
+     "stake_pct": 21.86,
+     "since": 2001
+    }
+   ],
+   "fpi_pct": 48.61,
+   "fpi_as_of": "2026-09",
+   "fpi_source": "https://trendlyne.com/equity/share-holding/845/MFSL/latest/max-financial-services-ltd/",
+   "events": [
+    {
+     "date": "2020-04",
+     "type": "Stake increase",
+     "text": "Axis Bank announced a plan to buy 29% of Max Life for Rs 1,592 crore to reach 30% (a 70:30 JV with Max Financial Services); its holding is about 20% today",
+     "source": "https://www.business-standard.com/amp/article/companies/axis-bank-to-acquire-29-in-max-life-taking-its-total-stake-to-30-120042800400_1.html"
+    },
+    {
+     "date": "2020-11",
+     "type": "Stake decrease",
+     "text": "Mitsui Sumitomo Insurance's ~21% direct stake in Max Life was swapped into shares of listed parent Max Financial Services (IRDAI nod Nov 2020), moving its holding up to the parent",
+     "source": "https://www.business-standard.com/amp/article/companies/max-financial-gets-irdai-nod-for-share-swap-agreement-with-mitsui-sumitomo-120112800342_1.html"
+    },
+    {
+     "date": "2024-12",
+     "type": "Rename",
+     "text": "Max Life Insurance rebranded Axis Max Life Insurance (13 Dec 2024)",
+     "source": "https://en.wikipedia.org/wiki/Axis_Max_Life_Insurance"
+    },
+    {
+     "date": "2026-06",
+     "type": "Stake increase",
+     "text": "Axis Bank raised its stake to 19.9% (about Rs 380 crore)",
+     "source": "https://en.wikipedia.org/wiki/Axis_Max_Life_Insurance"
+    }
+   ],
+   "notes": "Foreign exposure sits at parent level: Mitsui Sumitomo holds 21.86% of Max Financial Services (Sep 2026, listed under FDI), about 17.5% look-through of the insurer (21.86% x 80%, derived); IRDAI's Dec-2024 foreign-share list does not include Max Life. FPI 48.61%, mutual funds 35.49%, other DII 8.21% and promoters 1.25% (Sep 2026) refer to the listed parent MFSL, not the insurer. Wikipedia infobox shows Axis Bank at 20%. IFC put in Rs 285 crore of subordinated debt in Nov 2025 (not equity)."
+  },
+  "bajaj": {
+   "shareholders": [
+    {
+     "name": "Bajaj Finserv Ltd",
+     "type": "Indian promoter",
+     "country": "India",
+     "stake_pct": 100.0,
+     "as_of": "2025-10",
+     "source": "https://www.freepressjournal.in/business/bajaj-finserv-completes-allianz-buyout-takes-full-control-of-insurance-arms"
+    }
+   ],
+   "foreign_stake_pct": 0,
+   "foreign_partners": [],
+   "events": [
+    {
+     "date": "2025-03",
+     "type": "Exit",
+     "text": "Bajaj Finserv agreed to buy Allianz SE's 26% in Bajaj Allianz Life (Rs 10,400 crore) and Bajaj Allianz General (Rs 13,780 crore), total Rs 24,180 crore, lifting its holding from 74% to 100% on closing; CCI and IRDAI approvals pending at announcement",
+     "source": "https://www.freepressjournal.in/business/bajaj-finserv-acquires-full-stake-in-insurance-jvs-allianz-exits-india-partnership"
+    },
+    {
+     "date": "2025-10",
+     "type": "Exit",
+     "text": "Allianz exit completed after final regulatory approvals; Bajaj Finserv took full ownership of the insurance arms",
+     "source": "https://www.freepressjournal.in/business/bajaj-finserv-completes-allianz-buyout-takes-full-control-of-insurance-arms"
+    },
+    {
+     "date": "2025-10",
+     "type": "Rename",
+     "text": "Bajaj Allianz Life Insurance renamed Bajaj Life Insurance (and Bajaj Allianz General became Bajaj General Insurance), announced early Oct 2025",
+     "source": "https://www.angelone.in/news/market-updates/bajaj-finserv-renames-insurance-divisions-as-bajaj-general-insurance-and-bajaj-life-insurance"
+    }
+   ],
+   "notes": "Allianz held 26% until the 2025 buyout (IRDAI Dec 2024 foreign share 26.00%). 100% is per the Mar 2025 deal terms; completion and rename dates from Oct 2025 reports (headlines and URL date), effective date of the new name may be a few weeks later."
+  },
+  "bharti": {
+   "foreign_stake_pct": 0,
+   "foreign_partners": [],
+   "events": [
+    {
+     "date": "2023-10",
+     "type": "Exit",
+     "text": "Bharti Life Ventures (Bharti Enterprises) announced it would buy out AXA's 49% stake in Bharti AXA Life, giving Bharti sole control after 17 years of the JV; Bharti was also seeking new strategic or financial partners",
+     "source": "https://theprint.in/economy/indias-bharti-life-ventures-to-buy-out-french-partner-axas-stake-in-jv/1799573"
+    },
+    {
+     "date": "2026-05",
+     "type": "Entry",
+     "text": "Prudential plc agreed (17 May 2026) to buy 75% of Bharti Life from Bharti and four 360 ONE funds for Rs 3,500 crore initial cash plus up to Rs 700 crore if conditions are met; subject to regulatory approvals and to Prudential cutting its ICICI Prudential Life stake below 10%",
+     "source": "https://deccanchronicle.com/business/foreign-players-bet-on-raising-stake-in-indian-jvs-after-100-fdi-1957605"
+    },
+    {
+     "date": "2026",
+     "type": "Rename",
+     "text": "Bharti AXA Life Insurance now trades as Bharti Life Insurance (new name used in May 2026 reports)",
+     "source": "https://deccanchronicle.com/business/foreign-players-bet-on-raising-stake-in-indian-jvs-after-100-fdi-1957605"
+    }
+   ],
+   "notes": "Current shareholder split (Bharti vs four 360 ONE funds) not found; AXA's 49% is absent from IRDAI's Dec-2024 foreign-share list, so foreign stake is shown as nil. The Prudential 75% deal was still pending approvals in the sources reviewed (no completion found)."
+  },
+  "canarahsbc": {
+   "shareholders": [
+    {
+     "name": "Canara Bank (promoter)",
+     "type": "Bank",
+     "country": "India",
+     "stake_pct": 36.5,
+     "as_of": "2026-09",
+     "source": "https://voguestock.in/fundamental/shareholding-pattern/canara-hsbc-life-insurance-company-ltd"
+    },
+    {
+     "name": "HSBC Insurance (Asia-Pacific) Holdings Ltd (promoter)",
+     "type": "Foreign partner",
+     "country": "United Kingdom",
+     "stake_pct": 25.5,
+     "as_of": "2026-09",
+     "source": "https://voguestock.in/fundamental/shareholding-pattern/canara-hsbc-life-insurance-company-ltd"
+    },
+    {
+     "name": "Punjab National Bank (classed as public)",
+     "type": "Bank",
+     "country": "India",
+     "stake_pct": 13.0,
+     "as_of": "2026-09",
+     "source": "https://voguestock.in/fundamental/shareholding-pattern/canara-hsbc-life-insurance-company-ltd"
+    },
+    {
+     "name": "Mutual funds",
+     "type": "Public & FPI",
+     "country": "India",
+     "stake_pct": 16.73,
+     "as_of": "2026-09",
+     "source": "https://voguestock.in/fundamental/shareholding-pattern/canara-hsbc-life-insurance-company-ltd"
+    },
+    {
+     "name": "Foreign portfolio investors",
+     "type": "Public & FPI",
+     "country": "Various",
+     "stake_pct": 4.92,
+     "as_of": "2026-09",
+     "source": "https://upstox.com/stocks/canara-hsbc-life-ins-co-l-shareholding"
+    },
+    {
+     "name": "Other public (retail, insurers, others)",
+     "type": "Public & FPI",
+     "country": "India",
+     "stake_pct": 2.92,
+     "as_of": "2026-09",
+     "source": "https://voguestock.in/fundamental/shareholding-pattern/canara-hsbc-life-insurance-company-ltd"
+    }
+   ],
+   "foreign_stake_pct": 25.5,
+   "foreign_partners": [
+    {
+     "name": "HSBC Insurance (Asia-Pacific) Holdings Ltd (HSBC Group)",
+     "country": "United Kingdom",
+     "stake_pct": 25.5
+    }
+   ],
+   "fpi_pct": 4.92,
+   "fpi_as_of": "2026-09",
+   "fpi_source": "https://upstox.com/stocks/canara-hsbc-life-ins-co-l-shareholding",
+   "events": [
+    {
+     "date": "2025-10",
+     "type": "Listing",
+     "text": "Listed on the exchanges after an IPO (offer for sale); HSBC's stake went from 26.00% (IRDAI, Dec 2024) to 25.50% and at Sep 2026 Canara Bank holds 36.50% and PNB 13.00% (classed as public)",
+     "source": "https://voguestock.in/fundamental/shareholding-pattern/canara-hsbc-life-insurance-company-ltd"
+    }
+   ],
+   "notes": "Other public (2.92%) is derived: total public 37.57% less PNB, mutual funds and FPIs. Listing month (Oct 2025) is not shown on the pages fetched. FPI 4.92% = Category I 4.84% + Category II 0.08%."
+  },
+  "tataaia": {
+   "shareholders": [
+    {
+     "name": "AIA Group (foreign partner)",
+     "type": "Foreign partner",
+     "country": "Hong Kong",
+     "stake_pct": 49.0,
+     "as_of": "2024-12",
+     "source": "https://eparlib.sansad.in/bitstream/123456789/2993748/1/AS112_pkIjeD.pdf"
+    },
+    {
+     "name": "Tata Sons / Tata group and other Indian shareholders (balance, derived)",
+     "type": "Indian promoter",
+     "country": "India",
+     "stake_pct": 51.0,
+     "as_of": "2024-12",
+     "source": "https://eparlib.sansad.in/bitstream/123456789/2993748/1/AS112_pkIjeD.pdf"
+    }
+   ],
+   "foreign_stake_pct": 49.0,
+   "foreign_partners": [
+    {
+     "name": "AIA Group",
+     "country": "Hong Kong",
+     "stake_pct": 49.0
+    }
+   ],
+   "events": [
+    {
+     "date": "2016-04",
+     "type": "Stake increase",
+     "text": "AIA Group raised its stake in Tata AIA Life to 49% (the then cap); IRDAI still shows 49.00% at Dec 2024, so no change since",
+     "source": "https://www.business-standard.com/amp/article/finance/aia-hikes-stake-in-tata-aia-life-to-49-116042501103_1.html"
+    }
+   ],
+   "notes": "Foreign % is IRDAI's foreign share at 31 Dec 2024; partner name from the Apr 2016 report and the brief; Indian side is the balance (100% minus foreign), not a sourced shareholder-level figure."
+  },
+  "absli": {
+   "shareholders": [
+    {
+     "name": "Sun Life Financial (foreign partner)",
+     "type": "Foreign partner",
+     "country": "Canada",
+     "stake_pct": 49.0,
+     "as_of": "2024-12",
+     "source": "https://eparlib.sansad.in/bitstream/123456789/2993748/1/AS112_pkIjeD.pdf"
+    },
+    {
+     "name": "Aditya Birla Capital and other Indian shareholders (balance, derived)",
+     "type": "Indian promoter",
+     "country": "India",
+     "stake_pct": 51.0,
+     "as_of": "2024-12",
+     "source": "https://eparlib.sansad.in/bitstream/123456789/2993748/1/AS112_pkIjeD.pdf"
+    }
+   ],
+   "foreign_stake_pct": 49.0,
+   "foreign_partners": [
+    {
+     "name": "Sun Life Financial",
+     "country": "Canada",
+     "stake_pct": 49.0
+    }
+   ],
+   "notes": "Foreign % is IRDAI's foreign share at 31 Dec 2024; partner identity per the brief (not named in the annexure); Indian side is the balance. No dated ownership event found (a Bar and Bench deal headline on Sun Life raising its stake in the Birla JV carried no date).",
+   "events": []
+  },
+  "pnbmetlife": {
+   "shareholders": [
+    {
+     "name": "MetLife (foreign partner)",
+     "type": "Foreign partner",
+     "country": "United States",
+     "stake_pct": 48.92,
+     "as_of": "2024-12",
+     "source": "https://eparlib.sansad.in/bitstream/123456789/2993748/1/AS112_pkIjeD.pdf"
+    },
+    {
+     "name": "Punjab National Bank and other Indian shareholders (balance, derived)",
+     "type": "Indian promoter",
+     "country": "India",
+     "stake_pct": 51.08,
+     "as_of": "2024-12",
+     "source": "https://eparlib.sansad.in/bitstream/123456789/2993748/1/AS112_pkIjeD.pdf"
+    }
+   ],
+   "foreign_stake_pct": 48.92,
+   "foreign_partners": [
+    {
+     "name": "MetLife",
+     "country": "United States",
+     "stake_pct": 48.92
+    }
+   ],
+   "events": [
+    {
+     "date": "2021-10",
+     "type": "Stake increase",
+     "text": "MetLife agreed to raise its stake in PNB MetLife to 47.32% in a Rs 1,906 crore deal",
+     "source": "https://www.business-standard.com/amp/article/companies/metlife-to-hike-its-stake-in-pnb-metlife-to-47-32-in-rs-1-906-cr-deal-121100401231_1.html"
+    }
+   ],
+   "notes": "IRDAI foreign share (48.92% at Dec 2024) is above the 47.32% announced in Oct 2021, so MetLife's stake has risen further or other foreign holders exist; Indian side is the balance."
+  },
+  "indiafirst": {
+   "shareholders": [
+    {
+     "name": "Foreign shareholder(s) (not named in IRDAI data)",
+     "type": "Foreign partner",
+     "country": "Not stated",
+     "stake_pct": 26.0,
+     "as_of": "2024-12",
+     "source": "https://eparlib.sansad.in/bitstream/123456789/2993748/1/AS112_pkIjeD.pdf"
+    },
+    {
+     "name": "Bank of Baroda, Union Bank of India and other Indian shareholders (balance, derived)",
+     "type": "Indian promoter",
+     "country": "India",
+     "stake_pct": 74.0,
+     "as_of": "2024-12",
+     "source": "https://eparlib.sansad.in/bitstream/123456789/2993748/1/AS112_pkIjeD.pdf"
+    }
+   ],
+   "foreign_stake_pct": 26.0,
+   "foreign_partners": [
+    {
+     "name": "Foreign shareholder(s) (identity not verified in this pass)",
+     "country": "Not stated",
+     "stake_pct": 26.0
+    }
+   ],
+   "notes": "Only the IRDAI foreign share (26.00% at 31 Dec 2024) was found; the holder's identity (original partner Legal and General or a successor investor) was not verified.",
+   "events": []
+  },
+  "sud": {
+   "shareholders": [
+    {
+     "name": "Dai-ichi Life (foreign partner)",
+     "type": "Foreign partner",
+     "country": "Japan",
+     "stake_pct": 45.94,
+     "as_of": "2024-12",
+     "source": "https://eparlib.sansad.in/bitstream/123456789/2993748/1/AS112_pkIjeD.pdf"
+    },
+    {
+     "name": "Union Bank of India, Bank of India and other Indian shareholders (balance, derived)",
+     "type": "Indian promoter",
+     "country": "India",
+     "stake_pct": 54.06,
+     "as_of": "2024-12",
+     "source": "https://eparlib.sansad.in/bitstream/123456789/2993748/1/AS112_pkIjeD.pdf"
+    }
+   ],
+   "foreign_stake_pct": 45.94,
+   "foreign_partners": [
+    {
+     "name": "Dai-ichi Life",
+     "country": "Japan",
+     "stake_pct": 45.94
+    }
+   ],
+   "notes": "Foreign % is IRDAI's foreign share at 31 Dec 2024; partner identity per the brief; Indian side is the balance. An Insurance Business headline reports Dai-ichi investing US$80m in the JV (undated in the result), not used as an event.",
+   "events": []
+  },
+  "ageasfederal": {
+   "shareholders": [
+    {
+     "name": "Ageas (foreign partner)",
+     "type": "Foreign partner",
+     "country": "Belgium",
+     "stake_pct": 74.0,
+     "as_of": "2024-12",
+     "source": "https://eparlib.sansad.in/bitstream/123456789/2993748/1/AS112_pkIjeD.pdf"
+    },
+    {
+     "name": "Federal Bank and other Indian shareholders (balance, derived)",
+     "type": "Indian promoter",
+     "country": "India",
+     "stake_pct": 26.0,
+     "as_of": "2024-12",
+     "source": "https://eparlib.sansad.in/bitstream/123456789/2993748/1/AS112_pkIjeD.pdf"
+    }
+   ],
+   "foreign_stake_pct": 74.0,
+   "foreign_partners": [
+    {
+     "name": "Ageas",
+     "country": "Belgium",
+     "stake_pct": 74.0
+    }
+   ],
+   "events": [
+    {
+     "date": "2022",
+     "type": "Stake increase",
+     "text": "Ageas raised its stake in Ageas Federal Life to 74%",
+     "source": "https://federaldbsite.hocalwire.in/category/business/india-insurance-fdi-foreign-insurers-exiting-joint-ventures-208520"
+    }
+   ],
+   "notes": "Foreign % is IRDAI's foreign share at 31 Dec 2024 (74.00%); Indian side is the balance. Ageas listed as one of four life insurers at the 74% level."
+  },
+  "indusindnippon": {
+   "shareholders": [
+    {
+     "name": "Nippon Life (foreign partner)",
+     "type": "Foreign partner",
+     "country": "Japan",
+     "stake_pct": 49.0,
+     "as_of": "2024-12",
+     "source": "https://eparlib.sansad.in/bitstream/123456789/2993748/1/AS112_pkIjeD.pdf"
+    },
+    {
+     "name": "Indian promoter group (balance, derived)",
+     "type": "Indian promoter",
+     "country": "India",
+     "stake_pct": 51.0,
+     "as_of": "2024-12",
+     "source": "https://eparlib.sansad.in/bitstream/123456789/2993748/1/AS112_pkIjeD.pdf"
+    }
+   ],
+   "foreign_stake_pct": 49.0,
+   "foreign_partners": [
+    {
+     "name": "Nippon Life",
+     "country": "Japan",
+     "stake_pct": 49.0
+    }
+   ],
+   "notes": "IRDAI list (Dec 2024) uses the old name Reliance Nippon Life (49.00% foreign). The rename to IndusInd Nippon Life and the IndusInd (IIHL) takeover of the Reliance Capital stake are per the brief and not sourced here; no later change in Nippon Life's stake was found.",
+   "events": []
+  },
+  "generalicentral": {
+   "shareholders": [
+    {
+     "name": "Generali (foreign partner)",
+     "type": "Foreign partner",
+     "country": "Italy",
+     "stake_pct": 74.0,
+     "as_of": "2024-12",
+     "source": "https://eparlib.sansad.in/bitstream/123456789/2993748/1/AS112_pkIjeD.pdf"
+    },
+    {
+     "name": "Indian shareholders (balance, derived)",
+     "type": "Indian promoter",
+     "country": "India",
+     "stake_pct": 26.0,
+     "as_of": "2024-12",
+     "source": "https://eparlib.sansad.in/bitstream/123456789/2993748/1/AS112_pkIjeD.pdf"
+    }
+   ],
+   "foreign_stake_pct": 74.0,
+   "foreign_partners": [
+    {
+     "name": "Generali",
+     "country": "Italy",
+     "stake_pct": 74.0
+    }
+   ],
+   "notes": "IRDAI lists it as Future Generali Life (74.00% foreign at Dec 2024); Business Standard (14 Nov 2025) says Generali raised its Indian JV stake to the permitted 74%. Rename to Generali Central and the date of the 74% step are per the brief / not dated in the sources found; Indian partner names not verified.",
+   "events": []
+  },
+  "edelweiss": {
+   "shareholders": [
+    {
+     "name": "Tokio Marine (foreign partner)",
+     "type": "Foreign partner",
+     "country": "Japan",
+     "stake_pct": 21.42,
+     "as_of": "2024-12",
+     "source": "https://eparlib.sansad.in/bitstream/123456789/2993748/1/AS112_pkIjeD.pdf"
+    },
+    {
+     "name": "Edelweiss group and other Indian shareholders (balance, derived)",
+     "type": "Indian promoter",
+     "country": "India",
+     "stake_pct": 78.58,
+     "as_of": "2024-12",
+     "source": "https://eparlib.sansad.in/bitstream/123456789/2993748/1/AS112_pkIjeD.pdf"
+    }
+   ],
+   "foreign_stake_pct": 21.42,
+   "foreign_partners": [
+    {
+     "name": "Tokio Marine",
+     "country": "Japan",
+     "stake_pct": 21.42
+    }
+   ],
+   "notes": "IRDAI list (Dec 2024) shows Edelweiss Tokio Life with 21.42% foreign share; partner identity per the brief. Whether Tokio Marine has since exited and the rename to Edelweiss Life were not verified in this pass.",
+   "events": []
+  },
+  "pramerica": {
+   "shareholders": [
+    {
+     "name": "Prudential Financial (foreign partner)",
+     "type": "Foreign partner",
+     "country": "United States",
+     "stake_pct": 49.0,
+     "as_of": "2024-12",
+     "source": "https://eparlib.sansad.in/bitstream/123456789/2993748/1/AS112_pkIjeD.pdf"
+    },
+    {
+     "name": "Indian shareholders (balance, derived)",
+     "type": "Indian promoter",
+     "country": "India",
+     "stake_pct": 51.0,
+     "as_of": "2024-12",
+     "source": "https://eparlib.sansad.in/bitstream/123456789/2993748/1/AS112_pkIjeD.pdf"
+    }
+   ],
+   "foreign_stake_pct": 49.0,
+   "foreign_partners": [
+    {
+     "name": "Prudential Financial",
+     "country": "United States",
+     "stake_pct": 49.0
+    }
+   ],
+   "notes": "Foreign % is IRDAI's foreign share at 31 Dec 2024; partner identity per the brief; Indian partner and any ownership events not verified.",
+   "events": []
+  },
+  "aviva": {
+   "shareholders": [
+    {
+     "name": "Aviva plc (foreign partner)",
+     "type": "Foreign partner",
+     "country": "United Kingdom",
+     "stake_pct": 74.0,
+     "as_of": "2024-12",
+     "source": "https://eparlib.sansad.in/bitstream/123456789/2993748/1/AS112_pkIjeD.pdf"
+    },
+    {
+     "name": "Dabur Invest Corp and other Indian shareholders (balance, derived)",
+     "type": "Indian promoter",
+     "country": "India",
+     "stake_pct": 26.0,
+     "as_of": "2024-12",
+     "source": "https://eparlib.sansad.in/bitstream/123456789/2993748/1/AS112_pkIjeD.pdf"
+    }
+   ],
+   "foreign_stake_pct": 74.0,
+   "foreign_partners": [
+    {
+     "name": "Aviva plc",
+     "country": "United Kingdom",
+     "stake_pct": 74.0
+    }
+   ],
+   "events": [
+    {
+     "date": "2022",
+     "type": "Stake increase",
+     "text": "Aviva plc raised its stake in its Indian life JV from 49% to 74% by buying part of Dabur Invest Corp's holding",
+     "source": "https://federaldbsite.hocalwire.in/category/business/india-insurance-fdi-foreign-insurers-exiting-joint-ventures-208520"
+    }
+   ],
+   "notes": "Foreign % is IRDAI's foreign share at 31 Dec 2024; Indian side is the balance. Business Standard (14 Nov 2025) also notes Aviva at the permitted 74%."
+  },
+  "shriram": {
+   "shareholders": [
+    {
+     "name": "Sanlam (foreign partner)",
+     "type": "Foreign partner",
+     "country": "South Africa",
+     "stake_pct": 23.0,
+     "as_of": "2024-12",
+     "source": "https://eparlib.sansad.in/bitstream/123456789/2993748/1/AS112_pkIjeD.pdf"
+    },
+    {
+     "name": "Shriram group and other Indian shareholders (balance, derived)",
+     "type": "Indian promoter",
+     "country": "India",
+     "stake_pct": 77.0,
+     "as_of": "2024-12",
+     "source": "https://eparlib.sansad.in/bitstream/123456789/2993748/1/AS112_pkIjeD.pdf"
+    }
+   ],
+   "foreign_stake_pct": 23.0,
+   "foreign_partners": [
+    {
+     "name": "Sanlam",
+     "country": "South Africa",
+     "stake_pct": 23.0
+    }
+   ],
+   "notes": "Foreign % is IRDAI's foreign share at 31 Dec 2024; partner identity per the brief; no later change found.",
+   "events": []
+  },
+  "bandhan": {
+   "foreign_stake_pct": 0,
+   "foreign_partners": [],
+   "events": [
+    {
+     "date": "2023",
+     "type": "Exit",
+     "text": "Aegon (Netherlands) exited Aegon Life, selling its stake (reported as about 56%) to Bandhan Financial Holdings; the insurer is now Bandhan Life",
+     "source": "https://federaldbsite.hocalwire.in/category/business/india-insurance-fdi-foreign-insurers-exiting-joint-ventures-208520"
+    }
+   ],
+   "notes": "Year 2023 is per the brief; The Federal (25 Sep 2025) dates the exit only as before Mar 2025. Not in IRDAI's Dec-2024 list of insurers with foreign equity, so foreign stake is nil. Bandhan-side shareholder split not found."
+  },
+  "creditaccess": {
+   "shareholders": [
+    {
+     "name": "Foreign shareholders (not named in IRDAI data)",
+     "type": "Foreign partner",
+     "country": "Not stated",
+     "stake_pct": 74.0,
+     "as_of": "2024-12",
+     "source": "https://eparlib.sansad.in/bitstream/123456789/2993748/1/AS112_pkIjeD.pdf"
+    },
+    {
+     "name": "Indian shareholders (balance, derived)",
+     "type": "Indian promoter",
+     "country": "India",
+     "stake_pct": 26.0,
+     "as_of": "2024-12",
+     "source": "https://eparlib.sansad.in/bitstream/123456789/2993748/1/AS112_pkIjeD.pdf"
+    }
+   ],
+   "foreign_stake_pct": 74.0,
+   "foreign_partners": [
+    {
+     "name": "Foreign shareholders (identity not verified in this pass)",
+     "country": "Not stated",
+     "stake_pct": 74.0
+    }
+   ],
+   "notes": "Only the IRDAI foreign share (74.00% at 31 Dec 2024, one of four life insurers at 74%) was found; holders and any events not verified.",
+   "events": []
+  },
+  "godigit": {
+   "shareholders": [
+    {
+     "name": "Fairfax group (foreign partner, per brief)",
+     "type": "Foreign partner",
+     "country": "Canada",
+     "stake_pct": 43.35,
+     "as_of": "2024-12",
+     "source": "https://eparlib.sansad.in/bitstream/123456789/2993748/1/AS112_pkIjeD.pdf"
+    },
+    {
+     "name": "Indian shareholders (balance, derived)",
+     "type": "Indian promoter",
+     "country": "India",
+     "stake_pct": 56.65,
+     "as_of": "2024-12",
+     "source": "https://eparlib.sansad.in/bitstream/123456789/2993748/1/AS112_pkIjeD.pdf"
+    }
+   ],
+   "foreign_stake_pct": 43.35,
+   "foreign_partners": [
+    {
+     "name": "Fairfax group (identity per the brief, not named in IRDAI data)",
+     "country": "Canada",
+     "stake_pct": 43.35
+    }
+   ],
+   "events": [],
+   "notes": "Foreign % is IRDAI's foreign share at 31 Dec 2024 (Go Digit Life 43.35%; Go Digit General 9.35%); partner identity per the brief."
+  },
+  "kotak": {
+   "foreign_stake_pct": 0,
+   "foreign_partners": [],
+   "notes": "Not in IRDAI's Dec-2024 list of insurers with foreign equity, so foreign stake is nil; Kotak Mahindra Bank as parent and the 2017 Old Mutual exit were not verified in this pass.",
+   "events": []
+  },
+  "acko": {
+   "foreign_stake_pct": 0,
+   "foreign_partners": [],
+   "notes": "Not in IRDAI's Dec-2024 list of insurers with foreign equity (nil at insurer level); shareholder split and holding-company investors not found.",
+   "events": []
+  },
+  "sahara": {
+   "foreign_stake_pct": 0,
+   "foreign_partners": [],
+   "notes": "Not in IRDAI's Dec-2024 list of insurers with foreign equity; under administration per the brief; no shareholder data found.",
+   "events": []
+  },
+  "indiapost": {
+   "shareholders": [
+    {
+     "name": "Government of India (Department of Posts)",
+     "type": "Government",
+     "country": "India",
+     "stake_pct": 100.0,
+     "as_of": "2026-11",
+     "source": "https://www.indiapost.gov.in/"
+    }
+   ],
+   "foreign_stake_pct": 0,
+   "foreign_partners": [],
+   "notes": "Postal Life Insurance is a departmental government scheme, not a company; 100% Government of India per the brief (India Post portal cited, page not fetched).",
+   "events": []
+  }
+ }
+}

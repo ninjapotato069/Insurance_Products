@@ -101,6 +101,13 @@ def normalize(p):
         p.pop("uin")
     elif u:
         p["uin"] = re.sub(r"\s+", "", str(u)).upper()
+    lk = {"linked": "Linked", "non-linked": "Non-Linked", "non linked": "Non-Linked", "nonlinked": "Non-Linked"}
+    pa = {"par": "Par", "participating": "Par", "with profit": "Par", "non-par": "Non-Par", "non par": "Non-Par",
+          "nonpar": "Non-Par", "non-participating": "Non-Par", "without profit": "Non-Par"}
+    if isinstance(p.get("linkage"), str):
+        p["linkage"] = lk.get(p["linkage"].strip().lower(), p["linkage"])
+    if isinstance(p.get("participation"), str):
+        p["participation"] = pa.get(p["participation"].strip().lower(), p["participation"])
     el = p.get("eligibility")
     if isinstance(el, dict):
         for k in NUM_AGE:

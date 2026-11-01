@@ -1794,7 +1794,7 @@
    "category": "Savings - Par",
    "plan_structure": "Money Back",
    "sub_category": null,
-   "linkage": "Non-linked",
+   "linkage": "Non-Linked",
    "participation": "Par",
    "need_tags": [
     "Savings"

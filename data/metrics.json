@@ -1,5 +1,5 @@
 {
- "researched_on": "2026-10-28",
+ "researched_on": "2026-11-02",
  "industry": {
   "metrics": {
    "nbp_cr": {
@@ -55,6 +55,12 @@
     "period": "FY2024-25",
     "source": "https://www.joinditto.in/articles/general/irdai-annual-report/",
     "note": "Total life premium Rs 8.86 lakh crore (+6.73%; private +12%, LIC +2.75%) per IRDAI Annual Report 2024-25; FY2025-26 not yet published in the annual report."
+   },
+   "aum_cr": {
+    "value": 6778660.56,
+    "period": "31 Mar 2025",
+    "source": "https://cafemutual.com/news/insurance/36829-life-insurance-industry-aum-rises-to-rs-68-lakh-crore-in-fy25",
+    "note": "Life industry AUM (LIC Rs 47.99 lakh crore + private Rs 19.79 lakh crore), +10.1% YoY; Cafemutual, 28 Jan 2026."
    }
   },
   "life_insurers_count": 26,
@@ -85,7 +91,7 @@
      "value": 97.55,
      "period": "FY2025-26",
      "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
-     "note": "Ratio = settled/received by number, computed from Cafemutual's compiled counts (Jul 2026); source reports 1-decimal rounding. Individual death claims FY2025-26: 830,399 settled and 16,113 repudiated of 851,292 received (rest pending/other)."
+     "note": "Individual death claims by number: 830,399 settled of 851,292 received, 16,113 repudiated (Cafemutual, 3 Jul 2026). Policybazaar lists a lower 91.67% for LIC on a different basis; other insurers match the Cafemutual-derived ratios."
     },
     "claims_repudiated_pct": {
      "value": 1.89,
@@ -146,8 +152,25 @@
      "period": "FY2025-26",
      "source": "https://english.metrovaartha.com/economy/business/performance-update-for-the-year-ended-march-31st-2026-fy-2026",
      "note": "Total premium income (FY2024-25: Rs 4,88,148 crore, +9.80%)."
+    },
+    "grievances_total": {
+     "value": 11489,
+     "period": "Q1 FY2026-27 (Apr-Jun 2026)",
+     "source": "https://cafemutual.com/news/insurance/38537-which-insurers-received-the-most-complaints-in-q1-fy27",
+     "note": "QUARTERLY count, not annual: complaints received in Q1 FY2026-27, compiled by Cafemutual (17 Aug 2026) from a Rajya Sabha reply (IRDAI data). Annual FY2025-26 per-insurer totals not found."
     }
-   }
+   },
+   "legal_name": "Life Insurance Corporation of India",
+   "brand_name": "LIC",
+   "former_names": [],
+   "irdai_reg_no": "512",
+   "sector": "Public",
+   "listed": "Listed (NSE: LICI)",
+   "ownership": "Government of India (about 96.5% after the May 2022 IPO; any later stake sale not re-verified)",
+   "established_year": 1956,
+   "hq_city": "Mumbai",
+   "md_ceo": "R. Doraiswamy (CEO & MD, per LIC performance update of 22 May 2026)",
+   "website": "https://licindia.in"
   },
   "sbi": {
    "metrics": {
@@ -222,8 +245,27 @@
      "period": "30 Sep 2026",
      "source": "https://nsearchives.nseindia.com/corporate/SBILIFE_27102026185900_SEPR271026signed.pdf",
      "note": "AUM Rs 5,271.2 bn as of 30 Sep 2026 per SBI Life release."
+    },
+    "grievances_total": {
+     "value": 1974,
+     "period": "Q1 FY2026-27 (Apr-Jun 2026)",
+     "source": "https://cafemutual.com/news/insurance/38537-which-insurers-received-the-most-complaints-in-q1-fy27",
+     "note": "QUARTERLY count, not annual: complaints received in Q1 FY2026-27, compiled by Cafemutual (17 Aug 2026) from a Rajya Sabha reply (IRDAI data). Annual FY2025-26 per-insurer totals not found."
     }
-   }
+   },
+   "legal_name": "SBI Life Insurance Company Limited",
+   "brand_name": "SBI Life",
+   "former_names": [],
+   "irdai_reg_no": "111",
+   "sector": "Private",
+   "listed": "Listed (NSE: SBILIFE)",
+   "ownership": "Promoted by State Bank of India (about 55%, not re-verified for 2026) with BNP Paribas Cardif (France) as minority partner; balance public",
+   "foreign_partner": "BNP Paribas Cardif (France), minority stake (not verified)",
+   "bank_linkage": "State Bank of India (promoter and anchor banca partner)",
+   "established_year": 2001,
+   "hq_city": "Mumbai",
+   "md_ceo": "Amit Jhingran (MD & CEO, per SBI Life release of 27 Oct 2026)",
+   "website": "https://www.sbilife.co.in"
   },
   "hdfc": {
    "metrics": {
@@ -298,8 +340,28 @@
      "period": "31 Mar 2026",
      "source": "https://www.barodaetrade.com/Reports/HDFCLife-Q4FY26ResultReview17Apr26-Research.pdf",
      "note": "Converted from Rs mn in Baroda eTrade Q4FY26 review."
+    },
+    "grievances_total": {
+     "value": 2341,
+     "period": "Q1 FY2026-27 (Apr-Jun 2026)",
+     "source": "https://cafemutual.com/news/insurance/38537-which-insurers-received-the-most-complaints-in-q1-fy27",
+     "note": "QUARTERLY count, not annual: complaints received in Q1 FY2026-27, compiled by Cafemutual (17 Aug 2026) from a Rajya Sabha reply (IRDAI data). Annual FY2025-26 per-insurer totals not found."
     }
-   }
+   },
+   "legal_name": "HDFC Life Insurance Company Limited",
+   "brand_name": "HDFC Life",
+   "former_names": [
+    "HDFC Standard Life Insurance Company Limited"
+   ],
+   "irdai_reg_no": "101",
+   "sector": "Private",
+   "listed": "Listed (NSE: HDFCLIFE)",
+   "ownership": "Promoted by HDFC Bank (promoter group about 50% per Baroda eTrade Q4 FY26 review, Apr 2026; HDFC Ltd merged into HDFC Bank in Jul 2023); FPIs about 25%, DIIs about 13%. A Rs 1,000 crore preferential issue to HDFC Bank was approved in Apr 2026. Original JV partner Standard Life/abrdn (UK) has sold down.",
+   "bank_linkage": "HDFC Bank (promoter and anchor banca partner)",
+   "established_year": 2000,
+   "hq_city": "Mumbai",
+   "md_ceo": "Vibha Padalkar (MD & CEO; reappointed for 5 years, board approval Apr 2026, IRDAI approval reported)",
+   "website": "https://www.hdfclife.com"
   },
   "icici": {
    "metrics": {
@@ -355,15 +417,48 @@
      "value": 1600,
      "period": "FY2025-26",
      "source": "https://www.jurishour.in/gst/input-tax-credit-hdfc-life-icici-prudential-posts-strong-profit-growth/",
-     "note": "Rounded figure (+35% YoY; Q4 FY2025-26 Rs 609 crore) from a news article dated 18 Apr 2026; check against the company's results release."
+     "note": "Rounded (+35% YoY; Q4 Rs 609 crore) from a news article dated 18 Apr 2026; H1 FY2026-27 PAT Rs 760 crore (+26.5%) per Kotak Neo. Check against the company release."
     },
     "vnb_margin_pct": {
      "value": 24.7,
      "period": "FY2025-26",
      "source": "https://www.jurishour.in/gst/input-tax-credit-hdfc-life-icici-prudential-posts-strong-profit-growth/",
-     "note": "vs 22.8% in FY2024-25, per the same article."
+     "note": "vs 22.8% in FY2024-25; H1 FY2026-27 margin 26.0% (VNB Rs 1,283 crore, +22.3%) per Kotak Neo."
+    },
+    "grievances_total": {
+     "value": 1560,
+     "period": "Q1 FY2026-27 (Apr-Jun 2026)",
+     "source": "https://cafemutual.com/news/insurance/38537-which-insurers-received-the-most-complaints-in-q1-fy27",
+     "note": "QUARTERLY count, not annual: complaints received in Q1 FY2026-27, compiled by Cafemutual (17 Aug 2026) from a Rajya Sabha reply (IRDAI data). Annual FY2025-26 per-insurer totals not found."
+    },
+    "aum_cr": {
+     "value": 329000,
+     "period": "30 Sep 2026",
+     "source": "https://www.kotakneo.com/news/stocks/icici-life-insurance-share-price-in-focus-as-company-announces-q2-fy27-results/",
+     "note": "Reported as Rs 3.29 lakh crore (rounded) with the H1 FY2026-27 results."
+    },
+    "solvency_ratio": {
+     "value": 2.299,
+     "period": "30 Sep 2026 (not explicitly dated in source)",
+     "source": "https://www.kotakneo.com/news/stocks/icici-life-insurance-share-price-in-focus-as-company-announces-q2-fy27-results/",
+     "note": "229.9% per the Kotak Neo article on H1 FY2026-27 results; the article does not label the date, so verify against the company release."
     }
-   }
+   },
+   "legal_name": "ICICI Life Insurance Limited",
+   "brand_name": "ICICI Life",
+   "former_names": [
+    "ICICI Prudential Life Insurance Company Limited"
+   ],
+   "irdai_reg_no": "105",
+   "sector": "Private",
+   "listed": "Listed (NSE: ICICIPRULI as of Apr 2026; symbol may change with the new name)",
+   "ownership": "ICICI Bank 50.89% (promoter); Prudential plc is cutting its stake from nearly 22% to below 10% via block deals and ceasing to be a promoter (board-approved, subject to IRDAI/SEBI approval as of Jul 2026); balance public",
+   "foreign_partner": "Prudential plc (UK), exiting: stake falling from about 22% to below 10%",
+   "bank_linkage": "ICICI Bank (promoter and anchor banca partner)",
+   "established_year": 2000,
+   "hq_city": "Mumbai",
+   "website": "https://www.icicilife.com/",
+   "status_note": "Renamed from ICICI Prudential Life Insurance; media still use the old name. Prudential plc is moving from promoter to investor."
   },
   "bajaj": {
    "metrics": {
@@ -414,8 +509,40 @@
      "period": "FY2024-25",
      "source": "https://cafemutual.com/news/insurance/36976-ombudsmen-received-17237-life-insurance-complaints-from-policyholders-in-fy25",
      "note": "Complaints received by Insurance Ombudsman during FY2024-25 (83 outstanding at start, 1081 total handled). Latest year compiled by insurer; FY2025-26 not yet published. Cafemutual, 13 Feb 2026, from Council for Insurance Ombudsmen data."
+    },
+    "grievances_total": {
+     "value": 1415,
+     "period": "Q1 FY2026-27 (Apr-Jun 2026)",
+     "source": "https://cafemutual.com/news/insurance/38537-which-insurers-received-the-most-complaints-in-q1-fy27",
+     "note": "QUARTERLY count, not annual: complaints received in Q1 FY2026-27, compiled by Cafemutual (17 Aug 2026) from a Rajya Sabha reply (IRDAI data). Annual FY2025-26 per-insurer totals not found."
+    },
+    "aum_cr": {
+     "value": 123590.01,
+     "period": "31 Mar 2025",
+     "source": "https://cafemutual.com/news/insurance/36829-life-insurance-industry-aum-rises-to-rs-68-lakh-crore-in-fy25",
+     "note": "FY2024-25 year-end AUM from Cafemutual's industry AUM table (28 Jan 2026; original source not stated). A later figure was not found for this insurer; treat as stale."
+    },
+    "solvency_ratio": {
+     "value": 4.5,
+     "period": "31 Mar 2024 (FY2023-24)",
+     "source": "https://www.policyx.com/data-lab/solvency-ratio.php",
+     "note": "OLD: latest insurer-wise figure located (PolicyX data lab, IRDAI Annual Report 2023-24, rounded to 1 decimal). Newer disclosure not found; do not compare with 2026 figures. Regulatory minimum is 1.5."
     }
-   }
+   },
+   "legal_name": "Bajaj Life Insurance Limited",
+   "brand_name": "Bajaj Life",
+   "former_names": [
+    "Bajaj Allianz Life Insurance Company Limited"
+   ],
+   "irdai_reg_no": "116",
+   "sector": "Private",
+   "listed": "Parent listed (Bajaj Finserv, NSE: BAJAJFINSV); Bajaj Holdings & Investment holds 18.10%",
+   "ownership": "Bajaj group: Bajaj Holdings & Investment 18.10%, balance (about 81.9%, implied) with Bajaj Finserv. Allianz SE exited fully when it tendered its last ~3% in a buyback completed on 12 Mar 2026",
+   "established_year": 2001,
+   "hq_city": "Pune",
+   "md_ceo": "Tarun Chugh (MD & CEO, per company release of 9 Jun 2025)",
+   "website": "https://www.bajajlifeinsurance.com",
+   "status_note": "Renamed from Bajaj Allianz Life Insurance (around Nov 2025) as Allianz SE exited the JV."
   },
   "axismax": {
    "metrics": {
@@ -466,8 +593,55 @@
      "period": "FY2024-25",
      "source": "https://cafemutual.com/news/insurance/36976-ombudsmen-received-17237-life-insurance-complaints-from-policyholders-in-fy25",
      "note": "Complaints received by Insurance Ombudsman during FY2024-25 (101 outstanding at start, 974 total handled). Latest year compiled by insurer; FY2025-26 not yet published. Cafemutual, 13 Feb 2026, from Council for Insurance Ombudsmen data."
+    },
+    "grievances_total": {
+     "value": 2197,
+     "period": "Q1 FY2026-27 (Apr-Jun 2026)",
+     "source": "https://cafemutual.com/news/insurance/38537-which-insurers-received-the-most-complaints-in-q1-fy27",
+     "note": "QUARTERLY count, not annual: complaints received in Q1 FY2026-27, compiled by Cafemutual (17 Aug 2026) from a Rajya Sabha reply (IRDAI data). Annual FY2025-26 per-insurer totals not found."
+    },
+    "aum_cr": {
+     "value": 205657,
+     "period": "30 Sep 2026",
+     "source": "https://nsearchives.nseindia.com/corporate/Max_27102026192200_INVESTORRESENTATIONQ2FY27.pdf",
+     "note": "Rs 2,05,657 crore per Max Financial Services Q2 FY2026-27 investor presentation (27 Oct 2026); Rs 2 lakh crore at 30 Jun 2026 per company release of 3 Jul 2026."
+    },
+    "solvency_ratio": {
+     "value": 1.97,
+     "period": "30 Sep 2026",
+     "source": "https://nsearchives.nseindia.com/corporate/Max_27102026192200_INVESTORRESENTATIONQ2FY27.pdf",
+     "note": "197% per the same presentation (also reported by Investywise, 27 Oct 2026)."
+    },
+    "vnb_margin_pct": {
+     "value": 25.4,
+     "period": "H1 FY2026-27",
+     "source": "https://nsearchives.nseindia.com/corporate/Max_27102026192200_INVESTORRESENTATIONQ2FY27.pdf",
+     "note": "VNB Rs 1,180 crore; H1 FY2025-26 margin 23.3%. Full-year FY2025-26 margin not captured, so not like-for-like with other insurers' full-year figures."
+    },
+    "gross_premium_cr": {
+     "value": 38877,
+     "period": "FY2025-26",
+     "source": "https://nsearchives.nseindia.com/corporate/Max_27102026192200_INVESTORRESENTATIONQ2FY27.pdf",
+     "note": "Gross written premium; H1 FY2026-27 Rs 18,066 crore."
     }
-   }
+   },
+   "legal_name": "Axis Max Life Insurance Limited",
+   "brand_name": "Axis Max Life",
+   "former_names": [
+    "Max Life Insurance Company Limited",
+    "Max New York Life Insurance Company Limited"
+   ],
+   "irdai_reg_no": "104",
+   "sector": "Private",
+   "listed": "Parent listed (Max Financial Services, NSE: MFSL); direct listing planned after MFSL merges into Axis Max Life (company target 5 Apr 2027)",
+   "ownership": "Max Financial Services about 80.0%; Axis Bank about 17.2% plus Axis Capital about 1.8% and Axis Securities about 0.9% (after the 29 May 2026 preferential allotment of 2.5 crore shares to Axis Bank at Rs 151.90)",
+   "foreign_partner": "Mitsui Sumitomo Insurance (Japan), through its holding in Max Financial Services (stake not verified)",
+   "bank_linkage": "Axis Bank (about 20% shareholder with affiliates and anchor banca partner)",
+   "established_year": 2000,
+   "hq_city": "Gurugram",
+   "md_ceo": "Prashant Tripathy (CEO & MD, per company release of 23 May 2025)",
+   "website": "https://www.axismaxlife.com",
+   "status_note": "Max Financial Services is to merge into Axis Max Life to enable a direct listing (target 5 Apr 2027); IRDAI approval was pending as of Mar 2026."
   },
   "absli": {
    "metrics": {
@@ -518,8 +692,39 @@
      "period": "FY2024-25",
      "source": "https://cafemutual.com/news/insurance/36976-ombudsmen-received-17237-life-insurance-complaints-from-policyholders-in-fy25",
      "note": "Complaints received by Insurance Ombudsman during FY2024-25 (40 outstanding at start, 443 total handled). Latest year compiled by insurer; FY2025-26 not yet published. Cafemutual, 13 Feb 2026, from Council for Insurance Ombudsmen data."
+    },
+    "grievances_total": {
+     "value": 730,
+     "period": "Q1 FY2026-27 (Apr-Jun 2026)",
+     "source": "https://cafemutual.com/news/insurance/38537-which-insurers-received-the-most-complaints-in-q1-fy27",
+     "note": "QUARTERLY count, not annual: complaints received in Q1 FY2026-27, compiled by Cafemutual (17 Aug 2026) from a Rajya Sabha reply (IRDAI data). Annual FY2025-26 per-insurer totals not found."
+    },
+    "aum_cr": {
+     "value": 99431.52,
+     "period": "31 Mar 2025",
+     "source": "https://cafemutual.com/news/insurance/36829-life-insurance-industry-aum-rises-to-rs-68-lakh-crore-in-fy25",
+     "note": "FY2024-25 year-end AUM from Cafemutual's industry AUM table (28 Jan 2026; original source not stated). A later figure was not found for this insurer; treat as stale."
+    },
+    "solvency_ratio": {
+     "value": 1.8,
+     "period": "31 Mar 2024 (FY2023-24)",
+     "source": "https://www.policyx.com/data-lab/solvency-ratio.php",
+     "note": "OLD: latest insurer-wise figure located (PolicyX data lab, IRDAI Annual Report 2023-24, rounded to 1 decimal). Newer disclosure not found; do not compare with 2026 figures. Regulatory minimum is 1.5."
     }
-   }
+   },
+   "legal_name": "Aditya Birla Sun Life Insurance Company Limited",
+   "brand_name": "Aditya Birla Sun Life Insurance",
+   "former_names": [
+    "Birla Sun Life Insurance Company Limited"
+   ],
+   "irdai_reg_no": "109",
+   "sector": "Private",
+   "listed": "Parent listed (Aditya Birla Capital, NSE: ABCAPITAL)",
+   "ownership": "Joint venture of Aditya Birla Capital (about 51%) and Sun Life Financial (Canada, about 49%); stakes from earlier reporting, not re-verified",
+   "foreign_partner": "Sun Life Financial Inc. (Canada), about 49%",
+   "established_year": 2000,
+   "hq_city": "Mumbai",
+   "website": "https://lifeinsurance.adityabirlacapital.com/"
   },
   "tataaia": {
    "metrics": {
@@ -570,8 +775,39 @@
      "period": "FY2024-25",
      "source": "https://cafemutual.com/news/insurance/36976-ombudsmen-received-17237-life-insurance-complaints-from-policyholders-in-fy25",
      "note": "Complaints received by Insurance Ombudsman during FY2024-25 (43 outstanding at start, 671 total handled). Latest year compiled by insurer; FY2025-26 not yet published. Cafemutual, 13 Feb 2026, from Council for Insurance Ombudsmen data."
+    },
+    "grievances_total": {
+     "value": 1342,
+     "period": "Q1 FY2026-27 (Apr-Jun 2026)",
+     "source": "https://cafemutual.com/news/insurance/38537-which-insurers-received-the-most-complaints-in-q1-fy27",
+     "note": "QUARTERLY count, not annual: complaints received in Q1 FY2026-27, compiled by Cafemutual (17 Aug 2026) from a Rajya Sabha reply (IRDAI data). Annual FY2025-26 per-insurer totals not found."
+    },
+    "aum_cr": {
+     "value": 121300.1,
+     "period": "31 Mar 2025",
+     "source": "https://cafemutual.com/news/insurance/36829-life-insurance-industry-aum-rises-to-rs-68-lakh-crore-in-fy25",
+     "note": "FY2024-25 year-end AUM from Cafemutual's industry AUM table (28 Jan 2026; original source not stated). A later figure was not found for this insurer; treat as stale."
+    },
+    "solvency_ratio": {
+     "value": 1.8,
+     "period": "31 Mar 2024 (FY2023-24)",
+     "source": "https://www.policyx.com/data-lab/solvency-ratio.php",
+     "note": "OLD: latest insurer-wise figure located (PolicyX data lab, IRDAI Annual Report 2023-24, rounded to 1 decimal). Newer disclosure not found; do not compare with 2026 figures. Regulatory minimum is 1.5."
     }
-   }
+   },
+   "legal_name": "Tata AIA Life Insurance Company Limited",
+   "brand_name": "Tata AIA Life",
+   "former_names": [
+    "Tata AIG Life Insurance Company Limited"
+   ],
+   "irdai_reg_no": "110",
+   "sector": "Private",
+   "listed": "Unlisted",
+   "ownership": "Joint venture of Tata Sons (Tata group, about 74%) and AIA Group (Hong Kong, about 26%); stakes from earlier reporting, not re-verified",
+   "foreign_partner": "AIA Group Limited (Hong Kong), about 26%",
+   "established_year": 2001,
+   "hq_city": "Mumbai",
+   "website": "https://www.tataaia.com"
   },
   "kotak": {
    "metrics": {
@@ -622,8 +858,39 @@
      "period": "FY2024-25",
      "source": "https://cafemutual.com/news/insurance/36976-ombudsmen-received-17237-life-insurance-complaints-from-policyholders-in-fy25",
      "note": "Complaints received by Insurance Ombudsman during FY2024-25 (52 outstanding at start, 607 total handled). Latest year compiled by insurer; FY2025-26 not yet published. Cafemutual, 13 Feb 2026, from Council for Insurance Ombudsmen data."
+    },
+    "grievances_total": {
+     "value": 608,
+     "period": "Q1 FY2026-27 (Apr-Jun 2026)",
+     "source": "https://cafemutual.com/news/insurance/38537-which-insurers-received-the-most-complaints-in-q1-fy27",
+     "note": "QUARTERLY count, not annual: complaints received in Q1 FY2026-27, compiled by Cafemutual (17 Aug 2026) from a Rajya Sabha reply (IRDAI data). Annual FY2025-26 per-insurer totals not found."
+    },
+    "aum_cr": {
+     "value": 90997.79,
+     "period": "31 Mar 2025",
+     "source": "https://cafemutual.com/news/insurance/36829-life-insurance-industry-aum-rises-to-rs-68-lakh-crore-in-fy25",
+     "note": "FY2024-25 year-end AUM from Cafemutual's industry AUM table (28 Jan 2026; original source not stated). A later figure was not found for this insurer; treat as stale."
+    },
+    "solvency_ratio": {
+     "value": 2.6,
+     "period": "31 Mar 2024 (FY2023-24)",
+     "source": "https://www.policyx.com/data-lab/solvency-ratio.php",
+     "note": "OLD: latest insurer-wise figure located (PolicyX data lab, IRDAI Annual Report 2023-24, rounded to 1 decimal). Newer disclosure not found; do not compare with 2026 figures. Regulatory minimum is 1.5."
     }
-   }
+   },
+   "legal_name": "Kotak Mahindra Life Insurance Company Limited",
+   "brand_name": "Kotak Life",
+   "former_names": [
+    "Kotak Mahindra Old Mutual Life Insurance Limited"
+   ],
+   "irdai_reg_no": "107",
+   "sector": "Private",
+   "listed": "Parent listed (Kotak Mahindra Bank, NSE: KOTAKBANK)",
+   "ownership": "Subsidiary of Kotak Mahindra Bank (Old Mutual exited in 2017; current stake not re-verified)",
+   "bank_linkage": "Kotak Mahindra Bank (parent)",
+   "established_year": 2001,
+   "hq_city": "Mumbai",
+   "website": "https://www.kotaklife.com"
   },
   "pnbmetlife": {
    "metrics": {
@@ -674,8 +941,40 @@
      "period": "FY2024-25",
      "source": "https://cafemutual.com/news/insurance/36976-ombudsmen-received-17237-life-insurance-complaints-from-policyholders-in-fy25",
      "note": "Complaints received by Insurance Ombudsman during FY2024-25 (120 outstanding at start, 1180 total handled). Latest year compiled by insurer; FY2025-26 not yet published. Cafemutual, 13 Feb 2026, from Council for Insurance Ombudsmen data."
+    },
+    "grievances_total": {
+     "value": 964,
+     "period": "Q1 FY2026-27 (Apr-Jun 2026)",
+     "source": "https://cafemutual.com/news/insurance/38537-which-insurers-received-the-most-complaints-in-q1-fy27",
+     "note": "QUARTERLY count, not annual: complaints received in Q1 FY2026-27, compiled by Cafemutual (17 Aug 2026) from a Rajya Sabha reply (IRDAI data). Annual FY2025-26 per-insurer totals not found."
+    },
+    "aum_cr": {
+     "value": 54000.69,
+     "period": "31 Mar 2025",
+     "source": "https://cafemutual.com/news/insurance/36829-life-insurance-industry-aum-rises-to-rs-68-lakh-crore-in-fy25",
+     "note": "FY2024-25 year-end AUM from Cafemutual's industry AUM table (28 Jan 2026; original source not stated). A later figure was not found for this insurer; treat as stale."
+    },
+    "solvency_ratio": {
+     "value": 1.7,
+     "period": "31 Mar 2024 (FY2023-24)",
+     "source": "https://www.policyx.com/data-lab/solvency-ratio.php",
+     "note": "OLD: latest insurer-wise figure located (PolicyX data lab, IRDAI Annual Report 2023-24, rounded to 1 decimal). Newer disclosure not found; do not compare with 2026 figures. Regulatory minimum is 1.5."
     }
-   }
+   },
+   "legal_name": "PNB MetLife India Insurance Company Limited",
+   "brand_name": "PNB MetLife",
+   "former_names": [
+    "MetLife India Insurance Company Limited"
+   ],
+   "irdai_reg_no": "117",
+   "sector": "Private",
+   "listed": "Unlisted (co-promoter Punjab National Bank is listed)",
+   "ownership": "Joint venture of Punjab National Bank and MetLife International Holdings (USA) with other minority investors; stakes not verified",
+   "foreign_partner": "MetLife International Holdings (USA), stake not verified",
+   "bank_linkage": "Punjab National Bank (promoter and anchor banca partner)",
+   "established_year": 2001,
+   "hq_city": "Mumbai",
+   "website": "https://www.pnbmetlife.com"
   },
   "sud": {
    "metrics": {
@@ -726,8 +1025,38 @@
      "period": "FY2024-25",
      "source": "https://cafemutual.com/news/insurance/36976-ombudsmen-received-17237-life-insurance-complaints-from-policyholders-in-fy25",
      "note": "Complaints received by Insurance Ombudsman during FY2024-25 (16 outstanding at start, 304 total handled). Latest year compiled by insurer; FY2025-26 not yet published. Cafemutual, 13 Feb 2026, from Council for Insurance Ombudsmen data."
+    },
+    "grievances_total": {
+     "value": 702,
+     "period": "Q1 FY2026-27 (Apr-Jun 2026)",
+     "source": "https://cafemutual.com/news/insurance/38537-which-insurers-received-the-most-complaints-in-q1-fy27",
+     "note": "QUARTERLY count, not annual: complaints received in Q1 FY2026-27, compiled by Cafemutual (17 Aug 2026) from a Rajya Sabha reply (IRDAI data). Annual FY2025-26 per-insurer totals not found."
+    },
+    "aum_cr": {
+     "value": 29941.03,
+     "period": "31 Mar 2025",
+     "source": "https://cafemutual.com/news/insurance/36829-life-insurance-industry-aum-rises-to-rs-68-lakh-crore-in-fy25",
+     "note": "FY2024-25 year-end AUM from Cafemutual's industry AUM table (28 Jan 2026; original source not stated). A later figure was not found for this insurer; treat as stale."
+    },
+    "solvency_ratio": {
+     "value": 2.0,
+     "period": "31 Mar 2024 (FY2023-24)",
+     "source": "https://www.policyx.com/data-lab/solvency-ratio.php",
+     "note": "OLD: latest insurer-wise figure located (PolicyX data lab, IRDAI Annual Report 2023-24, rounded to 1 decimal). Newer disclosure not found; do not compare with 2026 figures. Regulatory minimum is 1.5."
     }
-   }
+   },
+   "legal_name": "Star Union Dai-ichi Life Insurance Company Limited",
+   "brand_name": "SUD Life",
+   "former_names": [],
+   "irdai_reg_no": "142",
+   "sector": "Private",
+   "listed": "Unlisted (promoter banks Union Bank of India and Bank of India are listed)",
+   "ownership": "Joint venture of Union Bank of India, Bank of India and Dai-ichi Life Holdings (Japan); stakes not verified",
+   "foreign_partner": "Dai-ichi Life Holdings, Inc. (Japan), stake not verified",
+   "bank_linkage": "Union Bank of India and Bank of India (promoters and anchor banca partners)",
+   "established_year": 2008,
+   "hq_city": "Mumbai",
+   "website": "https://www.sudlife.in/"
   },
   "canarahsbc": {
    "metrics": {
@@ -802,8 +1131,29 @@
      "period": "31 Mar 2026",
      "source": "https://barodaetrade.com/Reports/CanaraHSBC-Q4FY26ResultReview29Apr26-Research.pdf",
      "note": "Rs 4,61,000 mn per Baroda eTrade review."
+    },
+    "grievances_total": {
+     "value": 237,
+     "period": "Q1 FY2026-27 (Apr-Jun 2026)",
+     "source": "https://cafemutual.com/news/insurance/38537-which-insurers-received-the-most-complaints-in-q1-fy27",
+     "note": "QUARTERLY count, not annual: complaints received in Q1 FY2026-27, compiled by Cafemutual (17 Aug 2026) from a Rajya Sabha reply (IRDAI data). Annual FY2025-26 per-insurer totals not found."
     }
-   }
+   },
+   "legal_name": "Canara HSBC Life Insurance Company Limited",
+   "brand_name": "Canara HSBC Life",
+   "former_names": [
+    "Canara HSBC Oriental Bank of Commerce Life Insurance Company Limited"
+   ],
+   "irdai_reg_no": "136",
+   "sector": "Private",
+   "listed": "Listed (NSE: CANHLIFE; also BSE)",
+   "ownership": "Pre-IPO: Canara Bank 51%, HSBC Insurance (Asia-Pacific) Holdings 26%, Punjab National Bank 23%. Rs 2,517.5 crore offer for sale; listed 17 Oct 2025. Post-IPO promoters about 62%, FPIs about 5%, DIIs about 31% (Baroda eTrade Q4 FY26 review)",
+   "foreign_partner": "HSBC Insurance (Asia-Pacific) Holdings Ltd (HSBC, UK), 26% before the IPO",
+   "bank_linkage": "Canara Bank (promoter and anchor banca partner); Punjab National Bank (investor)",
+   "established_year": 2008,
+   "hq_city": "Gurugram",
+   "website": "https://www.canarahsbclife.com",
+   "status_note": "Listed on NSE and BSE on 17 Oct 2025 (flat listing at Rs 106, the top of the Rs 100-106 band)."
   },
   "indiafirst": {
    "metrics": {
@@ -854,8 +1204,37 @@
      "period": "FY2024-25",
      "source": "https://cafemutual.com/news/insurance/36976-ombudsmen-received-17237-life-insurance-complaints-from-policyholders-in-fy25",
      "note": "Complaints received by Insurance Ombudsman during FY2024-25 (204 outstanding at start, 926 total handled). Latest year compiled by insurer; FY2025-26 not yet published. Cafemutual, 13 Feb 2026, from Council for Insurance Ombudsmen data."
+    },
+    "grievances_total": {
+     "value": 529,
+     "period": "Q1 FY2026-27 (Apr-Jun 2026)",
+     "source": "https://cafemutual.com/news/insurance/38537-which-insurers-received-the-most-complaints-in-q1-fy27",
+     "note": "QUARTERLY count, not annual: complaints received in Q1 FY2026-27, compiled by Cafemutual (17 Aug 2026) from a Rajya Sabha reply (IRDAI data). Annual FY2025-26 per-insurer totals not found."
+    },
+    "aum_cr": {
+     "value": 30501.78,
+     "period": "31 Mar 2025",
+     "source": "https://cafemutual.com/news/insurance/36829-life-insurance-industry-aum-rises-to-rs-68-lakh-crore-in-fy25",
+     "note": "FY2024-25 year-end AUM from Cafemutual's industry AUM table (28 Jan 2026; original source not stated). A later figure was not found for this insurer; treat as stale."
+    },
+    "solvency_ratio": {
+     "value": 2.1,
+     "period": "31 Mar 2024 (FY2023-24)",
+     "source": "https://www.policyx.com/data-lab/solvency-ratio.php",
+     "note": "OLD: latest insurer-wise figure located (PolicyX data lab, IRDAI Annual Report 2023-24, rounded to 1 decimal). Newer disclosure not found; do not compare with 2026 figures. Regulatory minimum is 1.5."
     }
-   }
+   },
+   "legal_name": "IndiaFirst Life Insurance Company Limited",
+   "brand_name": "IndiaFirst Life",
+   "former_names": [],
+   "irdai_reg_no": "143",
+   "sector": "Private",
+   "listed": "Unlisted",
+   "ownership": "Promoted by Bank of Baroda (majority) with Union Bank of India and Carmel Point Investments (Warburg Pincus affiliate); stakes not verified",
+   "bank_linkage": "Bank of Baroda and Union Bank of India (promoters and anchor banca partners)",
+   "established_year": 2009,
+   "hq_city": "Mumbai",
+   "website": "https://www.indiafirstlife.com"
   },
   "shriram": {
    "metrics": {
@@ -906,8 +1285,37 @@
      "period": "FY2024-25",
      "source": "https://cafemutual.com/news/insurance/36976-ombudsmen-received-17237-life-insurance-complaints-from-policyholders-in-fy25",
      "note": "Complaints received by Insurance Ombudsman during FY2024-25 (43 outstanding at start, 593 total handled). Latest year compiled by insurer; FY2025-26 not yet published. Cafemutual, 13 Feb 2026, from Council for Insurance Ombudsmen data."
+    },
+    "grievances_total": {
+     "value": 840,
+     "period": "Q1 FY2026-27 (Apr-Jun 2026)",
+     "source": "https://cafemutual.com/news/insurance/38537-which-insurers-received-the-most-complaints-in-q1-fy27",
+     "note": "QUARTERLY count, not annual: complaints received in Q1 FY2026-27, compiled by Cafemutual (17 Aug 2026) from a Rajya Sabha reply (IRDAI data). Annual FY2025-26 per-insurer totals not found."
+    },
+    "aum_cr": {
+     "value": 13124.05,
+     "period": "31 Mar 2025",
+     "source": "https://cafemutual.com/news/insurance/36829-life-insurance-industry-aum-rises-to-rs-68-lakh-crore-in-fy25",
+     "note": "FY2024-25 year-end AUM from Cafemutual's industry AUM table (28 Jan 2026; original source not stated). A later figure was not found for this insurer; treat as stale."
+    },
+    "solvency_ratio": {
+     "value": 1.9,
+     "period": "31 Mar 2024 (FY2023-24)",
+     "source": "https://www.policyx.com/data-lab/solvency-ratio.php",
+     "note": "OLD: latest insurer-wise figure located (PolicyX data lab, IRDAI Annual Report 2023-24, rounded to 1 decimal). Newer disclosure not found; do not compare with 2026 figures. Regulatory minimum is 1.5."
     }
-   }
+   },
+   "legal_name": "Shriram Life Insurance Company Limited",
+   "brand_name": "Shriram Life",
+   "former_names": [],
+   "irdai_reg_no": "128",
+   "sector": "Private",
+   "listed": "Unlisted",
+   "ownership": "Shriram group (Shriram Capital) majority with Sanlam (South Africa) as minority partner; stakes from earlier reporting, not re-verified",
+   "foreign_partner": "Sanlam (South Africa), about 26%",
+   "established_year": 2005,
+   "hq_city": "Hyderabad",
+   "website": "https://www.shriramlife.com/"
   },
   "ageasfederal": {
    "metrics": {
@@ -958,8 +1366,41 @@
      "period": "FY2024-25",
      "source": "https://cafemutual.com/news/insurance/36976-ombudsmen-received-17237-life-insurance-complaints-from-policyholders-in-fy25",
      "note": "Complaints received by Insurance Ombudsman during FY2024-25 (5 outstanding at start, 89 total handled). Latest year compiled by insurer; FY2025-26 not yet published. Cafemutual, 13 Feb 2026, from Council for Insurance Ombudsmen data."
+    },
+    "grievances_total": {
+     "value": 121,
+     "period": "Q1 FY2026-27 (Apr-Jun 2026)",
+     "source": "https://cafemutual.com/news/insurance/38537-which-insurers-received-the-most-complaints-in-q1-fy27",
+     "note": "QUARTERLY count, not annual: complaints received in Q1 FY2026-27, compiled by Cafemutual (17 Aug 2026) from a Rajya Sabha reply (IRDAI data). Annual FY2025-26 per-insurer totals not found."
+    },
+    "aum_cr": {
+     "value": 18539.82,
+     "period": "31 Mar 2025",
+     "source": "https://cafemutual.com/news/insurance/36829-life-insurance-industry-aum-rises-to-rs-68-lakh-crore-in-fy25",
+     "note": "FY2024-25 year-end AUM from Cafemutual's industry AUM table (28 Jan 2026; original source not stated). A later figure was not found for this insurer; treat as stale."
+    },
+    "solvency_ratio": {
+     "value": 3.1,
+     "period": "31 Mar 2024 (FY2023-24)",
+     "source": "https://www.policyx.com/data-lab/solvency-ratio.php",
+     "note": "OLD: latest insurer-wise figure located (PolicyX data lab, IRDAI Annual Report 2023-24, rounded to 1 decimal). Newer disclosure not found; do not compare with 2026 figures. Regulatory minimum is 1.5."
     }
-   }
+   },
+   "legal_name": "Ageas Federal Life Insurance Company Limited",
+   "brand_name": "Ageas Federal Life",
+   "former_names": [
+    "IDBI Federal Life Insurance Company Limited"
+   ],
+   "irdai_reg_no": "135",
+   "sector": "Private",
+   "listed": "Unlisted (co-promoter Federal Bank is listed)",
+   "ownership": "Joint venture of Ageas (Belgium, about 74%) and Federal Bank (about 26%); stakes from earlier reporting, not re-verified",
+   "foreign_partner": "Ageas (Belgium), about 74%",
+   "bank_linkage": "Federal Bank (promoter and anchor banca partner)",
+   "established_year": 2008,
+   "hq_city": "Mumbai",
+   "website": "https://www.ageasfederal.com/",
+   "status_note": "Rebranded from IDBI Federal Life."
   },
   "generalicentral": {
    "metrics": {
@@ -1010,8 +1451,41 @@
      "period": "FY2024-25",
      "source": "https://cafemutual.com/news/insurance/36976-ombudsmen-received-17237-life-insurance-complaints-from-policyholders-in-fy25",
      "note": "Complaints received by Insurance Ombudsman during FY2024-25 (51 outstanding at start, 389 total handled). Latest year compiled by insurer; FY2025-26 not yet published. Cafemutual, 13 Feb 2026, from Council for Insurance Ombudsmen data."
+    },
+    "grievances_total": {
+     "value": 336,
+     "period": "Q1 FY2026-27 (Apr-Jun 2026)",
+     "source": "https://cafemutual.com/news/insurance/38537-which-insurers-received-the-most-complaints-in-q1-fy27",
+     "note": "QUARTERLY count, not annual: complaints received in Q1 FY2026-27, compiled by Cafemutual (17 Aug 2026) from a Rajya Sabha reply (IRDAI data). Annual FY2025-26 per-insurer totals not found."
+    },
+    "aum_cr": {
+     "value": 8826.76,
+     "period": "31 Mar 2025",
+     "source": "https://cafemutual.com/news/insurance/36829-life-insurance-industry-aum-rises-to-rs-68-lakh-crore-in-fy25",
+     "note": "FY2024-25 year-end AUM from Cafemutual's industry AUM table (28 Jan 2026; original source not stated). A later figure was not found for this insurer; treat as stale."
+    },
+    "solvency_ratio": {
+     "value": 2.1,
+     "period": "31 Mar 2024 (FY2023-24)",
+     "source": "https://www.policyx.com/data-lab/solvency-ratio.php",
+     "note": "OLD: latest insurer-wise figure located (PolicyX data lab, IRDAI Annual Report 2023-24, rounded to 1 decimal). Newer disclosure not found; do not compare with 2026 figures. Regulatory minimum is 1.5."
     }
-   }
+   },
+   "legal_name": "Generali Central Life Insurance Company Limited",
+   "brand_name": "Generali Central Life",
+   "former_names": [
+    "Future Generali India Life Insurance Company Limited"
+   ],
+   "irdai_reg_no": "133",
+   "sector": "Private",
+   "listed": "Unlisted",
+   "ownership": "Joint venture of Generali Group (Italy) and Central Bank of India after the Future Group exited; stakes not verified",
+   "foreign_partner": "Assicurazioni Generali (Italy), majority stake (not verified)",
+   "bank_linkage": "Central Bank of India (promoter and anchor banca partner)",
+   "established_year": 2007,
+   "hq_city": "Mumbai",
+   "website": "https://www.generalicentrallife.com",
+   "status_note": "Rebranded from Future Generali India Life."
   },
   "indusindnippon": {
    "metrics": {
@@ -1062,8 +1536,41 @@
      "period": "FY2024-25",
      "source": "https://cafemutual.com/news/insurance/36976-ombudsmen-received-17237-life-insurance-complaints-from-policyholders-in-fy25",
      "note": "Complaints received by Insurance Ombudsman during FY2024-25 (91 outstanding at start, 911 total handled). Latest year compiled by insurer; FY2025-26 not yet published. Cafemutual, 13 Feb 2026, from Council for Insurance Ombudsmen data."
+    },
+    "grievances_total": {
+     "value": 532,
+     "period": "Q1 FY2026-27 (Apr-Jun 2026)",
+     "source": "https://cafemutual.com/news/insurance/38537-which-insurers-received-the-most-complaints-in-q1-fy27",
+     "note": "QUARTERLY count, not annual: complaints received in Q1 FY2026-27, compiled by Cafemutual (17 Aug 2026) from a Rajya Sabha reply (IRDAI data). Annual FY2025-26 per-insurer totals not found."
+    },
+    "aum_cr": {
+     "value": 38505.48,
+     "period": "31 Mar 2025",
+     "source": "https://cafemutual.com/news/insurance/36829-life-insurance-industry-aum-rises-to-rs-68-lakh-crore-in-fy25",
+     "note": "FY2024-25 year-end AUM from Cafemutual's industry AUM table (28 Jan 2026; original source not stated). A later figure was not found for this insurer; treat as stale."
+    },
+    "solvency_ratio": {
+     "value": 2.2,
+     "period": "31 Mar 2024 (FY2023-24)",
+     "source": "https://www.policyx.com/data-lab/solvency-ratio.php",
+     "note": "OLD: latest insurer-wise figure located (PolicyX data lab, IRDAI Annual Report 2023-24, rounded to 1 decimal). Newer disclosure not found; do not compare with 2026 figures. Regulatory minimum is 1.5."
     }
-   }
+   },
+   "legal_name": "IndusInd Nippon Life Insurance Company Limited",
+   "brand_name": "IndusInd Nippon Life",
+   "former_names": [
+    "Reliance Nippon Life Insurance Company Limited",
+    "Reliance Life Insurance Company Limited"
+   ],
+   "irdai_reg_no": "121",
+   "sector": "Private",
+   "listed": "Unlisted",
+   "ownership": "Nippon Life Insurance (Japan) about 49%; Indian promoter stake (about 51%) now with the IndusInd/Hinduja group after the takeover of Reliance Capital; stakes from earlier reporting, not re-verified",
+   "foreign_partner": "Nippon Life Insurance Company (Japan), about 49%",
+   "established_year": 2001,
+   "hq_city": "Mumbai",
+   "website": "https://www.indusindnipponlife.com",
+   "status_note": "Rebranded from Reliance Nippon Life."
   },
   "godigit": {
    "metrics": {
@@ -1102,8 +1609,29 @@
      "period": "FY2024-25",
      "source": "https://cafemutual.com/news/insurance/36976-ombudsmen-received-17237-life-insurance-complaints-from-policyholders-in-fy25",
      "note": "Complaints received by Insurance Ombudsman during FY2024-25 (0 outstanding at start, 5 total handled). Latest year compiled by insurer; FY2025-26 not yet published. Cafemutual, 13 Feb 2026, from Council for Insurance Ombudsmen data."
+    },
+    "grievances_total": {
+     "value": 392,
+     "period": "Q1 FY2026-27 (Apr-Jun 2026)",
+     "source": "https://cafemutual.com/news/insurance/38537-which-insurers-received-the-most-complaints-in-q1-fy27",
+     "note": "QUARTERLY count, not annual: complaints received in Q1 FY2026-27, compiled by Cafemutual (17 Aug 2026) from a Rajya Sabha reply (IRDAI data). Annual FY2025-26 per-insurer totals not found."
+    },
+    "aum_cr": {
+     "value": 1671.77,
+     "period": "31 Mar 2025",
+     "source": "https://cafemutual.com/news/insurance/36829-life-insurance-industry-aum-rises-to-rs-68-lakh-crore-in-fy25",
+     "note": "FY2024-25 year-end AUM from Cafemutual's industry AUM table (28 Jan 2026; original source not stated). A later figure was not found for this insurer; treat as stale."
     }
-   }
+   },
+   "legal_name": "Go Digit Life Insurance Limited",
+   "brand_name": "Digit Life",
+   "former_names": [],
+   "irdai_reg_no": "165",
+   "sector": "Private",
+   "listed": "Unlisted (sister company Go Digit General Insurance is listed)",
+   "ownership": "Part of the Digit group; stakes not verified",
+   "website": "https://www.godigit.com/life/about",
+   "status_note": "New entrant; mainly group credit-linked and term business."
   },
   "pramerica": {
    "metrics": {
@@ -1154,8 +1682,40 @@
      "period": "FY2024-25",
      "source": "https://cafemutual.com/news/insurance/36976-ombudsmen-received-17237-life-insurance-complaints-from-policyholders-in-fy25",
      "note": "Complaints received by Insurance Ombudsman during FY2024-25 (5 outstanding at start, 149 total handled). Latest year compiled by insurer; FY2025-26 not yet published. Cafemutual, 13 Feb 2026, from Council for Insurance Ombudsmen data."
+    },
+    "grievances_total": {
+     "value": 404,
+     "period": "Q1 FY2026-27 (Apr-Jun 2026)",
+     "source": "https://cafemutual.com/news/insurance/38537-which-insurers-received-the-most-complaints-in-q1-fy27",
+     "note": "QUARTERLY count, not annual: complaints received in Q1 FY2026-27, compiled by Cafemutual (17 Aug 2026) from a Rajya Sabha reply (IRDAI data). Annual FY2025-26 per-insurer totals not found."
+    },
+    "aum_cr": {
+     "value": 9607.15,
+     "period": "31 Mar 2025",
+     "source": "https://cafemutual.com/news/insurance/36829-life-insurance-industry-aum-rises-to-rs-68-lakh-crore-in-fy25",
+     "note": "FY2024-25 year-end AUM from Cafemutual's industry AUM table (28 Jan 2026; original source not stated). A later figure was not found for this insurer; treat as stale."
+    },
+    "solvency_ratio": {
+     "value": 2.8,
+     "period": "31 Mar 2024 (FY2023-24)",
+     "source": "https://www.policyx.com/data-lab/solvency-ratio.php",
+     "note": "OLD: latest insurer-wise figure located (PolicyX data lab, IRDAI Annual Report 2023-24, rounded to 1 decimal). Newer disclosure not found; do not compare with 2026 figures. Regulatory minimum is 1.5."
     }
-   }
+   },
+   "legal_name": "Pramerica Life Insurance Limited",
+   "brand_name": "Pramerica Life",
+   "former_names": [
+    "DHFL Pramerica Life Insurance Company Limited"
+   ],
+   "irdai_reg_no": "140",
+   "sector": "Private",
+   "listed": "Unlisted",
+   "ownership": "Joint venture of Prudential Financial (USA) and the Piramal group (which took over DHFL's stake); stakes not verified",
+   "foreign_partner": "Prudential Financial, Inc. (USA), stake not verified",
+   "established_year": 2008,
+   "hq_city": "Gurugram",
+   "website": "https://www.pramericalife.in",
+   "status_note": "Renamed from DHFL Pramerica Life after DHFL's resolution."
   },
   "bharti": {
    "metrics": {
@@ -1206,8 +1766,39 @@
      "period": "FY2024-25",
      "source": "https://cafemutual.com/news/insurance/36976-ombudsmen-received-17237-life-insurance-complaints-from-policyholders-in-fy25",
      "note": "Complaints received by Insurance Ombudsman during FY2024-25 (516 outstanding at start, 3286 total handled). Latest year compiled by insurer; FY2025-26 not yet published. Cafemutual, 13 Feb 2026, from Council for Insurance Ombudsmen data."
+    },
+    "grievances_total": {
+     "value": 635,
+     "period": "Q1 FY2026-27 (Apr-Jun 2026)",
+     "source": "https://cafemutual.com/news/insurance/38537-which-insurers-received-the-most-complaints-in-q1-fy27",
+     "note": "QUARTERLY count, not annual: complaints received in Q1 FY2026-27, compiled by Cafemutual (17 Aug 2026) from a Rajya Sabha reply (IRDAI data). Annual FY2025-26 per-insurer totals not found."
+    },
+    "aum_cr": {
+     "value": 17048.14,
+     "period": "31 Mar 2025",
+     "source": "https://cafemutual.com/news/insurance/36829-life-insurance-industry-aum-rises-to-rs-68-lakh-crore-in-fy25",
+     "note": "FY2024-25 year-end AUM from Cafemutual's industry AUM table (28 Jan 2026; original source not stated). A later figure was not found for this insurer; treat as stale."
+    },
+    "solvency_ratio": {
+     "value": 1.6,
+     "period": "31 Mar 2024 (FY2023-24)",
+     "source": "https://www.policyx.com/data-lab/solvency-ratio.php",
+     "note": "OLD: latest insurer-wise figure located (PolicyX data lab, IRDAI Annual Report 2023-24, rounded to 1 decimal). Newer disclosure not found; do not compare with 2026 figures. Regulatory minimum is 1.5."
     }
-   }
+   },
+   "legal_name": "Bharti Life Insurance Company Limited",
+   "brand_name": "Bharti Life",
+   "former_names": [
+    "Bharti AXA Life Insurance Company Limited"
+   ],
+   "irdai_reg_no": "130",
+   "sector": "Private",
+   "listed": "Unlisted",
+   "ownership": "Before the pending sale: Bharti Enterprises (via Bharti Life Ventures) 85% and 360 ONE Asset Management 15%. Prudential plc agreed in May 2026 to buy 75% for Rs 3,500 crore (plus up to Rs 700 crore contingent), leaving Bharti Enterprises with 25%; subject to regulatory approvals",
+   "foreign_partner": "Prudential plc (UK), 75% on completion of the pending acquisition; AXA (France) exited earlier",
+   "established_year": 2006,
+   "website": "https://www.bhartiaxa.com",
+   "status_note": "Rebranded from Bharti AXA Life. Prudential plc acquisition of 75% pending regulatory approval (announced May 2026)."
   },
   "edelweiss": {
    "metrics": {
@@ -1258,8 +1849,40 @@
      "period": "FY2024-25",
      "source": "https://cafemutual.com/news/insurance/36976-ombudsmen-received-17237-life-insurance-complaints-from-policyholders-in-fy25",
      "note": "Complaints received by Insurance Ombudsman during FY2024-25 (98 outstanding at start, 550 total handled). Latest year compiled by insurer; FY2025-26 not yet published. Cafemutual, 13 Feb 2026, from Council for Insurance Ombudsmen data."
+    },
+    "grievances_total": {
+     "value": 188,
+     "period": "Q1 FY2026-27 (Apr-Jun 2026)",
+     "source": "https://cafemutual.com/news/insurance/38537-which-insurers-received-the-most-complaints-in-q1-fy27",
+     "note": "QUARTERLY count, not annual: complaints received in Q1 FY2026-27, compiled by Cafemutual (17 Aug 2026) from a Rajya Sabha reply (IRDAI data). Annual FY2025-26 per-insurer totals not found."
+    },
+    "aum_cr": {
+     "value": 9378.95,
+     "period": "31 Mar 2025",
+     "source": "https://cafemutual.com/news/insurance/36829-life-insurance-industry-aum-rises-to-rs-68-lakh-crore-in-fy25",
+     "note": "FY2024-25 year-end AUM from Cafemutual's industry AUM table (28 Jan 2026; original source not stated). A later figure was not found for this insurer; treat as stale."
+    },
+    "solvency_ratio": {
+     "value": 1.9,
+     "period": "31 Mar 2024 (FY2023-24)",
+     "source": "https://www.policyx.com/data-lab/solvency-ratio.php",
+     "note": "OLD: latest insurer-wise figure located (PolicyX data lab, IRDAI Annual Report 2023-24, rounded to 1 decimal). Newer disclosure not found; do not compare with 2026 figures. Regulatory minimum is 1.5."
     }
-   }
+   },
+   "legal_name": "Edelweiss Life Insurance Company Limited",
+   "brand_name": "Edelweiss Life",
+   "former_names": [
+    "Edelweiss Tokio Life Insurance Company Limited"
+   ],
+   "irdai_reg_no": "147",
+   "sector": "Private",
+   "listed": "Parent listed (Edelweiss Financial Services)",
+   "ownership": "Promoted by Edelweiss Financial Services with Tokio Marine Holdings (Japan) as JV partner; stakes not verified",
+   "foreign_partner": "Tokio Marine Holdings (Japan), stake not verified",
+   "established_year": 2011,
+   "hq_city": "Mumbai",
+   "website": "https://www.edelweisslife.in",
+   "status_note": "Rebranded from Edelweiss Tokio Life."
   },
   "creditaccess": {
    "metrics": {
@@ -1280,8 +1903,29 @@
      "period": "FY2025-26",
      "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
      "note": "YoY vs FY2024-25 NBP as reported in source table (FY2024-25 NBP in Rs cr: see source)"
+    },
+    "grievances_total": {
+     "value": 7,
+     "period": "Q1 FY2026-27 (Apr-Jun 2026)",
+     "source": "https://cafemutual.com/news/insurance/38537-which-insurers-received-the-most-complaints-in-q1-fy27",
+     "note": "QUARTERLY count, not annual: complaints received in Q1 FY2026-27, compiled by Cafemutual (17 Aug 2026) from a Rajya Sabha reply (IRDAI data). Annual FY2025-26 per-insurer totals not found."
+    },
+    "aum_cr": {
+     "value": 333.93,
+     "period": "31 Mar 2025",
+     "source": "https://cafemutual.com/news/insurance/36829-life-insurance-industry-aum-rises-to-rs-68-lakh-crore-in-fy25",
+     "note": "FY2024-25 year-end AUM from Cafemutual's industry AUM table (28 Jan 2026; original source not stated). A later figure was not found for this insurer; treat as stale."
     }
-   }
+   },
+   "legal_name": "CreditAccess Life Insurance Limited",
+   "brand_name": "CreditAccess Life",
+   "former_names": [],
+   "sector": "Private",
+   "listed": "Parent listed (CreditAccess Grameen)",
+   "ownership": "Promoted by CreditAccess Grameen (listed microfinance lender); stake not verified",
+   "hq_city": "Bengaluru",
+   "website": "https://www.creditaccesslife.in",
+   "status_note": "New entrant; mainly group credit-life and micro-insurance plans."
   },
   "bandhan": {
    "metrics": {
@@ -1332,8 +1976,40 @@
      "period": "FY2024-25",
      "source": "https://cafemutual.com/news/insurance/36976-ombudsmen-received-17237-life-insurance-complaints-from-policyholders-in-fy25",
      "note": "Complaints received by Insurance Ombudsman during FY2024-25 (6 outstanding at start, 54 total handled). Latest year compiled by insurer; FY2025-26 not yet published. Cafemutual, 13 Feb 2026, from Council for Insurance Ombudsmen data."
+    },
+    "grievances_total": {
+     "value": 124,
+     "period": "Q1 FY2026-27 (Apr-Jun 2026)",
+     "source": "https://cafemutual.com/news/insurance/38537-which-insurers-received-the-most-complaints-in-q1-fy27",
+     "note": "QUARTERLY count, not annual: complaints received in Q1 FY2026-27, compiled by Cafemutual (17 Aug 2026) from a Rajya Sabha reply (IRDAI data). Annual FY2025-26 per-insurer totals not found."
+    },
+    "aum_cr": {
+     "value": 4760.79,
+     "period": "31 Mar 2025",
+     "source": "https://cafemutual.com/news/insurance/36829-life-insurance-industry-aum-rises-to-rs-68-lakh-crore-in-fy25",
+     "note": "FY2024-25 year-end AUM from Cafemutual's industry AUM table (28 Jan 2026; original source not stated). A later figure was not found for this insurer; treat as stale."
+    },
+    "solvency_ratio": {
+     "value": 2.5,
+     "period": "31 Mar 2024 (FY2023-24)",
+     "source": "https://www.policyx.com/data-lab/solvency-ratio.php",
+     "note": "OLD: latest insurer-wise figure located (PolicyX data lab, IRDAI Annual Report 2023-24, rounded to 1 decimal). Newer disclosure not found; do not compare with 2026 figures. Regulatory minimum is 1.5."
     }
-   }
+   },
+   "legal_name": "Bandhan Life Insurance Limited",
+   "brand_name": "Bandhan Life",
+   "former_names": [
+    "Aegon Life Insurance Company Limited",
+    "Aegon Religare Life Insurance Company Limited"
+   ],
+   "irdai_reg_no": "138",
+   "sector": "Private",
+   "listed": "Unlisted",
+   "ownership": "Acquired from Aegon by a consortium led by Bandhan Financial Holdings (promoter of Bandhan Bank) with Chrys Capital and Multiples; stakes not verified",
+   "established_year": 2008,
+   "hq_city": "Mumbai",
+   "website": "https://www.bandhanlife.com/",
+   "status_note": "Rebranded from Aegon Life after its sale to the Bandhan-led consortium."
   },
   "aviva": {
    "metrics": {
@@ -1384,8 +2060,39 @@
      "period": "FY2024-25",
      "source": "https://cafemutual.com/news/insurance/36976-ombudsmen-received-17237-life-insurance-complaints-from-policyholders-in-fy25",
      "note": "Complaints received by Insurance Ombudsman during FY2024-25 (14 outstanding at start, 117 total handled). Latest year compiled by insurer; FY2025-26 not yet published. Cafemutual, 13 Feb 2026, from Council for Insurance Ombudsmen data."
+    },
+    "grievances_total": {
+     "value": 159,
+     "period": "Q1 FY2026-27 (Apr-Jun 2026)",
+     "source": "https://cafemutual.com/news/insurance/38537-which-insurers-received-the-most-complaints-in-q1-fy27",
+     "note": "QUARTERLY count, not annual: complaints received in Q1 FY2026-27, compiled by Cafemutual (17 Aug 2026) from a Rajya Sabha reply (IRDAI data). Annual FY2025-26 per-insurer totals not found."
+    },
+    "aum_cr": {
+     "value": 14736.01,
+     "period": "31 Mar 2025",
+     "source": "https://cafemutual.com/news/insurance/36829-life-insurance-industry-aum-rises-to-rs-68-lakh-crore-in-fy25",
+     "note": "FY2024-25 year-end AUM from Cafemutual's industry AUM table (28 Jan 2026; original source not stated). A later figure was not found for this insurer; treat as stale."
+    },
+    "solvency_ratio": {
+     "value": 1.8,
+     "period": "31 Mar 2024 (FY2023-24)",
+     "source": "https://www.policyx.com/data-lab/solvency-ratio.php",
+     "note": "OLD: latest insurer-wise figure located (PolicyX data lab, IRDAI Annual Report 2023-24, rounded to 1 decimal). Newer disclosure not found; do not compare with 2026 figures. Regulatory minimum is 1.5."
     }
-   }
+   },
+   "legal_name": "Aviva Life Insurance Company India Limited",
+   "brand_name": "Aviva India",
+   "former_names": [
+    "Dabur CGU Life Insurance Company Limited"
+   ],
+   "irdai_reg_no": "122",
+   "sector": "Private",
+   "listed": "Unlisted",
+   "ownership": "Joint venture of Aviva (UK, about 74%) and the Dabur group (about 26%); stakes from earlier reporting, not re-verified",
+   "foreign_partner": "Aviva plc (UK), about 74%",
+   "established_year": 2002,
+   "hq_city": "Gurugram",
+   "website": "https://www.avivaindia.com/"
   },
   "acko": {
    "metrics": {
@@ -1406,8 +2113,29 @@
      "period": "FY2025-26",
      "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
      "note": "YoY vs FY2024-25 NBP as reported in source table (FY2024-25 NBP in Rs cr: see source)"
+    },
+    "grievances_total": {
+     "value": 86,
+     "period": "Q1 FY2026-27 (Apr-Jun 2026)",
+     "source": "https://cafemutual.com/news/insurance/38537-which-insurers-received-the-most-complaints-in-q1-fy27",
+     "note": "QUARTERLY count, not annual: complaints received in Q1 FY2026-27, compiled by Cafemutual (17 Aug 2026) from a Rajya Sabha reply (IRDAI data). Annual FY2025-26 per-insurer totals not found."
+    },
+    "aum_cr": {
+     "value": 172.19,
+     "period": "31 Mar 2025",
+     "source": "https://cafemutual.com/news/insurance/36829-life-insurance-industry-aum-rises-to-rs-68-lakh-crore-in-fy25",
+     "note": "FY2024-25 year-end AUM from Cafemutual's industry AUM table (28 Jan 2026; original source not stated). A later figure was not found for this insurer; treat as stale."
     }
-   }
+   },
+   "legal_name": "Acko Life Insurance Limited",
+   "brand_name": "Acko Life",
+   "former_names": [],
+   "irdai_reg_no": "164",
+   "sector": "Private",
+   "listed": "Unlisted",
+   "ownership": "Promoted by the Acko group (digital insurer); stakes not verified",
+   "website": "https://www.acko.com/life-insurance/",
+   "status_note": "New digital entrant; very small individual book (settled one individual death claim in FY2025-26)."
   },
   "sahara": {
    "metrics": {
@@ -1416,9 +2144,78 @@
      "period": "FY2024-25",
      "source": "https://cafemutual.com/news/insurance/36976-ombudsmen-received-17237-life-insurance-complaints-from-policyholders-in-fy25",
      "note": "Complaints received by Insurance Ombudsman during FY2024-25 (0 outstanding at start, 7 total handled). Latest year compiled by insurer; FY2025-26 not yet published. Cafemutual, 13 Feb 2026, from Council for Insurance Ombudsmen data."
+    },
+    "grievances_total": {
+     "value": 21,
+     "period": "Q1 FY2026-27 (Apr-Jun 2026)",
+     "source": "https://cafemutual.com/news/insurance/38537-which-insurers-received-the-most-complaints-in-q1-fy27",
+     "note": "QUARTERLY count, not annual: complaints received in Q1 FY2026-27, compiled by Cafemutual (17 Aug 2026) from a Rajya Sabha reply (IRDAI data). Annual FY2025-26 per-insurer totals not found."
+    }
+   },
+   "legal_name": "Sahara India Life Insurance Company Limited",
+   "brand_name": "Sahara Life",
+   "former_names": [],
+   "irdai_reg_no": "127",
+   "sector": "Private",
+   "listed": "Unlisted",
+   "ownership": "Sahara India group company; under IRDAI-appointed administration",
+   "established_year": 2004,
+   "hq_city": "Lucknow",
+   "status_note": "Under administration, no new business; policies moved to SBI Life in 2023 (per project brief, not independently confirmed)."
+  },
+  "indiapost": {
+   "legal_name": "India Post - Postal Life Insurance (PLI) and Rural Postal Life Insurance (RPLI), Department of Posts",
+   "brand_name": "India Post PLI / RPLI",
+   "former_names": [],
+   "irdai_reg_no": null,
+   "sector": "Government (non-IRDAI)",
+   "listed": "Unlisted (government department)",
+   "ownership": "Department of Posts, Ministry of Communications, Government of India",
+   "foreign_partner": null,
+   "bank_linkage": null,
+   "established_year": 1884,
+   "hq_city": "New Delhi",
+   "md_ceo": null,
+   "website": "https://pli.indiapost.gov.in",
+   "status_note": "Government scheme outside IRDAI. PLI began in 1884 for government and semi-government employees; RPLI began in 1995 for rural areas.",
+   "metrics": {
+    "pli_bonus_whole_life_per_1000_sa": {
+     "value": 76,
+     "period": "FY2025-26",
+     "source": "https://www.potoolsblog.in/2025/03/declared-pli-bonus-rates-for-2025-26.html?hl=ar",
+     "note": "PLI bonus in Rs per Rs 1,000 sum assured per year for FY2025-26 (order dated 26 Nov 2024, reposted by a Department of Posts staff blog): Whole Life/Suraksha 76; Endowment/Santosh 52; Convertible Whole Life/Suvidha 76 until conversion then 52; Anticipated Endowment/Sumangal 48; Children Policy 52; Yugal Suraksha 52. FY2026-27 PLI rates not found."
+    },
+    "pli_bonus_endowment_per_1000_sa": {
+     "value": 52,
+     "period": "FY2025-26",
+     "source": "https://www.potoolsblog.in/2025/03/declared-pli-bonus-rates-for-2025-26.html?hl=ar",
+     "note": "PLI bonus in Rs per Rs 1,000 sum assured per year for FY2025-26 (order dated 26 Nov 2024, reposted by a Department of Posts staff blog): Whole Life/Suraksha 76; Endowment/Santosh 52; Convertible Whole Life/Suvidha 76 until conversion then 52; Anticipated Endowment/Sumangal 48; Children Policy 52; Yugal Suraksha 52. FY2026-27 PLI rates not found."
+    },
+    "pli_bonus_anticipated_endowment_per_1000_sa": {
+     "value": 48,
+     "period": "FY2025-26",
+     "source": "https://www.potoolsblog.in/2025/03/declared-pli-bonus-rates-for-2025-26.html?hl=ar",
+     "note": "PLI bonus in Rs per Rs 1,000 sum assured per year for FY2025-26 (order dated 26 Nov 2024, reposted by a Department of Posts staff blog): Whole Life/Suraksha 76; Endowment/Santosh 52; Convertible Whole Life/Suvidha 76 until conversion then 52; Anticipated Endowment/Sumangal 48; Children Policy 52; Yugal Suraksha 52. FY2026-27 PLI rates not found."
+    },
+    "rpli_bonus_whole_life_per_1000_sa": {
+     "value": 60,
+     "period": "FY2026-27 (unchanged from FY2025-26)",
+     "source": "https://www.postalstudy.in/2026/02/rpli-bonus-rates-2026-27-download-rural.html",
+     "note": "RPLI bonus in Rs per Rs 1,000 sum assured per year: Whole Life 60; Endowment (incl. children) 48; Anticipated Endowment (incl. Gram Priya) 45; Convertible Whole Life 60 until conversion then 48; terminal bonus Rs 20 per Rs 10,000 SA (max Rs 1,000) on WLA/EA of 20+ years. FY2026-27 rates notified 14 Jan 2026 (effective 1 Apr 2026), identical to the FY2025-26 order of 25 Mar 2025 (https://potoolsblog.in/2025/03/bonus-declaration-in-respect-of-rpli.html). Reposted by non-official blogs."
+    },
+    "rpli_bonus_endowment_per_1000_sa": {
+     "value": 48,
+     "period": "FY2026-27 (unchanged from FY2025-26)",
+     "source": "https://www.postalstudy.in/2026/02/rpli-bonus-rates-2026-27-download-rural.html",
+     "note": "RPLI bonus in Rs per Rs 1,000 sum assured per year: Whole Life 60; Endowment (incl. children) 48; Anticipated Endowment (incl. Gram Priya) 45; Convertible Whole Life 60 until conversion then 48; terminal bonus Rs 20 per Rs 10,000 SA (max Rs 1,000) on WLA/EA of 20+ years. FY2026-27 rates notified 14 Jan 2026 (effective 1 Apr 2026), identical to the FY2025-26 order of 25 Mar 2025 (https://potoolsblog.in/2025/03/bonus-declaration-in-respect-of-rpli.html). Reposted by non-official blogs."
+    },
+    "rpli_bonus_anticipated_endowment_per_1000_sa": {
+     "value": 45,
+     "period": "FY2026-27 (unchanged from FY2025-26)",
+     "source": "https://www.postalstudy.in/2026/02/rpli-bonus-rates-2026-27-download-rural.html",
+     "note": "RPLI bonus in Rs per Rs 1,000 sum assured per year: Whole Life 60; Endowment (incl. children) 48; Anticipated Endowment (incl. Gram Priya) 45; Convertible Whole Life 60 until conversion then 48; terminal bonus Rs 20 per Rs 10,000 SA (max Rs 1,000) on WLA/EA of 20+ years. FY2026-27 rates notified 14 Jan 2026 (effective 1 Apr 2026), identical to the FY2025-26 order of 25 Mar 2025 (https://potoolsblog.in/2025/03/bonus-declaration-in-respect-of-rpli.html). Reposted by non-official blogs."
     }
    }
   }
- },
- "updated_on": "2026-11-01"
+ }
 }
