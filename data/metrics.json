@@ -31,10 +31,34 @@
     "period": "FY2025-26",
     "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
     "note": "17,305 repudiated of 1,019,482 received by number."
+   },
+   "ombudsman_complaints": {
+    "value": 15342,
+    "period": "FY2024-25",
+    "source": "https://cafemutual.com/news/insurance/36976-ombudsmen-received-17237-life-insurance-complaints-from-policyholders-in-fy25",
+    "note": "Life insurance complaints received by Ombudsmen in FY2024-25; 17,237 including 1,895 outstanding at start of year. Includes 23 against Exide Life (merged into HDFC Life)."
+   },
+   "grievances_total": {
+    "value": 120429,
+    "period": "FY2024-25",
+    "source": "https://www.joinditto.in/articles/general/irdai-annual-report/",
+    "note": "Life insurance grievances registered on Bima Bharosa per IRDAI Annual Report 2024-25 (summarised by Ditto); 26,667 tagged unfair business practices (23,335 in FY2023-24). Life Insurance Council puts FY2023-24 at about 1.23 lakh grievances, i.e. 42 per 10,000 policies (Cafemutual, 10 Jun 2026)."
+   },
+   "new_individual_policies": {
+    "value": 27022000,
+    "period": "FY2024-25",
+    "source": "https://www.joinditto.in/articles/general/irdai-annual-report/",
+    "note": "270.22 lakh individual policies, down 7.4% from 291.77 lakh in FY2023-24 (IRDAI Annual Report 2024-25 via Ditto)."
+   },
+   "gross_premium_cr": {
+    "value": 886000,
+    "period": "FY2024-25",
+    "source": "https://www.joinditto.in/articles/general/irdai-annual-report/",
+    "note": "Total life premium Rs 8.86 lakh crore (+6.73%; private +12%, LIC +2.75%) per IRDAI Annual Report 2024-25; FY2025-26 not yet published in the annual report."
    }
   },
   "life_insurers_count": 26,
-  "notes": "FY2025-26 industry NBP ~Rs 4.59-4.60 lakh cr (+15.7%): LIC ~56.7% share (Rs 2.60 lakh cr, +14.9%), private insurers ~43.3% (+~16.8%). SBI Life, HDFC Life, ICICI Pru lead private; fastest growers off small base are CreditAccess Life, Acko Life, Bandhan Life, Bharti Life, Go Digit Life. 26 licensed life insurers = LIC + 25 private (incl. Sahara India Life, under administration, no new business)."
+  "notes": "FY2025-26 industry NBP ~Rs 4.59-4.60 lakh cr (+15.7%): LIC ~56.7% share (Rs 2.60 lakh cr, +14.9%), private insurers ~43.3% (+~16.8%). SBI Life, HDFC Life, ICICI Pru lead private; fastest growers off small base are CreditAccess Life, Acko Life, Bandhan Life, Bharti Life, Go Digit Life. 26 licensed life insurers = LIC + 25 private (incl. Sahara India Life, under administration, no new business). | Claims FY2025-26 (Cafemutual, 3 Jul 2026): industry individual death claims 97.8% settled by number; LIC 97.5%, private insurers roughly 98.2-99.8% (GoDigit excluded as tiny base). FY2024-25 (IRDAI AR 2024-25): premium Rs 8.86 lakh crore (+6.7%; private +12%, LIC +2.75%); new individual policies 270 lakh (-7.4%; LIC -12.8%, private +5.2%). Persistency, solvency and ombudsman by insurer come from trade-press compilations (see each metric). Exide Life merged into HDFC Life in 2022."
  },
  "companies": {
   "lic": {
@@ -68,6 +92,60 @@
      "period": "FY2025-26",
      "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
      "note": "Repudiated/received by number. Individual death claims FY2025-26: 830,399 settled and 16,113 repudiated of 851,292 received (rest pending/other)."
+    },
+    "persistency_13m_pct": {
+     "value": 70.9,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37974-which-life-insurers-retain-customers-the-best",
+     "note": "Individual business, by premium. Cafemutual table (16 Jun 2026). LIC's own FY2025-26 release reports higher figures: 74.64% (13th) and 59.31% (61st) by premium; 64.87% and 46.88% by policy count. By policy count in the Cafemutual table: 13th 58.41%, 61st 47.26%."
+    },
+    "persistency_61m_pct": {
+     "value": 58.31,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37974-which-life-insurers-retain-customers-the-best",
+     "note": "Individual business, by premium. Cafemutual table (16 Jun 2026). LIC's own FY2025-26 release reports 59.31% (61st) and 74.64% (13th) by premium; 46.88% (61st) by policy count (FY2024-25: 63.12% premium)."
+    },
+    "ombudsman_complaints": {
+     "value": 1951,
+     "period": "FY2024-25",
+     "source": "https://cafemutual.com/news/insurance/36976-ombudsmen-received-17237-life-insurance-complaints-from-policyholders-in-fy25",
+     "note": "Complaints received by Insurance Ombudsman during FY2024-25 (139 outstanding at start, 2090 total handled). Latest year compiled by insurer; FY2025-26 not yet published. Cafemutual, 13 Feb 2026, from Council for Insurance Ombudsmen data."
+    },
+    "pat_cr": {
+     "value": 57419,
+     "period": "FY2025-26",
+     "source": "https://english.metrovaartha.com/economy/business/performance-update-for-the-year-ended-march-31st-2026-fy-2026",
+     "note": "FY2024-25: Rs 48,151 crore (+19.25%). LIC performance update dated 22 May 2026."
+    },
+    "vnb_margin_pct": {
+     "value": 21.2,
+     "period": "FY2025-26",
+     "source": "https://english.metrovaartha.com/economy/business/performance-update-for-the-year-ended-march-31st-2026-fy-2026",
+     "note": "VNB Rs 14,179 crore (+41.6%); FY2024-25 margin 17.6%."
+    },
+    "solvency_ratio": {
+     "value": 2.35,
+     "period": "31 Mar 2026",
+     "source": "https://english.metrovaartha.com/economy/business/performance-update-for-the-year-ended-march-31st-2026-fy-2026",
+     "note": "2.11 at 31 Mar 2025."
+    },
+    "aum_cr": {
+     "value": 5729396,
+     "period": "31 Mar 2026",
+     "source": "https://english.metrovaartha.com/economy/business/performance-update-for-the-year-ended-march-31st-2026-fy-2026",
+     "note": "Rs 57,29,396 crore."
+    },
+    "individual_nbp_cr": {
+     "value": 67676,
+     "period": "FY2025-26",
+     "source": "https://english.metrovaartha.com/economy/business/performance-update-for-the-year-ended-march-31st-2026-fy-2026",
+     "note": "Individual new business premium as reported by LIC (FY2024-25: Rs 62,495 crore, +8.29%)."
+    },
+    "gross_premium_cr": {
+     "value": 535984,
+     "period": "FY2025-26",
+     "source": "https://english.metrovaartha.com/economy/business/performance-update-for-the-year-ended-march-31st-2026-fy-2026",
+     "note": "Total premium income (FY2024-25: Rs 4,88,148 crore, +9.80%)."
     }
    }
   },
@@ -102,6 +180,48 @@
      "period": "FY2025-26",
      "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
      "note": "Repudiated/received by number. Individual death claims FY2025-26: 45,311 settled and 535 repudiated of 45,972 received (rest pending/other)."
+    },
+    "persistency_13m_pct": {
+     "value": 85.24,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37974-which-life-insurers-retain-customers-the-best",
+     "note": "Individual business, by premium. Table compiled by Cafemutual (16 Jun 2026); article text for SBI Life cites 87.55%, conflicting with its table (85.24%; table value used). SBI Life's own results report 87.94% (FY2025-26, per investywise) and 87.6% (13th) / 58.7% (61st) for H1 FY2026-27 (SBI Life release 27 Oct 2026). By policy count: 13th 78.35%, 61st 53.38%."
+    },
+    "persistency_61m_pct": {
+     "value": 59.48,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37974-which-life-insurers-retain-customers-the-best",
+     "note": "Individual business, by premium. Cafemutual table (16 Jun 2026); company-reported H1 FY2026-27 61st-month persistency 58.7% (SBI Life release 27 Oct 2026). By policy count: 13th 78.35%, 61st 53.38%."
+    },
+    "ombudsman_complaints": {
+     "value": 534,
+     "period": "FY2024-25",
+     "source": "https://cafemutual.com/news/insurance/36976-ombudsmen-received-17237-life-insurance-complaints-from-policyholders-in-fy25",
+     "note": "Complaints received by Insurance Ombudsman during FY2024-25 (35 outstanding at start, 569 total handled). Latest year compiled by insurer; FY2025-26 not yet published. Cafemutual, 13 Feb 2026, from Council for Insurance Ombudsmen data."
+    },
+    "pat_cr": {
+     "value": 2470.3,
+     "period": "FY2025-26",
+     "source": "https://www.investywise.com/?p=74042",
+     "note": "Net profit for year ended 31 Mar 2026 per SBI Life audited results (article 22 Apr 2026). H1 FY2026-27 PAT was Rs 1,270 crore (SBI Life release, 27 Oct 2026)."
+    },
+    "vnb_margin_pct": {
+     "value": 27.9,
+     "period": "H1 FY2026-27",
+     "source": "https://nsearchives.nseindia.com/corporate/SBILIFE_27102026185900_SEPR271026signed.pdf",
+     "note": "VNB margin for six months to 30 Sep 2026 (VNB Rs 3,270 crore). Full-year FY2025-26 margin not captured, so not like-for-like with other insurers' FY2025-26 figures."
+    },
+    "solvency_ratio": {
+     "value": 1.97,
+     "period": "30 Sep 2026",
+     "source": "https://nsearchives.nseindia.com/corporate/SBILIFE_27102026185900_SEPR271026signed.pdf",
+     "note": "Latest quarter (Q2 FY2026-27). 1.90 at 31 Mar 2026 per investywise (22 Apr 2026)."
+    },
+    "aum_cr": {
+     "value": 527120,
+     "period": "30 Sep 2026",
+     "source": "https://nsearchives.nseindia.com/corporate/SBILIFE_27102026185900_SEPR271026signed.pdf",
+     "note": "AUM Rs 5,271.2 bn as of 30 Sep 2026 per SBI Life release."
     }
    }
   },
@@ -136,6 +256,48 @@
      "period": "FY2025-26",
      "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
      "note": "Repudiated/received by number. Individual death claims FY2025-26: 19,351 settled and 54 repudiated of 19,406 received (rest pending/other)."
+    },
+    "persistency_13m_pct": {
+     "value": 84.9,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37974-which-life-insurers-retain-customers-the-best",
+     "note": "Individual business, by premium. By policy count: 13th month 82.2%, 61st month 55.6%. Table compiled by Cafemutual (16 Jun 2026) from FY26 disclosures (regulator not named); company-reported rolling figures may differ."
+    },
+    "persistency_61m_pct": {
+     "value": 64.4,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37974-which-life-insurers-retain-customers-the-best",
+     "note": "Individual business, by premium. By policy count: 13th month 82.2%, 61st month 55.6%. Table compiled by Cafemutual (16 Jun 2026) from FY26 disclosures (regulator not named); company-reported rolling figures may differ."
+    },
+    "ombudsman_complaints": {
+     "value": 1320,
+     "period": "FY2024-25",
+     "source": "https://cafemutual.com/news/insurance/36976-ombudsmen-received-17237-life-insurance-complaints-from-policyholders-in-fy25",
+     "note": "Complaints received by Insurance Ombudsman during FY2024-25 (142 outstanding at start, 1462 total handled). Latest year compiled by insurer; FY2025-26 not yet published. Cafemutual, 13 Feb 2026, from Council for Insurance Ombudsmen data."
+    },
+    "pat_cr": {
+     "value": 1910,
+     "period": "FY2025-26",
+     "source": "https://www.barodaetrade.com/Reports/HDFCLife-Q4FY26ResultReview17Apr26-Research.pdf",
+     "note": "Converted from Rs mn in Baroda eTrade Q4FY26 review (17 Apr 2026)."
+    },
+    "vnb_margin_pct": {
+     "value": 24.2,
+     "period": "FY2025-26",
+     "source": "https://www.barodaetrade.com/Reports/HDFCLife-Q4FY26ResultReview17Apr26-Research.pdf",
+     "note": "VNB Rs 4,034 crore on total APE Rs 16,641 crore."
+    },
+    "solvency_ratio": {
+     "value": 1.77,
+     "period": "31 Mar 2026",
+     "source": "https://www.barodaetrade.com/Reports/HDFCLife-Q4FY26ResultReview17Apr26-Research.pdf",
+     "note": "177% at 31 Mar 2026 per Baroda eTrade review."
+    },
+    "aum_cr": {
+     "value": 375198,
+     "period": "31 Mar 2026",
+     "source": "https://www.barodaetrade.com/Reports/HDFCLife-Q4FY26ResultReview17Apr26-Research.pdf",
+     "note": "Converted from Rs mn in Baroda eTrade Q4FY26 review."
     }
    }
   },
@@ -170,6 +332,36 @@
      "period": "FY2025-26",
      "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
      "note": "Repudiated/received by number. Individual death claims FY2025-26: 12,043 settled and 78 repudiated of 12,123 received (rest pending/other)."
+    },
+    "persistency_13m_pct": {
+     "value": 83.1,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37974-which-life-insurers-retain-customers-the-best",
+     "note": "Individual business, by premium. By policy count: 13th month 81.8%, 61st month 57.7%. Table compiled by Cafemutual (16 Jun 2026) from FY26 disclosures (regulator not named); company-reported rolling figures may differ."
+    },
+    "persistency_61m_pct": {
+     "value": 61.7,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37974-which-life-insurers-retain-customers-the-best",
+     "note": "Individual business, by premium. By policy count: 13th month 81.8%, 61st month 57.7%. Table compiled by Cafemutual (16 Jun 2026) from FY26 disclosures (regulator not named); company-reported rolling figures may differ."
+    },
+    "ombudsman_complaints": {
+     "value": 524,
+     "period": "FY2024-25",
+     "source": "https://cafemutual.com/news/insurance/36976-ombudsmen-received-17237-life-insurance-complaints-from-policyholders-in-fy25",
+     "note": "Complaints received by Insurance Ombudsman during FY2024-25 (47 outstanding at start, 571 total handled). Latest year compiled by insurer; FY2025-26 not yet published. Cafemutual, 13 Feb 2026, from Council for Insurance Ombudsmen data."
+    },
+    "pat_cr": {
+     "value": 1600,
+     "period": "FY2025-26",
+     "source": "https://www.jurishour.in/gst/input-tax-credit-hdfc-life-icici-prudential-posts-strong-profit-growth/",
+     "note": "Rounded figure (+35% YoY; Q4 FY2025-26 Rs 609 crore) from a news article dated 18 Apr 2026; check against the company's results release."
+    },
+    "vnb_margin_pct": {
+     "value": 24.7,
+     "period": "FY2025-26",
+     "source": "https://www.jurishour.in/gst/input-tax-credit-hdfc-life-icici-prudential-posts-strong-profit-growth/",
+     "note": "vs 22.8% in FY2024-25, per the same article."
     }
    }
   },
@@ -204,6 +396,24 @@
      "period": "FY2025-26",
      "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
      "note": "Repudiated/received by number. Individual death claims FY2025-26: 13,545 settled and 45 repudiated of 13,636 received (rest pending/other)."
+    },
+    "persistency_13m_pct": {
+     "value": 80.6,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37974-which-life-insurers-retain-customers-the-best",
+     "note": "Individual business, by premium. By policy count: 13th month 78%, 61st month 51.2%. Table compiled by Cafemutual (16 Jun 2026) from FY26 disclosures (regulator not named); company-reported rolling figures may differ."
+    },
+    "persistency_61m_pct": {
+     "value": 51.4,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37974-which-life-insurers-retain-customers-the-best",
+     "note": "Individual business, by premium. By policy count: 13th month 78%, 61st month 51.2%. Table compiled by Cafemutual (16 Jun 2026) from FY26 disclosures (regulator not named); company-reported rolling figures may differ."
+    },
+    "ombudsman_complaints": {
+     "value": 998,
+     "period": "FY2024-25",
+     "source": "https://cafemutual.com/news/insurance/36976-ombudsmen-received-17237-life-insurance-complaints-from-policyholders-in-fy25",
+     "note": "Complaints received by Insurance Ombudsman during FY2024-25 (83 outstanding at start, 1081 total handled). Latest year compiled by insurer; FY2025-26 not yet published. Cafemutual, 13 Feb 2026, from Council for Insurance Ombudsmen data."
     }
    }
   },
@@ -238,6 +448,24 @@
      "period": "FY2025-26",
      "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
      "note": "Repudiated/received by number. Individual death claims FY2025-26: 20,543 settled and 6 repudiated of 20,588 received (rest pending/other)."
+    },
+    "persistency_13m_pct": {
+     "value": 83,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37974-which-life-insurers-retain-customers-the-best",
+     "note": "Individual business, by premium. By policy count: 13th month 83%, 61st month 59%. Table compiled by Cafemutual (16 Jun 2026) from FY26 disclosures (regulator not named); company-reported rolling figures may differ."
+    },
+    "persistency_61m_pct": {
+     "value": 58,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37974-which-life-insurers-retain-customers-the-best",
+     "note": "Individual business, by premium. By policy count: 13th month 83%, 61st month 59%. Table compiled by Cafemutual (16 Jun 2026) from FY26 disclosures (regulator not named); company-reported rolling figures may differ."
+    },
+    "ombudsman_complaints": {
+     "value": 873,
+     "period": "FY2024-25",
+     "source": "https://cafemutual.com/news/insurance/36976-ombudsmen-received-17237-life-insurance-complaints-from-policyholders-in-fy25",
+     "note": "Complaints received by Insurance Ombudsman during FY2024-25 (101 outstanding at start, 974 total handled). Latest year compiled by insurer; FY2025-26 not yet published. Cafemutual, 13 Feb 2026, from Council for Insurance Ombudsmen data."
     }
    }
   },
@@ -272,6 +500,24 @@
      "period": "FY2025-26",
      "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
      "note": "Repudiated/received by number. Individual death claims FY2025-26: 6,313 settled and 73 repudiated of 6,386 received (rest pending/other)."
+    },
+    "persistency_13m_pct": {
+     "value": 82.4,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37974-which-life-insurers-retain-customers-the-best",
+     "note": "Individual business, by premium. By policy count: 13th month 78.07%, 61st month 44.94%. Table compiled by Cafemutual (16 Jun 2026) from FY26 disclosures (regulator not named); company-reported rolling figures may differ."
+    },
+    "persistency_61m_pct": {
+     "value": 58.45,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37974-which-life-insurers-retain-customers-the-best",
+     "note": "Individual business, by premium. By policy count: 13th month 78.07%, 61st month 44.94%. Table compiled by Cafemutual (16 Jun 2026) from FY26 disclosures (regulator not named); company-reported rolling figures may differ."
+    },
+    "ombudsman_complaints": {
+     "value": 403,
+     "period": "FY2024-25",
+     "source": "https://cafemutual.com/news/insurance/36976-ombudsmen-received-17237-life-insurance-complaints-from-policyholders-in-fy25",
+     "note": "Complaints received by Insurance Ombudsman during FY2024-25 (40 outstanding at start, 443 total handled). Latest year compiled by insurer; FY2025-26 not yet published. Cafemutual, 13 Feb 2026, from Council for Insurance Ombudsmen data."
     }
    }
   },
@@ -306,6 +552,24 @@
      "period": "FY2025-26",
      "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
      "note": "Repudiated/received by number. Individual death claims FY2025-26: 9,207 settled and 48 repudiated of 9,258 received (rest pending/other)."
+    },
+    "persistency_13m_pct": {
+     "value": 85.31,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37974-which-life-insurers-retain-customers-the-best",
+     "note": "Individual business, by premium. By policy count: 13th month 82.51%, 61st month 68.25%. Table compiled by Cafemutual (16 Jun 2026) from FY26 disclosures (regulator not named); company-reported rolling figures may differ. CAUTION: the article's own text cites 86.1% (13th) and 66.41% (61st) by premium and 84.33% (13th, policy) for Tata AIA, conflicting with its table; table values used."
+    },
+    "persistency_61m_pct": {
+     "value": 71.9,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37974-which-life-insurers-retain-customers-the-best",
+     "note": "Individual business, by premium. By policy count: 13th month 82.51%, 61st month 68.25%. Table compiled by Cafemutual (16 Jun 2026) from FY26 disclosures (regulator not named); company-reported rolling figures may differ. CAUTION: the article's own text cites 86.1% (13th) and 66.41% (61st) by premium and 84.33% (13th, policy) for Tata AIA, conflicting with its table; table values used."
+    },
+    "ombudsman_complaints": {
+     "value": 628,
+     "period": "FY2024-25",
+     "source": "https://cafemutual.com/news/insurance/36976-ombudsmen-received-17237-life-insurance-complaints-from-policyholders-in-fy25",
+     "note": "Complaints received by Insurance Ombudsman during FY2024-25 (43 outstanding at start, 671 total handled). Latest year compiled by insurer; FY2025-26 not yet published. Cafemutual, 13 Feb 2026, from Council for Insurance Ombudsmen data."
     }
    }
   },
@@ -340,6 +604,24 @@
      "period": "FY2025-26",
      "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
      "note": "Repudiated/received by number. Individual death claims FY2025-26: 4,736 settled and 23 repudiated of 4,760 received (rest pending/other)."
+    },
+    "persistency_13m_pct": {
+     "value": 84.95,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37974-which-life-insurers-retain-customers-the-best",
+     "note": "Individual business, by premium. By policy count: 13th month 76.3%, 61st month 49.7%. Table compiled by Cafemutual (16 Jun 2026) from FY26 disclosures (regulator not named); company-reported rolling figures may differ."
+    },
+    "persistency_61m_pct": {
+     "value": 55.05,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37974-which-life-insurers-retain-customers-the-best",
+     "note": "Individual business, by premium. By policy count: 13th month 76.3%, 61st month 49.7%. Table compiled by Cafemutual (16 Jun 2026) from FY26 disclosures (regulator not named); company-reported rolling figures may differ."
+    },
+    "ombudsman_complaints": {
+     "value": 555,
+     "period": "FY2024-25",
+     "source": "https://cafemutual.com/news/insurance/36976-ombudsmen-received-17237-life-insurance-complaints-from-policyholders-in-fy25",
+     "note": "Complaints received by Insurance Ombudsman during FY2024-25 (52 outstanding at start, 607 total handled). Latest year compiled by insurer; FY2025-26 not yet published. Cafemutual, 13 Feb 2026, from Council for Insurance Ombudsmen data."
     }
    }
   },
@@ -374,6 +656,24 @@
      "period": "FY2025-26",
      "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
      "note": "Repudiated/received by number. Individual death claims FY2025-26: 6,188 settled and 12 repudiated of 6,200 received (rest pending/other)."
+    },
+    "persistency_13m_pct": {
+     "value": 78.6,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37974-which-life-insurers-retain-customers-the-best",
+     "note": "Individual business, by premium. By policy count: 13th month 75.16%, 61st month 50.98%. Table compiled by Cafemutual (16 Jun 2026) from FY26 disclosures (regulator not named); company-reported rolling figures may differ."
+    },
+    "persistency_61m_pct": {
+     "value": 49.37,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37974-which-life-insurers-retain-customers-the-best",
+     "note": "Individual business, by premium. By policy count: 13th month 75.16%, 61st month 50.98%. Table compiled by Cafemutual (16 Jun 2026) from FY26 disclosures (regulator not named); company-reported rolling figures may differ."
+    },
+    "ombudsman_complaints": {
+     "value": 1060,
+     "period": "FY2024-25",
+     "source": "https://cafemutual.com/news/insurance/36976-ombudsmen-received-17237-life-insurance-complaints-from-policyholders-in-fy25",
+     "note": "Complaints received by Insurance Ombudsman during FY2024-25 (120 outstanding at start, 1180 total handled). Latest year compiled by insurer; FY2025-26 not yet published. Cafemutual, 13 Feb 2026, from Council for Insurance Ombudsmen data."
     }
    }
   },
@@ -408,6 +708,24 @@
      "period": "FY2025-26",
      "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
      "note": "Repudiated/received by number. Individual death claims FY2025-26: 2,509 settled and 23 repudiated of 2,534 received (rest pending/other)."
+    },
+    "persistency_13m_pct": {
+     "value": 78.32,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37974-which-life-insurers-retain-customers-the-best",
+     "note": "Individual business, by premium. By policy count: 13th month 70.59%, 61st month 31.45%. Table compiled by Cafemutual (16 Jun 2026) from FY26 disclosures (regulator not named); company-reported rolling figures may differ."
+    },
+    "persistency_61m_pct": {
+     "value": 25.58,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37974-which-life-insurers-retain-customers-the-best",
+     "note": "Individual business, by premium. By policy count: 13th month 70.59%, 61st month 31.45%. Table compiled by Cafemutual (16 Jun 2026) from FY26 disclosures (regulator not named); company-reported rolling figures may differ."
+    },
+    "ombudsman_complaints": {
+     "value": 288,
+     "period": "FY2024-25",
+     "source": "https://cafemutual.com/news/insurance/36976-ombudsmen-received-17237-life-insurance-complaints-from-policyholders-in-fy25",
+     "note": "Complaints received by Insurance Ombudsman during FY2024-25 (16 outstanding at start, 304 total handled). Latest year compiled by insurer; FY2025-26 not yet published. Cafemutual, 13 Feb 2026, from Council for Insurance Ombudsmen data."
     }
    }
   },
@@ -442,6 +760,48 @@
      "period": "FY2025-26",
      "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
      "note": "Repudiated/received by number. Individual death claims FY2025-26: 2,895 settled and 14 repudiated of 2,909 received (rest pending/other)."
+    },
+    "persistency_13m_pct": {
+     "value": 85.4,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37974-which-life-insurers-retain-customers-the-best",
+     "note": "Individual business, by premium. Cafemutual table (16 Jun 2026). Company Q4FY26 presentation chart labels (approximate): 13th month 82%, 61st month 51%. By policy count: 13th 79%, 61st 52.1%."
+    },
+    "persistency_61m_pct": {
+     "value": 54.3,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37974-which-life-insurers-retain-customers-the-best",
+     "note": "Individual business, by premium. Cafemutual table (16 Jun 2026). Company Q4FY26 presentation chart labels (approximate): 13th month 82%, 61st month 51%. By policy count: 13th 79%, 61st 52.1%."
+    },
+    "ombudsman_complaints": {
+     "value": 142,
+     "period": "FY2024-25",
+     "source": "https://cafemutual.com/news/insurance/36976-ombudsmen-received-17237-life-insurance-complaints-from-policyholders-in-fy25",
+     "note": "Complaints received by Insurance Ombudsman during FY2024-25 (24 outstanding at start, 166 total handled). Latest year compiled by insurer; FY2025-26 not yet published. Cafemutual, 13 Feb 2026, from Council for Insurance Ombudsmen data."
+    },
+    "pat_cr": {
+     "value": 126.6,
+     "period": "FY2025-26",
+     "source": "https://barodaetrade.com/Reports/CanaraHSBC-Q4FY26ResultReview29Apr26-Research.pdf",
+     "note": "Rs 1,266 mn per Baroda eTrade Q4FY26 review (29 Apr 2026)."
+    },
+    "vnb_margin_pct": {
+     "value": 22.4,
+     "period": "FY2025-26",
+     "source": "https://barodaetrade.com/Reports/CanaraHSBC-Q4FY26ResultReview29Apr26-Research.pdf",
+     "note": "VNB Rs 626.9 crore on total APE Rs 2,798.7 crore."
+    },
+    "solvency_ratio": {
+     "value": 1.9,
+     "period": "31 Mar 2026",
+     "source": "https://barodaetrade.com/Reports/CanaraHSBC-Q4FY26ResultReview29Apr26-Research.pdf",
+     "note": "190% at Q4 FY2025-26."
+    },
+    "aum_cr": {
+     "value": 46100,
+     "period": "31 Mar 2026",
+     "source": "https://barodaetrade.com/Reports/CanaraHSBC-Q4FY26ResultReview29Apr26-Research.pdf",
+     "note": "Rs 4,61,000 mn per Baroda eTrade review."
     }
    }
   },
@@ -476,6 +836,24 @@
      "period": "FY2025-26",
      "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
      "note": "Repudiated/received by number. Individual death claims FY2025-26: 3,871 settled and 48 repudiated of 3,919 received (rest pending/other)."
+    },
+    "persistency_13m_pct": {
+     "value": 81.79,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37974-which-life-insurers-retain-customers-the-best",
+     "note": "Individual business, by premium. By policy count: 13th month 72.63%, 61st month 52.14%. Table compiled by Cafemutual (16 Jun 2026) from FY26 disclosures (regulator not named); company-reported rolling figures may differ."
+    },
+    "persistency_61m_pct": {
+     "value": 51.05,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37974-which-life-insurers-retain-customers-the-best",
+     "note": "Individual business, by premium. By policy count: 13th month 72.63%, 61st month 52.14%. Table compiled by Cafemutual (16 Jun 2026) from FY26 disclosures (regulator not named); company-reported rolling figures may differ."
+    },
+    "ombudsman_complaints": {
+     "value": 722,
+     "period": "FY2024-25",
+     "source": "https://cafemutual.com/news/insurance/36976-ombudsmen-received-17237-life-insurance-complaints-from-policyholders-in-fy25",
+     "note": "Complaints received by Insurance Ombudsman during FY2024-25 (204 outstanding at start, 926 total handled). Latest year compiled by insurer; FY2025-26 not yet published. Cafemutual, 13 Feb 2026, from Council for Insurance Ombudsmen data."
     }
    }
   },
@@ -510,6 +888,24 @@
      "period": "FY2025-26",
      "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
      "note": "Repudiated/received by number. Individual death claims FY2025-26: 5,332 settled and 67 repudiated of 5,412 received (rest pending/other)."
+    },
+    "persistency_13m_pct": {
+     "value": 54.4,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37974-which-life-insurers-retain-customers-the-best",
+     "note": "Individual business, by premium. By policy count: 13th month 44.24%, 61st month 22%. Table compiled by Cafemutual (16 Jun 2026) from FY26 disclosures (regulator not named); company-reported rolling figures may differ."
+    },
+    "persistency_61m_pct": {
+     "value": 27.47,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37974-which-life-insurers-retain-customers-the-best",
+     "note": "Individual business, by premium. By policy count: 13th month 44.24%, 61st month 22%. Table compiled by Cafemutual (16 Jun 2026) from FY26 disclosures (regulator not named); company-reported rolling figures may differ."
+    },
+    "ombudsman_complaints": {
+     "value": 550,
+     "period": "FY2024-25",
+     "source": "https://cafemutual.com/news/insurance/36976-ombudsmen-received-17237-life-insurance-complaints-from-policyholders-in-fy25",
+     "note": "Complaints received by Insurance Ombudsman during FY2024-25 (43 outstanding at start, 593 total handled). Latest year compiled by insurer; FY2025-26 not yet published. Cafemutual, 13 Feb 2026, from Council for Insurance Ombudsmen data."
     }
    }
   },
@@ -544,6 +940,24 @@
      "period": "FY2025-26",
      "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
      "note": "Repudiated/received by number. Individual death claims FY2025-26: 1,130 settled and 1 repudiated of 1,132 received (rest pending/other)."
+    },
+    "persistency_13m_pct": {
+     "value": 79.02,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37974-which-life-insurers-retain-customers-the-best",
+     "note": "Individual business, by premium. By policy count: 13th month 72.55%, 61st month 35.92%. Table compiled by Cafemutual (16 Jun 2026) from FY26 disclosures (regulator not named); company-reported rolling figures may differ."
+    },
+    "persistency_61m_pct": {
+     "value": 43.51,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37974-which-life-insurers-retain-customers-the-best",
+     "note": "Individual business, by premium. By policy count: 13th month 72.55%, 61st month 35.92%. Table compiled by Cafemutual (16 Jun 2026) from FY26 disclosures (regulator not named); company-reported rolling figures may differ."
+    },
+    "ombudsman_complaints": {
+     "value": 84,
+     "period": "FY2024-25",
+     "source": "https://cafemutual.com/news/insurance/36976-ombudsmen-received-17237-life-insurance-complaints-from-policyholders-in-fy25",
+     "note": "Complaints received by Insurance Ombudsman during FY2024-25 (5 outstanding at start, 89 total handled). Latest year compiled by insurer; FY2025-26 not yet published. Cafemutual, 13 Feb 2026, from Council for Insurance Ombudsmen data."
     }
    }
   },
@@ -578,6 +992,24 @@
      "period": "FY2025-26",
      "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
      "note": "Repudiated/received by number. Individual death claims FY2025-26: 924 settled and 4 repudiated of 928 received (rest pending/other)."
+    },
+    "persistency_13m_pct": {
+     "value": 71.03,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37974-which-life-insurers-retain-customers-the-best",
+     "note": "Individual business, by premium. By policy count: 13th month 65.38%, 61st month 34.29%. Table compiled by Cafemutual (16 Jun 2026) from FY26 disclosures (regulator not named); company-reported rolling figures may differ."
+    },
+    "persistency_61m_pct": {
+     "value": 29.07,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37974-which-life-insurers-retain-customers-the-best",
+     "note": "Individual business, by premium. By policy count: 13th month 65.38%, 61st month 34.29%. Table compiled by Cafemutual (16 Jun 2026) from FY26 disclosures (regulator not named); company-reported rolling figures may differ."
+    },
+    "ombudsman_complaints": {
+     "value": 338,
+     "period": "FY2024-25",
+     "source": "https://cafemutual.com/news/insurance/36976-ombudsmen-received-17237-life-insurance-complaints-from-policyholders-in-fy25",
+     "note": "Complaints received by Insurance Ombudsman during FY2024-25 (51 outstanding at start, 389 total handled). Latest year compiled by insurer; FY2025-26 not yet published. Cafemutual, 13 Feb 2026, from Council for Insurance Ombudsmen data."
     }
    }
   },
@@ -612,6 +1044,24 @@
      "period": "FY2025-26",
      "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
      "note": "Repudiated/received by number. Individual death claims FY2025-26: 8,007 settled and 83 repudiated of 8,093 received (rest pending/other)."
+    },
+    "persistency_13m_pct": {
+     "value": 76.8,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37974-which-life-insurers-retain-customers-the-best",
+     "note": "Individual business, by premium. By policy count: 13th month 69.2%, 61st month 38%. Table compiled by Cafemutual (16 Jun 2026) from FY26 disclosures (regulator not named); company-reported rolling figures may differ."
+    },
+    "persistency_61m_pct": {
+     "value": 37.1,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37974-which-life-insurers-retain-customers-the-best",
+     "note": "Individual business, by premium. By policy count: 13th month 69.2%, 61st month 38%. Table compiled by Cafemutual (16 Jun 2026) from FY26 disclosures (regulator not named); company-reported rolling figures may differ."
+    },
+    "ombudsman_complaints": {
+     "value": 820,
+     "period": "FY2024-25",
+     "source": "https://cafemutual.com/news/insurance/36976-ombudsmen-received-17237-life-insurance-complaints-from-policyholders-in-fy25",
+     "note": "Complaints received by Insurance Ombudsman during FY2024-25 (91 outstanding at start, 911 total handled). Latest year compiled by insurer; FY2025-26 not yet published. Cafemutual, 13 Feb 2026, from Council for Insurance Ombudsmen data."
     }
    }
   },
@@ -646,6 +1096,12 @@
      "period": "FY2025-26",
      "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
      "note": "Repudiated/received by number. Individual death claims FY2025-26: 4 settled and 37 repudiated of 58 received (rest pending/other)."
+    },
+    "ombudsman_complaints": {
+     "value": 5,
+     "period": "FY2024-25",
+     "source": "https://cafemutual.com/news/insurance/36976-ombudsmen-received-17237-life-insurance-complaints-from-policyholders-in-fy25",
+     "note": "Complaints received by Insurance Ombudsman during FY2024-25 (0 outstanding at start, 5 total handled). Latest year compiled by insurer; FY2025-26 not yet published. Cafemutual, 13 Feb 2026, from Council for Insurance Ombudsmen data."
     }
    }
   },
@@ -680,6 +1136,24 @@
      "period": "FY2025-26",
      "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
      "note": "Repudiated/received by number. Individual death claims FY2025-26: 841 settled and 5 repudiated of 847 received (rest pending/other)."
+    },
+    "persistency_13m_pct": {
+     "value": 66.75,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37974-which-life-insurers-retain-customers-the-best",
+     "note": "Individual business, by premium. By policy count: 13th month 68.58%, 61st month 46.49%. Table compiled by Cafemutual (16 Jun 2026) from FY26 disclosures (regulator not named); company-reported rolling figures may differ."
+    },
+    "persistency_61m_pct": {
+     "value": 46.87,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37974-which-life-insurers-retain-customers-the-best",
+     "note": "Individual business, by premium. By policy count: 13th month 68.58%, 61st month 46.49%. Table compiled by Cafemutual (16 Jun 2026) from FY26 disclosures (regulator not named); company-reported rolling figures may differ."
+    },
+    "ombudsman_complaints": {
+     "value": 144,
+     "period": "FY2024-25",
+     "source": "https://cafemutual.com/news/insurance/36976-ombudsmen-received-17237-life-insurance-complaints-from-policyholders-in-fy25",
+     "note": "Complaints received by Insurance Ombudsman during FY2024-25 (5 outstanding at start, 149 total handled). Latest year compiled by insurer; FY2025-26 not yet published. Cafemutual, 13 Feb 2026, from Council for Insurance Ombudsmen data."
     }
    }
   },
@@ -714,6 +1188,24 @@
      "period": "FY2025-26",
      "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
      "note": "Repudiated/received by number. Individual death claims FY2025-26: 2,267 settled and 18 repudiated of 2,285 received (rest pending/other)."
+    },
+    "persistency_13m_pct": {
+     "value": 64.5,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37974-which-life-insurers-retain-customers-the-best",
+     "note": "Individual business, by premium. By policy count: 13th month 60.9%, 61st month 34.1%. Table compiled by Cafemutual (16 Jun 2026) from FY26 disclosures (regulator not named); company-reported rolling figures may differ."
+    },
+    "persistency_61m_pct": {
+     "value": 37.9,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37974-which-life-insurers-retain-customers-the-best",
+     "note": "Individual business, by premium. By policy count: 13th month 60.9%, 61st month 34.1%. Table compiled by Cafemutual (16 Jun 2026) from FY26 disclosures (regulator not named); company-reported rolling figures may differ."
+    },
+    "ombudsman_complaints": {
+     "value": 2770,
+     "period": "FY2024-25",
+     "source": "https://cafemutual.com/news/insurance/36976-ombudsmen-received-17237-life-insurance-complaints-from-policyholders-in-fy25",
+     "note": "Complaints received by Insurance Ombudsman during FY2024-25 (516 outstanding at start, 3286 total handled). Latest year compiled by insurer; FY2025-26 not yet published. Cafemutual, 13 Feb 2026, from Council for Insurance Ombudsmen data."
     }
    }
   },
@@ -748,6 +1240,24 @@
      "period": "FY2025-26",
      "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
      "note": "Repudiated/received by number. Individual death claims FY2025-26: 575 settled and 4 repudiated of 579 received (rest pending/other)."
+    },
+    "persistency_13m_pct": {
+     "value": 66.7,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37974-which-life-insurers-retain-customers-the-best",
+     "note": "Individual business, by premium. By policy count: 13th month 64%, 61st month 35.8%. Table compiled by Cafemutual (16 Jun 2026) from FY26 disclosures (regulator not named); company-reported rolling figures may differ."
+    },
+    "persistency_61m_pct": {
+     "value": 36,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37974-which-life-insurers-retain-customers-the-best",
+     "note": "Individual business, by premium. By policy count: 13th month 64%, 61st month 35.8%. Table compiled by Cafemutual (16 Jun 2026) from FY26 disclosures (regulator not named); company-reported rolling figures may differ."
+    },
+    "ombudsman_complaints": {
+     "value": 452,
+     "period": "FY2024-25",
+     "source": "https://cafemutual.com/news/insurance/36976-ombudsmen-received-17237-life-insurance-complaints-from-policyholders-in-fy25",
+     "note": "Complaints received by Insurance Ombudsman during FY2024-25 (98 outstanding at start, 550 total handled). Latest year compiled by insurer; FY2025-26 not yet published. Cafemutual, 13 Feb 2026, from Council for Insurance Ombudsmen data."
     }
    }
   },
@@ -804,6 +1314,24 @@
      "period": "FY2025-26",
      "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
      "note": "Repudiated/received by number. Individual death claims FY2025-26: 425 settled and 8 repudiated of 433 received (rest pending/other)."
+    },
+    "persistency_13m_pct": {
+     "value": 72,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37974-which-life-insurers-retain-customers-the-best",
+     "note": "Individual business, by premium. By policy count: 13th month 67%, 61st month 62%. Table compiled by Cafemutual (16 Jun 2026) from FY26 disclosures (regulator not named); company-reported rolling figures may differ."
+    },
+    "persistency_61m_pct": {
+     "value": 55,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37974-which-life-insurers-retain-customers-the-best",
+     "note": "Individual business, by premium. By policy count: 13th month 67%, 61st month 62%. Table compiled by Cafemutual (16 Jun 2026) from FY26 disclosures (regulator not named); company-reported rolling figures may differ."
+    },
+    "ombudsman_complaints": {
+     "value": 48,
+     "period": "FY2024-25",
+     "source": "https://cafemutual.com/news/insurance/36976-ombudsmen-received-17237-life-insurance-complaints-from-policyholders-in-fy25",
+     "note": "Complaints received by Insurance Ombudsman during FY2024-25 (6 outstanding at start, 54 total handled). Latest year compiled by insurer; FY2025-26 not yet published. Cafemutual, 13 Feb 2026, from Council for Insurance Ombudsmen data."
     }
    }
   },
@@ -838,6 +1366,24 @@
      "period": "FY2025-26",
      "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
      "note": "Repudiated/received by number. Individual death claims FY2025-26: 726 settled and 6 repudiated of 732 received (rest pending/other)."
+    },
+    "persistency_13m_pct": {
+     "value": 70,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37974-which-life-insurers-retain-customers-the-best",
+     "note": "Individual business, by premium. By policy count: 13th month 69%, 61st month 38%. Table compiled by Cafemutual (16 Jun 2026) from FY26 disclosures (regulator not named); company-reported rolling figures may differ."
+    },
+    "persistency_61m_pct": {
+     "value": 42,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/37974-which-life-insurers-retain-customers-the-best",
+     "note": "Individual business, by premium. By policy count: 13th month 69%, 61st month 38%. Table compiled by Cafemutual (16 Jun 2026) from FY26 disclosures (regulator not named); company-reported rolling figures may differ."
+    },
+    "ombudsman_complaints": {
+     "value": 103,
+     "period": "FY2024-25",
+     "source": "https://cafemutual.com/news/insurance/36976-ombudsmen-received-17237-life-insurance-complaints-from-policyholders-in-fy25",
+     "note": "Complaints received by Insurance Ombudsman during FY2024-25 (14 outstanding at start, 117 total handled). Latest year compiled by insurer; FY2025-26 not yet published. Cafemutual, 13 Feb 2026, from Council for Insurance Ombudsmen data."
     }
    }
   },
@@ -862,6 +1408,17 @@
      "note": "YoY vs FY2024-25 NBP as reported in source table (FY2024-25 NBP in Rs cr: see source)"
     }
    }
+  },
+  "sahara": {
+   "metrics": {
+    "ombudsman_complaints": {
+     "value": 7,
+     "period": "FY2024-25",
+     "source": "https://cafemutual.com/news/insurance/36976-ombudsmen-received-17237-life-insurance-complaints-from-policyholders-in-fy25",
+     "note": "Complaints received by Insurance Ombudsman during FY2024-25 (0 outstanding at start, 7 total handled). Latest year compiled by insurer; FY2025-26 not yet published. Cafemutual, 13 Feb 2026, from Council for Insurance Ombudsmen data."
+    }
+   }
   }
- }
+ },
+ "updated_on": "2026-11-01"
 }

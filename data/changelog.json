@@ -166,5 +166,37 @@
   "title": "Catalogue baseline: 34 active products recorded",
   "details": "First full research pass. Later weekly checks compare against this list.",
   "status": "done"
+ },
+ {
+  "date": "2026-11-01",
+  "company_id": "ageasfederal",
+  "type": "baseline",
+  "title": "Catalogue baseline: 18 active products recorded",
+  "details": "First full research pass. Later weekly checks compare against this list.",
+  "status": "done"
+ },
+ {
+  "date": "2026-11-01",
+  "company_id": "bandhan",
+  "type": "baseline",
+  "title": "Catalogue baseline: 29 active products recorded",
+  "details": "First full research pass. Later weekly checks compare against this list.",
+  "status": "done"
+ },
+ {
+  "date": "2026-11-01",
+  "company_id": "shriram",
+  "type": "baseline",
+  "title": "Catalogue baseline: 46 active products recorded",
+  "details": "First full research pass. Later weekly checks compare against this list.",
+  "status": "done"
+ },
+ {
+  "date": "2026-11-01",
+  "company_id": "sud",
+  "type": "baseline",
+  "title": "Catalogue baseline: 38 active products recorded",
+  "details": "First full research pass. Later weekly checks compare against this list.",
+  "status": "done"
  }
 ]

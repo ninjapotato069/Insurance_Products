@@ -943,11 +943,11 @@
    "variants": [
     {
      "name": "Future Secure",
-     "summary": "Parent is policyholder and life assured; income paid for the child's goals"
+     "summary": "Parent is both policyholder and insured. Income keeps being paid after the parent's death, and future premiums are waived."
     },
     {
      "name": "Child Secure",
-     "summary": "Child is life assured with parent/grandparent/guardian as policyholder; premiums waived on policyholder's death"
+     "summary": "Child is insured; policyholder is a parent, grandparent or guardian. If the policyholder dies, future premiums are waived and income continues. If the child dies, a sum assured payout is made and the policy ends."
     }
    ],
    "eligibility": {
@@ -958,12 +958,12 @@
     "policy_term_max_years": 25,
     "whole_life": false,
     "ppt_options": [
-     "5",
-     "7",
-     "10"
+     5,
+     7,
+     10
     ],
     "premium_modes": [
-     "Annual",
+     "Yearly",
      "Half-yearly",
      "Quarterly",
      "Monthly"
@@ -973,50 +973,52 @@
     "max_premium_text": null,
     "min_sum_assured_inr": null,
     "max_sum_assured_text": null,
-    "notes": "PPT 5: term 10-25; PPT 7: term 12-25; PPT 10: term 15-25. Income payout period max 20 years (PPT 5), 18 (PPT 7), 15 (PPT 10), min 1 year. Entry ages, minimum premium and sum assured not stated on the product page; to be confirmed from brochure."
+    "notes": "By premium paying term (PPT) in years: 5 gives policy term 10-25; 7 gives 12-25; 10 gives 15-25. Income payout period in years: minimum 1; maximum 20 (PPT 5), 18 (PPT 7), 15 (PPT 10). Deferment in years: minimum 1; maximum depends on policy term, PPT and number of payouts chosen."
    },
    "benefits": {
-    "death": "Sum assured on death is the higher of 10x annualised premium or 105% of premiums paid; future premiums waived and income continues on policyholder's death (Child Secure).",
+    "death": "Future Secure: if the insured parent dies, remaining premiums are waived, scheduled income continues, and any surplus of sum assured over the present value of remaining income is paid as a lump sum at once. Child Secure: if the policyholder dies, remaining premiums are waived and income continues; if the child dies, the greater of 10x annualised premium or 105% of premiums paid to date is paid and the policy ends.",
     "maturity": "No separate maturity benefit; income benefits are paid and policy ends after all income is paid.",
-    "survival_income": "Lump sum or regular income = guaranteed income + share of guaranteed additions + wealth booster (5%/10%/15%/20% by 5-year block).",
+    "survival_income": "Income is paid during the chosen payout period (lump sum or regular, up to 20 years). For each policy year: guaranteed income (annualised premium x guaranteed income factor) + accrued guaranteed additions / payout period + Wealth Booster percentage applied to those two. Factor varies by entry age, premium paying term, policy term, payout period, premium and option. Under Child Secure, payouts need all premiums paid. Policy ends once all income is paid.",
     "guaranteed": true,
     "return_of_premium": null,
     "loan": null,
     "partial_withdrawal": null,
-    "other": "Guaranteed additions equal 15% of total annualised premium paid, accrued each year in the PPT; built-in waiver of premium on death; optional waiver on accidental total permanent disability."
+    "other": "Life cover for the full policy term; optional waiver of premium on accidental total permanent disability (exclusions apply); flexible income accumulation option; Dhanlakshmi benefit raises the guaranteed income factor by 1.5% for a female child under Child Secure, chosen at inception only; suicide within 12 months of risk start or revival pays the nominee or beneficiary 80% of premiums paid or surrender value, whichever is higher, with no interest."
    },
    "category_details": {
     "term": null,
     "ulip": null,
     "savings": {
-     "payout_type": "Lump sum + Income",
-     "income_duration": "1 to 20 years",
-     "bonus_type": "None"
+     "payout_type": "Lump sum or regular payouts; regular modes are annual, half-yearly, quarterly or monthly",
+     "income_duration": "1-20",
+     "bonus_type": "Guaranteed additions of 15% of annualised premiums paid to date, added yearly during premium paying term, plus Wealth Booster of 5% to 20% of income by payout year band",
+     "deferment_option": "Payout deferment available; minimum 1 year, maximum set by policy term, premium paying term and number of payouts"
     },
     "annuity": null,
     "health": null
    },
    "key_features": [
-    "Two structures: parent as life assured or child as life assured",
-    "Guaranteed additions of 15% of annualised premium during premium term",
-    "Wealth booster of up to 20% added to income in later blocks",
-    "Premium waiver on death built in, with optional waiver on accidental disability"
+    "Yearly guaranteed additions of 15% of annualised premiums paid so far, during the premium paying term",
+    "Two structures: Future Secure (parent is insured) or Child Secure (child is insured)",
+    "Payout period fixed at inception; choose lump sum or regular income",
+    "Wealth Booster lifts income by 5% to 20% in five-year bands",
+    "Life cover for the full term plus built-in premium waiver on death",
+    "Girl child under Child Secure: guaranteed income factor raised by 1.5%, set at inception only"
    ],
    "riders_available": [
-    "Accidental Death Benefit Rider Plus",
-    "Serious Illness Rider"
+    "PNB MetLife Accidental Death Benefit Rider Plus",
+    "PNB MetLife Serious Illness Rider"
    ],
    "online_purchase": true,
    "channels": [],
-   "tax_benefits": null,
+   "tax_benefits": "Possible tax benefits on premiums and benefits under prevailing tax law (Income Tax Act, 1961, as amended over time).",
    "description": "A child-future savings plan that turns premiums into guaranteed income for education and milestone expenses, with premium protection.",
    "urls": {
     "product_page": "https://www.pnbmetlife.com/insurance-plans/child-education/genius-plan.html",
     "brochure": "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/product/Download_Brochure/Genius-brochure.pdf"
    },
    "sources": [
-    "https://www.pnbmetlife.com/insurance-plans/child-education/genius-plan.html",
-    "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/kmp/Product-performance-report.pdf"
+    "https://www.pnbmetlife.com/insurance-plans/child-education/genius-plan.html"
    ],
    "completeness": "partial",
    "last_verified": "2026-10-28"
@@ -1804,12 +1806,12 @@
    "withdrawn_date": null,
    "variants": [
     {
-     "name": "Life annuity with ROP",
-     "summary": "Fixed lifetime annuity; 100% purchase price to nominee on death"
+     "name": "Single-life annuity, full purchase price refund",
+     "summary": "Fixed annuity paid while the annuitant is alive; on death, nominee or legal heirs receive the full purchase price."
     },
     {
-     "name": "Joint Life Last Survivor with ROP",
-     "summary": "Annuity continues to spouse; purchase price returned after both deaths"
+     "name": "Joint-life last-survivor annuity, full purchase price refund",
+     "summary": "Fixed annuity paid while the annuitant lives; the spouse then keeps the same amount until death. The full purchase price passes to heirs after the spouse dies, or at the annuitant's death if the spouse went first."
     }
    ],
    "eligibility": {
@@ -1818,29 +1820,29 @@
     "maturity_age_max_years": null,
     "policy_term_min_years": null,
     "policy_term_max_years": null,
-    "whole_life": null,
+    "whole_life": true,
     "ppt_options": [
-     "Single"
+     "single pay"
     ],
     "premium_modes": [
-     "Single"
+     "single premium"
     ],
     "min_annual_premium_inr": null,
     "min_single_premium_inr": null,
-    "max_premium_text": "No limit",
+    "max_premium_text": "No upper limit on purchase price",
     "min_sum_assured_inr": null,
     "max_sum_assured_text": null,
-    "notes": "Single premium (purchase price). Annuity payout monthly, quarterly, half-yearly or yearly; minimum annuity Rs 1,000 monthly, Rs 3,000 quarterly, Rs 6,000 half-yearly, Rs 12,000 yearly."
+    "notes": "Ages are counted by last birthday. Minimum annuity payouts in rupees: monthly 1000, quarterly 3000, half-yearly 6000, yearly 12000; payouts have no upper limit. Minimum purchase price is the amount that buys the minimum annuity; no rupee figure is stated. Payout cadence options: annual, half-yearly, quarterly or monthly."
    },
    "benefits": {
-    "death": "100% of purchase price to nominee or heirs (after the spouse in joint life option).",
-    "maturity": "None.",
-    "survival_income": "Fixed annuity for as long as the annuitant (and spouse in joint option) lives.",
+    "death": "Life option: nominee or legal heirs get the full purchase price (100%) when the annuitant dies. Joint-life option: spouse keeps the same annuity until death, then heirs get the full purchase price; if the spouse dies first, that refund is paid on the annuitant's death.",
+    "maturity": "None; no payout at the end of the term if the annuitant is still alive.",
+    "survival_income": "Fixed annuity paid for as long as the annuitant survives; on the joint-life option, the spouse then receives the same fixed amount until death.",
     "guaranteed": true,
     "return_of_premium": true,
     "loan": null,
     "partial_withdrawal": null,
-    "other": "Surrender allowed after 6 months on listed critical illness of annuitant, spouse or child: 95% of purchase price less loans."
+    "other": "Surrender allowed after six months from policy start, but only if the annuitant, spouse or a child is diagnosed with a listed critical illness; pays 95% of purchase price less any outstanding loan and interest."
    },
    "category_details": {
     "term": null,
@@ -1848,30 +1850,30 @@
     "savings": null,
     "annuity": {
      "annuity_options_count": 2,
-     "immediate_or_deferred": "Immediate",
+     "immediate_or_deferred": "immediate",
      "joint_life": true,
      "return_of_purchase_price": true
     },
     "health": null
    },
    "key_features": [
-    "Standardised plan with uniform features across insurers",
-    "Choice of single-life or joint-life annuity",
-    "Full purchase price returned to the family",
-    "Surrender on critical illness after 6 months"
+    "One-time premium buys an immediate annuity with no market link or bonus participation.",
+    "Choose a single-life or joint-life last-survivor annuity, both with full purchase price refund.",
+    "Payouts can run every month, quarter, half-year or year.",
+    "Surrender after six months only on a listed critical illness diagnosis; 95% of purchase price paid.",
+    "Entry age 40-80 years; whole-life plan with no maturity payout."
    ],
    "riders_available": [],
    "online_purchase": true,
    "channels": [],
-   "tax_benefits": "As per Income Tax Act, 1961 as amended",
+   "tax_benefits": "Possibly available under the Income Tax Act, 1961; depends on the Act's conditions and future tax law changes.",
    "description": "The regulator-standardised lifetime annuity for people aged 40-80 who want simple guaranteed pension income with capital return.",
    "urls": {
     "product_page": "https://www.pnbmetlife.com/insurance-plans/retirement/pnb-metlife-saral-pension.html",
     "brochure": "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/product/Download_Brochure/Saral_Pension_brochure.pdf"
    },
    "sources": [
-    "https://www.pnbmetlife.com/insurance-plans/retirement/pnb-metlife-saral-pension.html",
-    "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/kmp/Product-performance-report.pdf"
+    "https://www.pnbmetlife.com/insurance-plans/retirement/pnb-metlife-saral-pension.html"
    ],
    "completeness": "partial",
    "last_verified": "2026-10-28"

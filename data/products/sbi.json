@@ -1791,11 +1791,11 @@
    "uin": "111N174V02",
    "name": "SBI Life - Smart Money Back Plus",
    "segment": "Individual",
-   "category": null,
+   "category": "Savings - Par",
    "plan_structure": "Money Back",
    "sub_category": null,
-   "linkage": "Non-Linked",
-   "participation": null,
+   "linkage": "Non-linked",
+   "participation": "Par",
    "need_tags": [
     "Savings"
    ],
@@ -1803,54 +1803,86 @@
    "status": "Active",
    "launch_date": null,
    "withdrawn_date": null,
-   "variants": [],
+   "variants": [
+    {
+     "name": "4-year payout schedule",
+     "summary": "Survival installments of 15%, 20%, 25% and 30% of sum assured at policy years 4, 8, 12 and 16. The survival table applies it to 20-24 year terms; the 21-year example uses it."
+    },
+    {
+     "name": "5-year payout schedule",
+     "summary": "Survival installments of 15%, 20%, 25% and 30% of sum assured at policy years 5, 10, 15 and 20. Applies to 25-year terms, as shown in the examples."
+    }
+   ],
    "eligibility": {
-    "entry_age_min_years": null,
-    "entry_age_max_years": null,
-    "maturity_age_max_years": null,
-    "policy_term_min_years": null,
-    "policy_term_max_years": null,
-    "whole_life": null,
-    "ppt_options": [],
-    "premium_modes": [],
-    "min_annual_premium_inr": null,
+    "entry_age_min_years": 0.08,
+    "entry_age_max_years": 50,
+    "maturity_age_max_years": 70,
+    "policy_term_min_years": 20,
+    "policy_term_max_years": 25,
+    "whole_life": false,
+    "ppt_options": [
+     7,
+     10,
+     12
+    ],
+    "premium_modes": [
+     "Yearly",
+     "Half-Yearly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": 20000,
     "min_single_premium_inr": null,
-    "max_premium_text": null,
-    "min_sum_assured_inr": null,
-    "max_sum_assured_text": null,
-    "notes": null
+    "max_premium_text": "No fixed upper limit; subject to the insurer's board-approved underwriting policy.",
+    "min_sum_assured_inr": 200000,
+    "max_sum_assured_text": "No fixed upper limit; subject to the insurer's board-approved underwriting policy.",
+    "notes": "Entry age floor is 30 days (about 0.08 years), subject to minimum maturity age; a minor's policy vests at 18. Maturity age range is 20-70. Survival schedule depends on term: every 4 years for 20-24 year terms, every 5 years for 25-year terms. Yearly minimum shown; half-yearly and monthly minimums apply per instalment at 10200 and 1700. Half-yearly premium is 51% and monthly is 8.5% of annualized premium. Minimums do not include underwriting loadings or rider charges. Rider entry age is 18-65."
    },
    "benefits": {
-    "death": null,
-    "maturity": null,
-    "survival_income": null,
-    "guaranteed": null,
-    "return_of_premium": null,
-    "loan": null,
+    "death": "Lump sum: the higher of (a) sum assured on death plus vested reversionary bonuses and any terminal bonus, or (b) 105% of total premiums paid to date. Sum assured on death is the greater of sum assured or 11 times annualized premium. Paid even after survival installments. If death is by suicide within 12 months of risk start or revival, nominee gets 80% of premiums paid or surrender value, whichever is higher.",
+    "maturity": "Lump sum of 40% of sum assured plus vested reversionary bonus (if declared) and terminal bonus (if any), payable on survival to term end. Can instead be deferred, taken as instalments over 2-7 years, or split between lump sum and instalments.",
+    "survival_income": "Four rising installments of 15%, 20%, 25% and 30% of sum assured (90% in total) at set policy years, every 4th or 5th year depending on schedule, while the policy is in force.",
+    "guaranteed": "Fixed shares of sum assured: 90% through survival installments and 40% at maturity; bonuses are not guaranteed.",
+    "return_of_premium": "Death benefit has a floor of 105% of premiums paid; free-look cancellation refunds premium less risk premium and certain costs.",
+    "loan": "Available in financial emergencies once the policy has a surrender value; capped at 50% of surrender value; FY 2025-26 interest is 8.00% a year, compounded half-yearly.",
     "partial_withdrawal": null,
-    "other": null
+    "other": "Surrender: higher of special or guaranteed surrender value; guaranteed value needs at least 2 full years of premiums. Reduced paid-up option after year 1 if first full year's premium is paid. Revival within 5 years of first unpaid premium. Grace period 30 days (yearly/half-yearly) or 15 days (monthly). Free look: 30 days."
    },
    "category_details": {
     "term": null,
     "ulip": null,
-    "savings": null,
+    "savings": {
+     "payout_type": "Periodic survival payouts (fixed share of sum assured) plus lump-sum maturity benefit",
+     "income_duration": "Installments in years 4 to 16 (4-year schedule) or years 5 to 20 (5-year schedule)",
+     "bonus_type": "Reversionary bonus (percent of sum assured, if declared from surplus) and terminal bonus (percent of accrued reversionary bonus, if declared); not guaranteed",
+     "deferment_option": "Maturity lump sum can be deferred 1 to 7 years; request needed at least 3 months before maturity",
+     "illustrative_return": "Illustrations assume 4% and 8% a year after charges; not guaranteed and not limits"
+    },
     "annuity": null,
     "health": null
    },
-   "key_features": [],
-   "riders_available": [],
-   "online_purchase": null,
+   "key_features": [
+    "Survival payouts totaling 90% of sum assured, paid in rising steps during the term",
+    "Maturity lump sum of 40% of sum assured plus any declared bonuses",
+    "Life cover for the full term; death benefit is never below 105% of premiums paid",
+    "Participating plan: bonuses come from surplus and are not guaranteed",
+    "Yearly, half-yearly or monthly premiums; discounts for higher sums assured and eligible staff",
+    "Available to buy online; optional accident benefit rider"
+   ],
+   "riders_available": [
+    "SBI Life - Accident Benefit Rider (UIN 111B041V01): optional accidental death and/or accidental partial permanent disability benefits"
+   ],
+   "online_purchase": true,
    "channels": [],
-   "tax_benefits": null,
+   "tax_benefits": "Offered under prevailing Income Tax rules, which can change; seek tax advice for specifics.",
    "description": null,
    "urls": {
     "product_page": "https://www.sbilife.co.in/en/money-back-plans/smart-money-back-plus",
-    "brochure": null
+    "brochure": "https://www.sbilife.co.in/documents/d/sbil/product-brochure-prospectus-19"
    },
    "sources": [
-    "https://www.sbilife.co.in/en/money-back-plan"
+    "https://www.sbilife.co.in/documents/d/sbil/product-brochure-prospectus-19"
    ],
-   "completeness": "list-only",
+   "completeness": "full",
    "last_verified": "2026-10-28"
   },
   {

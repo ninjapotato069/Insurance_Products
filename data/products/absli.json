@@ -650,7 +650,7 @@
     "entry_age_min_years": 18,
     "entry_age_max_years": 65,
     "maturity_age_max_years": 85,
-    "policy_term_min_years": null,
+    "policy_term_min_years": 10,
     "policy_term_max_years": null,
     "whole_life": false,
     "ppt_options": [
@@ -666,23 +666,29 @@
      "Limited to age 60",
      "Regular"
     ],
-    "premium_modes": [],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly",
+     "Single"
+    ],
     "min_annual_premium_inr": null,
     "min_single_premium_inr": null,
     "max_premium_text": null,
     "min_sum_assured_inr": 2500000,
-    "max_sum_assured_text": "INR 20 crore per FAQ; eligibility table says no limit subject to underwriting",
-    "notes": "PPT availability varies by option. Page conflict: eligibility table min SA INR 25 lakh vs FAQ INR 50 lakh. Term approx 5-55 years per page but table unclear."
+    "max_sum_assured_text": "No limit, subject to board-approved underwriting policy (website FAQ cites INR 20 crore)",
+    "notes": "Entry, term and PPT limits differ by option (Option 4 entry max 50); max term not clearly stated. Brochure states min SA INR 25 lakh while website FAQ says INR 50 lakh. Accelerated CI cover ends at age 70."
    },
    "benefits": {
-    "death": "Lump sum sum assured to nominee (no instalment option); terminal illness benefit 50% of SA up to age 80",
-    "maturity": "Option 2 refunds premiums at term end; Option 3 after chosen retirement age",
+    "death": "Lump sum: highest of 11x annualised premium, 105% of premiums paid or effective sum assured (125% of single premium for single pay); terminal illness benefit 50% of SA up to INR 2 crore if diagnosed before age 80",
+    "maturity": "Option 2 pays total premiums at term end; Option 3 pays a survival benefit after the chosen retirement age (60/65/70/75); other options none",
     "survival_income": null,
     "guaranteed": null,
     "return_of_premium": true,
     "loan": null,
     "partial_withdrawal": null,
-    "other": null
+    "other": "One-time exit value equal to premiums paid after policy year 30 (not Options 2-3); accelerated CI payout INR 5 lakh to INR 50 lakh (max 50% of SA); no loan"
    },
    "category_details": {
     "term": {
@@ -721,9 +727,10 @@
    },
    "sources": [
     "https://lifeinsurance.adityabirlacapital.com/term-insurance/poorna-suraksha-kawach/",
-    "https://lifeinsurance.adityabirlacapital.com/uploads/ABSLI_Poorna_Suraksha_Kawach_Plan_V04_Brochure_Web_Version_2_ccb0f1c2d1.pdf"
+    "https://lifeinsurance.adityabirlacapital.com/uploads/ABSLI_Poorna_Suraksha_Kawach_Plan_V04_Brochure_Web_Version_2_ccb0f1c2d1.pdf",
+    "https://lifeinsuranceuat.adityabirlacapital.com/uploads/ABSLI_Poorna_Suraksha_Kawach_Plan_V04_Brochure_Web_Version_2_132aaf4bb5.pdf"
    ],
-   "completeness": "partial",
+   "completeness": "full",
    "last_verified": "2026-10-28"
   },
   {
@@ -1907,8 +1914,8 @@
     "entry_age_min_years": 0.08,
     "entry_age_max_years": 60,
     "maturity_age_max_years": 88,
-    "policy_term_min_years": null,
-    "policy_term_max_years": null,
+    "policy_term_min_years": 20,
+    "policy_term_max_years": 30,
     "whole_life": false,
     "ppt_options": [
      "Limited 8",
@@ -1923,15 +1930,15 @@
     ],
     "min_annual_premium_inr": 15000,
     "min_single_premium_inr": null,
-    "max_premium_text": null,
+    "max_premium_text": "INR 1 lakh a year per one page table (point-of-sale limit may differ)",
     "min_sum_assured_inr": 150000,
-    "max_sum_assured_text": null,
-    "notes": "Entry max 55 for Moneyback; max maturity age 85 (Endowment), 88 (Income), 80 (Moneyback); Income option term PPT+20 or PPT+30; page tables show inconsistent maxima."
+    "max_sum_assured_text": "INR 10.6 lakh per page; INR 25 lakh max death SA in point-of-sale cases",
+    "notes": "Entry max 55 for Moneyback; max maturity age 85 (Endowment), 88 (Income with Lumpsum), 80 (Moneyback); Income option term PPT+20 or PPT+30. One page copy shows UIN 109N150V02 while the main page and documents show V05."
    },
    "benefits": {
-    "death": "Lump sum to nominee on death in the term while in force; no instalment option",
-    "maturity": "Guaranteed lumpsum benefit (percent of total premiums) plus loyalty additions",
-    "survival_income": null,
+    "death": "Higher of sum assured on death (itself at least 105% of premiums paid) or surrender benefit",
+    "maturity": "Guaranteed lumpsum (percent of total premiums over the PPT) plus loyalty additions if all premiums are paid",
+    "survival_income": "Income with Lumpsum pays income (percent of annualised premium) each year after PPT; Moneyback pays periodic money-back benefits with loyalty additions every 5th year",
     "guaranteed": true,
     "return_of_premium": null,
     "loan": true,
@@ -1974,9 +1981,10 @@
    },
    "sources": [
     "https://lifeinsurance.adityabirlacapital.com/savings-plans/nishchit-laabh-plan/",
+    "https://lifeinsurance.adityabirlacapital.com/savings-plans/Nishchit-Laabh-Plan",
     "https://lifeinsurance.adityabirlacapital.com/uploads/ABSLI_Nishchit_Laabh_Plan_V5_Brochure_Web_Version_a7c76dc34a.pdf"
    ],
-   "completeness": "partial",
+   "completeness": "full",
    "last_verified": "2026-10-28"
   },
   {
@@ -2913,7 +2921,12 @@
    "status": "Active",
    "launch_date": null,
    "withdrawn_date": null,
-   "variants": [],
+   "variants": [
+    {
+     "name": "Her Growth - ULIP Plan for Women",
+     "summary": "Women-focused packaging of this plan, same UIN"
+    }
+   ],
    "eligibility": {
     "entry_age_min_years": 18,
     "entry_age_max_years": 50,
@@ -2950,7 +2963,9 @@
    "category_details": {
     "term": null,
     "ulip": {
-     "return_of_mortality_charges": true
+     "return_of_mortality_charges": true,
+     "funds_count": 21,
+     "fmc_max_pct": 1.35
     },
     "savings": null,
     "annuity": null,
@@ -2980,7 +2995,8 @@
    },
    "sources": [
     "https://lifeinsurance.adityabirlacapital.com/ulip-plan/absli-param-suraksha/",
-    "https://lifeinsuranceuat.adityabirlacapital.com/ulip-plan/absli-param-suraksha"
+    "https://lifeinsuranceuat.adityabirlacapital.com/ulip-plan/absli-param-suraksha",
+    "https://joinditto.in/articles/life-insurance/absli-her-growth-ulip-plan-for-women/"
    ],
    "completeness": "full",
    "last_verified": "2026-10-28"
@@ -3088,12 +3104,12 @@
    "last_verified": "2026-10-28"
   },
   {
-   "uin": null,
+   "uin": "109L145V01",
    "name": "ABSLI Salaried Suraksha ULIP",
    "segment": "Individual",
    "category": "ULIP",
    "plan_structure": "Unit Linked",
-   "sub_category": null,
+   "sub_category": "High-cover ULIP for salaried individuals",
    "linkage": "Linked",
    "participation": "Non-Par",
    "need_tags": [
@@ -3105,56 +3121,84 @@
    "withdrawn_date": null,
    "variants": [],
    "eligibility": {
-    "entry_age_min_years": null,
-    "entry_age_max_years": null,
-    "maturity_age_max_years": null,
-    "policy_term_min_years": null,
-    "policy_term_max_years": null,
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 50,
+    "maturity_age_max_years": 75,
+    "policy_term_min_years": 15,
+    "policy_term_max_years": 30,
     "whole_life": null,
-    "ppt_options": [],
-    "premium_modes": [],
+    "ppt_options": [
+     "Limited 6",
+     "Limited 8",
+     "Limited 10",
+     "Limited 12"
+    ],
+    "premium_modes": [
+     "Annual"
+    ],
     "min_annual_premium_inr": null,
     "min_single_premium_inr": null,
-    "max_premium_text": null,
-    "min_sum_assured_inr": null,
-    "max_sum_assured_text": null,
-    "notes": null
+    "max_premium_text": "No limit, subject to board-approved underwriting policy",
+    "min_sum_assured_inr": 5000000,
+    "max_sum_assured_text": "No limit, subject to board-approved underwriting policy",
+    "notes": "SA bands: INR 50-74.99 lakh, 75-99.99 lakh, 1 crore+; SA multiple up to 125x depending on age, PPT and term; term options 15, 20, 25, 26-30 yrs."
    },
    "benefits": {
-    "death": null,
-    "maturity": null,
+    "death": "Higher of fund value, sum assured (adjusted for recent withdrawals) or 105% of premiums paid",
+    "maturity": "Fund value as lump sum or settlement option (up to 5 years)",
     "survival_income": null,
     "guaranteed": null,
     "return_of_premium": null,
     "loan": null,
-    "partial_withdrawal": null,
-    "other": null
+    "partial_withdrawal": true,
+    "other": "Partial withdrawal after year 5 (min INR 5,000; max 25% each time, 50% a year); systematic withdrawal 5% or 10%; one-time SA or premium reduction after year 5"
    },
    "category_details": {
     "term": null,
-    "ulip": null,
+    "ulip": {
+     "funds_count": 18,
+     "fmc_max_pct": 1.35,
+     "loyalty_additions": "Twice the premium allocation charges returned as units at end of policy years 10-13",
+     "return_of_mortality_charges": true,
+     "free_switches_per_year": "Unlimited, free",
+     "premium_allocation_charge": "12% year 1, 6% year 2, 4% year 3, 3% year 4, nil from year 5",
+     "policy_admin_charge": "Capped at INR 500 a month, guaranteed for the term"
+    },
     "savings": null,
     "annuity": null,
     "health": null
    },
-   "key_features": [],
-   "riders_available": [],
-   "online_purchase": null,
-   "channels": [],
-   "tax_benefits": null,
-   "description": null,
+   "key_features": [
+    "Life cover up to 125x premium",
+    "Twice the allocation charges returned in years 10-13",
+    "Twice the mortality charges returned monthly from year 11",
+    "Five strategies and 18 funds"
+   ],
+   "riders_available": [
+    "ABSLI Accidental Death Benefit Rider Plus",
+    "ABSLI Waiver of Premium Rider",
+    "ABSLI Comprehensive Critical Illness Rider"
+   ],
+   "online_purchase": true,
+   "channels": [
+    "Agency",
+    "Direct/Online"
+   ],
+   "tax_benefits": "Tax benefits per prevailing law",
+   "description": "High-cover ULIP for salaried individuals with return of allocation and mortality charges.",
    "urls": {
     "product_page": "https://lifeinsurance.adityabirlacapital.com/ulip-plan/absli-salaried-suraksha-ulip/",
-    "brochure": null
+    "brochure": "https://lifeinsurance.adityabirlacapital.com/uploads/ABSLI_Salaried_Suraksha_ULIP_V01_Brochure_Web_Version_4f1d91a7dc.pdf"
    },
    "sources": [
-    "https://lifeinsurance.adityabirlacapital.com/ulip-plan/absli-salaried-suraksha-ulip/"
+    "https://lifeinsurance.adityabirlacapital.com/ulip-plan/absli-salaried-suraksha-ulip/",
+    "https://lifeinsurance.adityabirlacapital.com/uploads/ABSLI_Salaried_Suraksha_ULIP_V01_Brochure_Web_Version_4f1d91a7dc.pdf"
    ],
-   "completeness": "list-only",
+   "completeness": "full",
    "last_verified": "2026-10-28"
   },
   {
-   "uin": null,
+   "uin": "109L143V01",
    "name": "ABSLI Fortune Wealth Plan",
    "segment": "Individual",
    "category": "ULIP",
@@ -3169,58 +3213,95 @@
    "status": "Active",
    "launch_date": null,
    "withdrawn_date": null,
-   "variants": [],
+   "variants": [
+    {
+     "name": "Classic Option",
+     "summary": "Death benefit is the higher of fund value or sum assured, floored at 105% of premiums paid"
+    },
+    {
+     "name": "Assured Option",
+     "summary": "Pays higher of SA or 105% of premiums on death; policy continues with future premiums paid by insurer, no further cover"
+    }
+   ],
    "eligibility": {
-    "entry_age_min_years": null,
-    "entry_age_max_years": null,
-    "maturity_age_max_years": null,
-    "policy_term_min_years": null,
+    "entry_age_min_years": 0.08,
+    "entry_age_max_years": 65,
+    "maturity_age_max_years": 75,
+    "policy_term_min_years": 10,
     "policy_term_max_years": null,
     "whole_life": null,
-    "ppt_options": [],
-    "premium_modes": [],
-    "min_annual_premium_inr": null,
+    "ppt_options": [
+     "Limited 5 to 19",
+     "Regular 10 to 20"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": 40000,
     "min_single_premium_inr": null,
-    "max_premium_text": null,
-    "min_sum_assured_inr": null,
-    "max_sum_assured_text": null,
-    "notes": null
+    "max_premium_text": "No limit, subject to board-approved underwriting policy; INR 5 lakh a year minimum at entry ages 61-65",
+    "min_sum_assured_inr": 400000,
+    "max_sum_assured_text": "No limit, subject to board-approved underwriting policy",
+    "notes": "Entry min 30 days (Classic) / 18 (Assured); entry max varies by option and PPT (about 45-65; 65 is an upper bound); maturity max 70-75 Classic, 60 Assured; min premium 40,000 annual / 45,000 half-yearly / 50,000 quarterly-monthly; SA = 10x annualised premium."
    },
    "benefits": {
-    "death": null,
-    "maturity": null,
+    "death": "Classic: higher of fund value or SA, floored at 105% of premiums; Assured: higher of SA or 105% of premiums, then policy continues",
+    "maturity": "Fund value as lump sum or settlement option (instalments up to 5 years)",
     "survival_income": null,
     "guaranteed": null,
     "return_of_premium": null,
     "loan": null,
-    "partial_withdrawal": null,
-    "other": null
+    "partial_withdrawal": true,
+    "other": "Partial withdrawal after year 5 (min INR 5,000, max 25% per withdrawal, 50% annual cap); no policy loans"
    },
    "category_details": {
     "term": null,
-    "ulip": null,
+    "ulip": {
+     "funds_count": 18,
+     "fmc_max_pct": 1.35,
+     "loyalty_additions": "Guaranteed additions from 6th anniversary (11th for Band 1) and every 5 years from the 10th",
+     "free_switches_per_year": "Unlimited, free (min INR 5,000 per switch in Self-Managed)",
+     "premium_allocation_charge": "About 12% in year 1 falling to roughly 3.5-4.5% later; varies by band, mode and year",
+     "policy_admin_charge": "Band 1: INR 450 a year in years 1-5; Bands 2-3: 1.2% of annualised premium; nil from year 6; capped at INR 6,000"
+    },
     "savings": null,
     "annuity": null,
     "health": null
    },
-   "key_features": [],
-   "riders_available": [],
-   "online_purchase": null,
-   "channels": [],
-   "tax_benefits": null,
-   "description": null,
+   "key_features": [
+    "Five investment options and 18 funds incl. Smart and Life Cycle",
+    "Guaranteed additions as units at set anniversaries",
+    "Classic or Assured option",
+    "Partial withdrawals after the 5-year lock-in"
+   ],
+   "riders_available": [
+    "ABSLI Accidental Death Benefit Rider Plus",
+    "ABSLI Waiver of Premium Rider",
+    "ABSLI Comprehensive Critical Illness Rider"
+   ],
+   "online_purchase": true,
+   "channels": [
+    "Agency",
+    "Direct/Online"
+   ],
+   "tax_benefits": "Tax benefits per prevailing law; Sec 10(10D) proceeds may be taxable if annual premiums exceed INR 5 lakh (policies from 1 Apr 2023)",
+   "description": "Regular-premium ULIP with Classic and Assured options, 18 funds and guaranteed additions paid as units.",
    "urls": {
     "product_page": "https://lifeinsurance.adityabirlacapital.com/ulip-plan/absli-fortune-wealth-plan/",
-    "brochure": null
+    "brochure": "https://lifeinsurance.adityabirlacapital.com/uploads/ABSLI_Fortune_Wealth_Plan_V01_Brochure_Web_Version_ead76f3e45.pdf"
    },
    "sources": [
-    "https://lifeinsurance.adityabirlacapital.com/ulip-plan/absli-fortune-wealth-plan/"
+    "https://lifeinsurance.adityabirlacapital.com/ulip-plan/absli-fortune-wealth-plan/",
+    "https://lifeinsurance.adityabirlacapital.com/uploads/ABSLI_Fortune_Wealth_Plan_V01_Brochure_Web_Version_ead76f3e45.pdf"
    ],
-   "completeness": "list-only",
+   "completeness": "full",
    "last_verified": "2026-10-28"
   },
   {
-   "uin": null,
+   "uin": "109L142V01",
    "name": "ABSLI Platinum Gain Plan",
    "segment": "Individual",
    "category": "ULIP",
@@ -3237,52 +3318,79 @@
    "withdrawn_date": null,
    "variants": [],
    "eligibility": {
-    "entry_age_min_years": null,
-    "entry_age_max_years": null,
-    "maturity_age_max_years": null,
-    "policy_term_min_years": null,
-    "policy_term_max_years": null,
+    "entry_age_min_years": 0.08,
+    "entry_age_max_years": 65,
+    "maturity_age_max_years": 85,
+    "policy_term_min_years": 10,
+    "policy_term_max_years": 20,
     "whole_life": null,
-    "ppt_options": [],
-    "premium_modes": [],
-    "min_annual_premium_inr": null,
+    "ppt_options": [
+     "Limited 5 to 12",
+     "Regular 10 to 20"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": 200000,
     "min_single_premium_inr": null,
-    "max_premium_text": null,
-    "min_sum_assured_inr": null,
-    "max_sum_assured_text": null,
-    "notes": null
+    "max_premium_text": "No limit, subject to board-approved underwriting policy",
+    "min_sum_assured_inr": 1400000,
+    "max_sum_assured_text": "No limit, subject to board-approved underwriting policy",
+    "notes": "Premium bands: INR 2-4.99 lakh, 5-24.99 lakh, 25 lakh+; sum assured 7x or 10x annualised premium; min maturity age 18; min term varies by PPT (10 for regular and 5-9 pay, 11/12/13 for 10/11/12 pay)."
    },
    "benefits": {
-    "death": null,
-    "maturity": null,
+    "death": "Higher of listed amounts incl. fund value (list truncated on page) if premiums are paid",
+    "maturity": "Fund value as lump sum or settlement option",
     "survival_income": null,
     "guaranteed": null,
     "return_of_premium": null,
     "loan": null,
     "partial_withdrawal": null,
-    "other": null
+    "other": "Wealth Boosters from end of year 10 and every 5 years; loyalty additions; mortality and allocation charges added back at maturity; no policy loans"
    },
    "category_details": {
     "term": null,
-    "ulip": null,
+    "ulip": {
+     "funds_count": 20,
+     "loyalty_additions": "Extra units as a percentage of fund value while in force",
+     "return_of_mortality_charges": true,
+     "free_switches_per_year": "Unlimited, free (Self-Managed and Systematic Transfer options)"
+    },
     "savings": null,
     "annuity": null,
     "health": null
    },
-   "key_features": [],
-   "riders_available": [],
-   "online_purchase": null,
-   "channels": [],
-   "tax_benefits": null,
-   "description": null,
+   "key_features": [
+    "Five strategies and 20 funds",
+    "Three premium bands; SA 7x or 10x annualised premium",
+    "Wealth Boosters and loyalty additions",
+    "Mortality and allocation charges returned at maturity"
+   ],
+   "riders_available": [
+    "ABSLI Comprehensive Critical Illness Rider",
+    "ABSLI Accidental Death Benefit Rider Plus",
+    "ABSLI Waiver of Premium Rider",
+    "ABSLI Suraksha Term Rider Plus"
+   ],
+   "online_purchase": true,
+   "channels": [
+    "Agency",
+    "Direct/Online"
+   ],
+   "tax_benefits": "Tax benefits per prevailing law",
+   "description": "Premium ULIP for annualised premiums of INR 2 lakh or more with wealth boosters, loyalty additions and return of charges.",
    "urls": {
     "product_page": "https://lifeinsurance.adityabirlacapital.com/ulip-plan/absli-platinum-gain-plan/",
-    "brochure": null
+    "brochure": "https://lifeinsurance.adityabirlacapital.com/uploads/ABSLI_Platinum_Gain_Plan_V01_Brochure_vfadv_2d764b022e.pdf"
    },
    "sources": [
-    "https://lifeinsurance.adityabirlacapital.com/ulip-plan/absli-platinum-gain-plan/"
+    "https://lifeinsurance.adityabirlacapital.com/ulip-plan/absli-platinum-gain-plan/",
+    "https://lifeinsurance.adityabirlacapital.com/uploads/ABSLI_Platinum_Gain_Plan_V01_Brochure_vfadv_2d764b022e.pdf"
    ],
-   "completeness": "list-only",
+   "completeness": "full",
    "last_verified": "2026-10-28"
   },
   {
@@ -3379,16 +3487,17 @@
    "last_verified": "2026-10-28"
   },
   {
-   "uin": null,
+   "uin": "109L074V05",
    "name": "ABSLI Wealth Secure Plan",
    "segment": "Individual",
    "category": "ULIP",
    "plan_structure": "Unit Linked",
-   "sub_category": null,
+   "sub_category": "Whole-life ULIP",
    "linkage": "Linked",
    "participation": "Non-Par",
    "need_tags": [
-    "Wealth"
+    "Wealth",
+    "Protection"
    ],
    "standard_product": null,
    "status": "Active",
@@ -3396,52 +3505,74 @@
    "withdrawn_date": null,
    "variants": [],
    "eligibility": {
-    "entry_age_min_years": null,
-    "entry_age_max_years": null,
-    "maturity_age_max_years": null,
+    "entry_age_min_years": 0.08,
+    "entry_age_max_years": 65,
+    "maturity_age_max_years": 100,
     "policy_term_min_years": null,
     "policy_term_max_years": null,
-    "whole_life": null,
-    "ppt_options": [],
-    "premium_modes": [],
-    "min_annual_premium_inr": null,
+    "whole_life": true,
+    "ppt_options": [
+     "Limited 5 to 30 (by entry age)"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": 30000,
     "min_single_premium_inr": null,
     "max_premium_text": null,
     "min_sum_assured_inr": null,
     "max_sum_assured_text": null,
-    "notes": null
+    "notes": "PPT 5-30 yrs for entry up to 44, 8-30 for 45-60, 10-14 for 61-65; attained age at end of PPT must be 75 or less; min basic premium INR 30,000 (annual/half-yearly) or INR 60,000 (monthly/quarterly); top-up min INR 5,000."
    },
    "benefits": {
-    "death": null,
-    "maturity": null,
+    "death": "Higher of basic sum assured or basic fund value, plus higher of top-up SA or top-up fund value; suicide in first 12 months pays fund value",
+    "maturity": "Whole life; fund value at age 100",
     "survival_income": null,
     "guaranteed": null,
     "return_of_premium": null,
     "loan": null,
-    "partial_withdrawal": null,
-    "other": null
+    "partial_withdrawal": true,
+    "other": "No withdrawal or surrender in first 5 years; guaranteed additions as units; may become reduced paid-up after lock-in"
    },
    "category_details": {
     "term": null,
-    "ulip": null,
+    "ulip": {
+     "loyalty_additions": "Guaranteed additions as units for policy continuance"
+    },
     "savings": null,
     "annuity": null,
     "health": null
    },
-   "key_features": [],
-   "riders_available": [],
+   "key_features": [
+    "Pay for a limited term, cover for whole life",
+    "Three investment options",
+    "Top-ups when extra savings are available",
+    "Guaranteed additions for staying invested"
+   ],
+   "riders_available": [
+    "ABSLI Comprehensive Critical Illness Rider",
+    "ABSLI Accidental Death Benefit Rider Plus",
+    "ABSLI Waiver of Premium Rider"
+   ],
    "online_purchase": null,
-   "channels": [],
-   "tax_benefits": null,
-   "description": null,
+   "channels": [
+    "Agency",
+    "Direct/Online"
+   ],
+   "tax_benefits": "Tax benefits per prevailing law",
+   "description": "Whole-life ULIP with limited premium payment, top-ups and guaranteed additions.",
    "urls": {
     "product_page": "https://lifeinsurance.adityabirlacapital.com/ulip-plan/wealth-secure-plan/",
-    "brochure": null
+    "brochure": "https://lifeinsurance.adityabirlacapital.com/uploads/ABSLI_Wealth_Secure_Plan_V05_Brochure_Web_Version_2fb2a9d1ab.pdf"
    },
    "sources": [
-    "https://lifeinsurance.adityabirlacapital.com/ulip-plan/wealth-secure-plan/"
+    "https://lifeinsurance.adityabirlacapital.com/ulip-plan/wealth-secure-plan/",
+    "https://lifeinsurance.adityabirlacapital.com/uploads/ABSLI_Wealth_Secure_Plan_V05_Brochure_Web_Version_2fb2a9d1ab.pdf"
    ],
-   "completeness": "list-only",
+   "completeness": "full",
    "last_verified": "2026-10-28"
   },
   {
@@ -3647,13 +3778,13 @@
    "last_verified": "2026-10-28"
   },
   {
-   "uin": null,
+   "uin": "109A041V01",
    "name": "ABSLI Comprehensive Critical Illness Rider",
    "segment": "Rider",
    "category": "Critical Illness",
    "plan_structure": "Rider",
-   "sub_category": null,
-   "linkage": null,
+   "sub_category": "Linked-plan version (A-series UIN)",
+   "linkage": "Linked",
    "participation": null,
    "need_tags": [
     "Health",
@@ -3709,7 +3840,7 @@
    },
    "sources": [
     "https://lifeinsurance.adityabirlacapital.com/llms.txt",
-    "https://lifeinsurance.adityabirlacapital.com/term-insurance/absli-super-term-plan/"
+    "https://lifeinsurance.adityabirlacapital.com/ulip-plan/wealth-secure-plan/"
    ],
    "completeness": "list-only",
    "last_verified": "2026-10-28"
@@ -5647,7 +5778,141 @@
    ],
    "completeness": "list-only",
    "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "109A024V01",
+   "name": "ABSLI Accidental Death Benefit Rider Plus (Linked)",
+   "segment": "Rider",
+   "category": "Accidental Death/Disability",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": null,
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Linked-plan version of the accidental death benefit rider.",
+   "urls": {
+    "product_page": "https://lifeinsurance.adityabirlacapital.com/riders/absli-accidental-death-benefit-rider-plus-v01/",
+    "brochure": null
+   },
+   "sources": [
+    "https://lifeinsurance.adityabirlacapital.com/llms.txt",
+    "https://lifeinsurance.adityabirlacapital.com/ulip-plan/wealth-secure-plan/"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "109A039V01",
+   "name": "ABSLI Waiver of Premium Rider (Linked)",
+   "segment": "Rider",
+   "category": "Waiver of Premium",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": null,
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Linked-plan version of the waiver of premium rider.",
+   "urls": {
+    "product_page": "https://lifeinsurance.adityabirlacapital.com/riders/absli-waiver-of-premium-rider-v01/",
+    "brochure": null
+   },
+   "sources": [
+    "https://lifeinsurance.adityabirlacapital.com/llms.txt",
+    "https://lifeinsurance.adityabirlacapital.com/ulip-plan/wealth-secure-plan/"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
   }
  ],
- "notes": "Inventory from official site menu and llms.txt. Brochures page (also hosts Withdrawn Products) was not fetchable (tool allowlist), so withdrawn/rider/group lists are partial and group UINs are unknown. Her Care/Her Assurance/Her Nishchit/Her Retirement are women-focused packaging of Super Term / Akshaya / Nishchit Aayush / Guaranteed Annuity Plus (same UINs) and are recorded as variants."
+ "notes": "Inventory from official site menu (lifeinsurance.adityabirlacapital.com) and llms.txt; specs from product pages and brochures. Gaps: (1) Brochures & Specimen Contracts page, which hosts the official Withdrawn Products list, was not fetchable (tool allowlist) - the 7 withdrawn rows are inferred from the bonus-rates page (old par plans absent from the current menu) and the true withdrawn list (older ULIP/term/pension plans) is still missing; (2) group and micro product UINs are not on listing pages - all null; (3) launch dates not captured; (4) Her series (Her Care, Her Assurance, Her Nishchit, Her Retirement, Her Growth) share UINs with Super Term / Akshaya / Nishchit Aayush / Guaranteed Annuity Plus / Param Suraksha and are recorded as variants; (5) group annuity scheme uses individual UINs 109N132V18 and 109N182V01; (6) riders: non-linked B-series (109B...) and linked A-series (109A...) UINs; older rider versions such as WOP 109B017V02 not listed; (7) pages for ABSLI Life Shield Plan and Fortune Elite Plan exist but are not in the menu - status unknown; (8) several policy-term maxima and minimum premiums were unclear on pages - see eligibility.notes; Param Suraksha specs came from the UAT page."
 }

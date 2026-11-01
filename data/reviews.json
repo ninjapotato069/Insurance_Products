@@ -20,20 +20,57 @@
     "observed_on": "2026-11-01",
     "source": "https://apps.apple.com/in/app/lic-digital/id1324159013?uo=4"
    },
-   "third_party": [],
-   "positives": [],
-   "negatives": [],
-   "review_summary": null,
+   "third_party": [
+    {
+     "site": "MouthShut",
+     "rating": 3.27,
+     "scale": 5,
+     "url": "https://www.mouthshut.com/product-reviews/lic-life-insurance-reviews-925036714",
+     "observed_on": "2026-11-01"
+    },
+    {
+     "site": "Trustpilot",
+     "rating": 2.0,
+     "scale": 5,
+     "reviews_count": 21,
+     "url": "https://www.trustpilot.com/review/licindia.in",
+     "observed_on": "2026-11-01"
+    },
+    {
+     "site": "Policybazaar",
+     "rating": 4.6,
+     "scale": 5,
+     "reviews_count": 27,
+     "url": "https://www.policybazaar.com/life-insurance-corporation-of-india-reviews-221/",
+     "observed_on": "2026-11-01"
+    }
+   ],
+   "positives": [
+    "Family protection and peace of mind, with budget-friendly premiums (Policybazaar reviews, mostly 2015-2021)",
+    "Quick, hassle-free claim handling and useful riders and policy perks in older reviews (Policybazaar)"
+   ],
+   "negatives": [
+    "Online portal and app failures: login lockouts, OTP delays, password resets and failed premium payments (about 10 of 20 visible Trustpilot reviews)",
+    "Unanswered emails and service requests, including bank-detail updates and closure requests (about 4 of 20 Trustpilot reviews)",
+    "Staff or agent misconduct and weak grievance handling (about 3 of 20 Trustpilot reviews)"
+   ],
+   "review_summary": "LIC's Trustpilot profile (TrustScore 2.0 from 21 reviews, unclaimed profile) is mostly complaints about its online portal, unanswered requests and weak grievance handling, while older Policybazaar reviews (4.6 from 27, mostly 2015-2021) praise its protection and claims service. MouthShut shows 3.27/5 with no review text retrieved, so the picture varies sharply by source and by review vintage.",
    "digital_servicing": {
-    "whatsapp": null,
-    "whatsapp_number": null,
-    "customer_app": null,
+    "whatsapp": true,
+    "whatsapp_number": "+91 8976862090",
+    "customer_app": true,
     "web_chatbot": null,
-    "customer_portal": null,
-    "notes": null
+    "customer_portal": true,
+    "notes": "App and portal referenced in 2020-2026 Trustpilot reviews; WhatsApp number per 2023 news coverage, not re-verified on LIC's site."
    },
-   "notes": null,
-   "sources": []
+   "notes": "A second MouthShut product page for LIC shows 2.64/5 (925641395, page 3) with no review text retrieved. Policybazaar reviews are old and all rated five stars.",
+   "sources": [
+    "https://www.trustpilot.com/review/licindia.in",
+    "https://www.mouthshut.com/product-reviews/lic-life-insurance-reviews-925036714",
+    "https://www.mouthshut.com/product-reviews/life-insurance-corporation-of-india-reviews-925641395-page-3",
+    "https://www.policybazaar.com/life-insurance-corporation-of-india-reviews-221/",
+    "https://krishijagran.com/news/lic-whatsapp-service-get-all-details-including-policy-status-premium-due-more-at-8976862090"
+   ]
   },
   "hdfc": {
    "android": null,
@@ -79,10 +116,34 @@
     "observed_on": "2026-11-01",
     "source": "https://apps.apple.com/in/app/axis-max-life-insurance/id6447048056?uo=4"
    },
-   "third_party": [],
-   "positives": [],
-   "negatives": [],
-   "review_summary": null,
+   "third_party": [
+    {
+     "site": "Trustpilot",
+     "rating": 1.5,
+     "scale": 5,
+     "reviews_count": 48,
+     "url": "https://ca.trustpilot.com/review/maxlifeinsurance.com",
+     "observed_on": "2026-11-01"
+    },
+    {
+     "site": "InsuranceDekho",
+     "rating": 4.7,
+     "reviews_count": 163,
+     "url": "https://www.insurancedekho.com/life-insurance/term-insurance/max/user-reviews",
+     "observed_on": "2026-11-01"
+    }
+   ],
+   "positives": [
+    "Helpful advice and responsive support (about 14 of 30 visible InsuranceDekho reviews, mostly praising the broker)",
+    "Simple, quick buying and renewal, including online steps (broker-hosted reviews)"
+   ],
+   "negatives": [
+    "Poor post-sale service and unresolved complaints, with unanswered calls and emails (about 15 of 20 visible Trustpilot reviews)",
+    "Payment, refund and auto-debit problems, such as duplicate or bounced deductions and refunds withheld (about 10 of 20)",
+    "Misleading sales, with promised returns or terms that differ from what was sold (about 6 of 20)",
+    "High charges and weak returns, including surrender charges (about 5 of 20)"
+   ],
+   "review_summary": "Axis Max Life's Trustpilot page shows 1.5/5 from 48 reviews, about 90 percent one-star, citing unresolved post-sale complaints, payment and refund problems, and misleading sales. InsuranceDekho's 4.7 from 163 reviews mostly praises the broker's advice and buying process, so it says little about the insurer itself.",
    "digital_servicing": {
     "whatsapp": true,
     "whatsapp_number": "+91 7428396005",
@@ -91,9 +152,10 @@
     "customer_portal": true,
     "notes": "Official page lists the Axis Max Life Insurance App plus an older 'Lite' app users are told to upgrade from."
    },
-   "notes": null,
+   "notes": "The Trustpilot page sits on the Canadian subdomain but concerns Max Life Insurance Company Limited (Gurugram); reviews are unverified and the page says the company has not replied to negative reviews. InsuranceDekho does not show a scale.",
    "sources": [
-    "https://www.axismaxlife.com/axis-max-life-insurance-mobile-app"
+    "https://ca.trustpilot.com/review/maxlifeinsurance.com",
+    "https://www.insurancedekho.com/life-insurance/term-insurance/max/user-reviews"
    ]
   },
   "icici": {
@@ -115,10 +177,24 @@
     "observed_on": "2026-11-01",
     "source": "https://apps.apple.com/in/app/icici-life-insurance-app/id1495618064?uo=4"
    },
-   "third_party": [],
+   "third_party": [
+    {
+     "site": "Trustpilot",
+     "rating": 1.9,
+     "scale": 5,
+     "reviews_count": 12,
+     "url": "https://www.trustpilot.com/review/iciciprulife.com",
+     "observed_on": "2026-11-01"
+    }
+   ],
    "positives": [],
-   "negatives": [],
-   "review_summary": null,
+   "negatives": [
+    "Weak or unreachable customer support, with slow email replies and unresolved complaints (about 7 of 12 reviews)",
+    "Misleading sales: benefits, withdrawal terms or policy types described differently from what buyers received (about 6 of 12)",
+    "Claim denials, refund refusals and lock-in complaints (about 6 of 12)",
+    "Warnings to other buyers, including fraud or scam accusations (9 of 12 warn off; 4 use those words)"
+   ],
+   "review_summary": "ICICI Prudential Life's Trustpilot profile has a TrustScore of 1.9/5 from 12 reviews, all one-star, with complaints about support, sales practices and claim denials. The profile is unclaimed and the sample is small, so treat it as an indicator rather than a representative measure.",
    "digital_servicing": {
     "whatsapp": null,
     "whatsapp_number": null,
@@ -127,8 +203,10 @@
     "customer_portal": null,
     "notes": null
    },
-   "notes": null,
-   "sources": []
+   "notes": "No recurring praise in the Trustpilot sample; 2 of the 12 reviews fall in the last 12 months. No second source read yet.",
+   "sources": [
+    "https://www.trustpilot.com/review/iciciprulife.com"
+   ]
   },
   "kotak": {
    "android": {
@@ -226,20 +304,54 @@
     "observed_on": "2026-11-01",
     "source": "https://apps.apple.com/in/app/sbi-life-smart-care/id1627221447?uo=4"
    },
-   "third_party": [],
-   "positives": [],
-   "negatives": [],
-   "review_summary": null,
+   "third_party": [
+    {
+     "site": "Policybazaar",
+     "rating": 4.7,
+     "scale": 5,
+     "reviews_count": 67,
+     "url": "https://www.policybazaar.com/-reviews-289/",
+     "observed_on": "2026-11-01"
+    },
+    {
+     "site": "InsuranceDekho",
+     "rating": 4.7,
+     "reviews_count": 247,
+     "url": "https://www.insurancedekho.com/life-insurance/sbi/user-reviews",
+     "observed_on": "2026-11-01"
+    },
+    {
+     "site": "MouthShut",
+     "rating": 1.65,
+     "scale": 5,
+     "url": "https://www.mouthshut.com/product-reviews/sbi-life-insurance-reviews-925062223",
+     "observed_on": "2026-11-01"
+    }
+   ],
+   "positives": [
+    "Strong coverage and easy claim settlement with SBI Life, cited in about 20 of 29 pre-2024 Policybazaar reviews",
+    "Affordable premiums and good value (about 18 of 67 Policybazaar reviews)",
+    "Easy, quick buying and plan comparison, though much of this praise is for the broker platform"
+   ],
+   "negatives": [
+    "Premiums seen as high or returns seen as modest for the cost (about 5 of 67 Policybazaar reviews, all from 2016)",
+    "Coverage below expectations or lukewarm verdicts (about 4 of 67, all from 2016)"
+   ],
+   "review_summary": "Broker-hosted reviews are favourable: Policybazaar shows 4.7 from 67 reviews and InsuranceDekho 4.7 from 247, praising coverage, claim settlement and ease of buying, though much of that praise targets the broker. MouthShut rates SBI Life 1.65/5, but no review text was retrievable, so its complaints remain unverified.",
    "digital_servicing": {
     "whatsapp": null,
     "whatsapp_number": null,
     "customer_app": null,
     "web_chatbot": null,
     "customer_portal": null,
-    "notes": null
+    "notes": "SBI Life's own WhatsApp, app and portal status not verified; portal mentions seen were broker portals."
    },
-   "notes": null,
-   "sources": []
+   "notes": "InsuranceDekho shows no scale on its page, and its 4.7 comes from a broker that states it does not rate insurers. Policybazaar's 4.7 cannot be reproduced from its all-five-star entries. Review dates run 2016-2024.",
+   "sources": [
+    "https://www.mouthshut.com/product-reviews/sbi-life-insurance-reviews-925062223",
+    "https://www.insurancedekho.com/life-insurance/sbi/user-reviews",
+    "https://www.policybazaar.com/-reviews-289/"
+   ]
   },
   "bajaj": {
    "android": null,

@@ -1553,55 +1553,89 @@
    "status": "Active",
    "launch_date": null,
    "withdrawn_date": null,
-   "variants": [],
+   "variants": [
+    {
+     "name": "Standard (all channels except POS)",
+     "summary": "Entry age 3 to 65 minus policy term; maturity age up to 65; annualized premium 20000 to 150000; riders available."
+    },
+    {
+     "name": "POS variant",
+     "summary": "Issued without medical exam; entry age 3 to 60; maturity age up to 75; no fixed premium cap (underwriting applies); riders not allowed; 90-day waiting period for non-accident death."
+    }
+   ],
    "eligibility": {
-    "entry_age_min_years": null,
-    "entry_age_max_years": null,
-    "maturity_age_max_years": null,
-    "policy_term_min_years": null,
-    "policy_term_max_years": null,
-    "whole_life": null,
-    "ppt_options": [],
-    "premium_modes": [],
-    "min_annual_premium_inr": null,
+    "entry_age_min_years": 3,
+    "entry_age_max_years": 65,
+    "maturity_age_max_years": 75,
+    "policy_term_min_years": 10,
+    "policy_term_max_years": 20,
+    "whole_life": false,
+    "ppt_options": [
+     5,
+     6,
+     7,
+     10
+    ],
+    "premium_modes": [
+     "yearly",
+     "half-yearly",
+     "quarterly",
+     "monthly"
+    ],
+    "min_annual_premium_inr": 20000,
     "min_single_premium_inr": null,
-    "max_premium_text": null,
+    "max_premium_text": "150000 for non-POS channels; no fixed cap for POS, subject to underwriting",
     "min_sum_assured_inr": null,
-    "max_sum_assured_text": null,
-    "notes": null
+    "max_sum_assured_text": "Cap of 25000000, set by premium, entry age, policy term and premium payment term, subject to underwriting rules",
+    "notes": "Non-POS: entry age 3 to 65 minus policy term; maturity age 18 to 65. POS: entry age 3 to 60; maturity age 18 to 75. Policy term depends on premium payment term (PPT): 5-pay 10 or 15 yrs; 6-pay 12 or 18 yrs; 7-pay 14 or 20 yrs; 10-pay 15 or 20 yrs. Limited-pay only. Modal factors as % of annualized premium: yearly 100, half-yearly 51, quarterly 26, monthly 8.8. Minimum basic sum assured is formula-based; sample figures at a 20000 premium (entry ages 3 and 50) range from 136908 to 249212. Channel split for the 25000000 cap is not clear in the source."
    },
    "benefits": {
-    "death": null,
-    "maturity": null,
+    "death": "Higher of (a) basic death benefit plus accrued guaranteed yearly additions, or (b) 105% of premiums paid to date, excluding extra premium. Basic death benefit is the higher of 11 times annualized premium (entry age under 50) or 7 times (age 50 and above), and a guaranteed minimum of 110% to 120% of basic sum assured (BSA), depending on premium payment term. Unpaid premiums due are deducted if death occurs in the grace period. For POS policies, non-accident death within the first 90 days pays only premiums paid, excluding GST and cess.",
+    "maturity": "On survival to the end of the policy term, with policy in force and all premiums paid: BSA plus accrued guaranteed yearly additions (GYA, added each premium year at 7% to 10% of cumulative annualized premium, depending on premium payment term) plus guaranteed loyalty addition (GLA, 10% to 20% of BSA, depending on premium payment term). Outstanding loans with interest are deducted.",
     "survival_income": null,
-    "guaranteed": null,
-    "return_of_premium": null,
-    "loan": null,
+    "guaranteed": true,
+    "return_of_premium": true,
+    "loan": true,
     "partial_withdrawal": null,
-    "other": null
+    "other": "Surrender: higher of guaranteed surrender value (after two full policy years of premiums) or special surrender value (after year one with a full year's premium), paid as a lump sum. Loan up to 50% of surrender value, minimum 10000; insurer sets the rate (currently 8.95% p.a.). If premiums are missed after at least one full year is paid, the policy becomes reduced paid-up by default, with no further additions. Lapsed or reduced paid-up policies can be revived within five years of the first unpaid premium, with revival charges (currently 9% p.a. of outstanding premiums); health evidence is needed after six months. Grace period: 30 days (15 days for monthly mode). Free look: 30 days from receiving the electronic policy. Suicide within 12 months of risk start pays 80% of premiums paid."
    },
    "category_details": {
     "term": null,
     "ulip": null,
-    "savings": null,
+    "savings": {
+     "payout_type": "lump sum",
+     "bonus_type": "none (non-participating); benefits come from guaranteed additions"
+    },
     "annuity": null,
     "health": null
    },
-   "key_features": [],
-   "riders_available": [],
+   "key_features": [
+    "Guaranteed maturity payout: sum assured plus accrued yearly additions and loyalty addition",
+    "Longer premium payment terms increase yearly additions and loyalty addition",
+    "High premium benefit raises sum assured by 3% to 10.5% by premium band (nil below 30000)",
+    "Illustration: 100000 annualized premium for 10 years, entry age 35, 15-year term, gives 1577530 guaranteed at maturity",
+    "Optional riders for extra protection; not available on POS policies"
+   ],
+   "riders_available": [
+    "Kotak Term Benefit Rider",
+    "Kotak Accidental Death Benefit Rider",
+    "Kotak Permanent Disability Benefit Rider",
+    "Kotak Life Guardian Benefit Rider",
+    "Kotak Accidental Disability Guardian Benefit Rider",
+    "Kotak Critical Illness Plus Benefit Rider"
+   ],
    "online_purchase": true,
    "channels": [],
-   "tax_benefits": null,
+   "tax_benefits": "Premiums may qualify under section 80C and benefits under section 10(10D), subject to Income-Tax Act conditions; GST and cess are charged over and above premiums.",
    "description": "Non-participating non-linked savings plan from Kotak Life on its buy-online shelf; specifications not yet extracted.",
    "urls": {
     "product_page": null,
-    "brochure": null
+    "brochure": "https://www.kotaklife.com/assets/images/uploads/insurance-plans/Kotak_Assured_Savings_Plan_Brochure.pdf"
    },
    "sources": [
-    "https://www.kotaklife.com/homepage/termsconditions",
-    "https://www.kotaklife.com/assets/images/uploads/how_do_i/Kotak_Assured_Savings_Plan_UIN_107N081V08_Policy_Document.pdf"
+    "https://www.kotaklife.com/assets/images/uploads/insurance-plans/Kotak_Assured_Savings_Plan_Brochure.pdf"
    ],
-   "completeness": "list-only",
+   "completeness": "full",
    "last_verified": "2026-10-28"
   },
   {

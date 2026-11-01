@@ -202,71 +202,110 @@
    "last_verified": "2026-10-28"
   },
   {
-   "uin": null,
+   "uin": "122N148V02",
    "name": "Aviva Signature 3D Term Plan",
    "segment": "Individual",
    "category": "Term",
-   "plan_structure": null,
+   "plan_structure": "Pure Term",
    "sub_category": null,
    "linkage": "Non-Linked",
    "participation": "Non-Par",
-   "need_tags": [],
+   "need_tags": [
+    "Protection"
+   ],
    "standard_product": null,
    "status": "Active",
    "launch_date": null,
    "withdrawn_date": null,
-   "variants": [],
+   "variants": [
+    {
+     "name": "3D Pure Term",
+     "summary": "Lump sum base sum assured on death, then the policy ends; nothing on survival."
+    },
+    {
+     "name": "3D Family Plus",
+     "summary": "Lump sum on death plus 10 years of monthly payouts to the family (first 12 payouts 0.25% of base sum assured, rising 8% a year compounded)."
+    },
+    {
+     "name": "3D Accelerated",
+     "summary": "Lump sum on death; on terminal illness pays 50% of base sum assured or Rs 1 crore (lower), balance on later death; future premiums waived."
+    },
+    {
+     "name": "3D Trop",
+     "summary": "Death benefit plus return of all premiums paid if the insured survives to maturity."
+    }
+   ],
    "eligibility": {
-    "entry_age_min_years": null,
-    "entry_age_max_years": null,
-    "maturity_age_max_years": null,
-    "policy_term_min_years": null,
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 65,
+    "maturity_age_max_years": 99,
+    "policy_term_min_years": 10,
     "policy_term_max_years": null,
-    "whole_life": null,
-    "ppt_options": [],
+    "whole_life": true,
+    "ppt_options": [
+     "Regular",
+     "Limited"
+    ],
     "premium_modes": [],
     "min_annual_premium_inr": null,
     "min_single_premium_inr": null,
     "max_premium_text": null,
-    "min_sum_assured_inr": null,
-    "max_sum_assured_text": null,
-    "notes": null
+    "min_sum_assured_inr": 500000,
+    "max_sum_assured_text": "No limit (non-POS), subject to board-approved underwriting; POS version capped at Rs 25 lakh",
+    "notes": "Min sum assured Rs 5 lakh for Pure Term and Family Plus; the page quotes a higher minimum (Rs 50.50 lakh) for Accelerated and Trop. Max maturity age 80 for most non-POS options and 99 for limited-pay whole life; POS version limited to maturity age 65 (entry max 55 for regular pay, down to 30 for 30-yr limited pay; term 10 to 47 yrs regular, 15+ yrs limited). Only Pure Term is sold via POS, with no riders. Base sum assured in multiples of Rs 50,000 (non-POS). Max policy term for non-POS options not captured."
    },
    "benefits": {
-    "death": null,
-    "maturity": null,
+    "death": "Lump sum of base sum assured; extra sum assured on accidental death if the Accidental Casualty rider is taken at inception.",
+    "maturity": "None for Pure Term, Family Plus and Accelerated; 3D Trop returns total premiums paid.",
     "survival_income": null,
     "guaranteed": null,
-    "return_of_premium": null,
+    "return_of_premium": true,
     "loan": null,
     "partial_withdrawal": null,
-    "other": null
+    "other": "Terminal illness benefit under 3D Accelerated; Married Women's Property Act option; special rates for women and non-tobacco users above a sum assured threshold. Return of premium applies only to the 3D Trop option."
    },
    "category_details": {
-    "term": null,
+    "term": {
+     "rop_option": true,
+     "whole_life_cover_option": true,
+     "ci_or_accelerated_benefit": "3D Accelerated pays 50% of base sum assured or Rs 1 crore (lower) on terminal illness; CI and Cancer Cardio riders available (non-POS)",
+     "payout_options": "Lump sum; Family Plus adds 10 years of monthly payouts after death",
+     "women_or_nonsmoker_discount": true
+    },
     "ulip": null,
     "savings": null,
     "annuity": null,
     "health": null
    },
-   "key_features": [],
-   "riders_available": [],
+   "key_features": [
+    "Covers death, disability and disease through one term plan",
+    "Four options: Pure Term, Family Plus, Accelerated and Trop",
+    "Accidental death add-on via the Accidental Casualty rider",
+    "Married Women's Property Act option",
+    "Critical illness and cancer/cardio riders on the non-POS version"
+   ],
+   "riders_available": [
+    "Critical Illness rider",
+    "Cancer Cardio rider",
+    "Accidental Casualty rider"
+   ],
    "online_purchase": null,
    "channels": [],
-   "tax_benefits": null,
-   "description": null,
+   "tax_benefits": "As per prevailing tax laws (subject to change)",
+   "description": "Term plan with four options (pure term, family income, terminal-illness acceleration, return of premium) covering death, disability and disease.",
    "urls": {
     "product_page": "https://www.avivaindia.com/term-insurance-plans/aviva-signature-3d-term-plan",
-    "brochure": null
+    "brochure": "https://www.avivaindia.com/sites/default/files/AVI00184%20-%203D%20Term%20Plan%20-%20Sales%20Literature.pdf"
    },
    "sources": [
-    "https://www.avivaindia.com/life-insurance-plans"
+    "https://www.avivaindia.com/term-insurance-plans/aviva-signature-3d-term-plan",
+    "https://www.avivaindia.com/sites/default/files/Policy_Document_3D_Term_Plan.pdf"
    ],
-   "completeness": "list-only",
+   "completeness": "full",
    "last_verified": "2026-10-28"
   },
   {
-   "uin": null,
+   "uin": "122N135V01",
    "name": "Aviva Saral Jeevan Bima Plan",
    "segment": "Individual",
    "category": "Term",
@@ -274,59 +313,80 @@
    "sub_category": null,
    "linkage": "Non-Linked",
    "participation": "Non-Par",
-   "need_tags": [],
+   "need_tags": [
+    "Protection"
+   ],
    "standard_product": "Saral Jeevan Bima",
    "status": "Active",
    "launch_date": null,
    "withdrawn_date": null,
    "variants": [],
    "eligibility": {
-    "entry_age_min_years": null,
-    "entry_age_max_years": null,
-    "maturity_age_max_years": null,
-    "policy_term_min_years": null,
-    "policy_term_max_years": null,
-    "whole_life": null,
-    "ppt_options": [],
-    "premium_modes": [],
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 65,
+    "maturity_age_max_years": 70,
+    "policy_term_min_years": 5,
+    "policy_term_max_years": 40,
+    "whole_life": false,
+    "ppt_options": [
+     "Single",
+     "Limited 5",
+     "Limited 10",
+     "Regular"
+    ],
+    "premium_modes": [
+     "Single",
+     "Annual",
+     "Half-yearly",
+     "Monthly"
+    ],
     "min_annual_premium_inr": null,
     "min_single_premium_inr": null,
     "max_premium_text": null,
-    "min_sum_assured_inr": null,
-    "max_sum_assured_text": null,
-    "notes": null
+    "min_sum_assured_inr": 500000,
+    "max_sum_assured_text": "Rs 25 lakh",
+    "notes": "Limited pay 5-yr PPT needs a term of at least 10 yrs; 10-yr PPT needs at least 15 yrs. Entry age is age last birthday."
    },
    "benefits": {
-    "death": null,
-    "maturity": null,
+    "death": "Higher of death sum assured or 105% of premiums paid (125% of the single premium for single pay).",
+    "maturity": "None - pure term, no payout on survival.",
     "survival_income": null,
     "guaranteed": null,
-    "return_of_premium": null,
+    "return_of_premium": false,
     "loan": null,
     "partial_withdrawal": null,
-    "other": null
+    "other": "45-day waiting period: only accidental death is covered, other deaths return 100% of premiums (excl. taxes); revival within 5 years of lapse."
    },
    "category_details": {
-    "term": null,
+    "term": {
+     "rop_option": false,
+     "payout_options": "Lump sum"
+    },
     "ulip": null,
     "savings": null,
     "annuity": null,
     "health": null
    },
-   "key_features": [],
+   "key_features": [
+    "IRDAI standard-design pure term plan",
+    "Sum assured Rs 5 lakh to Rs 25 lakh",
+    "Terms of 5 to 40 years",
+    "Single, limited or regular premium payment",
+    "Monthly, half-yearly, yearly or single premium"
+   ],
    "riders_available": [],
-   "online_purchase": null,
+   "online_purchase": true,
    "channels": [],
-   "tax_benefits": null,
-   "description": null,
+   "tax_benefits": "s.80C deduction and s.10(10D) exemption on death benefit, subject to conditions and tax law changes",
+   "description": "IRDAI standard pure term plan with simple cover of Rs 5 to 25 lakh for first-time or budget buyers.",
    "urls": {
     "product_page": "https://www.avivaindia.com/term-insurance-plans/aviva-saral-jeevan-bima-plan",
-    "brochure": null
+    "brochure": "https://www.avivaindia.com/sites/default/files/AVI00637%20-%20Saral%20Jeevan%20Bima%20Plan.pdf"
    },
    "sources": [
-    "https://www.avivaindia.com/life-insurance-plans"
+    "https://www.avivaindia.com/term-insurance-plans/aviva-saral-jeevan-bima-plan"
    ],
-   "completeness": "list-only",
+   "completeness": "full",
    "last_verified": "2026-10-28"
   },
   {
@@ -335,7 +395,7 @@
    "segment": "Individual",
    "category": "Health & CI",
    "plan_structure": null,
-   "sub_category": null,
+   "sub_category": "Generic landing page - no plan name or UIN",
    "linkage": null,
    "participation": null,
    "need_tags": [],
@@ -382,47 +442,57 @@
    "online_purchase": null,
    "channels": [],
    "tax_benefits": null,
-   "description": null,
+   "description": "Generic information page on critical illness cover; it names no specific plan or UIN, so it looks like a landing page rather than a distinct product (the CI plan sold is Aviva Smart Vitals).",
    "urls": {
     "product_page": "https://www.avivaindia.com/health-insurance-plans/critical-illness-insurance",
     "brochure": null
    },
    "sources": [
-    "https://www.avivaindia.com/life-insurance-plans"
+    "https://www.avivaindia.com/health-insurance-plans/critical-illness-insurance"
    ],
    "completeness": "list-only",
    "last_verified": "2026-10-28"
   },
   {
-   "uin": null,
+   "uin": "122N159V02",
    "name": "Aviva Smart Vitals",
    "segment": "Individual",
    "category": "Health & CI",
-   "plan_structure": null,
+   "plan_structure": "Fixed Benefit Health",
    "sub_category": null,
-   "linkage": null,
-   "participation": null,
-   "need_tags": [],
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Health",
+    "Protection"
+   ],
    "standard_product": null,
    "status": "Active",
    "launch_date": null,
    "withdrawn_date": null,
    "variants": [],
    "eligibility": {
-    "entry_age_min_years": null,
-    "entry_age_max_years": null,
-    "maturity_age_max_years": null,
-    "policy_term_min_years": null,
-    "policy_term_max_years": null,
+    "entry_age_min_years": 20,
+    "entry_age_max_years": 60,
+    "maturity_age_max_years": 65,
+    "policy_term_min_years": 5,
+    "policy_term_max_years": 30,
     "whole_life": null,
-    "ppt_options": [],
-    "premium_modes": [],
-    "min_annual_premium_inr": null,
+    "ppt_options": [
+     "Regular"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": 4625,
     "min_single_premium_inr": null,
     "max_premium_text": null,
-    "min_sum_assured_inr": null,
-    "max_sum_assured_text": null,
-    "notes": null
+    "min_sum_assured_inr": 500000,
+    "max_sum_assured_text": "Base sum insured up to Rs 25 lakh; can grow through step-based wellness additions",
+    "notes": "Premium paying term equals policy term. Min annual premium Rs 4,625 (men) / Rs 4,800 (women). Page premium tables conflict on maximum premium. Smart tracking device needs base sum insured of Rs 10 lakh or more."
    },
    "benefits": {
     "death": null,
@@ -432,29 +502,41 @@
     "return_of_premium": null,
     "loan": null,
     "partial_withdrawal": null,
-    "other": null
+    "other": "Lump sum on first diagnosis of any of 49 listed critical illnesses, if the insured survives 15 days; base sum insured can rise each quarter through step-based wellness additions up to double."
    },
    "category_details": {
     "term": null,
     "ulip": null,
     "savings": null,
     "annuity": null,
-    "health": null
+    "health": {
+     "conditions_covered": 49,
+     "benefit_type": "Lump sum on diagnosis of a covered critical illness (no hospital bills needed)",
+     "waiting_period_days": 90,
+     "survival_period_days": 15
+    }
    },
-   "key_features": [],
+   "key_features": [
+    "Lump sum on diagnosis of 49 listed critical illnesses (first occurrence)",
+    "Sum insured can grow each quarter through wellness-linked additions, up to double",
+    "Smart tracking device at no extra cost (insurer's discretion) for base sum insured of Rs 10 lakh+",
+    "90-day waiting period and 15-day survival period",
+    "Premium fixed for the whole term"
+   ],
    "riders_available": [],
-   "online_purchase": null,
+   "online_purchase": true,
    "channels": [],
-   "tax_benefits": null,
-   "description": null,
+   "tax_benefits": "Premium deduction under s.80D (old regime): up to Rs 25,000 for self, spouse and children plus parents' limit",
+   "description": "Critical illness plan paying a lump sum on diagnosis of 49 illnesses, with a sum insured that can grow through wellness-linked additions.",
    "urls": {
     "product_page": "https://www.avivaindia.com/health-insurance-plans/aviva-smart-vitals",
-    "brochure": null
+    "brochure": "https://www.avivaindia.com/sites/default/files/Aviva%20Smart%20Vitals_SL%20%28A5%29_Digital_0.pdf"
    },
    "sources": [
-    "https://www.avivaindia.com/life-insurance-plans"
+    "https://www.avivaindia.com/health-insurance-plans/aviva-smart-vitals",
+    "https://www.avivaindia.com/sites/default/files/75.2.5%20Customer%20Information%20Sheet_Aviva%20Smart%20Vitals_0.pdf"
    ],
-   "completeness": "list-only",
+   "completeness": "partial",
    "last_verified": "2026-10-28"
   },
   {
@@ -548,142 +630,197 @@
    "last_verified": "2026-10-28"
   },
   {
-   "uin": null,
+   "uin": "122N179V02",
    "name": "Aviva Bharat Parivar Vikas Yojana",
    "segment": "Individual",
-   "category": null,
-   "plan_structure": null,
+   "category": "Savings - Par",
+   "plan_structure": "Endowment",
    "sub_category": null,
-   "linkage": null,
+   "linkage": "Non-Linked",
    "participation": "Par",
-   "need_tags": [],
+   "need_tags": [
+    "Savings",
+    "Protection"
+   ],
    "standard_product": null,
    "status": "Active",
    "launch_date": null,
    "withdrawn_date": null,
-   "variants": [],
+   "variants": [
+    {
+     "name": "Option A",
+     "summary": "Death sum assured is 10x annualised premium; maturity sum assured depends on age, premium and term; PPT is 5 years less than term."
+    },
+    {
+     "name": "Option B",
+     "summary": "Death sum assured equals maturity sum assured; premium depends on age, sum assured and term; PPT is 5 years less than term."
+    }
+   ],
    "eligibility": {
-    "entry_age_min_years": null,
-    "entry_age_max_years": null,
-    "maturity_age_max_years": null,
-    "policy_term_min_years": null,
-    "policy_term_max_years": null,
-    "whole_life": null,
-    "ppt_options": [],
-    "premium_modes": [],
-    "min_annual_premium_inr": null,
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 50,
+    "maturity_age_max_years": 70,
+    "policy_term_min_years": 15,
+    "policy_term_max_years": 30,
+    "whole_life": false,
+    "ppt_options": [
+     "Limited 10",
+     "Limited 15",
+     "Limited 20",
+     "Limited 25"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": 10000,
     "min_single_premium_inr": null,
-    "max_premium_text": null,
-    "min_sum_assured_inr": null,
-    "max_sum_assured_text": null,
-    "notes": null
+    "max_premium_text": "No limit, subject to board-approved underwriting policy",
+    "min_sum_assured_inr": 100000,
+    "max_sum_assured_text": "No limit, subject to board-approved underwriting policy",
+    "notes": "Premium paying term is 5 years less than policy term. Page FAQ gives minimum entry age 25, conflicting with the eligibility table (18). Option A premiums in multiples of Rs 1,000; Option B in multiples of Re 1."
    },
    "benefits": {
-    "death": null,
-    "maturity": null,
+    "death": "Higher of death sum assured or 105% of premiums paid, plus vested simple reversionary and terminal bonuses.",
+    "maturity": "Maturity sum assured plus bonuses, subject to a minimum of 101% of total premiums paid.",
     "survival_income": null,
-    "guaranteed": null,
+    "guaranteed": true,
     "return_of_premium": null,
-    "loan": null,
+    "loan": true,
     "partial_withdrawal": null,
-    "other": null
+    "other": "Policy loan up to 80% of higher of surrender value or special surrender value; premium waiver on death; revival within 5 years; 30-day free look."
    },
    "category_details": {
     "term": null,
     "ulip": null,
-    "savings": null,
+    "savings": {
+     "payout_type": "Lump sum",
+     "bonus_type": "Reversionary"
+    },
     "annuity": null,
     "health": null
    },
-   "key_features": [],
-   "riders_available": [],
-   "online_purchase": null,
+   "key_features": [
+    "Non-linked participating plan with maturity of at least 101% of premiums paid",
+    "Premium waiver on death of the life insured",
+    "Choice of yearly, half-yearly, quarterly or monthly premiums",
+    "Optional Cancer Cardio rider for critical illness cover",
+    "e-KYC onboarding and online purchase"
+   ],
+   "riders_available": [
+    "Aviva Cancer Cardio Non-Linked Rider"
+   ],
+   "online_purchase": true,
    "channels": [],
-   "tax_benefits": null,
-   "description": null,
+   "tax_benefits": "s.80C and s.10(10D) as per prevailing law (subject to change)",
+   "description": "Participating endowment-style savings plan with reversionary bonuses and a limited premium-paying term for family savings goals.",
    "urls": {
     "product_page": "https://www.avivaindia.com/saving-investment-plans/aviva-bharat-parivar-vikas-yojana",
-    "brochure": null
+    "brochure": "https://www.avivaindia.com/sites/default/files/Aviva-Bharat-Parivar-Vikas-Yojana-Sales-Literature_0.pdf"
    },
    "sources": [
-    "https://www.avivaindia.com/life-insurance-plans"
+    "https://www.avivaindia.com/saving-investment-plans/aviva-bharat-parivar-vikas-yojana",
+    "https://www.avivaindia.com/sites/default/files/Policy_Document_Aviva_Bharat_Parivar_Vikas_Yojana.pdf"
    ],
-   "completeness": "list-only",
+   "completeness": "full",
    "last_verified": "2026-10-28"
   },
   {
-   "uin": null,
+   "uin": "122N180V01",
    "name": "Aviva Bharat Bal Vikas Yojana",
    "segment": "Individual",
-   "category": null,
-   "plan_structure": null,
+   "category": "Savings - Non-Par",
+   "plan_structure": "Endowment",
    "sub_category": null,
-   "linkage": null,
-   "participation": null,
-   "need_tags": [],
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Child",
+    "Savings"
+   ],
    "standard_product": null,
    "status": "Active",
    "launch_date": null,
    "withdrawn_date": null,
    "variants": [],
    "eligibility": {
-    "entry_age_min_years": null,
-    "entry_age_max_years": null,
-    "maturity_age_max_years": null,
-    "policy_term_min_years": null,
-    "policy_term_max_years": null,
-    "whole_life": null,
-    "ppt_options": [],
-    "premium_modes": [],
-    "min_annual_premium_inr": null,
+    "entry_age_min_years": 3,
+    "entry_age_max_years": 50,
+    "maturity_age_max_years": 80,
+    "policy_term_min_years": 12,
+    "policy_term_max_years": 30,
+    "whole_life": false,
+    "ppt_options": [
+     "Limited 7",
+     "Limited 10",
+     "Limited 15",
+     "Limited 20",
+     "Limited 25"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": 12000,
     "min_single_premium_inr": null,
-    "max_premium_text": null,
+    "max_premium_text": "Annual premium up to Rs 60,000 (highest listed option)",
     "min_sum_assured_inr": null,
     "max_sum_assured_text": null,
-    "notes": null
+    "notes": "Min entry age 6 for a 12-year term. Page text is inconsistent on PPT: key features cite PPT of 7 to 25 years while a note says PPT equals the selected policy term. Listed premium options start at Rs 1,000 a month."
    },
    "benefits": {
-    "death": null,
-    "maturity": null,
+    "death": "Nominee receives the highest of 7x or 10x annualised premium, a factor-based percentage (minimum 105%) of premiums paid, or surrender value, provided premiums are paid.",
+    "maturity": "Guaranteed, pre-determined maturity sum assured if the life survives and all dues are paid.",
     "survival_income": null,
-    "guaranteed": null,
+    "guaranteed": true,
     "return_of_premium": null,
-    "loan": null,
+    "loan": true,
     "partial_withdrawal": null,
     "other": null
    },
    "category_details": {
     "term": null,
     "ulip": null,
-    "savings": null,
+    "savings": {
+     "payout_type": "Lump sum"
+    },
     "annuity": null,
     "health": null
    },
-   "key_features": [],
+   "key_features": [
+    "Policy term 12 to 30 years; premium term 7 to 25 years",
+    "Guaranteed pre-determined maturity amount for a child's education, marriage or other goals",
+    "Premiums from Rs 1,000 a month, with no modal loading and a higher maturity amount for less frequent modes",
+    "Aimed at rural and semi-urban customers"
+   ],
    "riders_available": [],
    "online_purchase": null,
    "channels": [],
-   "tax_benefits": null,
-   "description": null,
+   "tax_benefits": "As per prevailing tax laws (subject to change)",
+   "description": "Non-participating guaranteed-maturity savings plan from Rs 1,000 a month for goals such as a child's education or marriage, aimed at rural and semi-urban families.",
    "urls": {
     "product_page": "https://www.avivaindia.com/saving-investment-plans/aviva-bharat-bal-vikas-yojana",
-    "brochure": null
+    "brochure": "https://www.avivaindia.com/sites/default/files/AVI00485%20-%20Bharat%20Baal%20Vikas%20Yojana%20-%20SL_1%20%284%29.pdf"
    },
    "sources": [
-    "https://www.avivaindia.com/life-insurance-plans"
+    "https://www.avivaindia.com/saving-investment-plans/aviva-bharat-bal-vikas-yojana"
    ],
-   "completeness": "list-only",
+   "completeness": "full",
    "last_verified": "2026-10-28"
   },
   {
    "uin": "122N146V03",
    "name": "Aviva Signature Guaranteed Income Plan",
    "segment": "Individual",
-   "category": null,
+   "category": "Savings - Non-Par",
    "plan_structure": "Guaranteed Income",
    "sub_category": null,
-   "linkage": null,
-   "participation": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
    "need_tags": [
     "Savings"
    ],
@@ -859,41 +996,47 @@
    "last_verified": "2026-10-28"
   },
   {
-   "uin": null,
+   "uin": "122N132V03",
    "name": "POS Aviva Dhan Suraksha",
    "segment": "Individual",
-   "category": null,
-   "plan_structure": null,
+   "category": "Savings - Non-Par",
+   "plan_structure": "Guaranteed Income",
    "sub_category": null,
-   "linkage": null,
-   "participation": null,
-   "need_tags": [],
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Savings"
+   ],
    "standard_product": null,
    "status": "Active",
    "launch_date": null,
    "withdrawn_date": null,
    "variants": [],
    "eligibility": {
-    "entry_age_min_years": null,
-    "entry_age_max_years": null,
-    "maturity_age_max_years": null,
-    "policy_term_min_years": null,
-    "policy_term_max_years": null,
-    "whole_life": null,
-    "ppt_options": [],
-    "premium_modes": [],
-    "min_annual_premium_inr": null,
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 50,
+    "maturity_age_max_years": 61,
+    "policy_term_min_years": 11,
+    "policy_term_max_years": 11,
+    "whole_life": false,
+    "ppt_options": [
+     "Limited 10"
+    ],
+    "premium_modes": [
+     "Annual"
+    ],
+    "min_annual_premium_inr": 10000,
     "min_single_premium_inr": null,
-    "max_premium_text": null,
-    "min_sum_assured_inr": null,
-    "max_sum_assured_text": null,
-    "notes": null
+    "max_premium_text": "Annualised premium up to Rs 67,500 (age 18-30), Rs 68,000 (31-45), Rs 68,500 (46-50)",
+    "min_sum_assured_inr": 145000,
+    "max_sum_assured_text": "Per life Rs 9,78,750 (age 18-30), Rs 9,86,000 (31-45), Rs 9,93,250 (46-50)",
+    "notes": "Policy term fixed at 11 years with 10 years of premium payment, annual mode only. Premium is chosen by the policyholder and sets the sum assured by entry age."
    },
    "benefits": {
-    "death": null,
-    "maturity": null,
+    "death": "Non-accidental death in the waiting period returns 100% of premiums paid; otherwise pays 5 annual instalments of 1.5x annualised premium, a 7x lump sum with the 5th instalment and an age-related guaranteed terminal benefit with the last payout (all dues paid).",
+    "maturity": "On survival, 5 annual payouts of 1.5x annualised premium, a 7x lump sum with the 5th payout and an age-related guaranteed terminal benefit with the last payout.",
     "survival_income": null,
-    "guaranteed": null,
+    "guaranteed": true,
     "return_of_premium": null,
     "loan": null,
     "partial_withdrawal": null,
@@ -902,24 +1045,35 @@
    "category_details": {
     "term": null,
     "ulip": null,
-    "savings": null,
+    "savings": {
+     "payout_type": "Lump sum + Income",
+     "income_duration": "5 years of annual payouts after the policy term"
+    },
     "annuity": null,
     "health": null
    },
-   "key_features": [],
+   "key_features": [
+    "Non-linked non-participating cum savings plan",
+    "11-year term with 10 years of premium payment, annual mode only",
+    "Five annual payouts of 1.5x annualised premium",
+    "Lump sum of 7x annualised premium with the 5th payout",
+    "Guaranteed terminal benefit with the last payout"
+   ],
    "riders_available": [],
    "online_purchase": null,
-   "channels": [],
-   "tax_benefits": null,
-   "description": null,
+   "channels": [
+    "POSP"
+   ],
+   "tax_benefits": "Per Income Tax Act 1961 (subject to change)",
+   "description": "Point-of-sale guaranteed savings plan with an 11-year term that pays five annual instalments plus a lump sum and terminal benefit.",
    "urls": {
     "product_page": "https://www.avivaindia.com/saving-investment-plans/pos-aviva-dhan-suraksha",
-    "brochure": null
+    "brochure": "https://www.avivaindia.com/sites/default/files/AVI00617%20-%20POS%20Dhan%20Suraksha.pdf"
    },
    "sources": [
-    "https://www.avivaindia.com/life-insurance-plans"
+    "https://www.avivaindia.com/saving-investment-plans/pos-aviva-dhan-suraksha"
    ],
-   "completeness": "list-only",
+   "completeness": "full",
    "last_verified": "2026-10-28"
   },
   {
@@ -1364,131 +1518,204 @@
    "last_verified": "2026-10-28"
   },
   {
-   "uin": null,
+   "uin": "122N182V01",
    "name": "Aviva Secure Nest Annuity Plan",
    "segment": "Individual",
    "category": "Pension & Annuity",
-   "plan_structure": null,
+   "plan_structure": "Immediate Annuity",
    "sub_category": null,
-   "linkage": null,
-   "participation": null,
-   "need_tags": [],
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Retirement"
+   ],
    "standard_product": null,
    "status": "Active",
    "launch_date": null,
    "withdrawn_date": null,
-   "variants": [],
+   "variants": [
+    {
+     "name": "Life Annuity",
+     "summary": "Lifetime income; nothing paid on death."
+    },
+    {
+     "name": "Guaranteed Period + Life",
+     "summary": "Income guaranteed for 5, 10, 15 or 20 years, then continues for life."
+    },
+    {
+     "name": "Increasing Annuity",
+     "summary": "Income grows 3% a year (simple) for life."
+    },
+    {
+     "name": "Life Annuity with Return of Purchase Price",
+     "summary": "Lifetime income; purchase price paid to nominee on death."
+    },
+    {
+     "name": "Joint Life Annuity",
+     "summary": "Income continues while either of two annuitants is alive."
+    },
+    {
+     "name": "Joint Life with Return of Purchase Price",
+     "summary": "Income for both lives; purchase price returned after the last survivor dies."
+    },
+    {
+     "name": "NPS Family Income Option",
+     "summary": "Special structure for NPS subscribers following PFRDA guidelines."
+    }
+   ],
    "eligibility": {
-    "entry_age_min_years": null,
-    "entry_age_max_years": null,
+    "entry_age_min_years": 40,
+    "entry_age_max_years": 80,
     "maturity_age_max_years": null,
     "policy_term_min_years": null,
     "policy_term_max_years": null,
     "whole_life": null,
-    "ppt_options": [],
-    "premium_modes": [],
+    "ppt_options": [
+     "Single"
+    ],
+    "premium_modes": [
+     "Single"
+    ],
     "min_annual_premium_inr": null,
     "min_single_premium_inr": null,
     "max_premium_text": null,
     "min_sum_assured_inr": null,
     "max_sum_assured_text": null,
-    "notes": null
+    "notes": "Minimum annuity Rs 1,000 a month / 3,000 a quarter / 6,000 half-yearly / 12,000 a year; minimum purchase price not stated as a figure. Minimum age 40 applies to the general public."
    },
    "benefits": {
-    "death": null,
-    "maturity": null,
-    "survival_income": null,
-    "guaranteed": null,
+    "death": "Depends on option: payouts stop under the basic life annuity, guaranteed-period payouts continue to the nominee, and return-of-purchase-price options refund the purchase price.",
+    "maturity": "None.",
+    "survival_income": "Lifetime annuity paid monthly, quarterly, half-yearly or yearly, starting right after issue.",
+    "guaranteed": true,
     "return_of_premium": null,
-    "loan": null,
+    "loan": false,
     "partial_withdrawal": null,
-    "other": null
+    "other": "No surrender value; 30-day free look."
    },
    "category_details": {
     "term": null,
     "ulip": null,
     "savings": null,
-    "annuity": null,
+    "annuity": {
+     "annuity_options_count": 7,
+     "immediate_or_deferred": "Immediate",
+     "joint_life": true,
+     "return_of_purchase_price": true
+    },
     "health": null
    },
-   "key_features": [],
+   "key_features": [
+    "Single-premium immediate annuity turning a lump sum into lifelong income",
+    "Seven options including guaranteed period, increasing and joint life",
+    "Return of purchase price to nominee in selected options",
+    "Monthly, quarterly, half-yearly or yearly payouts"
+   ],
    "riders_available": [],
    "online_purchase": null,
    "channels": [],
-   "tax_benefits": null,
-   "description": null,
+   "tax_benefits": "Per prevailing tax laws; annuity income taxable at the holder's slab",
+   "description": "Single-premium immediate annuity with seven payout options, including joint life, increasing income and return of purchase price.",
    "urls": {
     "product_page": "https://www.avivaindia.com/retirement-pension-plans/aviva-secure-nest-annuity-plan",
-    "brochure": null
+    "brochure": "https://www.avivaindia.com/sites/default/files/Sales-Literature_Aviva-Secure-Nest-Annuity-Plan.pdf"
    },
    "sources": [
-    "https://www.avivaindia.com/life-insurance-plans"
+    "https://www.avivaindia.com/retirement-pension-plans/aviva-secure-nest-annuity-plan",
+    "https://www.avivaindia.com/sites/default/files/75.2.5_CIS_Aviva_Secure_Nest_Annuity_Plan.pdf"
    ],
-   "completeness": "list-only",
+   "completeness": "partial",
    "last_verified": "2026-10-28"
   },
   {
-   "uin": null,
+   "uin": "122N138V03",
    "name": "Aviva Saral Pension Plan",
    "segment": "Individual",
    "category": "Pension & Annuity",
    "plan_structure": "Immediate Annuity",
    "sub_category": null,
-   "linkage": null,
-   "participation": null,
-   "need_tags": [],
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Retirement"
+   ],
    "standard_product": "Saral Pension",
    "status": "Active",
    "launch_date": null,
    "withdrawn_date": null,
-   "variants": [],
+   "variants": [
+    {
+     "name": "Single Life",
+     "summary": "Annuity for life; on death it stops and 100% of the purchase price goes to nominees or legal heirs."
+    },
+    {
+     "name": "Joint Life",
+     "summary": "Annuity continues at 100% while either annuitant lives; purchase price paid to nominees after the last survivor dies."
+    }
+   ],
    "eligibility": {
-    "entry_age_min_years": null,
-    "entry_age_max_years": null,
+    "entry_age_min_years": 40,
+    "entry_age_max_years": 80,
     "maturity_age_max_years": null,
     "policy_term_min_years": null,
     "policy_term_max_years": null,
     "whole_life": null,
-    "ppt_options": [],
-    "premium_modes": [],
+    "ppt_options": [
+     "Single"
+    ],
+    "premium_modes": [
+     "Single"
+    ],
     "min_annual_premium_inr": null,
-    "min_single_premium_inr": null,
-    "max_premium_text": null,
+    "min_single_premium_inr": 178044,
+    "max_premium_text": "No cap on investment amount",
     "min_sum_assured_inr": null,
     "max_sum_assured_text": null,
-    "notes": null
+    "notes": "Min single premium Rs 1,78,044 (single life) or Rs 1,78,593 (joint life) for a minimum annual annuity of Rs 12,000. Payout modes: monthly, quarterly, half-yearly, yearly. Whole-life policy with no maximum maturity age."
    },
    "benefits": {
-    "death": null,
+    "death": "Single life: annuity stops and 100% of purchase price goes to nominees. Joint life: annuity continues after first death; purchase price paid after the last survivor dies.",
     "maturity": null,
-    "survival_income": null,
-    "guaranteed": null,
+    "survival_income": "Annuity paid per chosen mode for as long as the annuitant (or either joint annuitant) lives.",
+    "guaranteed": true,
     "return_of_premium": null,
-    "loan": null,
+    "loan": true,
     "partial_withdrawal": null,
-    "other": null
+    "other": "Loan available after 6 months (effective annual interest capped at 50% of annual annuity); surrender allowed after 6 months on specified critical illness of annuitant, spouse or child, paying 95% of purchase price."
    },
    "category_details": {
     "term": null,
     "ulip": null,
     "savings": null,
-    "annuity": null,
+    "annuity": {
+     "annuity_options_count": 2,
+     "immediate_or_deferred": "Immediate",
+     "joint_life": true,
+     "return_of_purchase_price": true,
+     "min_purchase_price_inr": 178044
+    },
     "health": null
    },
-   "key_features": [],
+   "key_features": [
+    "Single payment buys a guaranteed income for life, with a joint-life option for a spouse",
+    "Returns are guaranteed and not linked to markets or insurer profits",
+    "Loan available after the first six months",
+    "Monthly, quarterly, half-yearly or yearly payouts"
+   ],
    "riders_available": [],
    "online_purchase": null,
    "channels": [],
-   "tax_benefits": null,
-   "description": null,
+   "tax_benefits": "Stated as eligible under s.80CCC and s.10(10A)(iii) of the Income Tax Act 1961 (subject to change)",
+   "description": "IRDAI standard single-premium immediate annuity offering lifetime income on single or joint lives, with purchase price returned to nominees.",
    "urls": {
     "product_page": "https://www.avivaindia.com/retirement-pension-plans/aviva-saral-pension-plan",
-    "brochure": null
+    "brochure": "https://www.avivaindia.com/sites/default/files/sales-literature-saral-pension.pdf"
    },
    "sources": [
-    "https://www.avivaindia.com/life-insurance-plans"
+    "https://www.avivaindia.com/retirement-pension-plans/aviva-saral-pension-plan",
+    "https://www.avivaindia.com/sites/default/files/cis-aviva-saral-pension.pdf"
    ],
-   "completeness": "list-only",
+   "completeness": "full",
    "last_verified": "2026-10-28"
   },
   {
@@ -2452,5 +2679,5 @@
    "last_verified": "2026-10-28"
   }
  ],
- "notes": "Inventory from homepage menu + /life-insurance-plans + /group-insurance-plans (no UINs shown on listings). WebFetch refused (URL_NOT_ON_ALLOWLIST) /product-downloads, /riders-aviva-life-insurance, /public-disclosures-aviva-life-insurance, /important-policies, /information-disclosures - the weekly job should read these for UINs, riders, brochures and any withdrawn-product list. SEO landing pages (1 Crore / 2 Crore / 25 Lakh / 50 Lakh / 10 Year term, Family Life) are not separate products and are not listed."
+ "notes": "Inventory built from homepage menu, /life-insurance-plans and /group-insurance-plans (listings show no UINs). WebFetch refused (URL_NOT_ON_ALLOWLIST) /product-downloads, /riders-aviva-life-insurance, /public-disclosures-aviva-life-insurance, /important-policies, /information-disclosures: the weekly job should read these for group/rider UINs, brochures and any withdrawn-product list (none found; one search tried). Group products (12) have no UIN; riders: only 3 named from product pages, no UIN. No micro products identified (Bharat Parivar Vikas Yojana is a par individual plan per its page). Spec gaps: Signature Investment Plan 122L144V02 lacks min premium/SA; Signature Investment Plan Limited Pay 122L150V03 and Signature Increasing Income Plan 122N158V01 had empty eligibility tables on the page (use brochure/policy document); Secure Nest Annuity min purchase price not stated; no ULIP charge fields (FMC, allocation, admin) captured. Signature Guaranteed Income Plan 122N146V03: participation not stated on page, classified Non-Par from its guaranteed/loyalty additions - verify from brochure. 'Aviva Critical Illness Insurance' is a generic landing page with no plan name or UIN (likely not a distinct product; the CI plan is Aviva Smart Vitals). SEO pages (1 Crore, 2 Crore, 25 Lakh, 50 Lakh, 10-year term, Family Life) are not products. Seen in search but unverified: LifeShield Advantage key-features PDF and Term Plus Rider PDF (possibly older/withdrawn)."
 }

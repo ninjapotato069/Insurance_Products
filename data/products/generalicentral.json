@@ -886,59 +886,61 @@
    "withdrawn_date": null,
    "variants": [
     {
-     "name": "Option 1 - Wealth",
-     "summary": "Lump sum at the end of the term (CIS sample: 25 years)"
+     "name": "Option 1: Wealth Option",
+     "summary": "25-year term, single premium; lump-sum maturity at term end (example: 450282 on 100000 premium); no survival benefits."
     },
     {
-     "name": "Option 2 - Income",
-     "summary": "Yearly survival benefit from end of year 1 plus sum assured at maturity (CIS sample: 30 years)"
+     "name": "Option 2: Income Option",
+     "summary": "30-year term, single premium; yearly survival benefit from end of year 1 (example: 5438) plus 100000 lump sum at maturity."
     }
    ],
    "eligibility": {
     "entry_age_min_years": null,
     "entry_age_max_years": null,
     "maturity_age_max_years": null,
-    "policy_term_min_years": null,
-    "policy_term_max_years": null,
-    "whole_life": null,
+    "policy_term_min_years": 25,
+    "policy_term_max_years": 30,
+    "whole_life": false,
     "ppt_options": [
-     "Single"
+     "Single premium"
     ],
     "premium_modes": [
-     "Single"
+     "Single payment"
     ],
     "min_annual_premium_inr": null,
     "min_single_premium_inr": null,
     "max_premium_text": null,
     "min_sum_assured_inr": null,
     "max_sum_assured_text": null,
-    "notes": "Terms of 25 and 30 years come from CIS sample illustrations (sample single premium Rs 1,00,000); entry age and premium limits not captured."
+    "notes": "Wealth Option term 25 years; Income Option term 30 years (widest range shown). Examples use 100000 single premium excluding taxes and list sum assured on death as 100000, yet death-benefit text uses 125000 (1.25x premium). Entry age, maturity age, minimum premium and minimum sum assured not stated."
    },
    "benefits": {
-    "death": "Higher of 1.25x the single premium or the surrender value",
-    "maturity": "Option 1: lump sum at term end; Option 2: sum assured with the last survival benefit",
-    "survival_income": "Option 2: yearly payout from end of year 1 to term end",
-    "guaranteed": true,
-    "return_of_premium": null,
-    "loan": true,
+    "death": "Higher of 125% of single premium paid (excluding taxes, riders and extra underwriting premiums where separately charged) or surrender value at death; payable even if survival benefits were paid earlier; policy ends.",
+    "maturity": "Wealth Option: lump sum at end of term (example: 450282 on 100000 premium). Income Option: 100000 lump sum paid with the final survival benefit at end of term.",
+    "survival_income": "Wealth Option: none. Income Option: yearly payout (example: 5438) from end of year 1 until the term ends.",
+    "guaranteed": "Guaranteed surrender value (GSV) payable on surrender; no other guarantees stated.",
+    "return_of_premium": "Free-look: premium refunded if no claim is made within 30 days after policy delivery.",
+    "loan": "Can be taken once surrender value exists; maximum 85% of that value; minimum 10000.",
     "partial_withdrawal": null,
-    "other": "Loan up to 85% of surrender value (min Rs 10,000); no riders"
+    "other": "Surrender allowed once surrender value applies (after single premium); pays higher of guaranteed (GSV) or special (SSV) surrender value, then policy ends. Suicide within 12 months (policy in force): nominee gets at least 80% of premiums paid or surrender value, whichever is higher."
    },
    "category_details": {
     "term": null,
     "ulip": null,
     "savings": {
-     "payout_type": "Lump sum + Income",
-     "bonus_type": "None"
+     "payout_type": "Wealth: lump sum at maturity. Income: yearly survival benefits plus lump sum at maturity.",
+     "bonus_type": "None; the plan does not share in profits.",
+     "income_duration": "Income Option only: yearly from end of year 1 until end of the 30-year term."
     },
     "annuity": null,
     "health": null
    },
    "key_features": [
-    "One-time premium with guaranteed benefits",
-    "Wealth option gives a lump sum at term end; Income option pays yearly from year 1",
-    "Death cover of 1.25x the single premium",
-    "Loan up to 85% of surrender value"
+    "Single-premium savings plan with life cover; not market-linked, no profit sharing.",
+    "Wealth Option: 25-year term with lump-sum maturity benefit.",
+    "Income Option: 30-year term with yearly survival benefits plus lump sum.",
+    "Death benefit: higher of 125% of premium paid or surrender value.",
+    "Loan up to 85% of surrender value; 30-day free-look period."
    ],
    "riders_available": [],
    "online_purchase": null,
