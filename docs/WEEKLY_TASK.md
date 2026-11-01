@@ -30,6 +30,8 @@ shows which product pages failed or had no UINs.
 `data/refresh/last_run.json` → `product_pages.unmatched` lists UINs found on an official product list the
 first time the Action read that page, but missing from the catalogue. Research and add them as in step 1
 (log nothing unless the product launched in the last 60 days, then log it as `launch`).
+Tata AIA's official list shows active and withdrawn products together, so most of its unmatched UINs are
+withdrawn plans: add them as `"status": "Withdrawn"` list-only rows in batches of 50 from that one page.
 
 ## 2. Insurers the Action could not read
 For each insurer in `last_run.json` → `product_pages.failed` / `no_uin`: one search for launches or
@@ -55,6 +57,13 @@ Council / IRDAI), quarterly public disclosures (solvency, persistency, AUM), IRD
 ## 6. Reviews — 3 insurers per week (rotation as in step 4, offsets 5, 14, 23)
 Refresh `positives`, `negatives`, `review_summary`, `third_party` in `data/reviews.json`
 (`docs/REVIEWS_SPEC.md`). App ratings are already refreshed by the Action.
+
+## 6b. Verify auto-matched apps — up to 4 per week
+`data/companies.json` → `apps_auto` lists stores whose app id was matched by store search, not checked.
+Confirm on the insurer's website ("download our app" links) that it is the customer-servicing app.
+Correct → remove that store from `apps_auto`. Wrong (agent/sales/wellness app) → put the right id in
+`apps`, drop the store from `apps_auto`, and delete that store's block in `data/reviews.json` so the
+Action fetches the right rating next Monday.
 
 ## 7. Build, publish, report
 ```

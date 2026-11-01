@@ -50,8 +50,14 @@ NOT_CUSTOMER_APP = re.compile(r"agent|advis|partner|sales|employee|\bpos\b|recru
                               r"dealer|branch|\bhr\b|training|learning|\bdms\b|bancassurance|distributor", re.I)
 
 
-def _pick(results, tokens, title_key, dev_keys):
+TEST_BUILD = re.compile(r"(^|[._])(uat|test|qa|dev|staging|beta|sit)([._]|$)", re.I)
+
+
+def _pick(results, tokens, title_key, dev_keys, id_key):
     for r in results:
+        rid = r.get(id_key)
+        if not rid or TEST_BUILD.search(str(rid)):
+            continue
         title = str(r.get(title_key) or "")
         dev = " ".join(str(r.get(k) or "") for k in dev_keys).lower()
         if NOT_CUSTOMER_APP.search(title):
@@ -76,9 +82,11 @@ def discover_apps(companies):
         query = comp.get("name") or comp.get("short")
         if not apps.get("android") and play_search:
             try:
-                hit = _pick(play_search(query, lang="en", country="in", n_hits=10) or [], tokens, "title", ["developer"])
+                hit = _pick(play_search(query, lang="en", country="in", n_hits=10) or [], tokens, "title", ["developer"],
+                            "appId")
                 if hit:
                     apps["android"] = hit["appId"]
+                    comp["apps_auto"] = sorted(set(comp.get("apps_auto", [])) | {"android"})
                     found.append({"company_id": comp["id"], "store": "android", "id": hit["appId"],
                                   "title": hit.get("title"), "developer": hit.get("developer")})
             except Exception as e:  # noqa: BLE001
@@ -87,9 +95,10 @@ def discover_apps(companies):
             try:
                 r = requests.get("https://itunes.apple.com/search", headers=HEADERS, timeout=30,
                                  params={"term": query, "country": "in", "entity": "software", "limit": 10})
-                hit = _pick(r.json().get("results") or [], tokens, "trackName", ["sellerName", "artistName"])
+                hit = _pick(r.json().get("results") or [], tokens, "trackName", ["sellerName", "artistName"], "trackId")
                 if hit:
                     apps["ios"] = str(hit["trackId"])
+                    comp["apps_auto"] = sorted(set(comp.get("apps_auto", [])) | {"ios"})
                     found.append({"company_id": comp["id"], "store": "ios", "id": str(hit["trackId"]),
                                   "title": hit.get("trackName"), "developer": hit.get("sellerName")})
             except Exception as e:  # noqa: BLE001

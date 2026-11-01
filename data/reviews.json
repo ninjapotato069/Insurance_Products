@@ -541,16 +541,6 @@
    "sources": []
   },
   "sud": {
-   "android": {
-    "package": "com.sudlife.youmatter.app.uat",
-    "app_name": "You Matter - By SUD Life",
-    "rating": 3.99,
-    "ratings_count": 179,
-    "installs": "100,000+",
-    "last_updated": "2026-10-22",
-    "observed_on": "2026-11-01",
-    "source": "https://play.google.com/store/apps/details?id=com.sudlife.youmatter.app.uat"
-   },
    "ios": {
     "app_id": "1636868769",
     "app_name": "You Matter - By SUD Life",

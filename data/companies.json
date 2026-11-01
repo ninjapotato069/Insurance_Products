@@ -7,7 +7,10 @@
   "apps": {
    "android": "com.lic.liccustomer",
    "ios": "1324159013"
-  }
+  },
+  "apps_auto": [
+   "ios"
+  ]
  },
  {
   "id": "sbi",
@@ -16,7 +19,10 @@
   "sector": "Private",
   "apps": {
    "ios": "1627221447"
-  }
+  },
+  "apps_auto": [
+   "ios"
+  ]
  },
  {
   "id": "hdfc",
@@ -24,8 +30,7 @@
   "short": "HDFC Life",
   "sector": "Private",
   "apps": {
-   "ios": "900441427",
-   "android": null
+   "ios": "900441427"
   }
  },
  {
@@ -36,7 +41,10 @@
   "apps": {
    "android": "com.ipru.iciciprulife.customer.release",
    "ios": "1495618064"
-  }
+  },
+  "apps_auto": [
+   "ios"
+  ]
  },
  {
   "id": "axismax",
@@ -49,7 +57,10 @@
   "apps": {
    "android": "com.maxlifeinsurance.www.twa",
    "ios": "6447048056"
-  }
+  },
+  "apps_auto": [
+   "ios"
+  ]
  },
  {
   "id": "bajaj",
@@ -60,9 +71,11 @@
    "Bajaj Allianz Life Insurance"
   ],
   "apps": {
-   "android": null,
    "ios": "6749006543"
-  }
+  },
+  "apps_auto": [
+   "ios"
+  ]
  },
  {
   "id": "tataaia",
@@ -71,7 +84,10 @@
   "sector": "Private",
   "apps": {
    "ios": "1634923478"
-  }
+  },
+  "apps_auto": [
+   "ios"
+  ]
  },
  {
   "id": "kotak",
@@ -81,7 +97,11 @@
   "apps": {
    "android": "com.wyh.happyyou",
    "ios": "1501295010"
-  }
+  },
+  "apps_auto": [
+   "android",
+   "ios"
+  ]
  },
  {
   "id": "absli",
@@ -90,7 +110,10 @@
   "sector": "Private",
   "apps": {
    "android": "com.bsli.servicebuddy"
-  }
+  },
+  "apps_auto": [
+   "android"
+  ]
  },
  {
   "id": "pnbmetlife",
@@ -98,9 +121,11 @@
   "short": "PNB MetLife",
   "sector": "Private",
   "apps": {
-   "android": null,
    "ios": "1483018010"
-  }
+  },
+  "apps_auto": [
+   "ios"
+  ]
  },
  {
   "id": "canarahsbc",
@@ -108,9 +133,11 @@
   "short": "Canara HSBC Life",
   "sector": "Private",
   "apps": {
-   "android": null,
    "ios": "1637840399"
-  }
+  },
+  "apps_auto": [
+   "ios"
+  ]
  },
  {
   "id": "indiafirst",
@@ -118,9 +145,11 @@
   "short": "IndiaFirst Life",
   "sector": "Private",
   "apps": {
-   "android": null,
    "ios": "6503947273"
-  }
+  },
+  "apps_auto": [
+   "ios"
+  ]
  },
  {
   "id": "sud",
@@ -128,9 +157,11 @@
   "short": "SUD Life",
   "sector": "Private",
   "apps": {
-   "android": "com.sudlife.youmatter.app.uat",
    "ios": "1636868769"
-  }
+  },
+  "apps_auto": [
+   "ios"
+  ]
  },
  {
   "id": "ageasfederal",
@@ -141,9 +172,11 @@
    "IDBI Federal Life Insurance"
   ],
   "apps": {
-   "android": null,
    "ios": "6756178483"
-  }
+  },
+  "apps_auto": [
+   "ios"
+  ]
  },
  {
   "id": "indusindnippon",
@@ -156,7 +189,11 @@
   "apps": {
    "android": "com.rnlicustomer.app",
    "ios": "6499210554"
-  }
+  },
+  "apps_auto": [
+   "android",
+   "ios"
+  ]
  },
  {
   "id": "bharti",
@@ -168,7 +205,10 @@
   ],
   "apps": {
    "ios": "6448939346"
-  }
+  },
+  "apps_auto": [
+   "ios"
+  ]
  },
  {
   "id": "generalicentral",
@@ -181,7 +221,11 @@
   "apps": {
    "android": "com.fgli",
    "ios": "1524802982"
-  }
+  },
+  "apps_auto": [
+   "android",
+   "ios"
+  ]
  },
  {
   "id": "edelweiss",
@@ -193,7 +237,10 @@
   ],
   "apps": {
    "android": "in.geogo.kriyam.fs.two"
-  }
+  },
+  "apps_auto": [
+   "android"
+  ]
  },
  {
   "id": "pramerica",
@@ -205,7 +252,10 @@
   ],
   "apps": {
    "android": "com.pramericasuperapp"
-  }
+  },
+  "apps_auto": [
+   "android"
+  ]
  },
  {
   "id": "aviva",
@@ -219,9 +269,11 @@
   "short": "Shriram Life",
   "sector": "Private",
   "apps": {
-   "android": null,
    "ios": "6751533161"
-  }
+  },
+  "apps_auto": [
+   "ios"
+  ]
  },
  {
   "id": "bandhan",
@@ -248,10 +300,7 @@
   "id": "acko",
   "name": "Acko Life Insurance",
   "short": "Acko Life",
-  "sector": "Private",
-  "apps": {
-   "android": null
-  }
+  "sector": "Private"
  },
  {
   "id": "sahara",
@@ -267,6 +316,9 @@
   "sector": "Government (outside IRDAI)",
   "apps": {
    "android": "src.com.dop"
-  }
+  },
+  "apps_auto": [
+   "android"
+  ]
  }
 ]
