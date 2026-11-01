@@ -5,14 +5,18 @@
   "short": "LIC",
   "sector": "Public sector",
   "apps": {
-   "android": "com.lic.liccustomer"
+   "android": "com.lic.liccustomer",
+   "ios": "1324159013"
   }
  },
  {
   "id": "sbi",
   "name": "SBI Life Insurance",
   "short": "SBI Life",
-  "sector": "Private"
+  "sector": "Private",
+  "apps": {
+   "ios": "1627221447"
+  }
  },
  {
   "id": "hdfc",
@@ -20,7 +24,8 @@
   "short": "HDFC Life",
   "sector": "Private",
   "apps": {
-   "ios": "900441427"
+   "ios": "900441427",
+   "android": null
   }
  },
  {
@@ -29,7 +34,8 @@
   "short": "ICICI Pru Life",
   "sector": "Private",
   "apps": {
-   "android": "com.ipru.iciciprulife.customer.release"
+   "android": "com.ipru.iciciprulife.customer.release",
+   "ios": "1495618064"
   }
  },
  {
@@ -41,7 +47,8 @@
    "Max Life Insurance"
   ],
   "apps": {
-   "android": "com.maxlifeinsurance.www.twa"
+   "android": "com.maxlifeinsurance.www.twa",
+   "ios": "6447048056"
   }
  },
  {
@@ -51,49 +58,79 @@
   "sector": "Private",
   "former_names": [
    "Bajaj Allianz Life Insurance"
-  ]
+  ],
+  "apps": {
+   "android": null,
+   "ios": "6749006543"
+  }
  },
  {
   "id": "tataaia",
   "name": "Tata AIA Life Insurance",
   "short": "Tata AIA",
-  "sector": "Private"
+  "sector": "Private",
+  "apps": {
+   "ios": "1634923478"
+  }
  },
  {
   "id": "kotak",
   "name": "Kotak Mahindra Life Insurance",
   "short": "Kotak Life",
-  "sector": "Private"
+  "sector": "Private",
+  "apps": {
+   "android": "com.wyh.happyyou",
+   "ios": "1501295010"
+  }
  },
  {
   "id": "absli",
   "name": "Aditya Birla Sun Life Insurance",
   "short": "Aditya Birla SL",
-  "sector": "Private"
+  "sector": "Private",
+  "apps": {
+   "android": "com.bsli.servicebuddy"
+  }
  },
  {
   "id": "pnbmetlife",
   "name": "PNB MetLife India Insurance",
   "short": "PNB MetLife",
-  "sector": "Private"
+  "sector": "Private",
+  "apps": {
+   "android": null,
+   "ios": "1483018010"
+  }
  },
  {
   "id": "canarahsbc",
   "name": "Canara HSBC Life Insurance",
   "short": "Canara HSBC Life",
-  "sector": "Private"
+  "sector": "Private",
+  "apps": {
+   "android": null,
+   "ios": "1637840399"
+  }
  },
  {
   "id": "indiafirst",
   "name": "IndiaFirst Life Insurance",
   "short": "IndiaFirst Life",
-  "sector": "Private"
+  "sector": "Private",
+  "apps": {
+   "android": null,
+   "ios": "6503947273"
+  }
  },
  {
   "id": "sud",
   "name": "Star Union Dai-ichi Life Insurance",
   "short": "SUD Life",
-  "sector": "Private"
+  "sector": "Private",
+  "apps": {
+   "android": "com.sudlife.youmatter.app.uat",
+   "ios": "1636868769"
+  }
  },
  {
   "id": "ageasfederal",
@@ -102,7 +139,11 @@
   "sector": "Private",
   "former_names": [
    "IDBI Federal Life Insurance"
-  ]
+  ],
+  "apps": {
+   "android": null,
+   "ios": "6756178483"
+  }
  },
  {
   "id": "indusindnippon",
@@ -111,7 +152,11 @@
   "sector": "Private",
   "former_names": [
    "Reliance Nippon Life Insurance"
-  ]
+  ],
+  "apps": {
+   "android": "com.rnlicustomer.app",
+   "ios": "6499210554"
+  }
  },
  {
   "id": "bharti",
@@ -120,7 +165,10 @@
   "sector": "Private",
   "former_names": [
    "Bharti AXA Life Insurance"
-  ]
+  ],
+  "apps": {
+   "ios": "6448939346"
+  }
  },
  {
   "id": "generalicentral",
@@ -129,7 +177,11 @@
   "sector": "Private",
   "former_names": [
    "Future Generali India Life Insurance"
-  ]
+  ],
+  "apps": {
+   "android": "com.fgli",
+   "ios": "1524802982"
+  }
  },
  {
   "id": "edelweiss",
@@ -138,7 +190,10 @@
   "sector": "Private",
   "former_names": [
    "Edelweiss Tokio Life Insurance"
-  ]
+  ],
+  "apps": {
+   "android": "in.geogo.kriyam.fs.two"
+  }
  },
  {
   "id": "pramerica",
@@ -147,7 +202,10 @@
   "sector": "Private",
   "former_names": [
    "DHFL Pramerica Life Insurance"
-  ]
+  ],
+  "apps": {
+   "android": "com.pramericasuperapp"
+  }
  },
  {
   "id": "aviva",
@@ -159,7 +217,11 @@
   "id": "shriram",
   "name": "Shriram Life Insurance",
   "short": "Shriram Life",
-  "sector": "Private"
+  "sector": "Private",
+  "apps": {
+   "android": null,
+   "ios": "6751533161"
+  }
  },
  {
   "id": "bandhan",
@@ -186,7 +248,10 @@
   "id": "acko",
   "name": "Acko Life Insurance",
   "short": "Acko Life",
-  "sector": "Private"
+  "sector": "Private",
+  "apps": {
+   "android": null
+  }
  },
  {
   "id": "sahara",
@@ -199,6 +264,9 @@
   "id": "indiapost",
   "name": "India Post Postal Life Insurance & Rural PLI",
   "short": "India Post PLI",
-  "sector": "Government (outside IRDAI)"
+  "sector": "Government (outside IRDAI)",
+  "apps": {
+   "android": "src.com.dop"
+  }
  }
 ]

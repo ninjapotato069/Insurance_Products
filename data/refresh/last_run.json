@@ -1,0 +1,3127 @@
+{
+ "run_at": "2026-11-01T17:50+05:30",
+ "source": "github-actions",
+ "product_pages": {
+  "ok": 24,
+  "failed": [
+   {
+    "company_id": "icici",
+    "url": "https://www.icicilife.com/icici-pru-active-and-withdrawn-products-list.html",
+    "error": "HTTP 403"
+   },
+   {
+    "company_id": "icici",
+    "url": "https://www.icicilife.com/icici-pru-active-and-withdrawn-products-list.html#a1",
+    "error": "HTTP 403"
+   },
+   {
+    "company_id": "icici",
+    "url": "https://www.icicilife.com/icici-pru-active-and-withdrawn-products-list.html#a2",
+    "error": "HTTP 403"
+   },
+   {
+    "company_id": "kotak",
+    "url": "https://www.kotaklife.com/how-do-i/get-customer-information-sheet",
+    "error": "HTTP 202"
+   },
+   {
+    "company_id": "kotak",
+    "url": "https://www.kotaklife.com/how-do-i/get-customer-information-rider",
+    "error": "HTTP 202"
+   },
+   {
+    "company_id": "kotak",
+    "url": "https://www.kotaklife.com/how-do-i/get-customer-information-group",
+    "error": "HTTP 202"
+   },
+   {
+    "company_id": "kotak",
+    "url": "https://www.kotaklife.com/how-do-i/check-policy-document-specimen-withdrawn-products",
+    "error": "HTTP 202"
+   },
+   {
+    "company_id": "canarahsbc",
+    "url": "https://www.canarahsbclife.com/product-list",
+    "error": "HTTP 403"
+   },
+   {
+    "company_id": "generalicentral",
+    "url": "https://life2.futuregenerali.in/insurance-plans/guaranteed-plans",
+    "error": "HTTP 404"
+   },
+   {
+    "company_id": "godigit",
+    "url": "https://www.godigit.com/life/download-policy",
+    "error": "HTTP 403"
+   },
+   {
+    "company_id": "godigit",
+    "url": "https://www.godigit.com/life-insurance/group-term-life-insurance",
+    "error": "HTTP 403"
+   },
+   {
+    "company_id": "godigit",
+    "url": "https://www.godigit.com/life/withdrawn-products",
+    "error": "HTTP 403"
+   },
+   {
+    "company_id": "indiapost",
+    "url": "https://indiapost.gov.in/Financial/Pages/Content/pli.aspx",
+    "error": "HTTP 404"
+   }
+  ],
+  "no_uin": [
+   {
+    "company_id": "lic",
+    "url": "https://licindia.in/web/guest/insurance-plan"
+   },
+   {
+    "company_id": "sbi",
+    "url": "https://www.sbilife.co.in/en/life-insurance-plans"
+   },
+   {
+    "company_id": "sbi",
+    "url": "https://www.sbilife.co.in/en/group-insurance"
+   },
+   {
+    "company_id": "indusindnippon",
+    "url": "https://www.indusindnipponlife.com/all-plans"
+   },
+   {
+    "company_id": "indusindnippon",
+    "url": "https://websitedr.indusindnipponlife.com/all-plans/group-insurance-plans"
+   },
+   {
+    "company_id": "edelweiss",
+    "url": "https://www.edelweisslife.in/group-insurance-plans"
+   },
+   {
+    "company_id": "creditaccess",
+    "url": "https://www.policyx.com/life-insurance/credit-access-life-insurance/"
+   },
+   {
+    "company_id": "sahara",
+    "url": "https://www.policybazaar.com/insurance-companies/sahara-life-insurance"
+   }
+  ],
+  "flags_added": 0,
+  "unmatched": [
+   {
+    "company_id": "hdfc",
+    "uin": "101N189V04",
+    "url": "https://hdfclife.com/all-insurance-plans"
+   },
+   {
+    "company_id": "hdfc",
+    "uin": "101N096V06",
+    "url": "https://www.hdfclife.com/group-insurance-plans"
+   },
+   {
+    "company_id": "hdfc",
+    "uin": "101N113V06",
+    "url": "https://www.hdfclife.com/group-insurance-plans"
+   },
+   {
+    "company_id": "hdfc",
+    "uin": "101N135V03",
+    "url": "https://www.hdfclife.com/group-insurance-plans"
+   },
+   {
+    "company_id": "hdfc",
+    "uin": "101N171V01",
+    "url": "https://www.hdfclife.com/group-insurance-plans"
+   },
+   {
+    "company_id": "hdfc",
+    "uin": "101N172V01",
+    "url": "https://www.hdfclife.com/group-insurance-plans"
+   },
+   {
+    "company_id": "hdfc",
+    "uin": "101N189V04",
+    "url": "https://www.hdfclife.com/group-insurance-plans"
+   },
+   {
+    "company_id": "axismax",
+    "uin": "104N116V17",
+    "url": "https://www.axismaxlife.com/all-insurance-plans"
+   },
+   {
+    "company_id": "axismax",
+    "uin": "104N127V04",
+    "url": "https://www.axismaxlife.com/all-insurance-plans"
+   },
+   {
+    "company_id": "bajaj",
+    "uin": "116N198V02",
+    "url": "https://www.bajajlifeinsurance.com/on-sale-plans.html"
+   },
+   {
+    "company_id": "bajaj",
+    "uin": "116N198V02",
+    "url": "https://www.bajajlifeinsurance.com/riders-insurance-plans.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110A017V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110A018V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110A019V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110A023V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110A024V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110A025V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110A025V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110A025V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110A026V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110A026V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110A026V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110A027V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110A027V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110A027V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110A031V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110A031V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110A031V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110A032V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110A032V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110A032V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110A032V04",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110A032V05",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110A047V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110A047V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110A047V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110A048V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110A048V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110A048V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110A050V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110A166V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110A166V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110A167V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110A167V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110B001V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110B006V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110B010V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110B010V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110B011V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110B014V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110B015V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110B016V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110B022V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110B028V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110B028V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110B028V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110B028V04",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110B029V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110B029V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110B029V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110B030V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110B031V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110B031V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110B031V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110B033V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110B033V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110B033V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110B033V05",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110B045V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110B045V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110B046V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110B046V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110B046V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110B049V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110B049V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110B049V04",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110C002V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110C003V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110C004V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110C005V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110C007V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110C008V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110C009V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110C012V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110C013V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110C020V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110C021V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L033V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L034V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L035V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L045V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L046V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L047V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L048V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L049V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L050V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L050V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L051V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L052V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L055V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L057V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L059V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L062V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L063V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L064V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L065V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L067V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L068V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L069V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L070V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L071V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L072V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L073V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L074V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L075V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L076V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L077V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L078V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L079V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L080V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L081V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L082V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L083V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L084V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L085V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L086V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L087V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L090V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L091V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L092V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L094V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L095V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L096V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L097V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L098V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L099V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L100V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L101V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L103V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L111V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L111V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L111V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L111V04",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L111V05",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L112V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L112V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L112V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L112V04",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L112V05",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L112V06",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L112V07",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L113V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L113V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L113V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L113V04",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L113V05",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L113V06",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L113V07",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L113V08",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L113V09",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L114V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L114V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L114V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L114V04",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L121V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L122V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L151V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L151V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L151V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L156V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L156V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L156V04",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L164V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L164V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L164V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L164V04",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L164V05",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L164V06",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L164V07",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L164V08",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L164V09",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L164V10",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L164V11",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L168V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L168V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L168V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L168V04",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L172V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L172V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L172V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L174V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L174V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L177V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L179V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L179V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L180V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L180V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L182V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L182V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L182V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L182V04",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L182V05",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L182V06",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L182V07",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L182V08",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L182V09",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L184V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L184V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L184V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L187V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110L188V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N001V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N002V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N003V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N004V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N004V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N004V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N004V04",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N004V05",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N004V06",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N005V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N006V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N007V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N008V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N009V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N010V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N011V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N012V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N012V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N013V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N013V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N014V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N014V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N015V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N015V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N016V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N017V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N018V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N019V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N020V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N021V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N022V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N023V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N024V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N025V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N026V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N027V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N028V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N029V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N029V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N029V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N029V04",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N030V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N031V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N032V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N036V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N037V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N038V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N039V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N039V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N040V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N041V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N042V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N043V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N044V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N053V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N054V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N056V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N058V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N060V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N061V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N066V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N088V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N088V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N089V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N093V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N102V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N102V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N102V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N102V04",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N102V05",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N104V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N104V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N105V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N105V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N106V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N106V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N106V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N107V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N108V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N109V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N110V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N115V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N116V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N117V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N117V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N118V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N119V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N119V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N119V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N120V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N120V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N120V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N120V04",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N120V05",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N120V06",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N120V07",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N120V08",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N120V09",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N120V10",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N120V11",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N120V12",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N120V13",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N123V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N123V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N123V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N123V04",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N124V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N125V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N126V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N126V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N126V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N126V04",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N126V06",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N126V07",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N126V08",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N126V09",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N127V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N128V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N128V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N129V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N129V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N129V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N129V04",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N129V05",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N129V06",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N130V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N130V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N130V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N130V04",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N130V05",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N130V06",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N131V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N131V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N131V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N132V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N132V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N132V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N132V04",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N133V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N133V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N133V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N133V04",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N133V05",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N133V06",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N134V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N134V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N134V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N134V04",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N135V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N135V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N147V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N147V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N147V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N148V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N148V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N148V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N148V04",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N148V05",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N148V06",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N148V07",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N149V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N150V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N150V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N150V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N150V04",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N150V05",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N150V06",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N150V07",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N150V08",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N152V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N152V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N152V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N152V04",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N152V05",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N152V06",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N152V07",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N152V08",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N152V09",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N152V10",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N152V11",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N152V12",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N152V13",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N152V14",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N152V15",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N152V16",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N153V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N153V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N153V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N153V04",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N154V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N154V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N154V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N154V04",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N154V05",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N155V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N155V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N157V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N157V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N158V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N158V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N158V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N158V04",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N158V05",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N158V06",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N158V07",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N158V08",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N158V09",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N158V10",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N158V11",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N158V13",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N158V14",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N158V15",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N159V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N159V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N159V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N159V04",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N159V05",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N159V06",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N159V07",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N159V08",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N159V09",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N160V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N160V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N160V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N160V05",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N160V06",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N161V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N161V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N161V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N161V04",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N161V05",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N161V06",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N161V07",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N161V08",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N161V09",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N161V10",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N161V11",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N161V12",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N161V13",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N162V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N162V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N162V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N163V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N163V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N163V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N163V04",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N163V05",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N163V06",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N163V07",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N163V08",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N163V09",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N163V10",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N163V11",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N163V12",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N163V13",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N163V14",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N165V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N165V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N169V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N170V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N170V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N171V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N171V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N171V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N171V04",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N171V05",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N171V06",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N171V07",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N171V08",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N171V09",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N171V10",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N171V11",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N171V13",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N171V14",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N171V15",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N171V16",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N173V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N173V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N173V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N175V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N175V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N175V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N175V04",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N176V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N176V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N176V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N176V04",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N176V05",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N176V06",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N176V07",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N176V08",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N176V10",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N176V11",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N176V12",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N176V13",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N181V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N183V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N183V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N185V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N185V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N189V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N206V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N206V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N206V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N206V04",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N207V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N208V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N208V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N208V03",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N208V04",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N208V05",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N209V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N209V02",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N210V01",
+    "url": "https://www.tataaia.com/active-and-withdrawn-product-status.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110A025V03",
+    "url": "https://www.tataaia.com/life-insurance-plans/life-insurance-riders.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110A026V03",
+    "url": "https://www.tataaia.com/life-insurance-plans/life-insurance-riders.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110A027V03",
+    "url": "https://www.tataaia.com/life-insurance-plans/life-insurance-riders.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110A032V04",
+    "url": "https://www.tataaia.com/life-insurance-plans/life-insurance-riders.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110A047V03",
+    "url": "https://www.tataaia.com/life-insurance-plans/life-insurance-riders.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110A048V04",
+    "url": "https://www.tataaia.com/life-insurance-plans/life-insurance-riders.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110A050V01",
+    "url": "https://www.tataaia.com/life-insurance-plans/life-insurance-riders.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N158V13",
+    "url": "https://www.tataaia.com/life-insurance-plans/life-insurance-riders.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N162V03",
+    "url": "https://www.tataaia.com/life-insurance-plans/life-insurance-riders.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N171V09",
+    "url": "https://www.tataaia.com/life-insurance-plans/life-insurance-riders.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N176V06",
+    "url": "https://www.tataaia.com/life-insurance-plans/life-insurance-riders.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N132V03",
+    "url": "https://www.tataaia.com/life-insurance-plans/group-insurance-solutions.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N173V02",
+    "url": "https://www.tataaia.com/life-insurance-plans/group-insurance-solutions.html"
+   },
+   {
+    "company_id": "tataaia",
+    "uin": "110N173V03",
+    "url": "https://www.tataaia.com/life-insurance-plans/group-insurance-solutions.html"
+   },
+   {
+    "company_id": "pnbmetlife",
+    "uin": "117A025V01",
+    "url": "https://www.pnbmetlife.com/active-plans.html"
+   },
+   {
+    "company_id": "pnbmetlife",
+    "uin": "117A026V01",
+    "url": "https://www.pnbmetlife.com/active-plans.html"
+   },
+   {
+    "company_id": "pnbmetlife",
+    "uin": "117A027V01",
+    "url": "https://www.pnbmetlife.com/active-plans.html"
+   },
+   {
+    "company_id": "pnbmetlife",
+    "uin": "117B017V02",
+    "url": "https://www.pnbmetlife.com/active-plans.html"
+   },
+   {
+    "company_id": "pnbmetlife",
+    "uin": "117B029V01",
+    "url": "https://www.pnbmetlife.com/active-plans.html"
+   },
+   {
+    "company_id": "pnbmetlife",
+    "uin": "117L098V08",
+    "url": "https://www.pnbmetlife.com/active-plans.html"
+   },
+   {
+    "company_id": "pnbmetlife",
+    "uin": "117L125V06",
+    "url": "https://www.pnbmetlife.com/active-plans.html"
+   },
+   {
+    "company_id": "pnbmetlife",
+    "uin": "117L133V09",
+    "url": "https://www.pnbmetlife.com/active-plans.html"
+   },
+   {
+    "company_id": "pnbmetlife",
+    "uin": "117L136V04",
+    "url": "https://www.pnbmetlife.com/active-plans.html"
+   },
+   {
+    "company_id": "pnbmetlife",
+    "uin": "117L139V05",
+    "url": "https://www.pnbmetlife.com/active-plans.html"
+   },
+   {
+    "company_id": "pnbmetlife",
+    "uin": "117L142V03",
+    "url": "https://www.pnbmetlife.com/active-plans.html"
+   },
+   {
+    "company_id": "pnbmetlife",
+    "uin": "117L143V02",
+    "url": "https://www.pnbmetlife.com/active-plans.html"
+   },
+   {
+    "company_id": "pnbmetlife",
+    "uin": "117N104V05",
+    "url": "https://www.pnbmetlife.com/active-plans.html"
+   },
+   {
+    "company_id": "pnbmetlife",
+    "uin": "117N104V05",
+    "url": "https://www.pnbmetlife.com/insurance-plans/group-insurance-plans.html"
+   },
+   {
+    "company_id": "edelweiss",
+    "uin": "147B001V04",
+    "url": "https://www.edelweisslife.in/riders"
+   },
+   {
+    "company_id": "edelweiss",
+    "uin": "147B002V04",
+    "url": "https://www.edelweisslife.in/riders"
+   },
+   {
+    "company_id": "edelweiss",
+    "uin": "147B003V05",
+    "url": "https://www.edelweisslife.in/riders"
+   },
+   {
+    "company_id": "edelweiss",
+    "uin": "147B014V05",
+    "url": "https://www.edelweisslife.in/riders"
+   }
+  ]
+ },
+ "apps_discovered": [
+  {
+   "company_id": "lic",
+   "store": "ios",
+   "id": "1324159013",
+   "title": "LIC Digital",
+   "developer": "Life Insurance Corporation of India"
+  },
+  {
+   "company_id": "sbi",
+   "store": "ios",
+   "id": "1627221447",
+   "title": "SBI Life Smart Care",
+   "developer": "SBI Life Insurance Company Limited"
+  },
+  {
+   "company_id": "hdfc",
+   "store": "android",
+   "id": null,
+   "title": "HDFC Life Insurance App",
+   "developer": "HDFC Life"
+  },
+  {
+   "company_id": "icici",
+   "store": "ios",
+   "id": "1495618064",
+   "title": "ICICI Life Insurance App",
+   "developer": "ICICI PRUDENTIAL LIFE INSURANCE COMPANY LIMITED"
+  },
+  {
+   "company_id": "axismax",
+   "store": "ios",
+   "id": "6447048056",
+   "title": "Axis Max Life Insurance",
+   "developer": "AXIS MAX LIFE INSURANCE LIMITED"
+  },
+  {
+   "company_id": "bajaj",
+   "store": "android",
+   "id": null,
+   "title": "Bajaj Life Insurance",
+   "developer": "Bajaj Life Insurance Limited"
+  },
+  {
+   "company_id": "bajaj",
+   "store": "ios",
+   "id": "6749006543",
+   "title": "Bajaj Life Insurance",
+   "developer": "Bajaj Life Insurance Limited"
+  },
+  {
+   "company_id": "tataaia",
+   "store": "ios",
+   "id": "1634923478",
+   "title": "Tata AIA Life Insurance",
+   "developer": "Tata AIA Life Insurance Company Limited"
+  },
+  {
+   "company_id": "kotak",
+   "store": "android",
+   "id": "com.wyh.happyyou",
+   "title": "HappyYou by Kotak Life",
+   "developer": "Kotak Mahindra Life Insurance Company Limited"
+  },
+  {
+   "company_id": "kotak",
+   "store": "ios",
+   "id": "1501295010",
+   "title": "KLI Boost 360",
+   "developer": "Kotak Mahindra Life Insurance Limited"
+  },
+  {
+   "company_id": "absli",
+   "store": "android",
+   "id": "com.bsli.servicebuddy",
+   "title": "Service Buddy by ABSLI",
+   "developer": "ADITYA BIRLA SUN LIFE INSURANCE COMPANY LIMITED"
+  },
+  {
+   "company_id": "pnbmetlife",
+   "store": "android",
+   "id": null,
+   "title": "PNB MetLife : khUshi",
+   "developer": "PNB METLIFE INDIA INSURANCE COMPANY LIMITED"
+  },
+  {
+   "company_id": "pnbmetlife",
+   "store": "ios",
+   "id": "1483018010",
+   "title": "khUshi",
+   "developer": "PNB MetLife India Insurance Company Limited"
+  },
+  {
+   "company_id": "canarahsbc",
+   "store": "android",
+   "id": null,
+   "title": "Canara HSBC Life",
+   "developer": "Canara HSBC Life Insurance"
+  },
+  {
+   "company_id": "canarahsbc",
+   "store": "ios",
+   "id": "1637840399",
+   "title": "Canara HSBC Life",
+   "developer": "Canara Hsbc Oriental Bank Of Commerce Life Insurance Company Limited"
+  },
+  {
+   "company_id": "indiafirst",
+   "store": "android",
+   "id": null,
+   "title": "IndiaFirst Life Insurance",
+   "developer": "INDIAFIRST LIFE INSURANCE COMPANY LIMITED"
+  },
+  {
+   "company_id": "indiafirst",
+   "store": "ios",
+   "id": "6503947273",
+   "title": "IndiaFirst Life - BOB",
+   "developer": "indiafirst life insurance company limited"
+  },
+  {
+   "company_id": "sud",
+   "store": "android",
+   "id": "com.sudlife.youmatter.app.uat",
+   "title": "You Matter - By SUD Life",
+   "developer": "SUD Life"
+  },
+  {
+   "company_id": "sud",
+   "store": "ios",
+   "id": "1636868769",
+   "title": "You Matter - By SUD Life",
+   "developer": "STAR UNION DAI-ICHI LIFE INSURANCE COMPANY LIMITED"
+  },
+  {
+   "company_id": "ageasfederal",
+   "store": "android",
+   "id": null,
+   "title": "Ageas Federal Life Insurance",
+   "developer": "Ageas Federal Life Insurance Co. Ltd."
+  },
+  {
+   "company_id": "ageasfederal",
+   "store": "ios",
+   "id": "6756178483",
+   "title": "Ageas Federal Life Insurance",
+   "developer": "Ageas Federal Life Insurance Company Limited"
+  },
+  {
+   "company_id": "indusindnippon",
+   "store": "android",
+   "id": "com.rnlicustomer.app",
+   "title": "INLIC Customer Connect App",
+   "developer": "Indusind Nippon life Insurance Company Limited"
+  },
+  {
+   "company_id": "indusindnippon",
+   "store": "ios",
+   "id": "6499210554",
+   "title": "INLIC Customer Connect App",
+   "developer": "IndusInd Nippon Life Insurance Company Limited"
+  },
+  {
+   "company_id": "bharti",
+   "store": "ios",
+   "id": "6448939346",
+   "title": "Bharti AXA Life",
+   "developer": "BHARTI AXA LIFE INSURANCE COMPANY LTD"
+  },
+  {
+   "company_id": "generalicentral",
+   "store": "android",
+   "id": "com.fgli",
+   "title": "GC Life",
+   "developer": "Generali Central Life Insurance Company Limited"
+  },
+  {
+   "company_id": "generalicentral",
+   "store": "ios",
+   "id": "1524802982",
+   "title": "GC Life",
+   "developer": "Generali Central Life Insurance Company Limited"
+  },
+  {
+   "company_id": "edelweiss",
+   "store": "android",
+   "id": "in.geogo.kriyam.fs.two",
+   "title": "Edelweisslife-Kriyam",
+   "developer": "Edelweiss Life Insurance Company Limited"
+  },
+  {
+   "company_id": "pramerica",
+   "store": "android",
+   "id": "com.pramericasuperapp",
+   "title": "Pramerica Life",
+   "developer": "Pramerica Life Insurance"
+  },
+  {
+   "company_id": "shriram",
+   "store": "android",
+   "id": null,
+   "title": "SHRIMITHRA",
+   "developer": "Shriram Life Insurance Company"
+  },
+  {
+   "company_id": "shriram",
+   "store": "ios",
+   "id": "6751533161",
+   "title": "Shrimithra",
+   "developer": "SHRIRAM LIFE INSURANCE COMPANY LIMITED"
+  },
+  {
+   "company_id": "acko",
+   "store": "android",
+   "id": null,
+   "title": "ACKO Insurance",
+   "developer": "Acko Technology & Services Private Limited"
+  },
+  {
+   "company_id": "indiapost",
+   "store": "android",
+   "id": "src.com.dop",
+   "title": "India Post Mobile Banking",
+   "developer": "Department of Posts"
+  }
+ ],
+ "ratings": {
+  "android_ok": 11,
+  "ios_ok": 17,
+  "failed": []
+ }
+}

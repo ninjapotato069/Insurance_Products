@@ -4,15 +4,22 @@
   "lic": {
    "android": {
     "package": "com.lic.liccustomer",
-    "app_name": "LIC Digital (formerly LIC Customer)",
-    "rating": null,
-    "ratings_count": null,
-    "installs": null,
-    "last_updated": null,
-    "observed_on": "2026-10-28",
-    "source": "https://apkmirror.com/apk/life-insurance-corporation-of-india/lic-customer/lic-digital-1-4-4-release/lic-digital-1-4-4-android-apk-download"
+    "app_name": "LIC Digital",
+    "rating": 4.2,
+    "ratings_count": 365261,
+    "installs": "10,000,000+",
+    "last_updated": "2026-10-19",
+    "observed_on": "2026-11-01",
+    "source": "https://play.google.com/store/apps/details?id=com.lic.liccustomer"
    },
-   "ios": null,
+   "ios": {
+    "app_id": "1324159013",
+    "app_name": "LIC Digital",
+    "rating": 4.7,
+    "ratings_count": 130670,
+    "observed_on": "2026-11-01",
+    "source": "https://apps.apple.com/in/app/lic-digital/id1324159013?uo=4"
+   },
    "third_party": [],
    "positives": [],
    "negatives": [],
@@ -34,9 +41,9 @@
     "app_id": "900441427",
     "app_name": "HDFC Life Insurance App",
     "rating": 4.3,
-    "ratings_count": 6200,
-    "observed_on": "2026-10-28",
-    "source": "https://apps.apple.com/in/app/hdfc-life-insurance-app/id900441427"
+    "ratings_count": 6535,
+    "observed_on": "2026-11-01",
+    "source": "https://apps.apple.com/in/app/hdfc-life-insurance-app/id900441427?uo=4"
    },
    "third_party": [],
    "positives": [],
@@ -56,15 +63,22 @@
   "axismax": {
    "android": {
     "package": "com.maxlifeinsurance.www.twa",
-    "app_name": "Axis Max Life Insurance (new all-in-one app)",
-    "rating": 4.64,
-    "ratings_count": null,
-    "installs": "2.4M (AppGoblin estimate)",
+    "app_name": "Axis Max life Insurance",
+    "rating": 4.6,
+    "ratings_count": 9986,
+    "installs": "1,000,000+",
     "last_updated": "2026-10-23",
-    "observed_on": "2026-10-26",
-    "source": "https://appgoblin.info/apps/com.maxlifeinsurance.www.twa"
+    "observed_on": "2026-11-01",
+    "source": "https://play.google.com/store/apps/details?id=com.maxlifeinsurance.www.twa"
    },
-   "ios": null,
+   "ios": {
+    "app_id": "6447048056",
+    "app_name": "Axis Max Life Insurance",
+    "rating": 4.78,
+    "ratings_count": 8661,
+    "observed_on": "2026-11-01",
+    "source": "https://apps.apple.com/in/app/axis-max-life-insurance/id6447048056?uo=4"
+   },
    "third_party": [],
    "positives": [],
    "negatives": [],
@@ -85,15 +99,22 @@
   "icici": {
    "android": {
     "package": "com.ipru.iciciprulife.customer.release",
-    "app_name": "ICICI Life Insurance App (formerly ICICI Prudential Life App)",
-    "rating": 4.7,
-    "ratings_count": 104000,
-    "installs": "2.9M (AppGoblin estimate)",
-    "last_updated": "2026-10-17",
-    "observed_on": "2026-10-26",
-    "source": "https://appgoblin.info/apps/com.ipru.iciciprulife.customer.release"
+    "app_name": "ICICI Life Insurance App",
+    "rating": 4.62,
+    "ratings_count": 104783,
+    "installs": "1,000,000+",
+    "last_updated": "2026-10-18",
+    "observed_on": "2026-11-01",
+    "source": "https://play.google.com/store/apps/details?id=com.ipru.iciciprulife.customer.release"
    },
-   "ios": null,
+   "ios": {
+    "app_id": "1495618064",
+    "app_name": "ICICI Life Insurance App",
+    "rating": 4.71,
+    "ratings_count": 28823,
+    "observed_on": "2026-11-01",
+    "source": "https://apps.apple.com/in/app/icici-life-insurance-app/id1495618064?uo=4"
+   },
    "third_party": [],
    "positives": [],
    "negatives": [],
@@ -110,8 +131,24 @@
    "sources": []
   },
   "kotak": {
-   "android": null,
-   "ios": null,
+   "android": {
+    "package": "com.wyh.happyyou",
+    "app_name": "HappyYou by Kotak Life",
+    "rating": 4.57,
+    "ratings_count": 3989,
+    "installs": "1,000,000+",
+    "last_updated": "2026-10-13",
+    "observed_on": "2026-11-01",
+    "source": "https://play.google.com/store/apps/details?id=com.wyh.happyyou"
+   },
+   "ios": {
+    "app_id": "1501295010",
+    "app_name": "KLI Boost 360",
+    "rating": 4.64,
+    "ratings_count": 1312,
+    "observed_on": "2026-11-01",
+    "source": "https://apps.apple.com/in/app/kli-boost-360/id1501295010?uo=4"
+   },
    "third_party": [],
    "positives": [],
    "negatives": [],
@@ -128,7 +165,16 @@
    "sources": []
   },
   "absli": {
-   "android": null,
+   "android": {
+    "package": "com.bsli.servicebuddy",
+    "app_name": "Service Buddy by ABSLI",
+    "rating": 4.3,
+    "ratings_count": 345,
+    "installs": "100,000+",
+    "last_updated": "2026-09-16",
+    "observed_on": "2026-11-01",
+    "source": "https://play.google.com/store/apps/details?id=com.bsli.servicebuddy"
+   },
    "ios": null,
    "third_party": [],
    "positives": [],
@@ -147,7 +193,14 @@
   },
   "tataaia": {
    "android": null,
-   "ios": null,
+   "ios": {
+    "app_id": "1634923478",
+    "app_name": "Tata AIA Life Insurance",
+    "rating": 4.68,
+    "ratings_count": 29766,
+    "observed_on": "2026-11-01",
+    "source": "https://apps.apple.com/in/app/tata-aia-life-insurance/id1634923478?uo=4"
+   },
    "third_party": [],
    "positives": [],
    "negatives": [],
@@ -165,7 +218,14 @@
   },
   "sbi": {
    "android": null,
-   "ios": null,
+   "ios": {
+    "app_id": "1627221447",
+    "app_name": "SBI Life Smart Care",
+    "rating": 3.58,
+    "ratings_count": 687,
+    "observed_on": "2026-11-01",
+    "source": "https://apps.apple.com/in/app/sbi-life-smart-care/id1627221447?uo=4"
+   },
    "third_party": [],
    "positives": [],
    "negatives": [],
@@ -183,7 +243,14 @@
   },
   "bajaj": {
    "android": null,
-   "ios": null,
+   "ios": {
+    "app_id": "6749006543",
+    "app_name": "Bajaj Life Insurance",
+    "rating": 3.53,
+    "ratings_count": 266,
+    "observed_on": "2026-11-01",
+    "source": "https://apps.apple.com/in/app/bajaj-life-insurance/id6749006543?uo=4"
+   },
    "third_party": [],
    "positives": [],
    "negatives": [],
@@ -201,7 +268,14 @@
   },
   "pnbmetlife": {
    "android": null,
-   "ios": null,
+   "ios": {
+    "app_id": "1483018010",
+    "app_name": "khUshi",
+    "rating": 4.62,
+    "ratings_count": 2869,
+    "observed_on": "2026-11-01",
+    "source": "https://apps.apple.com/in/app/khushi/id1483018010?uo=4"
+   },
    "third_party": [],
    "positives": [],
    "negatives": [],
@@ -218,8 +292,24 @@
    "sources": []
   },
   "indusindnippon": {
-   "android": null,
-   "ios": null,
+   "android": {
+    "package": "com.rnlicustomer.app",
+    "app_name": "INLIC Customer Connect App",
+    "rating": 4.28,
+    "ratings_count": 904,
+    "installs": "100,000+",
+    "last_updated": "2026-07-29",
+    "observed_on": "2026-11-01",
+    "source": "https://play.google.com/store/apps/details?id=com.rnlicustomer.app"
+   },
+   "ios": {
+    "app_id": "6499210554",
+    "app_name": "INLIC Customer Connect App",
+    "rating": 3.42,
+    "ratings_count": 133,
+    "observed_on": "2026-11-01",
+    "source": "https://apps.apple.com/in/app/inlic-customer-connect-app/id6499210554?uo=4"
+   },
    "third_party": [],
    "positives": [],
    "negatives": [],
@@ -273,7 +363,14 @@
   },
   "shriram": {
    "android": null,
-   "ios": null,
+   "ios": {
+    "app_id": "6751533161",
+    "app_name": "Shrimithra",
+    "rating": 2.45,
+    "ratings_count": 29,
+    "observed_on": "2026-11-01",
+    "source": "https://apps.apple.com/in/app/shrimithra/id6751533161?uo=4"
+   },
    "third_party": [],
    "positives": [],
    "negatives": [],
@@ -291,7 +388,14 @@
   },
   "bharti": {
    "android": null,
-   "ios": null,
+   "ios": {
+    "app_id": "6448939346",
+    "app_name": "Bharti AXA Life",
+    "rating": 3.02,
+    "ratings_count": 49,
+    "observed_on": "2026-11-01",
+    "source": "https://apps.apple.com/in/app/bharti-axa-life/id6448939346?uo=4"
+   },
    "third_party": [],
    "positives": [],
    "negatives": [],
@@ -308,8 +412,24 @@
    "sources": []
   },
   "generalicentral": {
-   "android": null,
-   "ios": null,
+   "android": {
+    "package": "com.fgli",
+    "app_name": "GC Life",
+    "rating": 3,
+    "ratings_count": 1018,
+    "installs": "100,000+",
+    "last_updated": "2026-08-12",
+    "observed_on": "2026-11-01",
+    "source": "https://play.google.com/store/apps/details?id=com.fgli"
+   },
+   "ios": {
+    "app_id": "1524802982",
+    "app_name": "GC Life",
+    "rating": 2,
+    "ratings_count": 24,
+    "observed_on": "2026-11-01",
+    "source": "https://apps.apple.com/in/app/gc-life/id1524802982?uo=4"
+   },
    "third_party": [],
    "positives": [],
    "negatives": [],
@@ -327,7 +447,14 @@
   },
   "ageasfederal": {
    "android": null,
-   "ios": null,
+   "ios": {
+    "app_id": "6756178483",
+    "app_name": "Ageas Federal Life Insurance",
+    "rating": 4,
+    "ratings_count": 8,
+    "observed_on": "2026-11-01",
+    "source": "https://apps.apple.com/in/app/ageas-federal-life-insurance/id6756178483?uo=4"
+   },
    "third_party": [],
    "positives": [],
    "negatives": [],
@@ -345,7 +472,14 @@
   },
   "canarahsbc": {
    "android": null,
-   "ios": null,
+   "ios": {
+    "app_id": "1637840399",
+    "app_name": "Canara HSBC Life",
+    "rating": 4.54,
+    "ratings_count": 3347,
+    "observed_on": "2026-11-01",
+    "source": "https://apps.apple.com/in/app/canara-hsbc-life/id1637840399?uo=4"
+   },
    "third_party": [],
    "positives": [],
    "negatives": [],
@@ -380,7 +514,16 @@
    "sources": []
   },
   "pramerica": {
-   "android": null,
+   "android": {
+    "package": "com.pramericasuperapp",
+    "app_name": "Pramerica Life",
+    "rating": null,
+    "ratings_count": null,
+    "installs": "1,000+",
+    "last_updated": null,
+    "observed_on": "2026-11-01",
+    "source": "https://play.google.com/store/apps/details?id=com.pramericasuperapp"
+   },
    "ios": null,
    "third_party": [],
    "positives": [],
@@ -398,8 +541,24 @@
    "sources": []
   },
   "sud": {
-   "android": null,
-   "ios": null,
+   "android": {
+    "package": "com.sudlife.youmatter.app.uat",
+    "app_name": "You Matter - By SUD Life",
+    "rating": 3.99,
+    "ratings_count": 179,
+    "installs": "100,000+",
+    "last_updated": "2026-10-22",
+    "observed_on": "2026-11-01",
+    "source": "https://play.google.com/store/apps/details?id=com.sudlife.youmatter.app.uat"
+   },
+   "ios": {
+    "app_id": "1636868769",
+    "app_name": "You Matter - By SUD Life",
+    "rating": 4.16,
+    "ratings_count": 25,
+    "observed_on": "2026-11-01",
+    "source": "https://apps.apple.com/in/app/you-matter-by-sud-life/id1636868769?uo=4"
+   },
    "third_party": [],
    "positives": [],
    "negatives": [],
@@ -417,7 +576,14 @@
   },
   "indiafirst": {
    "android": null,
-   "ios": null,
+   "ios": {
+    "app_id": "6503947273",
+    "app_name": "IndiaFirst Life - BOB",
+    "rating": 5,
+    "ratings_count": 3,
+    "observed_on": "2026-11-01",
+    "source": "https://apps.apple.com/in/app/indiafirst-life-bob/id6503947273?uo=4"
+   },
    "third_party": [],
    "positives": [],
    "negatives": [],
@@ -434,7 +600,16 @@
    "sources": []
   },
   "edelweiss": {
-   "android": null,
+   "android": {
+    "package": "in.geogo.kriyam.fs.two",
+    "app_name": "Edelweisslife-Kriyam",
+    "rating": null,
+    "ratings_count": null,
+    "installs": "5,000+",
+    "last_updated": null,
+    "observed_on": "2026-11-01",
+    "source": "https://play.google.com/store/apps/details?id=in.geogo.kriyam.fs.two"
+   },
    "ios": null,
    "third_party": [],
    "positives": [],
@@ -506,7 +681,16 @@
    "sources": []
   },
   "indiapost": {
-   "android": null,
+   "android": {
+    "package": "src.com.dop",
+    "app_name": "India Post Mobile Banking",
+    "rating": 3.35,
+    "ratings_count": 15013,
+    "installs": "10,000,000+",
+    "last_updated": "2026-10-10",
+    "observed_on": "2026-11-01",
+    "source": "https://play.google.com/store/apps/details?id=src.com.dop"
+   },
    "ios": null,
    "third_party": [],
    "positives": [],
