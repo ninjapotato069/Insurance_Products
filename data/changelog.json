@@ -150,5 +150,21 @@
   "title": "Catalogue baseline: 44 active products recorded",
   "details": "First full research pass. Later weekly checks compare against this list.",
   "status": "done"
+ },
+ {
+  "date": "2026-11-01",
+  "company_id": "absli",
+  "type": "baseline",
+  "title": "Catalogue baseline: 60 active products recorded",
+  "details": "First full research pass. Later weekly checks compare against this list.",
+  "status": "done"
+ },
+ {
+  "date": "2026-11-01",
+  "company_id": "aviva",
+  "type": "baseline",
+  "title": "Catalogue baseline: 34 active products recorded",
+  "details": "First full research pass. Later weekly checks compare against this list.",
+  "status": "done"
  }
 ]

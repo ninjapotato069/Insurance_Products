@@ -1,0 +1,2456 @@
+{
+ "company_id": "aviva",
+ "company_name": "Aviva Life Insurance Company India Limited",
+ "researched_on": "2026-10-28",
+ "urls": {
+  "website": "https://www.avivaindia.com/",
+  "product_list_url": "https://www.avivaindia.com/life-insurance-plans",
+  "withdrawn_list_url": null,
+  "riders_url": "https://www.avivaindia.com/riders-aviva-life-insurance",
+  "group_url": "https://www.avivaindia.com/group-insurance-plans",
+  "newsroom_url": "https://www.avivaindia.com/latest-news"
+ },
+ "products": [
+  {
+   "uin": "122N161V01",
+   "name": "Aviva Smart Return of Premium Term Plan",
+   "segment": "Individual",
+   "category": "Term",
+   "plan_structure": "Term with ROP",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Protection",
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 60,
+    "maturity_age_max_years": 75,
+    "policy_term_min_years": 10,
+    "policy_term_max_years": 30,
+    "whole_life": null,
+    "ppt_options": [
+     "Regular"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": 2900,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": 500000,
+    "max_sum_assured_text": "Rs 50 lakh per life in multiples of Rs 50,000, subject to underwriting",
+    "notes": "Premium paying term equals policy term. Minimum annual premium applies to standard individual lives."
+   },
+   "benefits": {
+    "death": "Nominee gets the highest of sum assured, 7x annualised premium or 105% of premiums paid; policy then ends.",
+    "maturity": "Lump sum equal to 100% of total premiums paid if the life survives the term and premiums are paid.",
+    "survival_income": null,
+    "guaranteed": true,
+    "return_of_premium": true,
+    "loan": true,
+    "partial_withdrawal": null,
+    "other": "Loan up to 80% of surrender value; 30-day grace period (15 days for monthly mode); 30-day free look; reduced paid-up scaling."
+   },
+   "category_details": {
+    "term": {
+     "rop_option": true,
+     "payout_options": "Lump sum"
+    },
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Life cover plus return of all premiums paid on survival to maturity",
+    "Terms of 10 to 30 years with premium term equal to policy term",
+    "Annual, half-yearly, quarterly or monthly premiums",
+    "Policy loan up to 80% of surrender value",
+    "30-day free-look period"
+   ],
+   "riders_available": [
+    "Aviva Accidental Casualty Non-Linked Rider",
+    "Aviva New Critical Illness Non-Linked Rider"
+   ],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": "As per prevailing tax laws (subject to change)",
+   "description": "Return-of-premium term plan that pays cover on death and refunds 100% of premiums paid if the insured survives the term.",
+   "urls": {
+    "product_page": "https://www.avivaindia.com/term-insurance-plans/aviva-smart-return-premium-term-plan",
+    "brochure": "https://www.avivaindia.com/sites/default/files/AVI01124-TROP-SL_0.pdf"
+   },
+   "sources": [
+    "https://www.avivaindia.com/term-insurance-plans/aviva-smart-return-premium-term-plan",
+    "https://www.avivaindia.com/sites/default/files/CIS-Aviva-Smart-Return-of-Premium-Term-Plan.pdf"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "122N153V02",
+   "name": "Aviva Signature 3D Term Plan - Platinum",
+   "segment": "Individual",
+   "category": "Term",
+   "plan_structure": "Pure Term",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Life Protect",
+     "summary": "Level cover for the whole term; full base sum assured on death; riders available."
+    },
+    {
+     "name": "Credit Protect",
+     "summary": "Reducing cover designed to match loan repayment, following a sum-at-risk schedule built on an assumed 11% yearly rate; no riders."
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 65,
+    "maturity_age_max_years": 80,
+    "policy_term_min_years": 5,
+    "policy_term_max_years": 62,
+    "whole_life": null,
+    "ppt_options": [
+     "Single",
+     "Limited 5",
+     "Limited 10",
+     "Limited 15",
+     "Limited 20",
+     "Regular"
+    ],
+    "premium_modes": [
+     "Single",
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": 2500000,
+    "max_sum_assured_text": "Up to Rs 5 crore per life, subject to board-approved underwriting policy",
+    "notes": "Max maturity age 80 (Life Protect) / 70 (Credit Protect); max term 62 yrs (Life Protect) / 30 yrs (Credit Protect); limited pay 5/10/15/20 for Life Protect, 5/10/15 for Credit Protect. Sum assured steps: Rs 25-40 lakh in Rs 1 lakh steps, to Rs 75 lakh in Rs 5 lakh steps, above that Rs 25 lakh steps. FAQ mentions a whole-life option not defined in the eligibility table."
+   },
+   "benefits": {
+    "death": "Life Protect pays full base sum assured; Credit Protect pays the scheduled reducing amount for that year. Floor of at least 105% of premiums paid (and 7x annualised premium for Life Protect regular/limited pay).",
+    "maturity": "None - no survival benefit.",
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": false,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": {
+     "rop_option": false,
+     "ci_or_accelerated_benefit": "Critical illness via optional rider (Life Protect only)",
+     "payout_options": "Lump sum (Life Protect); scheduled declining benefit (Credit Protect)",
+     "women_or_nonsmoker_discount": true
+    },
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Pure-risk non-linked non-par term plan with Life Protect and Credit Protect options",
+    "Flat or reducing cover; Married Women's Property Act option",
+    "Cover up to age 80 with 30-day free look",
+    "Special premium rates for women and non-tobacco users",
+    "Single, yearly, half-yearly, quarterly or monthly premium payment"
+   ],
+   "riders_available": [
+    "Aviva Accidental Casualty Non-Linked Rider",
+    "Aviva New Critical Illness Non-Linked Rider",
+    "Aviva Cancer Cardio Non-Linked Rider"
+   ],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": "As per prevailing tax laws (subject to change)",
+   "description": "Pure-risk term plan with a flat-cover Life Protect option and a reducing-cover Credit Protect option for loan protection, with lower rates for women and non-tobacco users.",
+   "urls": {
+    "product_page": "https://www.avivaindia.com/term-insurance-plans/aviva-signature-3d-term-plan-platinum",
+    "brochure": "https://www.avivaindia.com/sites/default/files/3D%20Platinum%20SL-%2018%20Pagers%20%28without%20PWP%29_1.pdf"
+   },
+   "sources": [
+    "https://www.avivaindia.com/term-insurance-plans/aviva-signature-3d-term-plan-platinum"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Aviva Signature 3D Term Plan",
+   "segment": "Individual",
+   "category": "Term",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.avivaindia.com/term-insurance-plans/aviva-signature-3d-term-plan",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.avivaindia.com/life-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Aviva Saral Jeevan Bima Plan",
+   "segment": "Individual",
+   "category": "Term",
+   "plan_structure": "Pure Term",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": "Saral Jeevan Bima",
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.avivaindia.com/term-insurance-plans/aviva-saral-jeevan-bima-plan",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.avivaindia.com/life-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Aviva Critical Illness Insurance",
+   "segment": "Individual",
+   "category": "Health & CI",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.avivaindia.com/health-insurance-plans/critical-illness-insurance",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.avivaindia.com/life-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Aviva Smart Vitals",
+   "segment": "Individual",
+   "category": "Health & CI",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.avivaindia.com/health-insurance-plans/aviva-smart-vitals",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.avivaindia.com/life-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "122N181V01",
+   "name": "Aviva Smart Monthly Income Plan",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": "Guaranteed Income",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 55,
+    "maturity_age_max_years": 75,
+    "policy_term_min_years": 20,
+    "policy_term_max_years": 30,
+    "whole_life": null,
+    "ppt_options": [
+     "Limited 7",
+     "Limited 10",
+     "Limited 12",
+     "Limited 15"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": 60000,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Min annualised premium Rs 1,00,000 for 7-year PPT. Base sum assured is 7x or 10x annualised premium. Min maturity age 38."
+   },
+   "benefits": {
+    "death": "Highest of death sum assured, 105% of premiums paid or surrender value; policy then ends.",
+    "maturity": "Lump sum of 100% of total premiums paid (excl. taxes, rider premiums, extra charges).",
+    "survival_income": "Guaranteed income paid monthly or yearly through the policy term.",
+    "guaranteed": true,
+    "return_of_premium": true,
+    "loan": true,
+    "partial_withdrawal": null,
+    "other": "Loan up to 80% of surrender value; revival within 5 years of first unpaid premium; surrender after 1 year of premiums."
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": {
+     "payout_type": "Income",
+     "income_duration": "Throughout the policy term",
+     "bonus_type": "None"
+    },
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Guaranteed income paid monthly or yearly through the term",
+    "Life cover throughout the policy term",
+    "100% of total premiums returned at maturity",
+    "Optional accident, critical illness and cancer/cardio riders",
+    "Loan facility once surrender value is available"
+   ],
+   "riders_available": [
+    "Aviva Accidental Casualty Non-Linked Rider",
+    "Aviva New Critical Illness Non-Linked Rider",
+    "Aviva Cancer Cardio Non-Linked Rider"
+   ],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": "As per prevailing Income Tax laws (subject to change)",
+   "description": "Non-participating guaranteed monthly or yearly income plan that also returns all premiums at maturity, for regular income needs.",
+   "urls": {
+    "product_page": "https://www.avivaindia.com/saving-investment-plans/aviva-smart-monthly-income-plan",
+    "brochure": "https://www.avivaindia.com/sites/default/files/Aviva-Smart-Monthly-Income-Plan_SL-A5.pdf"
+   },
+   "sources": [
+    "https://www.avivaindia.com/saving-investment-plans/aviva-smart-monthly-income-plan",
+    "https://www.avivaindia.com/sites/default/files/CIS-SMIP.pdf"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Aviva Bharat Parivar Vikas Yojana",
+   "segment": "Individual",
+   "category": null,
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": null,
+   "participation": "Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.avivaindia.com/saving-investment-plans/aviva-bharat-parivar-vikas-yojana",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.avivaindia.com/life-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Aviva Bharat Bal Vikas Yojana",
+   "segment": "Individual",
+   "category": null,
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.avivaindia.com/saving-investment-plans/aviva-bharat-bal-vikas-yojana",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.avivaindia.com/life-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "122N146V03",
+   "name": "Aviva Signature Guaranteed Income Plan",
+   "segment": "Individual",
+   "category": null,
+   "plan_structure": "Guaranteed Income",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Signature Investor",
+     "summary": "Lump sum on survival to maturity; guaranteed additions of 3% of guaranteed maturity sum assured each year plus loyalty additions."
+    },
+    {
+     "name": "Signature Builder",
+     "summary": "Guaranteed income starting a year after the term ends, paid for 10 years (regular premium) or 25 years (single premium)."
+    },
+    {
+     "name": "Signature Moneymaker",
+     "summary": "Guaranteed annual income from the 2nd policy anniversary to maturity, with lump sum at maturity."
+    },
+    {
+     "name": "Signature Saver",
+     "summary": "Guaranteed annual income in arrears from a year after the premium term ends until maturity, with lump sum at maturity."
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 8,
+    "entry_age_max_years": 60,
+    "maturity_age_max_years": 65,
+    "policy_term_min_years": 5,
+    "policy_term_max_years": 30,
+    "whole_life": null,
+    "ppt_options": [
+     "Limited 5",
+     "Limited 7",
+     "Limited 10",
+     "Single"
+    ],
+    "premium_modes": [],
+    "min_annual_premium_inr": 48000,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Widest ranges across options. In the POS table entry ages run min 8-18 / max 45-55 by option, terms 5-20 years, annualised premium Rs 48,000 to 75,000 by option and PPT, max annualised premium Rs 2.27 lakh. Max maturity age 65 applies to Investor."
+   },
+   "benefits": {
+    "death": "Paid to nominee if all premiums are paid up to date of death.",
+    "maturity": "Guaranteed maturity sum as lump sum with loyalty addition, if all due premiums are paid.",
+    "survival_income": "Guaranteed periodic income under Builder, Moneymaker and Saver options.",
+    "guaranteed": true,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": "15-day free look (30 days for distance-mode policies); surrender value payable once acquired; premium mode changeable at anniversaries."
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": {
+     "payout_type": "Lump sum + Income",
+     "income_duration": "Builder: 10 yrs (regular) or 25 yrs (single premium); other options until maturity",
+     "bonus_type": "Guaranteed additions (3% of guaranteed maturity sum assured yearly) and loyalty additions",
+     "deferment_option": "Builder income starts one year after the policy term ends"
+    },
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Guaranteed payouts as lump sum, early income or deferred income",
+    "Four options: Investor, Builder, Moneymaker, Saver",
+    "Guaranteed additions each year plus loyalty additions",
+    "Term 5 to 30 years, entry age 8 to 60"
+   ],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": "As per prevailing tax laws (subject to change)",
+   "description": "Guaranteed-return savings plan with four options that pay either a lump sum, an early income stream or a deferred income stream.",
+   "urls": {
+    "product_page": "https://www.avivaindia.com/saving-investment-plans/aviva-signature-guaranteed-income-plan",
+    "brochure": "https://www.avivaindia.com/sites/default/files/Guaranteed_Income_Plan_Sales_Literature_0.pdf"
+   },
+   "sources": [
+    "https://www.avivaindia.com/saving-investment-plans/aviva-signature-guaranteed-income-plan"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "122N158V01",
+   "name": "Aviva Signature Increasing Income Plan",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": "Guaranteed Income",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Savings",
+    "Retirement"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Product page eligibility and PPT table was empty; ages, term and premium limits not captured (see CIS / brochure)."
+   },
+   "benefits": {
+    "death": "Higher of death sum assured or 105% of total premiums paid as lump sum, plus monthly income to the claimant; insurer pays future premiums.",
+    "maturity": "Guaranteed monthly income from maturity for the payout period (up to age 100); 105% of total premiums paid returned with the final payout.",
+    "survival_income": "Monthly income steps up by 15% (simple) every three policy years.",
+    "guaranteed": true,
+    "return_of_premium": true,
+    "loan": true,
+    "partial_withdrawal": null,
+    "other": "Revival within 5 years of lapse; option to take discounted future benefits as lump sum; 30-day free look; loan up to 80% of surrender value."
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": {
+     "payout_type": "Income",
+     "income_duration": "Till age 100",
+     "bonus_type": "None"
+    },
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Monthly income that rises 15% every three policy years to offset inflation",
+    "Death benefit plus continued monthly income to beneficiaries, with future premiums paid by insurer",
+    "105% of total premiums paid returned at maturity or on death",
+    "Loan up to 80% of surrender value and 5-year revival window"
+   ],
+   "riders_available": [
+    "Aviva Accidental Casualty Non-Linked Rider",
+    "Aviva New Critical Illness Non-Linked Rider"
+   ],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": "s.80C and s.10(10D) as per prevailing law (subject to change)",
+   "description": "Non-participating guaranteed income plan whose monthly payout rises by 15% every three years and runs up to age 100.",
+   "urls": {
+    "product_page": "https://www.avivaindia.com/saving-investment-plans/aviva-signature-increasing-income-plan",
+    "brochure": "https://www.avivaindia.com/sites/default/files/SIIP_SL_A5%20%28Digital%20Version%29.pdf"
+   },
+   "sources": [
+    "https://www.avivaindia.com/saving-investment-plans/aviva-signature-increasing-income-plan",
+    "https://www.avivaindia.com/sites/default/files/SIIP_Policy_Document.pdf"
+   ],
+   "completeness": "partial",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "POS Aviva Dhan Suraksha",
+   "segment": "Individual",
+   "category": null,
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.avivaindia.com/saving-investment-plans/pos-aviva-dhan-suraksha",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.avivaindia.com/life-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "122L111V03",
+   "name": "Aviva Affluence",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Wealth"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": 2,
+    "entry_age_max_years": 50,
+    "maturity_age_max_years": 70,
+    "policy_term_min_years": 15,
+    "policy_term_max_years": 30,
+    "whole_life": null,
+    "ppt_options": [
+     "Limited 7",
+     "Limited 10",
+     "Limited 15",
+     "Regular"
+    ],
+    "premium_modes": [
+     "Annual"
+    ],
+    "min_annual_premium_inr": 100000,
+    "min_single_premium_inr": null,
+    "max_premium_text": "No limit, subject to board-approved underwriting policy",
+    "min_sum_assured_inr": 1000000,
+    "max_sum_assured_text": "Per board-approved underwriting; for entry under 45 with 7/10-yr PPT, capped at the lower of 10x premium or half the policy term",
+    "notes": "Widest ranges across variants. 15-17 yr terms: PPT 10 or equal to term; 18-30 yr terms: PPT 7/10/15 or equal to term. Min annual premium Rs 2 lakh (15-17 yr term), Rs 1.5 lakh (7-yr PPT), Rs 1 lakh (10/15-yr PPT or regular). Min SA Rs 20 lakh / 15 lakh / 10 lakh respectively. Max maturity age 65 for 7/10/15-yr PPT, 70 for 16-30 yr terms. Min top-up premium Rs 5,000."
+   },
+   "benefits": {
+    "death": "Highest of sum assured, fund value or 105% of premiums paid, plus top-up sum assured and an accidental death benefit where applicable.",
+    "maturity": "Fund value from regular and top-up premiums plus Maturity Booster additions.",
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": false,
+    "partial_withdrawal": true,
+    "other": "Increasing Milestone Boosters for on-time premiums; partial withdrawals up to 4 times a year after year 5 and systematic withdrawals of 3% to 12% of fund value a year; systematic transfer plan; 5-year lock-in; 30-day grace."
+   },
+   "category_details": {
+    "term": null,
+    "ulip": {
+     "funds_count": 8,
+     "free_switches_per_year": 12,
+     "loyalty_additions": "Increasing Milestone Boosters added to fund value for on-time premium payment"
+    },
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Eight fund options to match risk appetite",
+    "Five-year lock-in on withdrawals",
+    "Milestone and Maturity Boosters add to fund value",
+    "Free fund switches, premium redirection and systematic transfer plan",
+    "No loan facility under the policy"
+   ],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": "Deduction under s.80C and exemption under s.10(10D) as per prevailing law (subject to change)",
+   "description": "High-ticket regular or limited-pay unit-linked plan with booster additions, aimed at investors who can commit Rs 1 lakh or more a year.",
+   "urls": {
+    "product_page": "https://www.avivaindia.com/saving-investment-plans/aviva-affluence-1",
+    "brochure": "https://www.avivaindia.com/sites/default/files/Aviva_Affluence_122L111V03_A_0.pdf"
+   },
+   "sources": [
+    "https://www.avivaindia.com/saving-investment-plans/aviva-affluence-1"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "122L144V02",
+   "name": "Aviva Signature Investment Plan",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Wealth"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "GenX",
+     "summary": "Single or regular premium; entry from 91 days to 65 years; term 20 to 60 years."
+    },
+    {
+     "name": "Signature Millennial",
+     "summary": "Regular premium where the first premium secures all future premiums; entry 18 to 42; term 20 to 44; nominee must be child, spouse or dependent parent."
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 0.25,
+    "entry_age_max_years": 65,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": 20,
+    "policy_term_max_years": 60,
+    "whole_life": null,
+    "ppt_options": [
+     "Single",
+     "Limited",
+     "Regular"
+    ],
+    "premium_modes": [
+     "Single",
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "GenX: 91 days to 65 yrs, term 20-60. Signature Millennial: 18-42 yrs, term 20-44. Limited pay terms are mentioned but not specified on the page."
+   },
+   "benefits": {
+    "death": "GenX: sum assured or fund value (or 105% of premiums received if higher). Millennial: sum assured paid, future due premiums paid by insurer, plus top-up value.",
+    "maturity": "Fund value on surviving the policy term.",
+    "survival_income": null,
+    "guaranteed": false,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": true,
+    "other": "Top-ups allowed when regular premiums are current; premium redirection; periodic Milestone Boosters; return of up to 100% of mortality and policy admin charges at maturity; 5-year lock-in."
+   },
+   "category_details": {
+    "term": null,
+    "ulip": {
+     "funds_count": 8,
+     "loyalty_additions": "Periodic Milestone Boosters (amount not stated)",
+     "return_of_mortality_charges": "Up to 100% of mortality and policy administration charges returned at maturity"
+    },
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Eight fund choices with switching and premium redirection",
+    "No liquidity for 5 years, partial withdrawals after",
+    "Millennial variant pays future premiums if the insured dies",
+    "Milestone Boosters and return of certain charges at maturity",
+    "Market-linked returns depend on fund performance"
+   ],
+   "riders_available": [],
+   "online_purchase": true,
+   "channels": [],
+   "tax_benefits": "Per prevailing law; s.10(10D) exemption not available where ULIP premium exceeds Rs 2.5 lakh a year (policies issued from 1 Feb 2020)",
+   "description": "Unit-linked investment plan with GenX (single or regular premium) and Millennial (premium-waiving) variants for long-term wealth creation.",
+   "urls": {
+    "product_page": "https://www.avivaindia.com/saving-investment-plan/aviva-signature-investment-plan",
+    "brochure": "https://www.avivaindia.com/sites/default/files/aviva-signature-investment-plan-sales-literature.pdf"
+   },
+   "sources": [
+    "https://www.avivaindia.com/saving-investment-plan/aviva-signature-investment-plan"
+   ],
+   "completeness": "partial",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "122L151V01",
+   "name": "Aviva Signature Investment Plan - Platinum",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Wealth",
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": 0.25,
+    "entry_age_max_years": 65,
+    "maturity_age_max_years": 85,
+    "policy_term_min_years": 20,
+    "policy_term_max_years": 60,
+    "whole_life": null,
+    "ppt_options": [
+     "Regular"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": 60000,
+    "min_single_premium_inr": null,
+    "max_premium_text": "No limit, subject to board-approved underwriting policy",
+    "min_sum_assured_inr": 300000,
+    "max_sum_assured_text": "No limit, subject to board-approved underwriting policy",
+    "notes": "Premium paying term equals policy term. Cover multiple 5x/7x/10x of premium by entry age (max entry 55 for 10x/7x, 60 for 7x/5x, 65 for 5x). Min annual premium 60,000 for term of 25+ yrs, 72,000 for 20 to <25 yrs. Min top-up premium 10,000; no top-ups in last 5 years."
+   },
+   "benefits": {
+    "death": "Higher-of style payout of sum assured plus fund value (incl. top-ups), subject to a floor of 105% of premiums paid; contract ends.",
+    "maturity": "Fund value from regular and top-up premiums at end of term.",
+    "survival_income": null,
+    "guaranteed": false,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": true,
+    "other": "5-year lock-in; free fund switches and premium redirection; RetireSafe auto-shift to conservative funds in last 3 years; systematic transfer plan; revival within 3 years of lapse; 30-day review period."
+   },
+   "category_details": {
+    "term": null,
+    "ulip": {
+     "funds_count": 8
+    },
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Life cover combined with market-linked fund growth",
+    "Eight fund options with free switching and premium redirection",
+    "Partial and systematic withdrawals after 5 policy years",
+    "Top-up premiums allowed while regular premiums are current",
+    "Auto-shift to safer funds in the last 3 years (RetireSafe)"
+   ],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": "As per Income Tax Act 1961 (subject to change)",
+   "description": "Regular-premium unit-linked plan for long-term wealth building with life cover of 5, 7 or 10 times premium, available from age 91 days.",
+   "urls": {
+    "product_page": "https://www.avivaindia.com/saving-investment-plan/aviva-signature-investment-plan-platinum",
+    "brochure": "https://www.avivaindia.com/sites/default/files/Signature_Investment_Plan_Platinum_Brochure.pdf"
+   },
+   "sources": [
+    "https://www.avivaindia.com/saving-investment-plan/aviva-signature-investment-plan-platinum",
+    "https://www.avivaindia.com/sites/default/files/Policy_Document_SIP_Platinum.pdf"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "122L150V03",
+   "name": "Aviva Signature Investment Plan - Limited Pay",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Wealth"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [
+     "Limited 5",
+     "Limited 10",
+     "Limited 15",
+     "Limited 20"
+    ],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Product page eligibility table was empty; ages, term and premium limits not captured (see brochure). Partial withdrawal needs life insured aged 18+."
+   },
+   "benefits": {
+    "death": "Sum assured or fund value (limited/regular pay) or 105% of premiums received to date, per the page.",
+    "maturity": "Fund value on surviving the original policy term.",
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": true,
+    "other": "Top-ups allowed when no premium is due; premium redirection; fund switching; periodic Milestone Boosters; systematic partial withdrawal except in last 3 years; 5-year lock-in."
+   },
+   "category_details": {
+    "term": null,
+    "ulip": {
+     "loyalty_additions": "Periodic Milestone Boosters (amount not stated)",
+     "return_of_mortality_charges": "Up to 100% of mortality and policy administration charges returned at maturity"
+    },
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Unit-linked plan combining wealth creation with family protection",
+    "Premium paying term of 5, 10, 15 or 20 years",
+    "No liquidity in first 5 years, partial withdrawals thereafter",
+    "Free fund switching and premium redirection",
+    "Tax benefits as per prevailing law"
+   ],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": "Per prevailing law; s.10(10D) exemption not available where ULIP premium exceeds Rs 2.5 lakh a year (policies issued from 1 Feb 2020)",
+   "description": "Limited-premium-paying variant of Aviva's Signature unit-linked investment plan, with premiums paid for 5 to 20 years.",
+   "urls": {
+    "product_page": "https://www.avivaindia.com/saving-investment-plan/aviva-signature-investment-plan-limited-pay",
+    "brochure": "https://www.avivaindia.com/sites/default/files/Aviva%20Signature%20Investment%20Plan%20-%20Limmited%20Pay.pdf"
+   },
+   "sources": [
+    "https://www.avivaindia.com/saving-investment-plan/aviva-signature-investment-plan-limited-pay"
+   ],
+   "completeness": "partial",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "122L137V02",
+   "name": "Aviva Fortune Plus",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Wealth",
+    "Child"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Single Premium",
+     "summary": "One-time premium; term 10 to 20 years; min premium Rs 5 lakh; min sum assured 1.25x premium."
+    },
+    {
+     "name": "Limited Premium",
+     "summary": "Pay for 5, 7 or 10 years; term 15 to 20 years; min annualised premium Rs 2.5 lakh (5-yr), 1.8 lakh (7-yr) or 1.5 lakh (10-yr); sum assured at least 7x."
+    },
+    {
+     "name": "Regular Premium",
+     "summary": "Pay for the full 15 to 20 year term; min annualised premium Rs 1 lakh (yearly mode); sum assured at least 7x."
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 2,
+    "entry_age_max_years": 60,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": 10,
+    "policy_term_max_years": 20,
+    "whole_life": false,
+    "ppt_options": [
+     "Single",
+     "Limited 5",
+     "Limited 7",
+     "Limited 10",
+     "Regular"
+    ],
+    "premium_modes": [],
+    "min_annual_premium_inr": 100000,
+    "min_single_premium_inr": 500000,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Widest ranges. Min sum assured is 1.25x premium for single pay and 7x annualised premium for limited/regular pay. Limited-pay minimum annualised premium Rs 1.5 to 2.5 lakh depending on PPT. Premium modes not stated on the page."
+   },
+   "benefits": {
+    "death": "Higher of sum assured or fund value, plus the higher of sum assured or top-up fund value, if all due premiums are paid.",
+    "maturity": "Fund value plus return of charges deducted during the term (excluding fund management and add-on risk charges).",
+    "survival_income": null,
+    "guaranteed": false,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": true,
+    "other": "Optional accidental death benefit; waiver of premium for a minor life assured; top-up option; optional life cover extension; no liquidity in first 5 years."
+   },
+   "category_details": {
+    "term": null,
+    "ulip": {
+     "funds_count": 8,
+     "return_of_mortality_charges": "100% of charges deducted returned at maturity, excluding fund management and add-on risk charges"
+    },
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Unit-linked cover with 8 fund options",
+    "Single, limited or regular premium choice",
+    "Top-up premiums plus partial and systematic withdrawals",
+    "Charges deducted are returned at maturity (excluding fund management and add-on risk charges)",
+    "Online purchase available"
+   ],
+   "riders_available": [
+    "Accidental Death Benefit",
+    "Waiver of Premium (minor life assured)",
+    "Life cover extension option"
+   ],
+   "online_purchase": true,
+   "channels": [],
+   "tax_benefits": "As per prevailing tax laws (subject to change)",
+   "description": "Unit-linked plan with single, limited or regular premium options that returns charges at maturity and covers minors with a premium waiver.",
+   "urls": {
+    "product_page": "https://www.avivaindia.com/saving-investment-plans/aviva-fortune-plus-plan",
+    "brochure": "https://www.avivaindia.com/sites/default/files/Aviva_Fortune_Plus_122L137V02%20_A.pdf"
+   },
+   "sources": [
+    "https://www.avivaindia.com/saving-investment-plans/aviva-fortune-plus-plan",
+    "https://www.avivaindia.com/sites/default/files/Aviva_Fortune_Plus_Policy_Document.pdf"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Aviva Secure Nest Annuity Plan",
+   "segment": "Individual",
+   "category": "Pension & Annuity",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.avivaindia.com/retirement-pension-plans/aviva-secure-nest-annuity-plan",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.avivaindia.com/life-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Aviva Saral Pension Plan",
+   "segment": "Individual",
+   "category": "Pension & Annuity",
+   "plan_structure": "Immediate Annuity",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": "Saral Pension",
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.avivaindia.com/retirement-pension-plans/aviva-saral-pension-plan",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.avivaindia.com/life-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Aviva Affinity Group Term Life",
+   "segment": "Group",
+   "category": "Group Term",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Group term cover tied to loans or long-term memberships, with reactivation, grace period and exit refunds.",
+   "urls": {
+    "product_page": "https://www.avivaindia.com/group-insurance/aviva-affinity-group-term-life",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.avivaindia.com/group-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Aviva New Group Term Life",
+   "segment": "Group",
+   "category": "Group Term",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Lump-sum group life cover offered as a short-term plan or an one-year renewable group term variant.",
+   "urls": {
+    "product_page": "https://www.avivaindia.com/group-insurance-plans/aviva-new-group-term-life",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.avivaindia.com/group-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Aviva Group Credit Life",
+   "segment": "Group",
+   "category": "Credit Life",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Cover for a range of loans with single-pay or limited-pay premium options.",
+   "urls": {
+    "product_page": "https://www.avivaindia.com/group-insurance-plans/aviva-group-credit-life",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.avivaindia.com/group-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Aviva Group Gratuity Advantage",
+   "segment": "Group",
+   "category": "Group Fund (Gratuity/Superannuation/Leave)",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Unit-linked plan helping employers fund gratuity liability, with 7 fund choices and actuarial support.",
+   "urls": {
+    "product_page": "https://www.avivaindia.com/group-insurance/graduity-leave-encashment/aviva-group-gratuity-advantage-insurance-plan",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.avivaindia.com/group-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Aviva Group Life Protect",
+   "segment": "Group",
+   "category": "Group Term",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Group life cover with flat or reducing sum assured for terms up to 30 years; listed under rural credit protection.",
+   "urls": {
+    "product_page": "https://www.avivaindia.com/group-insurance/rural-credit-protection/aviva-group-life-protect-insurance-plan",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.avivaindia.com/group-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Aviva Corporate Life Plus",
+   "segment": "Group",
+   "category": "Group Term",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Low-cost employee life cover with added accidental death and permanent disability cover and minimal medicals.",
+   "urls": {
+    "product_page": "https://www.avivaindia.com/group-insurance-plans/aviva-corporate-life-plus-insurance-plan",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.avivaindia.com/group-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Aviva New Group Leave Encashment Plan",
+   "segment": "Group",
+   "category": "Group Fund (Gratuity/Superannuation/Leave)",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Unit-linked plan for funding employee leave encashment, with 8 fund options and free fund switching.",
+   "urls": {
+    "product_page": "https://www.avivaindia.com/group-insurance/graduity-leave-encashment/aviva-new-group-leave-encashment-plan-insurance-plan",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.avivaindia.com/group-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Aviva New Traditional Employee Benefit Plan",
+   "segment": "Group",
+   "category": "Group Fund (Gratuity/Superannuation/Leave)",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Traditional (non-unit-linked) plan for funding gratuity and leave encashment, covering employees up to age 74.",
+   "urls": {
+    "product_page": "https://www.avivaindia.com/group-insurance/graduity-leave-encashment/aviva-new-traditional-employee-benefit-plan",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.avivaindia.com/group-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Aviva Pradhan Mantri Jeevan Jyoti Bima Yojna",
+   "segment": "Group",
+   "category": "Govt Scheme",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Government-linked one-year renewable group life scheme where a participating bank is the master policyholder.",
+   "urls": {
+    "product_page": "https://www.avivaindia.com/group-insurance-plans/aviva-pradhan-mantri-jeevan-jyoti-yojna",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.avivaindia.com/group-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Aviva Pravasi Bhartiya Jeevan Bima Yojana",
+   "segment": "Group",
+   "category": "Govt Scheme",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Affordable group life protection for overseas Indians with simple enrolment and no medical exam.",
+   "urls": {
+    "product_page": "https://www.avivaindia.com/group-insurance-plans/aviva-pravasi-bhartiya-jeevan-bima-yojana",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.avivaindia.com/group-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Aviva New Corporate Life",
+   "segment": "Group",
+   "category": "Group Term",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Group life cover for corporate employees (appears in the site menu; no detail on the listing).",
+   "urls": {
+    "product_page": "https://www.avivaindia.com/group-insurance-plans/aviva-new-corporate-life",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.avivaindia.com/group-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Aviva Credit Suraksha",
+   "segment": "Group",
+   "category": "Credit Life",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": null,
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Rural credit protection cover that clears the borrower's loan on death (appears in the site menu).",
+   "urls": {
+    "product_page": "https://www.avivaindia.com/group-insurance/rural-credit-protection/credit-suraksha-rural",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.avivaindia.com/group-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Aviva Accidental Casualty Non-Linked Rider",
+   "segment": "Rider",
+   "category": "Accidental Death/Disability",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.avivaindia.com/term-insurance-plans/aviva-signature-3d-term-plan-platinum"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Aviva New Critical Illness Non-Linked Rider",
+   "segment": "Rider",
+   "category": "Critical Illness",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.avivaindia.com/term-insurance-plans/aviva-signature-3d-term-plan-platinum"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Aviva Cancer Cardio Non-Linked Rider",
+   "segment": "Rider",
+   "category": "Critical Illness",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://www.avivaindia.com/term-insurance-plans/aviva-signature-3d-term-plan-platinum"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-10-28"
+  }
+ ],
+ "notes": "Inventory from homepage menu + /life-insurance-plans + /group-insurance-plans (no UINs shown on listings). WebFetch refused (URL_NOT_ON_ALLOWLIST) /product-downloads, /riders-aviva-life-insurance, /public-disclosures-aviva-life-insurance, /important-policies, /information-disclosures - the weekly job should read these for UINs, riders, brochures and any withdrawn-product list. SEO landing pages (1 Crore / 2 Crore / 25 Lakh / 50 Lakh / 10 Year term, Family Life) are not separate products and are not listed."
+}

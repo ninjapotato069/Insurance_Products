@@ -19,6 +19,18 @@
     "period": "FY2025-26",
     "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
     "note": "LIC share of industry NBP; private insurers combined ~43.3%"
+   },
+   "csr_count_pct": {
+    "value": 97.81,
+    "period": "FY2025-26",
+    "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
+    "note": "Industry individual death claims by number: 997,142 settled of 1,019,482 received (Cafemutual compilation; Acko Life excluded, 1 claim)."
+   },
+   "claims_repudiated_pct": {
+    "value": 1.7,
+    "period": "FY2025-26",
+    "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
+    "note": "17,305 repudiated of 1,019,482 received by number."
    }
   },
   "life_insurers_count": 26,
@@ -44,6 +56,18 @@
      "period": "FY2025-26",
      "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
      "note": "YoY vs FY2024-25 NBP as reported in source table (FY2024-25 NBP in Rs cr: see source)"
+    },
+    "csr_count_pct": {
+     "value": 97.55,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
+     "note": "Ratio = settled/received by number, computed from Cafemutual's compiled counts (Jul 2026); source reports 1-decimal rounding. Individual death claims FY2025-26: 830,399 settled and 16,113 repudiated of 851,292 received (rest pending/other)."
+    },
+    "claims_repudiated_pct": {
+     "value": 1.89,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
+     "note": "Repudiated/received by number. Individual death claims FY2025-26: 830,399 settled and 16,113 repudiated of 851,292 received (rest pending/other)."
     }
    }
   },
@@ -66,6 +90,18 @@
      "period": "FY2025-26",
      "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
      "note": "YoY vs FY2024-25 NBP as reported in source table (FY2024-25 NBP in Rs cr: see source)"
+    },
+    "csr_count_pct": {
+     "value": 98.56,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
+     "note": "Ratio = settled/received by number, computed from Cafemutual's compiled counts (Jul 2026); source reports 1-decimal rounding. Individual death claims FY2025-26: 45,311 settled and 535 repudiated of 45,972 received (rest pending/other)."
+    },
+    "claims_repudiated_pct": {
+     "value": 1.16,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
+     "note": "Repudiated/received by number. Individual death claims FY2025-26: 45,311 settled and 535 repudiated of 45,972 received (rest pending/other)."
     }
    }
   },
@@ -88,6 +124,18 @@
      "period": "FY2025-26",
      "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
      "note": "YoY vs FY2024-25 NBP as reported in source table (FY2024-25 NBP in Rs cr: see source)"
+    },
+    "csr_count_pct": {
+     "value": 99.72,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
+     "note": "Ratio = settled/received by number, computed from Cafemutual's compiled counts (Jul 2026); source reports 1-decimal rounding. Individual death claims FY2025-26: 19,351 settled and 54 repudiated of 19,406 received (rest pending/other)."
+    },
+    "claims_repudiated_pct": {
+     "value": 0.28,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
+     "note": "Repudiated/received by number. Individual death claims FY2025-26: 19,351 settled and 54 repudiated of 19,406 received (rest pending/other)."
     }
    }
   },
@@ -110,6 +158,18 @@
      "period": "FY2025-26",
      "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
      "note": "YoY vs FY2024-25 NBP as reported in source table (FY2024-25 NBP in Rs cr: see source)"
+    },
+    "csr_count_pct": {
+     "value": 99.34,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
+     "note": "Ratio = settled/received by number, computed from Cafemutual's compiled counts (Jul 2026); source reports 1-decimal rounding. Individual death claims FY2025-26: 12,043 settled and 78 repudiated of 12,123 received (rest pending/other)."
+    },
+    "claims_repudiated_pct": {
+     "value": 0.64,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
+     "note": "Repudiated/received by number. Individual death claims FY2025-26: 12,043 settled and 78 repudiated of 12,123 received (rest pending/other)."
     }
    }
   },
@@ -132,6 +192,18 @@
      "period": "FY2025-26",
      "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
      "note": "YoY vs FY2024-25 NBP as reported in source table (FY2024-25 NBP in Rs cr: see source)"
+    },
+    "csr_count_pct": {
+     "value": 99.33,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
+     "note": "Ratio = settled/received by number, computed from Cafemutual's compiled counts (Jul 2026); source reports 1-decimal rounding. Individual death claims FY2025-26: 13,545 settled and 45 repudiated of 13,636 received (rest pending/other)."
+    },
+    "claims_repudiated_pct": {
+     "value": 0.33,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
+     "note": "Repudiated/received by number. Individual death claims FY2025-26: 13,545 settled and 45 repudiated of 13,636 received (rest pending/other)."
     }
    }
   },
@@ -154,6 +226,18 @@
      "period": "FY2025-26",
      "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
      "note": "YoY vs FY2024-25 NBP as reported in source table (FY2024-25 NBP in Rs cr: see source)"
+    },
+    "csr_count_pct": {
+     "value": 99.78,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
+     "note": "Ratio = settled/received by number, computed from Cafemutual's compiled counts (Jul 2026); source reports 1-decimal rounding. Individual death claims FY2025-26: 20,543 settled and 6 repudiated of 20,588 received (rest pending/other)."
+    },
+    "claims_repudiated_pct": {
+     "value": 0.03,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
+     "note": "Repudiated/received by number. Individual death claims FY2025-26: 20,543 settled and 6 repudiated of 20,588 received (rest pending/other)."
     }
    }
   },
@@ -176,6 +260,18 @@
      "period": "FY2025-26",
      "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
      "note": "YoY vs FY2024-25 NBP as reported in source table (FY2024-25 NBP in Rs cr: see source)"
+    },
+    "csr_count_pct": {
+     "value": 98.86,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
+     "note": "Ratio = settled/received by number, computed from Cafemutual's compiled counts (Jul 2026); source reports 1-decimal rounding. Individual death claims FY2025-26: 6,313 settled and 73 repudiated of 6,386 received (rest pending/other)."
+    },
+    "claims_repudiated_pct": {
+     "value": 1.14,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
+     "note": "Repudiated/received by number. Individual death claims FY2025-26: 6,313 settled and 73 repudiated of 6,386 received (rest pending/other)."
     }
    }
   },
@@ -198,6 +294,18 @@
      "period": "FY2025-26",
      "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
      "note": "YoY vs FY2024-25 NBP as reported in source table (FY2024-25 NBP in Rs cr: see source)"
+    },
+    "csr_count_pct": {
+     "value": 99.45,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
+     "note": "Ratio = settled/received by number, computed from Cafemutual's compiled counts (Jul 2026); source reports 1-decimal rounding. Individual death claims FY2025-26: 9,207 settled and 48 repudiated of 9,258 received (rest pending/other)."
+    },
+    "claims_repudiated_pct": {
+     "value": 0.52,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
+     "note": "Repudiated/received by number. Individual death claims FY2025-26: 9,207 settled and 48 repudiated of 9,258 received (rest pending/other)."
     }
    }
   },
@@ -220,6 +328,18 @@
      "period": "FY2025-26",
      "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
      "note": "YoY vs FY2024-25 NBP as reported in source table (FY2024-25 NBP in Rs cr: see source)"
+    },
+    "csr_count_pct": {
+     "value": 99.5,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
+     "note": "Ratio = settled/received by number, computed from Cafemutual's compiled counts (Jul 2026); source reports 1-decimal rounding. Individual death claims FY2025-26: 4,736 settled and 23 repudiated of 4,760 received (rest pending/other)."
+    },
+    "claims_repudiated_pct": {
+     "value": 0.48,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
+     "note": "Repudiated/received by number. Individual death claims FY2025-26: 4,736 settled and 23 repudiated of 4,760 received (rest pending/other)."
     }
    }
   },
@@ -242,6 +362,18 @@
      "period": "FY2025-26",
      "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
      "note": "YoY vs FY2024-25 NBP as reported in source table (FY2024-25 NBP in Rs cr: see source)"
+    },
+    "csr_count_pct": {
+     "value": 99.81,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
+     "note": "Ratio = settled/received by number, computed from Cafemutual's compiled counts (Jul 2026); source reports 1-decimal rounding. Individual death claims FY2025-26: 6,188 settled and 12 repudiated of 6,200 received (rest pending/other)."
+    },
+    "claims_repudiated_pct": {
+     "value": 0.19,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
+     "note": "Repudiated/received by number. Individual death claims FY2025-26: 6,188 settled and 12 repudiated of 6,200 received (rest pending/other)."
     }
    }
   },
@@ -264,6 +396,18 @@
      "period": "FY2025-26",
      "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
      "note": "YoY vs FY2024-25 NBP as reported in source table (FY2024-25 NBP in Rs cr: see source)"
+    },
+    "csr_count_pct": {
+     "value": 99.01,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
+     "note": "Ratio = settled/received by number, computed from Cafemutual's compiled counts (Jul 2026); source reports 1-decimal rounding. Individual death claims FY2025-26: 2,509 settled and 23 repudiated of 2,534 received (rest pending/other)."
+    },
+    "claims_repudiated_pct": {
+     "value": 0.91,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
+     "note": "Repudiated/received by number. Individual death claims FY2025-26: 2,509 settled and 23 repudiated of 2,534 received (rest pending/other)."
     }
    }
   },
@@ -286,6 +430,18 @@
      "period": "FY2025-26",
      "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
      "note": "YoY vs FY2024-25 NBP as reported in source table (FY2024-25 NBP in Rs cr: see source)"
+    },
+    "csr_count_pct": {
+     "value": 99.52,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
+     "note": "Ratio = settled/received by number, computed from Cafemutual's compiled counts (Jul 2026); source reports 1-decimal rounding. Individual death claims FY2025-26: 2,895 settled and 14 repudiated of 2,909 received (rest pending/other)."
+    },
+    "claims_repudiated_pct": {
+     "value": 0.48,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
+     "note": "Repudiated/received by number. Individual death claims FY2025-26: 2,895 settled and 14 repudiated of 2,909 received (rest pending/other)."
     }
    }
   },
@@ -308,6 +464,18 @@
      "period": "FY2025-26",
      "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
      "note": "YoY vs FY2024-25 NBP as reported in source table (FY2024-25 NBP in Rs cr: see source)"
+    },
+    "csr_count_pct": {
+     "value": 98.78,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
+     "note": "Ratio = settled/received by number, computed from Cafemutual's compiled counts (Jul 2026); source reports 1-decimal rounding. Individual death claims FY2025-26: 3,871 settled and 48 repudiated of 3,919 received (rest pending/other)."
+    },
+    "claims_repudiated_pct": {
+     "value": 1.22,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
+     "note": "Repudiated/received by number. Individual death claims FY2025-26: 3,871 settled and 48 repudiated of 3,919 received (rest pending/other)."
     }
    }
   },
@@ -330,6 +498,18 @@
      "period": "FY2025-26",
      "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
      "note": "YoY vs FY2024-25 NBP as reported in source table (FY2024-25 NBP in Rs cr: see source)"
+    },
+    "csr_count_pct": {
+     "value": 98.52,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
+     "note": "Ratio = settled/received by number, computed from Cafemutual's compiled counts (Jul 2026); source reports 1-decimal rounding. Individual death claims FY2025-26: 5,332 settled and 67 repudiated of 5,412 received (rest pending/other)."
+    },
+    "claims_repudiated_pct": {
+     "value": 1.24,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
+     "note": "Repudiated/received by number. Individual death claims FY2025-26: 5,332 settled and 67 repudiated of 5,412 received (rest pending/other)."
     }
    }
   },
@@ -352,6 +532,18 @@
      "period": "FY2025-26",
      "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
      "note": "YoY vs FY2024-25 NBP as reported in source table (FY2024-25 NBP in Rs cr: see source)"
+    },
+    "csr_count_pct": {
+     "value": 99.82,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
+     "note": "Ratio = settled/received by number, computed from Cafemutual's compiled counts (Jul 2026); source reports 1-decimal rounding. Individual death claims FY2025-26: 1,130 settled and 1 repudiated of 1,132 received (rest pending/other)."
+    },
+    "claims_repudiated_pct": {
+     "value": 0.09,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
+     "note": "Repudiated/received by number. Individual death claims FY2025-26: 1,130 settled and 1 repudiated of 1,132 received (rest pending/other)."
     }
    }
   },
@@ -374,6 +566,18 @@
      "period": "FY2025-26",
      "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
      "note": "YoY vs FY2024-25 NBP as reported in source table (FY2024-25 NBP in Rs cr: see source)"
+    },
+    "csr_count_pct": {
+     "value": 99.57,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
+     "note": "Ratio = settled/received by number, computed from Cafemutual's compiled counts (Jul 2026); source reports 1-decimal rounding. Individual death claims FY2025-26: 924 settled and 4 repudiated of 928 received (rest pending/other)."
+    },
+    "claims_repudiated_pct": {
+     "value": 0.43,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
+     "note": "Repudiated/received by number. Individual death claims FY2025-26: 924 settled and 4 repudiated of 928 received (rest pending/other)."
     }
    }
   },
@@ -396,6 +600,18 @@
      "period": "FY2025-26",
      "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
      "note": "YoY vs FY2024-25 NBP as reported in source table (FY2024-25 NBP in Rs cr: see source)"
+    },
+    "csr_count_pct": {
+     "value": 98.94,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
+     "note": "Ratio = settled/received by number, computed from Cafemutual's compiled counts (Jul 2026); source reports 1-decimal rounding. Individual death claims FY2025-26: 8,007 settled and 83 repudiated of 8,093 received (rest pending/other)."
+    },
+    "claims_repudiated_pct": {
+     "value": 1.03,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
+     "note": "Repudiated/received by number. Individual death claims FY2025-26: 8,007 settled and 83 repudiated of 8,093 received (rest pending/other)."
     }
    }
   },
@@ -418,6 +634,18 @@
      "period": "FY2025-26",
      "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
      "note": "YoY vs FY2024-25 NBP as reported in source table (FY2024-25 NBP in Rs cr: see source)"
+    },
+    "csr_count_pct": {
+     "value": 6.9,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
+     "note": "Ratio = settled/received by number, computed from Cafemutual's compiled counts (Jul 2026); source reports 1-decimal rounding. Very small base (58 claims, 17 neither settled nor repudiated at year-end) so not comparable. Individual death claims FY2025-26: 4 settled and 37 repudiated of 58 received (rest pending/other)."
+    },
+    "claims_repudiated_pct": {
+     "value": 63.79,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
+     "note": "Repudiated/received by number. Individual death claims FY2025-26: 4 settled and 37 repudiated of 58 received (rest pending/other)."
     }
    }
   },
@@ -440,6 +668,18 @@
      "period": "FY2025-26",
      "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
      "note": "YoY vs FY2024-25 NBP as reported in source table (FY2024-25 NBP in Rs cr: see source)"
+    },
+    "csr_count_pct": {
+     "value": 99.29,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
+     "note": "Ratio = settled/received by number, computed from Cafemutual's compiled counts (Jul 2026); source reports 1-decimal rounding. Individual death claims FY2025-26: 841 settled and 5 repudiated of 847 received (rest pending/other)."
+    },
+    "claims_repudiated_pct": {
+     "value": 0.59,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
+     "note": "Repudiated/received by number. Individual death claims FY2025-26: 841 settled and 5 repudiated of 847 received (rest pending/other)."
     }
    }
   },
@@ -462,6 +702,18 @@
      "period": "FY2025-26",
      "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
      "note": "YoY vs FY2024-25 NBP as reported in source table (FY2024-25 NBP in Rs cr: see source)"
+    },
+    "csr_count_pct": {
+     "value": 99.21,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
+     "note": "Ratio = settled/received by number, computed from Cafemutual's compiled counts (Jul 2026); source reports 1-decimal rounding. Individual death claims FY2025-26: 2,267 settled and 18 repudiated of 2,285 received (rest pending/other)."
+    },
+    "claims_repudiated_pct": {
+     "value": 0.79,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
+     "note": "Repudiated/received by number. Individual death claims FY2025-26: 2,267 settled and 18 repudiated of 2,285 received (rest pending/other)."
     }
    }
   },
@@ -484,6 +736,18 @@
      "period": "FY2025-26",
      "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
      "note": "YoY vs FY2024-25 NBP as reported in source table (FY2024-25 NBP in Rs cr: see source)"
+    },
+    "csr_count_pct": {
+     "value": 99.31,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
+     "note": "Ratio = settled/received by number, computed from Cafemutual's compiled counts (Jul 2026); source reports 1-decimal rounding. Individual death claims FY2025-26: 575 settled and 4 repudiated of 579 received (rest pending/other)."
+    },
+    "claims_repudiated_pct": {
+     "value": 0.69,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
+     "note": "Repudiated/received by number. Individual death claims FY2025-26: 575 settled and 4 repudiated of 579 received (rest pending/other)."
     }
    }
   },
@@ -528,6 +792,18 @@
      "period": "FY2025-26",
      "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
      "note": "YoY vs FY2024-25 NBP as reported in source table (FY2024-25 NBP in Rs cr: see source)"
+    },
+    "csr_count_pct": {
+     "value": 98.15,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
+     "note": "Ratio = settled/received by number, computed from Cafemutual's compiled counts (Jul 2026); source reports 1-decimal rounding. Individual death claims FY2025-26: 425 settled and 8 repudiated of 433 received (rest pending/other)."
+    },
+    "claims_repudiated_pct": {
+     "value": 1.85,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
+     "note": "Repudiated/received by number. Individual death claims FY2025-26: 425 settled and 8 repudiated of 433 received (rest pending/other)."
     }
    }
   },
@@ -550,6 +826,18 @@
      "period": "FY2025-26",
      "source": "https://cafemutual.com/news/insurance/37601-lic-sbi-and-hdfc-top-three-life-insurers-in-terms-of-new-business-premium",
      "note": "YoY vs FY2024-25 NBP as reported in source table (FY2024-25 NBP in Rs cr: see source)"
+    },
+    "csr_count_pct": {
+     "value": 99.18,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
+     "note": "Ratio = settled/received by number, computed from Cafemutual's compiled counts (Jul 2026); source reports 1-decimal rounding. Individual death claims FY2025-26: 726 settled and 6 repudiated of 732 received (rest pending/other)."
+    },
+    "claims_repudiated_pct": {
+     "value": 0.82,
+     "period": "FY2025-26",
+     "source": "https://cafemutual.com/news/insurance/38115-here-is-the-claim-settlement-ratio-of-life-insurers-you-work-with",
+     "note": "Repudiated/received by number. Individual death claims FY2025-26: 726 settled and 6 repudiated of 732 received (rest pending/other)."
     }
    }
   },
