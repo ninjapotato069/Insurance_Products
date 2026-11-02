@@ -3885,6 +3885,299 @@
    ],
    "completeness": "partial",
    "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "117L136V04",
+   "name": "PNB MetLife Term with Unit Linked Insurance Plan (TULIP)",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": "Term + ULIP with return of charges",
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Protection",
+    "Wealth"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 65,
+    "maturity_age_max_years": 85,
+    "policy_term_min_years": 15,
+    "policy_term_max_years": 20,
+    "whole_life": false,
+    "ppt_options": [
+     "Limited 5",
+     "Limited 6",
+     "Limited 10"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": 36000,
+    "min_single_premium_inr": null,
+    "max_premium_text": "No limit, subject to underwriting",
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Policy term 15 or 20 years; sum assured multiple of annual premium falls with entry age (up to 50x at 18-30, 7-10x at 61-65)"
+   },
+   "benefits": {
+    "death": "Sum assured (a high multiple of annual premium) on death during the term",
+    "maturity": "Fund value at maturity plus return of premium allocation and mortality charges if all premiums paid",
+    "survival_income": null,
+    "guaranteed": false,
+    "return_of_premium": false,
+    "loan": false,
+    "partial_withdrawal": true,
+    "other": "Partial withdrawals only after year 5"
+   },
+   "category_details": {
+    "term": null,
+    "ulip": {
+     "funds_count": null,
+     "fmc_max_pct": null,
+     "loyalty_additions": null,
+     "return_of_mortality_charges": true,
+     "free_switches_per_year": null,
+     "premium_allocation_charge": "Returned at maturity",
+     "policy_admin_charge": null
+    },
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "High life cover of up to 50x annual premium for young buyers",
+    "Short 5, 6 or 10-year premium payment",
+    "Premium allocation and mortality charges added back at maturity",
+    "Optional linked accidental death benefit rider"
+   ],
+   "riders_available": [
+    "PNB MetLife Linked Accidental Death Benefit Rider"
+   ],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "A ULIP built around a large term cover, returning charges at maturity, for buyers wanting protection plus market-linked growth.",
+   "urls": {
+    "product_page": null,
+    "brochure": "https://newsite.pnbmetlife.com/content/dam/pnb-metlife/docs/product/Download_Brochure/tulip_leaflet.pdf"
+   },
+   "sources": [
+    "https://newsite.pnbmetlife.com/content/dam/pnb-metlife/docs/product/Download_Brochure/tulip_leaflet.pdf",
+    "https://www.policybazaar.com/insurance-companies/pnb-metlife-ulip-plans"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-11-02"
+  },
+  {
+   "uin": "117L139V05",
+   "name": "PNB MetLife Smart Goal Ensuring Multiplier",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": "Wealth / income-assured ULIP",
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Wealth",
+    "Child"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Wealth",
+     "summary": "Fund value or sum assured on death; whole-life term option"
+    },
+    {
+     "name": "Income Assured",
+     "summary": "On death: sum assured, monthly income of 1/12 annual premium and future premiums waived; mortality charges returned at maturity"
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 0.08,
+    "entry_age_max_years": 60,
+    "maturity_age_max_years": 99,
+    "policy_term_min_years": 10,
+    "policy_term_max_years": 30,
+    "whole_life": false,
+    "ppt_options": [
+     "Single",
+     "Limited 5",
+     "Limited 7",
+     "Limited 10",
+     "Regular"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly",
+     "Single"
+    ],
+    "min_annual_premium_inr": 12000,
+    "min_single_premium_inr": 20000,
+    "max_premium_text": "No limit, subject to underwriting",
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Income Assured option entry age 18-45, term 10-20; whole-life term option up to age 99"
+   },
+   "benefits": {
+    "death": "Wealth: highest of fund value, sum assured or 105% of premiums; Income Assured: sum assured plus monthly income and premium waiver",
+    "maturity": "Total fund value at maturity",
+    "survival_income": null,
+    "guaranteed": false,
+    "return_of_premium": false,
+    "loan": false,
+    "partial_withdrawal": true,
+    "other": "Systematic withdrawal of 1-12% of fund value after year 5"
+   },
+   "category_details": {
+    "term": null,
+    "ulip": {
+     "funds_count": 22,
+     "fmc_max_pct": 1.35,
+     "loyalty_additions": null,
+     "return_of_mortality_charges": true,
+     "free_switches_per_year": null,
+     "premium_allocation_charge": null,
+     "policy_admin_charge": null
+    },
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Two options: Wealth and Income Assured (built-in premium waiver and family income)",
+    "22 funds",
+    "Whole-life cover option up to age 99",
+    "Systematic withdrawals after the lock-in"
+   ],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "A goal-based ULIP whose Income Assured option keeps a child's or family's goal funded if the parent dies.",
+   "urls": {
+    "product_page": null,
+    "brochure": "https://newsite.pnbmetlife.com/content/dam/pnb-metlife/docs/product/TermsCondition/smart-gem_tnc.pdf"
+   },
+   "sources": [
+    "https://newsite.pnbmetlife.com/content/dam/pnb-metlife/docs/product/TermsCondition/smart-gem_tnc.pdf",
+    "https://www.holisticinvestment.in/pnb-metlife-smart-goal-ensuring-multiplier-plan-review-good-bad-insights-analysis-ulip/"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-11-02"
+  },
+  {
+   "uin": "117L098V08",
+   "name": "PNB MetLife Mera Wealth Plan",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Wealth"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Premier",
+     "summary": "Offline option with allocation and admin charges"
+    },
+    {
+     "name": "Online",
+     "summary": "No premium allocation charge"
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 0.08,
+    "entry_age_max_years": 60,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": 10,
+    "policy_term_max_years": 30,
+    "whole_life": false,
+    "ppt_options": [
+     "Single",
+     "Limited 5",
+     "Limited 10",
+     "Regular"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Monthly",
+     "Single"
+    ],
+    "min_annual_premium_inr": 12000,
+    "min_single_premium_inr": 100000,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Specs read from the V04 policy document; current version is V08 and limits may differ. Sum assured 1.25x single premium or the higher of 10x / half the term times annual premium."
+   },
+   "benefits": {
+    "death": "Highest of fund value, sum assured or 105% of premiums paid",
+    "maturity": "Fund value as lump sum or structured payout over up to 5 years",
+    "survival_income": null,
+    "guaranteed": false,
+    "return_of_premium": false,
+    "loan": false,
+    "partial_withdrawal": true,
+    "other": "Loyalty additions from year 6"
+   },
+   "category_details": {
+    "term": null,
+    "ulip": {
+     "funds_count": 10,
+     "fmc_max_pct": 1.35,
+     "loyalty_additions": "From end of year 6, 0.3-1.0% of average fund value a year",
+     "return_of_mortality_charges": false,
+     "free_switches_per_year": "Unlimited",
+     "premium_allocation_charge": "Premier about 2-4%; Online nil",
+     "policy_admin_charge": "Capped at Rs 6,000 a year"
+    },
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Premier and Online options; Online has no allocation charge",
+    "Loyalty additions every year from year 6",
+    "Unlimited free switches",
+    "Maturity as lump sum or spread over 5 years"
+   ],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "A plain wealth-building ULIP with loyalty additions, sold offline and online.",
+   "urls": {
+    "product_page": null,
+    "brochure": "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/product/TermsCondition/MMWP_tnc.pdf"
+   },
+   "sources": [
+    "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/product/TermsCondition/MMWP_tnc.pdf",
+    "https://www.policybazaar.com/insurance-companies/pnb-metlife-ulip-plans"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-11-02"
   }
  ],
  "notes": ""

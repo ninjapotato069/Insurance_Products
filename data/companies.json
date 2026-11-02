@@ -71,11 +71,9 @@
    "Bajaj Allianz Life Insurance"
   ],
   "apps": {
-   "ios": "6749006543"
-  },
-  "apps_auto": [
-   "ios"
-  ]
+   "ios": "6749006543",
+   "android": "com.bajaj.life"
+  }
  },
  {
   "id": "tataaia",

@@ -198,5 +198,25 @@
   "title": "Catalogue baseline: 38 active products recorded",
   "details": "First full research pass. Later weekly checks compare against this list.",
   "status": "done"
+ },
+ {
+  "id": "2026-11-02-hdfc-metric_update-25",
+  "date": "2026-11-02",
+  "company_id": "hdfc",
+  "type": "metric_update",
+  "title": "HDFC Life H1 FY27 metrics",
+  "details": "Solvency 180% and AUM Rs 4,09,673 crore at 30 Sep 2026; H1 VNB margin 24.7%",
+  "source": "https://www.hdfclife.com/content/dam/hdfclifeinsurancecompany/about-us/pdf/investor-relations/financial-information/Quarterly-financial-results/HDFC-Life-H1-FY2027-Press-Release.pdf",
+  "status": "done"
+ },
+ {
+  "id": "2026-11-02-icici-metric_update-26",
+  "date": "2026-11-02",
+  "company_id": "icici",
+  "type": "metric_update",
+  "title": "ICICI Life H1 FY27 VNB margin",
+  "details": "H1 FY27 VNB margin 26.0%; solvency 229.9% at 30 Sep 2026 confirmed",
+  "source": "https://plindia.com/ResReport/IPRU-14-10-26-PL.pdf",
+  "status": "done"
  }
 ]

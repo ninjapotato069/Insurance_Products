@@ -324,22 +324,22 @@
      "note": "Converted from Rs mn in Baroda eTrade Q4FY26 review (17 Apr 2026)."
     },
     "vnb_margin_pct": {
-     "value": 24.2,
-     "period": "FY2025-26",
-     "source": "https://www.barodaetrade.com/Reports/HDFCLife-Q4FY26ResultReview17Apr26-Research.pdf",
-     "note": "VNB Rs 4,034 crore on total APE Rs 16,641 crore."
+     "value": 24.7,
+     "period": "H1 FY2026-27",
+     "source": "https://www.hdfclife.com/content/dam/hdfclifeinsurancecompany/about-us/pdf/investor-relations/financial-information/Quarterly-financial-results/HDFC-Life-H1-FY2027-Press-Release.pdf",
+     "note": "VNB Rs 2,037 crore for six months to 30 Sep 2026; FY2025-26 margin was 24.2%."
     },
     "solvency_ratio": {
-     "value": 1.77,
-     "period": "31 Mar 2026",
-     "source": "https://www.barodaetrade.com/Reports/HDFCLife-Q4FY26ResultReview17Apr26-Research.pdf",
-     "note": "177% at 31 Mar 2026 per Baroda eTrade review."
+     "value": 1.8,
+     "period": "30 Sep 2026",
+     "source": "https://www.hdfclife.com/content/dam/hdfclifeinsurancecompany/about-us/pdf/investor-relations/financial-information/Quarterly-financial-results/HDFC-Life-H1-FY2027-Press-Release.pdf",
+     "note": "180% per HDFC Life H1 FY2027 release (15 Oct 2026); 177% at 31 Mar 2026."
     },
     "aum_cr": {
-     "value": 375198,
-     "period": "31 Mar 2026",
-     "source": "https://www.barodaetrade.com/Reports/HDFCLife-Q4FY26ResultReview17Apr26-Research.pdf",
-     "note": "Converted from Rs mn in Baroda eTrade Q4FY26 review."
+     "value": 409673,
+     "period": "30 Sep 2026",
+     "source": "https://www.hdfclife.com/content/dam/hdfclifeinsurancecompany/about-us/pdf/investor-relations/financial-information/Quarterly-financial-results/HDFC-Life-H1-FY2027-Press-Release.pdf",
+     "note": "Excludes HDFC Pension Fund (about Rs 5.9 lakh crore including it)."
     },
     "grievances_total": {
      "value": 2341,
@@ -420,10 +420,10 @@
      "note": "Rounded (+35% YoY; Q4 Rs 609 crore) from a news article dated 18 Apr 2026; H1 FY2026-27 PAT Rs 760 crore (+26.5%) per Kotak Neo. Check against the company release."
     },
     "vnb_margin_pct": {
-     "value": 24.7,
-     "period": "FY2025-26",
-     "source": "https://www.jurishour.in/gst/input-tax-credit-hdfc-life-icici-prudential-posts-strong-profit-growth/",
-     "note": "vs 22.8% in FY2024-25; H1 FY2026-27 margin 26.0% (VNB Rs 1,283 crore, +22.3%) per Kotak Neo."
+     "value": 26.0,
+     "period": "H1 FY2026-27",
+     "source": "https://plindia.com/ResReport/IPRU-14-10-26-PL.pdf",
+     "note": "VNB Rs 1,283 crore for six months to 30 Sep 2026 (24.7% in H1 FY26 per Kotak Neo; PL report says 24.5%). Q2 alone 25.5%."
     },
     "grievances_total": {
      "value": 1560,
@@ -439,9 +439,9 @@
     },
     "solvency_ratio": {
      "value": 2.299,
-     "period": "30 Sep 2026 (not explicitly dated in source)",
-     "source": "https://www.kotakneo.com/news/stocks/icici-life-insurance-share-price-in-focus-as-company-announces-q2-fy27-results/",
-     "note": "229.9% per the Kotak Neo article on H1 FY2026-27 results; the article does not label the date, so verify against the company release."
+     "period": "30 Sep 2026",
+     "source": "https://plindia.com/ResReport/IPRU-14-10-26-PL.pdf",
+     "note": "229.9% in Q2 FY2027 (PL Capital, 14 Oct 2026)."
     }
    },
    "legal_name": "ICICI Life Insurance Limited",

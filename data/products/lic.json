@@ -319,53 +319,75 @@
    "withdrawn_date": null,
    "variants": [],
    "eligibility": {
-    "entry_age_min_years": null,
-    "entry_age_max_years": null,
-    "maturity_age_max_years": null,
-    "policy_term_min_years": null,
-    "policy_term_max_years": null,
-    "whole_life": null,
-    "ppt_options": [],
-    "premium_modes": [],
+    "entry_age_min_years": 8,
+    "entry_age_max_years": 59,
+    "maturity_age_max_years": 75,
+    "policy_term_min_years": 16,
+    "policy_term_max_years": 25,
+    "whole_life": false,
+    "ppt_options": [
+     "Limited 10",
+     "Limited 15",
+     "Limited 16"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
     "min_annual_premium_inr": null,
     "min_single_premium_inr": null,
     "max_premium_text": null,
-    "min_sum_assured_inr": null,
-    "max_sum_assured_text": null,
-    "notes": null
+    "min_sum_assured_inr": 200000,
+    "max_sum_assured_text": "No limit",
+    "notes": "Terms 16/21/25 with PPT 10/15/16; max entry 59/54/50. Read from the V01 brochure."
    },
    "benefits": {
-    "death": null,
-    "maturity": null,
+    "death": "Higher of 10x annualised premium or basic sum assured, plus bonuses; at least 105% of premiums",
+    "maturity": "Basic sum assured plus simple reversionary bonuses and any final additional bonus",
     "survival_income": null,
-    "guaranteed": null,
-    "return_of_premium": null,
-    "loan": null,
+    "guaranteed": false,
+    "return_of_premium": false,
+    "loan": true,
     "partial_withdrawal": null,
     "other": null
    },
    "category_details": {
     "term": null,
     "ulip": null,
-    "savings": null,
+    "savings": {
+     "payout_type": "Lump sum",
+     "bonus_type": "Reversionary",
+     "illustrative_return": null
+    },
     "annuity": null,
     "health": null
    },
-   "key_features": [],
-   "riders_available": [],
+   "key_features": [
+    "Limited premium endowment with three term choices",
+    "Simple reversionary bonuses plus final additional bonus",
+    "Loan facility",
+    "Accident, term and critical illness riders"
+   ],
+   "riders_available": [
+    "LIC's Accidental Death and Disability Benefit Rider",
+    "LIC's New Term Assurance Rider",
+    "LIC's New Critical Illness Benefit Rider"
+   ],
    "online_purchase": null,
    "channels": [],
    "tax_benefits": null,
-   "description": null,
+   "description": "A limited-pay participating endowment for long-term savers.",
    "urls": {
     "product_page": "https://licindia.in/web/guest/lic-s-jeevan-labh-plan-736-512n304v03",
-    "brochure": null
+    "brochure": "https://axisbank.com/docs/default-source/life-insurance/lic-jeevan-labh.pdf"
    },
    "sources": [
-    "https://licindia.in/web/guest/endowment-plans"
+    "https://axisbank.com/docs/default-source/life-insurance/lic-jeevan-labh.pdf"
    ],
-   "completeness": "list-only",
-   "last_verified": "2026-10-28",
+   "completeness": "full",
+   "last_verified": "2026-11-02",
    "alt_code": "Plan 736"
   },
   {
@@ -502,38 +524,43 @@
    "uin": "512N389V01",
    "name": "LIC's Bima Lakshmi",
    "segment": "Individual",
-   "category": null,
-   "plan_structure": null,
+   "category": "Savings - Non-Par",
+   "plan_structure": "Money Back",
    "sub_category": null,
    "linkage": "Non-Linked",
-   "participation": null,
-   "need_tags": [],
+   "participation": "Non-Par",
+   "need_tags": [
+    "Savings"
+   ],
    "standard_product": null,
    "status": "Active",
-   "launch_date": null,
+   "launch_date": "2025-10-15",
    "withdrawn_date": null,
    "variants": [],
    "eligibility": {
-    "entry_age_min_years": null,
-    "entry_age_max_years": null,
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 50,
     "maturity_age_max_years": null,
-    "policy_term_min_years": null,
-    "policy_term_max_years": null,
+    "policy_term_min_years": 25,
+    "policy_term_max_years": 25,
     "whole_life": null,
-    "ppt_options": [],
+    "ppt_options": [
+     "Limited 7",
+     "Limited 15"
+    ],
     "premium_modes": [],
     "min_annual_premium_inr": null,
     "min_single_premium_inr": null,
     "max_premium_text": null,
-    "min_sum_assured_inr": null,
-    "max_sum_assured_text": null,
-    "notes": null
+    "min_sum_assured_inr": 200000,
+    "max_sum_assured_text": "No limit",
+    "notes": "Women only; PPT 7-15 years"
    },
    "benefits": {
-    "death": null,
-    "maturity": null,
-    "survival_income": null,
-    "guaranteed": null,
+    "death": "Death benefit with guaranteed additions; can be taken in instalments",
+    "maturity": "Maturity benefit with guaranteed additions; can be taken in instalments",
+    "survival_income": "Three survival benefit options, with deferment",
+    "guaranteed": true,
     "return_of_premium": null,
     "loan": null,
     "partial_withdrawal": null,
@@ -546,21 +573,26 @@
     "annuity": null,
     "health": null
    },
-   "key_features": [],
+   "key_features": [
+    "Plan for women aged 18-50",
+    "Guaranteed additions as a % of annual premium",
+    "Choice of three survival benefit options",
+    "Auto cover after three full years' premiums"
+   ],
    "riders_available": [],
    "online_purchase": null,
    "channels": [],
    "tax_benefits": null,
-   "description": null,
+   "description": "A non-par savings plan for women with guaranteed additions and periodic survival benefits.",
    "urls": {
     "product_page": "https://licindia.in/web/guest/lic-s-bima-lakshmi-881-512n389v01",
     "brochure": null
    },
    "sources": [
-    "https://licindia.in/web/guest/endowment-plans"
+    "https://c4scourses.in/banking-finance/lic-launches-two-new-insurance-products-jan-suraksha-and-bima-lakshmi/"
    ],
-   "completeness": "list-only",
-   "last_verified": "2026-10-28",
+   "completeness": "full",
+   "last_verified": "2026-11-02",
    "alt_code": "Plan 881"
   },
   {
@@ -762,65 +794,96 @@
    "uin": "512N397V01",
    "name": "LIC's Bima Platinum",
    "segment": "Individual",
-   "category": null,
-   "plan_structure": null,
-   "sub_category": null,
+   "category": "Savings - Non-Par",
+   "plan_structure": "Guaranteed Income",
+   "sub_category": "Limited-pay guaranteed income with booster",
    "linkage": "Non-Linked",
-   "participation": null,
-   "need_tags": [],
+   "participation": "Non-Par",
+   "need_tags": [
+    "Savings"
+   ],
    "standard_product": null,
    "status": "Active",
-   "launch_date": null,
+   "launch_date": "2026-09-07",
    "withdrawn_date": null,
    "variants": [],
    "eligibility": {
-    "entry_age_min_years": null,
-    "entry_age_max_years": null,
-    "maturity_age_max_years": null,
-    "policy_term_min_years": null,
-    "policy_term_max_years": null,
-    "whole_life": null,
-    "ppt_options": [],
-    "premium_modes": [],
+    "entry_age_min_years": 0.08,
+    "entry_age_max_years": 55,
+    "maturity_age_max_years": 75,
+    "policy_term_min_years": 17,
+    "policy_term_max_years": 40,
+    "whole_life": false,
+    "ppt_options": [
+     "Limited 7",
+     "Limited 10",
+     "Limited 12",
+     "Limited 15",
+     "Limited 18"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
     "min_annual_premium_inr": null,
     "min_single_premium_inr": null,
     "max_premium_text": null,
-    "min_sum_assured_inr": null,
-    "max_sum_assured_text": null,
-    "notes": null
+    "min_sum_assured_inr": 300000,
+    "max_sum_assured_text": "No limit, subject to underwriting",
+    "notes": "Minimum term rises with PPT: 17 (7-pay), 20, 22, 25, 28 (18-pay); max entry age depends on PPT"
    },
    "benefits": {
-    "death": null,
-    "maturity": null,
-    "survival_income": null,
-    "guaranteed": null,
-    "return_of_premium": null,
-    "loan": null,
-    "partial_withdrawal": null,
-    "other": null
+    "death": "Higher of 11x annualised premium or basic sum assured, plus accrued guaranteed additions; at least 105% of premiums paid",
+    "maturity": "Basic sum assured plus accrued guaranteed additions",
+    "survival_income": "Regular income of 10% of basic sum assured a year after the PPT, plus a 70% booster at PPT + 5 years",
+    "guaranteed": true,
+    "return_of_premium": false,
+    "loan": true,
+    "partial_withdrawal": false,
+    "other": "Death/maturity payable in instalments over 5, 10 or 15 years"
    },
    "category_details": {
     "term": null,
     "ulip": null,
-    "savings": null,
+    "savings": {
+     "payout_type": "Lump sum + Income",
+     "income_duration": "Policy term minus PPT",
+     "bonus_type": "None",
+     "deferment_option": null,
+     "illustrative_return": null
+    },
     "annuity": null,
     "health": null
    },
-   "key_features": [],
-   "riders_available": [],
+   "key_features": [
+    "Guaranteed additions of Rs 70 per Rs 1,000 annual premium each year of the PPT",
+    "10% of sum assured paid yearly after premiums end",
+    "One-time 70% booster at PPT + 5 years",
+    "Rebate for existing LIC policyholders and nominees"
+   ],
+   "riders_available": [
+    "LIC's Accidental Death and Disability Benefit Rider",
+    "LIC's Accident Benefit Rider",
+    "LIC's New Term Assurance Rider",
+    "LIC's Premium Waiver Benefit Rider",
+    "LIC's New Critical Illness Benefit Rider"
+   ],
    "online_purchase": null,
    "channels": [],
    "tax_benefits": null,
-   "description": null,
+   "description": "A limited-pay non-par plan for savers who want guaranteed yearly income and a booster after premiums end.",
    "urls": {
     "product_page": "https://licindia.in/web/guest/lic-s-bima-platinum2",
     "brochure": null
    },
    "sources": [
-    "https://licindia.in/web/guest/endowment-plans"
+    "https://licindia.in/documents/d/guest/press-release-new-plans-bima-platinum-and-jeevan-raksha_02092026",
+    "https://www.policybazaar.com/lic-of-india/lic-bima-platinum/"
    ],
-   "completeness": "list-only",
-   "last_verified": "2026-10-28",
+   "completeness": "full",
+   "last_verified": "2026-11-02",
    "alt_code": "Plan 770"
   },
   {
@@ -894,66 +957,88 @@
    "uin": "512N363V02",
    "name": "LIC's Jeevan Utsav",
    "segment": "Individual",
-   "category": null,
+   "category": "Savings - Non-Par",
    "plan_structure": "Whole Life",
-   "sub_category": null,
+   "sub_category": "Whole-life guaranteed income",
    "linkage": "Non-Linked",
-   "participation": null,
-   "need_tags": [],
+   "participation": "Non-Par",
+   "need_tags": [
+    "Savings",
+    "Legacy"
+   ],
    "standard_product": null,
    "status": "Active",
-   "launch_date": null,
+   "launch_date": "2023-11-29",
    "withdrawn_date": null,
    "variants": [],
    "eligibility": {
-    "entry_age_min_years": null,
-    "entry_age_max_years": null,
-    "maturity_age_max_years": null,
+    "entry_age_min_years": 0.25,
+    "entry_age_max_years": 65,
+    "maturity_age_max_years": 100,
     "policy_term_min_years": null,
     "policy_term_max_years": null,
-    "whole_life": null,
-    "ppt_options": [],
+    "whole_life": true,
+    "ppt_options": [
+     "Limited 5-16"
+    ],
     "premium_modes": [],
     "min_annual_premium_inr": null,
     "min_single_premium_inr": null,
     "max_premium_text": null,
     "min_sum_assured_inr": null,
     "max_sum_assured_text": null,
-    "notes": null
+    "notes": "Premium term 5 to 16 years; read from the V01 launch release"
    },
    "benefits": {
-    "death": null,
+    "death": "Higher of basic sum assured or 7x annualised premium, plus guaranteed additions; at least 105% of premiums",
     "maturity": null,
-    "survival_income": null,
-    "guaranteed": null,
-    "return_of_premium": null,
-    "loan": null,
+    "survival_income": "10% of basic sum assured a year for life after a deferment period (Regular Income), or accumulated at 5.5% p.a. (Flexi Income)",
+    "guaranteed": true,
+    "return_of_premium": false,
+    "loan": true,
     "partial_withdrawal": null,
     "other": null
    },
    "category_details": {
     "term": null,
     "ulip": null,
-    "savings": null,
+    "savings": {
+     "payout_type": "Income",
+     "income_duration": "Whole life",
+     "bonus_type": "None",
+     "deferment_option": true,
+     "illustrative_return": null
+    },
     "annuity": null,
     "health": null
    },
-   "key_features": [],
-   "riders_available": [],
+   "key_features": [
+    "Limited premium of 5-16 years with whole-life cover",
+    "Guaranteed additions of Rs 40 per Rs 1,000 sum assured during the PPT",
+    "10% of sum assured paid every year for life",
+    "Flexi Income option lets income accumulate at 5.5% p.a."
+   ],
+   "riders_available": [
+    "LIC's Accidental Death and Disability Benefit Rider",
+    "LIC's Accident Benefit Rider",
+    "LIC's New Term Assurance Rider",
+    "LIC's New Critical Illness Benefit Rider",
+    "LIC's Premium Waiver Benefit Rider"
+   ],
    "online_purchase": null,
    "channels": [],
    "tax_benefits": null,
-   "description": null,
+   "description": "A whole-life non-par plan paying guaranteed lifelong income after a short premium term.",
    "urls": {
     "product_page": "https://licindia.in/web/guest/lic-s-jeevan-utsav2",
     "brochure": null
    },
    "sources": [
-    "https://licindia.in/web/guest/whole-life-plans"
+    "https://licindia.in/documents/d/guest/jeevan-utsav-_press-release-eng-29-11-2023"
    ],
-   "completeness": "list-only",
-   "last_verified": "2026-10-28",
-   "alt_code": "Plan 771"
+   "completeness": "partial",
+   "last_verified": "2026-11-02",
+   "alt_code": "Plan 871"
   },
   {
    "uin": "512N392V01",
@@ -1369,12 +1454,12 @@
    ],
    "standard_product": null,
    "status": "Active",
-   "launch_date": null,
+   "launch_date": "2024-08-06",
    "withdrawn_date": null,
    "variants": [],
    "eligibility": {
-    "entry_age_min_years": null,
-    "entry_age_max_years": null,
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 45,
     "maturity_age_max_years": null,
     "policy_term_min_years": null,
     "policy_term_max_years": null,
@@ -1384,8 +1469,8 @@
     "min_annual_premium_inr": null,
     "min_single_premium_inr": null,
     "max_premium_text": null,
-    "min_sum_assured_inr": null,
-    "max_sum_assured_text": null,
+    "min_sum_assured_inr": 5000000,
+    "max_sum_assured_text": "Rs 50 crore",
     "notes": null
    },
    "benefits": {
@@ -1405,21 +1490,27 @@
     "annuity": null,
     "health": null
    },
-   "key_features": [],
+   "key_features": [
+    "Online-only pure term plan",
+    "Cover from Rs 50 lakh"
+   ],
    "riders_available": [],
-   "online_purchase": null,
-   "channels": [],
+   "online_purchase": true,
+   "channels": [
+    "Direct/Online"
+   ],
    "tax_benefits": null,
-   "description": null,
+   "description": "LIC's online-only pure term plan for high cover at low cost.",
    "urls": {
     "product_page": "https://licindia.in/web/guest/lic-s-digi-term-876-512n356v01",
     "brochure": null
    },
    "sources": [
-    "https://licindia.in/web/guest/term-assurance-plans"
+    "https://origin19953-new.licindia.in/en/web/guest/lics-digi-term-uin-512n356v01",
+    "https://www.basunivesh.com/lic-bima-kavach-review-new-term-plan-compared-with-digi-tech-term/"
    ],
-   "completeness": "list-only",
-   "last_verified": "2026-10-28",
+   "completeness": "partial",
+   "last_verified": "2026-11-02",
    "alt_code": "Plan 876"
   },
   {
@@ -1762,7 +1853,7 @@
    "name": "LIC's Bima Kavach",
    "segment": "Individual",
    "category": "Term",
-   "plan_structure": null,
+   "plan_structure": "Pure Term",
    "sub_category": null,
    "linkage": "Non-Linked",
    "participation": "Non-Par",
@@ -1771,57 +1862,72 @@
    ],
    "standard_product": null,
    "status": "Active",
-   "launch_date": null,
+   "launch_date": "2025-12",
    "withdrawn_date": null,
    "variants": [],
    "eligibility": {
-    "entry_age_min_years": null,
-    "entry_age_max_years": null,
-    "maturity_age_max_years": null,
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 65,
+    "maturity_age_max_years": 100,
     "policy_term_min_years": null,
     "policy_term_max_years": null,
     "whole_life": null,
-    "ppt_options": [],
+    "ppt_options": [
+     "Single",
+     "Limited 5",
+     "Limited 10",
+     "Limited 15",
+     "Regular"
+    ],
     "premium_modes": [],
     "min_annual_premium_inr": null,
     "min_single_premium_inr": null,
     "max_premium_text": null,
-    "min_sum_assured_inr": null,
-    "max_sum_assured_text": null,
+    "min_sum_assured_inr": 20000000,
+    "max_sum_assured_text": "No limit",
     "notes": null
    },
    "benefits": {
-    "death": null,
-    "maturity": null,
+    "death": "Sum assured on death; level or increasing (10% a year in years 6-15) cover",
+    "maturity": "None",
     "survival_income": null,
-    "guaranteed": null,
-    "return_of_premium": null,
+    "guaranteed": true,
+    "return_of_premium": false,
     "loan": null,
     "partial_withdrawal": null,
     "other": null
    },
    "category_details": {
-    "term": null,
+    "term": {
+     "increasing_cover_option": true,
+     "women_or_nonsmoker_discount": "Lower rates for women and non-smokers"
+    },
     "ulip": null,
     "savings": null,
     "annuity": null,
     "health": null
    },
-   "key_features": [],
+   "key_features": [
+    "High-value term cover from Rs 2 crore",
+    "Level or increasing sum assured",
+    "Life-stage cover top-ups on marriage, children or home purchase",
+    "Cover up to age 100; online and offline"
+   ],
    "riders_available": [],
-   "online_purchase": null,
+   "online_purchase": true,
    "channels": [],
    "tax_benefits": null,
-   "description": null,
+   "description": "A high sum assured term plan with increasing-cover and life-stage options.",
    "urls": {
     "product_page": "https://licindia.in/web/guest/lic-s-bima-kavach",
     "brochure": null
    },
    "sources": [
-    "https://licindia.in/web/guest/term-assurance-plans"
+    "https://www.basunivesh.com/lic-bima-kavach-review-new-term-plan-compared-with-digi-tech-term/",
+    "https://www.licindia.in/documents/d/guest/lic-of-india-introduces-new-plans-lic-s-protection-plus-plan-886-lic-s-bima-kavach-plan-887-_03122025"
    ],
-   "completeness": "list-only",
-   "last_verified": "2026-10-28",
+   "completeness": "partial",
+   "last_verified": "2026-11-02",
    "alt_code": "Plan 887"
   },
   {
@@ -1829,7 +1935,7 @@
    "name": "LIC's Jeevan Raksha",
    "segment": "Individual",
    "category": "Term",
-   "plan_structure": null,
+   "plan_structure": "Pure Term",
    "sub_category": null,
    "linkage": "Non-Linked",
    "participation": "Non-Par",
@@ -1838,57 +1944,68 @@
    ],
    "standard_product": null,
    "status": "Active",
-   "launch_date": null,
+   "launch_date": "2026-09-07",
    "withdrawn_date": null,
    "variants": [],
    "eligibility": {
-    "entry_age_min_years": null,
-    "entry_age_max_years": null,
-    "maturity_age_max_years": null,
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 45,
+    "maturity_age_max_years": 60,
     "policy_term_min_years": null,
     "policy_term_max_years": null,
     "whole_life": null,
-    "ppt_options": [],
+    "ppt_options": [
+     "Single",
+     "Limited",
+     "Regular"
+    ],
     "premium_modes": [],
     "min_annual_premium_inr": null,
     "min_single_premium_inr": null,
     "max_premium_text": null,
-    "min_sum_assured_inr": null,
-    "max_sum_assured_text": null,
-    "notes": null
+    "min_sum_assured_inr": 500000,
+    "max_sum_assured_text": "Rs 24 lakh",
+    "notes": "Minimum maturity age 33"
    },
    "benefits": {
-    "death": null,
-    "maturity": null,
+    "death": "Guaranteed fixed sum assured on death during the term",
+    "maturity": "None",
     "survival_income": null,
-    "guaranteed": null,
-    "return_of_premium": null,
+    "guaranteed": true,
+    "return_of_premium": false,
     "loan": null,
     "partial_withdrawal": null,
     "other": null
    },
    "category_details": {
-    "term": null,
+    "term": {
+     "women_or_nonsmoker_discount": "Special rates for women"
+    },
     "ulip": null,
     "savings": null,
     "annuity": null,
     "health": null
    },
-   "key_features": [],
+   "key_features": [
+    "Small-ticket pure term cover from Rs 5 lakh to Rs 24 lakh",
+    "Single, regular or limited premium",
+    "Lower rates for women and a high sum assured rebate"
+   ],
    "riders_available": [],
    "online_purchase": null,
    "channels": [],
    "tax_benefits": null,
-   "description": null,
+   "description": "A low-cover pure term plan for first-time and smaller-budget buyers.",
    "urls": {
     "product_page": "https://licindia.in/web/guest/lic-s-jeevan-raksha",
     "brochure": null
    },
    "sources": [
-    "https://licindia.in/web/guest/term-assurance-plans"
+    "https://licindia.in/documents/d/guest/press-release-new-plans-bima-platinum-and-jeevan-raksha_02092026",
+    "https://www.businesstoday.in/personal-finance/story/lic-bima-platinum-vs-jeevan-raksha-which-new-lic-plan-is-meant-for-savings-and-which-for-pure-protection-552688-2026-09-02"
    ],
-   "completeness": "list-only",
-   "last_verified": "2026-10-28",
+   "completeness": "partial",
+   "last_verified": "2026-11-02",
    "alt_code": "Plan 894"
   },
   {

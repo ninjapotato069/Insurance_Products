@@ -1427,6 +1427,112 @@
    ],
    "completeness": "list-only",
    "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "136L096V01",
+   "name": "Promise4Wealth",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": "ULIP with charge refunds and boosters",
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Wealth",
+    "Child"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": "2026-04-07",
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Maximiser",
+     "summary": "Cover for the term, fund value at maturity, mortality charges returned"
+    },
+    {
+     "name": "Shield",
+     "summary": "On death: sum assured, future premiums funded and monthly income for up to 120 months"
+    },
+    {
+     "name": "LongLife",
+     "summary": "Cover to age 100 with mortality charges returned"
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 0,
+    "entry_age_max_years": 65,
+    "maturity_age_max_years": 100,
+    "policy_term_min_years": 10,
+    "policy_term_max_years": 30,
+    "whole_life": false,
+    "ppt_options": [
+     "Limited 5 to term-1",
+     "Regular"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": 12000,
+    "min_single_premium_inr": null,
+    "max_premium_text": "No limit, subject to underwriting",
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": "10x annualised premium",
+    "notes": "Shield entry 18-45, term 10-25, max maturity 70; LongLife entry 18-65, term to age 100; Maximiser entry 0-65, max maturity 80"
+   },
+   "benefits": {
+    "death": "Highest of sum assured, fund value or 105% of premiums (Shield: sum assured plus premium funding and monthly income)",
+    "maturity": "Fund value",
+    "survival_income": null,
+    "guaranteed": false,
+    "return_of_premium": false,
+    "loan": false,
+    "partial_withdrawal": true,
+    "other": "Policy admin charges returned 1.5-2x at maturity"
+   },
+   "category_details": {
+    "term": null,
+    "ulip": {
+     "funds_count": 15,
+     "fmc_max_pct": 1.35,
+     "loyalty_additions": "Every 5th year during PPT plus wealth boosters at years 10-30",
+     "return_of_mortality_charges": true,
+     "free_switches_per_year": "Unlimited",
+     "premium_allocation_charge": "Nil",
+     "policy_admin_charge": "Returned at maturity"
+    },
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Zero premium allocation charge",
+    "Mortality and admin charges returned at maturity",
+    "15 funds including a BSE 500 value index fund",
+    "Shield variant funds future premiums and pays family income on death"
+   ],
+   "riders_available": [],
+   "online_purchase": true,
+   "channels": [
+    "Direct/Online",
+    "Broker",
+    "Bancassurance"
+   ],
+   "tax_benefits": null,
+   "description": "A ULIP with three variants, from pure wealth building to a family-income shield, with charges refunded at maturity.",
+   "urls": {
+    "product_page": "https://www.canarahsbclife.com/savings-and-investment-plans/promise-4-wealth",
+    "brochure": "https://www.canarahsbclife.com/content/dam/chli/pdfs/products/savings-and-investment/promise4wealth/product-brochure.pdf"
+   },
+   "sources": [
+    "https://www.canarahsbclife.com/content/dam/chli/pdfs/products/savings-and-investment/promise4wealth/product-brochure.pdf",
+    "https://theprint.in/ani-press-releases/canara-hsbc-life-insurance-launches-promise4wealth-a-market-linked-savings-plan-integrating-wealth-creation-investment-flexibility-and-life-cover-up-to-age-100/2898605"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-11-02"
   }
  ],
  "notes": "Run-2 batch 1. The official /product-list page and the product-performance PDFs on canarahsbclife.com returned client_error to the fetcher, so this inventory is assembled from individual official product pages, press releases and the IPO abridged prospectus; the complete UIN list, riders list and withdrawn list are NOT yet confirmed. Prospectus (Sep 2025) says: 20 individual products (1 par, 5 non-par savings, 4 non-par protection, 7 ULIP, 3 annuity) plus 2 optional riders; 7 group products plus PMJJBY."
