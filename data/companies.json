@@ -30,8 +30,12 @@
   "short": "HDFC Life",
   "sector": "Private",
   "apps": {
-   "ios": "900441427"
-  }
+   "ios": "900441427",
+   "android": "com.hdfc.lifereward.hdfc_lifereward"
+  },
+  "apps_auto": [
+   "android"
+  ]
  },
  {
   "id": "icici",
@@ -119,9 +123,11 @@
   "short": "PNB MetLife",
   "sector": "Private",
   "apps": {
-   "ios": "1483018010"
+   "ios": "1483018010",
+   "android": "com.pmli.crmnext"
   },
   "apps_auto": [
+   "android",
    "ios"
   ]
  },
@@ -131,9 +137,11 @@
   "short": "Canara HSBC Life",
   "sector": "Private",
   "apps": {
-   "ios": "1637840399"
+   "ios": "1637840399",
+   "android": "com.canarahsbclife.quickbi"
   },
   "apps_auto": [
+   "android",
    "ios"
   ]
  },
@@ -143,9 +151,11 @@
   "short": "IndiaFirst Life",
   "sector": "Private",
   "apps": {
-   "ios": "6503947273"
+   "ios": "6503947273",
+   "android": "com.ifl.gclplusbob"
   },
   "apps_auto": [
+   "android",
    "ios"
   ]
  },
@@ -155,9 +165,11 @@
   "short": "SUD Life",
   "sector": "Private",
   "apps": {
-   "ios": "1636868769"
+   "ios": "1636868769",
+   "android": "in.sudlife.staragency"
   },
   "apps_auto": [
+   "android",
    "ios"
   ]
  },
@@ -170,9 +182,11 @@
    "IDBI Federal Life Insurance"
   ],
   "apps": {
-   "ios": "6756178483"
+   "ios": "6756178483",
+   "android": "com.afli.ace"
   },
   "apps_auto": [
+   "android",
    "ios"
   ]
  },
@@ -267,9 +281,11 @@
   "short": "Shriram Life",
   "sector": "Private",
   "apps": {
-   "ios": "6751533161"
+   "ios": "6751533161",
+   "android": "com.androidfin.SLICUnoPackage"
   },
   "apps_auto": [
+   "android",
    "ios"
   ]
  },
