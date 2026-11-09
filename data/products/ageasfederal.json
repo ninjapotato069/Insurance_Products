@@ -1737,6 +1737,93 @@
    ],
    "completeness": "list-only",
    "last_verified": "2026-10-28"
+  },
+  {
+   "uin": null,
+   "name": "Wealth Infinity Plan",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Wealth",
+    "Legacy"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": "2026-11",
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Wealth",
+     "summary": "Market-linked savings for a 10-40 year term"
+    },
+    {
+     "name": "Legacy",
+     "summary": "Investment with life cover up to age 100"
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": 10,
+    "policy_term_max_years": 40,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": 200000,
+    "min_single_premium_inr": 500000,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Legacy option covers to age 100"
+   },
+   "benefits": {
+    "death": null,
+    "maturity": "Fund value; premium allocation and mortality charges returned at maturity for eligible policies",
+    "survival_income": null,
+    "guaranteed": false,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": true,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": {
+     "funds_count": 12,
+     "loyalty_additions": true,
+     "return_of_mortality_charges": true,
+     "policy_admin_charge": "None"
+    },
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "12 funds and 5 investment strategies including glide path and life stage",
+    "Loyalty additions and wealth boosters",
+    "Premium allocation and mortality charges returned at maturity, subject to conditions",
+    "No policy administration charge",
+    "Systematic withdrawals after 5 policy years; unlimited free switches"
+   ],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "High-premium ULIP with wealth and to-age-100 legacy options for affluent investors.",
+   "urls": {
+    "product_page": "https://www.ageasfederal.com/ulip-plans/wealth-infinity-plan",
+    "brochure": null
+   },
+   "sources": [
+    "https://theprint.in/ani-press-releases/ageas-federal-life-insurance-launches-wealth-infinity-plan-a-unit-linked-life-insurance-plan-that-builds-wealth-and-supports-goals-across-all-life-stages/3091584/"
+   ],
+   "completeness": "partial",
+   "last_verified": "2026-11-09"
   }
  ],
  "notes": "ageasfederal.com homepage was refused by the fetch allowlist; category pages were readable via nav links from a rider page. Category pages are thin (few UINs, no term/ULIP/pension names beyond iSecure/Super Protect/Super Protect Plus); UINs come from Federal Bank-hosted product pages, search-result titles and the official withdrawn page. No single product-list-with-UIN page found (public-disclosures page only links category pages and L-forms). Withdrawn page also lists superseded versions of live products (Assured Income Plan V03, Platinum Wealth Builder V01, iSecure V01, Magic Savings V02, Life Advantage Plus V01, Guaranteed Income V03, Guaranteed Wealth V07/V08, Young Star Plus V01/V02, Criti Care V01, Group Credit Shield II V01) - not stored as separate rows; current UINs of those live plans still to be filled. Platinum Wealth Builder page cites V01 in disclaimer vs V02 heading (V02 used). Retirement/ULIP category pages name no plans."

@@ -12,68 +12,105 @@
  },
  "products": [
   {
-   "uin": null,
+   "uin": "138N095V01",
    "name": "iTerm Elite",
    "segment": "Individual",
    "category": "Term",
-   "plan_structure": null,
+   "plan_structure": "Pure Term",
    "sub_category": null,
    "linkage": "Non-Linked",
    "participation": "Non-Par",
-   "need_tags": [],
+   "need_tags": [
+    "Protection"
+   ],
    "standard_product": null,
    "status": "Active",
    "launch_date": null,
    "withdrawn_date": null,
-   "variants": [],
+   "variants": [
+    {
+     "name": "Single / Regular / Limited Pay",
+     "summary": "Pay once, for the full term, or for 5/10/15 years or till age 60"
+    }
+   ],
    "eligibility": {
-    "entry_age_min_years": null,
-    "entry_age_max_years": null,
-    "maturity_age_max_years": null,
-    "policy_term_min_years": null,
-    "policy_term_max_years": null,
-    "whole_life": null,
-    "ppt_options": [],
-    "premium_modes": [],
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 65,
+    "maturity_age_max_years": 85,
+    "policy_term_min_years": 1,
+    "policy_term_max_years": 67,
+    "whole_life": false,
+    "ppt_options": [
+     "Single",
+     "Limited 5",
+     "Limited 10",
+     "Limited 15",
+     "Pay till 60",
+     "Regular"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly",
+     "Single"
+    ],
     "min_annual_premium_inr": null,
     "min_single_premium_inr": null,
     "max_premium_text": null,
-    "min_sum_assured_inr": null,
-    "max_sum_assured_text": null,
-    "notes": null
+    "min_sum_assured_inr": 2500000,
+    "max_sum_assured_text": "Single pay ₹50 lakh; regular/limited pay no limit, subject to underwriting",
+    "notes": "Min SA ₹50 lakh for regular/limited pay; single pay term 1-5 years; regular pay term min 5 years, up to 85 minus entry age; max entry 55 for pay till 60"
    },
    "benefits": {
-    "death": null,
-    "maturity": null,
+    "death": "Highest of base sum assured, 11x annualised premium (10x single premium under single pay) and 105% of premiums paid",
+    "maturity": "None (pure protection)",
     "survival_income": null,
-    "guaranteed": null,
-    "return_of_premium": null,
-    "loan": null,
-    "partial_withdrawal": null,
-    "other": null
+    "guaranteed": true,
+    "return_of_premium": false,
+    "loan": false,
+    "partial_withdrawal": false,
+    "other": "Insta Claim: after 3 policy years, 1% of death benefit (max ₹1 lakh) paid early"
    },
    "category_details": {
-    "term": null,
+    "term": {
+     "rop_option": false,
+     "whole_life_cover_option": false,
+     "ci_or_accelerated_benefit": false,
+     "payout_options": "Lump sum / Monthly income over 5 or 10 years / 50% lump sum + 50% income",
+     "women_or_nonsmoker_discount": null,
+     "increasing_cover_option": null
+    },
     "ulip": null,
     "savings": null,
     "annuity": null,
     "health": null
    },
-   "key_features": [],
-   "riders_available": [],
-   "online_purchase": null,
+   "key_features": [
+    "Sum assured can be changed up to twice during the premium term",
+    "Premium holiday of up to 12 months via cover continuance",
+    "Extra payout on childbirth or adoption for mothers",
+    "Spouse cover for homemakers",
+    "Special exit value returns part of premiums",
+    "Online discount of up to 15% in the first year"
+   ],
+   "riders_available": [
+    "Bandhan Life Enhanced Accidental Death Benefit Rider"
+   ],
+   "online_purchase": true,
    "channels": [],
    "tax_benefits": null,
-   "description": null,
+   "description": "Online pure term plan with flexible premium terms and life-stage options for buyers who want high cover at low cost.",
    "urls": {
     "product_page": "https://www.bandhanlife.com/term-insurance-plans/iterm-elite",
-    "brochure": null
+    "brochure": "https://www.bandhanlife.com/sites/default/files/asset/2026-03/Bandhan%20Life%20iTerm%20Elite%20Brochure.pdf"
    },
    "sources": [
-    "https://bandhanlife.com/"
+    "https://bandhanlife.com/",
+    "https://www.bandhanlife.com/sites/default/files/asset/2026-03/Bandhan%20Life%20iTerm%20Elite%20Brochure.pdf"
    ],
-   "completeness": "list-only",
-   "last_verified": "2026-10-28"
+   "completeness": "full",
+   "last_verified": "2026-11-09"
   },
   {
    "uin": "138N084V03",
@@ -346,7 +383,7 @@
    "last_verified": "2026-10-28"
   },
   {
-   "uin": null,
+   "uin": "138N077V01",
    "name": "Saral Jeevan Bima",
    "segment": "Individual",
    "category": "Term",
@@ -354,7 +391,9 @@
    "sub_category": null,
    "linkage": "Non-Linked",
    "participation": "Non-Par",
-   "need_tags": [],
+   "need_tags": [
+    "Protection"
+   ],
    "standard_product": "Saral Jeevan Bima",
    "status": "Active",
    "launch_date": null,
@@ -407,18 +446,20 @@
     "https://bandhanlife.com/"
    ],
    "completeness": "list-only",
-   "last_verified": "2026-10-28"
+   "last_verified": "2026-11-09"
   },
   {
-   "uin": null,
+   "uin": "138N086V01",
    "name": "Akhil Bharat Term Plan",
    "segment": "Individual",
    "category": "Term",
-   "plan_structure": null,
+   "plan_structure": "Pure Term",
    "sub_category": null,
    "linkage": null,
    "participation": null,
-   "need_tags": [],
+   "need_tags": [
+    "Protection"
+   ],
    "standard_product": null,
    "status": "Active",
    "launch_date": null,
@@ -471,18 +512,20 @@
     "https://bandhanlife.com/"
    ],
    "completeness": "list-only",
-   "last_verified": "2026-10-28"
+   "last_verified": "2026-11-09"
   },
   {
-   "uin": null,
+   "uin": "138N048V02",
    "name": "Rural Term Insurance Plan",
    "segment": "Individual",
    "category": "Term",
-   "plan_structure": null,
+   "plan_structure": "Pure Term",
    "sub_category": null,
    "linkage": null,
    "participation": null,
-   "need_tags": [],
+   "need_tags": [
+    "Protection"
+   ],
    "standard_product": null,
    "status": "Active",
    "launch_date": null,
@@ -535,7 +578,7 @@
     "https://bandhanlife.com/"
    ],
    "completeness": "list-only",
-   "last_verified": "2026-10-28"
+   "last_verified": "2026-11-09"
   },
   {
    "uin": "138L090V01",
@@ -851,7 +894,7 @@
    "last_verified": "2026-10-28"
   },
   {
-   "uin": null,
+   "uin": "138L089V01",
    "name": "iInvest II",
    "segment": "Individual",
    "category": "ULIP",
@@ -859,7 +902,9 @@
    "sub_category": null,
    "linkage": "Linked",
    "participation": "Non-Par",
-   "need_tags": [],
+   "need_tags": [
+    "Wealth"
+   ],
    "standard_product": null,
    "status": "Active",
    "launch_date": null,
@@ -912,7 +957,7 @@
     "https://bandhanlife.com/"
    ],
    "completeness": "list-only",
-   "last_verified": "2026-10-28"
+   "last_verified": "2026-11-09"
   },
   {
    "uin": null,
@@ -1043,15 +1088,17 @@
    "last_verified": "2026-10-28"
   },
   {
-   "uin": null,
+   "uin": "138N119V01",
    "name": "iIncome Wealth",
    "segment": "Individual",
-   "category": null,
+   "category": "Savings - Non-Par",
    "plan_structure": null,
    "sub_category": null,
-   "linkage": null,
-   "participation": null,
-   "need_tags": [],
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Savings"
+   ],
    "standard_product": null,
    "status": "Active",
    "launch_date": null,
@@ -1104,18 +1151,20 @@
     "https://bandhanlife.com/"
    ],
    "completeness": "list-only",
-   "last_verified": "2026-10-28"
+   "last_verified": "2026-11-09"
   },
   {
-   "uin": null,
+   "uin": "138N118V02",
    "name": "Guaranteed Income Plan",
    "segment": "Individual",
-   "category": null,
-   "plan_structure": null,
+   "category": "Savings - Non-Par",
+   "plan_structure": "Guaranteed Income",
    "sub_category": null,
-   "linkage": null,
-   "participation": null,
-   "need_tags": [],
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Savings"
+   ],
    "standard_product": null,
    "status": "Active",
    "launch_date": null,
@@ -1168,82 +1217,113 @@
     "https://bandhanlife.com/"
    ],
    "completeness": "list-only",
-   "last_verified": "2026-10-28"
+   "last_verified": "2026-11-09"
   },
   {
-   "uin": null,
+   "uin": "138N097V01",
    "name": "Shubh Samriddhi",
    "segment": "Individual",
-   "category": null,
-   "plan_structure": null,
+   "category": "Savings - Par",
+   "plan_structure": "Endowment",
    "sub_category": null,
-   "linkage": null,
-   "participation": null,
-   "need_tags": [],
+   "linkage": "Non-Linked",
+   "participation": "Par",
+   "need_tags": [
+    "Savings",
+    "Legacy"
+   ],
    "standard_product": null,
    "status": "Active",
    "launch_date": null,
    "withdrawn_date": null,
    "variants": [],
    "eligibility": {
-    "entry_age_min_years": null,
-    "entry_age_max_years": null,
-    "maturity_age_max_years": null,
-    "policy_term_min_years": null,
-    "policy_term_max_years": null,
-    "whole_life": null,
-    "ppt_options": [],
-    "premium_modes": [],
-    "min_annual_premium_inr": null,
+    "entry_age_min_years": 0.25,
+    "entry_age_max_years": 65,
+    "maturity_age_max_years": 100,
+    "policy_term_min_years": 20,
+    "policy_term_max_years": 40,
+    "whole_life": false,
+    "ppt_options": [
+     "Limited 5",
+     "Limited 6",
+     "Limited 7",
+     "Limited 8",
+     "Limited 9",
+     "Limited 10",
+     "Limited 12"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": 25000,
     "min_single_premium_inr": null,
     "max_premium_text": null,
-    "min_sum_assured_inr": null,
-    "max_sum_assured_text": null,
-    "notes": null
+    "min_sum_assured_inr": 300000,
+    "max_sum_assured_text": "No limit, subject to underwriting",
+    "notes": "Max entry 50 for 5-pay; term 20-40 years or 100 minus entry age"
    },
    "benefits": {
-    "death": null,
-    "maturity": null,
-    "survival_income": null,
-    "guaranteed": null,
-    "return_of_premium": null,
-    "loan": null,
-    "partial_withdrawal": null,
+    "death": "Sum assured on death plus accrued cash, interim and terminal bonuses; at least 105% of premiums paid",
+    "maturity": "Sum assured on maturity plus terminal bonus and any accumulated cash bonus",
+    "survival_income": "Cash bonus (if declared) each year from year 1, paid out or accumulated",
+    "guaranteed": false,
+    "return_of_premium": false,
+    "loan": true,
+    "partial_withdrawal": false,
     "other": null
    },
    "category_details": {
     "term": null,
     "ulip": null,
-    "savings": null,
+    "savings": {
+     "payout_type": "Lump sum + Income",
+     "income_duration": "From policy year 1 to maturity",
+     "bonus_type": "Cash bonus",
+     "deferment_option": null,
+     "illustrative_return": null
+    },
     "annuity": null,
     "health": null
    },
-   "key_features": [],
+   "key_features": [
+    "Participating plan paying a cash bonus from the first year",
+    "Choose to take bonuses as regular payouts or accumulate them",
+    "Cover up to age 100 option",
+    "Short premium terms of 5 to 12 years",
+    "Loan up to 80% of surrender value"
+   ],
    "riders_available": [],
    "online_purchase": null,
    "channels": [],
    "tax_benefits": null,
-   "description": null,
+   "description": "Participating savings plan with yearly cash bonus payouts for families wanting income plus a lump sum at maturity.",
    "urls": {
     "product_page": "https://www.bandhanlife.com/savings-plans/shubh-samriddhi",
-    "brochure": null
+    "brochure": "https://www.bandhanlife.com/sites/default/files/asset/2026-04/Bandhan%20Life%20Shubh%20Samriddhi_Brochure.pdf"
    },
    "sources": [
-    "https://bandhanlife.com/"
+    "https://bandhanlife.com/",
+    "https://www.bandhanlife.com/sites/default/files/asset/2026-04/Bandhan%20Life%20Shubh%20Samriddhi_Brochure.pdf"
    ],
-   "completeness": "list-only",
-   "last_verified": "2026-10-28"
+   "completeness": "full",
+   "last_verified": "2026-11-09"
   },
   {
-   "uin": null,
+   "uin": "138N096V04",
    "name": "iGuarantee Vishwas",
    "segment": "Individual",
-   "category": null,
-   "plan_structure": null,
+   "category": "Savings - Non-Par",
+   "plan_structure": "Endowment",
    "sub_category": null,
-   "linkage": null,
-   "participation": null,
-   "need_tags": [],
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Savings"
+   ],
    "standard_product": null,
    "status": "Active",
    "launch_date": null,
@@ -1253,32 +1333,46 @@
     "entry_age_min_years": null,
     "entry_age_max_years": null,
     "maturity_age_max_years": null,
-    "policy_term_min_years": null,
-    "policy_term_max_years": null,
+    "policy_term_min_years": 10,
+    "policy_term_max_years": 20,
     "whole_life": null,
-    "ppt_options": [],
-    "premium_modes": [],
+    "ppt_options": [
+     "Limited 5",
+     "Limited 7",
+     "Limited 8",
+     "Limited 10",
+     "Limited 12"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
     "min_annual_premium_inr": null,
     "min_single_premium_inr": null,
     "max_premium_text": null,
     "min_sum_assured_inr": null,
     "max_sum_assured_text": null,
-    "notes": null
+    "notes": "Terms 10/15/20 years; base sum assured = 10x annualised premium"
    },
    "benefits": {
-    "death": null,
-    "maturity": null,
+    "death": "Higher of sum assured on death (max of 10x annualised premium and 105% of premiums) and surrender value",
+    "maturity": "Base sum assured plus guaranteed additions as a lump sum",
     "survival_income": null,
-    "guaranteed": null,
-    "return_of_premium": null,
-    "loan": null,
-    "partial_withdrawal": null,
+    "guaranteed": true,
+    "return_of_premium": false,
+    "loan": true,
+    "partial_withdrawal": false,
     "other": null
    },
    "category_details": {
     "term": null,
     "ulip": null,
-    "savings": null,
+    "savings": {
+     "payout_type": "Lump sum",
+     "bonus_type": "None"
+    },
     "annuity": null,
     "health": null
    },
@@ -1287,16 +1381,17 @@
    "online_purchase": null,
    "channels": [],
    "tax_benefits": null,
-   "description": null,
+   "description": "Non-par guaranteed lump-sum savings plan with short premium terms.",
    "urls": {
     "product_page": "https://www.bandhanlife.com/savings-plans/iguarantee-vishwas",
-    "brochure": null
+    "brochure": "https://www.bandhanlife.com/sites/default/files/asset/2025-11/Co-branded-iG-Vishwas-Brochure-12-8-24.pdf"
    },
    "sources": [
-    "https://bandhanlife.com/"
+    "https://bandhanlife.com/",
+    "https://www.bandhanlife.com/sites/default/files/asset/2026-04/Bandhan%20Life%20iGV_PD.pdf"
    ],
-   "completeness": "list-only",
-   "last_verified": "2026-10-28"
+   "completeness": "partial",
+   "last_verified": "2026-11-09"
   },
   {
    "uin": null,
@@ -1363,15 +1458,17 @@
    "last_verified": "2026-10-28"
   },
   {
-   "uin": null,
+   "uin": "138L092V01",
    "name": "iInvest Pension",
    "segment": "Individual",
    "category": "Pension & Annuity",
-   "plan_structure": null,
+   "plan_structure": "Pension Accumulation",
    "sub_category": null,
-   "linkage": null,
-   "participation": null,
-   "need_tags": [],
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Retirement"
+   ],
    "standard_product": null,
    "status": "Active",
    "launch_date": null,
@@ -1424,18 +1521,20 @@
     "https://bandhanlife.com/"
    ],
    "completeness": "list-only",
-   "last_verified": "2026-10-28"
+   "last_verified": "2026-11-09"
   },
   {
-   "uin": null,
+   "uin": "138N011V03",
    "name": "Insta Pension",
    "segment": "Individual",
    "category": "Pension & Annuity",
-   "plan_structure": null,
+   "plan_structure": "Immediate Annuity",
    "sub_category": null,
-   "linkage": null,
-   "participation": null,
-   "need_tags": [],
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Retirement"
+   ],
    "standard_product": null,
    "status": "Active",
    "launch_date": null,
@@ -1488,18 +1587,20 @@
     "https://bandhanlife.com/"
    ],
    "completeness": "list-only",
-   "last_verified": "2026-10-28"
+   "last_verified": "2026-11-09"
   },
   {
-   "uin": null,
+   "uin": "138N078V01",
    "name": "Saral Pension Plan",
    "segment": "Individual",
    "category": "Pension & Annuity",
    "plan_structure": "Immediate Annuity",
    "sub_category": null,
-   "linkage": null,
-   "participation": null,
-   "need_tags": [],
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Retirement"
+   ],
    "standard_product": "Saral Pension",
    "status": "Active",
    "launch_date": null,
@@ -1552,10 +1653,10 @@
     "https://bandhanlife.com/"
    ],
    "completeness": "list-only",
-   "last_verified": "2026-10-28"
+   "last_verified": "2026-11-09"
   },
   {
-   "uin": null,
+   "uin": "138G093V01",
    "name": "Pradhan Mantri Jeevan Jyoti Bima Yojana",
    "segment": "Group",
    "category": "Govt Scheme",
@@ -1616,10 +1717,10 @@
     "https://bandhanlife.com/"
    ],
    "completeness": "list-only",
-   "last_verified": "2026-10-28"
+   "last_verified": "2026-11-09"
   },
   {
-   "uin": null,
+   "uin": "138N088V01",
    "name": "Group Care Micro Insurance Plan",
    "segment": "Micro",
    "category": "Micro Insurance",
@@ -1680,10 +1781,10 @@
     "https://bandhanlife.com/"
    ],
    "completeness": "list-only",
-   "last_verified": "2026-10-28"
+   "last_verified": "2026-11-09"
   },
   {
-   "uin": null,
+   "uin": "138N087V01",
    "name": "Group iCredit Insurance Plan",
    "segment": "Group",
    "category": "Credit Life",
@@ -1744,10 +1845,10 @@
     "https://bandhanlife.com/"
    ],
    "completeness": "list-only",
-   "last_verified": "2026-10-28"
+   "last_verified": "2026-11-09"
   },
   {
-   "uin": null,
+   "uin": "138N079V01",
    "name": "Group Credit Protection Insurance Plan",
    "segment": "Group",
    "category": "Credit Life",
@@ -1808,10 +1909,10 @@
     "https://bandhanlife.com/"
    ],
    "completeness": "list-only",
-   "last_verified": "2026-10-28"
+   "last_verified": "2026-11-09"
   },
   {
-   "uin": null,
+   "uin": "138N062V01",
    "name": "Group Term Plus Insurance Plan",
    "segment": "Group",
    "category": "Group Term",
@@ -1872,7 +1973,7 @@
     "https://bandhanlife.com/"
    ],
    "completeness": "list-only",
-   "last_verified": "2026-10-28"
+   "last_verified": "2026-11-09"
   },
   {
    "uin": "138B006V05",
@@ -2001,6 +2102,73 @@
    ],
    "completeness": "list-only",
    "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "138N122V02",
+   "name": "iGuarantee ChildAssure",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Child",
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.bandhanlife.com/savings-plans/iguarantee-child-assure",
+    "brochure": null
+   },
+   "sources": [
+    "https://bandhanlife.com/"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-11-09"
   }
  ],
  "notes": "Inventory from homepage navigation (fetched via bandhanlife.com). WebFetch refused (URL_NOT_ON_ALLOWLIST) every www.bandhanlife.com HTML page tried (/withdrawn-products, /downloads, /public-disclosure, /group-insurance-plans, plan pages), so no withdrawn list or group details captured: weekly job should read /withdrawn-products, /downloads, /public-disclosure. Specs so far come from search-result PDFs: iTerm Prime, Comfort, Return of Premium (leaflets); iInvest Ultima, iInvest Advantage, ULIP Plus (CIS; age/term/premium fields were blank placeholders in the CIS, so ULIPs are partial - use product pages). Run stopped when the account usage limit was hit. Not yet fetched (PDFs under www.bandhanlife.com/sites/default/files/asset/): Saral Jeevan CIS (2026-01), iGuarantee Vishwas CIS (2026-01) and policy doc iGV_PD (2026-04), Insta Pension CIS and Saral Pension CIS (2025-12), Rural Term Insurance Plan CIS and policy doc (2025-12), Group Terminal Illness Rider CIS (2025-12), AD Rider CIS (2025-11). No spec source yet: iTerm Elite, iInvest Ultima Plus, iInvest II, Secure 'N' Grow, iGuarantee Assurance, iIncome Wealth, Guaranteed Income Plan, Shubh Samriddhi, iRetire, iInvest Pension, Akhil Bharat Term Plan. Category (Par vs Non-Par) unset for the 6 savings plans; Akhil Bharat and Rural Term segment unconfirmed (could be micro). Group/micro products have no UIN. Riders seen: AD Rider 138B006V05, CI Care Rider 138B016V01. Aggregator pages from search (Policybazaar iTerm Elite launch news, Business Today iRetire article, PolicyX iTerm Comfort, Ditto reviews) not yet used."

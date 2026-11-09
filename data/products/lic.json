@@ -88,7 +88,8 @@
    "linkage": "Non-Linked",
    "participation": "Par",
    "need_tags": [
-    "Savings"
+    "Savings",
+    "Protection"
    ],
    "standard_product": null,
    "status": "Active",
@@ -96,53 +97,78 @@
    "withdrawn_date": null,
    "variants": [],
    "eligibility": {
-    "entry_age_min_years": null,
-    "entry_age_max_years": null,
-    "maturity_age_max_years": null,
-    "policy_term_min_years": null,
-    "policy_term_max_years": null,
+    "entry_age_min_years": 8,
+    "entry_age_max_years": 50,
+    "maturity_age_max_years": 75,
+    "policy_term_min_years": 12,
+    "policy_term_max_years": 35,
     "whole_life": null,
-    "ppt_options": [],
-    "premium_modes": [],
+    "ppt_options": [
+     "Regular"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
     "min_annual_premium_inr": null,
     "min_single_premium_inr": null,
     "max_premium_text": null,
-    "min_sum_assured_inr": null,
-    "max_sum_assured_text": null,
+    "min_sum_assured_inr": 200000,
+    "max_sum_assured_text": "No limit",
     "notes": null
    },
    "benefits": {
-    "death": null,
-    "maturity": null,
+    "death": "Higher of basic sum assured and 7x annualised premium, plus vested bonuses and final additional bonus; at least 105% of premiums",
+    "maturity": "Basic sum assured plus vested bonuses and final additional bonus",
     "survival_income": null,
-    "guaranteed": null,
-    "return_of_premium": null,
-    "loan": null,
-    "partial_withdrawal": null,
+    "guaranteed": false,
+    "return_of_premium": false,
+    "loan": true,
+    "partial_withdrawal": false,
     "other": null
    },
    "category_details": {
     "term": null,
     "ulip": null,
-    "savings": null,
+    "savings": {
+     "payout_type": "Lump sum",
+     "bonus_type": "Reversionary",
+     "illustrative_return": null
+    },
     "annuity": null,
     "health": null
    },
-   "key_features": [],
-   "riders_available": [],
-   "online_purchase": null,
-   "channels": [],
+   "key_features": [
+    "Classic with-profits endowment",
+    "Simple reversionary bonus plus final additional bonus",
+    "Four optional riders",
+    "Loan available after the first year"
+   ],
+   "riders_available": [
+    "LIC's Accidental Death and Disability Benefit Rider",
+    "LIC's Accident Benefit Rider",
+    "LIC's New Term Assurance Rider",
+    "LIC's Premium Waiver Benefit Rider"
+   ],
+   "online_purchase": false,
+   "channels": [
+    "Agency",
+    "Corporate Agent",
+    "Broker"
+   ],
    "tax_benefits": null,
-   "description": null,
+   "description": "Traditional participating endowment combining life cover and bonus-linked savings, sold offline.",
    "urls": {
     "product_page": "https://licindia.in/web/guest/lic-s-new-endowment-plan-714-512n277v03",
-    "brochure": null
+    "brochure": "https://licindia.in/documents/20121/1248951/Lic%2BNEW%2BENDOWMENT%2BPLAN%2B2024%2B%2B4x9%2Binches%2Bwxh%2Bsingle%2Bpages.pdf%2B-7th%2Bcut%2B%2BFinal.pdf/7e689bdb-3165-a266-83de-46ca5055ac00"
    },
    "sources": [
-    "https://licindia.in/web/guest/endowment-plans"
+    "https://licindia.in/documents/20121/1248951/Lic%2BNEW%2BENDOWMENT%2BPLAN%2B2024%2B%2B4x9%2Binches%2Bwxh%2Bsingle%2Bpages.pdf%2B-7th%2Bcut%2B%2BFinal.pdf/7e689bdb-3165-a266-83de-46ca5055ac00"
    ],
-   "completeness": "list-only",
-   "last_verified": "2026-10-28",
+   "completeness": "full",
+   "last_verified": "2026-11-09",
    "alt_code": "Plan 714"
   },
   {
@@ -244,7 +270,9 @@
    "linkage": "Non-Linked",
    "participation": "Par",
    "need_tags": [
-    "Savings"
+    "Child",
+    "Savings",
+    "Protection"
    ],
    "standard_product": null,
    "status": "Active",
@@ -252,53 +280,73 @@
    "withdrawn_date": null,
    "variants": [],
    "eligibility": {
-    "entry_age_min_years": null,
-    "entry_age_max_years": null,
-    "maturity_age_max_years": null,
-    "policy_term_min_years": null,
-    "policy_term_max_years": null,
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 50,
+    "maturity_age_max_years": 65,
+    "policy_term_min_years": 13,
+    "policy_term_max_years": 25,
     "whole_life": null,
-    "ppt_options": [],
-    "premium_modes": [],
+    "ppt_options": [
+     "Limited (term minus 3)"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
     "min_annual_premium_inr": null,
     "min_single_premium_inr": null,
     "max_premium_text": null,
-    "min_sum_assured_inr": null,
-    "max_sum_assured_text": null,
+    "min_sum_assured_inr": 200000,
+    "max_sum_assured_text": "No limit, subject to underwriting",
     "notes": null
    },
    "benefits": {
-    "death": null,
-    "maturity": null,
+    "death": "Higher of 7x annualised premium and 110% of sum assured, plus 10% of sum assured yearly until a year before maturity; future premiums waived",
+    "maturity": "Basic sum assured plus vested bonuses and final additional bonus",
     "survival_income": null,
-    "guaranteed": null,
-    "return_of_premium": null,
-    "loan": null,
-    "partial_withdrawal": null,
+    "guaranteed": false,
+    "return_of_premium": false,
+    "loan": true,
+    "partial_withdrawal": false,
     "other": null
    },
    "category_details": {
     "term": null,
     "ulip": null,
-    "savings": null,
+    "savings": {
+     "payout_type": "Lump sum",
+     "bonus_type": "Reversionary"
+    },
     "annuity": null,
     "health": null
    },
-   "key_features": [],
-   "riders_available": [],
-   "online_purchase": null,
+   "key_features": [
+    "On death, family gets yearly income of 10% of sum assured and premiums stop",
+    "Full maturity benefit still paid at the end of the term",
+    "Premium term 3 years shorter than policy term",
+    "Participates in LIC bonuses",
+    "Loan after one year's premiums"
+   ],
+   "riders_available": [
+    "LIC's Accidental Death and Disability Benefit Rider",
+    "LIC's Accident Benefit Rider",
+    "LIC's New Term Assurance Rider"
+   ],
+   "online_purchase": false,
    "channels": [],
    "tax_benefits": null,
-   "description": null,
+   "description": "Participating endowment that protects a goal such as a child's future: on death premiums stop, income is paid and maturity is still paid.",
    "urls": {
     "product_page": "https://licindia.in/web/guest/lic-s-jeevan-lakshya-733-512n297v03",
     "brochure": null
    },
    "sources": [
-    "https://licindia.in/web/guest/endowment-plans"
+    "https://joinditto.in/articles/life-insurance/lic-jeevan-lakshya/"
    ],
-   "completeness": "list-only",
-   "last_verified": "2026-10-28",
+   "completeness": "full",
+   "last_verified": "2026-11-09",
    "alt_code": "Plan 733"
   },
   {
@@ -394,65 +442,92 @@
    "uin": "512N365V02",
    "name": "LIC's Amritbaal",
    "segment": "Individual",
-   "category": null,
-   "plan_structure": null,
+   "category": "Savings - Non-Par",
+   "plan_structure": "Endowment",
    "sub_category": null,
    "linkage": "Non-Linked",
-   "participation": null,
-   "need_tags": [],
+   "participation": "Non-Par",
+   "need_tags": [
+    "Child",
+    "Savings"
+   ],
    "standard_product": null,
    "status": "Active",
    "launch_date": null,
    "withdrawn_date": null,
    "variants": [],
    "eligibility": {
-    "entry_age_min_years": null,
-    "entry_age_max_years": null,
-    "maturity_age_max_years": null,
-    "policy_term_min_years": null,
-    "policy_term_max_years": null,
+    "entry_age_min_years": 0.08,
+    "entry_age_max_years": 13,
+    "maturity_age_max_years": 25,
+    "policy_term_min_years": 5,
+    "policy_term_max_years": 25,
     "whole_life": null,
-    "ppt_options": [],
-    "premium_modes": [],
+    "ppt_options": [
+     "Single",
+     "Limited 5",
+     "Limited 6",
+     "Limited 7"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly",
+     "Single"
+    ],
     "min_annual_premium_inr": null,
     "min_single_premium_inr": null,
     "max_premium_text": null,
-    "min_sum_assured_inr": null,
-    "max_sum_assured_text": null,
-    "notes": null
+    "min_sum_assured_inr": 200000,
+    "max_sum_assured_text": "No limit, subject to underwriting",
+    "notes": "Limited pay term 10-25 years, single pay 5-25 years; maturity age 18-25. Specs from the V01 brochure."
    },
    "benefits": {
-    "death": null,
-    "maturity": null,
+    "death": "Higher of 7x/10x annualised premium (1.25x/10x single premium) and basic sum assured, plus accrued guaranteed additions",
+    "maturity": "Basic sum assured plus guaranteed additions, lump sum or instalments",
     "survival_income": null,
-    "guaranteed": null,
-    "return_of_premium": null,
-    "loan": null,
-    "partial_withdrawal": null,
-    "other": null
+    "guaranteed": true,
+    "return_of_premium": false,
+    "loan": true,
+    "partial_withdrawal": false,
+    "other": "Guaranteed addition of ₹80 per ₹1,000 sum assured each year"
    },
    "category_details": {
     "term": null,
     "ulip": null,
-    "savings": null,
+    "savings": {
+     "payout_type": "Lump sum",
+     "bonus_type": "None",
+     "deferment_option": null,
+     "illustrative_return": null
+    },
     "annuity": null,
     "health": null
    },
-   "key_features": [],
-   "riders_available": [],
-   "online_purchase": null,
+   "key_features": [
+    "Guaranteed additions of ₹80 per ₹1,000 sum assured every year",
+    "Single or 5/6/7-year premium payment",
+    "Maturity at child's age 18 to 25, lump sum or instalments",
+    "Optional premium waiver rider",
+    "Online purchase rebate"
+   ],
+   "riders_available": [
+    "LIC's Premium Waiver Benefit Rider"
+   ],
+   "online_purchase": true,
    "channels": [],
    "tax_benefits": null,
-   "description": null,
+   "description": "Non-par child savings plan with fixed yearly guaranteed additions for parents building a fund for a child's education.",
    "urls": {
     "product_page": "https://licindia.in/web/guest/lic-s-amritbaal-774%09512n365v02",
-    "brochure": null
+    "brochure": "https://licindia.in/documents/d/guest/amritbaal-brochure-1"
    },
    "sources": [
-    "https://licindia.in/web/guest/endowment-plans"
+    "https://licindia.in/documents/d/guest/amritbaal-brochure-1"
    ],
-   "completeness": "list-only",
-   "last_verified": "2026-10-28",
+   "completeness": "full",
+   "last_verified": "2026-11-09",
    "alt_code": "Plan 774"
   },
   {
@@ -896,7 +971,8 @@
    "linkage": "Non-Linked",
    "participation": "Par",
    "need_tags": [
-    "Savings"
+    "Savings",
+    "Legacy"
    ],
    "standard_product": null,
    "status": "Active",
@@ -904,53 +980,79 @@
    "withdrawn_date": null,
    "variants": [],
    "eligibility": {
-    "entry_age_min_years": null,
-    "entry_age_max_years": null,
-    "maturity_age_max_years": null,
+    "entry_age_min_years": 0.25,
+    "entry_age_max_years": 55,
+    "maturity_age_max_years": 100,
     "policy_term_min_years": null,
     "policy_term_max_years": null,
-    "whole_life": null,
-    "ppt_options": [],
-    "premium_modes": [],
+    "whole_life": true,
+    "ppt_options": [
+     "Limited 15",
+     "Limited 20",
+     "Limited 25",
+     "Limited 30"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
     "min_annual_premium_inr": null,
     "min_single_premium_inr": null,
     "max_premium_text": null,
-    "min_sum_assured_inr": null,
-    "max_sum_assured_text": null,
-    "notes": null
+    "min_sum_assured_inr": 200000,
+    "max_sum_assured_text": "No limit",
+    "notes": "Term = 100 minus entry age. Specs from a V02 brochure copy (bank site); confirm against V03."
    },
    "benefits": {
-    "death": null,
-    "maturity": null,
-    "survival_income": null,
-    "guaranteed": null,
-    "return_of_premium": null,
-    "loan": null,
-    "partial_withdrawal": null,
+    "death": "Higher of 7x annualised premium and basic sum assured, plus vested and final additional bonus",
+    "maturity": "Basic sum assured plus bonuses at age 100",
+    "survival_income": "8% of basic sum assured every year from the end of the premium term",
+    "guaranteed": false,
+    "return_of_premium": false,
+    "loan": true,
+    "partial_withdrawal": false,
     "other": null
    },
    "category_details": {
     "term": null,
     "ulip": null,
-    "savings": null,
+    "savings": {
+     "payout_type": "Lump sum + Income",
+     "income_duration": "From end of premium term to age 100",
+     "bonus_type": "Reversionary",
+     "illustrative_return": null
+    },
     "annuity": null,
     "health": null
    },
-   "key_features": [],
-   "riders_available": [],
+   "key_features": [
+    "Yearly survival benefit of 8% of sum assured to age 100",
+    "Whole-life cover with bonus-linked lump sum at 100",
+    "Premium terms of 15-30 years",
+    "Up to four riders"
+   ],
+   "riders_available": [
+    "LIC's Accidental Death and Disability Benefit Rider",
+    "LIC's Accident Benefit Rider",
+    "LIC's New Term Assurance Rider",
+    "LIC's New Critical Illness Benefit Rider",
+    "LIC's Premium Waiver Benefit Rider"
+   ],
    "online_purchase": null,
    "channels": [],
    "tax_benefits": null,
-   "description": null,
+   "description": "Participating whole-life plan paying 8% of sum assured yearly after the premium term, for lifelong income and legacy.",
    "urls": {
     "product_page": "https://licindia.in/web/guest/lic-sjeevanumang-745%09512n312v03",
     "brochure": null
    },
    "sources": [
-    "https://licindia.in/web/guest/whole-life-plans"
+    "https://shivalik.bank.in/assets/upload/uploads/lic-jeevan-umang.pdf"
    ],
-   "completeness": "list-only",
-   "last_verified": "2026-10-28",
+   "completeness": "full",
+   "last_verified": "2026-11-09",
    "alt_code": "Plan 745"
   },
   {
@@ -2348,7 +2450,7 @@
    "name": "LIC's New Jeevan Dhara II",
    "segment": "Individual",
    "category": "Pension & Annuity",
-   "plan_structure": null,
+   "plan_structure": "Deferred Annuity",
    "sub_category": null,
    "linkage": "Non-Linked",
    "participation": "Non-Par",
@@ -2357,24 +2459,27 @@
    ],
    "standard_product": null,
    "status": "Active",
-   "launch_date": null,
+   "launch_date": "2026-10-19",
    "withdrawn_date": null,
    "variants": [],
    "eligibility": {
-    "entry_age_min_years": null,
-    "entry_age_max_years": null,
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 70,
     "maturity_age_max_years": null,
     "policy_term_min_years": null,
     "policy_term_max_years": null,
     "whole_life": null,
-    "ppt_options": [],
+    "ppt_options": [
+     "Single",
+     "Regular"
+    ],
     "premium_modes": [],
     "min_annual_premium_inr": null,
     "min_single_premium_inr": null,
     "max_premium_text": null,
     "min_sum_assured_inr": null,
     "max_sum_assured_text": null,
-    "notes": null
+    "notes": "Max entry 65 or 70 depending on annuity option and deferment"
    },
    "benefits": {
     "death": null,
@@ -2390,10 +2495,18 @@
     "term": null,
     "ulip": null,
     "savings": null,
-    "annuity": null,
+    "annuity": {
+     "immediate_or_deferred": "Deferred",
+     "joint_life": true
+    },
     "health": null
    },
-   "key_features": [],
+   "key_features": [
+    "Lifelong income after a chosen deferment period",
+    "Annuity rates guaranteed at inception",
+    "Single or joint life",
+    "Top-up annuity during deferment"
+   ],
    "riders_available": [],
    "online_purchase": null,
    "channels": [],
@@ -2404,10 +2517,10 @@
     "brochure": null
    },
    "sources": [
-    "https://licindia.in/web/guest/pension-plan"
+    "https://www.businesstoday.in/personal-finance/story/lic-launches-three-new-insurance-plans-for-retirement-income-health-and-cancer-cover-561837-2026-10-16"
    ],
-   "completeness": "list-only",
-   "last_verified": "2026-10-28",
+   "completeness": "partial",
+   "last_verified": "2026-11-09",
    "alt_code": "Plan 892"
   },
   {
@@ -2420,7 +2533,8 @@
    "linkage": "Linked",
    "participation": "Non-Par",
    "need_tags": [
-    "Wealth"
+    "Wealth",
+    "Protection"
    ],
    "standard_product": null,
    "status": "Active",
@@ -2428,53 +2542,71 @@
    "withdrawn_date": null,
    "variants": [],
    "eligibility": {
-    "entry_age_min_years": null,
-    "entry_age_max_years": null,
-    "maturity_age_max_years": null,
-    "policy_term_min_years": null,
-    "policy_term_max_years": null,
+    "entry_age_min_years": 0.25,
+    "entry_age_max_years": 60,
+    "maturity_age_max_years": 85,
+    "policy_term_min_years": 10,
+    "policy_term_max_years": 25,
     "whole_life": null,
-    "ppt_options": [],
-    "premium_modes": [],
-    "min_annual_premium_inr": null,
+    "ppt_options": [
+     "Regular"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": 30000,
     "min_single_premium_inr": null,
-    "max_premium_text": null,
+    "max_premium_text": "No limit, subject to underwriting",
     "min_sum_assured_inr": null,
     "max_sum_assured_text": null,
-    "notes": null
+    "notes": "Max entry 50/60 and maturity 75/85 depending on sum assured; sum assured 7-10x annualised premium (7x above age 50); min term 10 or 15 years depending on premium; monthly min ₹2,500"
    },
    "benefits": {
-    "death": null,
-    "maturity": null,
+    "death": "Higher of sum assured and unit fund value, at least 105% of premiums paid",
+    "maturity": "Unit fund value",
     "survival_income": null,
-    "guaranteed": null,
-    "return_of_premium": null,
-    "loan": null,
-    "partial_withdrawal": null,
-    "other": null
+    "guaranteed": false,
+    "return_of_premium": false,
+    "loan": false,
+    "partial_withdrawal": true,
+    "other": "Guaranteed additions as a % of annualised premium credited to the fund at set policy years"
    },
    "category_details": {
     "term": null,
-    "ulip": null,
+    "ulip": {
+     "funds_count": 2,
+     "loyalty_additions": true
+    },
     "savings": null,
     "annuity": null,
     "health": null
    },
-   "key_features": [],
-   "riders_available": [],
-   "online_purchase": null,
+   "key_features": [
+    "Choice of two index-based funds (Nifty 100 or Nifty 50 stocks)",
+    "Guaranteed additions credited to the unit fund",
+    "Partial withdrawals after the 5-year lock-in",
+    "Sum assured 7-10x annual premium",
+    "Sold offline and online"
+   ],
+   "riders_available": [
+    "LIC's Linked Accidental Death Benefit Rider"
+   ],
+   "online_purchase": true,
    "channels": [],
    "tax_benefits": null,
-   "description": null,
+   "description": "Regular-premium ULIP investing in index stocks, with guaranteed additions, for long-term wealth with life cover.",
    "urls": {
     "product_page": "https://licindia.in/web/guest/lic-s-index-plus-873-512l354v01",
     "brochure": null
    },
    "sources": [
-    "https://licindia.in/web/guest/unit-linked-plans"
+    "https://licindia.in/documents/d/guest/lic-s-index-plus-press-release-1"
    ],
-   "completeness": "list-only",
-   "last_verified": "2026-10-28",
+   "completeness": "full",
+   "last_verified": "2026-11-09",
    "alt_code": "Plan 873"
   },
   {
@@ -2683,26 +2815,28 @@
    "name": "LIC's Health Shield",
    "segment": "Individual",
    "category": "Health & CI",
-   "plan_structure": null,
+   "plan_structure": "Fixed Benefit Health",
    "sub_category": null,
    "linkage": "Non-Linked",
-   "participation": null,
+   "participation": "Non-Par",
    "need_tags": [
     "Health"
    ],
    "standard_product": null,
    "status": "Active",
-   "launch_date": null,
+   "launch_date": "2026-10-19",
    "withdrawn_date": null,
    "variants": [],
    "eligibility": {
-    "entry_age_min_years": null,
-    "entry_age_max_years": null,
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 65,
     "maturity_age_max_years": null,
-    "policy_term_min_years": null,
-    "policy_term_max_years": null,
+    "policy_term_min_years": 15,
+    "policy_term_max_years": 15,
     "whole_life": null,
-    "ppt_options": [],
+    "ppt_options": [
+     "Regular"
+    ],
     "premium_modes": [],
     "min_annual_premium_inr": null,
     "min_single_premium_inr": null,
@@ -2728,7 +2862,13 @@
     "annuity": null,
     "health": null
    },
-   "key_features": [],
+   "key_features": [
+    "Daily hospital cash",
+    "Lump sums for major surgery and critical illness",
+    "Premiums guaranteed for the term",
+    "No-claim benefit raises cover",
+    "Premium waiver for family members on principal insured's death"
+   ],
    "riders_available": [],
    "online_purchase": null,
    "channels": [],
@@ -2739,10 +2879,10 @@
     "brochure": null
    },
    "sources": [
-    "https://licindia.in/health-insurance-plans"
+    "https://www.businesstoday.in/personal-finance/story/lic-launches-three-new-insurance-plans-for-retirement-income-health-and-cancer-cover-561837-2026-10-16"
    ],
-   "completeness": "list-only",
-   "last_verified": "2026-10-28",
+   "completeness": "partial",
+   "last_verified": "2026-11-09",
    "alt_code": "Plan 907"
   },
   {
@@ -2750,21 +2890,21 @@
    "name": "LIC's New Cancer Cover",
    "segment": "Individual",
    "category": "Health & CI",
-   "plan_structure": null,
+   "plan_structure": "Fixed Benefit Health",
    "sub_category": null,
    "linkage": "Non-Linked",
-   "participation": null,
+   "participation": "Non-Par",
    "need_tags": [
     "Health"
    ],
    "standard_product": null,
    "status": "Active",
-   "launch_date": null,
+   "launch_date": "2026-10-19",
    "withdrawn_date": null,
    "variants": [],
    "eligibility": {
-    "entry_age_min_years": null,
-    "entry_age_max_years": null,
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 65,
     "maturity_age_max_years": null,
     "policy_term_min_years": null,
     "policy_term_max_years": null,
@@ -2793,9 +2933,17 @@
     "ulip": null,
     "savings": null,
     "annuity": null,
-    "health": null
+    "health": {
+     "benefit_type": "25% of SA on early-stage, 100% on major-stage cancer; 1% of SA monthly income for 10 years"
+    }
    },
-   "key_features": [],
+   "key_features": [
+    "25% of sum assured on early-stage cancer",
+    "100% of sum assured on major-stage cancer",
+    "Monthly income of 1% of sum assured for 10 years",
+    "Premium waiver after eligible diagnosis",
+    "Level or increasing cover"
+   ],
    "riders_available": [],
    "online_purchase": null,
    "channels": [],
@@ -2806,10 +2954,10 @@
     "brochure": null
    },
    "sources": [
-    "https://licindia.in/health-insurance-plans"
+    "https://www.businesstoday.in/personal-finance/story/lic-launches-three-new-insurance-plans-for-retirement-income-health-and-cancer-cover-561837-2026-10-16"
    ],
-   "completeness": "list-only",
-   "last_verified": "2026-10-28",
+   "completeness": "partial",
+   "last_verified": "2026-11-09",
    "alt_code": "Plan 908"
   },
   {

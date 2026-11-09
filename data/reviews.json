@@ -366,18 +366,36 @@
      "reviews_count": 75,
      "url": "https://www.insurancedekho.com/life-insurance/tata-aia/user-reviews",
      "observed_on": "2026-11-01"
+    },
+    {
+     "site": "Policybazaar (term plans)",
+     "rating": 4.6,
+     "scale": 5,
+     "reviews_count": 60,
+     "url": "https://www.policybazaar.com/tata-aia-term-plans-reviews-248",
+     "observed_on": "2026-11-09"
+    },
+    {
+     "site": "Ditto",
+     "rating": 4.3,
+     "scale": 5,
+     "reviews_count": 68,
+     "url": "https://joinditto.in/articles/life-insurance/tata-aia-life-insurer-review/",
+     "observed_on": "2026-11-09"
     }
    ],
    "positives": [
-    "Responsive, helpful support and advisors (about 13 of 30 visible reviews, mostly praising the broker)",
-    "A website that makes comparing plans simple, with useful information (about 11 of 30)",
-    "Quick, low-paperwork buying and renewal (about 8 of 30)",
-    "Affordable premiums and good value (about 5 of 30)"
+    "Helpful, responsive advisors and support (about 20 of 60 Policybazaar reviews)",
+    "Affordable premiums and good value (about 20 of 60)",
+    "Strong claims record: 99.21% claim settlement and about 3 complaints per 10,000 claims, FY23-25 (Ditto)",
+    "Simple plan comparison and low-paperwork buying (about 15 of 60)"
    ],
    "negatives": [
-    "Occasional snags in claim or account steps, such as a stalled claim step (about 3 of 30), each resolved with support"
+    "Onboarding and documentation can be paperwork-heavy (Ditto)",
+    "Payouts or cover lower than expected (about 4 of 60 Policybazaar reviews)",
+    "Premiums higher than some rivals (Ditto)"
    ],
-   "review_summary": "Tata AIA Life's InsuranceDekho page shows 4.8 from 75 reviews, and the 30 visible entries praise responsive advisors, a simple plan-comparison site and quick low-paperwork buying. Most praise is for the broker rather than the Tata AIA plan itself, and only three visible reviews describe a snag, each resolved with help, so the rating says little about the insurer's own servicing.",
+   "review_summary": "Tata AIA Life scores 4.8 on InsuranceDekho, 4.6 on Policybazaar term-plan reviews and 4.3 on Ditto; reviewers praise helpful advisors, fair premiums and a strong claims record, while the main gripes are paperwork-heavy onboarding and some payouts below expectations. Many aggregator reviews praise the broker rather than the insurer.",
    "digital_servicing": {
     "whatsapp": null,
     "whatsapp_number": null,
@@ -388,7 +406,9 @@
    },
    "notes": "The page shows no scale and the broker says it does not rate insurers; 45 of 75 reviews not visible; 25 of the 30 visible reviews are from 2023.",
    "sources": [
-    "https://www.insurancedekho.com/life-insurance/tata-aia/user-reviews"
+    "https://www.insurancedekho.com/life-insurance/tata-aia/user-reviews",
+    "https://www.policybazaar.com/tata-aia-term-plans-reviews-248",
+    "https://joinditto.in/articles/life-insurance/tata-aia-life-insurer-review/"
    ]
   },
   "sbi": {
@@ -1196,9 +1216,16 @@
    "android": null,
    "ios": null,
    "third_party": [],
-   "positives": [],
-   "negatives": [],
-   "review_summary": null,
+   "positives": [
+    "Digital-first, paperless buying and servicing (Ditto review)",
+    "Cover and term can be adjusted within the same policy (Ditto review)",
+    "Competitively priced term cover (Ditto review)"
+   ],
+   "negatives": [
+    "Young insurer (registered 2023) with little public data on claims or complaints (Ditto review)",
+    "Hard to judge long-term servicing record for multi-decade term policies (Ditto review)"
+   ],
+   "review_summary": "No customer-review pages exist for Acko Life yet; an independent Ditto review (updated Oct 2026) credits its digital, flexible and low-priced term cover but notes the insurer is too new for a claims or complaints track record.",
    "digital_servicing": {
     "whatsapp": null,
     "whatsapp_number": null,
@@ -1207,8 +1234,10 @@
     "customer_portal": null,
     "notes": null
    },
-   "notes": "No Acko Life customer-review pages were found: the searches returned only Acko General and Acko Health pages, which were not used. Values from the 2026-10-28 run were not re-confirmed.",
-   "sources": []
+   "notes": "Themes come from an expert review, not customer reviews; no Acko Life customer-rating page found (searches return Acko General/Health).",
+   "sources": [
+    "https://joinditto.in/articles/term-insurance/acko-life-flexi-term-insurance-review/"
+   ]
   },
   "godigit": {
    "android": null,

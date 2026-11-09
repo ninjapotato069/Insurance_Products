@@ -1940,16 +1940,29 @@
    "name": "ICICI Pru Ezy Grow",
    "segment": "Individual",
    "category": "ULIP",
-   "plan_structure": null,
+   "plan_structure": "Unit Linked",
    "sub_category": null,
    "linkage": "Linked",
    "participation": "Non-Par",
-   "need_tags": [],
+   "need_tags": [
+    "Wealth",
+    "Child",
+    "Retirement"
+   ],
    "standard_product": null,
    "status": "Active",
-   "launch_date": null,
+   "launch_date": "2026-11-03",
    "withdrawn_date": null,
-   "variants": [],
+   "variants": [
+    {
+     "name": "1X / 2X / 3X premium funding",
+     "summary": "On death the insurer pays future premiums at 1, 2 or 3 times the premium"
+    },
+    {
+     "name": "Retirement / Whole Life",
+     "summary": "Builds a corpus with systematic withdrawals"
+    }
+   ],
    "eligibility": {
     "entry_age_min_years": null,
     "entry_age_max_years": null,
@@ -1967,37 +1980,48 @@
     "notes": null
    },
    "benefits": {
-    "death": null,
+    "death": "Insurer funds future premiums at 1x, 2x or 3x and pays a yearly family income; fund value continues to maturity",
     "maturity": null,
     "survival_income": null,
-    "guaranteed": null,
+    "guaranteed": false,
     "return_of_premium": null,
     "loan": null,
-    "partial_withdrawal": null,
+    "partial_withdrawal": true,
     "other": null
    },
    "category_details": {
     "term": null,
-    "ulip": null,
+    "ulip": {
+     "policy_admin_charge": "Returned"
+    },
     "savings": null,
     "annuity": null,
     "health": null
    },
-   "key_features": [],
+   "key_features": [
+    "Future premiums paid by the insurer at 1x, 2x or 3x on death",
+    "Family income benefit for dependants",
+    "Return of policy administration charges and maturity boosters",
+    "Systematic withdrawal plan under the retirement/whole-life option",
+    "Nominee can manage switches and withdrawals after death"
+   ],
    "riders_available": [],
-   "online_purchase": null,
-   "channels": [],
+   "online_purchase": true,
+   "channels": [
+    "Direct/Online",
+    "Broker"
+   ],
    "tax_benefits": null,
-   "description": null,
+   "description": "Goal-based ULIP that keeps investing for the family if the earner dies, sold online via Policybazaar.",
    "urls": {
     "product_page": null,
     "brochure": null
    },
    "sources": [
-    "https://www.icicilife.com/icici-pru-active-and-withdrawn-products-list.html"
+    "https://www.uniindia.com/prnewswire/icici-life-ezygrow-launched-with-2x-and-3x-premium-funding-benefits-to-keep-family-goals-on-track-30/234287"
    ],
-   "completeness": "list-only",
-   "last_verified": "2026-10-28",
+   "completeness": "partial",
+   "last_verified": "2026-11-09",
    "alt_code": "ICICI Life Ezy Grow"
   },
   {

@@ -2487,7 +2487,7 @@
    "last_verified": "2026-10-28"
   },
   {
-   "uin": null,
+   "uin": "122B035V01",
    "name": "Aviva Accidental Casualty Non-Linked Rider",
    "segment": "Rider",
    "category": "Accidental Death/Disability",
@@ -2539,19 +2539,19 @@
    "online_purchase": null,
    "channels": [],
    "tax_benefits": null,
-   "description": null,
+   "description": "Individual rider adding cover for accidental death and disability.",
    "urls": {
-    "product_page": null,
+    "product_page": "https://www.avivaindia.com/riders-aviva-life-insurance",
     "brochure": null
    },
    "sources": [
-    "https://www.avivaindia.com/term-insurance-plans/aviva-signature-3d-term-plan-platinum"
+    "https://www.avivaindia.com/riders-aviva-life-insurance"
    ],
    "completeness": "list-only",
-   "last_verified": "2026-10-28"
+   "last_verified": "2026-11-09"
   },
   {
-   "uin": null,
+   "uin": "122B036V02",
    "name": "Aviva New Critical Illness Non-Linked Rider",
    "segment": "Rider",
    "category": "Critical Illness",
@@ -2603,19 +2603,19 @@
    "online_purchase": null,
    "channels": [],
    "tax_benefits": null,
-   "description": null,
+   "description": "Individual rider paying a benefit on diagnosis of a listed critical illness.",
    "urls": {
-    "product_page": null,
+    "product_page": "https://www.avivaindia.com/riders-aviva-life-insurance",
     "brochure": null
    },
    "sources": [
-    "https://www.avivaindia.com/term-insurance-plans/aviva-signature-3d-term-plan-platinum"
+    "https://www.avivaindia.com/riders-aviva-life-insurance"
    ],
    "completeness": "list-only",
-   "last_verified": "2026-10-28"
+   "last_verified": "2026-11-09"
   },
   {
-   "uin": null,
+   "uin": "122B037V02",
    "name": "Aviva Cancer Cardio Non-Linked Rider",
    "segment": "Rider",
    "category": "Critical Illness",
@@ -2667,16 +2667,272 @@
    "online_purchase": null,
    "channels": [],
    "tax_benefits": null,
-   "description": null,
+   "description": "Individual rider covering cancer and heart conditions.",
    "urls": {
-    "product_page": null,
+    "product_page": "https://www.avivaindia.com/riders-aviva-life-insurance",
     "brochure": null
    },
    "sources": [
-    "https://www.avivaindia.com/term-insurance-plans/aviva-signature-3d-term-plan-platinum"
+    "https://www.avivaindia.com/riders-aviva-life-insurance"
    ],
    "completeness": "list-only",
-   "last_verified": "2026-10-28"
+   "last_verified": "2026-11-09"
+  },
+  {
+   "uin": "122B038V02",
+   "name": "Aviva Group New Critical Illness Non-Linked Rider",
+   "segment": "Rider",
+   "category": "Critical Illness",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Group rider paying a benefit on diagnosis of a listed critical illness.",
+   "urls": {
+    "product_page": "https://www.avivaindia.com/riders-aviva-life-insurance",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.avivaindia.com/riders-aviva-life-insurance"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-11-09"
+  },
+  {
+   "uin": "122B039V01",
+   "name": "Aviva Group Accidental Death Benefit Non-Linked Rider",
+   "segment": "Rider",
+   "category": "Accidental Death/Disability",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Group rider paying an extra benefit on accidental death.",
+   "urls": {
+    "product_page": "https://www.avivaindia.com/riders-aviva-life-insurance",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.avivaindia.com/riders-aviva-life-insurance"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-11-09"
+  },
+  {
+   "uin": "122B040V01",
+   "name": "Aviva Group Accidental Total & Permanent Disability Non-Linked Rider",
+   "segment": "Rider",
+   "category": "Accidental Death/Disability",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Group rider paying a benefit on accidental total and permanent disability.",
+   "urls": {
+    "product_page": "https://www.avivaindia.com/riders-aviva-life-insurance",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.avivaindia.com/riders-aviva-life-insurance"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-11-09"
+  },
+  {
+   "uin": "122B041V01",
+   "name": "Aviva Group Flexi Critical Illness Non-Linked Rider",
+   "segment": "Rider",
+   "category": "Critical Illness",
+   "plan_structure": "Rider",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Group rider with flexible critical illness cover.",
+   "urls": {
+    "product_page": "https://www.avivaindia.com/riders-aviva-life-insurance",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.avivaindia.com/riders-aviva-life-insurance"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-11-09"
   }
  ],
  "notes": "Inventory built from homepage menu, /life-insurance-plans and /group-insurance-plans (listings show no UINs). WebFetch refused (URL_NOT_ON_ALLOWLIST) /product-downloads, /riders-aviva-life-insurance, /public-disclosures-aviva-life-insurance, /important-policies, /information-disclosures: the weekly job should read these for group/rider UINs, brochures and any withdrawn-product list (none found; one search tried). Group products (12) have no UIN; riders: only 3 named from product pages, no UIN. No micro products identified (Bharat Parivar Vikas Yojana is a par individual plan per its page). Spec gaps: Signature Investment Plan 122L144V02 lacks min premium/SA; Signature Investment Plan Limited Pay 122L150V03 and Signature Increasing Income Plan 122N158V01 had empty eligibility tables on the page (use brochure/policy document); Secure Nest Annuity min purchase price not stated; no ULIP charge fields (FMC, allocation, admin) captured. Signature Guaranteed Income Plan 122N146V03: participation not stated on page, classified Non-Par from its guaranteed/loyalty additions - verify from brochure. 'Aviva Critical Illness Insurance' is a generic landing page with no plan name or UIN (likely not a distinct product; the CI plan is Aviva Smart Vitals). SEO pages (1 Crore, 2 Crore, 25 Lakh, 50 Lakh, 10-year term, Family Life) are not products. Seen in search but unverified: LifeShield Advantage key-features PDF and Term Plus Rider PDF (possibly older/withdrawn)."

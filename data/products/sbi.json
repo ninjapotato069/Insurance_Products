@@ -1357,23 +1357,31 @@
    },
    "benefits": {
     "death": null,
-    "maturity": null,
+    "maturity": "100% of total premiums paid (excluding extra premium and taxes)",
     "survival_income": null,
-    "guaranteed": null,
-    "return_of_premium": null,
+    "guaranteed": true,
+    "return_of_premium": true,
     "loan": null,
     "partial_withdrawal": null,
     "other": null
    },
    "category_details": {
-    "term": null,
+    "term": {
+     "rop_option": true
+    },
     "ulip": null,
     "savings": null,
     "annuity": null,
     "health": null
    },
-   "key_features": [],
-   "riders_available": [],
+   "key_features": [
+    "Simple-issue life cover",
+    "Full return of premiums at maturity",
+    "Optional accident benefit rider"
+   ],
+   "riders_available": [
+    "SBI Life - Accident Benefit Rider"
+   ],
    "online_purchase": null,
    "channels": [],
    "tax_benefits": null,
@@ -1383,10 +1391,10 @@
     "brochure": null
    },
    "sources": [
-    "https://www.sbilife.co.in/en/life-insurance-plans/term-insurance"
+    "https://www.jrgbank.bank.in/assets/imgs/SaralSwadhanSupreme.pdf"
    ],
-   "completeness": "list-only",
-   "last_verified": "2026-10-28"
+   "completeness": "partial",
+   "last_verified": "2026-11-09"
   },
   {
    "uin": "111N134V10",
@@ -1591,11 +1599,11 @@
    "uin": "111N172V01",
    "name": "SBI Life - Smart Future Star",
    "segment": "Individual",
-   "category": null,
+   "category": "Savings - Par",
    "plan_structure": "Endowment",
    "sub_category": null,
    "linkage": "Non-Linked",
-   "participation": null,
+   "participation": "Par",
    "need_tags": [
     "Child",
     "Savings"
@@ -1606,53 +1614,70 @@
    "withdrawn_date": null,
    "variants": [],
    "eligibility": {
-    "entry_age_min_years": null,
-    "entry_age_max_years": null,
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 65,
     "maturity_age_max_years": null,
-    "policy_term_min_years": null,
-    "policy_term_max_years": null,
+    "policy_term_min_years": 15,
+    "policy_term_max_years": 25,
     "whole_life": null,
-    "ppt_options": [],
-    "premium_modes": [],
-    "min_annual_premium_inr": null,
+    "ppt_options": [
+     "Limited 7",
+     "Limited 10",
+     "Limited 12"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": 40000,
     "min_single_premium_inr": null,
     "max_premium_text": null,
-    "min_sum_assured_inr": null,
-    "max_sum_assured_text": null,
-    "notes": null
+    "min_sum_assured_inr": 400000,
+    "max_sum_assured_text": "No limit, subject to underwriting",
+    "notes": "Ages are the proposer's; child enters at 30 days to 15 years and can be up to 35 at maturity"
    },
    "benefits": {
-    "death": null,
-    "maturity": null,
+    "death": "Higher of sum assured plus vested bonuses and 105% of premiums paid; future premiums waived on proposer's death or accidental total permanent disability",
+    "maturity": "Sum assured plus reversionary and terminal bonuses, as lump sum, deferred up to 7 years or in 2-7 year instalments",
     "survival_income": null,
-    "guaranteed": null,
-    "return_of_premium": null,
-    "loan": null,
-    "partial_withdrawal": null,
+    "guaranteed": false,
+    "return_of_premium": false,
+    "loan": true,
+    "partial_withdrawal": false,
     "other": null
    },
    "category_details": {
     "term": null,
     "ulip": null,
-    "savings": null,
+    "savings": {
+     "payout_type": "Lump sum",
+     "bonus_type": "Reversionary",
+     "deferment_option": true
+    },
     "annuity": null,
     "health": null
    },
-   "key_features": [],
+   "key_features": [
+    "Built-in premium waiver on parent's death or disability",
+    "Participating bonuses plus terminal bonus",
+    "Maturity can be deferred or taken in instalments",
+    "Short 7/10/12-year premium terms"
+   ],
    "riders_available": [],
    "online_purchase": null,
    "channels": [],
    "tax_benefits": null,
-   "description": null,
+   "description": "Participating child plan with built-in premium waiver for parents saving toward a child's milestones.",
    "urls": {
     "product_page": "https://www.sbilife.co.in/en/child-insurance-plan/smart-future-star",
     "brochure": null
    },
    "sources": [
-    "https://www.sbilife.co.in/en/child-insurance-plan"
+    "https://joinditto.in/articles/life-insurance/sbi-life-smart-future-star/"
    ],
-   "completeness": "list-only",
-   "last_verified": "2026-10-28"
+   "completeness": "full",
+   "last_verified": "2026-11-09"
   },
   {
    "uin": "111N173V03",
@@ -2236,23 +2261,29 @@
     "entry_age_min_years": null,
     "entry_age_max_years": null,
     "maturity_age_max_years": null,
-    "policy_term_min_years": null,
-    "policy_term_max_years": null,
+    "policy_term_min_years": 12,
+    "policy_term_max_years": 15,
     "whole_life": null,
-    "ppt_options": [],
-    "premium_modes": [],
+    "ppt_options": [
+     "Limited 6",
+     "Limited 7"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Monthly"
+    ],
     "min_annual_premium_inr": null,
     "min_single_premium_inr": null,
     "max_premium_text": null,
     "min_sum_assured_inr": null,
     "max_sum_assured_text": null,
-    "notes": null
+    "notes": "Term 12 (6-pay) or 15 (7-pay) years"
    },
    "benefits": {
     "death": null,
-    "maturity": null,
+    "maturity": "Guaranteed additions of 141%-181% of total annualised premiums, plus sum assured",
     "survival_income": null,
-    "guaranteed": null,
+    "guaranteed": true,
     "return_of_premium": null,
     "loan": null,
     "partial_withdrawal": null,
@@ -2261,11 +2292,18 @@
    "category_details": {
     "term": null,
     "ulip": null,
-    "savings": null,
+    "savings": {
+     "payout_type": "Lump sum",
+     "bonus_type": "None"
+    },
     "annuity": null,
     "health": null
    },
-   "key_features": [],
+   "key_features": [
+    "Guaranteed maturity additions",
+    "Short 6 or 7-year premium term",
+    "Life cover for the full term"
+   ],
    "riders_available": [],
    "online_purchase": null,
    "channels": [],
@@ -2276,10 +2314,10 @@
     "brochure": null
    },
    "sources": [
-    "https://www.sbilife.co.in/en/individual-life-insurance/savings-plans"
+    "https://ippbonline.bank.in/web/ippb/sbi-life-endowment-insurance"
    ],
-   "completeness": "list-only",
-   "last_verified": "2026-10-28"
+   "completeness": "partial",
+   "last_verified": "2026-11-09"
   },
   {
    "uin": "111N136V02",

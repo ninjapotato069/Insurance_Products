@@ -218,5 +218,79 @@
   "details": "H1 FY27 VNB margin 26.0%; solvency 229.9% at 30 Sep 2026 confirmed",
   "source": "https://plindia.com/ResReport/IPRU-14-10-26-PL.pdf",
   "status": "done"
+ },
+ {
+  "id": "2026-11-09-bajaj-new_version-116N169V18",
+  "date": "2026-11-09",
+  "company_id": "bajaj",
+  "type": "new_version",
+  "uin": "116N169V18",
+  "title": "Bajaj Life Saral Pension revised (V18)",
+  "details": "On-sale plans list now shows 116N169V18, replacing 116N169V17.",
+  "source": "https://www.bajajlifeinsurance.com/on-sale-plans.html",
+  "status": "done"
+ },
+ {
+  "id": "2026-11-05-ageasfederal-launch-28",
+  "date": "2026-11-05",
+  "company_id": "ageasfederal",
+  "type": "launch",
+  "title": "Ageas Federal Wealth Infinity Plan launched",
+  "details": "ULIP with Wealth (10-40 yr) and Legacy (to age 100) options; min premium ₹2 lakh annual / ₹5 lakh single; 12 funds. UIN not yet published.",
+  "source": "https://theprint.in/ani-press-releases/ageas-federal-life-insurance-launches-wealth-infinity-plan-a-unit-linked-life-insurance-plan-that-builds-wealth-and-supports-goals-across-all-life-stages/3091584/",
+  "status": "done"
+ },
+ {
+  "id": "2026-10-19-lic-launch-512N398V01",
+  "date": "2026-10-19",
+  "company_id": "lic",
+  "type": "launch",
+  "uin": "512N398V01",
+  "title": "LIC's New Jeevan Dhara II launched",
+  "details": "Launched 19 Oct 2026 alongside two other LIC plans.",
+  "source": "https://www.businesstoday.in/personal-finance/story/lic-launches-three-new-insurance-plans-for-retirement-income-health-and-cancer-cover-561837-2026-10-16",
+  "status": "done"
+ },
+ {
+  "id": "2026-10-19-lic-launch-512N369V01",
+  "date": "2026-10-19",
+  "company_id": "lic",
+  "type": "launch",
+  "uin": "512N369V01",
+  "title": "LIC's Health Shield launched",
+  "details": "Launched 19 Oct 2026 alongside two other LIC plans.",
+  "source": "https://www.businesstoday.in/personal-finance/story/lic-launches-three-new-insurance-plans-for-retirement-income-health-and-cancer-cover-561837-2026-10-16",
+  "status": "done"
+ },
+ {
+  "id": "2026-10-19-lic-launch-512N370V01",
+  "date": "2026-10-19",
+  "company_id": "lic",
+  "type": "launch",
+  "uin": "512N370V01",
+  "title": "LIC's New Cancer Cover launched",
+  "details": "Launched 19 Oct 2026 alongside two other LIC plans.",
+  "source": "https://www.businesstoday.in/personal-finance/story/lic-launches-three-new-insurance-plans-for-retirement-income-health-and-cancer-cover-561837-2026-10-16",
+  "status": "done"
+ },
+ {
+  "id": "2026-11-03-icici-launch-32",
+  "date": "2026-11-03",
+  "company_id": "icici",
+  "type": "launch",
+  "title": "ICICI Life EzyGrow launched",
+  "details": "ULIP with 1x/2x/3x premium funding on death and family income benefit; sold online via Policybazaar. UIN not published in release.",
+  "source": "https://www.uniindia.com/prnewswire/icici-life-ezygrow-launched-with-2x-and-3x-premium-funding-benefits-to-keep-family-goals-on-track-30/234287",
+  "status": "done"
+ },
+ {
+  "id": "2026-10-27-sbi-launch-33",
+  "date": "2026-10-27",
+  "company_id": "sbi",
+  "type": "launch",
+  "title": "SBI Life Waiver of Premium rider launched",
+  "details": "Non-linked and linked versions waive future premiums on death of proposer, 21 critical illnesses or accidental total permanent disability; catalogue rows 111B048V01 / 111A049V01.",
+  "source": "https://www.uniindia.com/prnewswire/sbi-life-launches-waiver-of-premium-rider-ensuring-continuity-of-policyholders-long-term-financial-p/227141",
+  "status": "done"
  }
 ]
