@@ -292,5 +292,122 @@
   "details": "Non-linked and linked versions waive future premiums on death of proposer, 21 critical illnesses or accidental total permanent disability; catalogue rows 111B048V01 / 111A049V01.",
   "source": "https://www.uniindia.com/prnewswire/sbi-life-launches-waiver-of-premium-rider-ensuring-continuity-of-policyholders-long-term-financial-p/227141",
   "status": "done"
+ },
+ {
+  "id": "2026-11-09-hdfc-new_version-101L170V03",
+  "date": "2026-11-09",
+  "company_id": "hdfc",
+  "type": "new_version",
+  "uin": "101L170V03",
+  "title": "101L170V03 appeared on the official product list",
+  "details": "Spotted automatically; needs research to name and spec it.",
+  "source": "https://hdfclife.com/all-insurance-plans",
+  "status": "needs_review"
+ },
+ {
+  "id": "2026-11-09-hdfc-new_version-101N134V30",
+  "date": "2026-11-09",
+  "company_id": "hdfc",
+  "type": "new_version",
+  "uin": "101N134V30",
+  "title": "101N134V30 appeared on the official product list",
+  "details": "Spotted automatically; needs research to name and spec it.",
+  "source": "https://hdfclife.com/all-insurance-plans",
+  "status": "needs_review"
+ },
+ {
+  "id": "2026-11-09-hdfc-missing_uin-101L170V02",
+  "date": "2026-11-09",
+  "company_id": "hdfc",
+  "type": "missing_uin",
+  "uin": "101L170V02",
+  "title": "HDFC Life Group Gratuity Product is no longer on the product list",
+  "details": "Possible withdrawal or new version; needs confirmation.",
+  "source": "https://hdfclife.com/all-insurance-plans",
+  "status": "needs_review"
+ },
+ {
+  "id": "2026-11-09-hdfc-missing_uin-101N134V29",
+  "date": "2026-11-09",
+  "company_id": "hdfc",
+  "type": "missing_uin",
+  "uin": "101N134V29",
+  "title": "HDFC Life Sanchay Plus is no longer on the product list",
+  "details": "Possible withdrawal or new version; needs confirmation.",
+  "source": "https://hdfclife.com/all-insurance-plans",
+  "status": "needs_review"
+ },
+ {
+  "id": "2026-11-09-hdfc-missing_uin-101N189V03",
+  "date": "2026-11-09",
+  "company_id": "hdfc",
+  "type": "missing_uin",
+  "uin": "101N189V03",
+  "title": "HDFC Life Click 2 Protect Supreme Plus is no longer on the product list",
+  "details": "Possible withdrawal or new version; needs confirmation.",
+  "source": "https://hdfclife.com/all-insurance-plans",
+  "status": "needs_review"
+ },
+ {
+  "id": "2026-11-09-bajaj-missing_uin-116N169V17",
+  "date": "2026-11-09",
+  "company_id": "bajaj",
+  "type": "missing_uin",
+  "uin": "116N169V17",
+  "title": "Bajaj Life Saral Pension is no longer on the product list",
+  "details": "Possible withdrawal or new version; needs confirmation.",
+  "source": "https://www.bajajlifeinsurance.com/on-sale-plans.html",
+  "status": "needs_review"
+ },
+ {
+  "id": "2026-11-09-tataaia-new_uin-110N163V15",
+  "date": "2026-11-09",
+  "company_id": "tataaia",
+  "type": "new_uin",
+  "uin": "110N163V15",
+  "title": "110N163V15 appeared on the official product list",
+  "details": "Spotted automatically; needs research to name and spec it.",
+  "source": "https://www.tataaia.com/active-and-withdrawn-product-status.html",
+  "status": "needs_review"
+ },
+ {
+  "id": "2026-11-09-pnbmetlife-new_version-117N124V18",
+  "date": "2026-11-09",
+  "company_id": "pnbmetlife",
+  "type": "new_version",
+  "uin": "117N124V18",
+  "title": "117N124V18 appeared on the official product list",
+  "details": "Spotted automatically; needs research to name and spec it.",
+  "source": "https://www.pnbmetlife.com/active-plans.html",
+  "status": "needs_review"
+ },
+ {
+  "id": "2026-11-09-pnbmetlife-missing_uin-117N124V17",
+  "date": "2026-11-09",
+  "company_id": "pnbmetlife",
+  "type": "missing_uin",
+  "uin": "117N124V17",
+  "title": "PNB MetLife Guaranteed Future Plan is no longer on the product list",
+  "details": "Possible withdrawal or new version; needs confirmation.",
+  "source": "https://www.pnbmetlife.com/active-plans.html",
+  "status": "needs_review"
+ },
+ {
+  "id": "2026-11-09-bajaj-rating-android",
+  "date": "2026-11-09",
+  "company_id": "bajaj",
+  "type": "rating_change",
+  "title": "Android app rating 4.37 → 4.07",
+  "source": "https://play.google.com/store/apps/details?id=com.bajaj.life",
+  "status": "done"
+ },
+ {
+  "id": "2026-11-09-kotak-rating-android",
+  "date": "2026-11-09",
+  "company_id": "kotak",
+  "type": "rating_change",
+  "title": "Android app rating 4.59 → 4.69",
+  "source": "https://play.google.com/store/apps/details?id=com.wyh.happyyou",
+  "status": "done"
  }
 ]

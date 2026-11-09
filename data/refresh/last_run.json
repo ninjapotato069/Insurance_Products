@@ -1,8 +1,8 @@
 {
- "run_at": "2026-11-02T15:22+05:30",
+ "run_at": "2026-11-09T15:40+05:30",
  "source": "github-actions",
  "product_pages": {
-  "ok": 34,
+  "ok": 33,
   "failed": [
    {
     "company_id": "icici",
@@ -42,6 +42,11 @@
    {
     "company_id": "canarahsbc",
     "url": "https://www.canarahsbclife.com/product-list",
+    "error": "HTTP 403"
+   },
+   {
+    "company_id": "indiafirst",
+    "url": "https://www.indiafirstlife.com/download-forms/brochures",
     "error": "HTTP 403"
    },
    {
@@ -128,284 +133,21 @@
     "url": "https://www.policybazaar.com/insurance-companies/sahara-life-insurance"
    }
   ],
-  "flags_added": 0,
-  "unmatched": [
-   {
-    "company_id": "aviva",
-    "uin": "122N102V02",
-    "url": "https://www.avivaindia.com/life-insurance-plans"
-   },
-   {
-    "company_id": "aviva",
-    "uin": "122B035V01",
-    "url": "https://www.avivaindia.com/riders-aviva-life-insurance"
-   },
-   {
-    "company_id": "aviva",
-    "uin": "122B036V02",
-    "url": "https://www.avivaindia.com/riders-aviva-life-insurance"
-   },
-   {
-    "company_id": "aviva",
-    "uin": "122B037V02",
-    "url": "https://www.avivaindia.com/riders-aviva-life-insurance"
-   },
-   {
-    "company_id": "aviva",
-    "uin": "122B038V02",
-    "url": "https://www.avivaindia.com/riders-aviva-life-insurance"
-   },
-   {
-    "company_id": "aviva",
-    "uin": "122B039V01",
-    "url": "https://www.avivaindia.com/riders-aviva-life-insurance"
-   },
-   {
-    "company_id": "aviva",
-    "uin": "122B040V01",
-    "url": "https://www.avivaindia.com/riders-aviva-life-insurance"
-   },
-   {
-    "company_id": "aviva",
-    "uin": "122B041V01",
-    "url": "https://www.avivaindia.com/riders-aviva-life-insurance"
-   },
-   {
-    "company_id": "aviva",
-    "uin": "122N102V02",
-    "url": "https://www.avivaindia.com/riders-aviva-life-insurance"
-   },
-   {
-    "company_id": "aviva",
-    "uin": "122N102V02",
-    "url": "https://www.avivaindia.com/group-insurance-plans"
-   },
-   {
-    "company_id": "bandhan",
-    "uin": "138G093V01",
-    "url": "https://www.bandhanlife.com/find-your-plan"
-   },
-   {
-    "company_id": "bandhan",
-    "uin": "138L089V01",
-    "url": "https://www.bandhanlife.com/find-your-plan"
-   },
-   {
-    "company_id": "bandhan",
-    "uin": "138L092V01",
-    "url": "https://www.bandhanlife.com/find-your-plan"
-   },
-   {
-    "company_id": "bandhan",
-    "uin": "138N011V03",
-    "url": "https://www.bandhanlife.com/find-your-plan"
-   },
-   {
-    "company_id": "bandhan",
-    "uin": "138N048V02",
-    "url": "https://www.bandhanlife.com/find-your-plan"
-   },
-   {
-    "company_id": "bandhan",
-    "uin": "138N062V01",
-    "url": "https://www.bandhanlife.com/find-your-plan"
-   },
-   {
-    "company_id": "bandhan",
-    "uin": "138N077V01",
-    "url": "https://www.bandhanlife.com/find-your-plan"
-   },
-   {
-    "company_id": "bandhan",
-    "uin": "138N078V01",
-    "url": "https://www.bandhanlife.com/find-your-plan"
-   },
-   {
-    "company_id": "bandhan",
-    "uin": "138N079V01",
-    "url": "https://www.bandhanlife.com/find-your-plan"
-   },
-   {
-    "company_id": "bandhan",
-    "uin": "138N086V01",
-    "url": "https://www.bandhanlife.com/find-your-plan"
-   },
-   {
-    "company_id": "bandhan",
-    "uin": "138N087V01",
-    "url": "https://www.bandhanlife.com/find-your-plan"
-   },
-   {
-    "company_id": "bandhan",
-    "uin": "138N088V01",
-    "url": "https://www.bandhanlife.com/find-your-plan"
-   },
-   {
-    "company_id": "bandhan",
-    "uin": "138N095V01",
-    "url": "https://www.bandhanlife.com/find-your-plan"
-   },
-   {
-    "company_id": "bandhan",
-    "uin": "138N096V04",
-    "url": "https://www.bandhanlife.com/find-your-plan"
-   },
-   {
-    "company_id": "bandhan",
-    "uin": "138N097V01",
-    "url": "https://www.bandhanlife.com/find-your-plan"
-   },
-   {
-    "company_id": "bandhan",
-    "uin": "138N118V02",
-    "url": "https://www.bandhanlife.com/find-your-plan"
-   },
-   {
-    "company_id": "bandhan",
-    "uin": "138N119V01",
-    "url": "https://www.bandhanlife.com/find-your-plan"
-   },
-   {
-    "company_id": "bandhan",
-    "uin": "138G093V01",
-    "url": "https://www.bandhanlife.com/group-insurance-plans"
-   },
-   {
-    "company_id": "bandhan",
-    "uin": "138L089V01",
-    "url": "https://www.bandhanlife.com/group-insurance-plans"
-   },
-   {
-    "company_id": "bandhan",
-    "uin": "138L092V01",
-    "url": "https://www.bandhanlife.com/group-insurance-plans"
-   },
-   {
-    "company_id": "bandhan",
-    "uin": "138N011V03",
-    "url": "https://www.bandhanlife.com/group-insurance-plans"
-   },
-   {
-    "company_id": "bandhan",
-    "uin": "138N048V02",
-    "url": "https://www.bandhanlife.com/group-insurance-plans"
-   },
-   {
-    "company_id": "bandhan",
-    "uin": "138N062V01",
-    "url": "https://www.bandhanlife.com/group-insurance-plans"
-   },
-   {
-    "company_id": "bandhan",
-    "uin": "138N077V01",
-    "url": "https://www.bandhanlife.com/group-insurance-plans"
-   },
-   {
-    "company_id": "bandhan",
-    "uin": "138N078V01",
-    "url": "https://www.bandhanlife.com/group-insurance-plans"
-   },
-   {
-    "company_id": "bandhan",
-    "uin": "138N079V01",
-    "url": "https://www.bandhanlife.com/group-insurance-plans"
-   },
-   {
-    "company_id": "bandhan",
-    "uin": "138N086V01",
-    "url": "https://www.bandhanlife.com/group-insurance-plans"
-   },
-   {
-    "company_id": "bandhan",
-    "uin": "138N087V01",
-    "url": "https://www.bandhanlife.com/group-insurance-plans"
-   },
-   {
-    "company_id": "bandhan",
-    "uin": "138N088V01",
-    "url": "https://www.bandhanlife.com/group-insurance-plans"
-   },
-   {
-    "company_id": "bandhan",
-    "uin": "138N095V01",
-    "url": "https://www.bandhanlife.com/group-insurance-plans"
-   },
-   {
-    "company_id": "bandhan",
-    "uin": "138N096V04",
-    "url": "https://www.bandhanlife.com/group-insurance-plans"
-   },
-   {
-    "company_id": "bandhan",
-    "uin": "138N097V01",
-    "url": "https://www.bandhanlife.com/group-insurance-plans"
-   },
-   {
-    "company_id": "bandhan",
-    "uin": "138N118V02",
-    "url": "https://www.bandhanlife.com/group-insurance-plans"
-   },
-   {
-    "company_id": "bandhan",
-    "uin": "138N119V01",
-    "url": "https://www.bandhanlife.com/group-insurance-plans"
-   }
-  ]
+  "flags_added": 9,
+  "unmatched": []
  },
  "apps_discovered": [
   {
-   "company_id": "hdfc",
-   "store": "android",
-   "id": "com.hdfc.lifereward.hdfc_lifereward",
-   "title": "Life Rewards by HDFC Life",
-   "developer": "HDFC Life"
-  },
-  {
-   "company_id": "pnbmetlife",
-   "store": "android",
-   "id": "com.pmli.crmnext",
-   "title": "MyActivity",
-   "developer": "PNB METLIFE INDIA INSURANCE COMPANY LIMITED"
-  },
-  {
-   "company_id": "canarahsbc",
-   "store": "android",
-   "id": "com.canarahsbclife.quickbi",
-   "title": "CHL Quick Quote",
-   "developer": "Canara HSBC Life Insurance"
-  },
-  {
-   "company_id": "indiafirst",
-   "store": "android",
-   "id": "com.ifl.gclplusbob",
-   "title": "IndiaFirst Life – Bank of Baro",
-   "developer": "INDIAFIRST LIFE INSURANCE COMPANY LIMITED"
-  },
-  {
-   "company_id": "sud",
-   "store": "android",
-   "id": "in.sudlife.staragency",
-   "title": "Star Agency",
-   "developer": "SUD Life"
-  },
-  {
-   "company_id": "ageasfederal",
-   "store": "android",
-   "id": "com.afli.ace",
-   "title": "Ageas Federal ACE",
-   "developer": "Ageas Federal Life Insurance Co. Ltd."
-  },
-  {
-   "company_id": "shriram",
-   "store": "android",
-   "id": "com.androidfin.SLICUnoPackage",
-   "title": "SLIC - MyExpense",
-   "developer": "Shriram Life Insurance Company"
+   "company_id": "aviva",
+   "store": "ios",
+   "id": "6753971268",
+   "title": "Aviva Wellness360",
+   "developer": "Aviva Life Insurance Company India Limited"
   }
  ],
  "ratings": {
   "android_ok": 18,
-  "ios_ok": 17,
+  "ios_ok": 18,
   "failed": []
  }
 }

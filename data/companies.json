@@ -273,7 +273,13 @@
   "id": "aviva",
   "name": "Aviva Life Insurance Company India",
   "short": "Aviva Life",
-  "sector": "Private"
+  "sector": "Private",
+  "apps": {
+   "ios": "6753971268"
+  },
+  "apps_auto": [
+   "ios"
+  ]
  },
  {
   "id": "shriram",
