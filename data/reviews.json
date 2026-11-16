@@ -258,14 +258,6 @@
     "observed_on": "2026-11-09",
     "source": "https://play.google.com/store/apps/details?id=com.wyh.happyyou"
    },
-   "ios": {
-    "app_id": "1501295010",
-    "app_name": "KLI Boost 360",
-    "rating": 4.63,
-    "ratings_count": 1319,
-    "observed_on": "2026-11-09",
-    "source": "https://apps.apple.com/in/app/kli-boost-360/id1501295010?uo=4"
-   },
    "third_party": [
     {
      "site": "InsuranceDekho",
@@ -292,7 +284,7 @@
     "customer_portal": null,
     "notes": "WhatsApp appears only in the broker's footer consent text; no Kotak WhatsApp line, app or chatbot shown."
    },
-   "notes": "InsuranceDekho shows no scale and says it does not rate insurers; the 4.7 Google badge in its footer appears site-wide.",
+   "notes": "InsuranceDekho shows no scale and says it does not rate insurers; the 4.7 Google badge in its footer appears site-wide. 2026-11-16: iOS id 1501295010 (KLI Boost 360) is the sales-force app, removed; customer iOS app id still to find.",
    "sources": [
     "https://www.insurancedekho.com/life-insurance/kotak/user-reviews"
    ]
@@ -669,10 +661,26 @@
   "sahara": {
    "android": null,
    "ios": null,
-   "third_party": [],
-   "positives": [],
-   "negatives": [],
-   "review_summary": null,
+   "third_party": [
+    {
+     "site": "InsuranceDekho",
+     "rating": 4.9,
+     "scale": 5,
+     "reviews_count": 45,
+     "url": "https://www.insurancedekho.com/life-insurance/sahara-india/user-reviews",
+     "observed_on": "2026-11-16"
+    }
+   ],
+   "positives": [
+    "Existing policies continue unchanged after the regulator-ordered transfer to SBI Life (Ditto)",
+    "Easy purchase and helpful advisor support in old broker reviews (about 16 of 30 visible InsuranceDekho reviews, 2022-24)",
+    "Affordable premiums and renewal reminders (about 10 of 30)"
+   ],
+   "negatives": [
+    "Closed to new business since 2017; years of regulatory action and litigation over governance (Ditto)",
+    "Visible broker reviews are dated (latest Jan 2024), near-identical and mostly about the broker, so they say little about Sahara's own servicing"
+   ],
+   "review_summary": "Sahara India Life has written no new business since 2017; IRDAI ordered its policies moved to SBI Life in 2023, which now services about 2 lakh of them. Its InsuranceDekho page shows 4.9 from 45 reviews, but the visible ones are old, broker-focused and similar in wording, so service quality now depends mainly on SBI Life.",
    "digital_servicing": {
     "whatsapp": null,
     "whatsapp_number": null,
@@ -682,19 +690,12 @@
     "notes": null
    },
    "notes": null,
-   "sources": []
+   "sources": [
+    "https://joinditto.in/articles/life-insurance/sahara-life-insurance-review/",
+    "https://www.insurancedekho.com/life-insurance/sahara-india/user-reviews"
+   ]
   },
   "shriram": {
-   "android": {
-    "package": "com.androidfin.SLICUnoPackage",
-    "app_name": "SLIC - MyExpense",
-    "rating": 3.97,
-    "ratings_count": 70,
-    "installs": "10,000+",
-    "last_updated": "2026-08-28",
-    "observed_on": "2026-11-09",
-    "source": "https://play.google.com/store/apps/details?id=com.androidfin.SLICUnoPackage"
-   },
    "ios": {
     "app_id": "6751533161",
     "app_name": "Shrimithra",
@@ -730,7 +731,7 @@
     "customer_portal": null,
     "notes": "WhatsApp, app and chatbot not shown for Shriram; its FAQ mentions a Policy Account login with no platform named, and one review mentions renewing through an unnamed online portal."
    },
-   "notes": "Scale not shown; only 30 of 88 reviews visible; the footer 4.7 Google badge appears to belong to the broker, not Shriram.",
+   "notes": "Scale not shown; only 30 of 88 reviews visible; the footer 4.7 Google badge appears to belong to the broker, not Shriram. 2026-11-16: Android corrected to com.svs.slic (linked from shriramlife.com \"Download App\"); iOS Shrimithra unverified, site shows no iOS link.",
    "sources": [
     "https://www.insurancedekho.com/life-insurance/shriram/user-reviews"
    ]
