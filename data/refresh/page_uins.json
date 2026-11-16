@@ -11,7 +11,7 @@
    "512B227V01",
    "512N226V01"
   ],
-  "last_ok": "2026-11-09"
+  "last_ok": "2026-11-16"
  },
  "https://licindia.in/pension-group-schemes-new-product": {
   "company_id": "lic",
@@ -33,7 +33,7 @@
    "512N367V01",
    "512N386V01"
   ],
-  "last_ok": "2026-11-09"
+  "last_ok": "2026-11-16"
  },
  "https://licindia.in/web/guest/withdrawn-plans": {
   "company_id": "lic",
@@ -358,7 +358,7 @@
    "101N210V03",
    "101Y122V05"
   ],
-  "last_ok": "2026-11-09"
+  "last_ok": "2026-11-16"
  },
  "https://www.hdfclife.com/group-insurance-plans": {
   "company_id": "hdfc",
@@ -366,7 +366,7 @@
    "101G107V02",
    "101L093V02",
    "101L094V03",
-   "101L170V02",
+   "101L170V03",
    "101L185V02",
    "101N005V08",
    "101N075V03",
@@ -385,7 +385,7 @@
    "101N186V09",
    "101N189V04"
   ],
-  "last_ok": "2026-11-09"
+  "last_ok": "2026-11-16"
  },
  "https://www.hdfclife.com/withdrawn-insurance-plans": {
   "company_id": "hdfc",
@@ -998,7 +998,7 @@
    "101Y122V03",
    "101Y122V04"
   ],
-  "last_ok": "2026-11-09"
+  "last_ok": "2026-11-16"
  },
  "https://www.axismaxlife.com/all-insurance-plans": {
   "company_id": "axismax",
@@ -1054,7 +1054,7 @@
    "104N160V01",
    "104Y134V01"
   ],
-  "last_ok": "2026-11-09"
+  "last_ok": "2026-11-16"
  },
  "https://www.axismaxlife.com/customer-servicing/withdrawn-plans": {
   "company_id": "axismax",
@@ -1495,7 +1495,7 @@
    "104N159V03",
    "104N159V04"
   ],
-  "last_ok": "2026-11-09"
+  "last_ok": "2026-11-16"
  },
  "https://www.bajajlifeinsurance.com/on-sale-plans.html": {
   "company_id": "bajaj",
@@ -1559,14 +1559,14 @@
    "116N242V02",
    "116N243V01"
   ],
-  "last_ok": "2026-11-09"
+  "last_ok": "2026-11-16"
  },
  "https://www.bajajlifeinsurance.com/riders-insurance-plans.html": {
   "company_id": "bajaj",
   "uins": [
    "116N198V02"
   ],
-  "last_ok": "2026-11-09"
+  "last_ok": "2026-11-16"
  },
  "https://www.bajajlifeinsurance.com/withdrawn-plans.html": {
   "company_id": "bajaj",
@@ -2061,7 +2061,7 @@
    "116N208V02",
    "116N242V01"
   ],
-  "last_ok": "2026-11-09"
+  "last_ok": "2026-11-16"
  },
  "https://www.tataaia.com/active-and-withdrawn-product-status.html": {
   "company_id": "tataaia",
@@ -2592,7 +2592,7 @@
    "110N209V02",
    "110N210V01"
   ],
-  "last_ok": "2026-11-09"
+  "last_ok": "2026-11-16"
  },
  "https://www.tataaia.com/life-insurance-plans/life-insurance-riders.html": {
   "company_id": "tataaia",
@@ -2613,7 +2613,7 @@
    "110N171V09",
    "110N176V06"
   ],
-  "last_ok": "2026-11-09"
+  "last_ok": "2026-11-16"
  },
  "https://www.tataaia.com/life-insurance-plans/group-insurance-solutions.html": {
   "company_id": "tataaia",
@@ -2622,7 +2622,7 @@
    "110N173V02",
    "110N173V03"
   ],
-  "last_ok": "2026-11-09"
+  "last_ok": "2026-11-16"
  },
  "https://www.tataaia.com/customer-service/download-centre.html?id=withdrawnproducts.html": {
   "company_id": "tataaia",
@@ -3067,7 +3067,7 @@
    "110N208V04",
    "110N209V01"
   ],
-  "last_ok": "2026-11-09"
+  "last_ok": "2026-11-16"
  },
  "https://www.pnbmetlife.com/active-plans.html": {
   "company_id": "pnbmetlife",
@@ -3126,7 +3126,7 @@
    "117N168V01",
    "117N169V01"
   ],
-  "last_ok": "2026-11-09"
+  "last_ok": "2026-11-16"
  },
  "https://www.pnbmetlife.com/insurance-plans/riders.html": {
   "company_id": "pnbmetlife",
@@ -3139,7 +3139,7 @@
    "117B022V03",
    "117B023V03"
   ],
-  "last_ok": "2026-11-09"
+  "last_ok": "2026-11-16"
  },
  "https://www.pnbmetlife.com/insurance-plans/group-insurance-plans.html": {
   "company_id": "pnbmetlife",
@@ -3156,7 +3156,7 @@
    "117N132V02",
    "117N140V01"
   ],
-  "last_ok": "2026-11-09"
+  "last_ok": "2026-11-16"
  },
  "https://www.pnbmetlife.com/withdrawn-insurance-plans.html": {
   "company_id": "pnbmetlife",
@@ -3426,7 +3426,7 @@
    "117N141V02",
    "117Y102V01"
   ],
-  "last_ok": "2026-11-09"
+  "last_ok": "2026-11-16"
  },
  "https://www.indiafirstlife.com/download-forms/brochures": {
   "company_id": "indiafirst",
@@ -3434,7 +3434,7 @@
    "143N068V04",
    "143N078V01"
   ],
-  "last_ok": "2026-11-02"
+  "last_ok": "2026-11-16"
  },
  "https://www.edelweisslife.in/product-downloads": {
   "company_id": "edelweiss",
@@ -3471,7 +3471,7 @@
    "147N116V01",
    "147N117V01"
   ],
-  "last_ok": "2026-11-09"
+  "last_ok": "2026-11-16"
  },
  "https://www.edelweisslife.in/riders": {
   "company_id": "edelweiss",
@@ -3487,7 +3487,7 @@
    "147B014V06",
    "147B015V02"
   ],
-  "last_ok": "2026-11-09"
+  "last_ok": "2026-11-16"
  },
  "https://www.edelweisslife.in/en/discontinued-products": {
   "company_id": "edelweiss",
@@ -3582,7 +3582,7 @@
    "147N091V01",
    "147N115V01"
   ],
-  "last_ok": "2026-11-09"
+  "last_ok": "2026-11-16"
  },
  "https://www.acko.com/life/product-disclosures/": {
   "company_id": "acko",
@@ -3601,7 +3601,7 @@
    "164Y007V01",
    "164Y007V02"
   ],
-  "last_ok": "2026-11-09"
+  "last_ok": "2026-11-16"
  },
  "https://lifeinsurance.adityabirlacapital.com/forms-and-downloads/brochures-and-specimen-contracts/": {
   "company_id": "absli",
@@ -3967,7 +3967,7 @@
    "109N151V03",
    "109N153V01"
   ],
-  "last_ok": "2026-11-09"
+  "last_ok": "2026-11-16"
  },
  "https://www.ageasfederal.com/withdrawn-products": {
   "company_id": "ageasfederal",
@@ -4000,14 +4000,14 @@
   "uins": [
    "140N075V03"
   ],
-  "last_ok": "2026-11-09"
+  "last_ok": "2026-11-16"
  },
  "https://www.avivaindia.com/life-insurance-plans": {
   "company_id": "aviva",
   "uins": [
    "122N102V02"
   ],
-  "last_ok": "2026-11-09"
+  "last_ok": "2026-11-16"
  },
  "https://www.avivaindia.com/riders-aviva-life-insurance": {
   "company_id": "aviva",
@@ -4021,14 +4021,14 @@
    "122B041V01",
    "122N102V02"
   ],
-  "last_ok": "2026-11-09"
+  "last_ok": "2026-11-16"
  },
  "https://www.avivaindia.com/group-insurance-plans": {
   "company_id": "aviva",
   "uins": [
    "122N102V02"
   ],
-  "last_ok": "2026-11-09"
+  "last_ok": "2026-11-16"
  },
  "https://www.shriramlife.com/legal/withdrawn-plan": {
   "company_id": "shriram",
@@ -4182,7 +4182,7 @@
    "128N126V01",
    "128N126V02"
   ],
-  "last_ok": "2026-11-09"
+  "last_ok": "2026-11-16"
  },
  "https://www.bandhanlife.com/find-your-plan": {
   "company_id": "bandhan",
@@ -4211,7 +4211,7 @@
    "138N119V01",
    "138N122V02"
   ],
-  "last_ok": "2026-11-09"
+  "last_ok": "2026-11-16"
  },
  "https://www.bandhanlife.com/group-insurance-plans": {
   "company_id": "bandhan",
@@ -4240,7 +4240,7 @@
    "138N119V01",
    "138N122V02"
   ],
-  "last_ok": "2026-11-09"
+  "last_ok": "2026-11-16"
  },
  "https://www.bandhanlife.com/withdrawn-products": {
   "company_id": "bandhan",
@@ -4269,6 +4269,6 @@
    "138N119V01",
    "138N122V02"
   ],
-  "last_ok": "2026-11-09"
+  "last_ok": "2026-11-16"
  }
 }

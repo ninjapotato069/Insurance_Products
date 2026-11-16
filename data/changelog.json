@@ -428,5 +428,16 @@
   "details": "On Shriram Life's withdrawn-plans list (128N097V01/V02) and no longer on the all-plans page.",
   "source": "https://www.shriramlife.com/withdrawn-plans",
   "status": "done"
+ },
+ {
+  "id": "2026-11-16-hdfc-missing_uin-101L170V02",
+  "date": "2026-11-16",
+  "company_id": "hdfc",
+  "type": "missing_uin",
+  "uin": "101L170V02",
+  "title": "HDFC Life Group Gratuity Product is no longer on the product list",
+  "details": "Possible withdrawal or new version; needs confirmation.",
+  "source": "https://www.hdfclife.com/group-insurance-plans",
+  "status": "needs_review"
  }
 ]

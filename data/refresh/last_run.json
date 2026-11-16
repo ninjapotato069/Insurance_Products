@@ -1,9 +1,14 @@
 {
- "run_at": "2026-11-09T15:40+05:30",
+ "run_at": "2026-11-16T15:35+05:30",
  "source": "github-actions",
  "product_pages": {
-  "ok": 33,
+  "ok": 32,
   "failed": [
+   {
+    "company_id": "lic",
+    "url": "https://licindia.in/web/guest/withdrawn-plans",
+    "error": "ReadTimeout: HTTPSConnectionPool(host='licindia.in', port=443): Read timed out. (read timeout=40)"
+   },
    {
     "company_id": "icici",
     "url": "https://www.icicilife.com/icici-pru-active-and-withdrawn-products-list.html",
@@ -45,9 +50,9 @@
     "error": "HTTP 403"
    },
    {
-    "company_id": "indiafirst",
-    "url": "https://www.indiafirstlife.com/download-forms/brochures",
-    "error": "HTTP 403"
+    "company_id": "ageasfederal",
+    "url": "https://www.ageasfederal.com/withdrawn-products",
+    "error": "ReadTimeout: HTTPSConnectionPool(host='www.ageasfederal.com', port=443): Read timed out. (read timeout=40)"
    },
    {
     "company_id": "generalicentral",
@@ -133,16 +138,16 @@
     "url": "https://www.policybazaar.com/insurance-companies/sahara-life-insurance"
    }
   ],
-  "flags_added": 9,
+  "flags_added": 1,
   "unmatched": []
  },
  "apps_discovered": [
   {
-   "company_id": "aviva",
+   "company_id": "kotak",
    "store": "ios",
-   "id": "6753971268",
-   "title": "Aviva Wellness360",
-   "developer": "Aviva Life Insurance Company India Limited"
+   "id": "1501295010",
+   "title": "KLI Boost 360",
+   "developer": "Kotak Mahindra Life Insurance Limited"
   }
  ],
  "ratings": {

@@ -97,10 +97,12 @@
   "short": "Kotak Life",
   "sector": "Private",
   "apps": {
-   "android": "com.wyh.happyyou"
+   "android": "com.wyh.happyyou",
+   "ios": "1501295010"
   },
   "apps_auto": [
-   "android"
+   "android",
+   "ios"
   ]
  },
  {
