@@ -763,14 +763,14 @@
    "last_verified": "2026-11-02"
   },
   {
-   "uin": null,
+   "uin": "140N090V02",
    "name": "Pramerica Life Flexi Income Plan",
    "segment": "Individual",
-   "category": null,
-   "plan_structure": null,
+   "category": "Savings - Non-Par",
+   "plan_structure": "Guaranteed Income",
    "sub_category": null,
-   "linkage": null,
-   "participation": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
    "need_tags": [
     "Savings"
    ],
@@ -778,65 +778,93 @@
    "status": "Active",
    "launch_date": null,
    "withdrawn_date": null,
-   "variants": [],
+   "variants": [
+    {
+     "name": "Early Income",
+     "summary": "Guaranteed income from year 1-5 plus maturity benefit"
+    },
+    {
+     "name": "Early Income with PCB",
+     "summary": "Benefits continue without premiums after death"
+    }
+   ],
    "eligibility": {
     "entry_age_min_years": null,
-    "entry_age_max_years": null,
-    "maturity_age_max_years": null,
-    "policy_term_min_years": null,
-    "policy_term_max_years": null,
+    "entry_age_max_years": 55,
+    "maturity_age_max_years": 80,
+    "policy_term_min_years": 25,
+    "policy_term_max_years": 40,
     "whole_life": null,
-    "ppt_options": [],
-    "premium_modes": [],
-    "min_annual_premium_inr": null,
+    "ppt_options": [
+     "Limited 6",
+     "Limited 8",
+     "Limited 10",
+     "Limited 12"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": 30000,
     "min_single_premium_inr": null,
     "max_premium_text": null,
-    "min_sum_assured_inr": null,
+    "min_sum_assured_inr": 210000,
     "max_sum_assured_text": null,
-    "notes": null
+    "notes": "Brochure min entry age printed as '911 days' (likely 91 days); PCB max entry 40-45."
    },
    "benefits": {
-    "death": null,
-    "maturity": null,
-    "survival_income": null,
-    "guaranteed": null,
+    "death": "Higher of 7x/11x annualised premium, 105% of premiums or surrender value; PCB continues income and maturity.",
+    "maturity": "Guaranteed maturity benefit plus loyalty boosters.",
+    "survival_income": "Guaranteed income from policy year 1-5 for the term.",
+    "guaranteed": true,
     "return_of_premium": null,
-    "loan": null,
+    "loan": true,
     "partial_withdrawal": null,
     "other": null
    },
    "category_details": {
     "term": null,
     "ulip": null,
-    "savings": null,
+    "savings": {
+     "payout_type": "Lump sum + Income",
+     "income_duration": "Up to policy term (25-40 yrs)",
+     "bonus_type": "None",
+     "deferment_option": true
+    },
     "annuity": null,
     "health": null
    },
-   "key_features": [],
+   "key_features": [
+    "Income can start from year one",
+    "Option to accrue income",
+    "Policy continuation benefit option",
+    "Premium offset"
+   ],
    "riders_available": [],
    "online_purchase": null,
    "channels": [],
    "tax_benefits": null,
-   "description": null,
+   "description": "Non-par long-term income plan with early guaranteed payouts and a maturity lump sum.",
    "urls": {
     "product_page": null,
-    "brochure": null
+    "brochure": "https://pramericalife.in//admin/assets/pdf/gp_pdf/1737090860-PRAMERICA LIFE FLEXI INCOME_2024_DEC_BROCHURE_V4.pdf"
    },
    "sources": [
-    "https://pramericalife.in/term-plans/Pramerica-Life-U-Protect"
+    "https://pramericalife.in//admin/assets/pdf/gp_pdf/1737090860-PRAMERICA LIFE FLEXI INCOME_2024_DEC_BROCHURE_V4.pdf"
    ],
-   "completeness": "list-only",
-   "last_verified": "2026-11-02"
+   "completeness": "partial",
+   "last_verified": "2026-11-16"
   },
   {
-   "uin": null,
+   "uin": "140N091V02",
    "name": "Pramerica Life Signature Wealth",
    "segment": "Individual",
-   "category": null,
-   "plan_structure": null,
+   "category": "Savings - Non-Par",
+   "plan_structure": "Guaranteed Income",
    "sub_category": null,
-   "linkage": null,
-   "participation": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
    "need_tags": [
     "Savings"
    ],
@@ -844,121 +872,184 @@
    "status": "Active",
    "launch_date": null,
    "withdrawn_date": null,
-   "variants": [],
+   "variants": [
+    {
+     "name": "LumpSum",
+     "summary": "Guaranteed lump sum, term 5-30 yrs"
+    },
+    {
+     "name": "Regular Income",
+     "summary": "Guaranteed income for 20/25/30 yrs plus return of premium"
+    }
+   ],
    "eligibility": {
-    "entry_age_min_years": null,
-    "entry_age_max_years": null,
-    "maturity_age_max_years": null,
-    "policy_term_min_years": null,
-    "policy_term_max_years": null,
+    "entry_age_min_years": 0.25,
+    "entry_age_max_years": 65,
+    "maturity_age_max_years": 80,
+    "policy_term_min_years": 5,
+    "policy_term_max_years": 30,
     "whole_life": null,
-    "ppt_options": [],
-    "premium_modes": [],
+    "ppt_options": [
+     "Single"
+    ],
+    "premium_modes": [
+     "Single"
+    ],
     "min_annual_premium_inr": null,
     "min_single_premium_inr": null,
     "max_premium_text": null,
     "min_sum_assured_inr": null,
     "max_sum_assured_text": null,
-    "notes": null
+    "notes": "Joint life entry up to 55/60, maturity 70; POSP min single premium Rs 75,000."
    },
    "benefits": {
-    "death": null,
-    "maturity": null,
+    "death": "Highest of SA, multiple of single premium, 105% of premiums or surrender value; joint life continues after first death.",
+    "maturity": "Guaranteed lump sum, or income plus return of single premium.",
     "survival_income": null,
-    "guaranteed": null,
+    "guaranteed": true,
     "return_of_premium": null,
-    "loan": null,
+    "loan": true,
     "partial_withdrawal": null,
     "other": null
    },
    "category_details": {
     "term": null,
     "ulip": null,
-    "savings": null,
+    "savings": {
+     "payout_type": "Lump sum + Income",
+     "income_duration": "20/25/30 years",
+     "bonus_type": "None",
+     "deferment_option": false
+    },
     "annuity": null,
     "health": null
    },
-   "key_features": [],
+   "key_features": [
+    "Single premium",
+    "Lump sum or income option",
+    "Joint life option",
+    "Guaranteed benefits"
+   ],
    "riders_available": [],
    "online_purchase": null,
    "channels": [],
    "tax_benefits": null,
-   "description": null,
+   "description": "Single-premium non-par plan giving a guaranteed lump sum or long-term income.",
    "urls": {
     "product_page": null,
-    "brochure": null
+    "brochure": "https://pramericalife.in/admin/assets/fileUpload/1773811397-PRAMERICA LIFE SIGNATURE WEALTH_2026_MAR_BROCHURE_V4.pdf"
    },
    "sources": [
-    "https://pramericalife.in/term-plans/Pramerica-Life-U-Protect"
+    "https://pramericalife.in/admin/assets/fileUpload/1773811397-PRAMERICA LIFE SIGNATURE WEALTH_2026_MAR_BROCHURE_V4.pdf"
    ],
-   "completeness": "list-only",
-   "last_verified": "2026-11-02"
+   "completeness": "partial",
+   "last_verified": "2026-11-16"
   },
   {
-   "uin": null,
+   "uin": "140N089V02",
    "name": "Pramerica Life RockSolid Future",
    "segment": "Individual",
-   "category": null,
-   "plan_structure": null,
+   "category": "Savings - Non-Par",
+   "plan_structure": "Guaranteed Income",
    "sub_category": null,
-   "linkage": null,
-   "participation": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
    "need_tags": [
-    "Savings"
+    "Savings",
+    "Child"
    ],
    "standard_product": null,
    "status": "Active",
    "launch_date": null,
    "withdrawn_date": null,
-   "variants": [],
+   "variants": [
+    {
+     "name": "Income Builder",
+     "summary": "Guaranteed income plus lump sum"
+    },
+    {
+     "name": "Family Income Builder",
+     "summary": "Income continues and premiums waived on death"
+    },
+    {
+     "name": "Fortune Builder",
+     "summary": "Guaranteed lump sum with loyalty boosters, single or limited pay"
+    },
+    {
+     "name": "Dream Builder",
+     "summary": "Lump sum with premium waiver on death"
+    }
+   ],
    "eligibility": {
-    "entry_age_min_years": null,
-    "entry_age_max_years": null,
-    "maturity_age_max_years": null,
-    "policy_term_min_years": null,
-    "policy_term_max_years": null,
+    "entry_age_min_years": 0.25,
+    "entry_age_max_years": 60,
+    "maturity_age_max_years": 75,
+    "policy_term_min_years": 5,
+    "policy_term_max_years": 30,
     "whole_life": null,
-    "ppt_options": [],
-    "premium_modes": [],
-    "min_annual_premium_inr": null,
-    "min_single_premium_inr": null,
+    "ppt_options": [
+     "Single",
+     "Limited 5-12"
+    ],
+    "premium_modes": [
+     "Single",
+     "Annual",
+     "Half-yearly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": 12000,
+    "min_single_premium_inr": 30000,
     "max_premium_text": null,
     "min_sum_assured_inr": null,
     "max_sum_assured_text": null,
     "notes": null
    },
    "benefits": {
-    "death": null,
-    "maturity": null,
+    "death": "Highest of sum assured on death or 105% of premiums; family options also continue benefits with premiums waived.",
+    "maturity": "Guaranteed income for 10-35 yrs plus lump sum, or guaranteed lump sum with loyalty boosters.",
     "survival_income": null,
-    "guaranteed": null,
+    "guaranteed": true,
     "return_of_premium": null,
-    "loan": null,
+    "loan": true,
     "partial_withdrawal": null,
     "other": null
    },
    "category_details": {
     "term": null,
     "ulip": null,
-    "savings": null,
+    "savings": {
+     "payout_type": "Lump sum + Income",
+     "income_duration": "10-35 years",
+     "bonus_type": "None",
+     "deferment_option": false
+    },
     "annuity": null,
     "health": null
    },
-   "key_features": [],
-   "riders_available": [],
+   "key_features": [
+    "Four options for income or lump sum goals",
+    "Premium waiver options on death",
+    "Single or 5-12 year pay",
+    "Loan up to 75% of surrender value"
+   ],
+   "riders_available": [
+    "Pramerica Life Accidental Death Benefit Rider",
+    "Pramerica Life Accidental Total and Permanent Disability Rider",
+    "Pramerica Life Critical Illness Rider"
+   ],
    "online_purchase": null,
    "channels": [],
    "tax_benefits": null,
-   "description": null,
+   "description": "Non-par guaranteed savings plan with income and lump-sum options, including family-protection variants.",
    "urls": {
-    "product_page": null,
-    "brochure": null
+    "product_page": "https://pramericalife.in/saving-plans/pramerica-life-rocksolid-future",
+    "brochure": "https://pramericalife.in/admin/assets/fileUpload/1773379972-PRAMERICA LIFE ROCKSOLID FUTURE_2026_MAR_BROCHURE_V6.pdf"
    },
    "sources": [
-    "https://pramericalife.in/term-plans/Pramerica-Life-U-Protect"
+    "https://pramericalife.in/admin/assets/fileUpload/1773379972-PRAMERICA LIFE ROCKSOLID FUTURE_2026_MAR_BROCHURE_V6.pdf"
    ],
-   "completeness": "list-only",
-   "last_verified": "2026-11-02"
+   "completeness": "full",
+   "last_verified": "2026-11-16"
   },
   {
    "uin": null,
@@ -1230,14 +1321,14 @@
    "last_verified": "2026-11-02"
   },
   {
-   "uin": null,
+   "uin": "140N047V03",
    "name": "Pramerica Life Magnum Assure",
    "segment": "Individual",
-   "category": null,
-   "plan_structure": null,
+   "category": "Savings - Non-Par",
+   "plan_structure": "Guaranteed Income",
    "sub_category": null,
-   "linkage": null,
-   "participation": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
    "need_tags": [
     "Savings"
    ],
@@ -1247,53 +1338,68 @@
    "withdrawn_date": null,
    "variants": [],
    "eligibility": {
-    "entry_age_min_years": null,
-    "entry_age_max_years": null,
-    "maturity_age_max_years": null,
-    "policy_term_min_years": null,
-    "policy_term_max_years": null,
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 55,
+    "maturity_age_max_years": 65,
+    "policy_term_min_years": 10,
+    "policy_term_max_years": 15,
     "whole_life": null,
-    "ppt_options": [],
-    "premium_modes": [],
-    "min_annual_premium_inr": null,
+    "ppt_options": [
+     "Regular"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": 48000,
     "min_single_premium_inr": null,
-    "max_premium_text": null,
+    "max_premium_text": "No limit",
     "min_sum_assured_inr": null,
     "max_sum_assured_text": null,
-    "notes": null
+    "notes": "Terms 10 or 15 yrs; max entry 50 for 15-yr term."
    },
    "benefits": {
-    "death": null,
-    "maturity": null,
+    "death": "Highest of base SA, maturity SA, 10x annualised premium or 105% of premiums, paid as monthly instalments over 120/180 months.",
+    "maturity": "Guaranteed monthly income for 120 or 180 months after the term.",
     "survival_income": null,
-    "guaranteed": null,
+    "guaranteed": true,
     "return_of_premium": null,
-    "loan": null,
+    "loan": true,
     "partial_withdrawal": null,
     "other": null
    },
    "category_details": {
     "term": null,
     "ulip": null,
-    "savings": null,
+    "savings": {
+     "payout_type": "Income",
+     "income_duration": "10 or 15 years",
+     "bonus_type": "None",
+     "deferment_option": false
+    },
     "annuity": null,
     "health": null
    },
-   "key_features": [],
+   "key_features": [
+    "Guaranteed monthly income after the premium term",
+    "10 or 15-year term",
+    "Death benefit paid as monthly income",
+    "Loan up to 80% of surrender value"
+   ],
    "riders_available": [],
    "online_purchase": null,
    "channels": [],
    "tax_benefits": null,
-   "description": null,
+   "description": "Non-par regular-pay plan that turns premiums into a guaranteed monthly income stream after the term.",
    "urls": {
-    "product_page": null,
-    "brochure": null
+    "product_page": "https://pramericalife.in/saving-plans/pramerica-life-magnum-assure",
+    "brochure": "https://pramericalife.in/admin/assets/fileUpload/1773812994-PRAMERICA_MAGNUM_ASSURE_2026_MAR_BROCHURE_V9.pdf"
    },
    "sources": [
-    "https://pramericalife.in/term-plans/Pramerica-Life-U-Protect"
+    "https://pramericalife.in/admin/assets/fileUpload/1773812994-PRAMERICA_MAGNUM_ASSURE_2026_MAR_BROCHURE_V9.pdf"
    ],
-   "completeness": "list-only",
-   "last_verified": "2026-11-02"
+   "completeness": "full",
+   "last_verified": "2026-11-16"
   },
   {
    "uin": "140N113V01",

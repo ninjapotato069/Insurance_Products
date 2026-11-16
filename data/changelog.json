@@ -299,10 +299,11 @@
   "company_id": "hdfc",
   "type": "new_version",
   "uin": "101L170V03",
-  "title": "101L170V03 appeared on the official product list",
-  "details": "Spotted automatically; needs research to name and spec it.",
+  "title": "HDFC Life Group Gratuity Product revised (101L170V03)",
+  "details": "V03 replaces V02 on HDFC Life's product list.",
   "source": "https://hdfclife.com/all-insurance-plans",
-  "status": "needs_review"
+  "status": "done",
+  "resolved_on": "2026-11-16"
  },
  {
   "id": "2026-11-09-hdfc-new_version-101N134V30",
@@ -310,10 +311,11 @@
   "company_id": "hdfc",
   "type": "new_version",
   "uin": "101N134V30",
-  "title": "101N134V30 appeared on the official product list",
-  "details": "Spotted automatically; needs research to name and spec it.",
+  "title": "HDFC Life Sanchay Plus revised (101N134V30)",
+  "details": "V30 replaces V29.",
   "source": "https://hdfclife.com/all-insurance-plans",
-  "status": "needs_review"
+  "status": "done",
+  "resolved_on": "2026-11-16"
  },
  {
   "id": "2026-11-09-hdfc-missing_uin-101L170V02",
@@ -322,9 +324,10 @@
   "type": "missing_uin",
   "uin": "101L170V02",
   "title": "HDFC Life Group Gratuity Product is no longer on the product list",
-  "details": "Possible withdrawal or new version; needs confirmation.",
+  "details": "Replaced by 101L170V03.",
   "source": "https://hdfclife.com/all-insurance-plans",
-  "status": "needs_review"
+  "status": "dismissed",
+  "resolved_on": "2026-11-16"
  },
  {
   "id": "2026-11-09-hdfc-missing_uin-101N134V29",
@@ -333,9 +336,10 @@
   "type": "missing_uin",
   "uin": "101N134V29",
   "title": "HDFC Life Sanchay Plus is no longer on the product list",
-  "details": "Possible withdrawal or new version; needs confirmation.",
+  "details": "Replaced by 101N134V30.",
   "source": "https://hdfclife.com/all-insurance-plans",
-  "status": "needs_review"
+  "status": "dismissed",
+  "resolved_on": "2026-11-16"
  },
  {
   "id": "2026-11-09-hdfc-missing_uin-101N189V03",
@@ -344,9 +348,10 @@
   "type": "missing_uin",
   "uin": "101N189V03",
   "title": "HDFC Life Click 2 Protect Supreme Plus is no longer on the product list",
-  "details": "Possible withdrawal or new version; needs confirmation.",
+  "details": "Replaced by 101N189V04 (now on product list and product page); new version added with full specs.",
   "source": "https://hdfclife.com/all-insurance-plans",
-  "status": "needs_review"
+  "status": "dismissed",
+  "resolved_on": "2026-11-16"
  },
  {
   "id": "2026-11-09-bajaj-missing_uin-116N169V17",
@@ -355,20 +360,22 @@
   "type": "missing_uin",
   "uin": "116N169V17",
   "title": "Bajaj Life Saral Pension is no longer on the product list",
-  "details": "Possible withdrawal or new version; needs confirmation.",
+  "details": "Replaced by 116N169V18, already in catalogue.",
   "source": "https://www.bajajlifeinsurance.com/on-sale-plans.html",
-  "status": "needs_review"
+  "status": "dismissed",
+  "resolved_on": "2026-11-16"
  },
  {
   "id": "2026-11-09-tataaia-new_uin-110N163V15",
   "date": "2026-11-09",
   "company_id": "tataaia",
-  "type": "new_uin",
+  "type": "new_version",
   "uin": "110N163V15",
-  "title": "110N163V15 appeared on the official product list",
-  "details": "Spotted automatically; needs research to name and spec it.",
+  "title": "Tata AIA Fortune Guarantee Supreme revised (110N163V15)",
+  "details": "Product number 163 is Fortune Guarantee Supreme (long-running plan, V09-V14 withdrawn); added to catalogue with specs.",
   "source": "https://www.tataaia.com/active-and-withdrawn-product-status.html",
-  "status": "needs_review"
+  "status": "done",
+  "resolved_on": "2026-11-16"
  },
  {
   "id": "2026-11-09-pnbmetlife-new_version-117N124V18",
@@ -376,10 +383,11 @@
   "company_id": "pnbmetlife",
   "type": "new_version",
   "uin": "117N124V18",
-  "title": "117N124V18 appeared on the official product list",
-  "details": "Spotted automatically; needs research to name and spec it.",
+  "title": "PNB MetLife Guaranteed Future Plan revised (117N124V18)",
+  "details": "V18 replaces V17 on the active plans list.",
   "source": "https://www.pnbmetlife.com/active-plans.html",
-  "status": "needs_review"
+  "status": "done",
+  "resolved_on": "2026-11-16"
  },
  {
   "id": "2026-11-09-pnbmetlife-missing_uin-117N124V17",
@@ -388,9 +396,10 @@
   "type": "missing_uin",
   "uin": "117N124V17",
   "title": "PNB MetLife Guaranteed Future Plan is no longer on the product list",
-  "details": "Possible withdrawal or new version; needs confirmation.",
+  "details": "Replaced by 117N124V18.",
   "source": "https://www.pnbmetlife.com/active-plans.html",
-  "status": "needs_review"
+  "status": "dismissed",
+  "resolved_on": "2026-11-16"
  },
  {
   "id": "2026-11-09-bajaj-rating-android",
@@ -408,6 +417,16 @@
   "type": "rating_change",
   "title": "Android app rating 4.59 → 4.69",
   "source": "https://play.google.com/store/apps/details?id=com.wyh.happyyou",
+  "status": "done"
+ },
+ {
+  "id": "2026-11-16-shriram-withdrawal-45",
+  "date": "2026-11-16",
+  "company_id": "shriram",
+  "type": "withdrawal",
+  "title": "Shriram Life Smart Choice Plan withdrawn",
+  "details": "On Shriram Life's withdrawn-plans list (128N097V01/V02) and no longer on the all-plans page.",
+  "source": "https://www.shriramlife.com/withdrawn-plans",
   "status": "done"
  }
 ]

@@ -14359,6 +14359,238 @@
    ],
    "completeness": "list-only",
    "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "101N134V30",
+   "name": "HDFC Life Sanchay Plus",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": "Guaranteed Income",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Non-linked guaranteed-return savings plan paying income for 10, 12, 25 or 30 years, or a life-long income up to age 99.",
+   "urls": {
+    "product_page": "https://www.hdfclife.com/bandhan-bank-products/sanchay-plus",
+    "brochure": null
+   },
+   "sources": [
+    "https://hdfclife.com/all-insurance-plans",
+    "https://www.hdfclife.com/bandhan-bank-products"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-11-16"
+  },
+  {
+   "uin": "101L170V03",
+   "name": "HDFC Life Group Gratuity Product",
+   "segment": "Group",
+   "category": "Group Fund (Gratuity/Superannuation/Leave)",
+   "plan_structure": "Group Scheme",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": null
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Group plan for funding employer gratuity liabilities.",
+   "urls": {
+    "product_page": null,
+    "brochure": null
+   },
+   "sources": [
+    "https://hdfclife.com/all-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-11-16"
+  },
+  {
+   "uin": "101N189V04",
+   "name": "HDFC Life Click 2 Protect Supreme Plus",
+   "segment": "Individual",
+   "category": "Term",
+   "plan_structure": "Pure Term",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Life",
+     "summary": "Level or increasing cover (variants A/B/C) with terminal illness benefit"
+    },
+    {
+     "name": "Life Plus",
+     "summary": "Life cover plus terminal illness and accidental death cover"
+    },
+    {
+     "name": "Life Goal",
+     "summary": "Decreasing cover matched to a liability"
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 84,
+    "maturity_age_max_years": 85,
+    "policy_term_min_years": 0.08,
+    "policy_term_max_years": 67,
+    "whole_life": false,
+    "ppt_options": [
+     "Single",
+     "Limited",
+     "Regular"
+    ],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": 10000,
+    "max_sum_assured_text": null,
+    "notes": "Life Goal entry age max 65, RP not allowed under Life Goal; min PT: SP 1 month, RP 2 yrs, LP 3 yrs (Life Goal SP 5, LP 7); max PT 85 minus entry age."
+   },
+   "benefits": {
+    "death": "Higher of sum assured on death (x SA factor where applicable) or 105% of premiums paid; Life Goal pays basic SA x SA factor.",
+    "maturity": "Nil, or 100% of total premiums paid if return of premium is chosen.",
+    "survival_income": null,
+    "guaranteed": true,
+    "return_of_premium": true,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": {
+     "rop_option": true,
+     "ci_or_accelerated_benefit": "Terminal illness acceleration (up to Rs 2 Cr under Life, till age 80); waiver of premium on CI option",
+     "payout_options": "Lump sum; Parent Protect Care adds regular payouts to parents",
+     "women_or_nonsmoker_discount": "15% off base premium for women",
+     "increasing_cover_option": "Variant B +10% every 5 yrs, Variant C +5% yearly, both capped at 200%"
+    },
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Three cover options: Life, Life Plus, Life Goal",
+    "Optional return of premium at maturity",
+    "Terminal illness acceleration until age 80",
+    "Increasing cover up to 200% under Life",
+    "Spouse cover, Parent Secure and education income add-ons",
+    "Premium deferral option for one year"
+   ],
+   "riders_available": [
+    "HDFC Life Health Plus Rider",
+    "HDFC Life Income Benefit on Accidental Disability Rider",
+    "HDFC Life LiveWell Rider"
+   ],
+   "online_purchase": true,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Online-first term plan with level, increasing or decreasing cover, optional return of premium and terminal-illness acceleration.",
+   "urls": {
+    "product_page": "https://www.hdfclife.com/term-insurance-plans/click-2-protect-supreme-plus",
+    "brochure": null
+   },
+   "sources": [
+    "https://hdfclife.com/all-insurance-plans",
+    "https://www.hdfclife.com/term-insurance-plans/click-2-protect-supreme-plus"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-11-16"
   }
  ],
  "notes": "Researched 2026-10-28. ACTIVE inventory = official 'HDFC Life Active Products & Riders' table (81 rows incl. riders/group; no category column, no as-on date). Category/plan_structure for rows without brochure data are inferred from names, the UIN letter (L linked, N non-linked, A/B rider) and site nav menus - verify; lowest confidence: New Fulfilling Life, Sampoorna Jeevan, Saral Jeevan, Easy Protect, Aajeevan Growth Nivesh and Income, Click 2 Protect Optima Secure (UIN letter Y), Uday, Pragati, Star Saver, Smart Income Plan. WITHDRAWN table (cols: UIN, name, launch, withdrawal) is cut off by the fetch tool: only rows up to 101L100V02 were retrievable; later ULIPs and all 101N withdrawn products are NOT captured. Same-UIN lifecycles merged (earliest launch, latest withdrawal); many 30-Sep-2024 end dates look like the end of the pre-Oct-2024 filing regime. UINs in both lists (101G107V02 PMJJBY, 101L082V03 Smart Woman) kept Active. Bandhan Bank partner page lists UINs absent from the active list (Click 2 Protect Super 101N145V06, Sampoorn Nivesh 101L103V03) - status unverified, not added; its other UINs are older versions than the active list. Click 2 Protect Supreme Plus: table says 101N189V03, page banner V04."

@@ -534,65 +534,105 @@
    "uin": "512N387V02",
    "name": "LIC's Nav Jeevan Shree",
    "segment": "Individual",
-   "category": null,
-   "plan_structure": null,
-   "sub_category": null,
+   "category": "Savings - Non-Par",
+   "plan_structure": "Endowment",
+   "sub_category": "Limited premium endowment with guaranteed additions",
    "linkage": "Non-Linked",
-   "participation": null,
-   "need_tags": [],
+   "participation": "Non-Par",
+   "need_tags": [
+    "Savings",
+    "Protection"
+   ],
    "standard_product": null,
    "status": "Active",
    "launch_date": null,
    "withdrawn_date": null,
-   "variants": [],
+   "variants": [
+    {
+     "name": "Option I",
+     "summary": "Sum assured on death 7x annualised premium (or BSA if higher)"
+    },
+    {
+     "name": "Option II",
+     "summary": "Sum assured on death 10x annualised premium (or BSA if higher)"
+    }
+   ],
    "eligibility": {
-    "entry_age_min_years": null,
-    "entry_age_max_years": null,
-    "maturity_age_max_years": null,
-    "policy_term_min_years": null,
-    "policy_term_max_years": null,
+    "entry_age_min_years": 0.08,
+    "entry_age_max_years": 60,
+    "maturity_age_max_years": 75,
+    "policy_term_min_years": 10,
+    "policy_term_max_years": 20,
     "whole_life": null,
-    "ppt_options": [],
-    "premium_modes": [],
+    "ppt_options": [
+     "Limited 6",
+     "Limited 8",
+     "Limited 10",
+     "Limited 12",
+     "Limited 15"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
     "min_annual_premium_inr": null,
     "min_single_premium_inr": null,
     "max_premium_text": null,
-    "min_sum_assured_inr": null,
-    "max_sum_assured_text": null,
-    "notes": null
+    "min_sum_assured_inr": 500000,
+    "max_sum_assured_text": "No limit, subject to underwriting",
+    "notes": "Max entry 59 for PPT 12, 57 for PPT 15; min term 10 (PPT 6), 15 (PPT 8/10), 16 (PPT 12), 18 (PPT 15)."
    },
    "benefits": {
-    "death": null,
-    "maturity": null,
+    "death": "Sum assured on death plus accrued guaranteed additions, min 105% of premiums paid.",
+    "maturity": "BSA plus accrued guaranteed additions.",
     "survival_income": null,
-    "guaranteed": null,
-    "return_of_premium": null,
-    "loan": null,
-    "partial_withdrawal": null,
+    "guaranteed": true,
+    "return_of_premium": false,
+    "loan": true,
+    "partial_withdrawal": false,
     "other": null
    },
    "category_details": {
     "term": null,
     "ulip": null,
-    "savings": null,
+    "savings": {
+     "payout_type": "Lump sum",
+     "bonus_type": "None",
+     "deferment_option": false,
+     "illustrative_return": "Guaranteed additions 8.5%-9.5% of tabular annual premium p.a."
+    },
     "annuity": null,
     "health": null
    },
-   "key_features": [],
-   "riders_available": [],
+   "key_features": [
+    "Guaranteed additions of 8.5%-9.5% of tabular annual premium each year",
+    "Two death cover options (7x or 10x)",
+    "PPT of 6 to 15 years, term up to 20 years",
+    "Instalment payout option for death and maturity",
+    "Loan facility"
+   ],
+   "riders_available": [
+    "LIC's Accidental Death and Disability Benefit Rider",
+    "LIC's Accident Benefit Rider",
+    "LIC's New Term Assurance Rider",
+    "LIC's Premium Waiver Benefit Rider"
+   ],
    "online_purchase": null,
    "channels": [],
    "tax_benefits": null,
-   "description": null,
+   "description": "Non-par limited-premium endowment with fixed guaranteed additions, for savers wanting a guaranteed lump sum.",
    "urls": {
     "product_page": "https://licindia.in/web/guest/lic-s-nav-jeevan-shree-plan-no.912-1",
     "brochure": null
    },
    "sources": [
-    "https://licindia.in/web/guest/endowment-plans"
+    "https://licindia.in/web/guest/lic-s-nav-jeevan-shree-plan-no.912-1",
+    "https://licindia.in/documents/20121/1319704/LIC_Nav+Jeevan+Shree_Sales+Brochure_Eng_912_151025.pdf/f6661e4c-3dac-aa25-7349-ae6bdbb70f16?t=1760513752483"
    ],
-   "completeness": "list-only",
-   "last_verified": "2026-10-28",
+   "completeness": "full",
+   "last_verified": "2026-11-16",
    "alt_code": "Plan 912"
   },
   {
@@ -674,12 +714,14 @@
    "uin": "512N393V01",
    "name": "LIC's New Jeevan Sathi - Single Premium",
    "segment": "Individual",
-   "category": null,
-   "plan_structure": null,
-   "sub_category": null,
+   "category": "Savings - Non-Par",
+   "plan_structure": "Endowment",
+   "sub_category": "Joint life single premium endowment",
    "linkage": "Non-Linked",
-   "participation": null,
-   "need_tags": [],
+   "participation": "Non-Par",
+   "need_tags": [
+    "Savings"
+   ],
    "standard_product": null,
    "status": "Active",
    "launch_date": null,
@@ -723,93 +765,133 @@
    "online_purchase": null,
    "channels": [],
    "tax_benefits": null,
-   "description": null,
+   "description": "Single-premium version of LIC's non-par joint-life endowment for married couples.",
    "urls": {
     "product_page": "https://licindia.in/web/guest/lic-s-new-jeevan-sathi-single-premium-",
     "brochure": null
    },
    "sources": [
-    "https://licindia.in/web/guest/endowment-plans"
+    "https://licindia.in/web/guest/lic-s-new-jeevan-sathi-limited-premium-"
    ],
    "completeness": "list-only",
-   "last_verified": "2026-10-28",
+   "last_verified": "2026-11-16",
    "alt_code": "Plan 888"
   },
   {
    "uin": "512N394V01",
    "name": "LIC's New Jeevan Sathi - Limited Premium",
    "segment": "Individual",
-   "category": null,
-   "plan_structure": null,
-   "sub_category": null,
+   "category": "Savings - Non-Par",
+   "plan_structure": "Endowment",
+   "sub_category": "Joint life endowment with guaranteed additions",
    "linkage": "Non-Linked",
-   "participation": null,
-   "need_tags": [],
+   "participation": "Non-Par",
+   "need_tags": [
+    "Savings",
+    "Protection"
+   ],
    "standard_product": null,
    "status": "Active",
    "launch_date": null,
    "withdrawn_date": null,
-   "variants": [],
+   "variants": [
+    {
+     "name": "Option I",
+     "summary": "Death cover higher of 7x tabular annual premium or BSA"
+    },
+    {
+     "name": "Option II",
+     "summary": "Death cover higher of 10.5x tabular annual premium or BSA"
+    }
+   ],
    "eligibility": {
-    "entry_age_min_years": null,
-    "entry_age_max_years": null,
-    "maturity_age_max_years": null,
-    "policy_term_min_years": null,
-    "policy_term_max_years": null,
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 50,
+    "maturity_age_max_years": 75,
+    "policy_term_min_years": 10,
+    "policy_term_max_years": 25,
     "whole_life": null,
-    "ppt_options": [],
-    "premium_modes": [],
+    "ppt_options": [
+     "Limited 5",
+     "Limited 10",
+     "Limited 15"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
     "min_annual_premium_inr": null,
     "min_single_premium_inr": null,
     "max_premium_text": null,
-    "min_sum_assured_inr": null,
-    "max_sum_assured_text": null,
-    "notes": null
+    "min_sum_assured_inr": 300000,
+    "max_sum_assured_text": "No limit, subject to underwriting",
+    "notes": "Both spouses 18+; max entry 45-50 (Option I) or 40 (Option II, 35 for 25-yr term); max maturity 75 (Option I) / 60 (Option II); terms 10/15/20/25."
    },
    "benefits": {
-    "death": null,
-    "maturity": null,
+    "death": "First death: sum assured on death paid, future premiums waived, policy continues. Second death: sum assured on death plus accrued guaranteed additions (min 105% of premiums).",
+    "maturity": "BSA plus accrued guaranteed additions if at least one life survives.",
     "survival_income": null,
-    "guaranteed": null,
-    "return_of_premium": null,
-    "loan": null,
-    "partial_withdrawal": null,
+    "guaranteed": true,
+    "return_of_premium": false,
+    "loan": true,
+    "partial_withdrawal": false,
     "other": null
    },
    "category_details": {
     "term": null,
     "ulip": null,
-    "savings": null,
+    "savings": {
+     "payout_type": "Lump sum",
+     "bonus_type": "None",
+     "deferment_option": false,
+     "illustrative_return": null,
+     "income_duration": null
+    },
     "annuity": null,
     "health": null
    },
-   "key_features": [],
-   "riders_available": [],
+   "key_features": [
+    "Joint life cover for a married couple in one policy",
+    "Premiums waived after first death within PPT",
+    "Guaranteed additions of 7% of tabular annual premium each year",
+    "Death and maturity benefits can be taken in instalments",
+    "Loan available after one year's premium"
+   ],
+   "riders_available": [
+    "LIC's Accident Benefit Rider",
+    "LIC's New Term Assurance Rider",
+    "LIC's Critical Illness Health Rider"
+   ],
    "online_purchase": null,
    "channels": [],
    "tax_benefits": null,
-   "description": null,
+   "description": "Non-par joint-life limited-premium endowment for married couples, with guaranteed additions and premium waiver on first death.",
    "urls": {
     "product_page": "https://licindia.in/web/guest/lic-s-new-jeevan-sathi-limited-premium-",
     "brochure": null
    },
    "sources": [
-    "https://licindia.in/web/guest/endowment-plans"
+    "https://licindia.in/web/guest/lic-s-new-jeevan-sathi-limited-premium-",
+    "https://licindia.in/documents/20121/1795076/102905+-+LIC%27s+New+Jeevan+Sathi+Limited+Premium+Sales+Brochure_14-April-2026.pdf/1928bab1-3b80-aecb-6b70-b381418f7e30?t=1779472135982"
    ],
-   "completeness": "list-only",
-   "last_verified": "2026-10-28",
+   "completeness": "full",
+   "last_verified": "2026-11-16",
    "alt_code": "Plan 889"
   },
   {
    "uin": "512N395V01",
    "name": "LIC's New Bima Jyoti",
    "segment": "Individual",
-   "category": null,
-   "plan_structure": null,
+   "category": "Savings - Non-Par",
+   "plan_structure": "Endowment",
    "sub_category": null,
    "linkage": "Non-Linked",
-   "participation": null,
-   "need_tags": [],
+   "participation": "Non-Par",
+   "need_tags": [
+    "Savings"
+   ],
    "standard_product": null,
    "status": "Active",
    "launch_date": null,
@@ -859,10 +941,10 @@
     "brochure": null
    },
    "sources": [
-    "https://licindia.in/web/guest/endowment-plans"
+    "https://licindia.in/lic-s-bima-jyoti-new"
    ],
    "completeness": "list-only",
-   "last_verified": "2026-10-28",
+   "last_verified": "2026-11-16",
    "alt_code": "Plan 890"
   },
   {
@@ -1146,65 +1228,97 @@
    "uin": "512N392V01",
    "name": "LIC's Jeevan Utsav Single Premium",
    "segment": "Individual",
-   "category": null,
+   "category": "Savings - Non-Par",
    "plan_structure": "Whole Life",
-   "sub_category": null,
+   "sub_category": "Single premium whole life with lifelong income",
    "linkage": "Non-Linked",
-   "participation": null,
-   "need_tags": [],
+   "participation": "Non-Par",
+   "need_tags": [
+    "Savings",
+    "Legacy"
+   ],
    "standard_product": null,
    "status": "Active",
-   "launch_date": null,
+   "launch_date": "2026-01-12",
    "withdrawn_date": null,
-   "variants": [],
+   "variants": [
+    {
+     "name": "Regular Income",
+     "summary": "10% of BSA paid every year for life after the guaranteed-addition period"
+    },
+    {
+     "name": "Flexi Income",
+     "summary": "Income can be left with LIC to accumulate at 5.5% p.a. and withdrawn later"
+    }
+   ],
    "eligibility": {
-    "entry_age_min_years": null,
-    "entry_age_max_years": null,
+    "entry_age_min_years": 0.08,
+    "entry_age_max_years": 65,
     "maturity_age_max_years": null,
     "policy_term_min_years": null,
     "policy_term_max_years": null,
-    "whole_life": null,
-    "ppt_options": [],
-    "premium_modes": [],
+    "whole_life": true,
+    "ppt_options": [
+     "Single"
+    ],
+    "premium_modes": [
+     "Single"
+    ],
     "min_annual_premium_inr": null,
     "min_single_premium_inr": null,
     "max_premium_text": null,
-    "min_sum_assured_inr": null,
-    "max_sum_assured_text": null,
+    "min_sum_assured_inr": 500000,
+    "max_sum_assured_text": "No limit, subject to underwriting",
     "notes": null
    },
    "benefits": {
-    "death": null,
+    "death": "Higher of BSA or 1.25x tabular single premium, plus accrued guaranteed additions.",
     "maturity": null,
-    "survival_income": null,
-    "guaranteed": null,
-    "return_of_premium": null,
-    "loan": null,
+    "survival_income": "10% of BSA yearly for life (regular or flexi accumulation at 5.5%).",
+    "guaranteed": true,
+    "return_of_premium": false,
+    "loan": true,
     "partial_withdrawal": null,
     "other": null
    },
    "category_details": {
     "term": null,
     "ulip": null,
-    "savings": null,
+    "savings": {
+     "payout_type": "Income",
+     "income_duration": "Whole life",
+     "bonus_type": "None",
+     "deferment_option": true,
+     "illustrative_return": null
+    },
     "annuity": null,
     "health": null
    },
-   "key_features": [],
-   "riders_available": [],
+   "key_features": [
+    "One-time premium with lifelong cover",
+    "Guaranteed additions of Rs 40 per Rs 1,000 BSA during the accumulation period",
+    "Lifelong income of 10% of BSA a year",
+    "Flexi option to accumulate income at 5.5% p.a.",
+    "Loan and rider options"
+   ],
+   "riders_available": [
+    "LIC's Accidental Death and Disability Benefit Rider",
+    "LIC's New Term Assurance Rider"
+   ],
    "online_purchase": null,
    "channels": [],
    "tax_benefits": null,
-   "description": null,
+   "description": "Single-premium non-par whole-life plan paying guaranteed lifelong income, for lump-sum investors wanting income for life.",
    "urls": {
     "product_page": "https://licindia.in/web/guest/lic-s-jeevan-utsav-single-premium",
     "brochure": null
    },
    "sources": [
-    "https://licindia.in/web/guest/whole-life-plans"
+    "https://www.licindia.in/web/guest/lic-s-jeevan-utsav-single-premium",
+    "https://www.angelone.in/news/stocks/lic-launches-jeevan-utsav-single-premium-policy-key-features-benefits-and-income-options-explained"
    ],
-   "completeness": "list-only",
-   "last_verified": "2026-10-28",
+   "completeness": "full",
+   "last_verified": "2026-11-16",
    "alt_code": "Plan 883"
   },
   {

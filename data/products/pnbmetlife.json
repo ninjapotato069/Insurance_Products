@@ -4178,6 +4178,120 @@
    ],
    "completeness": "full",
    "last_verified": "2026-11-02"
+  },
+  {
+   "uin": "117N124V18",
+   "name": "PNB MetLife Guaranteed Future Plan",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": "Endowment",
+   "sub_category": "Guaranteed additions plan with endowment and income options",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Savings",
+    "Child"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Endowment",
+     "summary": "Lump sum at maturity: sum assured plus accrued guaranteed and wealth additions"
+    },
+    {
+     "name": "Income",
+     "summary": "Guaranteed income during an income payout period of up to 20 years"
+    },
+    {
+     "name": "Income + Lumpsum",
+     "summary": "Guaranteed income plus wealth-additions lump sum at maturity"
+    },
+    {
+     "name": "Income + Boosters",
+     "summary": "Guaranteed income plus booster additions at set intervals"
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 0.08,
+    "entry_age_max_years": 60,
+    "maturity_age_max_years": 92,
+    "policy_term_min_years": 10,
+    "policy_term_max_years": 32,
+    "whole_life": false,
+    "ppt_options": [
+     "Single",
+     "2",
+     "3",
+     "4",
+     "5",
+     "7-15"
+    ],
+    "premium_modes": [
+     "Single",
+     "Annual",
+     "Half-yearly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": 11287,
+    "min_single_premium_inr": 200000,
+    "max_premium_text": "Rs 1,00,00,00,000 subject to underwriting policy",
+    "min_sum_assured_inr": 112870,
+    "max_sum_assured_text": "As per Board Approved Underwriting Policy; POS policies capped at Rs 25 lakh without medicals",
+    "notes": "Entry age 0 (30 days) only for terms of 18 years or more; higher minimum entry ages for shorter terms. Max entry age varies by PPT/channel (55 for POSP). Min premium Rs 1,00,000 for PPT 2-4, Rs 11,287 for PPT 5 and 7-15; min SA varies by PPT. Maturity age 80 single pay, 92 limited pay. Payouts can be deferred 1-2 years."
+   },
+   "benefits": {
+    "death": "Highest of basic sum assured, a multiple of premium (1.25x single; 7x/5x for PPT 2-4; 10x other limited pay), or 105% of premiums paid.",
+    "maturity": "Option 1: sum assured plus accrued guaranteed and wealth additions; Option 3: accrued wealth additions; none for Options 2 and 4.",
+    "survival_income": "Options 2-4: annualised premium plus accrued guaranteed additions paid as guaranteed income for up to 20 years; Option 4 adds booster additions.",
+    "guaranteed": true,
+    "return_of_premium": false,
+    "loan": true,
+    "partial_withdrawal": null,
+    "other": "Loan up to 80% of surrender value; income payouts deferrable by 1 or 2 years."
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": {
+     "payout_type": "Lump sum + Income",
+     "income_duration": "Up to 20 years",
+     "bonus_type": "None",
+     "deferment_option": "Income can be deferred 1 or 2 years"
+    },
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Four options: lump sum endowment, income, income plus lumpsum, income plus boosters",
+    "Guaranteed additions plus wealth additions build the benefit",
+    "Premium payment terms from 2 years to 15 years, or single pay",
+    "Loan available up to 80% of surrender value",
+    "Combined with Smart Platinum Pro in the 'Capital Guarantee Pro' solution"
+   ],
+   "riders_available": [
+    "Accidental Death Benefit Rider Plus",
+    "Serious Illness Rider",
+    "Goal Protector Waiver of Premium Rider"
+   ],
+   "online_purchase": null,
+   "channels": [
+    "POSP"
+   ],
+   "tax_benefits": null,
+   "description": "A guaranteed savings plan offering lump sum or long-duration guaranteed income for goals like child education and retirement.",
+   "urls": {
+    "product_page": "https://www.pnbmetlife.com/insurance-plans/long-term-savings/pnb-metlife-guaranteed-future-plan.html",
+    "brochure": "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/product/Download_Brochure/MGFP-Brochure.pdf"
+   },
+   "sources": [
+    "https://www.pnbmetlife.com/insurance-plans/long-term-savings/pnb-metlife-guaranteed-future-plan.html",
+    "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/kmp/Product-performance-report.pdf"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-11-16"
   }
  ],
  "notes": ""

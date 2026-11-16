@@ -11197,7 +11197,7 @@
     "Savings"
    ],
    "standard_product": null,
-   "status": "Active",
+   "status": "Withdrawn",
    "launch_date": null,
    "withdrawn_date": null,
    "variants": [],
@@ -11245,10 +11245,11 @@
     "brochure": null
    },
    "sources": [
-    "https://www.shriramlife.com/all-plans"
+    "https://www.shriramlife.com/all-plans",
+    "https://www.shriramlife.com/withdrawn-plans"
    ],
    "completeness": "list-only",
-   "last_verified": "2026-10-28"
+   "last_verified": "2026-11-16"
   },
   {
    "uin": null,
@@ -13187,5 +13188,5 @@
    "last_verified": "2026-10-28"
   }
  ],
- "notes": "Inventory from /all-plans (26 individual, 11 rider, 7 group, 2 micro active) and /legal/withdrawn-plan (155 rows, 151 distinct UINs; many are superseded versions of products still on sale; no withdrawal dates; withdrawn segment/category are name-based guesses). Specs captured for 9 of 26 active individual products. Thin new-template pages (Flexi Shield, Sunishchit Laabh, Wealth Pro, New Shri Life) show no specs, and their -eligibility tab URLs plus CDN brochure PDFs are blocked by the fetch allowlist (pattern: /life-insurance/<slug>-eligibility, -features-and-benefits, -download-documents). Active UINs still missing for 17 individual products and for group/micro/most riders. Rider UINs found on plan pages: 128A012V01, 128A013V01, 128A014V02 (ULIP riders); 128B009V03, 128B016V02, 128B032V01. Accident Benefit Rider (128B001V03) and Family Income Benefit Rider (128B002V03) are cited on plan pages but also sit on the withdrawn list, so their current UINs are unconfirmed. Homepage, /download-forms and the public-disclosures page were not fetchable."
+ "notes": "Inventory from /all-plans (26 individual, 11 rider, 7 group, 2 micro active) and /legal/withdrawn-plan (155 rows, 151 distinct UINs; many are superseded versions of products still on sale; no withdrawal dates; withdrawn segment/category are name-based guesses). Specs captured for 9 of 26 active individual products. Thin new-template pages (Flexi Shield, Sunishchit Laabh, Wealth Pro, New Shri Life) show no specs, and their -eligibility tab URLs plus CDN brochure PDFs are blocked by the fetch allowlist (pattern: /life-insurance/<slug>-eligibility, -features-and-benefits, -download-documents). Active UINs still missing for 17 individual products and for group/micro/most riders. Rider UINs found on plan pages: 128A012V01, 128A013V01, 128A014V02 (ULIP riders); 128B009V03, 128B016V02, 128B032V01. Accident Benefit Rider (128B001V03) and Family Income Benefit Rider (128B002V03) are cited on plan pages but also sit on the withdrawn list, so their current UINs are unconfirmed. Homepage, /download-forms and the public-disclosures page were not fetchable. | 2026-11-16 deep check: withdrawn list (148 UINs) fully in catalogue; active all-plans page (no UINs) matches catalogue; Smart Choice Plan moved to Withdrawn (V01/V02 on withdrawn list, absent from all-plans)."
 }

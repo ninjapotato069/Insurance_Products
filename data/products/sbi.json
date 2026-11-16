@@ -1750,11 +1750,11 @@
    "uin": "111N176V01",
    "name": "SBI Life - Smart Money Back Saver",
    "segment": "Individual",
-   "category": null,
+   "category": "Savings - Par",
    "plan_structure": "Money Back",
    "sub_category": null,
    "linkage": "Non-Linked",
-   "participation": null,
+   "participation": "Par",
    "need_tags": [
     "Savings"
    ],
@@ -1764,53 +1764,72 @@
    "withdrawn_date": null,
    "variants": [],
    "eligibility": {
-    "entry_age_min_years": null,
-    "entry_age_max_years": null,
-    "maturity_age_max_years": null,
-    "policy_term_min_years": null,
-    "policy_term_max_years": null,
+    "entry_age_min_years": 0.08,
+    "entry_age_max_years": 45,
+    "maturity_age_max_years": 70,
+    "policy_term_min_years": 20,
+    "policy_term_max_years": 25,
     "whole_life": null,
-    "ppt_options": [],
-    "premium_modes": [],
-    "min_annual_premium_inr": null,
+    "ppt_options": [
+     "Regular"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": 18000,
     "min_single_premium_inr": null,
     "max_premium_text": null,
-    "min_sum_assured_inr": null,
-    "max_sum_assured_text": null,
+    "min_sum_assured_inr": 300000,
+    "max_sum_assured_text": "No limit, subject to underwriting",
     "notes": null
    },
    "benefits": {
-    "death": null,
-    "maturity": null,
-    "survival_income": null,
-    "guaranteed": null,
+    "death": "Higher of sum assured on death (max of SA or 11x annualised premium) plus vested and terminal bonuses, or 105% of premiums paid.",
+    "maturity": "45% of sum assured plus vested reversionary and terminal bonuses.",
+    "survival_income": "Rising money-back payouts of 10%, 15%, 25% and 35% of sum assured during the term.",
+    "guaranteed": false,
     "return_of_premium": null,
-    "loan": null,
+    "loan": true,
     "partial_withdrawal": null,
     "other": null
    },
    "category_details": {
     "term": null,
     "ulip": null,
-    "savings": null,
+    "savings": {
+     "payout_type": "Lump sum + Income",
+     "bonus_type": "Reversionary",
+     "deferment_option": false
+    },
     "annuity": null,
     "health": null
    },
-   "key_features": [],
-   "riders_available": [],
+   "key_features": [
+    "Periodic money-back payouts during the term",
+    "Reversionary and terminal bonuses",
+    "High sum assured rebates",
+    "Optional accident benefit rider",
+    "Loan up to 50% of surrender value"
+   ],
+   "riders_available": [
+    "SBI Life - Accident Benefit Rider"
+   ],
    "online_purchase": null,
    "channels": [],
    "tax_benefits": null,
-   "description": null,
+   "description": "Participating money-back plan with rising periodic payouts plus bonuses at maturity, for families planning staged expenses.",
    "urls": {
     "product_page": "https://www.sbilife.co.in/en/money-back-plans/smart-money-back-saver",
     "brochure": null
    },
    "sources": [
-    "https://www.sbilife.co.in/en/money-back-plan"
+    "https://www.sbilife.co.in/en/money-back-plans/smart-money-back-saver",
+    "https://www.holisticinvestment.in/sbi-life-smart-money-back-saver-plan-review-good-bad-insights-analysis/amp/"
    ],
-   "completeness": "list-only",
-   "last_verified": "2026-10-28"
+   "completeness": "full",
+   "last_verified": "2026-11-16"
   },
   {
    "uin": "111N174V02",
