@@ -1,12 +1,12 @@
 {
- "run_at": "2026-11-16T15:35+05:30",
+ "run_at": "2026-11-23T16:36+05:30",
  "source": "github-actions",
  "product_pages": {
-  "ok": 32,
+  "ok": 34,
   "failed": [
    {
     "company_id": "lic",
-    "url": "https://licindia.in/web/guest/withdrawn-plans",
+    "url": "https://licindia.in/web/guest/insurance-plan",
     "error": "ReadTimeout: HTTPSConnectionPool(host='licindia.in', port=443): Read timed out. (read timeout=40)"
    },
    {
@@ -77,14 +77,10 @@
    {
     "company_id": "indiapost",
     "url": "https://indiapost.gov.in/Financial/Pages/Content/pli.aspx",
-    "error": "HTTP 404"
+    "error": "ReadTimeout: HTTPSConnectionPool(host='indiapost.gov.in', port=443): Read timed out. (read timeout=40)"
    }
   ],
   "no_uin": [
-   {
-    "company_id": "lic",
-    "url": "https://licindia.in/web/guest/insurance-plan"
-   },
    {
     "company_id": "sbi",
     "url": "https://www.sbilife.co.in/en/life-insurance-plans"
@@ -132,24 +128,18 @@
    {
     "company_id": "creditaccess",
     "url": "https://www.policyx.com/life-insurance/credit-access-life-insurance/"
-   },
-   {
-    "company_id": "sahara",
-    "url": "https://www.policybazaar.com/insurance-companies/sahara-life-insurance"
    }
   ],
-  "flags_added": 1,
-  "unmatched": []
+  "flags_added": 12,
+  "unmatched": [
+   {
+    "company_id": "sahara",
+    "uin": "111N148V01",
+    "url": "https://www.policybazaar.com/insurance-companies/sahara-life-insurance"
+   }
+  ]
  },
- "apps_discovered": [
-  {
-   "company_id": "kotak",
-   "store": "ios",
-   "id": "1501295010",
-   "title": "KLI Boost 360",
-   "developer": "Kotak Mahindra Life Insurance Limited"
-  }
- ],
+ "apps_discovered": [],
  "ratings": {
   "android_ok": 18,
   "ios_ok": 18,

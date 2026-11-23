@@ -439,5 +439,146 @@
   "details": "Possible withdrawal or new version; needs confirmation.",
   "source": "https://www.hdfclife.com/group-insurance-plans",
   "status": "needs_review"
+ },
+ {
+  "id": "2026-11-23-axismax-new_version-104L084V21",
+  "date": "2026-11-23",
+  "company_id": "axismax",
+  "type": "new_version",
+  "uin": "104L084V21",
+  "title": "104L084V21 appeared on the official product list",
+  "details": "Spotted automatically; needs research to name and spec it.",
+  "source": "https://www.axismaxlife.com/all-insurance-plans",
+  "status": "needs_review"
+ },
+ {
+  "id": "2026-11-23-axismax-new_version-104N122V27",
+  "date": "2026-11-23",
+  "company_id": "axismax",
+  "type": "new_version",
+  "uin": "104N122V27",
+  "title": "104N122V27 appeared on the official product list",
+  "details": "Spotted automatically; needs research to name and spec it.",
+  "source": "https://www.axismaxlife.com/all-insurance-plans",
+  "status": "needs_review"
+ },
+ {
+  "id": "2026-11-23-axismax-new_version-104N160V02",
+  "date": "2026-11-23",
+  "company_id": "axismax",
+  "type": "new_version",
+  "uin": "104N160V02",
+  "title": "104N160V02 appeared on the official product list",
+  "details": "Spotted automatically; needs research to name and spec it.",
+  "source": "https://www.axismaxlife.com/all-insurance-plans",
+  "status": "needs_review"
+ },
+ {
+  "id": "2026-11-23-axismax-missing_uin-104L084V20",
+  "date": "2026-11-23",
+  "company_id": "axismax",
+  "type": "missing_uin",
+  "uin": "104L084V20",
+  "title": "Axis Max Life Shiksha Plus Super Plan is no longer on the product list",
+  "details": "Possible withdrawal or new version; needs confirmation.",
+  "source": "https://www.axismaxlife.com/all-insurance-plans",
+  "status": "needs_review"
+ },
+ {
+  "id": "2026-11-23-axismax-missing_uin-104N122V26",
+  "date": "2026-11-23",
+  "company_id": "axismax",
+  "type": "missing_uin",
+  "uin": "104N122V26",
+  "title": "Axis Max Life Smart Guaranteed Pension Plan is no longer on the product list",
+  "details": "Possible withdrawal or new version; needs confirmation.",
+  "source": "https://www.axismaxlife.com/all-insurance-plans",
+  "status": "needs_review"
+ },
+ {
+  "id": "2026-11-23-axismax-missing_uin-104N160V01",
+  "date": "2026-11-23",
+  "company_id": "axismax",
+  "type": "missing_uin",
+  "uin": "104N160V01",
+  "title": "Axis Max Life Smart Retirement Income with Sustained Earnings Plan is no longer on the product list",
+  "details": "Possible withdrawal or new version; needs confirmation.",
+  "source": "https://www.axismaxlife.com/all-insurance-plans",
+  "status": "needs_review"
+ },
+ {
+  "id": "2026-11-23-bajaj-new_version-116N188V10",
+  "date": "2026-11-23",
+  "company_id": "bajaj",
+  "type": "new_version",
+  "uin": "116N188V10",
+  "title": "116N188V10 appeared on the official product list",
+  "details": "Spotted automatically; needs research to name and spec it.",
+  "source": "https://www.bajajlifeinsurance.com/on-sale-plans.html",
+  "status": "needs_review"
+ },
+ {
+  "id": "2026-11-23-bajaj-missing_uin-116N188V09",
+  "date": "2026-11-23",
+  "company_id": "bajaj",
+  "type": "missing_uin",
+  "uin": "116N188V09",
+  "title": "Bajaj Life Assured Wealth Goal Platinum is no longer on the product list",
+  "details": "Possible withdrawal or new version; needs confirmation.",
+  "source": "https://www.bajajlifeinsurance.com/on-sale-plans.html",
+  "status": "needs_review"
+ },
+ {
+  "id": "2026-11-23-tataaia-new_uin-110N134V05",
+  "date": "2026-11-23",
+  "company_id": "tataaia",
+  "type": "new_uin",
+  "uin": "110N134V05",
+  "title": "110N134V05 appeared on the official product list",
+  "details": "Spotted automatically; needs research to name and spec it.",
+  "source": "https://www.tataaia.com/active-and-withdrawn-product-status.html",
+  "status": "needs_review"
+ },
+ {
+  "id": "2026-11-23-tataaia-new_version-110N171V17",
+  "date": "2026-11-23",
+  "company_id": "tataaia",
+  "type": "new_version",
+  "uin": "110N171V17",
+  "title": "110N171V17 appeared on the official product list",
+  "details": "Spotted automatically; needs research to name and spec it.",
+  "source": "https://www.tataaia.com/active-and-withdrawn-product-status.html",
+  "status": "needs_review"
+ },
+ {
+  "id": "2026-11-23-tataaia-new_version-110N176V14",
+  "date": "2026-11-23",
+  "company_id": "tataaia",
+  "type": "new_version",
+  "uin": "110N176V14",
+  "title": "110N176V14 appeared on the official product list",
+  "details": "Spotted automatically; needs research to name and spec it.",
+  "source": "https://www.tataaia.com/active-and-withdrawn-product-status.html",
+  "status": "needs_review"
+ },
+ {
+  "id": "2026-11-23-bandhan-new_uin-138L099V01",
+  "date": "2026-11-23",
+  "company_id": "bandhan",
+  "type": "new_uin",
+  "uin": "138L099V01",
+  "title": "138L099V01 appeared on the official product list",
+  "details": "Spotted automatically; needs research to name and spec it.",
+  "source": "https://www.bandhanlife.com/find-your-plan",
+  "status": "needs_review"
+ },
+ {
+  "id": "2026-11-23-pramerica-rating-android",
+  "date": "2026-11-23",
+  "company_id": "pramerica",
+  "type": "rating_change",
+  "title": "Android app rating 3.8 → 4.29",
+  "source": "https://play.google.com/store/apps/details?id=com.pramericasuperapp",
+  "status": "done"
  }
 ]
