@@ -1,0 +1,61 @@
+name: Fetch sources (research helper)
+
+# Downloads public source files for research sessions that have no direct web access.
+# Files land on the `raw-sources` branch under <tag>/, never on main.
+on:
+  workflow_dispatch:
+    inputs:
+      urls:
+        description: "URLs to download, separated by spaces or new lines"
+        required: true
+      tag:
+        description: "Folder name on the raw-sources branch"
+        required: false
+        default: "misc"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-sources
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+      - name: Download
+        env:
+          URLS: ${{ inputs.urls }}
+          TAG: ${{ inputs.tag }}
+        run: python3 scripts/fetch_sources.py
+      - name: Commit to raw-sources branch
+        run: |
+          set -e
+          TAG_DIR="$(cat _raw/.last_tag)"
+          mkdir -p "$RUNNER_TEMP/raw"
+          cp -r "_raw/$TAG_DIR" "$RUNNER_TEMP/raw/"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          if git ls-remote --exit-code --heads origin raw-sources >/dev/null 2>&1; then
+            git fetch --depth 1 origin raw-sources
+            git checkout -f -B raw-sources FETCH_HEAD
+          else
+            git checkout -f --orphan raw-sources
+            git rm -rfq . || true
+          fi
+          git clean -fdxq
+          rm -rf "./$TAG_DIR"
+          cp -r "$RUNNER_TEMP/raw/$TAG_DIR" "./$TAG_DIR"
+          git add -A
+          git commit -qm "Fetched sources: $TAG_DIR" || echo "nothing new"
+          git push origin raw-sources
