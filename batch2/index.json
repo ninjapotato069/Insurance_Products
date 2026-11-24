@@ -1,0 +1,4348 @@
+[
+ {
+  "n": 1,
+  "url": "https://irdai.gov.in/documents/37343/366637/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B7%E0%A4%BF%E0%A4%95+%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A5%8B%E0%A4%B0%E0%A5%8D%E0%A4%9F+_+IRDAI+Annual+Report+2024-25.pdf/06f02832-66a3-6308-a16f-f46a6640fc93?version=2.0&t=1767598639163&download=true",
+  "status": 200,
+  "final_url": "https://irdai.gov.in/documents/37343/366637/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B7%E0%A4%BF%E0%A4%95+%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A5%8B%E0%A4%B0%E0%A5%8D%E0%A4%9F+_+IRDAI+Annual+Report+2024-25.pdf/06f02832-66a3-6308-a16f-f46a6640fc93?version=2.0&t=1767598639163&download=true",
+  "content_type": "application/pdf",
+  "file": "01_06f02832-66a3-6308-a16f-f46a6640fc93.pdf",
+  "bytes": 12744707,
+  "sha256": "301eaa018543cca2384a502125e3bdf03c92b78b640e853b314c97b07df13ed7"
+ },
+ {
+  "n": 2,
+  "url": "https://policyholder.gov.in/documents/37343/365644/31.10.2026+%E0%A4%A4%E0%A4%95+%E0%A4%9C%E0%A5%80%E0%A4%B5%E0%A4%A8+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A5%E0%A4%AE+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%BF%E0%A4%AF%E0%A4%AE+_+First+year+premium+of+Life+Insurers+as+on+31.10.2026.xlsx/1865f317-2f99-6545-f029-c7cfe6f48125?version=1.0&t=1794916861420&download=true",
+  "status": 200,
+  "final_url": "https://policyholder.gov.in/documents/37343/365644/31.10.2026+%E0%A4%A4%E0%A4%95+%E0%A4%9C%E0%A5%80%E0%A4%B5%E0%A4%A8+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A5%E0%A4%AE+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%BF%E0%A4%AF%E0%A4%AE+_+First+year+premium+of+Life+Insurers+as+on+31.10.2026.xlsx/1865f317-2f99-6545-f029-c7cfe6f48125?version=1.0&t=1794916861420&download=true",
+  "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  "file": "02_1865f317-2f99-6545-f029-c7cfe6f48125.xlsx",
+  "bytes": 140757,
+  "sha256": "2f0e04ebcf59211ee8da1bca132beed7525f0b2c63e788d2c99278fc6f222124"
+ },
+ {
+  "n": 3,
+  "url": "https://www.lifeinscouncil.org/industry%20information/nbp.aspx",
+  "status": 200,
+  "final_url": "https://www.lifeinscouncil.org/industry%20information/nbp.aspx",
+  "content_type": "text/html; charset=utf-8",
+  "file": "03_nbp.html",
+  "bytes": 22356,
+  "sha256": "e32b580601c23ebc52df60fdfb653a25f27e7c0fad15facf3d931314a4d73839",
+  "title": "Life Insurance Council",
+  "links": [
+   [
+    "",
+    "https://www.lifeinscouncil.org/code/HomePage"
+   ],
+   [
+    "Home",
+    "https://www.lifeinscouncil.org/code/HomePage"
+   ],
+   [
+    "Our Mission",
+    "https://www.lifeinscouncil.org/About/OurMission"
+   ],
+   [
+    "Functions",
+    "https://www.lifeinscouncil.org/About/Functions"
+   ],
+   [
+    "Industry Overview",
+    "https://www.lifeinscouncil.org/About/IndustryOverview"
+   ],
+   [
+    "Holiday 2026",
+    "https://www.lifeinscouncil.org/About/Holidays"
+   ],
+   [
+    "What is Insurance?",
+    "https://www.lifeinscouncil.org/consumers/WhatIsInsurance"
+   ],
+   [
+    "Advantages of Insurance",
+    "https://www.lifeinscouncil.org/consumers/AdvantagesOfInsurance"
+   ],
+   [
+    "Benefits of ULIP",
+    "https://www.lifeinscouncil.org/consumers/BenefitsOfUlips"
+   ],
+   [
+    "How to plan?",
+    "https://www.lifeinscouncil.org/consumers/HowToPlan"
+   ],
+   [
+    "How to buy?",
+    "https://www.lifeinscouncil.org/consumers/HowToBuy"
+   ],
+   [
+    "Info for exist policy holder",
+    "https://www.lifeinscouncil.org/consumers/InformationForExistingPolicyHolders"
+   ],
+   [
+    "Benefits",
+    "https://www.lifeinscouncil.org/consumers/Benefits"
+   ],
+   [
+    "Investing in insurance Companies",
+    "https://www.lifeinscouncil.org/consumers/InvestingInInsuranceCompanies"
+   ],
+   [
+    "List of companies",
+    "https://www.lifeinscouncil.org/consumers/ListOfCompanies"
+   ],
+   [
+    "Complaint login Process and Escalation Matrix",
+    "https://www.lifeinscouncil.org/consumers/ComplaintLoginProcessAndEscalationMatrix"
+   ],
+   [
+    "Free look",
+    "https://www.lifeinscouncil.org/consumers/FreeLook"
+   ],
+   [
+    "Claims Process",
+    "https://www.lifeinscouncil.org/consumers/ClaimsProcess"
+   ],
+   [
+    "Grievance Redressal Process",
+    "https://www.lifeinscouncil.org/consumers/GrievanceRedressalProcess"
+   ],
+   [
+    "Contact Information",
+    "https://www.lifeinscouncil.org/consumers/ContactInformation"
+   ],
+   [
+    "Glossary",
+    "https://www.lifeinscouncil.org/consumers/Glossary"
+   ],
+   [
+    "New Business Performance",
+    "https://www.lifeinscouncil.org/industry information/nbp.aspx"
+   ],
+   [
+    "Individual Agents Data",
+    "https://www.lifeinscouncil.org/industry information/individual_agents_data.aspx"
+   ],
+   [
+    "Product of life Insurers",
+    "https://www.lifeinscouncil.org/industry information/pro_of_life_ins.aspx"
+   ],
+   [
+    "MIS Report",
+    "https://www.lifeinscouncil.org/industry information/mis.aspx"
+   ],
+   [
+    "List of Fund Navs",
+    "https://www.lifeinscouncil.org/industry information/list_of_fund_NAVs.aspx"
+   ],
+   [
+    "Regulations",
+    "https://www.lifeinscouncil.org/industry information/regulations.aspx"
+   ],
+   [
+    "Public Disclosures",
+    "https://www.lifeinscouncil.org/industry information/Public_Disclosures.aspx"
+   ],
+   [
+    "Insurance as Career",
+    "https://www.lifeinscouncil.org/industry information/courses.aspx"
+   ],
+   [
+    "Courses",
+    "https://www.lifeinscouncil.org/industry information/courses.aspx"
+   ],
+   [
+    "Courses in india",
+    "https://www.lifeinscouncil.org/industry information/courses_in_india.aspx"
+   ],
+   [
+    "Institutes",
+    "https://www.lifeinscouncil.org/industry information/Institutes.aspx"
+   ],
+   [
+    "More Info",
+    "https://www.lifeinscouncil.org/industry information/More_Info.aspx"
+   ],
+   [
+    "Careers",
+    "https://www.lifeinscouncil.org/industry information/careers.aspx"
+   ],
+   [
+    "Sabsepehlelifeinsurance.com",
+    "http://sabsepehlelifeinsurance.com/"
+   ],
+   [
+    "Tripura",
+    "https://www.lifeinscouncil.org/iac/Tripura"
+   ],
+   [
+    "Members of Executive Committee",
+    "https://www.lifeinscouncil.org/election/MembersofExecutiveCommittee"
+   ],
+   [
+    "List of Council Members",
+    "https://www.lifeinscouncil.org/election/ListOfCouncilMembers"
+   ],
+   [
+    "Life Insurance",
+    "https://www.lifeinscouncil.org/faqs/LifeInsurance"
+   ],
+   [
+    "ULIPS",
+    "https://www.lifeinscouncil.org/faqs/ULIPS"
+   ],
+   [
+    "New ULIPS Guidelines",
+    "https://www.lifeinscouncil.org/faqs/NewULIPGuidelines"
+   ],
+   [
+    "Press Kit",
+    "https://www.lifeinscouncil.org/media_center/Profile_Secretary_General_1.pdf"
+   ],
+   [
+    "Latest News",
+    "https://www.lifeinscouncil.org/media_center/LatestNews"
+   ],
+   [
+    "Archives",
+    "https://www.lifeinscouncil.org/media_center/Archives"
+   ],
+   [
+    "Events",
+    "https://www.lifeinscouncil.org/media_center/Pictures"
+   ],
+   [
+    "Contact Us",
+    "https://www.lifeinscouncil.org/contact/ContactUs"
+   ],
+   [
+    "AI 171 Claim Settlement Data",
+    "https://www.lifeinscouncil.org/UPLOADING FILES/DOWNLOAD/AI_171/IRDAI Air India Flight 171 Crash Calim report format - 28.08.2026.pdf"
+   ],
+   [
+    "New Business Performance",
+    "https://www.lifeinscouncil.org/industry information/NewBusinessPerformance"
+   ],
+   [
+    "Individual Agents Data",
+    "https://www.lifeinscouncil.org/industry information/IndividualAgentsData"
+   ],
+   [
+    "Product of life Insurers",
+    "https://www.lifeinscouncil.org/industry information/ProductsOfLifeInsurers"
+   ],
+   [
+    "MIS Report",
+    "https://www.lifeinscouncil.org/industry information/MISReport"
+   ],
+   [
+    "List of Fund Navs",
+    "https://www.lifeinscouncil.org/industry information/ListOfFundNAVs"
+   ],
+   [
+    "Regulations",
+    "https://www.lifeinscouncil.org/industry information/Regulations"
+   ],
+   [
+    "Public Disclosures",
+    "https://www.lifeinscouncil.org/industry information/PublicDisclosures"
+   ],
+   [
+    "Insurance as Career",
+    "https://www.lifeinscouncil.org/industry%20information/nbp.aspx#collapse"
+   ],
+   [
+    "Courses",
+    "https://www.lifeinscouncil.org/industry information/CoursesInLifeInsuranceInIndia"
+   ],
+   [
+    "Courses in india",
+    "https://www.lifeinscouncil.org/industry information/InsuranceCoursesAvailableInIndia"
+   ],
+   [
+    "Institutes",
+    "https://www.lifeinscouncil.org/industry information/InstitutesOfferingInsuranceCoursesInIndia"
+   ],
+   [
+    "Careers",
+    "https://www.lifeinscouncil.org/industry information/LifeInsuranceAsCareer"
+   ],
+   [
+    "View Archive Data",
+    "https://www.lifeinscouncil.org/industry information/nbp_arch.aspx"
+   ],
+   [
+    "Creative Webo",
+    "https://creativewebo.com/"
+   ],
+   [
+    "Disclaimer",
+    "https://www.lifeinscouncil.org/code/Disclaimer"
+   ],
+   [
+    "Contact Us",
+    "https://www.lifeinscouncil.org/contact/ContactUs"
+   ],
+   [
+    "Related Links",
+    "https://www.lifeinscouncil.org/code/RelatedLink"
+   ],
+   [
+    "Site Map",
+    "https://www.lifeinscouncil.org/code/SiteMap"
+   ],
+   [
+    "Information for policy holders",
+    "https://www.lifeinscouncil.org/code/InformationForPolicyHolders"
+   ]
+  ]
+ },
+ {
+  "n": 4,
+  "url": "https://www.lifeinscouncil.org/industry%20information/individual_agents_data.aspx",
+  "status": 200,
+  "final_url": "https://www.lifeinscouncil.org/industry%20information/individual_agents_data.aspx",
+  "content_type": "text/html; charset=utf-8",
+  "file": "04_individual_agents_data.html",
+  "bytes": 21306,
+  "sha256": "fb424e7418eaae2fd5728ab78f3a59c7f78b3e6baf7623bc75091e8a2be6ff95",
+  "title": "Life Insurance Council",
+  "links": [
+   [
+    "",
+    "https://www.lifeinscouncil.org/code/HomePage"
+   ],
+   [
+    "Home",
+    "https://www.lifeinscouncil.org/code/HomePage"
+   ],
+   [
+    "Our Mission",
+    "https://www.lifeinscouncil.org/About/OurMission"
+   ],
+   [
+    "Functions",
+    "https://www.lifeinscouncil.org/About/Functions"
+   ],
+   [
+    "Industry Overview",
+    "https://www.lifeinscouncil.org/About/IndustryOverview"
+   ],
+   [
+    "Holiday 2026",
+    "https://www.lifeinscouncil.org/About/Holidays"
+   ],
+   [
+    "What is Insurance?",
+    "https://www.lifeinscouncil.org/consumers/WhatIsInsurance"
+   ],
+   [
+    "Advantages of Insurance",
+    "https://www.lifeinscouncil.org/consumers/AdvantagesOfInsurance"
+   ],
+   [
+    "Benefits of ULIP",
+    "https://www.lifeinscouncil.org/consumers/BenefitsOfUlips"
+   ],
+   [
+    "How to plan?",
+    "https://www.lifeinscouncil.org/consumers/HowToPlan"
+   ],
+   [
+    "How to buy?",
+    "https://www.lifeinscouncil.org/consumers/HowToBuy"
+   ],
+   [
+    "Info for exist policy holder",
+    "https://www.lifeinscouncil.org/consumers/InformationForExistingPolicyHolders"
+   ],
+   [
+    "Benefits",
+    "https://www.lifeinscouncil.org/consumers/Benefits"
+   ],
+   [
+    "Investing in insurance Companies",
+    "https://www.lifeinscouncil.org/consumers/InvestingInInsuranceCompanies"
+   ],
+   [
+    "List of companies",
+    "https://www.lifeinscouncil.org/consumers/ListOfCompanies"
+   ],
+   [
+    "Complaint login Process and Escalation Matrix",
+    "https://www.lifeinscouncil.org/consumers/ComplaintLoginProcessAndEscalationMatrix"
+   ],
+   [
+    "Free look",
+    "https://www.lifeinscouncil.org/consumers/FreeLook"
+   ],
+   [
+    "Claims Process",
+    "https://www.lifeinscouncil.org/consumers/ClaimsProcess"
+   ],
+   [
+    "Grievance Redressal Process",
+    "https://www.lifeinscouncil.org/consumers/GrievanceRedressalProcess"
+   ],
+   [
+    "Contact Information",
+    "https://www.lifeinscouncil.org/consumers/ContactInformation"
+   ],
+   [
+    "Glossary",
+    "https://www.lifeinscouncil.org/consumers/Glossary"
+   ],
+   [
+    "New Business Performance",
+    "https://www.lifeinscouncil.org/industry information/nbp.aspx"
+   ],
+   [
+    "Individual Agents Data",
+    "https://www.lifeinscouncil.org/industry information/individual_agents_data.aspx"
+   ],
+   [
+    "Product of life Insurers",
+    "https://www.lifeinscouncil.org/industry information/pro_of_life_ins.aspx"
+   ],
+   [
+    "MIS Report",
+    "https://www.lifeinscouncil.org/industry information/mis.aspx"
+   ],
+   [
+    "List of Fund Navs",
+    "https://www.lifeinscouncil.org/industry information/list_of_fund_NAVs.aspx"
+   ],
+   [
+    "Regulations",
+    "https://www.lifeinscouncil.org/industry information/regulations.aspx"
+   ],
+   [
+    "Public Disclosures",
+    "https://www.lifeinscouncil.org/industry information/Public_Disclosures.aspx"
+   ],
+   [
+    "Insurance as Career",
+    "https://www.lifeinscouncil.org/industry information/courses.aspx"
+   ],
+   [
+    "Courses",
+    "https://www.lifeinscouncil.org/industry information/courses.aspx"
+   ],
+   [
+    "Courses in india",
+    "https://www.lifeinscouncil.org/industry information/courses_in_india.aspx"
+   ],
+   [
+    "Institutes",
+    "https://www.lifeinscouncil.org/industry information/Institutes.aspx"
+   ],
+   [
+    "More Info",
+    "https://www.lifeinscouncil.org/industry information/More_Info.aspx"
+   ],
+   [
+    "Careers",
+    "https://www.lifeinscouncil.org/industry information/careers.aspx"
+   ],
+   [
+    "Sabsepehlelifeinsurance.com",
+    "http://sabsepehlelifeinsurance.com/"
+   ],
+   [
+    "Tripura",
+    "https://www.lifeinscouncil.org/iac/Tripura"
+   ],
+   [
+    "Members of Executive Committee",
+    "https://www.lifeinscouncil.org/election/MembersofExecutiveCommittee"
+   ],
+   [
+    "List of Council Members",
+    "https://www.lifeinscouncil.org/election/ListOfCouncilMembers"
+   ],
+   [
+    "Life Insurance",
+    "https://www.lifeinscouncil.org/faqs/LifeInsurance"
+   ],
+   [
+    "ULIPS",
+    "https://www.lifeinscouncil.org/faqs/ULIPS"
+   ],
+   [
+    "New ULIPS Guidelines",
+    "https://www.lifeinscouncil.org/faqs/NewULIPGuidelines"
+   ],
+   [
+    "Press Kit",
+    "https://www.lifeinscouncil.org/media_center/Profile_Secretary_General_1.pdf"
+   ],
+   [
+    "Latest News",
+    "https://www.lifeinscouncil.org/media_center/LatestNews"
+   ],
+   [
+    "Archives",
+    "https://www.lifeinscouncil.org/media_center/Archives"
+   ],
+   [
+    "Events",
+    "https://www.lifeinscouncil.org/media_center/Pictures"
+   ],
+   [
+    "Contact Us",
+    "https://www.lifeinscouncil.org/contact/ContactUs"
+   ],
+   [
+    "AI 171 Claim Settlement Data",
+    "https://www.lifeinscouncil.org/UPLOADING FILES/DOWNLOAD/AI_171/IRDAI Air India Flight 171 Crash Calim report format - 28.08.2026.pdf"
+   ],
+   [
+    "New Business Performance",
+    "https://www.lifeinscouncil.org/industry information/NewBusinessPerformance"
+   ],
+   [
+    "Individual Agents Data",
+    "https://www.lifeinscouncil.org/industry information/IndividualAgentsData"
+   ],
+   [
+    "Product of life Insurers",
+    "https://www.lifeinscouncil.org/industry information/ProductsOfLifeInsurers"
+   ],
+   [
+    "MIS Report",
+    "https://www.lifeinscouncil.org/industry information/MISReport"
+   ],
+   [
+    "List of Fund Navs",
+    "https://www.lifeinscouncil.org/industry information/ListOfFundNAVs"
+   ],
+   [
+    "Regulations",
+    "https://www.lifeinscouncil.org/industry information/Regulations"
+   ],
+   [
+    "Public Disclosures",
+    "https://www.lifeinscouncil.org/industry information/PublicDisclosures"
+   ],
+   [
+    "Insurance as Career",
+    "https://www.lifeinscouncil.org/industry%20information/individual_agents_data.aspx#collapse"
+   ],
+   [
+    "Courses",
+    "https://www.lifeinscouncil.org/industry information/CoursesInLifeInsuranceInIndia"
+   ],
+   [
+    "Courses in india",
+    "https://www.lifeinscouncil.org/industry information/InsuranceCoursesAvailableInIndia"
+   ],
+   [
+    "Institutes",
+    "https://www.lifeinscouncil.org/industry information/InstitutesOfferingInsuranceCoursesInIndia"
+   ],
+   [
+    "Careers",
+    "https://www.lifeinscouncil.org/industry information/LifeInsuranceAsCareer"
+   ],
+   [
+    "View Archive Data",
+    "https://www.lifeinscouncil.org/industry information/individual_agents_data_arch.aspx"
+   ],
+   [
+    "Creative Webo",
+    "https://creativewebo.com/"
+   ],
+   [
+    "Disclaimer",
+    "https://www.lifeinscouncil.org/code/Disclaimer"
+   ],
+   [
+    "Contact Us",
+    "https://www.lifeinscouncil.org/contact/ContactUs"
+   ],
+   [
+    "Related Links",
+    "https://www.lifeinscouncil.org/code/RelatedLink"
+   ],
+   [
+    "Site Map",
+    "https://www.lifeinscouncil.org/code/SiteMap"
+   ],
+   [
+    "Information for policy holders",
+    "https://www.lifeinscouncil.org/code/InformationForPolicyHolders"
+   ]
+  ]
+ },
+ {
+  "n": 5,
+  "url": "https://www.lifeinscouncil.org/industry%20information/mis.aspx",
+  "status": 200,
+  "final_url": "https://www.lifeinscouncil.org/industry%20information/mis.aspx",
+  "content_type": "text/html; charset=utf-8",
+  "file": "05_mis.html",
+  "bytes": 20360,
+  "sha256": "617ba52dedd2fcac50dbecf3e4f79365225a80e7d10344b6b7ad95b46d302d34",
+  "title": "Life Insurance Council",
+  "links": [
+   [
+    "",
+    "https://www.lifeinscouncil.org/code/HomePage"
+   ],
+   [
+    "Home",
+    "https://www.lifeinscouncil.org/code/HomePage"
+   ],
+   [
+    "Our Mission",
+    "https://www.lifeinscouncil.org/About/OurMission"
+   ],
+   [
+    "Functions",
+    "https://www.lifeinscouncil.org/About/Functions"
+   ],
+   [
+    "Industry Overview",
+    "https://www.lifeinscouncil.org/About/IndustryOverview"
+   ],
+   [
+    "Holiday 2026",
+    "https://www.lifeinscouncil.org/About/Holidays"
+   ],
+   [
+    "What is Insurance?",
+    "https://www.lifeinscouncil.org/consumers/WhatIsInsurance"
+   ],
+   [
+    "Advantages of Insurance",
+    "https://www.lifeinscouncil.org/consumers/AdvantagesOfInsurance"
+   ],
+   [
+    "Benefits of ULIP",
+    "https://www.lifeinscouncil.org/consumers/BenefitsOfUlips"
+   ],
+   [
+    "How to plan?",
+    "https://www.lifeinscouncil.org/consumers/HowToPlan"
+   ],
+   [
+    "How to buy?",
+    "https://www.lifeinscouncil.org/consumers/HowToBuy"
+   ],
+   [
+    "Info for exist policy holder",
+    "https://www.lifeinscouncil.org/consumers/InformationForExistingPolicyHolders"
+   ],
+   [
+    "Benefits",
+    "https://www.lifeinscouncil.org/consumers/Benefits"
+   ],
+   [
+    "Investing in insurance Companies",
+    "https://www.lifeinscouncil.org/consumers/InvestingInInsuranceCompanies"
+   ],
+   [
+    "List of companies",
+    "https://www.lifeinscouncil.org/consumers/ListOfCompanies"
+   ],
+   [
+    "Complaint login Process and Escalation Matrix",
+    "https://www.lifeinscouncil.org/consumers/ComplaintLoginProcessAndEscalationMatrix"
+   ],
+   [
+    "Free look",
+    "https://www.lifeinscouncil.org/consumers/FreeLook"
+   ],
+   [
+    "Claims Process",
+    "https://www.lifeinscouncil.org/consumers/ClaimsProcess"
+   ],
+   [
+    "Grievance Redressal Process",
+    "https://www.lifeinscouncil.org/consumers/GrievanceRedressalProcess"
+   ],
+   [
+    "Contact Information",
+    "https://www.lifeinscouncil.org/consumers/ContactInformation"
+   ],
+   [
+    "Glossary",
+    "https://www.lifeinscouncil.org/consumers/Glossary"
+   ],
+   [
+    "New Business Performance",
+    "https://www.lifeinscouncil.org/industry information/nbp.aspx"
+   ],
+   [
+    "Individual Agents Data",
+    "https://www.lifeinscouncil.org/industry information/individual_agents_data.aspx"
+   ],
+   [
+    "Product of life Insurers",
+    "https://www.lifeinscouncil.org/industry information/pro_of_life_ins.aspx"
+   ],
+   [
+    "MIS Report",
+    "https://www.lifeinscouncil.org/industry information/mis.aspx"
+   ],
+   [
+    "List of Fund Navs",
+    "https://www.lifeinscouncil.org/industry information/list_of_fund_NAVs.aspx"
+   ],
+   [
+    "Regulations",
+    "https://www.lifeinscouncil.org/industry information/regulations.aspx"
+   ],
+   [
+    "Public Disclosures",
+    "https://www.lifeinscouncil.org/industry information/Public_Disclosures.aspx"
+   ],
+   [
+    "Insurance as Career",
+    "https://www.lifeinscouncil.org/industry information/courses.aspx"
+   ],
+   [
+    "Courses",
+    "https://www.lifeinscouncil.org/industry information/courses.aspx"
+   ],
+   [
+    "Courses in india",
+    "https://www.lifeinscouncil.org/industry information/courses_in_india.aspx"
+   ],
+   [
+    "Institutes",
+    "https://www.lifeinscouncil.org/industry information/Institutes.aspx"
+   ],
+   [
+    "More Info",
+    "https://www.lifeinscouncil.org/industry information/More_Info.aspx"
+   ],
+   [
+    "Careers",
+    "https://www.lifeinscouncil.org/industry information/careers.aspx"
+   ],
+   [
+    "Sabsepehlelifeinsurance.com",
+    "http://sabsepehlelifeinsurance.com/"
+   ],
+   [
+    "Tripura",
+    "https://www.lifeinscouncil.org/iac/Tripura"
+   ],
+   [
+    "Members of Executive Committee",
+    "https://www.lifeinscouncil.org/election/MembersofExecutiveCommittee"
+   ],
+   [
+    "List of Council Members",
+    "https://www.lifeinscouncil.org/election/ListOfCouncilMembers"
+   ],
+   [
+    "Life Insurance",
+    "https://www.lifeinscouncil.org/faqs/LifeInsurance"
+   ],
+   [
+    "ULIPS",
+    "https://www.lifeinscouncil.org/faqs/ULIPS"
+   ],
+   [
+    "New ULIPS Guidelines",
+    "https://www.lifeinscouncil.org/faqs/NewULIPGuidelines"
+   ],
+   [
+    "Press Kit",
+    "https://www.lifeinscouncil.org/media_center/Profile_Secretary_General_1.pdf"
+   ],
+   [
+    "Latest News",
+    "https://www.lifeinscouncil.org/media_center/LatestNews"
+   ],
+   [
+    "Archives",
+    "https://www.lifeinscouncil.org/media_center/Archives"
+   ],
+   [
+    "Events",
+    "https://www.lifeinscouncil.org/media_center/Pictures"
+   ],
+   [
+    "Contact Us",
+    "https://www.lifeinscouncil.org/contact/ContactUs"
+   ],
+   [
+    "AI 171 Claim Settlement Data",
+    "https://www.lifeinscouncil.org/UPLOADING FILES/DOWNLOAD/AI_171/IRDAI Air India Flight 171 Crash Calim report format - 28.08.2026.pdf"
+   ],
+   [
+    "New Business Performance",
+    "https://www.lifeinscouncil.org/industry information/NewBusinessPerformance"
+   ],
+   [
+    "Individual Agents Data",
+    "https://www.lifeinscouncil.org/industry information/IndividualAgentsData"
+   ],
+   [
+    "Product of life Insurers",
+    "https://www.lifeinscouncil.org/industry information/ProductsOfLifeInsurers"
+   ],
+   [
+    "MIS Report",
+    "https://www.lifeinscouncil.org/industry information/MISReport"
+   ],
+   [
+    "List of Fund Navs",
+    "https://www.lifeinscouncil.org/industry information/ListOfFundNAVs"
+   ],
+   [
+    "Regulations",
+    "https://www.lifeinscouncil.org/industry information/Regulations"
+   ],
+   [
+    "Public Disclosures",
+    "https://www.lifeinscouncil.org/industry information/PublicDisclosures"
+   ],
+   [
+    "Insurance as Career",
+    "https://www.lifeinscouncil.org/industry%20information/mis.aspx#collapse"
+   ],
+   [
+    "Courses",
+    "https://www.lifeinscouncil.org/industry information/CoursesInLifeInsuranceInIndia"
+   ],
+   [
+    "Courses in india",
+    "https://www.lifeinscouncil.org/industry information/InsuranceCoursesAvailableInIndia"
+   ],
+   [
+    "Institutes",
+    "https://www.lifeinscouncil.org/industry information/InstitutesOfferingInsuranceCoursesInIndia"
+   ],
+   [
+    "Careers",
+    "https://www.lifeinscouncil.org/industry information/LifeInsuranceAsCareer"
+   ],
+   [
+    "View Archive Data",
+    "https://www.lifeinscouncil.org/industry information/mis_arch.aspx"
+   ],
+   [
+    "Creative Webo",
+    "https://creativewebo.com/"
+   ],
+   [
+    "Disclaimer",
+    "https://www.lifeinscouncil.org/code/Disclaimer"
+   ],
+   [
+    "Contact Us",
+    "https://www.lifeinscouncil.org/contact/ContactUs"
+   ],
+   [
+    "Related Links",
+    "https://www.lifeinscouncil.org/code/RelatedLink"
+   ],
+   [
+    "Site Map",
+    "https://www.lifeinscouncil.org/code/SiteMap"
+   ],
+   [
+    "Information for policy holders",
+    "https://www.lifeinscouncil.org/code/InformationForPolicyHolders"
+   ]
+  ]
+ },
+ {
+  "n": 6,
+  "url": "https://www.lifeinscouncil.org/industry%20information/Public_Disclosures.aspx",
+  "status": 200,
+  "final_url": "https://www.lifeinscouncil.org/industry%20information/Public_Disclosures.aspx",
+  "content_type": "text/html; charset=utf-8",
+  "file": "06_Public_Disclosures.html",
+  "bytes": 24049,
+  "sha256": "fe26a7340ea8ec85a626c2e5a446c13551a370deea44381df7dea84f23a767a6",
+  "title": "Life Insurance Council",
+  "links": [
+   [
+    "",
+    "https://www.lifeinscouncil.org/code/HomePage"
+   ],
+   [
+    "Home",
+    "https://www.lifeinscouncil.org/code/HomePage"
+   ],
+   [
+    "Our Mission",
+    "https://www.lifeinscouncil.org/About/OurMission"
+   ],
+   [
+    "Functions",
+    "https://www.lifeinscouncil.org/About/Functions"
+   ],
+   [
+    "Industry Overview",
+    "https://www.lifeinscouncil.org/About/IndustryOverview"
+   ],
+   [
+    "Holiday 2026",
+    "https://www.lifeinscouncil.org/About/Holidays"
+   ],
+   [
+    "What is Insurance?",
+    "https://www.lifeinscouncil.org/consumers/WhatIsInsurance"
+   ],
+   [
+    "Advantages of Insurance",
+    "https://www.lifeinscouncil.org/consumers/AdvantagesOfInsurance"
+   ],
+   [
+    "Benefits of ULIP",
+    "https://www.lifeinscouncil.org/consumers/BenefitsOfUlips"
+   ],
+   [
+    "How to plan?",
+    "https://www.lifeinscouncil.org/consumers/HowToPlan"
+   ],
+   [
+    "How to buy?",
+    "https://www.lifeinscouncil.org/consumers/HowToBuy"
+   ],
+   [
+    "Info for exist policy holder",
+    "https://www.lifeinscouncil.org/consumers/InformationForExistingPolicyHolders"
+   ],
+   [
+    "Benefits",
+    "https://www.lifeinscouncil.org/consumers/Benefits"
+   ],
+   [
+    "Investing in insurance Companies",
+    "https://www.lifeinscouncil.org/consumers/InvestingInInsuranceCompanies"
+   ],
+   [
+    "List of companies",
+    "https://www.lifeinscouncil.org/consumers/ListOfCompanies"
+   ],
+   [
+    "Complaint login Process and Escalation Matrix",
+    "https://www.lifeinscouncil.org/consumers/ComplaintLoginProcessAndEscalationMatrix"
+   ],
+   [
+    "Free look",
+    "https://www.lifeinscouncil.org/consumers/FreeLook"
+   ],
+   [
+    "Claims Process",
+    "https://www.lifeinscouncil.org/consumers/ClaimsProcess"
+   ],
+   [
+    "Grievance Redressal Process",
+    "https://www.lifeinscouncil.org/consumers/GrievanceRedressalProcess"
+   ],
+   [
+    "Contact Information",
+    "https://www.lifeinscouncil.org/consumers/ContactInformation"
+   ],
+   [
+    "Glossary",
+    "https://www.lifeinscouncil.org/consumers/Glossary"
+   ],
+   [
+    "New Business Performance",
+    "https://www.lifeinscouncil.org/industry information/nbp.aspx"
+   ],
+   [
+    "Individual Agents Data",
+    "https://www.lifeinscouncil.org/industry information/individual_agents_data.aspx"
+   ],
+   [
+    "Product of life Insurers",
+    "https://www.lifeinscouncil.org/industry information/pro_of_life_ins.aspx"
+   ],
+   [
+    "MIS Report",
+    "https://www.lifeinscouncil.org/industry information/mis.aspx"
+   ],
+   [
+    "List of Fund Navs",
+    "https://www.lifeinscouncil.org/industry information/list_of_fund_NAVs.aspx"
+   ],
+   [
+    "Regulations",
+    "https://www.lifeinscouncil.org/industry information/regulations.aspx"
+   ],
+   [
+    "Public Disclosures",
+    "https://www.lifeinscouncil.org/industry information/Public_Disclosures.aspx"
+   ],
+   [
+    "Insurance as Career",
+    "https://www.lifeinscouncil.org/industry information/courses.aspx"
+   ],
+   [
+    "Courses",
+    "https://www.lifeinscouncil.org/industry information/courses.aspx"
+   ],
+   [
+    "Courses in india",
+    "https://www.lifeinscouncil.org/industry information/courses_in_india.aspx"
+   ],
+   [
+    "Institutes",
+    "https://www.lifeinscouncil.org/industry information/Institutes.aspx"
+   ],
+   [
+    "More Info",
+    "https://www.lifeinscouncil.org/industry information/More_Info.aspx"
+   ],
+   [
+    "Careers",
+    "https://www.lifeinscouncil.org/industry information/careers.aspx"
+   ],
+   [
+    "Sabsepehlelifeinsurance.com",
+    "http://sabsepehlelifeinsurance.com/"
+   ],
+   [
+    "Tripura",
+    "https://www.lifeinscouncil.org/iac/Tripura"
+   ],
+   [
+    "Members of Executive Committee",
+    "https://www.lifeinscouncil.org/election/MembersofExecutiveCommittee"
+   ],
+   [
+    "List of Council Members",
+    "https://www.lifeinscouncil.org/election/ListOfCouncilMembers"
+   ],
+   [
+    "Life Insurance",
+    "https://www.lifeinscouncil.org/faqs/LifeInsurance"
+   ],
+   [
+    "ULIPS",
+    "https://www.lifeinscouncil.org/faqs/ULIPS"
+   ],
+   [
+    "New ULIPS Guidelines",
+    "https://www.lifeinscouncil.org/faqs/NewULIPGuidelines"
+   ],
+   [
+    "Press Kit",
+    "https://www.lifeinscouncil.org/media_center/Profile_Secretary_General_1.pdf"
+   ],
+   [
+    "Latest News",
+    "https://www.lifeinscouncil.org/media_center/LatestNews"
+   ],
+   [
+    "Archives",
+    "https://www.lifeinscouncil.org/media_center/Archives"
+   ],
+   [
+    "Events",
+    "https://www.lifeinscouncil.org/media_center/Pictures"
+   ],
+   [
+    "Contact Us",
+    "https://www.lifeinscouncil.org/contact/ContactUs"
+   ],
+   [
+    "AI 171 Claim Settlement Data",
+    "https://www.lifeinscouncil.org/UPLOADING FILES/DOWNLOAD/AI_171/IRDAI Air India Flight 171 Crash Calim report format - 28.08.2026.pdf"
+   ],
+   [
+    "New Business Performance",
+    "https://www.lifeinscouncil.org/industry information/NewBusinessPerformance"
+   ],
+   [
+    "Individual Agents Data",
+    "https://www.lifeinscouncil.org/industry information/IndividualAgentsData"
+   ],
+   [
+    "Product of life Insurers",
+    "https://www.lifeinscouncil.org/industry information/ProductsOfLifeInsurers"
+   ],
+   [
+    "MIS Report",
+    "https://www.lifeinscouncil.org/industry information/MISReport"
+   ],
+   [
+    "List of Fund Navs",
+    "https://www.lifeinscouncil.org/industry information/ListOfFundNAVs"
+   ],
+   [
+    "Regulations",
+    "https://www.lifeinscouncil.org/industry information/Regulations"
+   ],
+   [
+    "Public Disclosures",
+    "https://www.lifeinscouncil.org/industry information/PublicDisclosures"
+   ],
+   [
+    "Insurance as Career",
+    "https://www.lifeinscouncil.org/industry%20information/Public_Disclosures.aspx#collapse"
+   ],
+   [
+    "Courses",
+    "https://www.lifeinscouncil.org/industry information/CoursesInLifeInsuranceInIndia"
+   ],
+   [
+    "Courses in india",
+    "https://www.lifeinscouncil.org/industry information/InsuranceCoursesAvailableInIndia"
+   ],
+   [
+    "Institutes",
+    "https://www.lifeinscouncil.org/industry information/InstitutesOfferingInsuranceCoursesInIndia"
+   ],
+   [
+    "Careers",
+    "https://www.lifeinscouncil.org/industry information/LifeInsuranceAsCareer"
+   ],
+   [
+    "https://www.acko.com/life/public-disclosure/",
+    "https://www.acko.com/life/public-disclosure/"
+   ],
+   [
+    "https://lifeinsurance.adityabirlacapital.com/about-us/public-disclosure",
+    "https://lifeinsurance.adityabirlacapital.com/about-us/public-disclosure/"
+   ],
+   [
+    "https://www.ageasfederal.com/public-disclosures?Year=null",
+    "https://www.ageasfederal.com/public-disclosures?Year=null"
+   ],
+   [
+    "http://avivaindia.com/en/AboutUs/IRDAPeriodicDisclosures.aspx",
+    "http://avivaindia.com/en/AboutUs/IRDAPeriodicDisclosures.aspx"
+   ],
+   [
+    "https://www.axismaxlife.com/newsroom/public-disclosures",
+    "https://www.axismaxlife.com/newsroom/public-disclosures"
+   ],
+   [
+    "https://www.bajajlifeinsurance.com/about-us.html#publicDisclosure",
+    "https://www.bajajlifeinsurance.com/about-us.html#publicDisclosure"
+   ],
+   [
+    "https://www.bandhanlife.com/public-disclosure",
+    "https://www.bandhanlife.com/public-disclosure"
+   ],
+   [
+    "https://www.bharti-axalife.com/public-disclosure",
+    "https://www.bharti-axalife.com/public-disclosure"
+   ],
+   [
+    "https://www.canarahsbclife.com/public-disclosures.html",
+    "https://www.canarahsbclife.com/public-disclosures.html"
+   ],
+   [
+    "https://creditaccesslife.in/public_disclosures.php",
+    "https://creditaccesslife.in/public_disclosures.php"
+   ],
+   [
+    "https://www.edelweisslife.in/public-disclosure",
+    "https://www.edelweisslife.in/public-disclosure"
+   ],
+   [
+    "https://www.generalicentrallife.com/about-us/public-disclosures",
+    "https://www.generalicentrallife.com/about-us/public-disclosures"
+   ],
+   [
+    "https://www.godigit.com/life/financials",
+    "https://www.godigit.com/life/financials"
+   ],
+   [
+    "https://www.hdfclife.com/about-us/public-disclosure",
+    "https://www.hdfclife.com/about-us/public-disclosure"
+   ],
+   [
+    "www.icicilife.com/about-us/investor-relations/yearly-public-disclosures.html",
+    "https://www.icicilife.com/about-us/investor-relations/yearly-public-disclosures.html"
+   ],
+   [
+    "http://www.indiafirstlife.com/web/insurancestore/publicdisclosure",
+    "http://www.indiafirstlife.com/web/insurancestore/publicdisclosure"
+   ],
+   [
+    "https://www.indusindnipponlife.com/public-disclosures",
+    "https://www.indusindnipponlife.com/public-disclosures"
+   ],
+   [
+    "http://insurance.kotak.com/common/public_disclosure.php",
+    "http://insurance.kotak.com/common/public_disclosure.php"
+   ],
+   [
+    "https://www.licindia.in/Bottom-Links/Public-disclosure",
+    "https://www.licindia.in/Bottom-Links/Public-disclosure"
+   ],
+   [
+    "https://www.pnbmetlife.com/investor-relations/overview.html",
+    "https://www.pnbmetlife.com/investor-relations/overview.html"
+   ],
+   [
+    "https://www.pramericalife.in/Public_Disclosure",
+    "https://www.pramericalife.in/Public_Disclosure"
+   ],
+   [
+    "http://www.sbilife.co.in/sbilife/content/37_0",
+    "http://www.sbilife.co.in/sbilife/content/37_0"
+   ],
+   [
+    "https://www.shriramlife.in/slp/publicdisclosure.aspx",
+    "https://www.shriramlife.in/slp/publicdisclosure.aspx"
+   ],
+   [
+    "https://www.sudlife.in/public-disclosures",
+    "https://www.sudlife.in/public-disclosures"
+   ],
+   [
+    "https://www.tataaia.com/public-disclosures/public-disclosures.html",
+    "https://www.tataaia.com/public-disclosures/public-disclosures.html"
+   ],
+   [
+    "Creative Webo",
+    "https://creativewebo.com/"
+   ],
+   [
+    "Disclaimer",
+    "https://www.lifeinscouncil.org/code/Disclaimer"
+   ],
+   [
+    "Contact Us",
+    "https://www.lifeinscouncil.org/contact/ContactUs"
+   ],
+   [
+    "Related Links",
+    "https://www.lifeinscouncil.org/code/RelatedLink"
+   ],
+   [
+    "Site Map",
+    "https://www.lifeinscouncil.org/code/SiteMap"
+   ],
+   [
+    "Information for policy holders",
+    "https://www.lifeinscouncil.org/code/InformationForPolicyHolders"
+   ]
+  ]
+ },
+ {
+  "n": 7,
+  "url": "https://irdai.gov.in/handbook-of-indian-insurance",
+  "status": 200,
+  "final_url": "https://irdai.gov.in/handbook-of-indian-insurance",
+  "content_type": "text/html;charset=UTF-8",
+  "file": "07_handbook-of-indian-insurance.html",
+  "bytes": 328851,
+  "sha256": "9538616fb5054a53dd6ea0ce07a89181c2445524d351105efb9039f7c58807ac",
+  "title": "Handbook on Indian Insurance Statistics - IRDAI",
+  "links": [
+   [
+    "Skip to Content",
+    "https://irdai.gov.in/handbook-of-indian-insurance#main-content"
+   ],
+   [
+    "",
+    "https://irdai.gov.in"
+   ],
+   [
+    "Main Content",
+    "https://irdai.gov.in/handbook-of-indian-insurance#mainContent"
+   ],
+   [
+    "",
+    "https://irdai.gov.in/handbook-of-indian-insurance"
+   ],
+   [
+    "Home",
+    "https://irdai.gov.in/home"
+   ],
+   [
+    "About us",
+    "https://irdai.gov.in/about-us1"
+   ],
+   [
+    "Mission Statement",
+    "https://irdai.gov.in/mission-statement"
+   ],
+   [
+    "Duties and Responsibilities",
+    "https://irdai.gov.in/duties-and-responsibilities"
+   ],
+   [
+    "Composition of Authority",
+    "https://irdai.gov.in/board1"
+   ],
+   [
+    "Chairman and Members of Authority",
+    "https://irdai.gov.in/chairman-and-members-of-authority"
+   ],
+   [
+    "Profile of Top Management",
+    "https://irdai.gov.in/profile-of-top-management"
+   ],
+   [
+    "Appointment Notification of Members",
+    "https://irdai.gov.in/appointment-notification-of-members"
+   ],
+   [
+    "Minutes of Authority Meetings",
+    "https://irdai.gov.in/minutes-of-authority-meeting-public-disclosures"
+   ],
+   [
+    "Insurance Advisory Committee",
+    "https://irdai.gov.in/insurance-advisory-committee"
+   ],
+   [
+    "List of Members",
+    "https://irdai.gov.in/list-of-members1"
+   ],
+   [
+    "Notifications",
+    "https://irdai.gov.in/notifications1"
+   ],
+   [
+    "IAC Consolidated Meeting Regulations",
+    "https://irdai.gov.in/iac_consolidated_meeting_regulations"
+   ],
+   [
+    "Organogram",
+    "https://irdai.gov.in/organogram"
+   ],
+   [
+    "Directory of employees",
+    "https://irdai.gov.in/directory-of-employees"
+   ],
+   [
+    "Address for communication",
+    "https://irdai.gov.in/address-for-communication"
+   ],
+   [
+    "List of Holidays",
+    "https://irdai.gov.in/list-of-holidays"
+   ],
+   [
+    "Careers",
+    "https://irdai.gov.in/careers1"
+   ],
+   [
+    "What We Do",
+    "https://irdai.gov.in/what-we-do"
+   ],
+   [
+    "Career at IRDAI",
+    "https://irdai.gov.in/career-at-irdai"
+   ],
+   [
+    "Opportunities",
+    "https://irdai.gov.in/opportunities"
+   ],
+   [
+    "Notifications/Vacancies",
+    "https://irdai.gov.in/notifications/vacancies"
+   ],
+   [
+    "Results",
+    "https://irdai.gov.in/results"
+   ],
+   [
+    "Internship",
+    "https://irdai.gov.in/internship"
+   ],
+   [
+    "Rosters",
+    "https://irdai.gov.in/rosters"
+   ],
+   [
+    "Organisational Matters",
+    "https://irdai.gov.in/organisational-matters1"
+   ],
+   [
+    "Accounts and Audit functions",
+    "https://irdai.gov.in/accounts-and-audit-functions"
+   ],
+   [
+    "Account statement rules",
+    "https://irdai.gov.in/account-statement-rules"
+   ],
+   [
+    "Annual Accounts",
+    "https://irdai.gov.in/annual-accounts"
+   ],
+   [
+    "Tenders",
+    "https://irdai.gov.in/tenders"
+   ],
+   [
+    "Vigilance",
+    "https://irdai.gov.in/vigilance1"
+   ],
+   [
+    "Contact Details",
+    "https://irdai.gov.in/contact-details1"
+   ],
+   [
+    "Guidelines",
+    "https://irdai.gov.in/guidelines1"
+   ],
+   [
+    "Reports and Manuals",
+    "https://irdai.gov.in/c/portal/layout?p_l_id=499&_com_irdai_document_media_IRDAIDocumentMediaPortlet_INSTANCE_m0BQdlBbYMuh_filterDepartment=VIG&_com_irdai_document_media_IRDAIDocumentMediaPortlet_INSTANCE_m0BQdlBbYMuh_filterFromDate=&_com_irdai_document_media_IRDAIDocumentMediaPortlet_INSTANCE_m0BQdlBbYMuh_filterToDate=&_com_irdai_document_media_IRDAIDocumentMediaPortlet_INSTANCE_m0BQdlBbYMuh_filterSearchKeyword=&_com_irdai_document_media_IRDAIDocumentMediaPortlet_INSTANCE_m0BQdlBbYMuh_filterEntities=ALL&_com_irdai_document_media_IRDAIDocumentMediaPortlet_INSTANCE_m0BQdlBbYMuh_filterClassification=ALL&_com_irdai_document_media_IRDAIDocumentMediaPortlet_INSTANCE_m0BQdlBbYMuh_filterTag=ALL&_com_irdai_document_media_IRDAIDocumentMediaPortlet_INSTANCE_m0BQdlBbYMuh_archiveOn=false&p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet_INSTANCE_m0BQdlBbYMuh&p_p_lifecycle=0"
+   ],
+   [
+    "Function of department or division",
+    "https://irdai.gov.in/function-of-department-or-division"
+   ],
+   [
+    "IRDAI Accounts",
+    "https://irdai.gov.in/about-accounts"
+   ],
+   [
+    "Actuarial",
+    "https://irdai.gov.in/about-actuarial"
+   ],
+   [
+    "Administration",
+    "https://irdai.gov.in/about-administration"
+   ],
+   [
+    "Agency Distribution",
+    "https://irdai.gov.in/about-agency-distribution"
+   ],
+   [
+    "Communication",
+    "https://irdai.gov.in/about-communication"
+   ],
+   [
+    "Board Secretariat",
+    "https://irdai.gov.in/about-corporate-services"
+   ],
+   [
+    "Enforcement",
+    "https://irdai.gov.in/about-enforcement"
+   ],
+   [
+    "Finance and Accounts",
+    "https://irdai.gov.in/about-finance-and-accounts"
+   ],
+   [
+    "Health",
+    "https://irdai.gov.in/about-health"
+   ],
+   [
+    "HR",
+    "https://irdai.gov.in/about-hr"
+   ],
+   [
+    "Information Technology",
+    "https://irdai.gov.in/about-information-technology"
+   ],
+   [
+    "Supervision",
+    "https://irdai.gov.in/about-inspection"
+   ],
+   [
+    "Insurance Marketing Firm",
+    "https://irdai.gov.in/about-insurance-marketing-firm"
+   ],
+   [
+    "Intermediaries",
+    "https://irdai.gov.in/about-brokers"
+   ],
+   [
+    "Investment",
+    "https://irdai.gov.in/about-investment"
+   ],
+   [
+    "Legal",
+    "https://irdai.gov.in/about-legal"
+   ],
+   [
+    "Life",
+    "https://irdai.gov.in/about-life"
+   ],
+   [
+    "Non-Life",
+    "https://irdai.gov.in/about-non-life"
+   ],
+   [
+    "Policyholders Protection and Grievance Redressal",
+    "https://irdai.gov.in/about-consumer-affairs"
+   ],
+   [
+    "Re-insurance",
+    "https://irdai.gov.in/about-re-insurance"
+   ],
+   [
+    "Insurance Inclusion and Development",
+    "https://irdai.gov.in/about-sectoral-development"
+   ],
+   [
+    "Surveyors",
+    "https://irdai.gov.in/about-surveyors"
+   ],
+   [
+    "Vigilance",
+    "https://irdai.gov.in/about-vigilance"
+   ],
+   [
+    "Former Chairmen/Members",
+    "https://irdai.gov.in/former-chairmen/members"
+   ],
+   [
+    "Legal",
+    "https://irdai.gov.in/legal"
+   ],
+   [
+    "Acts",
+    "https://irdai.gov.in/acts"
+   ],
+   [
+    "Rules",
+    "https://irdai.gov.in/rules"
+   ],
+   [
+    "Regulations",
+    "https://irdai.gov.in/regulations2"
+   ],
+   [
+    "Consolidated & Gazette Notified Regulations",
+    "https://irdai.gov.in/consolidated-gazette-notified-regulations"
+   ],
+   [
+    "Updated Regulations",
+    "https://irdai.gov.in/updated-regulations"
+   ],
+   [
+    "Notifications",
+    "https://irdai.gov.in/notifications"
+   ],
+   [
+    "Circulars",
+    "https://irdai.gov.in/circulars"
+   ],
+   [
+    "Guidelines",
+    "https://irdai.gov.in/guidelines"
+   ],
+   [
+    "Orders",
+    "https://irdai.gov.in/orders1"
+   ],
+   [
+    "Notices",
+    "https://irdai.gov.in/notices1"
+   ],
+   [
+    "Exposure Drafts",
+    "https://irdai.gov.in/exposure-drafts"
+   ],
+   [
+    "RTI",
+    "https://irdai.gov.in/rti"
+   ],
+   [
+    "Programmes to advance understanding of RTI",
+    "https://irdai.gov.in/programmes-to-advance-understanding-of-rti"
+   ],
+   [
+    "Information Under Section 4(1)(b) of RTI Act' 2005",
+    "https://irdai.gov.in/information-under-section-4-1-b-of-rti-act-2005"
+   ],
+   [
+    "Information Under Section 4(1)(d) of RTI Act' 2005",
+    "https://irdai.gov.in/information-under-section-4-1-d-of-rti-act-2005"
+   ],
+   [
+    "RTI Act",
+    "https://irdai.gov.in/rti-act"
+   ],
+   [
+    "Orders",
+    "https://irdai.gov.in/c/portal/layout?p_l_id=1018&_com_irdai_document_media_IRDAIDocumentMediaPortlet_filterDepartment=ALL&_com_irdai_document_media_IRDAIDocumentMediaPortlet_filterFromDate=&_com_irdai_document_media_IRDAIDocumentMediaPortlet_filterToDate=&_com_irdai_document_media_IRDAIDocumentMediaPortlet_filterSearchKeyword=&_com_irdai_document_media_IRDAIDocumentMediaPortlet_filterEntities=ALL&_com_irdai_document_media_IRDAIDocumentMediaPortlet_filterClassification=RTI&_com_irdai_document_media_IRDAIDocumentMediaPortlet_filterTag=ALL&_com_irdai_document_media_IRDAIDocumentMediaPortlet_archiveOn=false&p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0"
+   ],
+   [
+    "CIC Orders",
+    "https://irdai.gov.in/cic-orders"
+   ],
+   [
+    "Rules",
+    "https://irdai.gov.in/rules2"
+   ],
+   [
+    "Tenders",
+    "https://irdai.gov.in/rti-2005/tenders"
+   ],
+   [
+    "FAQs",
+    "https://irdai.gov.in/web/guest/faqs1"
+   ],
+   [
+    "Antimoney laundering and CFT",
+    "https://irdai.gov.in/antimoney-laundering"
+   ],
+   [
+    "Other Communication",
+    "https://irdai.gov.in/other-communication"
+   ],
+   [
+    "Regulatory Actions",
+    "https://irdai.gov.in/enforcement"
+   ],
+   [
+    "Warnings and Penalties",
+    "https://irdai.gov.in/warnings-and-penalties"
+   ],
+   [
+    "Consumer Affairs",
+    "https://irdai.gov.in/consumer-affairs1"
+   ],
+   [
+    "Evolution of Insurance",
+    "https://irdai.gov.in/evolution-of-insurance"
+   ],
+   [
+    "Regulations",
+    "https://irdai.gov.in/web/guest/consolidated-gazette-notified-regulations?filtersApplied=true&filterDepartment=CAD"
+   ],
+   [
+    "Public Notices",
+    "https://irdai.gov.in/public-notices3"
+   ],
+   [
+    "List of Registered Insurance Entities",
+    "https://irdai.gov.in/list-of-licensed-insurance-entities"
+   ],
+   [
+    "List of Life Insurers",
+    "https://irdai.gov.in/list-of-life-insurers1"
+   ],
+   [
+    "List of General Insurers",
+    "https://irdai.gov.in/list-of-general-insurers"
+   ],
+   [
+    "List of Health Insurers",
+    "https://irdai.gov.in/list-of-health-insurers"
+   ],
+   [
+    "List of Reinsurers",
+    "https://irdai.gov.in/list-of-reinsurers"
+   ],
+   [
+    "List of Reinsurer branches",
+    "https://irdai.gov.in/list-of-reinsurer-branches"
+   ],
+   [
+    "List of Corporate Agents",
+    "https://irdai.gov.in/list-of-corporate-agents1"
+   ],
+   [
+    "List Of Corporate Agents",
+    "https://irdai.gov.in/list-of-corporate-agents2"
+   ],
+   [
+    "List of Telemarketer",
+    "https://irdai.gov.in/list-of-telemarketer1"
+   ],
+   [
+    "List of Brokers",
+    "https://irdai.gov.in/list-of-brokers"
+   ],
+   [
+    "List of IMFs",
+    "https://irdai.gov.in/list-of-imfs"
+   ],
+   [
+    "List of Surveyors",
+    "https://irdai.gov.in/list-of-surveyors"
+   ],
+   [
+    "Corporate Surveyors",
+    "https://irdai.gov.in/corporate-surveyors1"
+   ],
+   [
+    "Director Partner Surveyors",
+    "https://irdai.gov.in/director-partner-surveyors1"
+   ],
+   [
+    "Individual Surveyors",
+    "https://irdai.gov.in/individual-surveyors"
+   ],
+   [
+    "List of Insurance Repository",
+    "https://irdai.gov.in/list-of-insurance-repository"
+   ],
+   [
+    "List of TPAs",
+    "https://irdai.gov.in/list-of-tpas"
+   ],
+   [
+    "List of Web Aggregators",
+    "https://irdai.gov.in/list-of-web-aggregators"
+   ],
+   [
+    "Grievance Redressal",
+    "https://irdai.gov.in/grievance-redressal"
+   ],
+   [
+    "Consumer Affairs Booklet",
+    "https://irdai.gov.in/consumer-affairs-booklet1"
+   ],
+   [
+    "Grievance Redressal Mechanism",
+    "https://irdai.gov.in/grievance-redressal-mechanism1"
+   ],
+   [
+    "Functions",
+    "https://irdai.gov.in/functions"
+   ],
+   [
+    "List of GROs",
+    "https://irdai.gov.in/list-of-gros"
+   ],
+   [
+    "Ombudsman",
+    "https://irdai.gov.in/ombudsman"
+   ],
+   [
+    "Forms",
+    "https://irdai.gov.in/documents/37343/620662/policyholder+complaints+registration+form29092021.pdf/5ff5e0af-a34e-6cba-91d2-fe053b076624?t=1633587167192"
+   ],
+   [
+    "FAQs",
+    "https://irdai.gov.in/hi/web/guest/grievance-cell-cad"
+   ],
+   [
+    "Insurance Products",
+    "https://irdai.gov.in/products-offered"
+   ],
+   [
+    "Life Insurance Products Terms and Conditions",
+    "https://irdai.gov.in/life-insurance-products"
+   ],
+   [
+    "List of Life Products",
+    "https://irdai.gov.in/list-of-life-products"
+   ],
+   [
+    "Non-Life Insurance Products",
+    "https://irdai.gov.in/non-life-insurance-products"
+   ],
+   [
+    "Health Insurance Products",
+    "https://irdai.gov.in/health-insurance-products"
+   ],
+   [
+    "Standard Products",
+    "https://irdai.gov.in/standard-products"
+   ],
+   [
+    "Standard Products Life",
+    "https://irdai.gov.in/standard-products-life"
+   ],
+   [
+    "Standard Products General Insurance",
+    "https://irdai.gov.in/standard-products-general-insurance"
+   ],
+   [
+    "Standard Products Health Insurance",
+    "https://irdai.gov.in/standard-products-health-insurance"
+   ],
+   [
+    "About Microinsurance",
+    "https://irdai.gov.in/about-microinsurance"
+   ],
+   [
+    "FAQs",
+    "https://irdai.gov.in/faqs1"
+   ],
+   [
+    "ACTUARIAL",
+    "https://irdai.gov.in/actuarial"
+   ],
+   [
+    "AGENCY DISTRIBUTION",
+    "https://irdai.gov.in/agency-distribution"
+   ],
+   [
+    "BROKERS",
+    "https://irdai.gov.in/brokers1"
+   ],
+   [
+    "COMMUNICATIONS",
+    "https://irdai.gov.in/communications"
+   ],
+   [
+    "CORPORATE AGENTS",
+    "https://irdai.gov.in/corporate-agents1"
+   ],
+   [
+    "DISTRIBUTION DEVELOPMENT",
+    "https://irdai.gov.in/distribution-development1"
+   ],
+   [
+    "INSURANCE WEB AGGREGATORS",
+    "https://irdai.gov.in/insurance-web-aggregators"
+   ],
+   [
+    "INSURANCE REPOSITORIES (IR)",
+    "https://irdai.gov.in/irs"
+   ],
+   [
+    "INSURANCE SELF NETWORK PLATFORM (ISNP)",
+    "https://irdai.gov.in/insurance-self-network-platform-isnp-"
+   ],
+   [
+    "ENFORCEMENT",
+    "https://irdai.gov.in/enforcement1"
+   ],
+   [
+    "FAQs on Guidelines on Standard Personal Accident Insurance Product: Saral Suraksha Bima",
+    "https://irdai.gov.in/faqs-on-guidelines-on-standard-personal-accident-insurance-product-saral-suraksha-bima"
+   ],
+   [
+    "FAQs on Individual Covid Standard Health Policy: Corona Kavach Policy",
+    "https://irdai.gov.in/faqs-on-individual-covid-standard-health-policy-corona-kavach-policy"
+   ],
+   [
+    "FAQ's on Standard Health Product Arogya Sanjeevani Product",
+    "https://irdai.gov.in/faq-s-on-standard-health-product-arogya-sanjeevani-product"
+   ],
+   [
+    "FINANCE & ACCOUNTS (LIFE)",
+    "https://irdai.gov.in/finance-accounts-life-"
+   ],
+   [
+    "FINANCE & ACCOUNTS (NON LIFE)",
+    "https://irdai.gov.in/finance-accounts-non-life-"
+   ],
+   [
+    "GRIEVANCE CELL-PPGR",
+    "https://irdai.gov.in/grievance-cell-cad"
+   ],
+   [
+    "HEALTH DEPT",
+    "https://irdai.gov.in/health-dept"
+   ],
+   [
+    "IMF FAQs",
+    "https://irdai.gov.in/imf1"
+   ],
+   [
+    "INFORMATION TECHNOLOGY",
+    "https://irdai.gov.in/information-technology"
+   ],
+   [
+    "Supervision",
+    "https://irdai.gov.in/inspection"
+   ],
+   [
+    "INTERNAL ACCOUNTS",
+    "https://irdai.gov.in/internal-accounts"
+   ],
+   [
+    "LIFE",
+    "https://irdai.gov.in/life3"
+   ],
+   [
+    "NON LIFE",
+    "https://irdai.gov.in/non-life2"
+   ],
+   [
+    "SURVEYORS",
+    "https://irdai.gov.in/surveyors1"
+   ],
+   [
+    "VIGILANCE",
+    "https://irdai.gov.in/vigilance"
+   ],
+   [
+    "FAQs on Insurance Intermediaries (Amendment) Regulations,2026",
+    "https://irdai.gov.in/faqs-on-insurance-intermediaries-amendment-regulations-2026"
+   ],
+   [
+    "Reports & Statistics",
+    "https://irdai.gov.in/report-and-statistics1"
+   ],
+   [
+    "Monthly business figures",
+    "https://irdai.gov.in/monthly-business-figures1"
+   ],
+   [
+    "Life",
+    "https://irdai.gov.in/life"
+   ],
+   [
+    "Non-Life",
+    "https://irdai.gov.in/non-life"
+   ],
+   [
+    "Segment wise data",
+    "https://irdai.gov.in/segment-wise-data"
+   ],
+   [
+    "Life",
+    "https://irdai.gov.in/life1"
+   ],
+   [
+    "Non-Life",
+    "https://irdai.gov.in/non-life1"
+   ],
+   [
+    "Graphical Representation - Monthly Business Figures",
+    "https://irdai.gov.in/graphical-representation-monthly-business-figures1"
+   ],
+   [
+    "Life Reports",
+    "https://irdai.gov.in/life-reports"
+   ],
+   [
+    "Non Life Reports",
+    "https://irdai.gov.in/non-life-reports"
+   ],
+   [
+    "Claims",
+    "https://irdai.gov.in/claims"
+   ],
+   [
+    "Annual Reports",
+    "https://irdai.gov.in/annual-reports"
+   ],
+   [
+    "Handbooks",
+    "https://irdai.gov.in/handbooks"
+   ],
+   [
+    "Handbook on Indian Insurance Statistics",
+    "https://irdai.gov.in/handbook-of-indian-insurance"
+   ],
+   [
+    "Consumer Affairs Booklet",
+    "https://irdai.gov.in/consumer-affairs-booklet"
+   ],
+   [
+    "Handbook of IR",
+    "https://irdai.gov.in/handbook-of-ir1"
+   ],
+   [
+    "Motor Third Party Data",
+    "https://irdai.gov.in/motor-third-party-data"
+   ],
+   [
+    "Committee Reports",
+    "https://irdai.gov.in/committee-reports"
+   ],
+   [
+    "Industry Trends",
+    "https://irdai.gov.in/industry-trends"
+   ],
+   [
+    "Industry",
+    "https://irdai.gov.in/industry1"
+   ],
+   [
+    "Regulated Entities",
+    "https://irdai.gov.in/regulated-entities"
+   ],
+   [
+    "Life Insurers",
+    "https://irdai.gov.in/life-insurers1"
+   ],
+   [
+    "Non-Life Insurers",
+    "https://irdai.gov.in/non-life-insurers1"
+   ],
+   [
+    "Health Insurers",
+    "https://irdai.gov.in/health-insurers1"
+   ],
+   [
+    "Reinsurers",
+    "https://irdai.gov.in/reinsurers"
+   ],
+   [
+    "Foreign Reinsurance Branches",
+    "https://irdai.gov.in/reinsurance-branches"
+   ],
+   [
+    "Brokers",
+    "https://irdai.gov.in/brokers"
+   ],
+   [
+    "Corporate Agents",
+    "https://irdai.gov.in/corporate-agents"
+   ],
+   [
+    "List Of Corporate Agents",
+    "https://irdai.gov.in/list-of-corporate-agents"
+   ],
+   [
+    "List of Telemarketer",
+    "https://irdai.gov.in/list-of-telemarketer2"
+   ],
+   [
+    "Lapsed CoR of Corporate Agents",
+    "https://irdai.gov.in/lapsed-cor-of-corporate-agents"
+   ],
+   [
+    "List of Black Listed agents",
+    "https://irdai.gov.in/list-of-black-listed-agents"
+   ],
+   [
+    "Surveyors",
+    "https://irdai.gov.in/surveyors"
+   ],
+   [
+    "Corporate Surveyors",
+    "https://irdai.gov.in/corporate-surveyors"
+   ],
+   [
+    "Director Partner Surveyors",
+    "https://irdai.gov.in/director-partner-surveyors"
+   ],
+   [
+    "Individual Surveyors",
+    "https://irdai.gov.in/individual-surveyors1"
+   ],
+   [
+    "Web Aggregators",
+    "https://irdai.gov.in/web-aggregators"
+   ],
+   [
+    "Insurance Repository",
+    "https://irdai.gov.in/insurance-repository"
+   ],
+   [
+    "IMF (Insurance Marketing Firms)",
+    "https://irdai.gov.in/imf"
+   ],
+   [
+    "Third Party Administrators (TPA's)",
+    "https://irdai.gov.in/third-party-administrators-tpa-s-"
+   ],
+   [
+    "Insurance Councils",
+    "https://irdai.gov.in/insurance-councils1"
+   ],
+   [
+    "Life Insurance Council",
+    "https://irdai.gov.in/life-insurance-council1"
+   ],
+   [
+    "General Insurance Council",
+    "https://irdai.gov.in/general-insurance-council1"
+   ],
+   [
+    "Panel of Actuaries",
+    "https://irdai.gov.in/panel-of-actuaries"
+   ],
+   [
+    "How To",
+    "https://irdai.gov.in/how-to"
+   ],
+   [
+    "Requirements for Registering as a Life Insurer",
+    "https://irdai.gov.in/requirements-for-license-as-a-life-insurer"
+   ],
+   [
+    "Requirements for Registering as a Non-Life Insurer",
+    "https://irdai.gov.in/requirements-for-license-as-a-non-life-insurer"
+   ],
+   [
+    "Requirements for Registering as a Broker",
+    "https://irdai.gov.in/requirements-for-license-as-a-broker"
+   ],
+   [
+    "Requirements for Registering as a Corporate Agent",
+    "https://irdai.gov.in/requirements-for-license-as-a-corporate-agent"
+   ],
+   [
+    "Requirements for Registering as a Surveyor",
+    "https://irdai.gov.in/requirements-for-license-as-a-surveyor"
+   ],
+   [
+    "Requirements for Registering as a Web Aggregator",
+    "https://irdai.gov.in/requirements-for-license-as-a-web-aggregator"
+   ],
+   [
+    "Requirements for Registering as a Insurance Repository",
+    "https://irdai.gov.in/requirements-for-license-as-a-insurance-repository"
+   ],
+   [
+    "Requirements for Registering as a TPA",
+    "https://irdai.gov.in/requirements-for-license-as-a-tpa"
+   ],
+   [
+    "Requirements for Registering as a IMF",
+    "https://irdai.gov.in/requirements-for-license-as-a-imf"
+   ],
+   [
+    "Requirements for Registering as a ISNP",
+    "https://irdai.gov.in/requirements-for-license-as-a-isnp"
+   ],
+   [
+    "Public Disclosures",
+    "https://irdai.gov.in/public-disclosures"
+   ],
+   [
+    "Life",
+    "https://irdai.gov.in/life2"
+   ],
+   [
+    "General",
+    "https://irdai.gov.in/general"
+   ],
+   [
+    "List Of Foreign Reinsurance Branches",
+    "https://irdai.gov.in/frbs"
+   ],
+   [
+    "Council for Insurance Ombudsmen",
+    "https://www.cioins.co.in/"
+   ],
+   [
+    "Related Organizations",
+    "https://irdai.gov.in/related-organizations"
+   ],
+   [
+    "Institute of Actuaries of India",
+    "https://actuariesindia.org/"
+   ],
+   [
+    "Insurance Brokers Association of India",
+    "https://ibai.org/"
+   ],
+   [
+    "Indian Institute of Insurance Surveyors & Loss Assessors",
+    "https://www.iiisla.co.in/"
+   ],
+   [
+    "Insurance Information Bureau of India",
+    "https://iib.gov.in/"
+   ],
+   [
+    "Inter-operable Regulatory Sandbox FAQs",
+    "https://irdai.gov.in/web/guest/document-detail?documentId=7858787"
+   ],
+   [
+    "Media",
+    "https://irdai.gov.in/media1"
+   ],
+   [
+    "Press Releases",
+    "https://irdai.gov.in/press-releases"
+   ],
+   [
+    "Public Notices",
+    "https://irdai.gov.in/public-notices1"
+   ],
+   [
+    "Response Corner",
+    "https://irdai.gov.in/response-corner"
+   ],
+   [
+    "IRDAI Journal",
+    "https://irdai.gov.in/irdai-journal"
+   ],
+   [
+    "International Affairs",
+    "https://irdai.gov.in/international-affairs"
+   ],
+   [
+    "IRDAI initiative to least developed countries",
+    "https://irdai.gov.in/irdai-initiative-to-least-developed-countries"
+   ],
+   [
+    "SAIRM",
+    "https://irdai.gov.in/sairm"
+   ],
+   [
+    "Media Gallery",
+    "https://irdai.gov.in/media-gallery"
+   ],
+   [
+    "Events",
+    "https://irdai.gov.in/events1"
+   ],
+   [
+    "Conferences",
+    "https://irdai.gov.in/conferences"
+   ],
+   [
+    "Seminars",
+    "https://irdai.gov.in/seminars"
+   ],
+   [
+    "Speeches",
+    "https://irdai.gov.in/speeches"
+   ],
+   [
+    "Register for Email-Alerts",
+    "https://irdai.gov.in/register-for-email-alerts"
+   ],
+   [
+    "Open House at IRDAI",
+    "https://irdai.gov.in/open-house-at-irdai"
+   ],
+   [
+    "E-Services",
+    "https://irdai.gov.in/e-services"
+   ],
+   [
+    "Corporate Agency Portal",
+    "https://agencyportal.irdai.gov.in/Index.htm"
+   ],
+   [
+    "New Insurer Registration Corner",
+    "https://noc.irdai.gov.in/Register"
+   ],
+   [
+    "Bima Bharosa",
+    "https://bimabharosa.irdai.gov.in/"
+   ],
+   [
+    "Comments on Exposure Drafts",
+    "https://irdai.gov.in/comments-on-exposure-drafts"
+   ],
+   [
+    "Forms",
+    "https://irdai.gov.in/forms"
+   ],
+   [
+    "Research Corner",
+    "https://irdai.gov.in/research-corner"
+   ],
+   [
+    "Careers",
+    "https://irdai.gov.in/what-we-do"
+   ],
+   [
+    "Monthly business figures",
+    "https://irdai.gov.in/monthly-business-figures1"
+   ],
+   [
+    "Life",
+    "https://irdai.gov.in/life"
+   ],
+   [
+    "Non-Life",
+    "https://irdai.gov.in/non-life"
+   ],
+   [
+    "Segment wise data",
+    "https://irdai.gov.in/segment-wise-data"
+   ],
+   [
+    "Life",
+    "https://irdai.gov.in/life1"
+   ],
+   [
+    "Non-Life",
+    "https://irdai.gov.in/non-life1"
+   ],
+   [
+    "Graphical Representation - Monthly Business Figures",
+    "https://irdai.gov.in/graphical-representation-monthly-business-figures1"
+   ],
+   [
+    "Life Reports",
+    "https://irdai.gov.in/life-reports"
+   ],
+   [
+    "Non Life Reports",
+    "https://irdai.gov.in/non-life-reports"
+   ],
+   [
+    "Claims",
+    "https://irdai.gov.in/claims"
+   ],
+   [
+    "Annual Reports",
+    "https://irdai.gov.in/annual-reports"
+   ],
+   [
+    "Handbooks",
+    "https://irdai.gov.in/handbooks"
+   ],
+   [
+    "Handbook on Indian Insurance Statistics",
+    "https://irdai.gov.in/handbook-of-indian-insurance"
+   ],
+   [
+    "Consumer Affairs Booklet",
+    "https://irdai.gov.in/consumer-affairs-booklet"
+   ],
+   [
+    "Handbook of IR",
+    "https://irdai.gov.in/handbook-of-ir1"
+   ],
+   [
+    "Motor Third Party Data",
+    "https://irdai.gov.in/motor-third-party-data"
+   ],
+   [
+    "Committee Reports",
+    "https://irdai.gov.in/committee-reports"
+   ],
+   [
+    "Industry Trends",
+    "https://irdai.gov.in/industry-trends"
+   ],
+   [
+    "Monthly business figures",
+    "https://irdai.gov.in/monthly-business-figures1"
+   ],
+   [
+    "Life",
+    "https://irdai.gov.in/life"
+   ],
+   [
+    "Non-Life",
+    "https://irdai.gov.in/non-life"
+   ],
+   [
+    "Segment wise data",
+    "https://irdai.gov.in/segment-wise-data"
+   ],
+   [
+    "Life",
+    "https://irdai.gov.in/life1"
+   ],
+   [
+    "Non-Life",
+    "https://irdai.gov.in/non-life1"
+   ],
+   [
+    "Graphical Representation - Monthly Business Figures",
+    "https://irdai.gov.in/graphical-representation-monthly-business-figures1"
+   ],
+   [
+    "Life Reports",
+    "https://irdai.gov.in/life-reports"
+   ],
+   [
+    "Non Life Reports",
+    "https://irdai.gov.in/non-life-reports"
+   ],
+   [
+    "Claims",
+    "https://irdai.gov.in/claims"
+   ],
+   [
+    "Annual Reports",
+    "https://irdai.gov.in/annual-reports"
+   ],
+   [
+    "Handbooks",
+    "https://irdai.gov.in/handbooks"
+   ],
+   [
+    "Handbook on Indian Insurance Statistics",
+    "https://irdai.gov.in/handbook-of-indian-insurance"
+   ],
+   [
+    "Consumer Affairs Booklet",
+    "https://irdai.gov.in/consumer-affairs-booklet"
+   ],
+   [
+    "Handbook of IR",
+    "https://irdai.gov.in/handbook-of-ir1"
+   ],
+   [
+    "Motor Third Party Data",
+    "https://irdai.gov.in/motor-third-party-data"
+   ],
+   [
+    "Committee Reports",
+    "https://irdai.gov.in/committee-reports"
+   ],
+   [
+    "Industry Trends",
+    "https://irdai.gov.in/industry-trends"
+   ],
+   [
+    "Home",
+    "https://irdai.gov.in"
+   ],
+   [
+    "Reports & Statistics",
+    "https://irdai.gov.in/report-and-statistics1"
+   ],
+   [
+    "Handbooks",
+    "https://irdai.gov.in/handbooks"
+   ],
+   [
+    "1",
+    "https://irdai.gov.in/handbook-of-indian-insurance?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=20&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false&_com_irdai_document_media_IRDAIDocumentMediaPortlet_cur=1"
+   ],
+   [
+    "4",
+    "https://irdai.gov.in/handbook-of-indian-insurance?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=4"
+   ],
+   [
+    "8",
+    "https://irdai.gov.in/handbook-of-indian-insurance?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=8"
+   ],
+   [
+    "20",
+    "https://irdai.gov.in/handbook-of-indian-insurance?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false"
+   ],
+   [
+    "40",
+    "https://irdai.gov.in/handbook-of-indian-insurance?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=40"
+   ],
+   [
+    "60",
+    "https://irdai.gov.in/handbook-of-indian-insurance?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=60"
+   ],
+   [
+    "Short Description",
+    "https://irdai.gov.in/handbook-of-indian-insurance?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_cur=1&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=20&_com_irdai_document_media_IRDAIDocumentMediaPortlet_orderByCol=VisibleText_sortable&_com_irdai_document_media_IRDAIDocumentMediaPortlet_orderByType=asc"
+   ],
+   [
+    "Last Updated",
+    "https://irdai.gov.in/handbook-of-indian-insurance?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_cur=1&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=20&_com_irdai_document_media_IRDAIDocumentMediaPortlet_orderByCol=dateid_String_sortable&_com_irdai_document_media_IRDAIDocumentMediaPortlet_orderByType=asc"
+   ],
+   [
+    "Sub Title",
+    "https://irdai.gov.in/handbook-of-indian-insurance?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_cur=1&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=20&_com_irdai_document_media_IRDAIDocumentMediaPortlet_orderByCol=SubTitle_sortable&_com_irdai_document_media_IRDAIDocumentMediaPortlet_orderByType=asc"
+   ],
+   [
+    "Reference No",
+    "https://irdai.gov.in/handbook-of-indian-insurance?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_cur=1&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=20&_com_irdai_document_media_IRDAIDocumentMediaPortlet_orderByCol=ReferenceNumber_sortable&_com_irdai_document_media_IRDAIDocumentMediaPortlet_orderByType=asc"
+   ],
+   [
+    "Documents",
+    "https://irdai.gov.in/handbook-of-indian-insurance?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_cur=1&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=20&_com_irdai_document_media_IRDAIDocumentMediaPortlet_orderByCol=title&_com_irdai_document_media_IRDAIDocumentMediaPortlet_orderByType=asc"
+   ],
+   [
+    "Handbook on Indian Insurance Statistics 2024-25",
+    "https://irdai.gov.in/document-detail?documentId=8658868"
+   ],
+   [
+    "Handbook on Indian Insurance Statistics 2024-25.zip",
+    "https://irdai.gov.in/documents/37343/825690/Handbook+on+Indian+Insurance+Statistics+2024-25.zip/c754826c-a24f-6adf-65d9-bba0e1bb8d2a?version=1.1&t=1770357151427&download=true"
+   ],
+   [
+    "",
+    "https://irdai.gov.in/documents/37343/825690/Handbook+on+Indian+Insurance+Statistics+2024-25.zip/c754826c-a24f-6adf-65d9-bba0e1bb8d2a?version=1.1&t=1770357151427&download=true"
+   ],
+   [
+    "Handbook on Indian Insurance Statistics 2023-24",
+    "https://irdai.gov.in/document-detail?documentId=6742666"
+   ],
+   [
+    "भारतीय बीमा सांख्यिकी 2023-24 पर पुस्तिका _ Handbook on Indian Insurance Statistics 2023-24.zip",
+    "https://irdai.gov.in/documents/37343/825690/%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4%E0%A5%80%E0%A4%AF+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%B8%E0%A4%BE%E0%A4%82%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BF%E0%A4%95%E0%A5%80+2023-24+%E0%A4%AA%E0%A4%B0+%E0%A4%AA%E0%A5%81%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%BF%E0%A4%95%E0%A4%BE+_+Handbook+on+Indian+Insurance+Statistics+2023-24.zip/3db12734-6285-2c72-136c-dabd9c7cd7ba?version=3.0&t=1740137175563&download=true"
+   ],
+   [
+    "",
+    "https://irdai.gov.in/documents/37343/825690/%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4%E0%A5%80%E0%A4%AF+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%B8%E0%A4%BE%E0%A4%82%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BF%E0%A4%95%E0%A5%80+2023-24+%E0%A4%AA%E0%A4%B0+%E0%A4%AA%E0%A5%81%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%BF%E0%A4%95%E0%A4%BE+_+Handbook+on+Indian+Insurance+Statistics+2023-24.zip/3db12734-6285-2c72-136c-dabd9c7cd7ba?version=3.0&t=1740137175563&download=true"
+   ],
+   [
+    "Handbook on Indian Insurance Statistics 2022-23",
+    "https://irdai.gov.in/document-detail?documentId=4417599"
+   ],
+   [
+    "भारतीय बीमा सांख्यिकी 2022-23 पर पुस्तिका _ Handbook on Indian Insurance Statistics 2022-23.zip",
+    "https://irdai.gov.in/documents/37343/825690/%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4%E0%A5%80%E0%A4%AF+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%B8%E0%A4%BE%E0%A4%82%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BF%E0%A4%95%E0%A5%80+2022-23+%E0%A4%AA%E0%A4%B0+%E0%A4%AA%E0%A5%81%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%BF%E0%A4%95%E0%A4%BE+_+Handbook+on+Indian+Insurance+Statistics+2022-23.zip/665fa6b4-dc4e-e2f3-9b21-f1c5ba8f5a6b?version=2.0&t=1710157936828&download=true"
+   ],
+   [
+    "",
+    "https://irdai.gov.in/documents/37343/825690/%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4%E0%A5%80%E0%A4%AF+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%B8%E0%A4%BE%E0%A4%82%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BF%E0%A4%95%E0%A5%80+2022-23+%E0%A4%AA%E0%A4%B0+%E0%A4%AA%E0%A5%81%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%BF%E0%A4%95%E0%A4%BE+_+Handbook+on+Indian+Insurance+Statistics+2022-23.zip/665fa6b4-dc4e-e2f3-9b21-f1c5ba8f5a6b?version=2.0&t=1710157936828&download=true"
+   ],
+   [
+    "Handbook on Indian Insurance Statistics 2021-22",
+    "https://irdai.gov.in/document-detail?documentId=2434007"
+   ],
+   [
+    "भारतीय बीमा सांख्यिकी 2021-22 पर पुस्तिका _ Handbook on Indian Insurance Statistics 2021-22.zip",
+    "https://irdai.gov.in/documents/37343/825690/%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4%E0%A5%80%E0%A4%AF+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%B8%E0%A4%BE%E0%A4%82%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BF%E0%A4%95%E0%A5%80+2021-22+%E0%A4%AA%E0%A4%B0+%E0%A4%AA%E0%A5%81%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%BF%E0%A4%95%E0%A4%BE+_+Handbook+on+Indian+Insurance+Statistics+2021-22.zip/1fb61ca6-d2d3-5100-6218-a2108b224762?version=1.2&t=1685004848159&download=true"
+   ],
+   [
+    "",
+    "https://irdai.gov.in/documents/37343/825690/%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4%E0%A5%80%E0%A4%AF+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%B8%E0%A4%BE%E0%A4%82%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BF%E0%A4%95%E0%A5%80+2021-22+%E0%A4%AA%E0%A4%B0+%E0%A4%AA%E0%A5%81%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%BF%E0%A4%95%E0%A4%BE+_+Handbook+on+Indian+Insurance+Statistics+2021-22.zip/1fb61ca6-d2d3-5100-6218-a2108b224762?version=1.2&t=1685004848159&download=true"
+   ],
+   [
+    "HANDBOOK ON INDIAN INSURANCE STATISTICS F.Y. 2020-21",
+    "https://irdai.gov.in/document-detail?documentId=1113713"
+   ],
+   [
+    "HANDBOOK ON INDIAN INSURANCE STATISTICS F.Y. 2020-21.zip",
+    "https://irdai.gov.in/documents/37343/825690/HANDBOOK+ON+INDIAN+INSURANCE+STATISTICS+F.Y.+2020-21.zip/03ba7334-01d7-1739-32cc-12e75a098022?version=1.1&t=1665049909969&download=true"
+   ],
+   [
+    "",
+    "https://irdai.gov.in/documents/37343/825690/HANDBOOK+ON+INDIAN+INSURANCE+STATISTICS+F.Y.+2020-21.zip/03ba7334-01d7-1739-32cc-12e75a098022?version=1.1&t=1665049909969&download=true"
+   ],
+   [
+    "HANDBOOK ON INDIAN INSURANCE STATISTICS F.Y. 2019-20",
+    "https://irdai.gov.in/document-detail?documentId=396986"
+   ],
+   [
+    "HANDBOOK ON INDIAN INSURANCE STATISTICS FY 2019-20.pdf",
+    "https://irdai.gov.in/documents/37343/825690/HANDBOOK+ON+INDIAN+INSURANCE+STATISTICS+FY+2019-20.pdf/f8b208fa-5ab1-0b98-e620-1b60b9f747e5?version=2.1&t=1665049899966&download=true"
+   ],
+   [
+    "",
+    "https://irdai.gov.in/documents/37343/825690/HANDBOOK+ON+INDIAN+INSURANCE+STATISTICS+FY+2019-20.pdf/f8b208fa-5ab1-0b98-e620-1b60b9f747e5?version=2.1&t=1665049899966&download=true"
+   ],
+   [
+    "HANDBOOK ON INDIAN INSURANCE STATISTICS F.Y. 2018-19",
+    "https://irdai.gov.in/document-detail?documentId=393906"
+   ],
+   [
+    "HANDBOOK ON INDIAN INSURANCE STATISTICS FY 2018-19.pdf",
+    "https://irdai.gov.in/documents/37343/825690/HANDBOOK+ON+INDIAN+INSURANCE+STATISTICS+FY+2018-19.pdf/732d6395-68f3-75ae-b5c3-3be8cccada1b?version=2.7&t=1665049905447&download=true"
+   ],
+   [
+    "",
+    "https://irdai.gov.in/documents/37343/825690/HANDBOOK+ON+INDIAN+INSURANCE+STATISTICS+FY+2018-19.pdf/732d6395-68f3-75ae-b5c3-3be8cccada1b?version=2.7&t=1665049905447&download=true"
+   ],
+   [
+    "HANDBOOK ON INDIAN INSURANCE STATISTICS-2017-18",
+    "https://irdai.gov.in/document-detail?documentId=693702"
+   ],
+   [
+    "HANDBOOK ON INDIAN INSURANCE STATISTICS-2017-18.zip",
+    "https://irdai.gov.in/documents/37343/825690/HANDBOOK+ON+INDIAN+INSURANCE+STATISTICS-2017-18.zip/47cef1ad-7cdc-901b-d13f-0fec15bdc6ad?version=2.2&t=1665049892696&download=true"
+   ],
+   [
+    "",
+    "https://irdai.gov.in/documents/37343/825690/HANDBOOK+ON+INDIAN+INSURANCE+STATISTICS-2017-18.zip/47cef1ad-7cdc-901b-d13f-0fec15bdc6ad?version=2.2&t=1665049892696&download=true"
+   ],
+   [
+    "HANDBOOK ON INDIAN INSURANCE STATISTICS 2016-17",
+    "https://irdai.gov.in/document-detail?documentId=387669"
+   ],
+   [
+    "भारतीय बीमा सांख्यिकी 2016-17 पर पुस्तिका _ HANDBOOK ON INDIAN INSURANCE STATISTICS 2016-17.pdf",
+    "https://irdai.gov.in/documents/37343/825690/%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4%E0%A5%80%E0%A4%AF+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%B8%E0%A4%BE%E0%A4%82%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BF%E0%A4%95%E0%A5%80+2016-17+%E0%A4%AA%E0%A4%B0+%E0%A4%AA%E0%A5%81%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%BF%E0%A4%95%E0%A4%BE+_+HANDBOOK+ON+INDIAN+INSURANCE+STATISTICS+2016-17.pdf/1dff63ad-6054-1be5-b98a-f420cf0e150d?version=2.4&t=1685004838497&download=true"
+   ],
+   [
+    "",
+    "https://irdai.gov.in/documents/37343/825690/%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4%E0%A5%80%E0%A4%AF+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%B8%E0%A4%BE%E0%A4%82%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BF%E0%A4%95%E0%A5%80+2016-17+%E0%A4%AA%E0%A4%B0+%E0%A4%AA%E0%A5%81%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%BF%E0%A4%95%E0%A4%BE+_+HANDBOOK+ON+INDIAN+INSURANCE+STATISTICS+2016-17.pdf/1dff63ad-6054-1be5-b98a-f420cf0e150d?version=2.4&t=1685004838497&download=true"
+   ],
+   [
+    "HANDBOOK ON INDIAN INSURANCE STATISTICS 2015-16",
+    "https://irdai.gov.in/document-detail?documentId=822169"
+   ],
+   [
+    "HANDBOOK ON INDIAN INSURANCE STATISTICS 2015-16, Mar 2017.pdf",
+    "https://irdai.gov.in/documents/37343/825690/HANDBOOK+ON+INDIAN+INSURANCE+STATISTICS+2015-16%2C+Mar+2017.pdf/b63e4f73-6dba-a167-77fd-b3a9a819fa3c?version=2.3&t=1665049918208&download=true"
+   ],
+   [
+    "",
+    "https://irdai.gov.in/documents/37343/825690/HANDBOOK+ON+INDIAN+INSURANCE+STATISTICS+2015-16%2C+Mar+2017.pdf/b63e4f73-6dba-a167-77fd-b3a9a819fa3c?version=2.3&t=1665049918208&download=true"
+   ],
+   [
+    "HANDBOOK ON INDIAN INSURANCE STATISTICS - TABLES (From F.Y 2013-14)",
+    "https://irdai.gov.in/document-detail?documentId=384453"
+   ],
+   [
+    "HANDBOOK ON INDIAN INSURANCE STATISTICS - TABLES (From FY 2013-14).pdf",
+    "https://irdai.gov.in/documents/37343/825690/HANDBOOK+ON+INDIAN+INSURANCE+STATISTICS+-+TABLES+%28From+FY+2013-14%29.pdf/290d7b0c-6964-b6c0-29c3-0f2fde3204fa?version=2.3&t=1665049958551&download=true"
+   ],
+   [
+    "",
+    "https://irdai.gov.in/documents/37343/825690/HANDBOOK+ON+INDIAN+INSURANCE+STATISTICS+-+TABLES+%28From+FY+2013-14%29.pdf/290d7b0c-6964-b6c0-29c3-0f2fde3204fa?version=2.3&t=1665049958551&download=true"
+   ],
+   [
+    "HANDBOOK ON INDIAN INSURANCE STATISTICS 2014-15",
+    "https://irdai.gov.in/document-detail?documentId=381684"
+   ],
+   [
+    "HANDBOOK ON INDIAN INSURANCE STATISTICS 2014-15.pdf",
+    "https://irdai.gov.in/documents/37343/825690/HANDBOOK+ON+INDIAN+INSURANCE+STATISTICS+2014-15.pdf/441d1a66-6639-b339-2aeb-9c7381891d4a?version=2.2&t=1665049920830&download=true"
+   ],
+   [
+    "",
+    "https://irdai.gov.in/documents/37343/825690/HANDBOOK+ON+INDIAN+INSURANCE+STATISTICS+2014-15.pdf/441d1a66-6639-b339-2aeb-9c7381891d4a?version=2.2&t=1665049920830&download=true"
+   ],
+   [
+    "HANDBOOK ON INDIAN INSURANCE STATISTICS 2013-14",
+    "https://irdai.gov.in/document-detail?documentId=378287"
+   ],
+   [
+    "HANDBOOK ON INDIAN INSURANCE STATISTICS 2013-14.pdf",
+    "https://irdai.gov.in/documents/37343/825690/HANDBOOK+ON+INDIAN+INSURANCE+STATISTICS+2013-14.pdf/9a2c726f-e505-a43a-2ffd-24408c1feb2e?version=2.2&t=1665049926247&download=true"
+   ],
+   [
+    "",
+    "https://irdai.gov.in/documents/37343/825690/HANDBOOK+ON+INDIAN+INSURANCE+STATISTICS+2013-14.pdf/9a2c726f-e505-a43a-2ffd-24408c1feb2e?version=2.2&t=1665049926247&download=true"
+   ],
+   [
+    "HANDBOOK ON INDIAN INSURANCE STATISTICS 2012-13",
+    "https://irdai.gov.in/document-detail?documentId=826518"
+   ],
+   [
+    "HANDBOOK ON INDIAN INSURANCE STATISTICS 2012-13.pdf",
+    "https://irdai.gov.in/documents/37343/825690/HANDBOOK+ON+INDIAN+INSURANCE+STATISTICS+2012-13.pdf/bc61bc38-b9c5-39e6-e168-75ff5bdba599?version=1.4&t=1665049932819&download=true"
+   ],
+   [
+    "",
+    "https://irdai.gov.in/documents/37343/825690/HANDBOOK+ON+INDIAN+INSURANCE+STATISTICS+2012-13.pdf/bc61bc38-b9c5-39e6-e168-75ff5bdba599?version=1.4&t=1665049932819&download=true"
+   ],
+   [
+    "HANDBOOK ON INDIAN INSURANCE STATISTICS 2011-12",
+    "https://irdai.gov.in/document-detail?documentId=372053"
+   ],
+   [
+    "HANDBOOK ON INDIAN INSURANCE STATISTICS 2011-12.pdf",
+    "https://irdai.gov.in/documents/37343/825690/HANDBOOK+ON+INDIAN+INSURANCE+STATISTICS+2011-12.pdf/abdc02fe-1ff2-d398-6a9d-a2cf9e9c94a1?version=1.2&t=1665049936201&download=true"
+   ],
+   [
+    "",
+    "https://irdai.gov.in/documents/37343/825690/HANDBOOK+ON+INDIAN+INSURANCE+STATISTICS+2011-12.pdf/abdc02fe-1ff2-d398-6a9d-a2cf9e9c94a1?version=1.2&t=1665049936201&download=true"
+   ],
+   [
+    "Handbook on Indian Insurance Statistics 2010-11",
+    "https://irdai.gov.in/document-detail?documentId=826201"
+   ],
+   [
+    "Handbook on Indian Insurance Statistics 2010-11.pdf",
+    "https://irdai.gov.in/documents/37343/825690/Handbook+on+Indian+Insurance+Statistics+2010-11.pdf/dac43011-0c4a-81a6-f88d-292848ea1213?version=1.2&t=1665049945942&download=true"
+   ],
+   [
+    "",
+    "https://irdai.gov.in/documents/37343/825690/Handbook+on+Indian+Insurance+Statistics+2010-11.pdf/dac43011-0c4a-81a6-f88d-292848ea1213?version=1.2&t=1665049945942&download=true"
+   ],
+   [
+    "Handbook on Indian Insurance Statistics 2009-10",
+    "https://irdai.gov.in/document-detail?documentId=504468"
+   ],
+   [
+    "Handbook on Indian Insurance Statistics 2009-10.zip",
+    "https://irdai.gov.in/documents/37343/825690/Handbook+on+Indian+Insurance+Statistics+2009-10.zip/92056cba-3d4a-5185-db29-30e9f31cefb8?version=2.2&t=1665049951446&download=true"
+   ],
+   [
+    "",
+    "https://irdai.gov.in/documents/37343/825690/Handbook+on+Indian+Insurance+Statistics+2009-10.zip/92056cba-3d4a-5185-db29-30e9f31cefb8?version=2.2&t=1665049951446&download=true"
+   ],
+   [
+    "Handbook on Indian Insurance Statistics 2007-08",
+    "https://irdai.gov.in/document-detail?documentId=398073"
+   ],
+   [
+    "Handbook on Indian Insurance Statistics 2007-08.pdf",
+    "https://irdai.gov.in/documents/37343/825690/Handbook+on+Indian+Insurance+Statistics+2007-08.pdf/5e91e655-fd90-dd92-1681-99b04c8661ba?version=2.3&t=1665049955675&download=true"
+   ],
+   [
+    "",
+    "https://irdai.gov.in/documents/37343/825690/Handbook+on+Indian+Insurance+Statistics+2007-08.pdf/5e91e655-fd90-dd92-1681-99b04c8661ba?version=2.3&t=1665049955675&download=true"
+   ],
+   [
+    "1",
+    "https://irdai.gov.in/handbook-of-indian-insurance?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=20&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false&_com_irdai_document_media_IRDAIDocumentMediaPortlet_cur=1"
+   ],
+   [
+    "4",
+    "https://irdai.gov.in/handbook-of-indian-insurance?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=4"
+   ],
+   [
+    "8",
+    "https://irdai.gov.in/handbook-of-indian-insurance?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=8"
+   ],
+   [
+    "20",
+    "https://irdai.gov.in/handbook-of-indian-insurance?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false"
+   ],
+   [
+    "40",
+    "https://irdai.gov.in/handbook-of-indian-insurance?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=40"
+   ],
+   [
+    "60",
+    "https://irdai.gov.in/handbook-of-indian-insurance?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=60"
+   ],
+   [
+    "Careers",
+    "https://irdai.gov.in/career-at-irdai"
+   ],
+   [
+    "Tenders",
+    "https://irdai.gov.in/tenders"
+   ],
+   [
+    "Related Links",
+    "https://irdai.gov.in/related-links"
+   ],
+   [
+    "Ebooks",
+    "https://irdai.gov.in/ebooks"
+   ],
+   [
+    "Screen Reader",
+    "https://irdai.gov.in/screen-reader"
+   ],
+   [
+    "FAQs",
+    "https://irdai.gov.in/faqs1"
+   ],
+   [
+    "Archives",
+    "https://irdai.gov.in/archive"
+   ],
+   [
+    "Sitemap",
+    "https://irdai.gov.in/sitemap"
+   ],
+   [
+    "Help",
+    "https://irdai.gov.in/help"
+   ],
+   [
+    "Push Notifications",
+    "https://irdai.gov.in/register-for-email-alerts"
+   ],
+   [
+    "RTI",
+    "https://irdai.gov.in/rti"
+   ],
+   [
+    "FeedBack",
+    "https://irdai.gov.in/web/guest/feedback"
+   ],
+   [
+    "Contact Us",
+    "https://irdai.gov.in/web/guest/contact-us"
+   ],
+   [
+    "Website Policies",
+    "https://irdai.gov.in/website-policies"
+   ],
+   [
+    "Terms & Conditions",
+    "https://irdai.gov.in/terms-conditions"
+   ]
+  ]
+ },
+ {
+  "n": 8,
+  "url": "https://irdai.gov.in/monthly-business-figures1",
+  "status": 200,
+  "final_url": "https://irdai.gov.in/life",
+  "content_type": "text/html;charset=UTF-8",
+  "file": "08_life.html",
+  "bytes": 371224,
+  "sha256": "b6e200516d0a70ed31fac051d0594c6bfa2b746a16649cdede78eec26dc72ba3",
+  "title": "Life - IRDAI",
+  "links": [
+   [
+    "Skip to Content",
+    "https://irdai.gov.in/life#main-content"
+   ],
+   [
+    "",
+    "https://irdai.gov.in"
+   ],
+   [
+    "Main Content",
+    "https://irdai.gov.in/life#mainContent"
+   ],
+   [
+    "",
+    "https://irdai.gov.in/life"
+   ],
+   [
+    "Home",
+    "https://irdai.gov.in/home"
+   ],
+   [
+    "About us",
+    "https://irdai.gov.in/about-us1"
+   ],
+   [
+    "Mission Statement",
+    "https://irdai.gov.in/mission-statement"
+   ],
+   [
+    "Duties and Responsibilities",
+    "https://irdai.gov.in/duties-and-responsibilities"
+   ],
+   [
+    "Composition of Authority",
+    "https://irdai.gov.in/board1"
+   ],
+   [
+    "Chairman and Members of Authority",
+    "https://irdai.gov.in/chairman-and-members-of-authority"
+   ],
+   [
+    "Profile of Top Management",
+    "https://irdai.gov.in/profile-of-top-management"
+   ],
+   [
+    "Appointment Notification of Members",
+    "https://irdai.gov.in/appointment-notification-of-members"
+   ],
+   [
+    "Minutes of Authority Meetings",
+    "https://irdai.gov.in/minutes-of-authority-meeting-public-disclosures"
+   ],
+   [
+    "Insurance Advisory Committee",
+    "https://irdai.gov.in/insurance-advisory-committee"
+   ],
+   [
+    "List of Members",
+    "https://irdai.gov.in/list-of-members1"
+   ],
+   [
+    "Notifications",
+    "https://irdai.gov.in/notifications1"
+   ],
+   [
+    "IAC Consolidated Meeting Regulations",
+    "https://irdai.gov.in/iac_consolidated_meeting_regulations"
+   ],
+   [
+    "Organogram",
+    "https://irdai.gov.in/organogram"
+   ],
+   [
+    "Directory of employees",
+    "https://irdai.gov.in/directory-of-employees"
+   ],
+   [
+    "Address for communication",
+    "https://irdai.gov.in/address-for-communication"
+   ],
+   [
+    "List of Holidays",
+    "https://irdai.gov.in/list-of-holidays"
+   ],
+   [
+    "Careers",
+    "https://irdai.gov.in/careers1"
+   ],
+   [
+    "What We Do",
+    "https://irdai.gov.in/what-we-do"
+   ],
+   [
+    "Career at IRDAI",
+    "https://irdai.gov.in/career-at-irdai"
+   ],
+   [
+    "Opportunities",
+    "https://irdai.gov.in/opportunities"
+   ],
+   [
+    "Notifications/Vacancies",
+    "https://irdai.gov.in/notifications/vacancies"
+   ],
+   [
+    "Results",
+    "https://irdai.gov.in/results"
+   ],
+   [
+    "Internship",
+    "https://irdai.gov.in/internship"
+   ],
+   [
+    "Rosters",
+    "https://irdai.gov.in/rosters"
+   ],
+   [
+    "Organisational Matters",
+    "https://irdai.gov.in/organisational-matters1"
+   ],
+   [
+    "Accounts and Audit functions",
+    "https://irdai.gov.in/accounts-and-audit-functions"
+   ],
+   [
+    "Account statement rules",
+    "https://irdai.gov.in/account-statement-rules"
+   ],
+   [
+    "Annual Accounts",
+    "https://irdai.gov.in/annual-accounts"
+   ],
+   [
+    "Tenders",
+    "https://irdai.gov.in/tenders"
+   ],
+   [
+    "Vigilance",
+    "https://irdai.gov.in/vigilance1"
+   ],
+   [
+    "Contact Details",
+    "https://irdai.gov.in/contact-details1"
+   ],
+   [
+    "Guidelines",
+    "https://irdai.gov.in/guidelines1"
+   ],
+   [
+    "Reports and Manuals",
+    "https://irdai.gov.in/c/portal/layout?p_l_id=499&_com_irdai_document_media_IRDAIDocumentMediaPortlet_INSTANCE_m0BQdlBbYMuh_filterDepartment=VIG&_com_irdai_document_media_IRDAIDocumentMediaPortlet_INSTANCE_m0BQdlBbYMuh_filterFromDate=&_com_irdai_document_media_IRDAIDocumentMediaPortlet_INSTANCE_m0BQdlBbYMuh_filterToDate=&_com_irdai_document_media_IRDAIDocumentMediaPortlet_INSTANCE_m0BQdlBbYMuh_filterSearchKeyword=&_com_irdai_document_media_IRDAIDocumentMediaPortlet_INSTANCE_m0BQdlBbYMuh_filterEntities=ALL&_com_irdai_document_media_IRDAIDocumentMediaPortlet_INSTANCE_m0BQdlBbYMuh_filterClassification=ALL&_com_irdai_document_media_IRDAIDocumentMediaPortlet_INSTANCE_m0BQdlBbYMuh_filterTag=ALL&_com_irdai_document_media_IRDAIDocumentMediaPortlet_INSTANCE_m0BQdlBbYMuh_archiveOn=false&p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet_INSTANCE_m0BQdlBbYMuh&p_p_lifecycle=0"
+   ],
+   [
+    "Function of department or division",
+    "https://irdai.gov.in/function-of-department-or-division"
+   ],
+   [
+    "IRDAI Accounts",
+    "https://irdai.gov.in/about-accounts"
+   ],
+   [
+    "Actuarial",
+    "https://irdai.gov.in/about-actuarial"
+   ],
+   [
+    "Administration",
+    "https://irdai.gov.in/about-administration"
+   ],
+   [
+    "Agency Distribution",
+    "https://irdai.gov.in/about-agency-distribution"
+   ],
+   [
+    "Communication",
+    "https://irdai.gov.in/about-communication"
+   ],
+   [
+    "Board Secretariat",
+    "https://irdai.gov.in/about-corporate-services"
+   ],
+   [
+    "Enforcement",
+    "https://irdai.gov.in/about-enforcement"
+   ],
+   [
+    "Finance and Accounts",
+    "https://irdai.gov.in/about-finance-and-accounts"
+   ],
+   [
+    "Health",
+    "https://irdai.gov.in/about-health"
+   ],
+   [
+    "HR",
+    "https://irdai.gov.in/about-hr"
+   ],
+   [
+    "Information Technology",
+    "https://irdai.gov.in/about-information-technology"
+   ],
+   [
+    "Supervision",
+    "https://irdai.gov.in/about-inspection"
+   ],
+   [
+    "Insurance Marketing Firm",
+    "https://irdai.gov.in/about-insurance-marketing-firm"
+   ],
+   [
+    "Intermediaries",
+    "https://irdai.gov.in/about-brokers"
+   ],
+   [
+    "Investment",
+    "https://irdai.gov.in/about-investment"
+   ],
+   [
+    "Legal",
+    "https://irdai.gov.in/about-legal"
+   ],
+   [
+    "Life",
+    "https://irdai.gov.in/about-life"
+   ],
+   [
+    "Non-Life",
+    "https://irdai.gov.in/about-non-life"
+   ],
+   [
+    "Policyholders Protection and Grievance Redressal",
+    "https://irdai.gov.in/about-consumer-affairs"
+   ],
+   [
+    "Re-insurance",
+    "https://irdai.gov.in/about-re-insurance"
+   ],
+   [
+    "Insurance Inclusion and Development",
+    "https://irdai.gov.in/about-sectoral-development"
+   ],
+   [
+    "Surveyors",
+    "https://irdai.gov.in/about-surveyors"
+   ],
+   [
+    "Vigilance",
+    "https://irdai.gov.in/about-vigilance"
+   ],
+   [
+    "Former Chairmen/Members",
+    "https://irdai.gov.in/former-chairmen/members"
+   ],
+   [
+    "Legal",
+    "https://irdai.gov.in/legal"
+   ],
+   [
+    "Acts",
+    "https://irdai.gov.in/acts"
+   ],
+   [
+    "Rules",
+    "https://irdai.gov.in/rules"
+   ],
+   [
+    "Regulations",
+    "https://irdai.gov.in/regulations2"
+   ],
+   [
+    "Consolidated & Gazette Notified Regulations",
+    "https://irdai.gov.in/consolidated-gazette-notified-regulations"
+   ],
+   [
+    "Updated Regulations",
+    "https://irdai.gov.in/updated-regulations"
+   ],
+   [
+    "Notifications",
+    "https://irdai.gov.in/notifications"
+   ],
+   [
+    "Circulars",
+    "https://irdai.gov.in/circulars"
+   ],
+   [
+    "Guidelines",
+    "https://irdai.gov.in/guidelines"
+   ],
+   [
+    "Orders",
+    "https://irdai.gov.in/orders1"
+   ],
+   [
+    "Notices",
+    "https://irdai.gov.in/notices1"
+   ],
+   [
+    "Exposure Drafts",
+    "https://irdai.gov.in/exposure-drafts"
+   ],
+   [
+    "RTI",
+    "https://irdai.gov.in/rti"
+   ],
+   [
+    "Programmes to advance understanding of RTI",
+    "https://irdai.gov.in/programmes-to-advance-understanding-of-rti"
+   ],
+   [
+    "Information Under Section 4(1)(b) of RTI Act' 2005",
+    "https://irdai.gov.in/information-under-section-4-1-b-of-rti-act-2005"
+   ],
+   [
+    "Information Under Section 4(1)(d) of RTI Act' 2005",
+    "https://irdai.gov.in/information-under-section-4-1-d-of-rti-act-2005"
+   ],
+   [
+    "RTI Act",
+    "https://irdai.gov.in/rti-act"
+   ],
+   [
+    "Orders",
+    "https://irdai.gov.in/c/portal/layout?p_l_id=1018&_com_irdai_document_media_IRDAIDocumentMediaPortlet_filterDepartment=ALL&_com_irdai_document_media_IRDAIDocumentMediaPortlet_filterFromDate=&_com_irdai_document_media_IRDAIDocumentMediaPortlet_filterToDate=&_com_irdai_document_media_IRDAIDocumentMediaPortlet_filterSearchKeyword=&_com_irdai_document_media_IRDAIDocumentMediaPortlet_filterEntities=ALL&_com_irdai_document_media_IRDAIDocumentMediaPortlet_filterClassification=RTI&_com_irdai_document_media_IRDAIDocumentMediaPortlet_filterTag=ALL&_com_irdai_document_media_IRDAIDocumentMediaPortlet_archiveOn=false&p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0"
+   ],
+   [
+    "CIC Orders",
+    "https://irdai.gov.in/cic-orders"
+   ],
+   [
+    "Rules",
+    "https://irdai.gov.in/rules2"
+   ],
+   [
+    "Tenders",
+    "https://irdai.gov.in/rti-2005/tenders"
+   ],
+   [
+    "FAQs",
+    "https://irdai.gov.in/web/guest/faqs1"
+   ],
+   [
+    "Antimoney laundering and CFT",
+    "https://irdai.gov.in/antimoney-laundering"
+   ],
+   [
+    "Other Communication",
+    "https://irdai.gov.in/other-communication"
+   ],
+   [
+    "Regulatory Actions",
+    "https://irdai.gov.in/enforcement"
+   ],
+   [
+    "Warnings and Penalties",
+    "https://irdai.gov.in/warnings-and-penalties"
+   ],
+   [
+    "Consumer Affairs",
+    "https://irdai.gov.in/consumer-affairs1"
+   ],
+   [
+    "Evolution of Insurance",
+    "https://irdai.gov.in/evolution-of-insurance"
+   ],
+   [
+    "Regulations",
+    "https://irdai.gov.in/web/guest/consolidated-gazette-notified-regulations?filtersApplied=true&filterDepartment=CAD"
+   ],
+   [
+    "Public Notices",
+    "https://irdai.gov.in/public-notices3"
+   ],
+   [
+    "List of Registered Insurance Entities",
+    "https://irdai.gov.in/list-of-licensed-insurance-entities"
+   ],
+   [
+    "List of Life Insurers",
+    "https://irdai.gov.in/list-of-life-insurers1"
+   ],
+   [
+    "List of General Insurers",
+    "https://irdai.gov.in/list-of-general-insurers"
+   ],
+   [
+    "List of Health Insurers",
+    "https://irdai.gov.in/list-of-health-insurers"
+   ],
+   [
+    "List of Reinsurers",
+    "https://irdai.gov.in/list-of-reinsurers"
+   ],
+   [
+    "List of Reinsurer branches",
+    "https://irdai.gov.in/list-of-reinsurer-branches"
+   ],
+   [
+    "List of Corporate Agents",
+    "https://irdai.gov.in/list-of-corporate-agents1"
+   ],
+   [
+    "List Of Corporate Agents",
+    "https://irdai.gov.in/list-of-corporate-agents2"
+   ],
+   [
+    "List of Telemarketer",
+    "https://irdai.gov.in/list-of-telemarketer1"
+   ],
+   [
+    "List of Brokers",
+    "https://irdai.gov.in/list-of-brokers"
+   ],
+   [
+    "List of IMFs",
+    "https://irdai.gov.in/list-of-imfs"
+   ],
+   [
+    "List of Surveyors",
+    "https://irdai.gov.in/list-of-surveyors"
+   ],
+   [
+    "Corporate Surveyors",
+    "https://irdai.gov.in/corporate-surveyors1"
+   ],
+   [
+    "Director Partner Surveyors",
+    "https://irdai.gov.in/director-partner-surveyors1"
+   ],
+   [
+    "Individual Surveyors",
+    "https://irdai.gov.in/individual-surveyors"
+   ],
+   [
+    "List of Insurance Repository",
+    "https://irdai.gov.in/list-of-insurance-repository"
+   ],
+   [
+    "List of TPAs",
+    "https://irdai.gov.in/list-of-tpas"
+   ],
+   [
+    "List of Web Aggregators",
+    "https://irdai.gov.in/list-of-web-aggregators"
+   ],
+   [
+    "Grievance Redressal",
+    "https://irdai.gov.in/grievance-redressal"
+   ],
+   [
+    "Consumer Affairs Booklet",
+    "https://irdai.gov.in/consumer-affairs-booklet1"
+   ],
+   [
+    "Grievance Redressal Mechanism",
+    "https://irdai.gov.in/grievance-redressal-mechanism1"
+   ],
+   [
+    "Functions",
+    "https://irdai.gov.in/functions"
+   ],
+   [
+    "List of GROs",
+    "https://irdai.gov.in/list-of-gros"
+   ],
+   [
+    "Ombudsman",
+    "https://irdai.gov.in/ombudsman"
+   ],
+   [
+    "Forms",
+    "https://irdai.gov.in/documents/37343/620662/policyholder+complaints+registration+form29092021.pdf/5ff5e0af-a34e-6cba-91d2-fe053b076624?t=1633587167192"
+   ],
+   [
+    "FAQs",
+    "https://irdai.gov.in/hi/web/guest/grievance-cell-cad"
+   ],
+   [
+    "Insurance Products",
+    "https://irdai.gov.in/products-offered"
+   ],
+   [
+    "Life Insurance Products Terms and Conditions",
+    "https://irdai.gov.in/life-insurance-products"
+   ],
+   [
+    "List of Life Products",
+    "https://irdai.gov.in/list-of-life-products"
+   ],
+   [
+    "Non-Life Insurance Products",
+    "https://irdai.gov.in/non-life-insurance-products"
+   ],
+   [
+    "Health Insurance Products",
+    "https://irdai.gov.in/health-insurance-products"
+   ],
+   [
+    "Standard Products",
+    "https://irdai.gov.in/standard-products"
+   ],
+   [
+    "Standard Products Life",
+    "https://irdai.gov.in/standard-products-life"
+   ],
+   [
+    "Standard Products General Insurance",
+    "https://irdai.gov.in/standard-products-general-insurance"
+   ],
+   [
+    "Standard Products Health Insurance",
+    "https://irdai.gov.in/standard-products-health-insurance"
+   ],
+   [
+    "About Microinsurance",
+    "https://irdai.gov.in/about-microinsurance"
+   ],
+   [
+    "FAQs",
+    "https://irdai.gov.in/faqs1"
+   ],
+   [
+    "ACTUARIAL",
+    "https://irdai.gov.in/actuarial"
+   ],
+   [
+    "AGENCY DISTRIBUTION",
+    "https://irdai.gov.in/agency-distribution"
+   ],
+   [
+    "BROKERS",
+    "https://irdai.gov.in/brokers1"
+   ],
+   [
+    "COMMUNICATIONS",
+    "https://irdai.gov.in/communications"
+   ],
+   [
+    "CORPORATE AGENTS",
+    "https://irdai.gov.in/corporate-agents1"
+   ],
+   [
+    "DISTRIBUTION DEVELOPMENT",
+    "https://irdai.gov.in/distribution-development1"
+   ],
+   [
+    "INSURANCE WEB AGGREGATORS",
+    "https://irdai.gov.in/insurance-web-aggregators"
+   ],
+   [
+    "INSURANCE REPOSITORIES (IR)",
+    "https://irdai.gov.in/irs"
+   ],
+   [
+    "INSURANCE SELF NETWORK PLATFORM (ISNP)",
+    "https://irdai.gov.in/insurance-self-network-platform-isnp-"
+   ],
+   [
+    "ENFORCEMENT",
+    "https://irdai.gov.in/enforcement1"
+   ],
+   [
+    "FAQs on Guidelines on Standard Personal Accident Insurance Product: Saral Suraksha Bima",
+    "https://irdai.gov.in/faqs-on-guidelines-on-standard-personal-accident-insurance-product-saral-suraksha-bima"
+   ],
+   [
+    "FAQs on Individual Covid Standard Health Policy: Corona Kavach Policy",
+    "https://irdai.gov.in/faqs-on-individual-covid-standard-health-policy-corona-kavach-policy"
+   ],
+   [
+    "FAQ's on Standard Health Product Arogya Sanjeevani Product",
+    "https://irdai.gov.in/faq-s-on-standard-health-product-arogya-sanjeevani-product"
+   ],
+   [
+    "FINANCE & ACCOUNTS (LIFE)",
+    "https://irdai.gov.in/finance-accounts-life-"
+   ],
+   [
+    "FINANCE & ACCOUNTS (NON LIFE)",
+    "https://irdai.gov.in/finance-accounts-non-life-"
+   ],
+   [
+    "GRIEVANCE CELL-PPGR",
+    "https://irdai.gov.in/grievance-cell-cad"
+   ],
+   [
+    "HEALTH DEPT",
+    "https://irdai.gov.in/health-dept"
+   ],
+   [
+    "IMF FAQs",
+    "https://irdai.gov.in/imf1"
+   ],
+   [
+    "INFORMATION TECHNOLOGY",
+    "https://irdai.gov.in/information-technology"
+   ],
+   [
+    "Supervision",
+    "https://irdai.gov.in/inspection"
+   ],
+   [
+    "INTERNAL ACCOUNTS",
+    "https://irdai.gov.in/internal-accounts"
+   ],
+   [
+    "LIFE",
+    "https://irdai.gov.in/life3"
+   ],
+   [
+    "NON LIFE",
+    "https://irdai.gov.in/non-life2"
+   ],
+   [
+    "SURVEYORS",
+    "https://irdai.gov.in/surveyors1"
+   ],
+   [
+    "VIGILANCE",
+    "https://irdai.gov.in/vigilance"
+   ],
+   [
+    "FAQs on Insurance Intermediaries (Amendment) Regulations,2026",
+    "https://irdai.gov.in/faqs-on-insurance-intermediaries-amendment-regulations-2026"
+   ],
+   [
+    "Reports & Statistics",
+    "https://irdai.gov.in/report-and-statistics1"
+   ],
+   [
+    "Monthly business figures",
+    "https://irdai.gov.in/monthly-business-figures1"
+   ],
+   [
+    "Life",
+    "https://irdai.gov.in/life"
+   ],
+   [
+    "Non-Life",
+    "https://irdai.gov.in/non-life"
+   ],
+   [
+    "Segment wise data",
+    "https://irdai.gov.in/segment-wise-data"
+   ],
+   [
+    "Life",
+    "https://irdai.gov.in/life1"
+   ],
+   [
+    "Non-Life",
+    "https://irdai.gov.in/non-life1"
+   ],
+   [
+    "Graphical Representation - Monthly Business Figures",
+    "https://irdai.gov.in/graphical-representation-monthly-business-figures1"
+   ],
+   [
+    "Life Reports",
+    "https://irdai.gov.in/life-reports"
+   ],
+   [
+    "Non Life Reports",
+    "https://irdai.gov.in/non-life-reports"
+   ],
+   [
+    "Claims",
+    "https://irdai.gov.in/claims"
+   ],
+   [
+    "Annual Reports",
+    "https://irdai.gov.in/annual-reports"
+   ],
+   [
+    "Handbooks",
+    "https://irdai.gov.in/handbooks"
+   ],
+   [
+    "Handbook on Indian Insurance Statistics",
+    "https://irdai.gov.in/handbook-of-indian-insurance"
+   ],
+   [
+    "Consumer Affairs Booklet",
+    "https://irdai.gov.in/consumer-affairs-booklet"
+   ],
+   [
+    "Handbook of IR",
+    "https://irdai.gov.in/handbook-of-ir1"
+   ],
+   [
+    "Motor Third Party Data",
+    "https://irdai.gov.in/motor-third-party-data"
+   ],
+   [
+    "Committee Reports",
+    "https://irdai.gov.in/committee-reports"
+   ],
+   [
+    "Industry Trends",
+    "https://irdai.gov.in/industry-trends"
+   ],
+   [
+    "Industry",
+    "https://irdai.gov.in/industry1"
+   ],
+   [
+    "Regulated Entities",
+    "https://irdai.gov.in/regulated-entities"
+   ],
+   [
+    "Life Insurers",
+    "https://irdai.gov.in/life-insurers1"
+   ],
+   [
+    "Non-Life Insurers",
+    "https://irdai.gov.in/non-life-insurers1"
+   ],
+   [
+    "Health Insurers",
+    "https://irdai.gov.in/health-insurers1"
+   ],
+   [
+    "Reinsurers",
+    "https://irdai.gov.in/reinsurers"
+   ],
+   [
+    "Foreign Reinsurance Branches",
+    "https://irdai.gov.in/reinsurance-branches"
+   ],
+   [
+    "Brokers",
+    "https://irdai.gov.in/brokers"
+   ],
+   [
+    "Corporate Agents",
+    "https://irdai.gov.in/corporate-agents"
+   ],
+   [
+    "List Of Corporate Agents",
+    "https://irdai.gov.in/list-of-corporate-agents"
+   ],
+   [
+    "List of Telemarketer",
+    "https://irdai.gov.in/list-of-telemarketer2"
+   ],
+   [
+    "Lapsed CoR of Corporate Agents",
+    "https://irdai.gov.in/lapsed-cor-of-corporate-agents"
+   ],
+   [
+    "List of Black Listed agents",
+    "https://irdai.gov.in/list-of-black-listed-agents"
+   ],
+   [
+    "Surveyors",
+    "https://irdai.gov.in/surveyors"
+   ],
+   [
+    "Corporate Surveyors",
+    "https://irdai.gov.in/corporate-surveyors"
+   ],
+   [
+    "Director Partner Surveyors",
+    "https://irdai.gov.in/director-partner-surveyors"
+   ],
+   [
+    "Individual Surveyors",
+    "https://irdai.gov.in/individual-surveyors1"
+   ],
+   [
+    "Web Aggregators",
+    "https://irdai.gov.in/web-aggregators"
+   ],
+   [
+    "Insurance Repository",
+    "https://irdai.gov.in/insurance-repository"
+   ],
+   [
+    "IMF (Insurance Marketing Firms)",
+    "https://irdai.gov.in/imf"
+   ],
+   [
+    "Third Party Administrators (TPA's)",
+    "https://irdai.gov.in/third-party-administrators-tpa-s-"
+   ],
+   [
+    "Insurance Councils",
+    "https://irdai.gov.in/insurance-councils1"
+   ],
+   [
+    "Life Insurance Council",
+    "https://irdai.gov.in/life-insurance-council1"
+   ],
+   [
+    "General Insurance Council",
+    "https://irdai.gov.in/general-insurance-council1"
+   ],
+   [
+    "Panel of Actuaries",
+    "https://irdai.gov.in/panel-of-actuaries"
+   ],
+   [
+    "How To",
+    "https://irdai.gov.in/how-to"
+   ],
+   [
+    "Requirements for Registering as a Life Insurer",
+    "https://irdai.gov.in/requirements-for-license-as-a-life-insurer"
+   ],
+   [
+    "Requirements for Registering as a Non-Life Insurer",
+    "https://irdai.gov.in/requirements-for-license-as-a-non-life-insurer"
+   ],
+   [
+    "Requirements for Registering as a Broker",
+    "https://irdai.gov.in/requirements-for-license-as-a-broker"
+   ],
+   [
+    "Requirements for Registering as a Corporate Agent",
+    "https://irdai.gov.in/requirements-for-license-as-a-corporate-agent"
+   ],
+   [
+    "Requirements for Registering as a Surveyor",
+    "https://irdai.gov.in/requirements-for-license-as-a-surveyor"
+   ],
+   [
+    "Requirements for Registering as a Web Aggregator",
+    "https://irdai.gov.in/requirements-for-license-as-a-web-aggregator"
+   ],
+   [
+    "Requirements for Registering as a Insurance Repository",
+    "https://irdai.gov.in/requirements-for-license-as-a-insurance-repository"
+   ],
+   [
+    "Requirements for Registering as a TPA",
+    "https://irdai.gov.in/requirements-for-license-as-a-tpa"
+   ],
+   [
+    "Requirements for Registering as a IMF",
+    "https://irdai.gov.in/requirements-for-license-as-a-imf"
+   ],
+   [
+    "Requirements for Registering as a ISNP",
+    "https://irdai.gov.in/requirements-for-license-as-a-isnp"
+   ],
+   [
+    "Public Disclosures",
+    "https://irdai.gov.in/public-disclosures"
+   ],
+   [
+    "Life",
+    "https://irdai.gov.in/life2"
+   ],
+   [
+    "General",
+    "https://irdai.gov.in/general"
+   ],
+   [
+    "List Of Foreign Reinsurance Branches",
+    "https://irdai.gov.in/frbs"
+   ],
+   [
+    "Council for Insurance Ombudsmen",
+    "https://www.cioins.co.in/"
+   ],
+   [
+    "Related Organizations",
+    "https://irdai.gov.in/related-organizations"
+   ],
+   [
+    "Institute of Actuaries of India",
+    "https://actuariesindia.org/"
+   ],
+   [
+    "Insurance Brokers Association of India",
+    "https://ibai.org/"
+   ],
+   [
+    "Indian Institute of Insurance Surveyors & Loss Assessors",
+    "https://www.iiisla.co.in/"
+   ],
+   [
+    "Insurance Information Bureau of India",
+    "https://iib.gov.in/"
+   ],
+   [
+    "Inter-operable Regulatory Sandbox FAQs",
+    "https://irdai.gov.in/web/guest/document-detail?documentId=7858787"
+   ],
+   [
+    "Media",
+    "https://irdai.gov.in/media1"
+   ],
+   [
+    "Press Releases",
+    "https://irdai.gov.in/press-releases"
+   ],
+   [
+    "Public Notices",
+    "https://irdai.gov.in/public-notices1"
+   ],
+   [
+    "Response Corner",
+    "https://irdai.gov.in/response-corner"
+   ],
+   [
+    "IRDAI Journal",
+    "https://irdai.gov.in/irdai-journal"
+   ],
+   [
+    "International Affairs",
+    "https://irdai.gov.in/international-affairs"
+   ],
+   [
+    "IRDAI initiative to least developed countries",
+    "https://irdai.gov.in/irdai-initiative-to-least-developed-countries"
+   ],
+   [
+    "SAIRM",
+    "https://irdai.gov.in/sairm"
+   ],
+   [
+    "Media Gallery",
+    "https://irdai.gov.in/media-gallery"
+   ],
+   [
+    "Events",
+    "https://irdai.gov.in/events1"
+   ],
+   [
+    "Conferences",
+    "https://irdai.gov.in/conferences"
+   ],
+   [
+    "Seminars",
+    "https://irdai.gov.in/seminars"
+   ],
+   [
+    "Speeches",
+    "https://irdai.gov.in/speeches"
+   ],
+   [
+    "Register for Email-Alerts",
+    "https://irdai.gov.in/register-for-email-alerts"
+   ],
+   [
+    "Open House at IRDAI",
+    "https://irdai.gov.in/open-house-at-irdai"
+   ],
+   [
+    "E-Services",
+    "https://irdai.gov.in/e-services"
+   ],
+   [
+    "Corporate Agency Portal",
+    "https://agencyportal.irdai.gov.in/Index.htm"
+   ],
+   [
+    "New Insurer Registration Corner",
+    "https://noc.irdai.gov.in/Register"
+   ],
+   [
+    "Bima Bharosa",
+    "https://bimabharosa.irdai.gov.in/"
+   ],
+   [
+    "Comments on Exposure Drafts",
+    "https://irdai.gov.in/comments-on-exposure-drafts"
+   ],
+   [
+    "Forms",
+    "https://irdai.gov.in/forms"
+   ],
+   [
+    "Research Corner",
+    "https://irdai.gov.in/research-corner"
+   ],
+   [
+    "Careers",
+    "https://irdai.gov.in/what-we-do"
+   ],
+   [
+    "Monthly business figures",
+    "https://irdai.gov.in/monthly-business-figures1"
+   ],
+   [
+    "Life",
+    "https://irdai.gov.in/life"
+   ],
+   [
+    "Non-Life",
+    "https://irdai.gov.in/non-life"
+   ],
+   [
+    "Segment wise data",
+    "https://irdai.gov.in/segment-wise-data"
+   ],
+   [
+    "Life",
+    "https://irdai.gov.in/life1"
+   ],
+   [
+    "Non-Life",
+    "https://irdai.gov.in/non-life1"
+   ],
+   [
+    "Graphical Representation - Monthly Business Figures",
+    "https://irdai.gov.in/graphical-representation-monthly-business-figures1"
+   ],
+   [
+    "Life Reports",
+    "https://irdai.gov.in/life-reports"
+   ],
+   [
+    "Non Life Reports",
+    "https://irdai.gov.in/non-life-reports"
+   ],
+   [
+    "Claims",
+    "https://irdai.gov.in/claims"
+   ],
+   [
+    "Annual Reports",
+    "https://irdai.gov.in/annual-reports"
+   ],
+   [
+    "Handbooks",
+    "https://irdai.gov.in/handbooks"
+   ],
+   [
+    "Handbook on Indian Insurance Statistics",
+    "https://irdai.gov.in/handbook-of-indian-insurance"
+   ],
+   [
+    "Consumer Affairs Booklet",
+    "https://irdai.gov.in/consumer-affairs-booklet"
+   ],
+   [
+    "Handbook of IR",
+    "https://irdai.gov.in/handbook-of-ir1"
+   ],
+   [
+    "Motor Third Party Data",
+    "https://irdai.gov.in/motor-third-party-data"
+   ],
+   [
+    "Committee Reports",
+    "https://irdai.gov.in/committee-reports"
+   ],
+   [
+    "Industry Trends",
+    "https://irdai.gov.in/industry-trends"
+   ],
+   [
+    "Monthly business figures",
+    "https://irdai.gov.in/monthly-business-figures1"
+   ],
+   [
+    "Life",
+    "https://irdai.gov.in/life"
+   ],
+   [
+    "Non-Life",
+    "https://irdai.gov.in/non-life"
+   ],
+   [
+    "Segment wise data",
+    "https://irdai.gov.in/segment-wise-data"
+   ],
+   [
+    "Life",
+    "https://irdai.gov.in/life1"
+   ],
+   [
+    "Non-Life",
+    "https://irdai.gov.in/non-life1"
+   ],
+   [
+    "Graphical Representation - Monthly Business Figures",
+    "https://irdai.gov.in/graphical-representation-monthly-business-figures1"
+   ],
+   [
+    "Life Reports",
+    "https://irdai.gov.in/life-reports"
+   ],
+   [
+    "Non Life Reports",
+    "https://irdai.gov.in/non-life-reports"
+   ],
+   [
+    "Claims",
+    "https://irdai.gov.in/claims"
+   ],
+   [
+    "Annual Reports",
+    "https://irdai.gov.in/annual-reports"
+   ],
+   [
+    "Handbooks",
+    "https://irdai.gov.in/handbooks"
+   ],
+   [
+    "Handbook on Indian Insurance Statistics",
+    "https://irdai.gov.in/handbook-of-indian-insurance"
+   ],
+   [
+    "Consumer Affairs Booklet",
+    "https://irdai.gov.in/consumer-affairs-booklet"
+   ],
+   [
+    "Handbook of IR",
+    "https://irdai.gov.in/handbook-of-ir1"
+   ],
+   [
+    "Motor Third Party Data",
+    "https://irdai.gov.in/motor-third-party-data"
+   ],
+   [
+    "Committee Reports",
+    "https://irdai.gov.in/committee-reports"
+   ],
+   [
+    "Industry Trends",
+    "https://irdai.gov.in/industry-trends"
+   ],
+   [
+    "Home",
+    "https://irdai.gov.in"
+   ],
+   [
+    "Reports & Statistics",
+    "https://irdai.gov.in/report-and-statistics1"
+   ],
+   [
+    "Monthly business figures",
+    "https://irdai.gov.in/monthly-business-figures1"
+   ],
+   [
+    "1",
+    "https://irdai.gov.in/life?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=20&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false&_com_irdai_document_media_IRDAIDocumentMediaPortlet_cur=1"
+   ],
+   [
+    "2",
+    "https://irdai.gov.in/life?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=20&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false&_com_irdai_document_media_IRDAIDocumentMediaPortlet_cur=2"
+   ],
+   [
+    "3",
+    "https://irdai.gov.in/life?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=20&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false&_com_irdai_document_media_IRDAIDocumentMediaPortlet_cur=3"
+   ],
+   [
+    "4",
+    "https://irdai.gov.in/life?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=20&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false&_com_irdai_document_media_IRDAIDocumentMediaPortlet_cur=4"
+   ],
+   [
+    "5",
+    "https://irdai.gov.in/life?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=20&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false&_com_irdai_document_media_IRDAIDocumentMediaPortlet_cur=5"
+   ],
+   [
+    "6",
+    "https://irdai.gov.in/life?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=20&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false&_com_irdai_document_media_IRDAIDocumentMediaPortlet_cur=6"
+   ],
+   [
+    "7",
+    "https://irdai.gov.in/life?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=20&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false&_com_irdai_document_media_IRDAIDocumentMediaPortlet_cur=7"
+   ],
+   [
+    "8",
+    "https://irdai.gov.in/life?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=20&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false&_com_irdai_document_media_IRDAIDocumentMediaPortlet_cur=8"
+   ],
+   [
+    "9",
+    "https://irdai.gov.in/life?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=20&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false&_com_irdai_document_media_IRDAIDocumentMediaPortlet_cur=9"
+   ],
+   [
+    "10",
+    "https://irdai.gov.in/life?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=20&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false&_com_irdai_document_media_IRDAIDocumentMediaPortlet_cur=10"
+   ],
+   [
+    "11",
+    "https://irdai.gov.in/life?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=20&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false&_com_irdai_document_media_IRDAIDocumentMediaPortlet_cur=11"
+   ],
+   [
+    "12",
+    "https://irdai.gov.in/life?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=20&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false&_com_irdai_document_media_IRDAIDocumentMediaPortlet_cur=12"
+   ],
+   [
+    "13",
+    "https://irdai.gov.in/life?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=20&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false&_com_irdai_document_media_IRDAIDocumentMediaPortlet_cur=13"
+   ],
+   [
+    "4",
+    "https://irdai.gov.in/life?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=4"
+   ],
+   [
+    "8",
+    "https://irdai.gov.in/life?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=8"
+   ],
+   [
+    "20",
+    "https://irdai.gov.in/life?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false"
+   ],
+   [
+    "40",
+    "https://irdai.gov.in/life?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=40"
+   ],
+   [
+    "60",
+    "https://irdai.gov.in/life?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=60"
+   ],
+   [
+    "Next",
+    "https://irdai.gov.in/life?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=20&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false&_com_irdai_document_media_IRDAIDocumentMediaPortlet_cur=2"
+   ],
+   [
+    "Last →",
+    "https://irdai.gov.in/life?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=20&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false&_com_irdai_document_media_IRDAIDocumentMediaPortlet_cur=13"
+   ],
+   [
+    "Short Description",
+    "https://irdai.gov.in/life?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_cur=1&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=20&_com_irdai_document_media_IRDAIDocumentMediaPortlet_orderByCol=VisibleText_sortable&_com_irdai_document_media_IRDAIDocumentMediaPortlet_orderByType=asc"
+   ],
+   [
+    "Last Updated",
+    "https://irdai.gov.in/life?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_cur=1&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=20&_com_irdai_document_media_IRDAIDocumentMediaPortlet_orderByCol=dateid_String_sortable&_com_irdai_document_media_IRDAIDocumentMediaPortlet_orderByType=asc"
+   ],
+   [
+    "Sub Title",
+    "https://irdai.gov.in/life?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_cur=1&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=20&_com_irdai_document_media_IRDAIDocumentMediaPortlet_orderByCol=SubTitle_sortable&_com_irdai_document_media_IRDAIDocumentMediaPortlet_orderByType=asc"
+   ],
+   [
+    "Reference No",
+    "https://irdai.gov.in/life?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_cur=1&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=20&_com_irdai_document_media_IRDAIDocumentMediaPortlet_orderByCol=ReferenceNumber_sortable&_com_irdai_document_media_IRDAIDocumentMediaPortlet_orderByType=asc"
+   ],
+   [
+    "Documents",
+    "https://irdai.gov.in/life?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_cur=1&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=20&_com_irdai_document_media_IRDAIDocumentMediaPortlet_orderByCol=title&_com_irdai_document_media_IRDAIDocumentMediaPortlet_orderByType=asc"
+   ],
+   [
+    "मासिक व्यावसायिक आंकड़े / Monthly business Figures",
+    "https://irdai.gov.in/document-detail?documentId=10038976"
+   ],
+   [
+    "31.10.2026 तक जीवन बीमाकर्ताओं का प्रथम वर्ष का प्रीमियम _ First year premium of Life Insurers as on 31.10.2026.xlsx",
+    "https://irdai.gov.in/documents/37343/365644/31.10.2026+%E0%A4%A4%E0%A4%95+%E0%A4%9C%E0%A5%80%E0%A4%B5%E0%A4%A8+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A5%E0%A4%AE+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%BF%E0%A4%AF%E0%A4%AE+_+First+year+premium+of+Life+Insurers+as+on+31.10.2026.xlsx/1865f317-2f99-6545-f029-c7cfe6f48125?version=1.0&t=1794916861420&download=true"
+   ],
+   [
+    "",
+    "https://irdai.gov.in/documents/37343/365644/31.10.2026+%E0%A4%A4%E0%A4%95+%E0%A4%9C%E0%A5%80%E0%A4%B5%E0%A4%A8+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A5%E0%A4%AE+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%BF%E0%A4%AF%E0%A4%AE+_+First+year+premium+of+Life+Insurers+as+on+31.10.2026.xlsx/1865f317-2f99-6545-f029-c7cfe6f48125?version=1.0&t=1794916861420&download=true"
+   ],
+   [
+    "व्यापार के आँकड़े / Business Figures",
+    "https://irdai.gov.in/document-detail?documentId=9884488"
+   ],
+   [
+    "30.09.2026 तक जीवन बीमाकर्ताओं का प्रथम वर्ष का प्रीमियम _ First year premium of Life Insurers as at 30.09.2026.xlsx",
+    "https://irdai.gov.in/documents/37343/365644/30.09.2026+%E0%A4%A4%E0%A4%95+%E0%A4%9C%E0%A5%80%E0%A4%B5%E0%A4%A8+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A5%E0%A4%AE+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%BF%E0%A4%AF%E0%A4%AE+_+First+year+premium+of+Life+Insurers+as+at+30.09.2026.xlsx/26f0a7fa-24c1-574a-6a6a-1eda5a565b69?version=1.0&t=1791548460850&download=true"
+   ],
+   [
+    "",
+    "https://irdai.gov.in/documents/37343/365644/30.09.2026+%E0%A4%A4%E0%A4%95+%E0%A4%9C%E0%A5%80%E0%A4%B5%E0%A4%A8+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A5%E0%A4%AE+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%BF%E0%A4%AF%E0%A4%AE+_+First+year+premium+of+Life+Insurers+as+at+30.09.2026.xlsx/26f0a7fa-24c1-574a-6a6a-1eda5a565b69?version=1.0&t=1791548460850&download=true"
+   ],
+   [
+    "मासिक व्यावसायिक आँकड़े / Monthly Business Figures",
+    "https://irdai.gov.in/document-detail?documentId=9822452"
+   ],
+   [
+    "31.08.2026 को जीवन बीमाकर्ताओं का प्रथम वर्ष का प्रीमियम _ First year premium of Life Insurers as at 31.08.2026.xlsx",
+    "https://irdai.gov.in/documents/37343/365644/31.08.2026+%E0%A4%95%E0%A5%8B+%E0%A4%9C%E0%A5%80%E0%A4%B5%E0%A4%A8+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A5%E0%A4%AE+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%BF%E0%A4%AF%E0%A4%AE+_+First+year+premium+of+Life+Insurers+as+at+31.08.2026.xlsx/8a21be33-b0c5-eb9b-af38-1b4a4c76b4cf?version=1.0&t=1788936943605&download=true"
+   ],
+   [
+    "",
+    "https://irdai.gov.in/documents/37343/365644/31.08.2026+%E0%A4%95%E0%A5%8B+%E0%A4%9C%E0%A5%80%E0%A4%B5%E0%A4%A8+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A5%E0%A4%AE+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%BF%E0%A4%AF%E0%A4%AE+_+First+year+premium+of+Life+Insurers+as+at+31.08.2026.xlsx/8a21be33-b0c5-eb9b-af38-1b4a4c76b4cf?version=1.0&t=1788936943605&download=true"
+   ],
+   [
+    "मासिक व्यावसायिक आँकड़े / Monthly Business Figures",
+    "https://irdai.gov.in/document-detail?documentId=9725253"
+   ],
+   [
+    "31.07.2026 को जीवन बीमाकर्ताओं का प्रथम वर्ष का प्रीमियम _ First year premium of Life Insurers as at 31.07.2026.xlsx",
+    "https://irdai.gov.in/documents/37343/365644/31.07.2026+%E0%A4%95%E0%A5%8B+%E0%A4%9C%E0%A5%80%E0%A4%B5%E0%A4%A8+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A5%E0%A4%AE+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%BF%E0%A4%AF%E0%A4%AE+_+First+year+premium+of+Life+Insurers+as+at+31.07.2026.xlsx/22710885-648c-8e90-06b6-6d42560f8120?version=2.0&t=1787132651040&download=true"
+   ],
+   [
+    "",
+    "https://irdai.gov.in/documents/37343/365644/31.07.2026+%E0%A4%95%E0%A5%8B+%E0%A4%9C%E0%A5%80%E0%A4%B5%E0%A4%A8+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A5%E0%A4%AE+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%BF%E0%A4%AF%E0%A4%AE+_+First+year+premium+of+Life+Insurers+as+at+31.07.2026.xlsx/22710885-648c-8e90-06b6-6d42560f8120?version=2.0&t=1787132651040&download=true"
+   ],
+   [
+    "मासिक व्यावसायिक आँकड़े / Monthly Business Figures",
+    "https://irdai.gov.in/document-detail?documentId=9647296"
+   ],
+   [
+    "30.06.2026 को जीवन बीमाकर्ताओं का प्रथम वर्ष का प्रीमियम _First year premium of Life Insurers as at 30.06.2026.xlsx",
+    "https://irdai.gov.in/documents/37343/365644/30.06.2026+%E0%A4%95%E0%A5%8B+%E0%A4%9C%E0%A5%80%E0%A4%B5%E0%A4%A8+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A5%E0%A4%AE+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%BF%E0%A4%AF%E0%A4%AE+_First+year+premium+of+Life+Insurers+as+at+30.06.2026.xlsx/ef20b291-8af2-8af8-0eed-713991fee13f?version=1.1&t=1783599491650&download=true"
+   ],
+   [
+    "",
+    "https://irdai.gov.in/documents/37343/365644/30.06.2026+%E0%A4%95%E0%A5%8B+%E0%A4%9C%E0%A5%80%E0%A4%B5%E0%A4%A8+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A5%E0%A4%AE+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%BF%E0%A4%AF%E0%A4%AE+_First+year+premium+of+Life+Insurers+as+at+30.06.2026.xlsx/ef20b291-8af2-8af8-0eed-713991fee13f?version=1.1&t=1783599491650&download=true"
+   ],
+   [
+    "31.05.2026 को जीवन बीमाकर्ताओं का प्रथम वर्ष का प्रीमियम",
+    "https://irdai.gov.in/document-detail?documentId=9533592"
+   ],
+   [
+    "31.05.2026 को जीवन बीमाकर्ताओं का प्रथम वर्ष का प्रीमियम _ First year premium of Life Insurers as at 31.05.2026.xlsx",
+    "https://irdai.gov.in/documents/37343/365644/31.05.2026+%E0%A4%95%E0%A5%8B+%E0%A4%9C%E0%A5%80%E0%A4%B5%E0%A4%A8+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A5%E0%A4%AE+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%BF%E0%A4%AF%E0%A4%AE+_+First+year+premium+of+Life+Insurers+as+at+31.05.2026.xlsx/9319bec4-f2a1-d47a-1c74-59bd737ed417?version=1.3&t=1781239597260&download=true"
+   ],
+   [
+    "",
+    "https://irdai.gov.in/documents/37343/365644/31.05.2026+%E0%A4%95%E0%A5%8B+%E0%A4%9C%E0%A5%80%E0%A4%B5%E0%A4%A8+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A5%E0%A4%AE+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%BF%E0%A4%AF%E0%A4%AE+_+First+year+premium+of+Life+Insurers+as+at+31.05.2026.xlsx/9319bec4-f2a1-d47a-1c74-59bd737ed417?version=1.3&t=1781239597260&download=true"
+   ],
+   [
+    "30.04.2026 को जीवन बीमाकर्ताओं का प्रथम वर्ष का प्रीमियम / First year premium of Life Insurers as at 30.04.2026",
+    "https://irdai.gov.in/document-detail?documentId=9474279"
+   ],
+   [
+    "30.04.2026 को जीवन बीमाकर्ताओं का प्रथम वर्ष का प्रीमियम _ First year premium of Life Insurers as at 30.04.2026.xlsx",
+    "https://irdai.gov.in/documents/37343/365644/30.04.2026+%E0%A4%95%E0%A5%8B+%E0%A4%9C%E0%A5%80%E0%A4%B5%E0%A4%A8+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A5%E0%A4%AE+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%BF%E0%A4%AF%E0%A4%AE+_+First+year+premium+of+Life+Insurers+as+at+30.04.2026.xlsx/ccdb40e6-8952-5e74-06c6-9f9bce473ba3?version=1.0&t=1778675786686&download=true"
+   ],
+   [
+    "",
+    "https://irdai.gov.in/documents/37343/365644/30.04.2026+%E0%A4%95%E0%A5%8B+%E0%A4%9C%E0%A5%80%E0%A4%B5%E0%A4%A8+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A5%E0%A4%AE+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%BF%E0%A4%AF%E0%A4%AE+_+First+year+premium+of+Life+Insurers+as+at+30.04.2026.xlsx/ccdb40e6-8952-5e74-06c6-9f9bce473ba3?version=1.0&t=1778675786686&download=true"
+   ],
+   [
+    "31.03.2026 को जीवन बीमाकर्ताओं का प्रथम वर्ष का प्रीमियम / First year premium of Life Insurers as at 31.03.2026",
+    "https://irdai.gov.in/document-detail?documentId=9311918"
+   ],
+   [
+    "31.03.2026 को जीवन बीमाकर्ताओं का प्रथम वर्ष का प्रीमियम _ First year premium of Life Insurers as at 31.03.2026.xlsx",
+    "https://irdai.gov.in/documents/37343/365644/31.03.2026+%E0%A4%95%E0%A5%8B+%E0%A4%9C%E0%A5%80%E0%A4%B5%E0%A4%A8+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A5%E0%A4%AE+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%BF%E0%A4%AF%E0%A4%AE+_+First+year+premium+of+Life+Insurers+as+at+31.03.2026.xlsx/1a460a37-a4be-528a-ccdb-fd38c2c5bed3?version=1.0&t=1776841386499&download=true"
+   ],
+   [
+    "",
+    "https://irdai.gov.in/documents/37343/365644/31.03.2026+%E0%A4%95%E0%A5%8B+%E0%A4%9C%E0%A5%80%E0%A4%B5%E0%A4%A8+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A5%E0%A4%AE+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%BF%E0%A4%AF%E0%A4%AE+_+First+year+premium+of+Life+Insurers+as+at+31.03.2026.xlsx/1a460a37-a4be-528a-ccdb-fd38c2c5bed3?version=1.0&t=1776841386499&download=true"
+   ],
+   [
+    "28.02.2026 को जीवन बीमाकर्ताओं का प्रथम वर्ष का प्रीमियम / First year premium of Life Insurers as at 28.02.2026",
+    "https://irdai.gov.in/document-detail?documentId=8932878"
+   ],
+   [
+    "28.02.2026 को जीवन बीमाकर्ताओं का प्रथम वर्ष का प्रीमियम _ First year premium of Life Insurers as at 28.02.2026.xlsx",
+    "https://irdai.gov.in/documents/37343/365644/28.02.2026+%E0%A4%95%E0%A5%8B+%E0%A4%9C%E0%A5%80%E0%A4%B5%E0%A4%A8+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A5%E0%A4%AE+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%BF%E0%A4%AF%E0%A4%AE+_+First+year+premium+of+Life+Insurers+as+at+28.02.2026.xlsx/d7952520-1c81-a56b-883c-4f8f8918e4ed?version=1.0&t=1773062264547&download=true"
+   ],
+   [
+    "",
+    "https://irdai.gov.in/documents/37343/365644/28.02.2026+%E0%A4%95%E0%A5%8B+%E0%A4%9C%E0%A5%80%E0%A4%B5%E0%A4%A8+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A5%E0%A4%AE+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%BF%E0%A4%AF%E0%A4%AE+_+First+year+premium+of+Life+Insurers+as+at+28.02.2026.xlsx/d7952520-1c81-a56b-883c-4f8f8918e4ed?version=1.0&t=1773062264547&download=true"
+   ],
+   [
+    "31.01.2026 को जीवन बीमाकर्ताओं का प्रथम वर्ष प्रीमियम / First year premium of Life Insurers as at 31.01.2026",
+    "https://irdai.gov.in/document-detail?documentId=8719858"
+   ],
+   [
+    "31.01.2026 को जीवन बीमाकर्ताओं का प्रथम वर्ष प्रीमियम _ First year premium of Life Insurers as at 31.01.2026.xlsx",
+    "https://irdai.gov.in/documents/37343/365644/31.01.2026+%E0%A4%95%E0%A5%8B+%E0%A4%9C%E0%A5%80%E0%A4%B5%E0%A4%A8+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A5%E0%A4%AE+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%BF%E0%A4%AF%E0%A4%AE+_+First+year+premium+of+Life+Insurers+as+at+31.01.2026.xlsx/cd9dcd4f-b341-4518-31eb-5e3a92aeca51?version=1.0&t=1770811660575&download=true"
+   ],
+   [
+    "",
+    "https://irdai.gov.in/documents/37343/365644/31.01.2026+%E0%A4%95%E0%A5%8B+%E0%A4%9C%E0%A5%80%E0%A4%B5%E0%A4%A8+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A5%E0%A4%AE+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%BF%E0%A4%AF%E0%A4%AE+_+First+year+premium+of+Life+Insurers+as+at+31.01.2026.xlsx/cd9dcd4f-b341-4518-31eb-5e3a92aeca51?version=1.0&t=1770811660575&download=true"
+   ],
+   [
+    "First year premium of Life Insurers as at 31.12.2025",
+    "https://irdai.gov.in/document-detail?documentId=8504103"
+   ],
+   [
+    "31.12.2025 तक जीवन बीमाकर्ताओं का प्रथम वर्ष का प्रीमियम _ First year premium of Life Insurers as at 31.12.2025.xlsx",
+    "https://irdai.gov.in/documents/37343/365644/31.12.2025+%E0%A4%A4%E0%A4%95+%E0%A4%9C%E0%A5%80%E0%A4%B5%E0%A4%A8+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A5%E0%A4%AE+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%BF%E0%A4%AF%E0%A4%AE+_+First+year+premium+of+Life+Insurers+as+at+31.12.2025.xlsx/4afc9349-6c18-4796-6a75-09dec0a27162?version=1.0&t=1768282025168&download=true"
+   ],
+   [
+    "",
+    "https://irdai.gov.in/documents/37343/365644/31.12.2025+%E0%A4%A4%E0%A4%95+%E0%A4%9C%E0%A5%80%E0%A4%B5%E0%A4%A8+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A5%E0%A4%AE+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%BF%E0%A4%AF%E0%A4%AE+_+First+year+premium+of+Life+Insurers+as+at+31.12.2025.xlsx/4afc9349-6c18-4796-6a75-09dec0a27162?version=1.0&t=1768282025168&download=true"
+   ],
+   [
+    "First year premium of Life Insurers as at 30.11.2025",
+    "https://irdai.gov.in/document-detail?documentId=8226887"
+   ],
+   [
+    "30.11.2025 तक जीवन बीमाकर्ताओं का प्रथम वर्ष का प्रीमियम _ First year premium of Life Insurers as at 30.11.2025.xlsx",
+    "https://irdai.gov.in/documents/37343/365644/30.11.2025+%E0%A4%A4%E0%A4%95+%E0%A4%9C%E0%A5%80%E0%A4%B5%E0%A4%A8+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A5%E0%A4%AE+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%BF%E0%A4%AF%E0%A4%AE+_+First+year+premium+of+Life+Insurers+as+at+30.11.2025.xlsx/518eb42d-6627-eed3-e2e5-5786a3af76c2?version=1.0&t=1765197871923&download=true"
+   ],
+   [
+    "",
+    "https://irdai.gov.in/documents/37343/365644/30.11.2025+%E0%A4%A4%E0%A4%95+%E0%A4%9C%E0%A5%80%E0%A4%B5%E0%A4%A8+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A5%E0%A4%AE+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%BF%E0%A4%AF%E0%A4%AE+_+First+year+premium+of+Life+Insurers+as+at+30.11.2025.xlsx/518eb42d-6627-eed3-e2e5-5786a3af76c2?version=1.0&t=1765197871923&download=true"
+   ],
+   [
+    "First year premium of Life Insurers as on 31.10.2025",
+    "https://irdai.gov.in/document-detail?documentId=8072277"
+   ],
+   [
+    "31.10.2025 तक जीवन बीमाकर्ताओं का प्रथम वर्ष का प्रीमियम _ First year premium of Life Insurers as on 31.10.2025.xlsx",
+    "https://irdai.gov.in/documents/37343/365644/31.10.2025+%E0%A4%A4%E0%A4%95+%E0%A4%9C%E0%A5%80%E0%A4%B5%E0%A4%A8+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A5%E0%A4%AE+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%BF%E0%A4%AF%E0%A4%AE+_+First+year+premium+of+Life+Insurers+as+on+31.10.2025.xlsx/f6990ef4-99e6-a252-7be6-7857980bb453?version=1.0&t=1762755619834&download=true"
+   ],
+   [
+    "",
+    "https://irdai.gov.in/documents/37343/365644/31.10.2025+%E0%A4%A4%E0%A4%95+%E0%A4%9C%E0%A5%80%E0%A4%B5%E0%A4%A8+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A5%E0%A4%AE+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%BF%E0%A4%AF%E0%A4%AE+_+First+year+premium+of+Life+Insurers+as+on+31.10.2025.xlsx/f6990ef4-99e6-a252-7be6-7857980bb453?version=1.0&t=1762755619834&download=true"
+   ],
+   [
+    "First year premium of Life Insurers as at 30.09.2025",
+    "https://irdai.gov.in/document-detail?documentId=7950167"
+   ],
+   [
+    "30.09.2025 तक जीवन बीमाकर्ताओं का प्रथम वर्ष का प्रीमियम _ First year premium of Life Insurers as at 30.09.2025.xlsx",
+    "https://irdai.gov.in/documents/37343/365644/30.09.2025+%E0%A4%A4%E0%A4%95+%E0%A4%9C%E0%A5%80%E0%A4%B5%E0%A4%A8+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A5%E0%A4%AE+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%BF%E0%A4%AF%E0%A4%AE+_+First+year+premium+of+Life+Insurers+as+at+30.09.2025.xlsx/7c2872ac-e49b-3633-8af9-dd5d55c7ced6?version=1.0&t=1760076436774&download=true"
+   ],
+   [
+    "",
+    "https://irdai.gov.in/documents/37343/365644/30.09.2025+%E0%A4%A4%E0%A4%95+%E0%A4%9C%E0%A5%80%E0%A4%B5%E0%A4%A8+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A5%E0%A4%AE+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%BF%E0%A4%AF%E0%A4%AE+_+First+year+premium+of+Life+Insurers+as+at+30.09.2025.xlsx/7c2872ac-e49b-3633-8af9-dd5d55c7ced6?version=1.0&t=1760076436774&download=true"
+   ],
+   [
+    "31.08.2025 तक जीवन बीमाकर्ताओं का प्रथम वर्ष का प्रीमियम / First year premium of Life Insurers as at 31.08.2025",
+    "https://irdai.gov.in/document-detail?documentId=7816340"
+   ],
+   [
+    "31.08.2025 तक जीवन बीमाकर्ताओं का प्रथम वर्ष का प्रीमियम _ First year premium of Life Insurers as at 31.08.2025.xlsx",
+    "https://irdai.gov.in/documents/37343/365644/31.08.2025+%E0%A4%A4%E0%A4%95+%E0%A4%9C%E0%A5%80%E0%A4%B5%E0%A4%A8+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A5%E0%A4%AE+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%BF%E0%A4%AF%E0%A4%AE+_+First+year+premium+of+Life+Insurers+as+at+31.08.2025.xlsx/e5a98f87-595f-9d22-3060-f735a9f9b26a?version=1.1&t=1757420804020&download=true"
+   ],
+   [
+    "",
+    "https://irdai.gov.in/documents/37343/365644/31.08.2025+%E0%A4%A4%E0%A4%95+%E0%A4%9C%E0%A5%80%E0%A4%B5%E0%A4%A8+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A5%E0%A4%AE+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%BF%E0%A4%AF%E0%A4%AE+_+First+year+premium+of+Life+Insurers+as+at+31.08.2025.xlsx/e5a98f87-595f-9d22-3060-f735a9f9b26a?version=1.1&t=1757420804020&download=true"
+   ],
+   [
+    "First year premium of Life Insurers as at 31.07.2025",
+    "https://irdai.gov.in/document-detail?documentId=7694901"
+   ],
+   [
+    "31.07.2025 तक जीवन बीमाकर्ताओं का प्रथम वर्ष का प्रीमियम _ First year premium of Life Insurers as at 31.07.2025.xlsx",
+    "https://irdai.gov.in/documents/37343/365644/31.07.2025+%E0%A4%A4%E0%A4%95+%E0%A4%9C%E0%A5%80%E0%A4%B5%E0%A4%A8+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A5%E0%A4%AE+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%BF%E0%A4%AF%E0%A4%AE+_+First+year+premium+of+Life+Insurers+as+at+31.07.2025.xlsx/3ec594ee-f29c-9261-f591-95f2f7812a9e?version=5.0&t=1787296009318&download=true"
+   ],
+   [
+    "",
+    "https://irdai.gov.in/documents/37343/365644/31.07.2025+%E0%A4%A4%E0%A4%95+%E0%A4%9C%E0%A5%80%E0%A4%B5%E0%A4%A8+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A5%E0%A4%AE+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%BF%E0%A4%AF%E0%A4%AE+_+First+year+premium+of+Life+Insurers+as+at+31.07.2025.xlsx/3ec594ee-f29c-9261-f591-95f2f7812a9e?version=5.0&t=1787296009318&download=true"
+   ],
+   [
+    "First year premium of Life Insurers as at 30.06.2025",
+    "https://irdai.gov.in/document-detail?documentId=7567906"
+   ],
+   [
+    "30.06.2025 तक जीवन बीमाकर्ताओं का प्रथम वर्ष का प्रीमियम _ First year premium of Life Insurers as at 30.06.2025.xlsx",
+    "https://irdai.gov.in/documents/37343/365644/30.06.2025+%E0%A4%A4%E0%A4%95+%E0%A4%9C%E0%A5%80%E0%A4%B5%E0%A4%A8+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A5%E0%A4%AE+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%BF%E0%A4%AF%E0%A4%AE+_+First+year+premium+of+Life+Insurers+as+at+30.06.2025.xlsx/ee6e8a1c-f49d-49a2-c92a-3afaae9f5b50?version=6.0&t=1787293030435&download=true"
+   ],
+   [
+    "",
+    "https://irdai.gov.in/documents/37343/365644/30.06.2025+%E0%A4%A4%E0%A4%95+%E0%A4%9C%E0%A5%80%E0%A4%B5%E0%A4%A8+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A5%E0%A4%AE+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%BF%E0%A4%AF%E0%A4%AE+_+First+year+premium+of+Life+Insurers+as+at+30.06.2025.xlsx/ee6e8a1c-f49d-49a2-c92a-3afaae9f5b50?version=6.0&t=1787293030435&download=true"
+   ],
+   [
+    "First year premium of Life Insurers as at 31.05.2025",
+    "https://irdai.gov.in/document-detail?documentId=7435708"
+   ],
+   [
+    "31.05.2025 तक जीवन बीमाकर्ताओं का प्रथम वर्ष का प्रीमियम _ First year premium of Life Insurers as at 31.05.2025.xlsx",
+    "https://irdai.gov.in/documents/37343/365644/31.05.2025+%E0%A4%A4%E0%A4%95+%E0%A4%9C%E0%A5%80%E0%A4%B5%E0%A4%A8+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A5%E0%A4%AE+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%BF%E0%A4%AF%E0%A4%AE+_+First+year+premium+of+Life+Insurers+as+at+31.05.2025.xlsx/9c861897-a21c-26f1-f149-b19cda891073?version=2.0&t=1787291414372&download=true"
+   ],
+   [
+    "",
+    "https://irdai.gov.in/documents/37343/365644/31.05.2025+%E0%A4%A4%E0%A4%95+%E0%A4%9C%E0%A5%80%E0%A4%B5%E0%A4%A8+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A5%E0%A4%AE+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%BF%E0%A4%AF%E0%A4%AE+_+First+year+premium+of+Life+Insurers+as+at+31.05.2025.xlsx/9c861897-a21c-26f1-f149-b19cda891073?version=2.0&t=1787291414372&download=true"
+   ],
+   [
+    "First year premium of Life Insurers as at 30.04.2025",
+    "https://irdai.gov.in/document-detail?documentId=7313355"
+   ],
+   [
+    "30.04.2025 तक जीवन बीमाकर्ताओं का प्रथम वर्ष का प्रीमियम _ First year premium of Life Insurers as at 30.04.2025.xlsx",
+    "https://irdai.gov.in/documents/37343/365644/30.04.2025+%E0%A4%A4%E0%A4%95+%E0%A4%9C%E0%A5%80%E0%A4%B5%E0%A4%A8+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A5%E0%A4%AE+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%BF%E0%A4%AF%E0%A4%AE+_+First+year+premium+of+Life+Insurers+as+at+30.04.2025.xlsx/50fc2e42-c75a-06b3-89a5-d97b116e7bd2?version=2.0&t=1787291354042&download=true"
+   ],
+   [
+    "",
+    "https://irdai.gov.in/documents/37343/365644/30.04.2025+%E0%A4%A4%E0%A4%95+%E0%A4%9C%E0%A5%80%E0%A4%B5%E0%A4%A8+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A5%E0%A4%AE+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%BF%E0%A4%AF%E0%A4%AE+_+First+year+premium+of+Life+Insurers+as+at+30.04.2025.xlsx/50fc2e42-c75a-06b3-89a5-d97b116e7bd2?version=2.0&t=1787291354042&download=true"
+   ],
+   [
+    "First year premium of Life Insurers as at 31.03.2025",
+    "https://irdai.gov.in/document-detail?documentId=7204688"
+   ],
+   [
+    "31.03.2025 तक जीवन बीमाकर्ताओं का प्रथम वर्ष का प्रीमियम _ First year premium of Life Insurers as at 31.03.2025.xlsx",
+    "https://irdai.gov.in/documents/37343/365644/31.03.2025+%E0%A4%A4%E0%A4%95+%E0%A4%9C%E0%A5%80%E0%A4%B5%E0%A4%A8+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A5%E0%A4%AE+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%BF%E0%A4%AF%E0%A4%AE+_+First+year+premium+of+Life+Insurers+as+at+31.03.2025.xlsx/c1284e03-a16c-1227-8de2-6b4e482c8cfe?version=2.0&t=1787291035553&download=true"
+   ],
+   [
+    "",
+    "https://irdai.gov.in/documents/37343/365644/31.03.2025+%E0%A4%A4%E0%A4%95+%E0%A4%9C%E0%A5%80%E0%A4%B5%E0%A4%A8+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A5%E0%A4%AE+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%BF%E0%A4%AF%E0%A4%AE+_+First+year+premium+of+Life+Insurers+as+at+31.03.2025.xlsx/c1284e03-a16c-1227-8de2-6b4e482c8cfe?version=2.0&t=1787291035553&download=true"
+   ],
+   [
+    "1",
+    "https://irdai.gov.in/life?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=20&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false&_com_irdai_document_media_IRDAIDocumentMediaPortlet_cur=1"
+   ],
+   [
+    "2",
+    "https://irdai.gov.in/life?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=20&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false&_com_irdai_document_media_IRDAIDocumentMediaPortlet_cur=2"
+   ],
+   [
+    "3",
+    "https://irdai.gov.in/life?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=20&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false&_com_irdai_document_media_IRDAIDocumentMediaPortlet_cur=3"
+   ],
+   [
+    "4",
+    "https://irdai.gov.in/life?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=20&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false&_com_irdai_document_media_IRDAIDocumentMediaPortlet_cur=4"
+   ],
+   [
+    "5",
+    "https://irdai.gov.in/life?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=20&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false&_com_irdai_document_media_IRDAIDocumentMediaPortlet_cur=5"
+   ],
+   [
+    "6",
+    "https://irdai.gov.in/life?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=20&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false&_com_irdai_document_media_IRDAIDocumentMediaPortlet_cur=6"
+   ],
+   [
+    "7",
+    "https://irdai.gov.in/life?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=20&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false&_com_irdai_document_media_IRDAIDocumentMediaPortlet_cur=7"
+   ],
+   [
+    "8",
+    "https://irdai.gov.in/life?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=20&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false&_com_irdai_document_media_IRDAIDocumentMediaPortlet_cur=8"
+   ],
+   [
+    "9",
+    "https://irdai.gov.in/life?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=20&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false&_com_irdai_document_media_IRDAIDocumentMediaPortlet_cur=9"
+   ],
+   [
+    "10",
+    "https://irdai.gov.in/life?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=20&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false&_com_irdai_document_media_IRDAIDocumentMediaPortlet_cur=10"
+   ],
+   [
+    "11",
+    "https://irdai.gov.in/life?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=20&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false&_com_irdai_document_media_IRDAIDocumentMediaPortlet_cur=11"
+   ],
+   [
+    "12",
+    "https://irdai.gov.in/life?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=20&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false&_com_irdai_document_media_IRDAIDocumentMediaPortlet_cur=12"
+   ],
+   [
+    "13",
+    "https://irdai.gov.in/life?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=20&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false&_com_irdai_document_media_IRDAIDocumentMediaPortlet_cur=13"
+   ],
+   [
+    "4",
+    "https://irdai.gov.in/life?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=4"
+   ],
+   [
+    "8",
+    "https://irdai.gov.in/life?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=8"
+   ],
+   [
+    "20",
+    "https://irdai.gov.in/life?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false"
+   ],
+   [
+    "40",
+    "https://irdai.gov.in/life?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=40"
+   ],
+   [
+    "60",
+    "https://irdai.gov.in/life?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=60"
+   ],
+   [
+    "Next",
+    "https://irdai.gov.in/life?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=20&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false&_com_irdai_document_media_IRDAIDocumentMediaPortlet_cur=2"
+   ],
+   [
+    "Last →",
+    "https://irdai.gov.in/life?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=20&_com_irdai_document_media_IRDAIDocumentMediaPortlet_resetCur=false&_com_irdai_document_media_IRDAIDocumentMediaPortlet_cur=13"
+   ],
+   [
+    "Careers",
+    "https://irdai.gov.in/career-at-irdai"
+   ],
+   [
+    "Tenders",
+    "https://irdai.gov.in/tenders"
+   ],
+   [
+    "Related Links",
+    "https://irdai.gov.in/related-links"
+   ],
+   [
+    "Ebooks",
+    "https://irdai.gov.in/ebooks"
+   ],
+   [
+    "Screen Reader",
+    "https://irdai.gov.in/screen-reader"
+   ],
+   [
+    "FAQs",
+    "https://irdai.gov.in/faqs1"
+   ],
+   [
+    "Archives",
+    "https://irdai.gov.in/archive"
+   ],
+   [
+    "Sitemap",
+    "https://irdai.gov.in/sitemap"
+   ],
+   [
+    "Help",
+    "https://irdai.gov.in/help"
+   ],
+   [
+    "Push Notifications",
+    "https://irdai.gov.in/register-for-email-alerts"
+   ],
+   [
+    "RTI",
+    "https://irdai.gov.in/rti"
+   ],
+   [
+    "FeedBack",
+    "https://irdai.gov.in/web/guest/feedback"
+   ],
+   [
+    "Contact Us",
+    "https://irdai.gov.in/web/guest/contact-us"
+   ],
+   [
+    "Website Policies",
+    "https://irdai.gov.in/website-policies"
+   ],
+   [
+    "Terms & Conditions",
+    "https://irdai.gov.in/terms-conditions"
+   ]
+  ]
+ }
+]
