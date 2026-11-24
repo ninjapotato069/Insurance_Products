@@ -1,4 +1,18 @@
-# Insurance_Products
+# Insurance_Products — Life Insurance Benchmark (India)
+
+**App:** https://ninjapotato069.github.io/Insurance_Products/ (installable on Android and iPhone: open it, then
+*Add to Home screen* / *Install app*). Needs GitHub Pages on: Settings → Pages → Deploy from a branch → `main` / root.
+
+## Benchmark
+- `data/benchmark/framework.json` — 15 departments (scale, growth, profit, capital, distribution, product, marketing,
+  underwriting, claims, service, efficiency, digital, people, governance, strategy), ~120 KPIs with definition,
+  direction, source and refresh. Core KPIs are percentile-scored within a peer group; department and overall scores follow.
+- Sources: IRDAI monthly new business statement (auto), IRDAI Handbook on Indian Insurance Statistics and Annual
+  Report (parsed by `scripts/parse_irdai_handbook.py`, `scripts/parse_irdai_annual.py`), app stores, homepage audit,
+  Google News headlines, NSE prices, desk research (`data/benchmark/research.json`, `data/benchmark/strategy.json`).
+- Build: `python3 scripts/build_benchmark.py` → `data/benchmark.json` (loaded by the app).
+- Daily GitHub Action `daily-refresh.yml` (06:17 IST) refreshes the automatic feeds and rebuilds; `fetch-sources.yml`
+  downloads source files to the `raw-sources` branch for research sessions without web access.
 
 Product and company intelligence for every Indian life insurer: LIC, all private insurers licensed by
 IRDAI (including the 2024 entrants and Sahara India Life, under administration), and India Post's

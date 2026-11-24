@@ -1,6 +1,6 @@
-<title>Insurance Products</title>
+<title>Life Insurance Benchmark</title>
 <meta name="claude:viewport-fit-sides" content="cover">
-<meta name="description" content="Every Indian life insurer's products, specs, riders, group plans, claim and grievance metrics and customer ratings, refreshed weekly.">
+<meta name="description" content="Every Indian life insurer benchmarked across 15 departments, with products, claims, ratings, ownership, strategy and news, refreshed daily.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@500;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap">
@@ -418,6 +418,44 @@ details.fold[open] .fold-k::after{transform:translateY(2px) rotate(-135deg)}
 .hist-ax span{position:absolute;top:0;transform:translateX(-50%);font-size:.7rem;color:var(--muted);white-space:nowrap;font-variant-numeric:tabular-nums}
 .holder-note{font-size:.76rem;color:var(--muted);display:block;margin-top:2px}
 .pnote{display:block;font-size:.68rem;font-weight:400;color:var(--muted);margin-top:1px;white-space:nowrap}
+
+/* benchmark, departments, strategy, news */
+.kpi .v.vtext{font-size:1.2rem;line-height:1.25;overflow-wrap:anywhere}
+.pillnav{margin:-4px 0 18px}
+.pillnav .chip{text-decoration:none}
+.pillnav .chip:hover{color:var(--ink);background:var(--accent-wash)}
+.scorecard td.cell,.kpimatrix td.cell{min-width:58px}
+.scorecard td.idx{font-weight:600;border-right:2px solid var(--surface)}
+.scorecard th a,.kpimatrix th a{color:inherit;text-decoration:none}
+.scorecard th a:hover,.kpimatrix th a:hover{color:var(--accent);text-decoration:underline}
+.kpimatrix th.c{min-width:96px;max-width:140px;vertical-align:bottom}
+.kpimatrix th.ctx{font-weight:500;color:var(--muted)}
+.kpimatrix th .dir{display:block;font-weight:400;font-size:.66rem;color:var(--muted);margin-top:2px;white-space:normal}
+.kpimatrix td.cell{white-space:nowrap;font-size:.8rem}
+.tiles.leaders{grid-template-columns:repeat(auto-fill,minmax(230px,1fr))}
+a.tile.lead{text-decoration:none;color:var(--ink);display:block}
+a.tile.lead:hover{border-color:var(--accent)}
+.tile .lt{font-family:var(--font-display);font-weight:600;font-size:1.02rem;margin-top:2px}
+ol.top3{margin:8px 0 0;padding-left:20px;font-size:.86rem;display:flex;flex-direction:column;gap:3px}
+ol.top3 li span{display:inline-block;max-width:150px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;vertical-align:bottom}
+ol.top3 li b{float:right;font-variant-numeric:tabular-nums}
+ol.top3 li.b{font-weight:600}
+.strat .panel{display:flex;flex-direction:column}
+.strat-card.is-bench{border-color:var(--accent)}
+.strat-card .purpose{color:var(--ink-2);margin-top:2px}
+.sblock{margin-top:12px}
+.sblock .eyebrow{margin-bottom:6px}
+.chip.good{background:color-mix(in srgb,var(--div-pos) 18%,var(--surface));color:var(--ink);text-decoration:none}
+.chip.weak{background:color-mix(in srgb,var(--div-neg) 18%,var(--surface));color:var(--ink);text-decoration:none}
+.dataview{border-top:1px solid var(--line);padding-top:10px}
+svg.spark{display:block}
+.trend .legend{margin-bottom:6px}
+.bench-sec .kpis{margin-top:4px}
+table.scorecard,table.kpimatrix{width:max-content;min-width:100%}
+.scorecard td:first-child,.kpimatrix td:first-child,.scorecard th:first-child,.kpimatrix th:first-child{width:1%;white-space:nowrap}
+.strat-card .chip,.bench-sec .chip{white-space:normal}
+.strat-card{min-width:0;overflow-wrap:anywhere}
+.install-tip{font-size:.8rem;color:var(--ink-2)}
 @media (max-width:760px){
   h1{font-size:1.45rem}
   .dhead h1{font-size:1.5rem}
@@ -443,14 +481,18 @@ details.fold[open] .fold-k::after{transform:translateY(2px) rotate(-135deg)}
 <header class="top">
   <div class="wrap">
     <div class="brand">
-      <h1>Insurance Products <span class="eyebrow" id="asof"></span></h1>
-      <div class="sub">Every Indian life insurer: products and specs, riders, group plans, claims and grievance record, customer ratings, ownership.</div>
+      <h1>Life Insurance Benchmark <span class="eyebrow" id="asof"></span></h1>
+      <div class="sub">Every Indian life insurer, benchmarked department by department: sales, products, underwriting, claims, service, efficiency, digital, strategy, plus the full product catalogue.</div>
     </div>
     <label class="bench" for="bench"><span>Highlight insurer</span>
       <select id="bench" aria-label="Highlight insurer"><option value="">None</option></select>
     </label>
     <nav class="tabs" aria-label="Sections">
       <a href="#overview" data-v="overview">Overview</a>
+      <a href="#benchmark" data-v="benchmark">Benchmark</a>
+      <a href="#dept-scale" data-v="dept">Departments</a>
+      <a href="#strategy" data-v="strategy">Strategy</a>
+      <a href="#news" data-v="news">News</a>
       <a href="#insurers" data-v="insurers">Insurers</a>
       <a href="#ownership" data-v="ownership">Ownership</a>
       <a href="#products" data-v="products">Products</a>
@@ -509,7 +551,8 @@ const S = {
   d:null, comp:{}, prod:{}, route:{v:"overview",id:null}, bench:"",
   f:{q:"",segment:"Individual",category:"",company:"",status:"Active",linkage:"",participation:"",need:"",online:""},
   sort:{k:"",dir:1}, shown:60, cmpP:[], cmpI:[], insSort:{k:"nbp_market_share_pct",dir:-1}, logType:"", logCo:"",
-  ownType:"", ownCo:"", ownShown:25, anOpen:null
+  ownType:"", ownCo:"", ownShown:25, anOpen:null,
+  b:null, kmeta:{}, bcomp:{}, scoreCache:{}, peer:"all", stratF:"", newsCo:"", newsTheme:""
 };
 
 /* ---------- utilities ---------- */
@@ -832,7 +875,7 @@ function activeInd(cid){ return products().filter(p => p.status_label === "Activ
 /* ---------- views ---------- */
 function setTabs(v){
   document.querySelectorAll(".tabs a").forEach(a => {
-    const on = a.dataset.v === v || (v === "insurer" && a.dataset.v === "insurers") || (v === "product" && a.dataset.v === "products");
+    const on = a.dataset.v === v || (v === "insurer" && a.dataset.v === "insurers") || (v === "product" && a.dataset.v === "products") || (v === "kpi" && a.dataset.v === "dept");
     if (on) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
   });
 }
@@ -852,6 +895,9 @@ function viewOverview(){
     ["Withdrawn or replaced", (c.withdrawn || 0) + (c.superseded || 0), `${nfIN.format(c.superseded || 0)} replaced by a newer version`]
   ];
   view.append(h("div", {class:"kpis"}, kp.map(([l, v, d]) => h("div", {class:"kpi"}, h("div", {class:"l"}, l), h("div", {class:"v"}, v == null ? "—" : nfIN.format(v)), h("div", {class:"d"}, d)))));
+
+  const boc = benchOverviewCard();
+  if (boc) view.append(h("div", {class:"section"}, boc));
 
   // who holds the market
   view.append(h("div", {class:"section"}, concentrationCard()));
@@ -1164,6 +1210,8 @@ function viewInsurer(id){
 
   const tiles = TILE_KEYS.map(k => metricTile(c, k)).filter(Boolean);
   view.append(h("h2", {style:"margin:6px 0 12px"}, "Key metrics"), tiles.length ? h("div", {class:"tiles"}, tiles) : h("p", {class:"muted"}, "No published metrics captured for this insurer yet."));
+  const bsec = benchInsurerSection(id);
+  if (bsec) view.append(bsec);
 
   // portfolio
   const st = c.stats || {};
@@ -2028,7 +2076,9 @@ function viewAbout(){
       h("h3", null, "Where it comes from"),
       h("p", null, "Product data comes from each insurer's own product lists, product pages and brochures, with aggregator pages used only where an insurer's page could not be read (each product lists its sources). Company metrics come from the Life Insurance Council, IRDAI's annual report, the Insurance Ombudsman and insurers' public disclosures; each figure shows its period and source. App ratings come from Google Play and the App Store; review themes are summarised from app and review-site comments."),
       h("h3", null, "How it stays current"),
-      h("p", null, "Mondays 08:00 IST: a GitHub Action re-reads every insurer's official product list for new or missing UINs and refreshes app ratings. Mondays mid-morning: a scheduled Claude session researches each flagged item, adds new products with full specs, confirms withdrawals, refreshes metrics when new periods are published, and re-checks a rotating set of insurers in depth."),
+      h("p", null, "Every morning a GitHub Action checks IRDAI for a new monthly new-business statement, refreshes app ratings, collects news headlines, reads each insurer's homepage for digital capabilities and updates listed insurers' share prices, then rebuilds the benchmark. Mondays it also re-reads every insurer's official product list for new or missing UINs, and a scheduled Claude session researches flagged items, fills specs and KPIs that need desk research, and refreshes strategy profiles on a rotation."),
+      h("h3", null, "The benchmark"),
+      h("p", null, "Fifteen departments, from scale and growth to underwriting, claims, service, digital, people and governance, each with defined KPIs. Core KPIs are scored as percentiles within a peer group (all insurers, private insurers, the same size tier or the same distribution model); department scores average them and the overall index averages departments. IRDAI's Handbook on Indian Insurance Statistics and Annual Report supply the annual KPIs, IRDAI's monthly statement the sales KPIs."),
       h("h3", null, "Reading the specs"),
       h("p", null, "UIN is IRDAI's Unique Identification Number: insurer registration number, type letter (N non-linked, L linked), product number and version. ‘Replaced by new version’ means the same product number was refiled. ‘Spec’ shows how much of a product's detail was captured: full, partial, or listed only. Ages are in completed years; premiums exclude GST."),
       h("p", {class:"note"}, "Compiled from public information for comparison. Product terms change; confirm against the insurer's current brochure and policy wording before relying on any figure.")),
@@ -2058,6 +2108,494 @@ function specCoverageCard(){
 
 function notFound(msg, back){ return h("div", {class:"empty"}, h("h3", null, msg), h("p", null, linkTo(back, "Back to the list"))); }
 
+/* ---------- benchmark: data access ---------- */
+const PILLAR_SHORT = {scale:"Scale", growth:"Growth", profit:"Profit", capital:"Capital", distribution:"Distribution", product:"Product", marketing:"Marketing", underwriting:"Underwriting", claims:"Claims", service:"Service", efficiency:"Efficiency", digital:"Digital", people:"People", governance:"Governance", strategy:"Strategy"};
+const KPI_SERIES = {persistency_13:"persistency_13", persistency_61:"persistency_61", commission_ratio_pct:"commission_ratio", lapse_ratio_pct:"lapse_ratio", agents_count:"agents", offices:"offices", gwp_cr:"total_premium", solvency_ratio:"solvency", nbp_share_pct:"nbp_share_monthly"};
+const PEER_LABEL = {all:"All insurers", private:"Private insurers", tier:"Same size tier", model:"Same distribution model"};
+function fwk(){ return S.b.framework; }
+function allPillars(){ return fwk().pillars; }
+function scoredPillars(){ return allPillars().filter(p => !p.qualitative && p.kpis.some(k => k.core)); }
+function kmeta(id){ return S.kmeta[id] || null; }
+function bval(k, cid){ return (S.b.values[k] || {})[cid] || null; }
+function bcomp(cid){ return S.bcomp[cid] || null; }
+function benchMissing(){ return h("div", {class:"empty"}, h("h3", null, "Benchmark data is not loaded"), h("p", null, "The file data/benchmark.json did not load. Reload the page; if it keeps failing, the daily build has not published it yet.")); }
+function fmtMonth(key){ if (!key) return "—"; const [y, m] = String(key).split("-"); const M = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]; return m ? `${M[+m - 1]} ${y}` : y; }
+function fmtK(id, v){
+  if (v == null || v === "") return "—";
+  if (typeof v === "boolean") return v ? "Yes" : "No";
+  if (typeof v !== "number") return String(v);
+  const u = (kmeta(id) || {}).unit;
+  switch (u){
+    case "cr": return "₹" + (Math.abs(v) >= 100 ? nfIN.format(Math.round(v)) : nf2.format(v)) + " cr";
+    case "pct": return (Math.abs(v) >= 90 && Math.abs(v) < 100 ? nf2 : nf1).format(v) + "%";
+    case "pp": return (v > 0 ? "+" : "") + nf1.format(v) + " pp";
+    case "bps": return (v > 0 ? "+" : "") + nfIN.format(Math.round(v)) + " bps";
+    case "x": return (Math.abs(v) >= 10 ? nf1 : nf2).format(v) + "×";
+    case "count": return nfIN.format(Math.round(v));
+    case "inr": return "₹" + nfIN.format(Math.round(v));
+    case "inr_lakh": return "₹" + nf2.format(v) + " lakh";
+    case "lakh": return nf1.format(v) + " lakh";
+    case "stars": return nf2.format(v) + " ★";
+    case "score": return nf1.format(v);
+    case "per10k": return nf2.format(v);
+    case "days": return nfIN.format(Math.round(v)) + " days";
+    case "yrs": return nf1.format(v) + " yrs";
+    case "secs": return nf2.format(v) + " s";
+    default: return nf2.format(v);
+  }
+}
+function fmtTick(id, t){
+  const u = (kmeta(id) || {}).unit;
+  if (u === "pct" || u === "pp") return nf1.format(t) + (u === "pct" ? "%" : "");
+  if (u === "cr" || u === "inr" || u === "count") return Math.abs(t) >= 1e5 ? nf1.format(t / 1e5) + "L" : Math.abs(t) >= 1e3 ? nf1.format(t / 1e3) + "k" : nfIN.format(t);
+  return nf2.format(t);
+}
+function srcName(key){ const s = (fwk().sources || {})[key]; return s ? s.name : key; }
+function srcUrl(key){ const s = (fwk().sources || {})[key]; return s && s.url ? s.url : null; }
+
+/* ---------- benchmark: scoring (recomputed for the chosen peer group) ---------- */
+function peerIds(mode){
+  const comps = S.b.companies.filter(c => c.scored);
+  const b = S.bench && bcomp(S.bench);
+  if (mode === "private") return comps.filter(c => c.sector === "Private").map(c => c.id);
+  if (mode === "tier" && b && b.tier) return comps.filter(c => c.tier === b.tier).map(c => c.id);
+  if (mode === "model" && b && b.model) return comps.filter(c => c.model === b.model).map(c => c.id);
+  return comps.map(c => c.id);
+}
+function shownIds(mode){ return mode === "all" || !mode ? S.b.companies.map(c => c.id) : peerIds(mode); }
+function peerMode(){ const m = S.peer || "all"; if ((m === "tier" || m === "model") && peerIds(m).length < 4) return "all"; return m; }
+function peerText(mode){ const b = S.bench && bcomp(S.bench); return mode === "tier" && b ? `${b.tier} insurers` : mode === "model" && b ? `${b.model} insurers` : PEER_LABEL[mode]; }
+function scoresFor(ids){
+  const key = ids.join(",");
+  if (S.scoreCache[key]) return S.scoreCache[key];
+  const set = new Set(ids), ks = {}, ps = {}, idx = {};
+  const rules = fwk().scoring || {}, minK = rules.min_kpis_per_pillar || 2, minP = rules.min_pillars_for_index || 6;
+  const minN = Math.max(3, Math.min(5, ids.length - 1));
+  scoredPillars().forEach(p => p.kpis.filter(k => k.core && (k.better === "high" || k.better === "low")).forEach(k => {
+    const vals = Object.entries(S.b.values[k.id] || {}).filter(([c, x]) => set.has(c) && typeof x.v === "number");
+    if (vals.length < minN) return;
+    vals.sort((a, b) => a[1].v - b[1].v);
+    const n = vals.length, out = {};
+    let i = 0;
+    while (i < n){
+      let j = i;
+      while (j + 1 < n && vals[j + 1][1].v === vals[i][1].v) j++;
+      const s = n > 1 ? (i + j) / 2 / (n - 1) * 100 : 50;
+      for (let t = i; t <= j; t++) out[vals[t][0]] = k.better === "high" ? s : 100 - s;
+      i = j + 1;
+    }
+    ks[k.id] = out;
+  }));
+  scoredPillars().forEach(p => {
+    const core = p.kpis.filter(k => ks[k.id]), of = p.kpis.filter(k => k.core).length;
+    ids.forEach(c => {
+      const got = core.map(k => ks[k.id][c]).filter(v => v != null);
+      if (got.length >= minK) (ps[p.id] = ps[p.id] || {})[c] = {score:sum(got) / got.length, n:got.length, of};
+    });
+  });
+  ids.forEach(c => {
+    const got = Object.values(ps).map(m => m[c] && m[c].score).filter(v => v != null);
+    if (got.length >= minP) idx[c] = {score:sum(got) / got.length, n:got.length};
+  });
+  Object.entries(idx).sort((a, b) => b[1].score - a[1].score).forEach(([c, x], i) => x.rank = i + 1);
+  Object.values(ps).forEach(m => Object.entries(m).sort((a, b) => b[1].score - a[1].score).forEach(([c, x], i) => x.rank = i + 1));
+  return (S.scoreCache[key] = {ks, ps, idx, ids, n:Object.keys(idx).length});
+}
+function scoreBin(s){ return s == null ? null : s >= 80 ? 2 : s >= 60 ? 1 : s > 40 ? 0 : s > 20 ? -1 : -2; }
+const BIN_STYLE = {"2":"background:var(--div-pos);color:var(--on-pos)", "1":"background:color-mix(in srgb,var(--div-pos) 36%,var(--surface));color:var(--ink)", "0":"background:var(--div-mid);color:var(--ink)", "-1":"background:color-mix(in srgb,var(--div-neg) 34%,var(--surface));color:var(--ink)", "-2":"background:var(--div-neg);color:var(--on-neg)"};
+function scoreStyle(s){ const b = scoreBin(s); return b == null ? null : BIN_STYLE[String(b)]; }
+function scoreLegend(){ return legendOf([{l:"Top fifth (80-100)", style:BIN_STYLE["2"].split(";")[0]}, {l:"60-80", style:BIN_STYLE["1"].split(";")[0]}, {l:"Middle (40-60)", style:BIN_STYLE["0"].split(";")[0]}, {l:"20-40", style:BIN_STYLE["-1"].split(";")[0]}, {l:"Bottom fifth (0-20)", style:BIN_STYLE["-2"].split(";")[0]}]); }
+function rk(n){ const s = ["th","st","nd","rd"], v = n % 100; return n + (s[(v - 20) % 10] || s[v] || s[0]); }
+
+function peerPicker(){
+  const mode = peerMode(), b = S.bench && bcomp(S.bench);
+  const sel = h("select", {id:"peer", "aria-label":"Peer group"},
+    [["all", "All insurers"], ["private", "Private insurers only"],
+     ["tier", b && b.tier ? `Same size tier as ${cname(b.id)} (${b.tier})` : "Same size tier (highlight an insurer first)"],
+     ["model", b && b.model ? `Same model as ${cname(b.id)} (${b.model})` : "Same distribution model (highlight an insurer first)"]].map(([v, l]) => {
+      const o = h("option", {value:v}, l);
+      if ((v === "tier" || v === "model") && peerIds(v).length < 4) o.disabled = true;
+      if (v === mode) o.selected = true;
+      return o;
+    }));
+  sel.addEventListener("change", () => { S.peer = sel.value; ls.set("ip.peer", sel.value); render(); });
+  return h("label", {class:"bench", for:"peer"}, h("span", null, "Compare within"), sel);
+}
+function pillarNav(active){
+  return h("nav", {class:"chips pillnav", "aria-label":"Departments"}, allPillars().map(p => {
+    const href = p.qualitative ? "#strategy" : "#dept-" + p.id;
+    return h("a", {class:"chip" + (p.id === active ? " on" : ""), href, "aria-current": p.id === active ? "page" : null}, PILLAR_SHORT[p.id] || p.name);
+  }));
+}
+
+/* ---------- benchmark: scorecard ---------- */
+function viewBenchmark(){
+  if (!S.b) return benchMissing();
+  const mode = peerMode(), ids = peerIds(mode), sc = scoresFor(ids), P = scoredPillars(), per = S.b.periods || {};
+  const nCore = sum(P.map(p => p.kpis.filter(k => k.core).length));
+  const view = h("div");
+  view.append(h("div", {class:"view-head"}, h("div", null, h("h2", null, "Competitive benchmark"),
+    h("p", null, `Each insurer is scored against its peers on ${nCore} core KPIs in ${P.length} departments: 100 is best in the group, 50 the middle, 0 the weakest. Monthly sales run to ${fmtMonth(per.monthly)}, IRDAI annual statistics to FY${per.handbook}; apps, websites and news refresh daily.`)),
+    peerPicker()));
+  view.append(pillarNav(null));
+  // headline tiles
+  const b = S.bench && sc.idx[S.bench] ? S.bench : null;
+  const top = Object.entries(sc.idx).sort((x, y) => x[1].rank - y[1].rank)[0];
+  const pillOf = cid => P.map(p => ({p, s:sc.ps[p.id] && sc.ps[p.id][cid]})).filter(x => x.s).sort((x, y) => y.s.score - x.s.score);
+  const tiles = [];
+  if (b){
+    const pl = pillOf(b), bi = sc.idx[b];
+    tiles.push([cname(b) + " overall", `${rk(bi.rank)} of ${sc.n}`, `index ${nf1.format(bi.score)} in ${peerText(mode).toLowerCase()}`]);
+    tiles.push(["Strongest department", pl[0] ? pl[0].p.name : "—", pl[0] ? `score ${Math.round(pl[0].s.score)} · ${rk(pl[0].s.rank)}` : ""]);
+    tiles.push(["Weakest department", pl.length ? pl[pl.length - 1].p.name : "—", pl.length ? `score ${Math.round(pl[pl.length - 1].s.score)} · ${rk(pl[pl.length - 1].s.rank)}` : ""]);
+  } else {
+    tiles.push(["Top overall", top ? cname(top[0]) : "—", top ? `index ${nf1.format(top[1].score)}` : ""]);
+    tiles.push(["Insurers scored", String(sc.n), peerText(mode)]);
+    tiles.push(["Core KPIs", String(nCore), `${P.length} departments`]);
+  }
+  tiles.push(["Latest monthly data", fmtMonth(per.monthly), "IRDAI new business statement"]);
+  view.append(h("div", {class:"kpis k4"}, tiles.map(([l, v, d]) => h("div", {class:"kpi"}, h("div", {class:"l"}, l), h("div", {class:"v vtext"}, v), h("div", {class:"d"}, d)))));
+  if (!b) view.append(h("p", {class:"small muted", style:"margin-top:8px"}, "Tip: pick an insurer under ‘Highlight insurer’ to see where it stands, and to compare it within its size tier or distribution model."));
+  // scorecard
+  const rows = ids.map(c => ({id:c, l:cname(c), idx:sc.idx[c]})).sort((x, y) => (x.idx ? x.idx.rank : 999) - (y.idx ? y.idx.rank : 999) || x.l.localeCompare(y.l));
+  const table = h("div", {class:"tablewrap"}, h("table", {class:"heat sticky1 scorecard"},
+    h("thead", null, h("tr", null, h("th", null, "Insurer"), h("th", {class:"c"}, "Index"), P.map(p => h("th", {class:"c"}, h("a", {href:"#dept-" + p.id}, PILLAR_SHORT[p.id] || p.name))))),
+    h("tbody", null, rows.map(r => h("tr", {class:r.id === S.bench ? "bench" : null},
+      h("td", null, linkTo("insurer-" + r.id, r.l), h("span", {class:"pnote"}, [(bcomp(r.id) || {}).tier, (bcomp(r.id) || {}).model].filter(Boolean).join(" · "))),
+      (() => { const td = h("td", {class:"cell idx" + (r.idx ? "" : " zero"), style:r.idx ? scoreStyle(r.idx.score) : null, tabindex:r.idx ? "0" : null}, r.idx ? String(Math.round(r.idx.score)) : "·"); if (r.idx) hover(td, () => [nf1.format(r.idx.score), `${r.l} · overall index`, `${rk(r.idx.rank)} of ${sc.n} · ${r.idx.n} departments scored`]); return td; })(),
+      P.map(p => {
+        const s = sc.ps[p.id] && sc.ps[p.id][r.id];
+        const td = h("td", {class:"cell" + (s ? "" : " zero"), style:s ? scoreStyle(s.score) : null, tabindex:s ? "0" : null}, s ? String(Math.round(s.score)) : "·");
+        if (s){
+          const open = () => go("dept-" + p.id);
+          td.addEventListener("click", open); td.addEventListener("keydown", e => { if (e.key === "Enter") open(); });
+          hover(td, () => [nf1.format(s.score), `${r.l} · ${p.name}`, `${rk(s.rank)} of ${Object.keys(sc.ps[p.id]).length} · ${s.n} of ${s.of} KPIs with data`]);
+        }
+        return td;
+      }))))));
+  view.append(h("section", {class:"panel section"}, h("div", {class:"panel-head"}, h("div", {class:"t"}, h("h3", null, "Scorecard"), h("div", {class:"s"}, `${peerText(mode)} · sorted by overall index · tap a cell to open that department`))), scoreLegend(), table,
+    h("p", {class:"fn"}, "A dot means fewer than two of that department's core KPIs have data for the insurer. Sahara India Life (no new business) and India Post (outside IRDAI) are not scored.")));
+  // leaders by department
+  view.append(h("div", {class:"section"}, h("h2", {style:"margin-bottom:12px"}, "Leaders by department"),
+    h("div", {class:"tiles leaders"}, P.map(p => {
+      const m = sc.ps[p.id] || {}, top3 = Object.entries(m).sort((x, y) => x[1].rank - y[1].rank).slice(0, 3);
+      const mine = S.bench && m[S.bench];
+      return h("a", {class:"tile lead", href:"#dept-" + p.id},
+        h("div", {class:"l"}, p.dept), h("div", {class:"lt"}, p.name),
+        h("ol", {class:"top3"}, top3.map(([c, x]) => h("li", {class:c === S.bench ? "b" : null}, h("span", null, cname(c)), h("b", null, String(Math.round(x.score)))))),
+        mine && mine.rank > 3 ? h("div", {class:"p"}, `${cname(S.bench)}: ${rk(mine.rank)}, score ${Math.round(mine.score)}`) : null);
+    }))));
+  view.append(h("div", {class:"section"}, methodPanel()));
+  return view;
+}
+function methodPanel(){
+  const f = fwk(), sc = f.scoring || {};
+  return h("details", {class:"fold"}, h("summary", null, h("span", null, h("h3", null, "How the scores work"), h("span", {class:"fold-s"}, "Method, peer groups, caveats and sources")), h("span", {class:"fold-k"})),
+    h("div", {class:"grid g2"},
+      h("div", {class:"prose"}, h("p", null, sc.method), h("h3", null, "Read with care"), h("ul", {class:"theme-list"}, arr(sc.caveats).map(c => h("li", null, c))),
+        h("h3", null, "Peer groups"), h("ul", {class:"theme-list"}, arr(f.peer_groups).map(g => h("li", null, h("b", null, g.name), g.rule ? ": " + g.rule : "")))),
+      h("div", {class:"prose"}, h("h3", null, "Sources and refresh"), h("ul", {class:"theme-list"}, Object.entries(f.sources || {}).map(([k, s]) => h("li", null, s.url ? ext(s.url, s.name) : s.name, h("span", {class:"muted"}, ` · ${s.freq}${s.auto ? " · automatic" : ""}`)))))));
+}
+
+/* ---------- benchmark: departments ---------- */
+function viewDept(pid){
+  if (!S.b) return benchMissing();
+  const p = allPillars().find(x => x.id === pid && !x.qualitative) || scoredPillars()[0];
+  const mode = peerMode(), ids = peerIds(mode), sc = scoresFor(ids), show = shownIds(mode);
+  const view = h("div");
+  view.append(h("div", {class:"crumbs"}, linkTo("benchmark", "Benchmark"), h("span", null, "/"), h("span", null, p.name)));
+  view.append(h("div", {class:"view-head"}, h("div", null, h("div", {class:"eyebrow"}, p.dept), h("h2", null, p.name), h("p", null, p.question),
+    h("div", {class:"chips", style:"margin-top:8px"}, arr(p.functions).map(fn => h("span", {class:"chip"}, fn)))), peerPicker()));
+  view.append(pillarNav(p.id));
+  const core = p.kpis.filter(k => k.core), ctx = p.kpis.filter(k => !k.core);
+  // department ranking
+  const m = sc.ps[p.id] || {};
+  const rrows = Object.entries(m).map(([c, x]) => ({id:c, l:cname(c), v:x.score, x})).sort((a, b) => b.v - a.v);
+  if (rrows.length) view.append(h("div", {class:"section"}, card(`${p.name}: department score`, `${peerText(mode)} · average of ${core.length} core KPI percentiles · 50 = middle of the group`,
+    () => barList(rrows, {fmt:v => nf1.format(v), onClick:r => go("insurer-" + r.id), tipLabel:r => `${rk(r.x.rank)} · ${r.x.n} of ${r.x.of} KPIs with data`}),
+    () => simpleTable([{l:"Insurer", v:r => r.l}, {l:"Score", n:1, v:r => nf1.format(r.v)}, {l:"Rank", n:1, v:r => String(r.x.rank)}, {l:"KPIs with data", n:1, v:r => `${r.x.n} of ${r.x.of}`}], rrows))));
+  // KPI matrix
+  const cols = [...core, ...ctx].filter(k => Object.keys(S.b.values[k.id] || {}).length);
+  const order = rrows.map(r => r.id).concat(show.filter(c => !m[c]).sort((a, b) => cname(a).localeCompare(cname(b))));
+  const rowsIds = order.filter(c => show.includes(c) && cols.some(k => bval(k.id, c)));
+  if (cols.length){
+    const table = h("div", {class:"tablewrap"}, h("table", {class:"heat sticky1 kpimatrix"},
+      h("thead", null, h("tr", null, h("th", null, "Insurer"), cols.map(k => h("th", {class:"c" + (k.core ? "" : " ctx")}, h("a", {href:"#kpi-" + k.id}, k.name), h("span", {class:"dir"}, k.better === "high" ? "higher is better" : k.better === "low" ? "lower is better" : "context"))))),
+      h("tbody", null, rowsIds.map(c => h("tr", {class:c === S.bench ? "bench" : null},
+        h("td", null, linkTo("insurer-" + c, cname(c))),
+        cols.map(k => {
+          const x = bval(k.id, c), s = k.core && sc.ks[k.id] ? sc.ks[k.id][c] : null;
+          const td = h("td", {class:"cell" + (x ? "" : " zero"), style:s != null ? scoreStyle(s) : null, tabindex:x ? "0" : null}, x ? fmtK(k.id, x.v) : "·");
+          if (x){
+            td.addEventListener("click", () => go("kpi-" + k.id));
+            hover(td, () => [fmtK(k.id, x.v), `${cname(c)} · ${k.name}`, [x.p, s != null ? `percentile ${Math.round(s)}` : "not scored", x.note].filter(Boolean).join(" · ")]);
+          }
+          return td;
+        }))))));
+    view.append(h("section", {class:"panel section"}, h("div", {class:"panel-head"}, h("div", {class:"t"}, h("h3", null, "KPI matrix"), h("div", {class:"s"}, "Colour shows the percentile within the peer group for core KPIs; context KPIs are uncoloured · tap a column title for the full ranking and trend"))), scoreLegend(), table));
+  }
+  // definitions
+  view.append(h("div", {class:"section"}, h("details", {class:"fold"}, h("summary", null, h("span", null, h("h3", null, "Definitions and sources"), h("span", {class:"fold-s"}, `${p.kpis.length} KPIs in this department`)), h("span", {class:"fold-k"})),
+    h("div", {class:"tablewrap"}, h("table", null, h("thead", null, h("tr", null, h("th", null, "KPI"), h("th", null, "Definition"), h("th", null, "Direction"), h("th", null, "Source"), h("th", null, "Refresh"), h("th", {class:"n"}, "Insurers"))),
+      h("tbody", null, p.kpis.map(k => h("tr", null, h("td", {class:"pname"}, linkTo("kpi-" + k.id, k.name), k.core ? null : h("span", {class:"ins"}, "context")), h("td", {class:"desc"}, k.def), h("td", null, k.better === "high" ? "Higher is better" : k.better === "low" ? "Lower is better" : "Context"), h("td", {class:"small"}, srcUrl(k.source) ? ext(srcUrl(k.source), srcName(k.source)) : srcName(k.source)), h("td", {class:"small"}, k.freq), h("td", {class:"n"}, String(Object.keys(S.b.values[k.id] || {}).length))))))))));
+  return view;
+}
+
+/* ---------- benchmark: one KPI ---------- */
+function viewKpi(id){
+  if (!S.b) return benchMissing();
+  const k = kmeta(id);
+  if (!k) return notFound("KPI not found", "benchmark");
+  const p = allPillars().find(x => x.id === k.pillar);
+  const mode = peerMode(), ids = peerIds(mode), sc = scoresFor(ids), show = shownIds(mode);
+  const vals = Object.entries(S.b.values[id] || {}).filter(([c, x]) => show.includes(c) && x.v != null);
+  const numeric = vals.filter(([, x]) => typeof x.v === "number");
+  const view = h("div");
+  view.append(h("div", {class:"crumbs"}, linkTo("benchmark", "Benchmark"), h("span", null, "/"), linkTo("dept-" + p.id, p.name), h("span", null, "/"), h("span", null, k.name)));
+  view.append(h("div", {class:"view-head"}, h("div", null, h("div", {class:"eyebrow"}, `${p.dept} · ${p.name}`), h("h2", null, k.name), h("p", null, k.def + (k.why ? " " + k.why : "")),
+    h("div", {class:"chips", style:"margin-top:8px"}, h("span", {class:"chip"}, k.better === "high" ? "Higher is better" : k.better === "low" ? "Lower is better" : "Context, not ranked"), k.core ? h("span", {class:"chip on"}, "Core KPI, scored") : null, h("span", {class:"chip"}, "Refresh: " + k.freq),
+      srcUrl(k.source) ? h("a", {class:"chip", href:srcUrl(k.source), target:"_blank", rel:"noopener"}, srcName(k.source)) : h("span", {class:"chip"}, srcName(k.source)))), peerPicker()));
+  if (!vals.length){ view.append(h("div", {class:"empty"}, h("h3", null, "No data yet"), h("p", null, "This KPI needs research from insurer disclosures; the weekly research run fills it over time."))); return view; }
+  const xs = numeric.map(([, x]) => x.v).sort((a, b) => a - b), q = t => xs[Math.min(xs.length - 1, Math.max(0, Math.round(t * (xs.length - 1))))];
+  const best = k.better === "low" ? numeric.slice().sort((a, b) => a[1].v - b[1].v)[0] : numeric.slice().sort((a, b) => b[1].v - a[1].v)[0];
+  const tiles = [["Median", xs.length ? fmtK(id, q(0.5)) : "—", `${xs.length} insurers`], [k.better === "low" ? "Best quartile (25th pct)" : "Top quartile (75th pct)", xs.length ? fmtK(id, q(k.better === "low" ? 0.25 : 0.75)) : "—", "threshold"], ["Best", best ? fmtK(id, best[1].v) : "—", best ? cname(best[0]) : ""]];
+  if (S.bench && bval(id, S.bench)){ const x = bval(id, S.bench), s = sc.ks[id] && sc.ks[id][S.bench]; tiles.push([cname(S.bench), fmtK(id, x.v), s != null ? `percentile ${Math.round(s)}` : (x.p || "")]); }
+  view.append(h("div", {class:"kpis k4"}, tiles.map(([l, v, d]) => h("div", {class:"kpi"}, h("div", {class:"l"}, l), h("div", {class:"v vtext"}, v), h("div", {class:"d"}, d)))));
+  const periods = [...new Set(vals.map(([, x]) => x.p).filter(Boolean))];
+  const rows = numeric.map(([c, x]) => ({id:c, l:cname(c), v:x.v, p:x.p, note:x.note, s:sc.ks[id] ? sc.ks[id][c] : null}))
+    .sort((a, b) => k.better === "low" ? a.v - b.v : b.v - a.v);
+  if (rows.length) view.append(h("div", {class:"section"}, card("Ranking", `${peerText(mode)} · ${k.better === "low" ? "lowest first" : "highest first"} · line marks the median · ${periods.length === 1 ? periods[0] : periods.length + " periods, see table"}`,
+    () => kpiBars(id, rows, {median:q(0.5)}),
+    () => simpleTable([{l:"Insurer", v:r => r.l}, {l:k.name, n:1, v:r => fmtK(id, r.v)}, {l:"Percentile", n:1, v:r => r.s == null ? "—" : String(Math.round(r.s))}, {l:"Period", v:r => r.p || "—"}, {l:"Note", v:r => r.note || ""}], rows))));
+  const nonNum = vals.filter(([, x]) => typeof x.v !== "number");
+  if (nonNum.length) view.append(h("div", {class:"section"}, simpleTable([{l:"Insurer", v:r => cname(r[0])}, {l:k.name, v:r => fmtK(id, r[1].v)}, {l:"As of", v:r => r[1].p || "—"}], nonNum)));
+  const ser = KPI_SERIES[id] && S.b.series[KPI_SERIES[id]];
+  if (ser){
+    const focus = [S.bench, best && best[0]].filter((c, i, a) => c && a.indexOf(c) === i && ser.by[c]);
+    view.append(h("div", {class:"section"}, card(`Trend: ${ser.label}`, `Industry median and ${focus.length ? focus.map(cname).join(" and ") : "the leader"} · hover for values`,
+      () => trendChart(ser, focus, id),
+      () => trendTable(ser, focus, id))));
+  }
+  return view;
+}
+function kpiBars(id, rows, o = {}){
+  const vs = rows.map(r => r.v);
+  let lo = Math.min(0, ...vs), hi = Math.max(0, ...vs);
+  if (hi === lo) hi = lo + 1;
+  const span = hi - lo, dLo = lo < 0 ? lo - span * 0.05 : lo, dHi = hi + span * 0.22;
+  const X = v => (v - dLo) / (dHi - dLo) * 100, z = X(0);
+  const ticks = niceTicks(lo, hi, 4).filter(t => t >= dLo && t <= dHi);
+  return rowChart(rows, {x:X, ticks, zero:0, tickFmt:t => fmtTick(id, t), rowH:22,
+    marks: r => {
+      const x = X(r.v), mut = S.bench && r.id !== S.bench;
+      return [h("span", {class:"dvb " + (r.v < 0 ? "neg" : "pos") + (mut ? " mut" : ""), style:`left:${Math.min(x, z)}%;width:${Math.max(Math.abs(x - z), 0.4)}%;--c:var(--accent)`}),
+        h("span", {class:"rc-t", style:`left:calc(${Math.max(x, z)}% + 6px)`}, fmtK(id, r.v))];
+    },
+    extra: o.median != null ? [h("span", {class:"rc-ref", style:`left:${X(o.median)}%`})] : [],
+    tip: r => [fmtK(id, r.v), r.l, [r.p, r.s != null ? `percentile ${Math.round(r.s)}` : null, r.note].filter(Boolean).join(" · ")]});
+}
+function periodKey(p){
+  const s = String(p);
+  let m = s.match(/^(\d{4})-(\d{2})$/); if (m && +m[2] <= 12 && s.length === 7 && +m[2] !== +String(+m[1] + 1).slice(2)) return +m[1] * 12 + +m[2];
+  m = s.match(/^(\d{4})-(\d{2})$/); if (m) return (+m[1] + 1) * 12 + 3;
+  m = s.match(/^([A-Za-z]+) (\d{4})$/); if (m) return +m[2] * 12 + (new Date(m[1] + " 1, 2000").getMonth() + 1);
+  m = s.match(/^(\d{4})$/); if (m) return +m[1] * 12 + 3;
+  return 0;
+}
+function trendLines(ser, focus){
+  const periods = [...new Set(Object.values(ser.by).flatMap(pts => pts.map(x => x[0])))].sort((a, b) => periodKey(a) - periodKey(b));
+  const at = (c, p) => { const f = (ser.by[c] || []).find(x => x[0] === p); return f ? f[1] : null; };
+  const med = periods.map(p => { const v = Object.keys(ser.by).map(c => at(c, p)).filter(x => x != null); return v.length >= 3 ? median(v) : null; });
+  const lines = [{id:"_median", l:"Industry median", color:"var(--muted)", pts:med}];
+  focus.forEach((c, i) => lines.push({id:c, l:cname(c), color:i === 0 ? "var(--accent)" : "var(--cat-2)", pts:periods.map(p => at(c, p))}));
+  return {periods, lines};
+}
+function trendTable(ser, focus, id){
+  const {periods, lines} = trendLines(ser, focus);
+  return simpleTable([{l:"Period", v:r => r.p}, ...lines.map((ln, i) => ({l:ln.l, n:1, v:r => fmtK(id, r.v[i])}))], periods.map((p, j) => ({p, v:lines.map(ln => ln.pts[j])})));
+}
+function trendChart(ser, focus, id){
+  const holder = h("div", {class:"trend"});
+  const {periods, lines} = trendLines(ser, focus);
+  holder.append(legendOf(lines.map(ln => ({l:ln.l, color:ln.color}))));
+  const box = h("div");
+  holder.append(box);
+  const draw = () => {
+    const W = Math.max(300, box.clientWidth || 640), H = 230, m = {l:48, r:96, t:10, b:30};
+    const all = lines.flatMap(ln => ln.pts).filter(v => v != null);
+    if (!all.length){ box.replaceChildren(h("p", {class:"muted"}, "No trend data.")); return; }
+    let lo = Math.min(...all), hi = Math.max(...all); const pad = (hi - lo) * 0.12 || Math.abs(hi) * 0.1 || 1; lo -= pad; hi += pad;
+    const yt = niceTicks(lo, hi, 4).filter(t => t >= lo && t <= hi);
+    const X = i => m.l + (periods.length > 1 ? i / (periods.length - 1) : 0.5) * (W - m.l - m.r), Y = v => H - m.b - (v - lo) / (hi - lo) * (H - m.t - m.b);
+    const svg = sv("svg", {viewBox:`0 0 ${W} ${H}`, class:"svgchart", role:"img", "aria-label":`${ser.label}: ${lines.map(l => l.l).join(", ")}`});
+    yt.forEach(t => svg.append(sv("line", {x1:m.l, x2:W - m.r, y1:Y(t), y2:Y(t), class:"grid-line"}), sv("text", {x:m.l - 6, y:Y(t) + 4, "text-anchor":"end", text:fmtTick(id, t)})));
+    const step = Math.max(1, Math.ceil(periods.length / Math.max(2, Math.floor((W - m.l - m.r) / 70))));
+    periods.forEach((p, i) => { if (i % step === 0 || i === periods.length - 1) svg.append(sv("text", {x:X(i), y:H - m.b + 16, "text-anchor":"middle", text:String(p).replace(/^(\d{4})-(\d{2})$/, (s, a, b) => +b <= 12 && +b !== +String(+a + 1).slice(2) ? fmtMonth(s) : "FY" + String(+a + 1).slice(2))})); });
+    svg.append(sv("line", {x1:m.l, x2:W - m.r, y1:H - m.b, y2:H - m.b, class:"axis-line"}));
+    const ends = [];
+    lines.forEach(ln => {
+      let d = "", pen = false;
+      ln.pts.forEach((v, i) => { if (v == null){ pen = false; return; } d += (pen ? "L" : "M") + X(i).toFixed(1) + "," + Y(v).toFixed(1); pen = true; });
+      if (d) svg.append(sv("path", {d, fill:"none", stroke:ln.color, "stroke-width":2, "stroke-linejoin":"round", "stroke-linecap":"round"}));
+      const li = ln.pts.map((v, i) => v == null ? -1 : i).filter(i => i >= 0).pop();
+      if (li != null && li >= 0) ends.push({ln, x:X(li), y:Y(ln.pts[li]), v:ln.pts[li]});
+    });
+    ends.sort((a, b) => a.y - b.y).forEach((e, i, arr2) => { if (i && e.y - arr2[i - 1].ly < 13) e.ly = arr2[i - 1].ly + 13; else e.ly = e.y; });
+    ends.forEach(e => {
+      svg.append(sv("circle", {cx:e.x, cy:e.y, r:4, fill:e.ln.color, stroke:"var(--surface)", "stroke-width":2}));
+      svg.append(sv("text", {x:e.x + 8, y:e.ly + 4, class:"lbl" + (e.ln.id === S.bench ? " b" : ""), text:`${fmtK(id, e.v)} ${e.ln.id === "_median" ? "median" : clip(e.ln.l, 14)}`}));
+    });
+    const cross = sv("line", {y1:m.t, y2:H - m.b, class:"med-line", visibility:"hidden"});
+    const hit = sv("rect", {x:m.l, y:m.t, width:W - m.l - m.r, height:H - m.t - m.b, fill:"transparent"});
+    svg.append(cross, hit);
+    const at = ev => { const r = svg.getBoundingClientRect(), x = (ev.clientX - r.left) * W / r.width; return clamp(Math.round((x - m.l) / ((W - m.l - m.r) / Math.max(1, periods.length - 1))), 0, periods.length - 1); };
+    hit.addEventListener("pointermove", ev => { const i = at(ev); cross.setAttribute("x1", X(i)); cross.setAttribute("x2", X(i)); cross.setAttribute("visibility", "visible"); showTip(ev, String(periods[i]), lines.map(ln => `${ln.l}: ${fmtK(id, ln.pts[i])}`).join(" · ")); });
+    hit.addEventListener("pointerleave", () => { cross.setAttribute("visibility", "hidden"); hideTip(); });
+    box.replaceChildren(svg);
+  };
+  box._redraw = draw;
+  requestAnimationFrame(draw);
+  return holder;
+}
+
+/* ---------- strategy ---------- */
+function viewStrategy(){
+  if (!S.b) return benchMissing();
+  const sc = scoresFor(peerIds("all"));
+  const view = h("div");
+  view.append(h("div", {class:"view-head"}, h("div", null, h("h2", null, "Strategy & ambition"),
+    h("p", null, "What each insurer says it is trying to become (purpose, strategic pillars, stated targets, footprint), set beside what the data shows (size tier, distribution model, strongest and weakest departments). Stated items come from the insurer's own website or investor material; the data view is computed."))));
+  view.append(pillarNav("strategy"));
+  const st = S.b.strategy || {};
+  const statuses = {deep:"Pillars and targets", partial:"Purpose and footprint", pending:"Not yet researched"};
+  const fsel = h("select", {"aria-label":"Research depth"}, h("option", {value:""}, "All insurers"), Object.entries(statuses).map(([k, l]) => { const o = h("option", {value:k}, l); if (S.stratF === k) o.selected = true; return o; }));
+  fsel.addEventListener("change", () => { S.stratF = fsel.value; render(); });
+  view.append(h("div", {class:"filters"}, fsel));
+  const ids = S.b.companies.map(c => c.id).filter(c => !S.stratF || ((st[c] || {}).status || "pending") === S.stratF)
+    .sort((a, b) => ((sc.idx[a] || {}).rank || 999) - ((sc.idx[b] || {}).rank || 999) || cname(a).localeCompare(cname(b)));
+  const order = {deep:0, partial:1, pending:2};
+  ids.sort((a, b) => (order[(st[a] || {}).status] ?? 2) - (order[(st[b] || {}).status] ?? 2) || ((sc.idx[a] || {}).rank || 999) - ((sc.idx[b] || {}).rank || 999));
+  view.append(h("div", {class:"grid g2 strat"}, ids.map(c => strategyCard(c, st[c] || {}, sc))));
+  return view;
+}
+function strategyCard(c, s, sc){
+  const bc = bcomp(c) || {}, prof = (S.b.profiles || {})[c] || {}, ix = sc.idx[c];
+  const stamp = {deep:"pillars & targets", partial:"partial", pending:"pending research"}[s.status || "pending"];
+  const kname = k => (kmeta(k) || {}).name || k;
+  return h("section", {class:"panel strat-card" + (c === S.bench ? " is-bench" : "")},
+    h("div", {class:"panel-head"}, h("div", {class:"t"}, h("h3", null, linkTo("insurer-" + c, cname(c))), h("div", {class:"s"}, [bc.tier && bc.tier + " tier", bc.model, ix ? `index ${Math.round(ix.score)} (${rk(ix.rank)})` : null].filter(Boolean).join(" · "))), h("span", {class:"stamp" + (s.status === "pending" || !s.status ? " neutral" : "")}, stamp)),
+    s.purpose ? h("p", {class:"purpose"}, s.purpose) : null,
+    s.programme ? h("div", {class:"small muted", style:"margin-top:4px"}, "Programme: " + s.programme) : null,
+    arr(s.pillars).length ? h("div", {class:"sblock"}, h("div", {class:"eyebrow"}, "Strategic pillars"), h("ul", {class:"feat"}, s.pillars.map(x => h("li", null, h("b", null, x.name), x.detail ? ". " + x.detail : "")))) : null,
+    arr(s.targets).length ? h("div", {class:"sblock"}, h("div", {class:"eyebrow"}, "Stated targets"), h("ul", {class:"feat"}, s.targets.map(x => h("li", null, x.text, x.by ? h("span", {class:"muted"}, ` (by ${x.by})`) : null)))) : null,
+    arr(s.key_facts).length ? h("div", {class:"sblock"}, h("div", {class:"eyebrow"}, "Latest reported"), h("ul", {class:"feat"}, s.key_facts.map(x => h("li", null, x)))) : null,
+    arr(s.values).length ? h("div", {class:"sblock"}, h("div", {class:"eyebrow"}, "Values"), h("div", {class:"chips"}, s.values.map(v => h("span", {class:"chip"}, v)))) : null,
+    arr(s.footprint).length ? h("div", {class:"sblock"}, h("div", {class:"eyebrow"}, "Footprint (as stated)"), h("div", {class:"chips"}, s.footprint.map(f => h("span", {class:"chip"}, `${f.k}: ${f.v}`, f.as_of ? h("span", {class:"muted"}, ` · ${f.as_of}`) : null)))) : null,
+    (s.parentage || (S.comp[c] || {}).ownership_text) ? h("p", {class:"small ink2", style:"margin-top:10px"}, s.parentage || S.comp[c].ownership_text) : null,
+    (prof.strengths || prof.gaps) ? h("div", {class:"sblock dataview"}, h("div", {class:"eyebrow"}, "What the data says"),
+      h("div", {class:"chips"}, arr(prof.strengths).map(x => h("a", {class:"chip good", href:"#dept-" + x.pillar}, `▲ ${x.name} ${Math.round(x.score)}`)), arr(prof.gaps).map(x => h("a", {class:"chip weak", href:"#dept-" + x.pillar}, `▼ ${x.name} ${Math.round(x.score)}`))),
+      arr(prof.standouts).length ? h("p", {class:"small", style:"margin-top:6px"}, h("b", null, "Top-decile KPIs: "), prof.standouts.slice(0, 4).map(x => kname(x.kpi)).join(", ")) : null,
+      arr(prof.watch).length ? h("p", {class:"small", style:"margin-top:2px"}, h("b", null, "Bottom-decile KPIs: "), prof.watch.slice(0, 4).map(x => kname(x.kpi)).join(", ")) : null) : null,
+    arr(s.sources).length ? h("div", {class:"sources", style:"margin-top:10px"}, s.sources.map(x => ext(x.url, x.title))) : null,
+    s.researched_on ? h("div", {class:"small muted", style:"margin-top:6px"}, "Researched " + fmtDate(s.researched_on)) : null);
+}
+
+/* ---------- news & market ---------- */
+function viewNews(){
+  if (!S.b) return benchMissing();
+  const N = S.b.news || {}, view = h("div");
+  view.append(h("div", {class:"view-head"}, h("div", null, h("h2", null, "News & market pulse"),
+    h("p", null, `Headlines naming each insurer in Google News (India) over the last 30 days, sorted into themes, plus daily share prices for listed insurers. Updated ${S.b.news_updated ? fmtDate(S.b.news_updated) : "—"}. Headlines link to the publisher.`))));
+  const rows = Object.entries(N).map(([c, n]) => ({id:c, l:cname(c), v:n.mentions_30d || 0, n})).filter(r => r.v > 0).sort((a, b) => b.v - a.v);
+  const themes = [...new Set(rows.flatMap(r => Object.keys(r.n.themes_30d || {})))];
+  const g = h("div", {class:"grid g2 section"});
+  g.append(rows.length ? card("Share of voice, 30 days", `${nfIN.format(sum(rows.map(r => r.v)))} headlines across ${rows.length} insurers`,
+    () => barList(rows, {fmt:v => nfIN.format(v), onClick:r => { S.newsCo = r.id; render(); }, tipLabel:r => `${nf1.format(r.n.share_of_voice_pct || 0)}% share of voice`}),
+    () => simpleTable([{l:"Insurer", v:r => r.l}, {l:"Headlines", n:1, v:r => String(r.v)}, {l:"Share of voice", n:1, v:r => pc(r.n.share_of_voice_pct)}], rows))
+    : emptyPanel("Share of voice", "The daily news job has not run yet."));
+  g.append(marketCard());
+  view.append(g);
+  // headlines
+  const csel = h("select", {"aria-label":"Insurer"}, h("option", {value:""}, "All insurers"), [...S.b.companies].sort((a, b) => cname(a.id).localeCompare(cname(b.id))).map(c => { const o = h("option", {value:c.id}, cname(c.id)); if (S.newsCo === c.id) o.selected = true; return o; }));
+  csel.addEventListener("change", () => { S.newsCo = csel.value; render(); });
+  const tsel = h("select", {"aria-label":"Theme"}, h("option", {value:""}, "All themes"), themes.sort().map(t => { const o = h("option", {value:t}, t); if (S.newsTheme === t) o.selected = true; return o; }));
+  tsel.addEventListener("change", () => { S.newsTheme = tsel.value; render(); });
+  const items = Object.entries(N).flatMap(([c, n]) => arr(n.items).map(it => ({...it, c})))
+    .filter(it => (!S.newsCo || it.c === S.newsCo) && (!S.newsTheme || it.theme === S.newsTheme))
+    .sort((a, b) => String(b.date || "").localeCompare(String(a.date || ""))).slice(0, 120);
+  view.append(h("section", {class:"section"}, h("div", {class:"panel-head"}, h("div", {class:"t"}, h("h3", null, "Headlines"), h("div", {class:"s"}, `${items.length} shown · newest first`))), h("div", {class:"filters"}, csel, tsel),
+    items.length ? h("section", {class:"panel"}, h("div", {class:"log"}, items.map(it => h("div", {class:"logitem"}, h("div", {class:"date"}, fmtDate(it.date)),
+      h("div", {class:"what"}, h("div", {class:"top"}, linkTo("insurer-" + it.c, cname(it.c), "small"), h("span", {class:"stamp neutral"}, it.theme)), safeUrl(it.link) ? h("a", {href:it.link, target:"_blank", rel:"noopener"}, it.title) : h("span", null, it.title), it.outlet ? h("span", {class:"small muted"}, it.outlet) : null)))))
+      : h("div", {class:"empty"}, h("h3", null, "No headlines for this filter"), h("p", null, "Try all insurers or all themes."))));
+  return view;
+}
+function spark(pts){
+  if (!pts || pts.length < 2) return null;
+  const W = 96, H = 24, vs = pts.map(p => p[1]), lo = Math.min(...vs), hi = Math.max(...vs) || 1;
+  const d = pts.map((p, i) => (i ? "L" : "M") + (i / (pts.length - 1) * (W - 2) + 1).toFixed(1) + "," + (H - 2 - (p[1] - lo) / ((hi - lo) || 1) * (H - 4)).toFixed(1)).join("");
+  return sv("svg", {viewBox:`0 0 ${W} ${H}`, width:W, height:H, class:"spark", "aria-hidden":"true"}, sv("path", {d, fill:"none", stroke:"var(--accent)", "stroke-width":1.5}));
+}
+function marketCard(){
+  const M = S.b.market || {};
+  const rows = Object.entries(M).filter(([, m]) => m && m.close).map(([c, m]) => ({id:c, l:cname(c), m})).sort((a, b) => (b.m.ret_1y_pct ?? -999) - (a.m.ret_1y_pct ?? -999));
+  if (!rows.length) return emptyPanel("Listed insurers", "The daily market job has not run yet.");
+  const sg = v => v == null ? "—" : h("span", {class:v >= 0 ? "better" : "worse"}, (v > 0 ? "+" : "") + nf1.format(v) + "%");
+  return h("section", {class:"panel"}, h("div", {class:"panel-head"}, h("div", {class:"t"}, h("h3", null, "Listed insurers"), h("div", {class:"s"}, `NSE close, ${rows[0].m.as_of ? fmtDate(rows[0].m.as_of) : ""} · returns are price only`))),
+    h("div", {class:"tablewrap"}, h("table", null, h("thead", null, h("tr", null, h("th", null, "Insurer"), h("th", {class:"n"}, "Close (₹)"), h("th", {class:"n"}, "1 day"), h("th", {class:"n"}, "1 month"), h("th", {class:"n"}, "1 year"), h("th", null, "1 year trend"))),
+      h("tbody", null, rows.map(r => h("tr", {class:r.id === S.bench ? "bench" : null}, h("td", null, linkTo("insurer-" + r.id, r.l), r.m.pure_play === false ? h("span", {class:"pnote"}, "listed parent: " + (r.m.entity || "")) : null),
+        h("td", {class:"n"}, nf2.format(r.m.close)), h("td", {class:"n"}, sg(r.m.chg_1d_pct)), h("td", {class:"n"}, sg(r.m.ret_1m_pct)), h("td", {class:"n"}, sg(r.m.ret_1y_pct)), h("td", null, spark(r.m.weekly))))))));
+}
+
+/* ---------- insurer page: benchmark section ---------- */
+function benchInsurerSection(cid){
+  if (!S.b || !bcomp(cid)) return null;
+  const sc = scoresFor(peerIds("all")), ix = sc.idx[cid], bc = bcomp(cid), prof = (S.b.profiles || {})[cid] || {};
+  const P = scoredPillars(), st = (S.b.strategy || {})[cid] || {}, kname = k => (kmeta(k) || {}).name || k;
+  const sec = h("section", {class:"section bench-sec"});
+  sec.append(h("div", {class:"panel-head"}, h("div", {class:"t"}, h("h2", null, "Benchmark"), h("div", {class:"s"}, "Percentile scores against all insurers · 100 = best, 50 = middle")),
+    h("div", {class:"actions"}, h("a", {class:"btn", href:"#benchmark"}, "Scorecard"), h("a", {class:"btn", href:"#strategy"}, "Strategy"))));
+  const tiles = [["Overall index", ix ? nf1.format(ix.score) : "—", ix ? `${rk(ix.rank)} of ${sc.n}` : "not enough data"], ["Size tier", bc.tier || "—", "by share of new business"], ["Distribution model", bc.model || "—", "by individual channel mix"],
+    ["KPIs with data", String(Object.keys(S.b.values).filter(k => bval(k, cid)).length), `of ${Object.keys(S.kmeta).length} tracked`]];
+  sec.append(h("div", {class:"kpis k4"}, tiles.map(([l, v, d]) => h("div", {class:"kpi"}, h("div", {class:"l"}, l), h("div", {class:"v vtext"}, v), h("div", {class:"d"}, d)))));
+  const prow = P.map(p => ({id:p.id, l:p.name, s:sc.ps[p.id] && sc.ps[p.id][cid]})).filter(r => r.s);
+  const g = h("div", {class:"grid g2 section"});
+  if (prow.length){
+    g.append(card("Score by department", "Tap a department for its KPIs", () => rowChart(prow.map(r => ({...r, id:null})), {x:v => v, ticks:[0, 25, 50, 75, 100], tickFmt:t => String(t), rowH:24, noOpen:true,
+      marks: r => [h("span", {class:"dvb pos", style:`left:0;width:${Math.max(0.6, r.s.score)}%;--c:${r.s.score >= 60 ? "var(--div-pos)" : r.s.score <= 40 ? "var(--div-neg)" : "var(--line-strong)"}`}), h("span", {class:"rc-t", style:`left:calc(${r.s.score}% + 6px)`}, String(Math.round(r.s.score)))],
+      extra:[h("span", {class:"rc-ref", style:"left:50%"})],
+      attach:(row, r) => { row.classList.add("click"); row.addEventListener("click", () => go("dept-" + r.id)); hover(row, () => [nf1.format(r.s.score), r.l, `${rk(r.s.rank)} · ${r.s.n} of ${r.s.of} KPIs`]); }}),
+      () => simpleTable([{l:"Department", v:r => r.l}, {l:"Score", n:1, v:r => nf1.format(r.s.score)}, {l:"Rank", n:1, v:r => String(r.s.rank)}], prow)));
+  }
+  const kv = list => h("ul", {class:"feat"}, list.map(x => { const v = bval(x.kpi, cid); return h("li", null, linkTo("kpi-" + x.kpi, kname(x.kpi)), v ? h("span", {class:"muted"}, ` · ${fmtK(x.kpi, v.v)} (${Math.round(x.pct)})`) : null); }));
+  g.append(h("section", {class:"panel"}, h("h3", null, "What stands out"),
+    arr(prof.standouts).length ? h("div", {class:"sblock"}, h("div", {class:"eyebrow"}, "Top 10% of insurers"), kv(prof.standouts)) : null,
+    arr(prof.watch).length ? h("div", {class:"sblock"}, h("div", {class:"eyebrow"}, "Bottom 10% of insurers"), kv(prof.watch)) : null,
+    st.purpose ? h("div", {class:"sblock"}, h("div", {class:"eyebrow"}, "Stated purpose"), h("p", {class:"small"}, st.purpose)) : null,
+    arr(st.pillars).length ? h("div", {class:"sblock"}, h("div", {class:"eyebrow"}, "Strategic pillars"), h("div", {class:"chips"}, st.pillars.map(x => h("span", {class:"chip"}, x.name)))) : null));
+  sec.append(g);
+  const dg = (S.b.digital || {}), dc = (dg.companies || {})[cid], news = ((S.b.news || {})[cid] || {}).items || [], mk = (S.b.market || {})[cid];
+  const g2 = h("div", {class:"grid g2 section"});
+  if (dc && dc.signals) g2.append(h("section", {class:"panel"}, h("div", {class:"panel-head"}, h("div", {class:"t"}, h("h3", null, "Digital front door"), h("div", {class:"s"}, `${dc.score} of ${arr(dg.signals).length} capabilities found on the homepage · checked ${fmtDate(dc.checked_on)}`))),
+    h("div", {class:"flags"}, arr(dg.signals).map(sg => h("span", {class:"flag" + (dc.signals[sg.key] ? " y" : "")}, (dc.signals[sg.key] ? "✓ " : "– ") + sg.label))),
+    h("p", {class:"fn"}, "Read from the homepage's own HTML. A missing item may be offered elsewhere on the site or in the app.")));
+  if (news.length) g2.append(h("section", {class:"panel"},
+    h("div", {class:"panel-head"}, h("div", {class:"t"}, h("h3", null, "In the news"), h("div", {class:"s"}, "Latest headlines · 30 days")), h("button", {class:"btn ghost", type:"button", onclick:() => { S.newsCo = cid; go("news"); }}, "All news")),
+    h("div", {class:"log"}, news.slice(0, 6).map(it => h("div", {class:"logitem"}, h("div", {class:"date"}, fmtDate(it.date)), h("div", {class:"what"}, safeUrl(it.link) ? h("a", {href:it.link, target:"_blank", rel:"noopener"}, it.title) : it.title, h("span", {class:"small muted"}, [it.outlet, it.theme].filter(Boolean).join(" · "))))))));
+  if (mk && mk.close) g2.append(h("section", {class:"panel"}, h("h3", null, "Share price"), h("div", {class:"tiles", style:"margin-top:10px"},
+    [["Close", "₹" + nf2.format(mk.close), mk.as_of ? fmtDate(mk.as_of) : ""], ["1 year", mk.ret_1y_pct == null ? "—" : (mk.ret_1y_pct > 0 ? "+" : "") + nf1.format(mk.ret_1y_pct) + "%", mk.pure_play === false ? "listed parent" : "price return"], ["52-week range", `₹${nf2.format(mk.low_52w)}–${nf2.format(mk.high_52w)}`, ""]].map(([l, v, p]) => h("div", {class:"tile"}, h("div", {class:"l"}, l), h("div", {class:"v"}, v), h("div", {class:"p"}, p))))));
+  if (g2.childNodes.length) sec.append(g2);
+  return sec;
+}
+function benchOverviewCard(){
+  if (!S.b) return null;
+  const sc = scoresFor(peerIds("all"));
+  const rows = Object.entries(sc.idx).map(([c, x]) => ({id:c, l:cname(c), v:x.score, x})).sort((a, b) => b.v - a.v).slice(0, 12);
+  if (!rows.length) return null;
+  return card("Competitive index", `Average department score across ${scoredPillars().length} departments · top ${rows.length} of ${sc.n} · open the Benchmark tab for the full scorecard`,
+    () => h("div", null, barList(rows, {fmt:v => nf1.format(v), onClick:r => go("insurer-" + r.id), tipLabel:r => `${rk(r.x.rank)} · ${r.x.n} departments scored`}), h("p", {style:"margin-top:10px"}, linkTo("benchmark", "Open the scorecard →"))),
+    () => simpleTable([{l:"Insurer", v:r => r.l}, {l:"Index", n:1, v:r => nf1.format(r.v)}, {l:"Rank", n:1, v:r => String(r.x.rank)}], rows));
+}
+
 /* ---------- shell ---------- */
 function setBench(id){ S.bench = id; ls.set("ip.bench", id); $("#bench").value = id; }
 function updateTray(){
@@ -2070,7 +2608,9 @@ function parseHash(){
   const raw = decodeURIComponent((location.hash || "").replace(/^#/, ""));
   if (raw.startsWith("insurer-")) return {v:"insurer", id:raw.slice(8)};
   if (raw.startsWith("product-")) return {v:"product", id:raw.slice(8)};
-  return {v:["overview","insurers","ownership","products","compare","changes","about"].includes(raw) ? raw : "overview", id:null};
+  if (raw.startsWith("dept-")) return {v:"dept", id:raw.slice(5)};
+  if (raw.startsWith("kpi-")) return {v:"kpi", id:raw.slice(4)};
+  return {v:["overview","benchmark","strategy","news","insurers","ownership","products","compare","changes","about"].includes(raw) ? raw : "overview", id:null};
 }
 let lastKey = "";
 function render(){
@@ -2082,6 +2622,11 @@ function render(){
   const main = $("#view");
   let node;
   switch (r.v){
+    case "benchmark": node = viewBenchmark(); break;
+    case "dept": node = viewDept(r.id); break;
+    case "kpi": node = viewKpi(r.id); break;
+    case "strategy": node = viewStrategy(); break;
+    case "news": node = viewNews(); break;
     case "insurers": node = viewInsurers(); break;
     case "insurer": node = viewInsurer(r.id); break;
     case "ownership": node = viewOwnership(); break;
@@ -2098,8 +2643,8 @@ function render(){
   if (keepScroll) window.scrollTo(0, y); else window.scrollTo(0, 0);
   lastKey = key;
   updateTray();
-  const title = r.v === "product" && S.prod[r.id] ? S.prod[r.id].name : r.v === "insurer" && S.comp[r.id] ? cname(r.id) : null;
-  document.title = title ? `${title} · Insurance Products` : "Insurance Products";
+  const title = r.v === "product" && S.prod[r.id] ? S.prod[r.id].name : r.v === "insurer" && S.comp[r.id] ? cname(r.id) : r.v === "kpi" && S.b && kmeta(r.id) ? kmeta(r.id).name : r.v === "dept" && S.b ? ((allPillars().find(p => p.id === r.id) || {}).name || null) : null;
+  document.title = title ? `${title} · Life Insurance Benchmark` : "Life Insurance Benchmark";
 }
 function init(d){
   S.d = d;
@@ -2117,9 +2662,17 @@ function init(d){
   let rt; window.addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(() => document.querySelectorAll(".svgchart").forEach(svg => { const holder = svg.parentNode; if (holder && holder._redraw) holder._redraw(); }), 200); });
   render();
 }
-fetch("data/dashboard.json", {cache:"no-cache"})
-  .then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
-  .then(init)
+function initBench(b){
+  if (!b || !b.framework) return;
+  S.b = b;
+  b.framework.pillars.forEach(p => p.kpis.forEach(k => S.kmeta[k.id] = {...k, pillar:p.id}));
+  b.companies.forEach(c => S.bcomp[c.id] = c);
+  S.peer = ls.get("ip.peer", "all");
+}
+Promise.all([
+  fetch("data/dashboard.json", {cache:"no-cache"}).then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); }),
+  fetch("data/benchmark.json", {cache:"no-cache"}).then(r => r.ok ? r.json() : null).catch(() => null)
+]).then(([d, b]) => { try { initBench(b); } catch (e) { S.b = null; } init(d); })
   .catch(err => { $("#view").replaceChildren(h("div", {class:"empty"}, h("h3", null, "The catalogue file did not load"), h("p", null, "Reload the page. If it keeps failing, the data file data/dashboard.json is missing from the published files (" + err.message + ")."))); });
 })();
 </script>

@@ -1,0 +1,736 @@
+{
+ "companies": {
+  "axismax": {
+   "url": "https://www.axismaxlife.com",
+   "readable": true,
+   "text_chars": 189257,
+   "links": 392,
+   "signals": {
+    "whatsapp": true,
+    "chatbot": false,
+    "android_app": true,
+    "ios_app": true,
+    "pay_premium": true,
+    "claims_online": true,
+    "customer_login": true,
+    "buy_online": true,
+    "regional_language": false,
+    "video_kyc": false,
+    "upi_autopay": false,
+    "ai_tools": false
+   },
+   "score": 7,
+   "max_score": 12,
+   "social": [
+    "facebook",
+    "instagram",
+    "linkedin",
+    "x",
+    "youtube"
+   ],
+   "https": true,
+   "html_kb": 1616,
+   "checked_on": "2026-11-24",
+   "status": 200
+  },
+  "creditaccess": {
+   "url": "https://www.creditaccesslife.in",
+   "readable": true,
+   "text_chars": 6333,
+   "links": 87,
+   "signals": {
+    "whatsapp": false,
+    "chatbot": true,
+    "android_app": false,
+    "ios_app": false,
+    "pay_premium": false,
+    "claims_online": false,
+    "customer_login": false,
+    "buy_online": false,
+    "regional_language": false,
+    "video_kyc": false,
+    "upi_autopay": false,
+    "ai_tools": false
+   },
+   "score": 1,
+   "max_score": 12,
+   "social": [
+    "facebook",
+    "instagram",
+    "linkedin",
+    "youtube"
+   ],
+   "https": true,
+   "html_kb": 126,
+   "checked_on": "2026-11-24",
+   "status": 200
+  },
+  "bajaj": {
+   "url": "https://www.bajajlifeinsurance.com",
+   "readable": true,
+   "text_chars": 100623,
+   "links": 557,
+   "signals": {
+    "whatsapp": true,
+    "chatbot": true,
+    "android_app": true,
+    "ios_app": true,
+    "pay_premium": true,
+    "claims_online": true,
+    "customer_login": true,
+    "buy_online": true,
+    "regional_language": false,
+    "video_kyc": true,
+    "upi_autopay": true,
+    "ai_tools": true
+   },
+   "score": 11,
+   "max_score": 12,
+   "social": [
+    "facebook",
+    "instagram",
+    "linkedin",
+    "x",
+    "youtube"
+   ],
+   "https": true,
+   "html_kb": 932,
+   "checked_on": "2026-11-24",
+   "status": 200
+  },
+  "lic": {
+   "url": "https://licindia.in",
+   "readable": true,
+   "text_chars": 9895,
+   "links": 254,
+   "signals": {
+    "whatsapp": false,
+    "chatbot": false,
+    "android_app": true,
+    "ios_app": true,
+    "pay_premium": true,
+    "claims_online": false,
+    "customer_login": true,
+    "buy_online": true,
+    "regional_language": true,
+    "video_kyc": true,
+    "upi_autopay": true,
+    "ai_tools": false
+   },
+   "score": 8,
+   "max_score": 12,
+   "social": [
+    "facebook",
+    "instagram",
+    "linkedin",
+    "x",
+    "youtube"
+   ],
+   "https": true,
+   "html_kb": 325,
+   "checked_on": "2026-11-24",
+   "status": 200
+  },
+  "tataaia": {
+   "url": "https://www.tataaia.com",
+   "readable": true,
+   "text_chars": 101283,
+   "links": 1137,
+   "signals": {
+    "whatsapp": false,
+    "chatbot": true,
+    "android_app": true,
+    "ios_app": true,
+    "pay_premium": true,
+    "claims_online": true,
+    "customer_login": true,
+    "buy_online": true,
+    "regional_language": false,
+    "video_kyc": true,
+    "upi_autopay": true,
+    "ai_tools": false
+   },
+   "score": 9,
+   "max_score": 12,
+   "social": [
+    "facebook",
+    "instagram",
+    "linkedin",
+    "x",
+    "youtube"
+   ],
+   "https": true,
+   "html_kb": 925,
+   "checked_on": "2026-11-24",
+   "status": 200
+  },
+  "indiafirst": {
+   "url": "https://www.indiafirstlife.com",
+   "readable": true,
+   "text_chars": 75471,
+   "links": 1332,
+   "signals": {
+    "whatsapp": true,
+    "chatbot": true,
+    "android_app": false,
+    "ios_app": false,
+    "pay_premium": true,
+    "claims_online": true,
+    "customer_login": true,
+    "buy_online": true,
+    "regional_language": true,
+    "video_kyc": false,
+    "upi_autopay": true,
+    "ai_tools": false
+   },
+   "score": 8,
+   "max_score": 12,
+   "social": [
+    "facebook",
+    "instagram",
+    "linkedin",
+    "x",
+    "youtube"
+   ],
+   "https": true,
+   "html_kb": 1395,
+   "checked_on": "2026-11-24",
+   "status": 200
+  },
+  "generalicentral": {
+   "url": "https://www.generalicentrallife.com",
+   "readable": true,
+   "text_chars": 10790,
+   "links": 43,
+   "signals": {
+    "whatsapp": false,
+    "chatbot": true,
+    "android_app": true,
+    "ios_app": true,
+    "pay_premium": false,
+    "claims_online": false,
+    "customer_login": false,
+    "buy_online": true,
+    "regional_language": false,
+    "video_kyc": false,
+    "upi_autopay": false,
+    "ai_tools": false
+   },
+   "score": 4,
+   "max_score": 12,
+   "social": [
+    "facebook",
+    "instagram",
+    "linkedin",
+    "x",
+    "youtube"
+   ],
+   "https": true,
+   "html_kb": 179,
+   "checked_on": "2026-11-24",
+   "status": 200
+  },
+  "hdfc": {
+   "url": "https://www.hdfclife.com",
+   "readable": true,
+   "text_chars": 92380,
+   "links": 1093,
+   "signals": {
+    "whatsapp": true,
+    "chatbot": false,
+    "android_app": true,
+    "ios_app": true,
+    "pay_premium": true,
+    "claims_online": false,
+    "customer_login": true,
+    "buy_online": true,
+    "regional_language": false,
+    "video_kyc": false,
+    "upi_autopay": false,
+    "ai_tools": false
+   },
+   "score": 6,
+   "max_score": 12,
+   "social": [
+    "facebook",
+    "instagram",
+    "linkedin",
+    "x",
+    "youtube"
+   ],
+   "https": true,
+   "html_kb": 1479,
+   "checked_on": "2026-11-24",
+   "status": 200
+  },
+  "pramerica": {
+   "url": "https://www.pramericalife.in",
+   "readable": true,
+   "text_chars": 32826,
+   "links": 304,
+   "signals": {
+    "whatsapp": true,
+    "chatbot": true,
+    "android_app": false,
+    "ios_app": false,
+    "pay_premium": true,
+    "claims_online": true,
+    "customer_login": true,
+    "buy_online": false,
+    "regional_language": false,
+    "video_kyc": false,
+    "upi_autopay": false,
+    "ai_tools": false
+   },
+   "score": 5,
+   "max_score": 12,
+   "social": [
+    "facebook",
+    "instagram",
+    "linkedin",
+    "x",
+    "youtube"
+   ],
+   "https": true,
+   "html_kb": 284,
+   "checked_on": "2026-11-24",
+   "status": 200
+  },
+  "pnbmetlife": {
+   "url": "https://www.pnbmetlife.com",
+   "readable": true,
+   "text_chars": 44531,
+   "links": 488,
+   "signals": {
+    "whatsapp": true,
+    "chatbot": true,
+    "android_app": false,
+    "ios_app": false,
+    "pay_premium": true,
+    "claims_online": true,
+    "customer_login": true,
+    "buy_online": true,
+    "regional_language": false,
+    "video_kyc": true,
+    "upi_autopay": true,
+    "ai_tools": false
+   },
+   "score": 8,
+   "max_score": 12,
+   "social": [
+    "facebook",
+    "instagram",
+    "linkedin",
+    "x",
+    "youtube"
+   ],
+   "https": true,
+   "html_kb": 456,
+   "checked_on": "2026-11-24",
+   "status": 200
+  },
+  "indiapost": {
+   "url": "https://pli.indiapost.gov.in",
+   "readable": false,
+   "text_chars": 94,
+   "links": 0,
+   "signals": {
+    "whatsapp": false,
+    "chatbot": false,
+    "android_app": false,
+    "ios_app": false,
+    "pay_premium": false,
+    "claims_online": false,
+    "customer_login": false,
+    "buy_online": false,
+    "regional_language": false,
+    "video_kyc": false,
+    "upi_autopay": false,
+    "ai_tools": false
+   },
+   "score": 0,
+   "max_score": 12,
+   "social": [],
+   "https": true,
+   "html_kb": 0,
+   "checked_on": "2026-11-24",
+   "status": 200
+  },
+  "sbi": {
+   "url": "https://www.sbilife.co.in",
+   "readable": true,
+   "text_chars": 25338,
+   "links": 412,
+   "signals": {
+    "whatsapp": true,
+    "chatbot": true,
+    "android_app": false,
+    "ios_app": false,
+    "pay_premium": true,
+    "claims_online": true,
+    "customer_login": true,
+    "buy_online": true,
+    "regional_language": true,
+    "video_kyc": false,
+    "upi_autopay": false,
+    "ai_tools": true
+   },
+   "score": 8,
+   "max_score": 12,
+   "social": [
+    "facebook",
+    "instagram",
+    "linkedin",
+    "x",
+    "youtube"
+   ],
+   "https": true,
+   "html_kb": 937,
+   "checked_on": "2026-11-24",
+   "status": 200
+  },
+  "bandhan": {
+   "url": "https://www.bandhanlife.com/",
+   "readable": true,
+   "text_chars": 73488,
+   "links": 275,
+   "signals": {
+    "whatsapp": true,
+    "chatbot": true,
+    "android_app": false,
+    "ios_app": false,
+    "pay_premium": true,
+    "claims_online": true,
+    "customer_login": true,
+    "buy_online": false,
+    "regional_language": false,
+    "video_kyc": false,
+    "upi_autopay": false,
+    "ai_tools": false
+   },
+   "score": 5,
+   "max_score": 12,
+   "social": [
+    "facebook",
+    "instagram",
+    "linkedin",
+    "x",
+    "youtube"
+   ],
+   "https": true,
+   "html_kb": 538,
+   "checked_on": "2026-11-24",
+   "status": 200
+  },
+  "acko": {
+   "url": "https://www.acko.com/life-insurance/",
+   "readable": true,
+   "text_chars": 38172,
+   "links": 159,
+   "signals": {
+    "whatsapp": false,
+    "chatbot": false,
+    "android_app": false,
+    "ios_app": false,
+    "pay_premium": true,
+    "claims_online": true,
+    "customer_login": true,
+    "buy_online": true,
+    "regional_language": false,
+    "video_kyc": false,
+    "upi_autopay": false,
+    "ai_tools": false
+   },
+   "score": 4,
+   "max_score": 12,
+   "social": [
+    "facebook",
+    "instagram",
+    "linkedin",
+    "x",
+    "youtube"
+   ],
+   "https": true,
+   "html_kb": 683,
+   "checked_on": "2026-11-24",
+   "status": 200
+  },
+  "absli": {
+   "url": "https://lifeinsurance.adityabirlacapital.com/",
+   "readable": true,
+   "text_chars": 66554,
+   "links": 320,
+   "signals": {
+    "whatsapp": true,
+    "chatbot": false,
+    "android_app": true,
+    "ios_app": true,
+    "pay_premium": true,
+    "claims_online": false,
+    "customer_login": true,
+    "buy_online": true,
+    "regional_language": true,
+    "video_kyc": false,
+    "upi_autopay": true,
+    "ai_tools": false
+   },
+   "score": 8,
+   "max_score": 12,
+   "social": [
+    "facebook",
+    "instagram",
+    "linkedin",
+    "x",
+    "youtube"
+   ],
+   "https": true,
+   "html_kb": 395,
+   "checked_on": "2026-11-24",
+   "status": 200
+  },
+  "indusindnippon": {
+   "url": "https://www.indusindnipponlife.com",
+   "readable": true,
+   "text_chars": 65907,
+   "links": 428,
+   "signals": {
+    "whatsapp": true,
+    "chatbot": true,
+    "android_app": true,
+    "ios_app": true,
+    "pay_premium": true,
+    "claims_online": true,
+    "customer_login": true,
+    "buy_online": true,
+    "regional_language": false,
+    "video_kyc": false,
+    "upi_autopay": true,
+    "ai_tools": true
+   },
+   "score": 10,
+   "max_score": 12,
+   "social": [
+    "facebook",
+    "instagram",
+    "linkedin",
+    "x",
+    "youtube"
+   ],
+   "https": true,
+   "html_kb": 1095,
+   "checked_on": "2026-11-24",
+   "status": 200
+  },
+  "aviva": {
+   "url": "https://www.avivaindia.com/",
+   "readable": true,
+   "text_chars": 20542,
+   "links": 366,
+   "signals": {
+    "whatsapp": true,
+    "chatbot": false,
+    "android_app": false,
+    "ios_app": false,
+    "pay_premium": true,
+    "claims_online": true,
+    "customer_login": true,
+    "buy_online": false,
+    "regional_language": false,
+    "video_kyc": true,
+    "upi_autopay": false,
+    "ai_tools": false
+   },
+   "score": 5,
+   "max_score": 12,
+   "social": [
+    "facebook",
+    "instagram",
+    "linkedin",
+    "x",
+    "youtube"
+   ],
+   "https": true,
+   "html_kb": 310,
+   "checked_on": "2026-11-24",
+   "status": 200
+  },
+  "ageasfederal": {
+   "url": "https://www.ageasfederal.com/",
+   "readable": true,
+   "text_chars": 25179,
+   "links": 215,
+   "signals": {
+    "whatsapp": true,
+    "chatbot": false,
+    "android_app": true,
+    "ios_app": true,
+    "pay_premium": true,
+    "claims_online": true,
+    "customer_login": true,
+    "buy_online": true,
+    "regional_language": false,
+    "video_kyc": false,
+    "upi_autopay": true,
+    "ai_tools": false
+   },
+   "score": 8,
+   "max_score": 12,
+   "social": [
+    "facebook",
+    "instagram",
+    "linkedin",
+    "x",
+    "youtube"
+   ],
+   "https": true,
+   "html_kb": 1017,
+   "checked_on": "2026-11-24",
+   "status": 200
+  },
+  "bharti": {
+   "url": "https://www.bhartiaxa.com",
+   "readable": true,
+   "text_chars": 12845,
+   "links": 152,
+   "signals": {
+    "whatsapp": true,
+    "chatbot": false,
+    "android_app": false,
+    "ios_app": false,
+    "pay_premium": true,
+    "claims_online": false,
+    "customer_login": true,
+    "buy_online": false,
+    "regional_language": false,
+    "video_kyc": false,
+    "upi_autopay": false,
+    "ai_tools": false
+   },
+   "score": 3,
+   "max_score": 12,
+   "social": [
+    "youtube"
+   ],
+   "https": true,
+   "html_kb": 200,
+   "checked_on": "2026-11-24",
+   "status": 200
+  },
+  "shriram": {
+   "url": "https://www.shriramlife.com/",
+   "readable": true,
+   "text_chars": 19627,
+   "links": 328,
+   "signals": {
+    "whatsapp": true,
+    "chatbot": true,
+    "android_app": true,
+    "ios_app": false,
+    "pay_premium": true,
+    "claims_online": true,
+    "customer_login": true,
+    "buy_online": true,
+    "regional_language": true,
+    "video_kyc": true,
+    "upi_autopay": true,
+    "ai_tools": false
+   },
+   "score": 10,
+   "max_score": 12,
+   "social": [
+    "facebook",
+    "instagram",
+    "linkedin",
+    "x",
+    "youtube"
+   ],
+   "https": true,
+   "html_kb": 652,
+   "checked_on": "2026-11-24",
+   "status": 200
+  },
+  "edelweiss": {
+   "url": "https://www.edelweisslife.in",
+   "readable": true,
+   "text_chars": 27194,
+   "links": 386,
+   "signals": {
+    "whatsapp": false,
+    "chatbot": true,
+    "android_app": false,
+    "ios_app": false,
+    "pay_premium": true,
+    "claims_online": true,
+    "customer_login": true,
+    "buy_online": true,
+    "regional_language": false,
+    "video_kyc": false,
+    "upi_autopay": true,
+    "ai_tools": false
+   },
+   "score": 6,
+   "max_score": 12,
+   "social": [
+    "facebook",
+    "instagram",
+    "x",
+    "youtube"
+   ],
+   "https": true,
+   "html_kb": 377,
+   "checked_on": "2026-11-24",
+   "status": 200
+  }
+ },
+ "updated": "2026-11-24",
+ "signals": [
+  {
+   "key": "whatsapp",
+   "label": "WhatsApp service"
+  },
+  {
+   "key": "chatbot",
+   "label": "Chat assistant"
+  },
+  {
+   "key": "android_app",
+   "label": "Android app link"
+  },
+  {
+   "key": "ios_app",
+   "label": "iOS app link"
+  },
+  {
+   "key": "pay_premium",
+   "label": "Pay or renew premium online"
+  },
+  {
+   "key": "claims_online",
+   "label": "Claim intimation or tracking online"
+  },
+  {
+   "key": "customer_login",
+   "label": "Customer login / self-service portal"
+  },
+  {
+   "key": "buy_online",
+   "label": "Buy online / instant quote"
+  },
+  {
+   "key": "regional_language",
+   "label": "Regional-language site"
+  },
+  {
+   "key": "video_kyc",
+   "label": "Video KYC / e-KYC / DigiLocker"
+  },
+  {
+   "key": "upi_autopay",
+   "label": "UPI / auto-pay mandate"
+  },
+  {
+   "key": "ai_tools",
+   "label": "AI / digital advisor tools"
+  }
+ ]
+}

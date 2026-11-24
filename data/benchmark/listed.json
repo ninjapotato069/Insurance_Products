@@ -1,0 +1,11 @@
+{
+  "note": "Listed life insurers (and one listed holding company) tracked daily. shares_cr = shares outstanding in crore; fill from the latest exchange shareholding filing to show market capitalisation. pure_play false = the listed entity is a parent, so its price reflects more than the insurer.",
+  "companies": {
+    "lic": {"symbol": "LICI.NS", "entity": "Life Insurance Corporation of India", "pure_play": true, "shares_cr": null},
+    "sbi": {"symbol": "SBILIFE.NS", "entity": "SBI Life Insurance Company Ltd", "pure_play": true, "shares_cr": null},
+    "hdfc": {"symbol": "HDFCLIFE.NS", "entity": "HDFC Life Insurance Company Ltd", "pure_play": true, "shares_cr": null},
+    "icici": {"symbol": "ICICIPRULI.NS", "entity": "ICICI Life Insurance Ltd (formerly ICICI Prudential Life)", "pure_play": true, "shares_cr": null},
+    "canarahsbc": {"symbol": "CANHLIFE.NS", "entity": "Canara HSBC Life Insurance Company Ltd", "pure_play": true, "shares_cr": null},
+    "axismax": {"symbol": "MFSL.NS", "entity": "Max Financial Services Ltd (holding company of Axis Max Life)", "pure_play": false, "shares_cr": null}
+  }
+}

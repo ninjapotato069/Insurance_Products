@@ -1,0 +1,60 @@
+name: Daily benchmark refresh
+
+# Every morning: IRDAI monthly new business (new month auto-detected), app ratings, news headlines,
+# homepage digital audit and listed-insurer prices; then rebuild the benchmark and the site.
+# Each feed step may fail on its own (a site blocks us, an API is down) without stopping the rest.
+on:
+  schedule:
+    - cron: "47 0 * * *"   # 06:17 IST daily
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+      - name: IRDAI monthly new business
+        continue-on-error: true
+        run: python scripts/irdai_monthly.py
+      - name: App ratings
+        continue-on-error: true
+        run: python scripts/weekly_check.py --ratings-only
+      - name: News headlines
+        continue-on-error: true
+        run: python scripts/news_feed.py
+      - name: Listed insurer prices
+        continue-on-error: true
+        run: python scripts/market_data.py
+      - name: Homepage digital audit
+        continue-on-error: true
+        run: python scripts/digital_audit.py
+      - name: Rebuild benchmark and site
+        run: |
+          python scripts/build.py
+          python scripts/build_benchmark.py
+          python scripts/make_site.py
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data exports index.html manifest.webmanifest sw.js .nojekyll icons
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Daily refresh $(date -u +%F)"
+            git pull --rebase -X theirs origin main
+            git push
+          fi

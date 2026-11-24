@@ -1,0 +1,8 @@
+{
+ "note": "Hand-researched KPI values that no automated source provides. Format: companies.<id>.<kpi_id> = {v, p (period), url, note}. The weekly research run adds to this file; build_benchmark.py merges it over computed values.",
+ "companies": {
+  "sbi": {"employees": {"v": 30398, "p": "30 Sep 2026", "url": "https://nsearchives.nseindia.com/corporate/SBILIFE_27102026185900_SEPR271026signed.pdf", "note": "SBI Life H1 FY27 news release"}},
+  "absli": {"employees": {"v": 29000, "p": "Nov 2026", "url": "https://lifeinsurance.adityabirlacapital.com/about-us/", "note": "Website states 29,000+"}},
+  "pramerica": {"employees": {"v": 3451, "p": "Nov 2026", "url": "https://pramericalife.in/about-us", "note": "Website states more than 3,451"}}
+ }
+}

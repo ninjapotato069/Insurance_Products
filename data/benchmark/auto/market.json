@@ -1,0 +1,46 @@
+{
+ "companies": {
+  "hdfc": {
+   "symbol": "HDFCLIFE.NS",
+   "currency": "INR",
+   "close": 574.95,
+   "as_of": "2026-11-23",
+   "chg_1d_pct": -2.33,
+   "ret_1m_pct": 10.78,
+   "ret_1y_pct": 9.78,
+   "ret_ytd_pct": 9.78,
+   "high_52w": 604.5,
+   "low_52w": 513.6,
+   "weekly": [
+    [
+     "2026-10-23",
+     523.75
+    ],
+    [
+     "2026-10-30",
+     524.9
+    ],
+    [
+     "2026-11-06",
+     565.3
+    ],
+    [
+     "2026-11-13",
+     592.25
+    ],
+    [
+     "2026-11-20",
+     588.65
+    ],
+    [
+     "2026-11-23",
+     574.95
+    ]
+   ],
+   "entity": "HDFC Life Insurance Company Ltd",
+   "pure_play": true
+  }
+ },
+ "updated": "2026-11-24",
+ "source": "Yahoo Finance chart API (NSE prices); share counts from data/benchmark/listed.json"
+}

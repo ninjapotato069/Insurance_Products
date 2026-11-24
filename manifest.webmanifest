@@ -1,0 +1,45 @@
+{
+ "name": "Life Insurance Benchmark (India)",
+ "short_name": "Life Benchmark",
+ "description": "Every Indian life insurer benchmarked across 15 departments, with products, claims, ratings, ownership, strategy and news. Refreshed daily.",
+ "start_url": "./#benchmark",
+ "scope": "./",
+ "display": "standalone",
+ "orientation": "any",
+ "background_color": "#f1f4f1",
+ "theme_color": "#0b6a5a",
+ "icons": [
+  {
+   "src": "icons/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "icons/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "icons/maskable-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ],
+ "shortcuts": [
+  {
+   "name": "Scorecard",
+   "url": "./#benchmark"
+  },
+  {
+   "name": "Departments",
+   "url": "./#dept-scale"
+  },
+  {
+   "name": "News",
+   "url": "./#news"
+  }
+ ]
+}

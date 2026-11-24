@@ -1,0 +1,125 @@
+{
+ "companies": {
+  "bajaj": {
+   "items": [
+    {
+     "title": "Bajaj Life Insurance Hosts IRDAI Grievance Redressal Camp in Pune",
+     "outlet": "SMEStreet",
+     "date": "2026-11-24",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZVVpak1wVE9iQzV2c2lWd0UtMzkycG11MVdLWDVIMnhRVHRpbTl2dG1jS1Z6VmRZb0pyTUdSQzVKbXBMQnduZE5SM0VXWmowWGh0cm1wbTVFcGt5Z0dtMGpwTzkzejN2YWFJWjhZNDFoVjU0Ml9ZM1pSdzBfYzRmcm41UDdxbUpNcmtMODBHMlluWmV4ZE5YRXJUbG1Fdi1kajhpeFV30gGmAUFVX3lxTE5lVWlqTXBUT2JDNXZzaVZ3RS0zOTJwbXUxV0tYNUgyeFFUdGltOXZ0bWNLVnpWZFlvSnJNR1JDNUptcExCd25kTlIzRVdaajBYaHRybXBtNUVwa3lnR20wanBPOTN6M3ZhYUlaOFk0MWhWNTQyX1kzWlJ3MF9jNGZybjVQN3FtSk1ya0w4MEcyWW5aZXhkTlhFclRsbUV2LWRqOGl4VXc?oc=5",
+     "theme": "Regulatory"
+    },
+    {
+     "title": "Bajaj Life Pure Stock Innovation Fund: Investment strategy, portfolio and key details",
+     "outlet": "CNBC TV18",
+     "date": "2026-11-19",
+     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQcGFWQXlSU2dDbDhxM3FBNlVlWjN4MC1NMkZaTFZRUDZnaXRuREVYLVk2YkpyN0RRWklHTE5uZF9NRHQ5M3lHLU5yN3QxbU1iSmNXVEV6YVA0SmRvLXZxU2tyOHZjeW1Hd2tieXJGQUFmajBWYjY3ME5TaVprTGZmUjFfZzUzcnN2NE5lMGdiV1UzZDNOQlFVYnhISGV5WHdRMWRSSUlkLXJPbkt4MV9uVWtzZGxCMXQ3bkJMTF9aTEFUTDkzWEMtdVpreGc3cEdKd0xabdIB2gFBVV95cUxONm9FTWoyRVVleXJoQ1VaTV9BTWN0cVFkSFJUQVljRXI5cTNoLWV1U0pHLVhMWGJjX1hjU0hrUXY0NVE2LXRwYVZXalZ1dGozZEhwVkVOME1mRE1oejRlcmtjdjJtd2RjMDBvdHJwWkdpSUNCeHl1YllaMkdkLUVFZDQ0TlpESDFNRjF1dGowLWt3RFNCVTU2R3pYRVdUTTFuVm0zSnBZSG9iQnlqemdqZGNxQXpETUprcDIxdkpnWXpzNFc0cUY1ZFQ5X2dybXY4d2c4clVCaE43dw?oc=5",
+     "theme": "Deal & capital"
+    },
+    {
+     "title": "Falling commodity prices to lift auto, consumer durables margins; private banks top pick: Bajaj Life CIO",
+     "outlet": "CNBC TV18",
+     "date": "2026-11-19",
+     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPUWJMWGJ2ejhlMENleDJQYjlncHVNdnFqNkFxSDB2MUNsUUZldjJ6b0pXQVl6SkNjS2kzSDNqeGdGc3lzQlEwaUV6TDRHOTZKY2hsdDYxdk1PZ2U2WUdLX2JZTnJGaGZ3MW05TlIyTDQ5WFJQZjBUT0VDdjg0OUtkR1BNc1dPcjc1RDhhSHVkbmxaaUFIcFEtcG1yYTl3QWVFeUJPenlTUkVMeVhyajJpRG5KZ3hxeEFtWmwyc0s5eDlDZVRjekdlQnhRR2VpdnF0a1FaWURMNXAweE3SAeABQVVfeXFMUDY3SXM1QzhmTmZYZDF2a1RqLWZ4Ykd0Z25uY0h4MUhHQW8tNEhfVmdwcEJrY19CWFlxcmtFc0JPUW44SmkzblJWVmtOVno4blN4MG1mclNUV3JYUlUwMWJfUGh0ZTY2TWZnRElielExYjRfTFpsUnp4MmwyZjF3N29yd0JpWEJlVlBUVUoxRmlwbTFDX1BjcUNhcEI3U00xbGtTNWpyNmw2RWpNc1dsV2ppZFlJcVJlRDZoVE0zaVFIS0RJZ2xVRWhlc0ZrdTZkOTFVNlRlSjZOMXB2T292YV8?oc=5",
+     "theme": "Other"
+    },
+    {
+     "title": "Bajaj Life Insurance launches innovation-focused equity fund under ULIP wrapper",
+     "outlet": "BusinessLine",
+     "date": "2026-11-16",
+     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQTkppWlNyYUR6bVNiQnY3ZV81NXRkc3dyaWVyaHVfU2dHMFFJUlR1VXY1RWJyM1oyanh4OTdVdUlkZmU5b2NKUmhVZFk5UlVhcGJ2N3lDbE5RTmprU2l2RzhVV1FkSEFkMjJicERQR0hiYVBwQnFfTklOeWloemVPcUZOTVFHM0RUSUhmaGljVXZRUlFyS0NYZW82S2Q3WHUwb3MzZjFaSnZCZmU4dmF3VFJWYXBPODZxLXZNSzM1aDh4QjktRkhVQkpXQXpJdG5pX1NmWUtIU2xvQVIx0gHjAUFVX3lxTE40ckdBR2tEUURiRXhwZFJoY0dIV2NlaUExQ3JpM2h4bWlSa182QjllZ3NtaE1VVnJ4bVhnXzZRUDQybWVpbk5WMS1qNVZ2d0pocE1xbVZwZFNYZjZ0WGdKZUVDeFBkMkJGcFc2OFZVUDBhcXM0VDduWjhXMW1OdzdZVEtTZ3ZqRy0zeE9oeGI1cWF3Y3JoM0pveUJaVkp5MmtIYl9aNlBIYXVBcndCRUtXSlZWTlpmcWVrdE9HSTdkQVF1YTNLMUZzQ3RqSld5MndjMjNvMktOZ2lCbnZhMVA2NDFj?oc=5",
+     "theme": "Launch"
+    },
+    {
+     "title": "Pure Stock Innovation Fund Launched",
+     "outlet": "https://www.fintechbiznews.com/",
+     "date": "2026-11-16",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZDNpSjJSVF9VZHJnTjRpOFdLVDRsX2k3RHNLdm11VG1seWRzQmhYTWJqTUdXMVIyWEJjRmlaUE43ZXh2NEh1XzNMc244cXdJVG5PQUp1Sm1ZcWhDZnNpNlZudjBiOFJoLThlQlhISzE0dzYzc0hfN0tYeW5XSFU0c2J3NVhwMWRwSlFiRA?oc=5",
+     "theme": "Launch"
+    },
+    {
+     "title": "Bajaj Life Care Plus Rider Introduced",
+     "outlet": "https://www.fintechbiznews.com/",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQ01taElZTW9WT2twZmlxd19WWG9rRFBYc1ZzRmF3MWxyQ3pmQmRoQlZKdlEtZThiLU5tZkFhSUQ1Qi1wUmZPcDloWEhsY1FNT3hmSjJYWi1sNFIzQW5tQ2hRMUJIdlNKeUwtaFVoa2c5VlRSZ0s0R1RQN3hyTERqYkJBQTR4VmpHblRKSDYtTQ?oc=5",
+     "theme": "Launch"
+    },
+    {
+     "title": "Bajaj Life GIFT City Launch: How Dollar-Denominated Insurance and Global Investments Work",
+     "outlet": "Kotak Neo",
+     "date": "2026-10-23",
+     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPaGxuSlczZ1VFZElhQXpubW9FV0QxTWxYWWdpOGhpaTFqNUFkM1pwM0txQWFFNGd6TXNKNEVCdDdWUnI1V21ObVJINFNlNnAyZDl1dUdBYjlkSEkwWXZNdU1BazNVVWJVSS1qOFZOTVdPVnNDN0lhdEU2Wkg1TEVMUQ?oc=5",
+     "theme": "Launch"
+    },
+    {
+     "title": "Bajaj Life enters GIFT City: How dollar-denominated insurance policies work",
+     "outlet": "CNBC TV18",
+     "date": "2026-10-23",
+     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMW1MUWl0RWNQOWV0dGNxaVFOaEM3RHQzRFFGd3hfNkpnUmNCY3NHQVpvNzVtbUp0dGhNT0k2aEVqQ3U3RnNTbl84R1pmdVNya09DV3NtdU15aWx2Z0JMZWtvVlc0aXRJMmUxS2JMZDRLQjFSZVZoNVRsTzFHMG5KdkxYUFR6a25KNGdKMGZsVGVibktkSjFyaC1mSEpOWGlOU01IOGVJODBQa3EtQko2anBVWF82UFJiV3J2VlNyQlhTZE00djFiNQ?oc=5",
+     "theme": "Other"
+    },
+    {
+     "title": "Bajaj Life Insurance CIO positive on telecom, cautious on gold finance stocks",
+     "outlet": "CNBC TV18",
+     "date": "2026-10-21",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQQjJsUlg3cFdQS3lrckYzeUNWX2RLWjd0N0dhTmFLR3ExSG8zOGV5R3p1cVBWWkVpSkxudlh5VnExRWVpTWxUeE11VjFranp4VExIelFTb3U3OHJJY2hQYWszWkFwZktSNmwtVTF0MTM5WEFZRHVJNkwyQVRXM0c1UUpob3RIdVE1bXJ5UXpNZDg0b0YzaFo4Y2VwZGlHbU9VM0ZzcnZpVHZ4Q3NUaTZDTEZxMzJsQjFxUVBhRGxMMTJaQzhlNDZ3WGEybEt5Z1NP0gHWAUFVX3lxTE5sNmhsamNDelVvOFMtalR5QnBheXY3SFh5X0pucDZYckpfY091S0Z2SS1hS2NmT3VCUC1URUI3dXRrLVlvQzQ2RzhXZktkOHZ4c2RzZDllRHNDNlRoQ3gza3V3WUVtNW1ZMlJ2LUJsdW1ZdzNwc1lfRHFYSDgxcGNTOHM1aVVHYU0tMnM1a3JWdDVBVjMwUVNUa0MtSGc2aHZMMjlUX0U3VDF1NnlyNVdicjFZSEpydklDaGhVZVZoMnNSOWFwcEZNV2Ztd0dvbUpFZEREMVE?oc=5",
+     "theme": "Other"
+    },
+    {
+     "title": "Bajaj Life Insurance elevates Vivek Gupta to Chief Operations & Customer Experience Officer",
+     "outlet": "Social Samosa",
+     "date": "2026-10-05",
+     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNYnJIMUZsRGhLQnljLWdMUWh0N1o5RUZSeWJSSENWQlZGNi0xM2VBTnJ2ZVoyR2FRSjZVZWoyREJBUlVucTh3elMwRWEtdERnNlJSYjBkUHZHcFdHbnpqU01mcWJUYzR2Rnl4cFYxdU5HS1NfT002bEo4aDVGdmRGcTZEN0NvRENZM1Q3NUVwU3ZOVGFLNXA5ZHRNUTVaY0J4X043ellfVHpvLVJ6bDhCTHdrNHFpWkpCLUxQQ190NGxxSGNYbm5IZE1BRlFmUmQzM25laFlxdGrSAdgBQVVfeXFMTWJySDFGbERoS0J5Yy1nTFFodDdaOUVGUnliUkhDVkJWRjYtMTNlQU5ydmVaMkdhUUo2VWVqMkRCQVJVbnE4d3pTMEVhLXREZzZSUmIwZFB2R3BXR256alNNZnFiVGM0dkZ5eHBWMXVOR0tTX09NNmxKOGg1RnZkRnE2RDdDb0RDWTNUNzVFcFN2TlRhSzVwOWR0TVE1WmNCeF9ON3pZX1R6by1Semw4Qkx3azRxaVpKQi1MUENfdDRscUhjWG5uSGRNQUZRZlJkMzNuZWhZcXRq?oc=5",
+     "theme": "People"
+    },
+    {
+     "title": "Bajaj Life Insurance elevates Vivek Gupta as Chief Operations and CX Officer",
+     "outlet": "ET BrandEquity",
+     "date": "2026-10-01",
+     "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNdzNxaXVHcERmdjkzbHBzMDdEMWRQRnBuRVhaOHQwNENfN3lDTDlTWExRZFVsbWM5dEVsdTM0MEpKb3NJbktqQkZsMm9od011MlhwMHF4RmR1djUtOER1S1ZhVVVXaldLaHRSNkllUnhBNlVDMExZZGtiWWgzOXQ5Rlp2N1hDOHdleXNCX28tOWFiSlZTWUhFcFZiSzdlYTRCMmNnb3N5V2k3bWUyRUYwa3NWRERqUXRHak1GY1ZySlJLa2VNeEpvMmd5eThxRDdXam1makNWVmpUT3BSQ1Y5b3Y0VVZIRVFJMXJtZFB4d9IB9AFBVV95cUxPUlQyTmk3Y2VYc3dOVndlTm1fVHMybHdlUm1OU1BoVUlZQ1BjWWhCMHFuQXBJUjczeThYS2tZbEZnVzZiQUVZQmR0eTM5NkF6TTZVYzkzY010WmNhRHZJRHBJSG1IOG9TTmdnZE5OUGFKWjlsaEc2a0pxWm1oZVE3dU5UelV0dko3SjhBVE5ENWR2Uk5DYzNJa0g1Q0VBVmhJMG5DSFZvWTFQVERUcUZ2VW12TmdlaHZBUndxOFBPS3dPczlOMEVBNnFRenFHMDJQTjRBN3pNSnZ0T1I1T1hmNXdkcHhvNTA0OTJCeGpmNlFxb2I5?oc=5",
+     "theme": "People"
+    },
+    {
+     "title": "Bajaj Life brings insurance advertising to ChatGPT",
+     "outlet": "afaqs!",
+     "date": "2026-09-28",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbFFpemNZRlU5ZnZSc2prSWxGeHZyWmxiU2pwakc3NWQzRFZ2bkVRQ2ZIQWVDdUZadWFZOFBhX0JRdjN1WksyV3NJZm9NZUh2VTg4N015WmQ0dEZ1bC1hajhwaEp6X2h1MVVfZWlKVU9nUVAwZVM5UFZpSldNN0pFWHhvM2ZISVdqZko3dEpqV0NzQ2NXYXhNN1ZoQTkzTzA?oc=5",
+     "theme": "Other"
+    },
+    {
+     "title": "\"Not An Incurable Mistake\": MP HC Revives Bajaj Life Insurance's Appeal Dismissed Over Pre-Deposit...",
+     "outlet": "LawBeat",
+     "date": "2026-09-24",
+     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPR1A2T0NncFFJd0pBcUJEZVVJNlozS29SdzdER1NrN3VLY29odE9iZ3ctNExjRkNTWkZqRGprTTJzUlRzdjNtaXp2QzdPWWtTYnFxRnZJaTZGc21DWURRRlZFdGdoZGtXS3ExeEp6V0FOQVYyUXpnV2pjbkk0MndkZGQ5dVNjNGVHNl9tQ2xMX1p6M2xBTUtrYmJxYWF5czNLZHowR1I1ajJNRkF0ejltNGFwZko4MUtuOUhHN3czY0lFV1pUSkFwd1lTUVJOUl9xODVTb01uOGtDd9IB3wFBVV95cUxQMzBnNmFTR1lLVE4xWHEyTTJES19LNXhnQ2JGZzRyVUduM05zZFhDUVVWeUFuYWNROGJDNzFuMnRHTXo4R1c3MVZ6R3NXY2RXc1hyWjdZNDFJZUc1elY1MkN0VS1FbFRwd0Vqb1NmS2t6WXZEY084WTZxMXZzVW9NUWRvbHBjRWFkR0RHS1FmU0RoTTRhQlZuRGZiTTZ0LXZTQ0k0b3JZTGw1ODRjMEhWQThfMzVXa0J2REZBWGx1T01NaWo1Q0k5U29WOTZGVEhpcWxLLWp2TUlxOVVKeHYw?oc=5",
+     "theme": "Deal & capital"
+    },
+    {
+     "title": "Bajaj Life Insurance turns to ChatGPT as consumer discovery shifts to AI",
+     "outlet": "Social Samosa",
+     "date": "2026-09-24",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPNnUyNm1LR0JSQWZtZDRreHl3ajFSZDY4TERMd1RmYmxDdEZWZG5vdnN4R1IyTmlNaUlZTGh0ejBlUFRUbWw2NnhKQ0Npc1ZDQTlwYndKNTZXYU5KN09oMEVxV0RQNHNQY2F1eDI1dWRhX3d2NkdvTnpocVF5Y2twaldxYU5VZTZlWHJZOFhVaU5PVFJVcU9oVFRXbDA0U091eFVxWGRSM0tadnktck5QQV9pbkxzSmdxS3hpZWg4STFlLUVTY0HSAcYBQVVfeXFMTzZ1MjZtS0dCUkFmbWQ0a3h5d2oxUmQ2OExETHdUZmJsQ3RGVmRub3ZzeEdSMk5pTWlJWUxodHowZVBUVG1sNjZ4SkNDaXNWQ0E5cGJ3SjU2V2FOSjdPaDBFcVdEUDRzUGNhdXgyNXVkYV93djZHb056aHFReWNrcGpXcWFOVWU2ZVhyWThYVWlOT1RSVXFPaFRUV2wwNFNPdXhVcVhkUjNLWnZ5LXJOUEFfaW5Mc0pncUt4aWVoOEkxZS1FU2NB?oc=5",
+     "theme": "Digital"
+    },
+    {
+     "title": "Dixon Technologies meets Bajaj Life Insurance in one-on-one session",
+     "outlet": "scanx.trade",
+     "date": "2026-09-11",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWUZqVTZsSHVaOTBWT3Rra3QzVnZoV2pjOGJvMG9qenRQUmxiWFVNX21fTm9Cd0RFUnFWZXRMQlhxM1c2b2stNVZ1SkJ0dW5EY082Z25oTTlnZFpMR0V3YllJT2ZFV3RnM28yeEpNUFR2SE9JbGJTb1VBajBjbnJsS1d0LUJyYXpSeDBNbWdCOHFwTGstSzJpdzBuSFJMRUdQcUw5YzZZTnJNVXEyM09IOEFiTEF4aDhSMHc?oc=5",
+     "theme": "Other"
+    }
+   ],
+   "checked_on": "2026-11-24",
+   "mentions_30d": 6,
+   "themes_30d": {
+    "Launch": 3,
+    "Regulatory": 1,
+    "Deal & capital": 1,
+    "Other": 1
+   },
+   "share_of_voice_pct": 100.0
+  }
+ },
+ "total_mentions_30d": 6,
+ "updated": "2026-11-24",
+ "source": "Google News RSS search, India edition (headlines and links only)"
+}

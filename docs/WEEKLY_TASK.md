@@ -70,13 +70,24 @@ Correct → remove that store from `apps_auto`. Wrong (agent/sales/wellness app)
 `apps`, drop the store from `apps_auto`, and delete that store's block in `data/reviews.json` so the
 Action fetches the right rating next Monday.
 
+## 6c. Benchmark research — 2 insurers per week (rotation as in step 4, offsets 3 and 16)
+No WebFetch here: download pages/PDFs with the `fetch-sources.yml` workflow (inputs `urls`, `tag`), then
+`git fetch origin raw-sources` and parse locally (`pdftotext -layout`). For each insurer:
+- `data/benchmark/strategy.json`: purpose, strategic pillars, stated targets, key facts and footprint from the latest
+  investor presentation / annual report / about page (status `deep` when pillars and targets are filled). Paraphrase.
+- `data/benchmark/research.json`: KPIs with no automatic source (employees, attrition, women in workforce, IRDAI
+  penalties in 3 years, independent directors, investment yield, NPA, ad spend) with period and URL.
+When IRDAI publishes a new Handbook or Annual Report (usually Dec-Feb), fetch it and rerun
+`scripts/parse_irdai_handbook.py <folder> <FY> <url>` / `scripts/parse_irdai_annual.py <txt> <FY> <url>`.
+Then `python3 scripts/build_benchmark.py`.
+
 ## 7. Build, publish, report
 ```
 python3 scripts/validate.py data/products/*.json     # fix every ERROR
-python3 scripts/build.py && python3 scripts/make_site.py
+python3 scripts/build.py && python3 scripts/build_benchmark.py && python3 scripts/make_site.py
 git add -A && git commit -m "Weekly research update YYYY-MM-DD" && git push
 ```
 Republish the dashboard: `Artifact` action `read` on https://claude.ai/artifact/HpLvASohtx8BPfGpCPiqjh, then `publish` with
 `url` = https://claude.ai/artifact/HpLvASohtx8BPfGpCPiqjh, `file_path` = `src/dashboard.html`,
-`files` = `{"data/dashboard.json": "data/dashboard.json"}`.
+`files` = `{"data/dashboard.json": "data/dashboard.json", "data/benchmark.json": "data/benchmark.json"}`.
 Finish with at most five lines: launches, withdrawals, specs filled, metrics updated, open items.

@@ -297,6 +297,15 @@ def main():
     today = dt.datetime.now(IST).date().isoformat()
     companies = load(DATA / "companies.json", [])
     changelog = load(DATA / "changelog.json", [])
+    if "--ratings-only" in args:  # daily job: refresh app ratings, keep the weekly product-page results
+        result = load(DATA / "refresh" / "last_run.json", {})
+        result["ratings"] = check_ratings(companies, today, changelog)
+        result["ratings_run_at"] = dt.datetime.now(IST).isoformat(timespec="minutes")
+        dump(DATA / "changelog.json", changelog)
+        dump(DATA / "refresh" / "last_run.json", result)
+        r = result["ratings"]
+        print(f"ratings android={r['android_ok']} ios={r['ios_ok']} failed={len(r['failed'])}")
+        return
     result = {"run_at": dt.datetime.now(IST).isoformat(timespec="minutes"), "source": "github-actions"}
     result["product_pages"] = check_products(companies, today, changelog, only)
     if "--no-ratings" not in args:

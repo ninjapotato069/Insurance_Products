@@ -1,0 +1,586 @@
+{
+ "note": "Strategy profiles. 'stated' items come from the insurer's own website, annual report or investor presentation (paraphrased, with short quotes marked). The app adds a data view computed from the KPIs. Status: deep = pillars and targets from an investor deck; partial = purpose, values and footprint from the website; pending = not yet researched.",
+ "updated": "2026-11-24",
+ "companies": {
+  "bajaj": {
+   "status": "deep",
+   "purpose": "Group vision (Bajaj Finserv): to be a lifecycle partner to every Indian in achieving financial goals. Business construct for Bajaj Life: maximise customer benefits while gaining retail market share, keeping shareholder returns and growing value of new business.",
+   "pillars": [
+    {
+     "name": "Deep and wide distribution",
+     "detail": "598 branches; balanced mix of agency and institutional business including bancassurance; proprietary channel Bajaj Life Direct for up-selling and cross-selling; one of the largest private agency forces (164K+ agents)."
+    },
+    {
+     "name": "Diversified product mix",
+     "detail": "Balance of ULIP, traditional and group products, aiming for best-in-class features across need segments; rising protection share."
+    },
+    {
+     "name": "Operational efficiency",
+     "detail": "Faster issuance and claim settlement, first-time-right processing, customer centricity."
+    },
+    {
+     "name": "Technology and data analytics",
+     "detail": "Analytics as a differentiator for customers and sales partners; AI across the lifecycle (enablement, login, underwriting, claims, servicing)."
+    }
+   ],
+   "targets": [
+    {
+     "text": "Grow retail topline at about 2x the industry and keep gaining private-sector market share (retail weighted received premium share 7.9% in FY26 against 8.6% in FY24).",
+     "by": "FY2028"
+    },
+    {
+     "text": "Raise protection to about 10% of business (4% in FY24, 8% in FY26).",
+     "by": "FY2028"
+    },
+    {
+     "text": "Product mix of about 10% protection, 25% non-par, 30% par and 35% ULIP (FY26 traditional:ULIP 57:43).",
+     "by": "FY2028"
+    },
+    {
+     "text": "Return on embedded value of 18-20% (14.1% in FY26).",
+     "by": "FY2028"
+    },
+    {
+     "text": "Value of new business growing much faster than premium (new business margin 19.2% in FY26, up from 15% in FY24).",
+     "by": "FY2028"
+    }
+   ],
+   "programme": "Bajaj Life 2.0 (long-range strategy)",
+   "footprint": [
+    {
+     "k": "Branches",
+     "v": "598",
+     "as_of": "Sep 2026"
+    },
+    {
+     "k": "Agents",
+     "v": "1,64,917+",
+     "as_of": "Sep 2026"
+    }
+   ],
+   "parentage": "Wholly owned by the Bajaj group (Bajaj Finserv with Bajaj Holdings & Investment) after Allianz SE's exit in 2025-26; renamed from Bajaj Allianz Life.",
+   "sources": [
+    {
+     "title": "Bajaj Finserv investor presentation, Q1 FY27 (Bajaj Life section)",
+     "url": "https://nsearchives.nseindia.com/corporate/BAJAJFINSV_31072026180854_BFSInvestorPresentation.pdf"
+    },
+    {
+     "title": "Bajaj Life Insurance: About us",
+     "url": "https://www.bajajlifeinsurance.com/about-us.html"
+    }
+   ],
+   "researched_on": "2026-11-24"
+  },
+  "hdfc": {
+   "status": "deep",
+   "purpose": "Build a resilient, technology-driven and scalable business, with digital, paperless journeys across channels.",
+   "pillars": [
+    {
+     "name": "Profitable growth",
+     "detail": "Sustainable growth by finding and tapping new profit pools; VNB and EV compounding."
+    },
+    {
+     "name": "Diversified distribution mix",
+     "detail": "Multiple channels to drive need-based selling and deepen penetration: agency, bancassurance, non-bank alliances and direct. Agency expanding to 700+ branches, 80% of new branches in Tier 2/3 markets."
+    },
+    {
+     "name": "Customer first",
+     "detail": "Superior product propositions and customer journeys through consistent innovation."
+    },
+    {
+     "name": "Risk management and board governance",
+     "detail": "Risk focus guided by an independent, competent board."
+    },
+    {
+     "name": "Future-ready organisation (foundation)",
+     "detail": "Technology, digital and analytics; organisation-wide AI programme across new business operations, servicing, distribution and risk."
+    }
+   ],
+   "targets": [],
+   "key_facts": [
+    "H1 FY27: individual APE Rs 70.8 bn (+9%), VNB Rs 20.4 bn (+12%), new business margin 24.7%, PAT Rs 11.2 bn (+14%), AUM Rs 4,097 bn.",
+    "Persistency 13M/61M 83%/66%; solvency 180% (Sep 2026); total expense ratio 22.3%.",
+    "Overall market share grew from 7.5% (FY18) to 10.8% (FY26) per the company."
+   ],
+   "footprint": [
+    {
+     "k": "Agency branches",
+     "v": "700+",
+     "as_of": "Sep 2026"
+    }
+   ],
+   "parentage": "Listed; promoted by HDFC Bank. Exide Life merged into HDFC Life in 2022.",
+   "sources": [
+    {
+     "title": "HDFC Life investor presentation, H1 FY27",
+     "url": "https://www.hdfclife.com/content/dam/hdfclifeinsurancecompany/about-us/pdf/investor-relations/financial-information/investor-presentation/HDFC-Life-H1-FY2027-Investor-Presentation.pdf"
+    },
+    {
+     "title": "HDFC Life: About us",
+     "url": "https://www.hdfclife.com/about-us"
+    }
+   ],
+   "researched_on": "2026-11-24"
+  },
+  "sbi": {
+   "status": "deep",
+   "purpose": "Make insurance accessible to all through an extensive national presence, driven by a 'Customer-First' approach, world-class operating efficiency and hassle-free claims.",
+   "pillars": [
+    {
+     "name": "Sustainable growth and penetration",
+     "detail": "Strengthen distribution and expand insurance penetration (management statement, H1 FY27)."
+    },
+    {
+     "name": "Protection-led, diversified portfolio",
+     "detail": "Customer-centric solutions, protection-led offerings and a diversified product portfolio (APE mix par/non-par/ULIP 4/45/51 in H1 FY27)."
+    },
+    {
+     "name": "Operating efficiency",
+     "detail": "Among the lowest cost ratios in the industry (total cost ratio 11.7% in H1 FY27)."
+    },
+    {
+     "name": "Digital experience",
+     "detail": "Enhance digital experiences for customers, distributors and employees."
+    }
+   ],
+   "targets": [],
+   "key_facts": [
+    "H1 FY27: private market leader in individual new business premium (25.2% share) and individual rated premium (22.6%).",
+    "APE Rs 117.5 bn (+18%); VoNB Rs 32.7 bn (+19%); VoNB margin 27.9%; PAT Rs 12.7 bn (+17%); operating RoEV 18.8%; solvency 1.97; AUM Rs 5.3 trillion.",
+    "APE channel mix banca/agency/others 53/28/19."
+   ],
+   "footprint": [
+    {
+     "k": "Offices",
+     "v": "1,244",
+     "as_of": "Sep 2026"
+    },
+    {
+     "k": "Employees",
+     "v": "30,398",
+     "as_of": "Sep 2026"
+    },
+    {
+     "k": "Agents",
+     "v": "about 3,10,486",
+     "as_of": "Sep 2026"
+    },
+    {
+     "k": "Bancassurance partners",
+     "v": "9 (40,000+ partner branches)",
+     "as_of": "Sep 2026"
+    },
+    {
+     "k": "Corporate agents",
+     "v": "84",
+     "as_of": "Sep 2026"
+    },
+    {
+     "k": "Brokers and IMFs",
+     "v": "159",
+     "as_of": "Sep 2026"
+    }
+   ],
+   "parentage": "Listed; promoted by State Bank of India. Took over Sahara India Life's policies in 2023.",
+   "sources": [
+    {
+     "title": "SBI Life news release, H1 FY27 results (27 Oct 2026)",
+     "url": "https://nsearchives.nseindia.com/corporate/SBILIFE_27102026185900_SEPR271026signed.pdf"
+    },
+    {
+     "title": "SBI Life: About us",
+     "url": "https://www.sbilife.co.in/about-us"
+    }
+   ],
+   "researched_on": "2026-11-24"
+  },
+  "absli": {
+   "status": "partial",
+   "purpose": null,
+   "pillars": [],
+   "targets": [],
+   "footprint": [
+    {
+     "k": "Branches",
+     "v": "440+",
+     "as_of": "Nov 2026"
+    },
+    {
+     "k": "Bancassurance partners",
+     "v": "12",
+     "as_of": "Nov 2026"
+    },
+    {
+     "k": "Distribution channels",
+     "v": "6",
+     "as_of": "Nov 2026"
+    },
+    {
+     "k": "Direct selling agents",
+     "v": "68,000+",
+     "as_of": "Nov 2026"
+    },
+    {
+     "k": "Employees",
+     "v": "29,000+",
+     "as_of": "Nov 2026"
+    },
+    {
+     "k": "Active customers",
+     "v": "23.48 lakh",
+     "as_of": "Nov 2026"
+    }
+   ],
+   "parentage": "Part of Aditya Birla Capital (listed NBFC holding company); 51:49 joint venture of the Aditya Birla Group and Sun Life Financial (Canada). Incorporated August 2000, operating since January 2001.",
+   "sources": [
+    {
+     "title": "ABSLI: About us",
+     "url": "https://lifeinsurance.adityabirlacapital.com/about-us/"
+    }
+   ],
+   "researched_on": "2026-11-24"
+  },
+  "tataaia": {
+   "status": "partial",
+   "purpose": "Aligned to the Tata Group core purpose of improving the quality of life of the communities it serves through long-term stakeholder value creation, and to AIA's aim of 'Healthier, Longer, Better' lives.",
+   "values": [
+    "Transparently deliver on promise",
+    "Respect and purpose for employees",
+    "Social and environmental responsibility"
+   ],
+   "pillars": [],
+   "targets": [],
+   "footprint": [],
+   "parentage": "Joint venture of Tata Sons and AIA Group (pan-Asian life insurer in 18 markets).",
+   "sources": [
+    {
+     "title": "Tata AIA: Who we are",
+     "url": "https://www.tataaia.com/about-us/who-we-are.html"
+    },
+    {
+     "title": "Tata AIA: Our culture",
+     "url": "https://www.tataaia.com/about-us/our-culture.html"
+    }
+   ],
+   "researched_on": "2026-11-24"
+  },
+  "pnbmetlife": {
+   "status": "partial",
+   "purpose": "Insurance solutions across child education, family protection, long-term savings and retirement, sold largely through bank partnerships and a financial advisor force.",
+   "pillars": [],
+   "targets": [],
+   "footprint": [
+    {
+     "k": "Offices",
+     "v": "185",
+     "as_of": "website, Nov 2026"
+    },
+    {
+     "k": "Locations reached via bank partners",
+     "v": "20,000+",
+     "as_of": "website, Nov 2026"
+    },
+    {
+     "k": "Financial advisors",
+     "v": "40,000+",
+     "as_of": "website, Nov 2026"
+    },
+    {
+     "k": "Group relationships",
+     "v": "585+",
+     "as_of": "website, Nov 2026"
+    }
+   ],
+   "parentage": "MetLife with Punjab National Bank and other shareholders; key bank partners PNB, Jammu & Kashmir Bank and Karnataka Bank. MD & CEO Sameer Bansal.",
+   "sources": [
+    {
+     "title": "PNB MetLife India: About us",
+     "url": "https://www.pnbmetlife.com/about-us/pnb-metlife-india.html"
+    }
+   ],
+   "researched_on": "2026-11-24"
+  },
+  "indiafirst": {
+   "status": "partial",
+   "purpose": "A #CustomerFirst ideology and a 'Circle of Trust' proposition: every behaviour aimed at earning customer trust, delivered through digitalisation across the value chain.",
+   "pillars": [],
+   "targets": [],
+   "footprint": [],
+   "parentage": null,
+   "sources": [
+    {
+     "title": "IndiaFirst Life: Company overview",
+     "url": "https://www.indiafirstlife.com/about-us/company-overview"
+    }
+   ],
+   "researched_on": "2026-11-24"
+  },
+  "shriram": {
+   "status": "partial",
+   "purpose": "Stated purpose: bring every family, especially those most vulnerable to losing a breadwinner, into the safety net of life insurance.",
+   "values": [
+    "Operational efficiency",
+    "Integrity",
+    "High-quality, cost-effective solutions for the average Indian"
+   ],
+   "pillars": [],
+   "targets": [],
+   "footprint": [],
+   "parentage": "Part of the Shriram Group, founded in 1974 by R. Thyagarajan.",
+   "sources": [
+    {
+     "title": "Shriram Life: About us",
+     "url": "https://www.shriramlife.com/discover/about-us"
+    }
+   ],
+   "researched_on": "2026-11-24"
+  },
+  "indusindnippon": {
+   "status": "partial",
+   "purpose": "Stated purpose: to be a trusted partner who empowers every individual to be ready for every stage of life.",
+   "pillars": [],
+   "targets": [],
+   "footprint": [],
+   "parentage": "IndusInd International Holdings (IIHL) with Nippon Life; renamed from Reliance Nippon Life in December 2025.",
+   "sources": [
+    {
+     "title": "IndusInd Nippon Life: About us",
+     "url": "https://www.indusindnipponlife.com/about-us"
+    }
+   ],
+   "researched_on": "2026-11-24"
+  },
+  "pramerica": {
+   "status": "partial",
+   "purpose": "Trusted guidance on life insurance for individuals and groups through multiple distribution channels.",
+   "pillars": [],
+   "targets": [],
+   "footprint": [
+    {
+     "k": "Branches",
+     "v": "125",
+     "as_of": "31 Mar 2026"
+    },
+    {
+     "k": "Employees",
+     "v": "3,451+",
+     "as_of": "website, Nov 2026"
+    },
+    {
+     "k": "AUM",
+     "v": "Rs 11,393.83 crore",
+     "as_of": "30 Jun 2026"
+    }
+   ],
+   "parentage": null,
+   "sources": [
+    {
+     "title": "Pramerica Life: About us",
+     "url": "https://pramericalife.in/about-us"
+    }
+   ],
+   "researched_on": "2026-11-24"
+  },
+  "bharti": {
+   "status": "partial",
+   "purpose": "'Customer First' as a core value: value-for-money, need-based insurance with a hassle-free experience.",
+   "pillars": [],
+   "targets": [],
+   "footprint": [
+    {
+     "k": "Offices",
+     "v": "200+",
+     "as_of": "website, Nov 2026"
+    }
+   ],
+   "parentage": "Held by Bharti Life Ventures Pvt Ltd after AXA's exit; renamed Bharti Life Insurance in September 2025.",
+   "sources": [
+    {
+     "title": "Bharti Life: About us",
+     "url": "https://www.bhartiaxa.com/about-us"
+    }
+   ],
+   "researched_on": "2026-11-24"
+  },
+  "edelweiss": {
+   "status": "partial",
+   "purpose": "Mission to turn customers' goals into reality; cost-effective operations and a customer's-eye view of every product, service point and claim.",
+   "pillars": [],
+   "targets": [],
+   "footprint": [],
+   "parentage": "Joint venture of Edelweiss Financial Services and Tokio Marine Holdings (Japan).",
+   "sources": [
+    {
+     "title": "Edelweiss Life: About us",
+     "url": "https://www.edelweisslife.in/about-us"
+    }
+   ],
+   "researched_on": "2026-11-24"
+  },
+  "bandhan": {
+   "status": "partial",
+   "purpose": "Make life insurance affordable, accessible and simple, using technology to streamline everything from plan selection to claims; customers at the heart of everything.",
+   "pillars": [],
+   "targets": [],
+   "footprint": [],
+   "parentage": "Bandhan Financial Holdings (Bandhan group); formerly Aegon Life, established 2008.",
+   "sources": [
+    {
+     "title": "Bandhan Life: About us",
+     "url": "https://www.bandhanlife.com/about-us"
+    }
+   ],
+   "researched_on": "2026-11-24"
+  },
+  "aviva": {
+   "status": "partial",
+   "purpose": "Stated purpose: 'With you today, for a better tomorrow'.",
+   "pillars": [],
+   "targets": [],
+   "footprint": [],
+   "parentage": "Wholly owned subsidiary of Aviva International Holdings (Aviva plc, London-listed).",
+   "sources": [
+    {
+     "title": "Aviva India: Who we are",
+     "url": "https://www.avivaindia.com/who-we-are"
+    }
+   ],
+   "researched_on": "2026-11-24"
+  },
+  "acko": {
+   "status": "partial",
+   "purpose": "Mission: empower people with reliable protection for peace of mind and lasting prosperity; digital-first, direct-to-customer model.",
+   "pillars": [],
+   "targets": [],
+   "footprint": [],
+   "parentage": "Part of the ACKO group founded by Varun Dua.",
+   "sources": [
+    {
+     "title": "ACKO: About us",
+     "url": "https://www.acko.com/about-us/"
+    }
+   ],
+   "researched_on": "2026-11-24"
+  },
+  "lic": {
+   "status": "pending",
+   "purpose": null,
+   "pillars": [],
+   "targets": [],
+   "footprint": [],
+   "parentage": "Government of India owns the large majority; listed on NSE/BSE since May 2022.",
+   "sources": [],
+   "researched_on": null
+  },
+  "icici": {
+   "status": "pending",
+   "purpose": null,
+   "pillars": [],
+   "targets": [],
+   "footprint": [],
+   "parentage": "Listed; promoted by ICICI Bank. Renamed from ICICI Prudential Life to ICICI Life Insurance with effect from 22 Sep 2026 (IRDAI).",
+   "sources": [],
+   "researched_on": null
+  },
+  "axismax": {
+   "status": "pending",
+   "purpose": null,
+   "pillars": [],
+   "targets": [],
+   "footprint": [],
+   "parentage": "Max Financial Services (listed) with Axis Bank as co-promoter.",
+   "sources": [],
+   "researched_on": null
+  },
+  "kotak": {
+   "status": "pending",
+   "purpose": null,
+   "pillars": [],
+   "targets": [],
+   "footprint": [],
+   "parentage": "Wholly owned by Kotak Mahindra Bank.",
+   "sources": [],
+   "researched_on": null
+  },
+  "canarahsbc": {
+   "status": "pending",
+   "purpose": null,
+   "pillars": [],
+   "targets": [],
+   "footprint": [],
+   "parentage": "Canara Bank with HSBC Insurance; listed on NSE/BSE.",
+   "sources": [],
+   "researched_on": null
+  },
+  "sud": {
+   "status": "pending",
+   "purpose": null,
+   "pillars": [],
+   "targets": [],
+   "footprint": [],
+   "parentage": "Bank of India, Union Bank of India and Dai-ichi Life (Japan).",
+   "sources": [],
+   "researched_on": null
+  },
+  "ageasfederal": {
+   "status": "pending",
+   "purpose": null,
+   "pillars": [],
+   "targets": [],
+   "footprint": [],
+   "parentage": "Ageas (Belgium) with Federal Bank.",
+   "sources": [],
+   "researched_on": null
+  },
+  "generalicentral": {
+   "status": "pending",
+   "purpose": null,
+   "pillars": [],
+   "targets": [],
+   "footprint": [],
+   "parentage": "Generali (Italy) with Central Bank of India; renamed from Future Generali India Life in July 2025.",
+   "sources": [],
+   "researched_on": null
+  },
+  "godigit": {
+   "status": "pending",
+   "purpose": null,
+   "pillars": [],
+   "targets": [],
+   "footprint": [],
+   "parentage": "Part of the Go Digit group.",
+   "sources": [],
+   "researched_on": null
+  },
+  "creditaccess": {
+   "status": "pending",
+   "purpose": null,
+   "pillars": [],
+   "targets": [],
+   "footprint": [],
+   "parentage": "Part of the CreditAccess group (microfinance); business is mainly group and credit-life cover.",
+   "sources": [],
+   "researched_on": null
+  },
+  "sahara": {
+   "status": "pending",
+   "purpose": null,
+   "pillars": [],
+   "targets": [],
+   "footprint": [],
+   "parentage": "Under administration; policies transferred to SBI Life by IRDAI order (June 2023).",
+   "sources": [],
+   "researched_on": null
+  },
+  "indiapost": {
+   "status": "pending",
+   "purpose": null,
+   "pillars": [],
+   "targets": [],
+   "footprint": [],
+   "parentage": "Department of Posts, Government of India (Postal Life Insurance and Rural PLI), outside IRDAI.",
+   "sources": [],
+   "researched_on": null
+  }
+ }
+}
