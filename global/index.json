@@ -1,0 +1,5650 @@
+[
+ {
+  "n": 1,
+  "url": "https://www.aia.com.sg/content/dam/sg-wise/en/docs/about-aia/press-release/2026/aia-delivers-record-results-in-2025.pdf",
+  "error": "HTTPSConnectionPool(host='www.aia.com.sg', port=443): Read timed out. (read timeout=90)"
+ },
+ {
+  "n": 2,
+  "url": "https://www.prudentialplc.com/en/newsroom/company-news/2026/prudential-plc-2025-full-year-results/",
+  "status": 200,
+  "final_url": "https://www.prudentialplc.com/en/newsroom/company-news/2026/prudential-plc-2025-full-year-results/",
+  "content_type": "text/html;charset=utf-8",
+  "file": "02_prudential-plc-2025-full-year-results.html",
+  "bytes": 251397,
+  "sha256": "307c5be492ea63a85a2f5deffbbef2f0b537ca3dfad3f01bd8d8f13164b7ef09",
+  "title": "Prudential plc 2025 Full Year Results | Prudential plc",
+  "links": [
+   [
+    "Skip to main content PLC",
+    "https://www.prudentialplc.com/en/newsroom/company-news/2026/prudential-plc-2025-full-year-results/#main-content"
+   ],
+   [
+    "",
+    "https://www.prudentialplc.com/en/"
+   ],
+   [
+    "Contact us",
+    "https://www.prudentialplc.com/en/contact-us/"
+   ],
+   [
+    "English",
+    "https://www.prudentialplc.com/en/newsroom/company-news/2026/prudential-plc-2025-full-year-results/"
+   ],
+   [
+    "繁體中文",
+    "https://www.prudentialplc.com/zh-hant/newsroom/company-news/2026/prudential-plc-2025-full-year-results/"
+   ],
+   [
+    "简体中文",
+    "https://www.prudentialplc.com/zh-cn/newsroom/company-news/2026/prudential-plc-2025-full-year-results/"
+   ],
+   [
+    "Our purpose and mission",
+    "https://www.prudentialplc.com/en/about-us/our-purpose-and-mission/"
+   ],
+   [
+    "Our strategy",
+    "https://www.prudentialplc.com/en/about-us/our-strategy/"
+   ],
+   [
+    "Overview",
+    "https://www.prudentialplc.com/en/about-us/our-strategy/overview/"
+   ],
+   [
+    "Our markets",
+    "https://www.prudentialplc.com/en/about-us/our-strategy/our-markets/"
+   ],
+   [
+    "Customers",
+    "https://www.prudentialplc.com/en/about-us/our-strategy/customers/"
+   ],
+   [
+    "Distribution",
+    "https://www.prudentialplc.com/en/about-us/our-strategy/distribution/"
+   ],
+   [
+    "Health",
+    "https://www.prudentialplc.com/en/about-us/our-strategy/health/"
+   ],
+   [
+    "Technology and operations",
+    "https://www.prudentialplc.com/en/about-us/our-strategy/technology/"
+   ],
+   [
+    "People and culture",
+    "https://www.prudentialplc.com/en/about-us/our-strategy/people-and-culture/"
+   ],
+   [
+    "Wealth and investments",
+    "https://www.prudentialplc.com/en/about-us/our-strategy/wealth-and-investments/"
+   ],
+   [
+    "Leadership profiles",
+    "https://www.prudentialplc.com/en/about-us/our-leadership/"
+   ],
+   [
+    "Our history",
+    "https://www.prudentialplc.com/en/about-us/our-history/"
+   ],
+   [
+    "Serving Our Customers for Over 178 Years",
+    "https://www.prudentialplc.com/en/about-us/our-history/serving-our-customers-for-over-178-years/"
+   ],
+   [
+    "175 years - Celebrating Life",
+    "https://www.prudentialplc.com/en/about-us/our-history/our-175th-anniversary/"
+   ],
+   [
+    "Prudential’s Singapore business opened on this day 92 years ago",
+    "https://www.prudentialplc.com/en/about-us/our-history/prudential-s-singapore-business-opened-on-this-day-92-years-ago/"
+   ],
+   [
+    "Over 100 years in Asia",
+    "https://www.prudentialplc.com/en/about-us/our-history/over-100-years-in-asia/"
+   ],
+   [
+    "Prudential's heritage",
+    "https://www.prudentialplc.com/en/about-us/our-history/prudential-heritage/"
+   ],
+   [
+    "Historical highlights",
+    "https://www.prudentialplc.com/en/about-us/our-history/historical-highlights/"
+   ],
+   [
+    "Timeline",
+    "https://www.prudentialplc.com/en/about-us/our-history/timeline/"
+   ],
+   [
+    "Our archives",
+    "https://www.prudentialplc.com/en/about-us/our-history/our-archives/"
+   ],
+   [
+    "Corporate governance and corporate actions",
+    "https://www.prudentialplc.com/en/about-us/corporate-governance-and-corporate-actions/"
+   ],
+   [
+    "Governance practices",
+    "https://www.prudentialplc.com/en/about-us/corporate-governance-and-corporate-actions/governance-practices/"
+   ],
+   [
+    "Governance structure",
+    "https://www.prudentialplc.com/en/about-us/corporate-governance-and-corporate-actions/governance-structure/"
+   ],
+   [
+    "Articles of association",
+    "https://www.prudentialplc.com/en/about-us/corporate-governance-and-corporate-actions/articles-of-association/"
+   ],
+   [
+    "Policies and statements",
+    "https://www.prudentialplc.com/en/about-us/corporate-governance-and-corporate-actions/policies-and-statements/"
+   ],
+   [
+    "Overview",
+    "https://www.prudentialplc.com/en/investors/overview/"
+   ],
+   [
+    "Results and reports",
+    "https://www.prudentialplc.com/en/investors/results-and-reports/"
+   ],
+   [
+    "Results and business performance updates",
+    "https://www.prudentialplc.com/en/investors/results-and-reports/results-and-business-performance-updates/"
+   ],
+   [
+    "Latest annual report",
+    "https://www.prudentialplc.com/en/investors/results-and-reports/latest-annual-report/"
+   ],
+   [
+    "Sustainability reporting",
+    "https://www.prudentialplc.com/en/investors/results-and-reports/latest-sustainability-report/"
+   ],
+   [
+    "All reports",
+    "https://www.prudentialplc.com/en/investors/results-and-reports/all-reports/"
+   ],
+   [
+    "Business presentations, corporate activity and IR events",
+    "https://www.prudentialplc.com/en/investors/business-presentations-and-ir-events/"
+   ],
+   [
+    "Stock exchange announcements",
+    "https://www.prudentialplc.com/en/investors/latest-stock-exchange-announcements/"
+   ],
+   [
+    "Shareholder centre",
+    "https://www.prudentialplc.com/en/investors/shareholder-centre/"
+   ],
+   [
+    "Shareholder information and corporate actions",
+    "https://www.prudentialplc.com/en/investors/shareholder-centre/shareholder-information-and-corporate-actions/"
+   ],
+   [
+    "Annual general meetings",
+    "https://www.prudentialplc.com/en/investors/shareholder-centre/annual-general-meetings/"
+   ],
+   [
+    "Dividend information",
+    "https://www.prudentialplc.com/en/investors/shareholder-centre/dividend-information/"
+   ],
+   [
+    "Cash dividend and currency election",
+    "https://www.prudentialplc.com/en/investors/shareholder-centre/cash-dividend-and-currency-election/"
+   ],
+   [
+    "Scrip dividend",
+    "https://www.prudentialplc.com/en/investors/shareholder-centre/scrip-dividend/"
+   ],
+   [
+    "Dividend reinvestment plan",
+    "https://www.prudentialplc.com/en/investors/shareholder-centre/dividend-reinvestment-plan/"
+   ],
+   [
+    "Historical dividend information",
+    "https://www.prudentialplc.com/en/investors/shareholder-centre/historical-dividend-information/"
+   ],
+   [
+    "Latest share price",
+    "https://www.prudentialplc.com/en/investors/shareholder-centre/latest-share-price/"
+   ],
+   [
+    "Shareholder forms",
+    "https://www.prudentialplc.com/en/investors/shareholder-centre/shareholder-forms/"
+   ],
+   [
+    "Financial calendar",
+    "https://www.prudentialplc.com/en/investors/financial-calendar/"
+   ],
+   [
+    "Credit investors",
+    "https://www.prudentialplc.com/en/investors/credit-investors/"
+   ],
+   [
+    "Glossary",
+    "https://www.prudentialplc.com/en/investors/glossary/"
+   ],
+   [
+    "Enquiries and support",
+    "https://www.prudentialplc.com/en/investors/enquiries-and-support/"
+   ],
+   [
+    "Feedback and enquiries",
+    "https://www.prudentialplc.com/en/investors/enquiries-and-support/feedback-and-enquiries/"
+   ],
+   [
+    "FAQs",
+    "https://www.prudentialplc.com/en/investors/enquiries-and-support/faqs/"
+   ],
+   [
+    "Company news",
+    "https://www.prudentialplc.com/en/newsroom/company-news/"
+   ],
+   [
+    "Insights",
+    "https://www.prudentialplc.com/en/newsroom/insights/"
+   ],
+   [
+    "Sustainability",
+    "https://www.prudentialplc.com/en/sustainability-social-impact/sustainability/"
+   ],
+   [
+    "Overview",
+    "https://www.prudentialplc.com/en/sustainability-social-impact/sustainability/overview/"
+   ],
+   [
+    "Simple and accessible health and financial protection",
+    "https://www.prudentialplc.com/en/sustainability-social-impact/sustainability/simple-and-accessible-health-and-financial-protection/"
+   ],
+   [
+    "Responsible investment",
+    "https://www.prudentialplc.com/en/sustainability-social-impact/sustainability/responsible-investment/"
+   ],
+   [
+    "Sustainable business",
+    "https://www.prudentialplc.com/en/sustainability-social-impact/sustainability/sustainable-business/"
+   ],
+   [
+    "Good governance and responsible business practices",
+    "https://www.prudentialplc.com/en/sustainability-social-impact/sustainability/good-governance-and-responsible-business-practices/"
+   ],
+   [
+    "Sustainability reporting",
+    "https://www.prudentialplc.com/en/sustainability-social-impact/sustainability/sustainability-reporting/"
+   ],
+   [
+    "Memberships and commitments",
+    "https://www.prudentialplc.com/en/sustainability-social-impact/sustainability/memberships-and-commitments/"
+   ],
+   [
+    "Prudence Foundation",
+    "https://www.prudentialplc.com/en/sustainability-social-impact/prudence-foundation/"
+   ],
+   [
+    "About Prudence Foundation",
+    "https://www.prudentialplc.com/en/sustainability-social-impact/prudence-foundation/about-prudence-foundation/"
+   ],
+   [
+    "Our programmes",
+    "https://www.prudentialplc.com/en/sustainability-social-impact/prudence-foundation/our-programmes/"
+   ],
+   [
+    "Our impact",
+    "https://www.prudentialplc.com/en/sustainability-social-impact/prudence-foundation/our-impact/"
+   ],
+   [
+    "News and research",
+    "https://www.prudentialplc.com/en/sustainability-social-impact/prudence-foundation/news-and-publications/"
+   ],
+   [
+    "Overview",
+    "https://www.prudentialplc.com/en/careers/overview/"
+   ],
+   [
+    "Our values",
+    "https://www.prudentialplc.com/en/careers/our-values/"
+   ],
+   [
+    "Inclusion and belonging",
+    "https://www.prudentialplc.com/en/careers/dei/"
+   ],
+   [
+    "Contact us",
+    "https://www.prudentialplc.com/en/contact-us/"
+   ],
+   [
+    "English",
+    "https://www.prudentialplc.com/en/newsroom/company-news/2026/prudential-plc-2025-full-year-results/"
+   ],
+   [
+    "繁體中文",
+    "https://www.prudentialplc.com/zh-hant/newsroom/company-news/2026/prudential-plc-2025-full-year-results/"
+   ],
+   [
+    "简体中文",
+    "https://www.prudentialplc.com/zh-cn/newsroom/company-news/2026/prudential-plc-2025-full-year-results/"
+   ],
+   [
+    "Home",
+    "https://www.prudentialplc.com/en/"
+   ],
+   [
+    "Company news",
+    "https://www.prudentialplc.com/en/newsroom/company-news/"
+   ],
+   [
+    "2026",
+    "https://www.prudentialplc.com/en/newsroom/company-news/2026/"
+   ],
+   [
+    "HKEx English version",
+    "https://www.prudentialplc.com/content/dam/prudential-plc/newsroom/company-news/2026/FYR%20HKEx%20RNS.pdf.coredownload.inline.pdf"
+   ],
+   [
+    "HKEx Chinese version",
+    "https://www.prudentialplc.com/content/dam/prudential-plc/newsroom/company-news/2026/tc/Combined%20results%20announcement%20TC.pdf.coredownload.inline.pdf"
+   ],
+   [
+    "LSE",
+    "https://www.prudentialplc.com/content/dam/prudential-plc/newsroom/company-news/2026/LSE%20Full%20Year%20Results%202025.pdf.coredownload.inline.pdf"
+   ],
+   [
+    "Download",
+    "https://www.prudentialplc.com/content/dam/prudential-plc/newsroom/company-news/2026/Full%20news%20release%20and%20business%20review.pdf"
+   ],
+   [
+    "Download",
+    "https://www.prudentialplc.com/content/dam/prudential-plc/newsroom/company-news/2026/IFRS%20disclosure.pdf"
+   ],
+   [
+    "Download",
+    "https://www.prudentialplc.com/content/dam/prudential-plc/newsroom/company-news/2026/TEV%20statements.pdf"
+   ],
+   [
+    "Download",
+    "https://www.prudentialplc.com/content/dam/prudential-plc/newsroom/company-news/2026/Additional%20unaudited%20financial%20information.pdf"
+   ],
+   [
+    "Download",
+    "https://www.prudentialplc.com/content/dam/prudential-plc/newsroom/company-news/2026/2025%20full%20year%20financial%20supplement%20(XLSX).xlsx"
+   ],
+   [
+    "Download",
+    "https://www.prudentialplc.com/content/dam/prudential-plc/newsroom/company-news/2026/Combined%20results%20announcement.pdf"
+   ],
+   [
+    "https://www.prudentialplc.com/en/investors/overview/",
+    "https://www.prudentialplc.com/en/investors/overview/"
+   ],
+   [
+    "https://data.fca.org.uk/#/nsm/nationalstoragemechanism",
+    "https://data.fca.org.uk/#/nsm/nationalstoragemechanism"
+   ],
+   [
+    "https://meetings.100.lumiconnect.com/r/participant/live-meeting/100614516559",
+    "https://meetings.100.lumiconnect.com/r/participant/live-meeting/100614516559"
+   ],
+   [
+    "https://reg.lumiengage.com/prudential-fy25/qawebcast/Site/Register",
+    "https://reg.lumiengage.com/prudential-fy25/qawebcast/Site/Register"
+   ],
+   [
+    "https://lumiagmukstreams.s3.eu-west-2.amazonaws.com/7.+Archive+2026/Prudential/Lumi+dial-ins+-+Prudential+IR.pdf",
+    "https://lumiagmukstreams.s3.eu-west-2.amazonaws.com/7.+Archive+2026/Prudential/Lumi+dial-ins+-+Prudential+IR.pdf"
+   ],
+   [
+    "www.prudentialplc.com",
+    "https://www.prudentialplc.com/en/"
+   ],
+   [
+    "www.prudentialplc.com",
+    "https://www.prudentialplc.com/en/"
+   ],
+   [
+    "Read the disclaimer",
+    "https://www.prudentialplc.com/en/newsroom/company-news/disclaimer/"
+   ],
+   [
+    "Privacy Notice",
+    "https://www.prudentialplc.com/en/site-services/privacy-notice/"
+   ],
+   [
+    "Contact details",
+    "https://www.prudentialplc.com/en/newsroom/company-news/2026/prudential-plc-2025-full-year-results/#master"
+   ],
+   [
+    "",
+    "https://www.prudentialplc.com/en/"
+   ],
+   [
+    "Cambodia",
+    "https://www.prudentialplc.com/en/newsroom/company-news/2026/prudential-plc-2025-full-year-results/"
+   ],
+   [
+    "China",
+    "https://www.prudentialplc.com/en/newsroom/company-news/2026/prudential-plc-2025-full-year-results/"
+   ],
+   [
+    "Ghana",
+    "https://www.prudentialplc.com/en/newsroom/company-news/2026/prudential-plc-2025-full-year-results/"
+   ],
+   [
+    "Hong Kong",
+    "https://www.prudentialplc.com/en/newsroom/company-news/2026/prudential-plc-2025-full-year-results/"
+   ],
+   [
+    "India",
+    "https://www.prudentialplc.com/en/newsroom/company-news/2026/prudential-plc-2025-full-year-results/"
+   ],
+   [
+    "Indonesia",
+    "https://www.prudentialplc.com/en/newsroom/company-news/2026/prudential-plc-2025-full-year-results/"
+   ],
+   [
+    "Japan",
+    "https://www.prudentialplc.com/en/newsroom/company-news/2026/prudential-plc-2025-full-year-results/"
+   ],
+   [
+    "Kenya",
+    "https://www.prudentialplc.com/en/newsroom/company-news/2026/prudential-plc-2025-full-year-results/"
+   ],
+   [
+    "Laos",
+    "https://www.prudentialplc.com/en/newsroom/company-news/2026/prudential-plc-2025-full-year-results/"
+   ],
+   [
+    "Luxembourg",
+    "https://www.prudentialplc.com/en/newsroom/company-news/2026/prudential-plc-2025-full-year-results/"
+   ],
+   [
+    "Malaysia",
+    "https://www.prudentialplc.com/en/newsroom/company-news/2026/prudential-plc-2025-full-year-results/"
+   ],
+   [
+    "Myanmar",
+    "https://www.prudentialplc.com/en/newsroom/company-news/2026/prudential-plc-2025-full-year-results/"
+   ],
+   [
+    "Nigeria",
+    "https://www.prudentialplc.com/en/newsroom/company-news/2026/prudential-plc-2025-full-year-results/"
+   ],
+   [
+    "Philippines",
+    "https://www.prudentialplc.com/en/newsroom/company-news/2026/prudential-plc-2025-full-year-results/"
+   ],
+   [
+    "Singapore",
+    "https://www.prudentialplc.com/en/newsroom/company-news/2026/prudential-plc-2025-full-year-results/"
+   ],
+   [
+    "Taiwan",
+    "https://www.prudentialplc.com/en/newsroom/company-news/2026/prudential-plc-2025-full-year-results/"
+   ],
+   [
+    "Thailand",
+    "https://www.prudentialplc.com/en/newsroom/company-news/2026/prudential-plc-2025-full-year-results/"
+   ],
+   [
+    "Uganda",
+    "https://www.prudentialplc.com/en/newsroom/company-news/2026/prudential-plc-2025-full-year-results/"
+   ],
+   [
+    "United States",
+    "https://www.prudentialplc.com/en/newsroom/company-news/2026/prudential-plc-2025-full-year-results/"
+   ],
+   [
+    "Vietnam",
+    "https://www.prudentialplc.com/en/newsroom/company-news/2026/prudential-plc-2025-full-year-results/"
+   ],
+   [
+    "Zambia",
+    "https://www.prudentialplc.com/en/newsroom/company-news/2026/prudential-plc-2025-full-year-results/"
+   ],
+   [
+    "",
+    "https://www.prudentialplc.com/en/newsroom/company-news/2026/prudential-plc-2025-full-year-results/"
+   ],
+   [
+    "Insurance",
+    "https://www.prudential.com.kh/km"
+   ],
+   [
+    "Insurance",
+    "https://www.citic-prudential.com.cn/"
+   ],
+   [
+    "Asset Management",
+    "https://www.citicprufunds.com.cn/"
+   ],
+   [
+    "Insurance",
+    "https://www.prudential.com.gh/"
+   ],
+   [
+    "Insurance",
+    "https://www.prudential.com.hk/en/"
+   ],
+   [
+    "Asset Management",
+    "https://www.eastspring.com/hk"
+   ],
+   [
+    "Mandatory Provident Fund",
+    "https://www.boci-pru.com.hk/en"
+   ],
+   [
+    "Insurance",
+    "https://www.iciciprulife.com/"
+   ],
+   [
+    "Asset Management",
+    "https://www.icicipruamc.com/"
+   ],
+   [
+    "Insurance",
+    "https://www.prudential.co.id/id/"
+   ],
+   [
+    "Asset Management",
+    "https://www.eastspring.com/id"
+   ],
+   [
+    "Sharia",
+    "https://www.prudential.co.id/id/"
+   ],
+   [
+    "Asset Management",
+    "https://www.eastspring.co.jp/"
+   ],
+   [
+    "Insurance",
+    "https://www.prudentiallife.co.ke/"
+   ],
+   [
+    "Insurance",
+    "https://www.prudential.la/prudential-la/lo/"
+   ],
+   [
+    "Asset Management",
+    "https://www.eastspring.com/lu"
+   ],
+   [
+    "Insurance",
+    "https://www.prudential.com.my/en/"
+   ],
+   [
+    "Asset Management",
+    "https://www.eastspring.com/my"
+   ],
+   [
+    "Islamic Asset Management",
+    "https://www.eastspring.com/myalwarainvestments"
+   ],
+   [
+    "Takaful",
+    "https://www.prubsn.com.my/en/"
+   ],
+   [
+    "Insurance",
+    "https://www.prudential.com.mm/"
+   ],
+   [
+    "Insurance",
+    "https://www.prudentialzenith.com/"
+   ],
+   [
+    "Insurance",
+    "https://www.prulifeuk.com.ph/en/"
+   ],
+   [
+    "Insurance",
+    "https://www.prudential.com.sg/"
+   ],
+   [
+    "Asset Management",
+    "https://www.eastspring.com/sg"
+   ],
+   [
+    "Insurance",
+    "https://www.pcalife.com.tw/zh/"
+   ],
+   [
+    "Asset Management",
+    "https://www.eastspring.com.tw/"
+   ],
+   [
+    "Insurance",
+    "https://www.prudential.co.th/corp/prudential-th/en/"
+   ],
+   [
+    "Asset Management",
+    "https://www.eastspring.co.th/"
+   ],
+   [
+    "Insurance",
+    "https://www.prudential.ug/"
+   ],
+   [
+    "Asset Management",
+    "https://www.eastspring.us"
+   ],
+   [
+    "Insurance",
+    "https://www.prudential.com.vn/vi/"
+   ],
+   [
+    "Asset Management",
+    "https://www.eastspring.com/vn/en"
+   ],
+   [
+    "Insurance",
+    "http://www.prudential.co.zm/"
+   ],
+   [
+    "Pension Management",
+    "http://www.prudentialpensions.co.zm/"
+   ],
+   [
+    "",
+    "https://www.facebook.com/prudentialgroup"
+   ],
+   [
+    "",
+    "https://x.com/prudentialplc?lang=en"
+   ],
+   [
+    "",
+    "https://www.linkedin.com/company/prudentialplc"
+   ],
+   [
+    "",
+    "https://www.youtube.com/@PrudentialplcGHO/videos"
+   ],
+   [
+    "Our purpose and mission",
+    "https://www.prudentialplc.com/en/about-us/our-purpose-and-mission/"
+   ],
+   [
+    "Our strategy",
+    "https://www.prudentialplc.com/en/about-us/our-strategy/overview/"
+   ],
+   [
+    "Leadership profiles",
+    "https://www.prudentialplc.com/en/about-us/our-leadership/"
+   ],
+   [
+    "Our history",
+    "https://www.prudentialplc.com/en/about-us/our-history/"
+   ],
+   [
+    "Corporate governance and corporate actions",
+    "https://www.prudentialplc.com/en/about-us/corporate-governance-and-corporate-actions/"
+   ],
+   [
+    "Contact registrar",
+    "https://www.prudentialplc.com/en/newsroom/company-news/2026/prudential-plc-2025-full-year-results/"
+   ],
+   [
+    "Overview",
+    "https://www.prudentialplc.com/en/investors/overview/"
+   ],
+   [
+    "Results and reports",
+    "https://www.prudentialplc.com/en/investors/results-and-reports/"
+   ],
+   [
+    "Business presentations, corporate activity and IR events",
+    "https://www.prudentialplc.com/en/investors/business-presentations-and-ir-events/"
+   ],
+   [
+    "Stock exchange announcements",
+    "https://www.prudentialplc.com/en/investors/latest-stock-exchange-announcements/"
+   ],
+   [
+    "Shareholder centre",
+    "https://www.prudentialplc.com/en/investors/shareholder-centre/"
+   ],
+   [
+    "Financial calendar",
+    "https://www.prudentialplc.com/en/investors/financial-calendar/"
+   ],
+   [
+    "Credit investors",
+    "https://www.prudentialplc.com/en/investors/credit-investors/"
+   ],
+   [
+    "Glossary",
+    "https://www.prudentialplc.com/en/investors/glossary/"
+   ],
+   [
+    "Enquiries and support",
+    "https://www.prudentialplc.com/en/investors/enquiries-and-support/"
+   ],
+   [
+    "Company news",
+    "https://www.prudentialplc.com/en/newsroom/company-news/"
+   ],
+   [
+    "Insights",
+    "https://www.prudentialplc.com/en/newsroom/insights/"
+   ],
+   [
+    "Thought leadership",
+    "https://www.prudentialplc.com/en/newsroom/thought-leadership/"
+   ],
+   [
+    "Sustainability",
+    "https://www.prudentialplc.com/en/sustainability-social-impact/sustainability/"
+   ],
+   [
+    "Prudence Foundation",
+    "https://www.prudentialplc.com/en/sustainability-social-impact/prudence-foundation/about-prudence-foundation/"
+   ],
+   [
+    "Overview",
+    "https://www.prudentialplc.com/en/careers/overview/"
+   ],
+   [
+    "Our values",
+    "https://www.prudentialplc.com/en/careers/our-values/"
+   ],
+   [
+    "Diversity, equity, inclusion",
+    "https://www.prudentialplc.com/en/careers/dei/"
+   ],
+   [
+    "Our purpose and mission",
+    "https://www.prudentialplc.com/en/about-us/our-purpose-and-mission/"
+   ],
+   [
+    "Our strategy",
+    "https://www.prudentialplc.com/en/about-us/our-strategy/overview/"
+   ],
+   [
+    "Leadership profiles",
+    "https://www.prudentialplc.com/en/about-us/our-leadership/"
+   ],
+   [
+    "Our history",
+    "https://www.prudentialplc.com/en/about-us/our-history/"
+   ],
+   [
+    "Corporate governance and corporate actions",
+    "https://www.prudentialplc.com/en/about-us/corporate-governance-and-corporate-actions/"
+   ],
+   [
+    "Contact registrar",
+    "https://www.prudentialplc.com/en/newsroom/company-news/2026/prudential-plc-2025-full-year-results/"
+   ],
+   [
+    "Overview",
+    "https://www.prudentialplc.com/en/investors/overview/"
+   ],
+   [
+    "Results and reports",
+    "https://www.prudentialplc.com/en/investors/results-and-reports/"
+   ],
+   [
+    "Business presentations, corporate activity and IR events",
+    "https://www.prudentialplc.com/en/investors/business-presentations-and-ir-events/"
+   ],
+   [
+    "Stock exchange announcements",
+    "https://www.prudentialplc.com/en/investors/latest-stock-exchange-announcements/"
+   ],
+   [
+    "Shareholder centre",
+    "https://www.prudentialplc.com/en/investors/shareholder-centre/"
+   ],
+   [
+    "Financial calendar",
+    "https://www.prudentialplc.com/en/investors/financial-calendar/"
+   ],
+   [
+    "Credit investors",
+    "https://www.prudentialplc.com/en/investors/credit-investors/"
+   ],
+   [
+    "Glossary",
+    "https://www.prudentialplc.com/en/investors/glossary/"
+   ],
+   [
+    "Enquiries and support",
+    "https://www.prudentialplc.com/en/investors/enquiries-and-support/"
+   ],
+   [
+    "Company news",
+    "https://www.prudentialplc.com/en/newsroom/company-news/"
+   ],
+   [
+    "Insights",
+    "https://www.prudentialplc.com/en/newsroom/insights/"
+   ],
+   [
+    "Thought leadership",
+    "https://www.prudentialplc.com/en/newsroom/thought-leadership/"
+   ],
+   [
+    "Sustainability",
+    "https://www.prudentialplc.com/en/sustainability-social-impact/sustainability/"
+   ],
+   [
+    "Prudence Foundation",
+    "https://www.prudentialplc.com/en/sustainability-social-impact/prudence-foundation/about-prudence-foundation/"
+   ],
+   [
+    "Overview",
+    "https://www.prudentialplc.com/en/careers/overview/"
+   ],
+   [
+    "Our values",
+    "https://www.prudentialplc.com/en/careers/our-values/"
+   ],
+   [
+    "Diversity, equity, inclusion",
+    "https://www.prudentialplc.com/en/careers/dei/"
+   ],
+   [
+    "Accessibility",
+    "https://www.prudentialplc.com/en/site-services/accessibility/"
+   ],
+   [
+    "Sitemap",
+    "https://www.prudentialplc.com/en/site-services/sitemap/"
+   ],
+   [
+    "Terms of use",
+    "https://www.prudentialplc.com/en/site-services/terms-of-use/"
+   ],
+   [
+    "Privacy notice",
+    "https://www.prudentialplc.com/en/site-services/privacy-notice/"
+   ],
+   [
+    "Prudential employee privacy notice",
+    "https://www.prudentialplc.com/content/dam/prudential-plc/footer/Prudential%20Employee%20Privacy%20Notice_updated.pdf.coredownload.inline.pdf"
+   ],
+   [
+    "Share, bond and investments frauds",
+    "https://www.prudentialplc.com/en/site-services/share-bond-and-investments-frauds/"
+   ],
+   [
+    "Modern slavery statement",
+    "https://www.prudentialplc.com/content/dam/prudential-plc/sustainability-social-impact/sustainability/sustainability-reporting/modern-slavery-statement-2025.pdf.coredownload.inline.pdf"
+   ],
+   [
+    "Responsible AI at Prudential",
+    "https://www.prudentialplc.com/en/site-services/responsible-ai-at-prudential/"
+   ],
+   [
+    "Speak out",
+    "https://prudential.caseiq.app/portal"
+   ],
+   [
+    "Report a security issue",
+    "https://vdp.prudentialcorporation-asia.com/p/index#/page/0/Index"
+   ],
+   [
+    "www.pru.co.uk/contact-us",
+    "http://www.pru.co.uk/contact-us"
+   ],
+   [
+    "www.mandg.com",
+    "https://www.mandg.com/"
+   ],
+   [
+    "Accept",
+    "https://www.prudentialplc.com/en/newsroom/company-news/2026/prudential-plc-2025-full-year-results/"
+   ],
+   [
+    "Decline",
+    "https://www.prudentialplc.com/en/newsroom/company-news/2026/prudential-plc-2025-full-year-results/"
+   ]
+  ]
+ },
+ {
+  "n": 3,
+  "url": "https://group.pingan.com/resource/pingan/IR-Docs/2026/pingan-ar25-press-release.pdf",
+  "status": 200,
+  "final_url": "https://group.pingan.com/resource/pingan/IR-Docs/2026/pingan-ar25-press-release.pdf",
+  "content_type": "application/pdf;charset=UTF-8",
+  "file": "03_pingan-ar25-press-release.pdf",
+  "bytes": 270515,
+  "sha256": "2d57168ed754badccd6d900064e1eadc81922c569a46b12ba003235b8d59608e"
+ },
+ {
+  "n": 4,
+  "url": "https://www.newswire.ca/news-releases/manulife-reports-full-year-and-fourth-quarter-2025-results-812799583.html",
+  "status": 403,
+  "final_url": "https://www.newswire.ca/news-releases/manulife-reports-full-year-and-fourth-quarter-2025-results-812799583.html",
+  "content_type": "text/html; charset=UTF-8",
+  "file": "04_manulife-reports-full-year-and-fourth-quarter-2025-results-812799583.html",
+  "bytes": 6039,
+  "sha256": "87376db7feaf10c15faa7dcae4b80d30e649c57af0786f4170e909f8bc49991b",
+  "title": "Just a moment...",
+  "links": []
+ },
+ {
+  "n": 5,
+  "url": "https://links.sgx.com/1.0.0/corporate-announcements/CZ8U29FXNHYK9SE7/875678_20260224%20GEH%20Media%20Release.pdf",
+  "status": 200,
+  "final_url": "https://links.sgx.com/FileOpen/20260224%20GEH%20Media%20Release.ashx?App=Announcement&FileID=875678",
+  "content_type": "application/pdf",
+  "file": "05_20260224-20GEH-20Media-20Release.pdf",
+  "bytes": 155444,
+  "sha256": "af9306f8e9aec296f27c2329dba9aa4bb38456fa38867b159bb6474a838471aa"
+ },
+ {
+  "n": 6,
+  "url": "https://www.newswire.ca/news-releases/sun-life-reports-fourth-quarter-and-full-year-2025-results-824929523.html",
+  "status": 403,
+  "final_url": "https://www.newswire.ca/news-releases/sun-life-reports-fourth-quarter-and-full-year-2025-results-824929523.html",
+  "content_type": "text/html; charset=UTF-8",
+  "file": "06_sun-life-reports-fourth-quarter-and-full-year-2025-results-824929523.html",
+  "bytes": 6039,
+  "sha256": "33193c34f51f5c2bd013b985fa512a35d02871653208235fabb3d22ed1f5e40f",
+  "title": "Just a moment...",
+  "links": []
+ },
+ {
+  "n": 7,
+  "url": "https://www.itiger.com/news/2635080124",
+  "status": 200,
+  "final_url": "https://www.itiger.com/news/2635080124",
+  "content_type": "text/html; charset=utf-8",
+  "file": "07_2635080124.html",
+  "bytes": 80198,
+  "sha256": "46d7a57cb5f3b857ed28460a5a09ac01a8fde52816b4b5561e92a41fae8830b1",
+  "title": "Dai-ichi Life's Fiscal 2025 Profit Slides on One-Off Accounting Revision - Tiger Brokers",
+  "links": [
+   [
+    "Tiger Brokers",
+    "https://www.itiger.com/sg"
+   ],
+   [
+    "Markets",
+    "https://www.itiger.com/quote"
+   ],
+   [
+    "Quotes",
+    "https://www.itiger.com/quote"
+   ],
+   [
+    "24/7 News",
+    "https://www.itiger.com/news/top"
+   ],
+   [
+    "Products",
+    "https://www.itiger.com/sg/invest/cash-boost"
+   ],
+   [
+    "Features",
+    "https://www.itiger.com/sg/invest/auto-invest"
+   ],
+   [
+    "Tiger Investment Representatives",
+    "https://www.itiger.com/sg/marketing/InvestmentReps?lang=en_US"
+   ],
+   [
+    "Auto-invest",
+    "https://www.itiger.com/sg/invest/auto-invest"
+   ],
+   [
+    "Invest with CPF/SRS",
+    "https://www.itiger.com/sg/marketing/investwithCPF-SRS"
+   ],
+   [
+    "Learn",
+    "https://www.itiger.com/sg/learn"
+   ],
+   [
+    "US Fractional Shares",
+    "https://www.itiger.com/sg/invest/us-fractionalshares"
+   ],
+   [
+    "TigerAI",
+    "https://www.itiger.com/sg/market/gpt"
+   ],
+   [
+    "Pricing",
+    "https://www.itiger.com/sg/commissions"
+   ],
+   [
+    "Prime",
+    "https://www.itiger.com/sg/commissions/fees"
+   ],
+   [
+    "Stocks & ETFs",
+    "https://www.itiger.com/sg/commissions/fees/stocks_etf"
+   ],
+   [
+    "Options, Warrants & CBBCs",
+    "https://www.itiger.com/sg/commissions/fees/options_cbbcs"
+   ],
+   [
+    "Futures",
+    "https://www.itiger.com/sg/commissions/fees/futures"
+   ],
+   [
+    "Bonds",
+    "https://www.itiger.com/sg/commissions/fees/bond"
+   ],
+   [
+    "Fund Mall",
+    "https://www.itiger.com/sg/commissions/fees/fund_mall"
+   ],
+   [
+    "Cash Boost",
+    "https://www.itiger.com/sg/commissions/cash_boost"
+   ],
+   [
+    "Stocks & ETFs",
+    "https://www.itiger.com/sg/commissions/cash_boost/stocks_etf"
+   ],
+   [
+    "Financing Interest Rates",
+    "https://www.itiger.com/sg/commissions/others_fees/financing_interest_rates"
+   ],
+   [
+    "TTX2026",
+    "https://sg.tigerkickoff.com/activity/market/2026/ttx"
+   ],
+   [
+    "TTX 2026 (28-29 Nov)",
+    "https://sg.tigerkickoff.com/activity/market/2026/ttx"
+   ],
+   [
+    "Promotions",
+    "https://www.itiger.com/sg/market/promotion"
+   ],
+   [
+    "Help",
+    "https://www.itiger.com/sg/help"
+   ],
+   [
+    "Account Operations",
+    "https://www.itiger.com/sg/help/detail/account-operations"
+   ],
+   [
+    "How to Open an Account?",
+    "https://www.itiger.com/sg/help/detail/account-opening"
+   ],
+   [
+    "Account Opening Documents",
+    "https://www.itiger.com/sg/help/detail/account-opening-documents"
+   ],
+   [
+    "Account Types Available",
+    "https://www.itiger.com/sg/help/detail/account-types"
+   ],
+   [
+    "Transfer & Pay",
+    "https://www.itiger.com/sg/help/detail/transfer-n-pay"
+   ],
+   [
+    "Account Funding",
+    "https://www.itiger.com/sg/help/detail/account-funding"
+   ],
+   [
+    "DDA Fast Deposit",
+    "https://www.itiger.com/sg/help/detail/89960074"
+   ],
+   [
+    "Funds Withdrawal",
+    "https://www.itiger.com/sg/help/detail/funds-withdrawal"
+   ],
+   [
+    "Shares Transfer-in",
+    "https://www.itiger.com/sg/help/detail/shares-transfer-in"
+   ],
+   [
+    "Shares Transfer-out",
+    "https://www.itiger.com/sg/help/detail/shares-transfer-out"
+   ],
+   [
+    "Currency Conversion",
+    "https://www.itiger.com/sg/help/detail/currency-conversion"
+   ],
+   [
+    "Products & Trading",
+    "https://www.itiger.com/sg/help/detail/products-n-trading"
+   ],
+   [
+    "Products Available",
+    "https://www.itiger.com/sg/help/detail/products-available"
+   ],
+   [
+    "Order Types",
+    "https://www.itiger.com/sg/help/detail/order-types"
+   ],
+   [
+    "Trading Rules",
+    "https://www.itiger.com/sg/help/detail/trading-rules"
+   ],
+   [
+    "Declaration",
+    "https://www.itiger.com/sg/help/detail/declaration"
+   ],
+   [
+    "Margin Trading & Short Selling",
+    "https://www.itiger.com/sg/help/detail/margin-trading-n-short-selling"
+   ],
+   [
+    "Margin & Leverage",
+    "https://www.itiger.com/sg/help/detail/margin-n-leverage"
+   ],
+   [
+    "Risk Management",
+    "https://www.itiger.com/sg/help/detail/risk-management"
+   ],
+   [
+    "Short Selling Risk",
+    "https://www.itiger.com/sg/help/detail/short-selling-risk"
+   ],
+   [
+    "Fund Mall",
+    "https://www.itiger.com/sg/help/detail/fund-mall"
+   ],
+   [
+    "Open a fund account and transaction",
+    "https://www.itiger.com/sg/help/detail/53925061"
+   ],
+   [
+    "Cash Boost Account",
+    "https://www.itiger.com/sg/help/detail/21825989"
+   ],
+   [
+    "Cash Boost Account FAQ",
+    "https://www.itiger.com/sg/help/detail/contra-faq"
+   ],
+   [
+    "How to Open Cash Boost Account",
+    "https://www.itiger.com/sg/help/detail/06324754"
+   ],
+   [
+    "How to Contra Trade using Cash Boost Account",
+    "https://www.itiger.com/sg/help/detail/63375641"
+   ],
+   [
+    "How to link your CDP Securities Account",
+    "https://www.itiger.com/sg/help/detail/how-to-link-CDP"
+   ],
+   [
+    "Tiger Boss Debit Card",
+    "https://www.itiger.com/sg/help/detail/93284971"
+   ],
+   [
+    "Frequently Asked Questions",
+    "https://www.itiger.com/sg/help/detail/86919046"
+   ],
+   [
+    "Fees of the Debit card",
+    "https://www.itiger.com/sg/help/detail/24801164"
+   ],
+   [
+    "How to Top-up",
+    "https://www.itiger.com/sg/help/detail/74200178"
+   ],
+   [
+    "How to use my Debit card",
+    "https://www.itiger.com/sg/help/detail/52687302"
+   ],
+   [
+    "Statement",
+    "https://www.itiger.com/sg/help/detail/statement-n-more"
+   ],
+   [
+    "Statement",
+    "https://www.itiger.com/sg/help/detail/statement"
+   ],
+   [
+    "Dividends",
+    "https://www.itiger.com/sg/help/detail/dividends"
+   ],
+   [
+    "Institution",
+    "https://www.itiger.com/sg/inst"
+   ],
+   [
+    "Tiger Fund Management",
+    "https://www.itiger.com/sg/fund-management"
+   ],
+   [
+    "Institution Service",
+    "https://www.itiger.com/sg/inst/external-asset"
+   ],
+   [
+    "Wealth and asset manager",
+    "https://www.itiger.com/sg/inst/external-asset"
+   ],
+   [
+    "Proprietary trading institutions",
+    "https://www.itiger.com/sg/inst/proprietary-trading-group"
+   ],
+   [
+    "Introducing brokers",
+    "https://www.itiger.com/sg/inst/introducing-brokers"
+   ],
+   [
+    "Third-party service provider",
+    "https://www.itiger.com/sg/inst/thirdparty-service"
+   ],
+   [
+    "Tiger Open Platform",
+    "https://developer.tigerbrokers.com.sg/"
+   ],
+   [
+    "LOGIN",
+    "https://www.itiger.com/login?next=%2Fnews%2F2635080124"
+   ],
+   [
+    "SIGN UP",
+    "https://www.itiger.com/signup"
+   ],
+   [
+    "Dai-ichi Life",
+    "https://laohu8.com/S/DCNSF"
+   ],
+   [
+    "User Agreement",
+    "https://www.itiger.com/agreement/UserAgreement-TTT"
+   ],
+   [
+    "Privacy Policy",
+    "https://www.itiger.com/agreement/PrivacyPolicy-TTT"
+   ]
+  ]
+ },
+ {
+  "n": 8,
+  "url": "https://www.insurancebusinessmag.com/asia/news/life-insurance/nippon-life-posts-steep-profit-drop-on-back-of-securities-sales-losses-576783.aspx",
+  "status": 200,
+  "final_url": "https://www.insurancebusinessmag.com/asia/news/life-insurance/nippon-life-posts-steep-profit-drop-on-back-of-securities-sales-losses-576783.aspx",
+  "content_type": "text/html; charset=utf-8",
+  "file": "08_nippon-life-posts-steep-profit-drop-on-back-of-securities-sales-losses-576783.html",
+  "bytes": 96862,
+  "sha256": "e7eafe5b145e4c736a20290a704f5904b7517600cc60afef57b5a999a50d8979",
+  "title": "Nippon Life posts steep profit drop on back of securities sales losses | Insurance Business",
+  "links": [
+   [
+    "",
+    "https://www.insurancebusinessmag.com/asia/"
+   ],
+   [
+    "News",
+    "https://www.insurancebusinessmag.com/asia/news/breaking-news/"
+   ],
+   [
+    "Insurance News",
+    "https://www.insurancebusinessmag.com/asia/news/breaking-news/"
+   ],
+   [
+    "Industry News",
+    "https://www.insurancebusinessmag.com/asia/news/industry-news/"
+   ],
+   [
+    "Columns",
+    "https://www.insurancebusinessmag.com/asia/news/columns/"
+   ],
+   [
+    "Diversity & Inclusion",
+    "https://www.insurancebusinessmag.com/asia/news/diversity-inclusion/"
+   ],
+   [
+    "Mergers & Acquisitions",
+    "https://www.insurancebusinessmag.com/asia/news/mergers-acquisitions/"
+   ],
+   [
+    "Reinsurance",
+    "https://www.insurancebusinessmag.com/reinsurance/"
+   ],
+   [
+    "TV",
+    "https://www.insurancebusinessmag.com/asia/tv/"
+   ],
+   [
+    "Digital Transformation",
+    "https://www.insurancebusinessmag.com/asia/news/technology/"
+   ],
+   [
+    "Risk Management",
+    "https://www.insurancebusinessmag.com/asia/news/risk-management/"
+   ],
+   [
+    "Resources",
+    "https://www.insurancebusinessmag.com/asia/news/life-insurance/nippon-life-posts-steep-profit-drop-on-back-of-securities-sales-losses-576783.aspx"
+   ],
+   [
+    "Annual Guides",
+    "https://www.insurancebusinessmag.com/asia/annual-guides/"
+   ],
+   [
+    "Business Strategy",
+    "https://www.insurancebusinessmag.com/asia/business-strategy/"
+   ],
+   [
+    "E-mag",
+    "https://www.insurancebusinessmag.com/asia/e-magazines/"
+   ],
+   [
+    "Editorial Panels",
+    "https://www.insurancebusinessmag.com/asia/editorial-panels/"
+   ],
+   [
+    "Events",
+    "https://www.insurancebusinessmag.com/asia/events/"
+   ],
+   [
+    "Guides",
+    "https://www.insurancebusinessmag.com/asia/guides/"
+   ],
+   [
+    "IB Talk",
+    "https://www.insurancebusinessmag.com/asia/ib-talk/"
+   ],
+   [
+    "Insurance Companies",
+    "https://www.insurancebusinessmag.com/asia/companies/"
+   ],
+   [
+    "Opinion",
+    "https://www.insurancebusinessmag.com/asia/opinion/"
+   ],
+   [
+    "Premium Content",
+    "https://www.insurancebusinessmag.com/asia/premium/"
+   ],
+   [
+    "Webinars",
+    "https://www.insurancebusinessmag.com/asia/webinars/"
+   ],
+   [
+    "White papers",
+    "https://www.insurancebusinessmag.com/asia/white-papers/"
+   ],
+   [
+    "Best In Insurance",
+    "https://www.insurancebusinessmag.com/asia/best-insurance/"
+   ],
+   [
+    "Specialty",
+    "https://www.insurancebusinessmag.com/asia/news/life-insurance/nippon-life-posts-steep-profit-drop-on-back-of-securities-sales-losses-576783.aspx"
+   ],
+   [
+    "Catastrophe & Flood",
+    "https://www.insurancebusinessmag.com/asia/news/catastrophe/"
+   ],
+   [
+    "Claims",
+    "https://www.insurancebusinessmag.com/asia/news/claims/"
+   ],
+   [
+    "Construction & Engineering",
+    "https://www.insurancebusinessmag.com/asia/news/construction/"
+   ],
+   [
+    "Cyber",
+    "https://www.insurancebusinessmag.com/asia/news/cyber/"
+   ],
+   [
+    "Digital Transformation",
+    "https://www.insurancebusinessmag.com/asia/news/technology/"
+   ],
+   [
+    "Environmental",
+    "https://www.insurancebusinessmag.com/asia/news/environmental/"
+   ],
+   [
+    "Group Benefits",
+    "https://www.insurancebusinessmag.com/asia/news/benefits/"
+   ],
+   [
+    "Hospitality",
+    "https://www.insurancebusinessmag.com/asia/news/hospitality/"
+   ],
+   [
+    "Legal Insights",
+    "https://www.insurancebusinessmag.com/asia/news/legal-insights/"
+   ],
+   [
+    "Life & Health",
+    "https://www.insurancebusinessmag.com/asia/news/life-insurance/"
+   ],
+   [
+    "Marine",
+    "https://www.insurancebusinessmag.com/asia/news/marine/"
+   ],
+   [
+    "Motor & Fleet",
+    "https://www.insurancebusinessmag.com/asia/news/auto-motor/"
+   ],
+   [
+    "Non-Profits & Charities",
+    "https://www.insurancebusinessmag.com/asia/news/non-profits/"
+   ],
+   [
+    "Professionals Risks",
+    "https://www.insurancebusinessmag.com/asia/news/professional-liability/"
+   ],
+   [
+    "Property",
+    "https://www.insurancebusinessmag.com/asia/news/property/"
+   ],
+   [
+    "SME",
+    "https://www.insurancebusinessmag.com/asia/news/sme/"
+   ],
+   [
+    "Travel",
+    "https://www.insurancebusinessmag.com/asia/news/travel/"
+   ],
+   [
+    "Contact Us",
+    "https://www.insurancebusinessmag.com/asia/contact-us/"
+   ],
+   [
+    "Contact Us",
+    "https://www.insurancebusinessmag.com/asia/contact-us/"
+   ],
+   [
+    "E-newsletter",
+    "https://www.insurancebusinessmag.com/asia/newsletter/"
+   ],
+   [
+    "Authors",
+    "https://www.insurancebusinessmag.com/asia/authors/"
+   ],
+   [
+    "Regular Contributors",
+    "https://www.insurancebusinessmag.com/asia/regular-contributors/"
+   ],
+   [
+    "Advertise",
+    "https://info.insurancebusinessmag.com/media-kit-ib-asia-1/p/1"
+   ],
+   [
+    "News",
+    "https://www.insurancebusinessmag.com/asia/news/breaking-news/"
+   ],
+   [
+    "Insurance News",
+    "https://www.insurancebusinessmag.com/asia/news/breaking-news/"
+   ],
+   [
+    "Industry News",
+    "https://www.insurancebusinessmag.com/asia/news/industry-news/"
+   ],
+   [
+    "Columns",
+    "https://www.insurancebusinessmag.com/asia/news/columns/"
+   ],
+   [
+    "Diversity & Inclusion",
+    "https://www.insurancebusinessmag.com/asia/news/diversity-inclusion/"
+   ],
+   [
+    "Mergers & Acquisitions",
+    "https://www.insurancebusinessmag.com/asia/news/mergers-acquisitions/"
+   ],
+   [
+    "Reinsurance",
+    "https://www.insurancebusinessmag.com/reinsurance/"
+   ],
+   [
+    "TV",
+    "https://www.insurancebusinessmag.com/asia/tv/"
+   ],
+   [
+    "Digital Transformation",
+    "https://www.insurancebusinessmag.com/asia/news/technology/"
+   ],
+   [
+    "Risk Management",
+    "https://www.insurancebusinessmag.com/asia/news/risk-management/"
+   ],
+   [
+    "Resources",
+    "https://www.insurancebusinessmag.com/asia/news/life-insurance/nippon-life-posts-steep-profit-drop-on-back-of-securities-sales-losses-576783.aspx"
+   ],
+   [
+    "Annual Guides",
+    "https://www.insurancebusinessmag.com/asia/annual-guides/"
+   ],
+   [
+    "Business Strategy",
+    "https://www.insurancebusinessmag.com/asia/business-strategy/"
+   ],
+   [
+    "E-mag",
+    "https://www.insurancebusinessmag.com/asia/e-magazines/"
+   ],
+   [
+    "Editorial Panels",
+    "https://www.insurancebusinessmag.com/asia/editorial-panels/"
+   ],
+   [
+    "Events",
+    "https://www.insurancebusinessmag.com/asia/events/"
+   ],
+   [
+    "Guides",
+    "https://www.insurancebusinessmag.com/asia/guides/"
+   ],
+   [
+    "IB Talk",
+    "https://www.insurancebusinessmag.com/asia/ib-talk/"
+   ],
+   [
+    "Insurance Companies",
+    "https://www.insurancebusinessmag.com/asia/companies/"
+   ],
+   [
+    "Opinion",
+    "https://www.insurancebusinessmag.com/asia/opinion/"
+   ],
+   [
+    "Premium Content",
+    "https://www.insurancebusinessmag.com/asia/premium/"
+   ],
+   [
+    "Webinars",
+    "https://www.insurancebusinessmag.com/asia/webinars/"
+   ],
+   [
+    "White papers",
+    "https://www.insurancebusinessmag.com/asia/white-papers/"
+   ],
+   [
+    "Best In Insurance",
+    "https://www.insurancebusinessmag.com/asia/best-insurance/"
+   ],
+   [
+    "Specialty",
+    "https://www.insurancebusinessmag.com/asia/news/life-insurance/nippon-life-posts-steep-profit-drop-on-back-of-securities-sales-losses-576783.aspx"
+   ],
+   [
+    "Catastrophe & Flood",
+    "https://www.insurancebusinessmag.com/asia/news/catastrophe/"
+   ],
+   [
+    "Claims",
+    "https://www.insurancebusinessmag.com/asia/news/claims/"
+   ],
+   [
+    "Construction & Engineering",
+    "https://www.insurancebusinessmag.com/asia/news/construction/"
+   ],
+   [
+    "Cyber",
+    "https://www.insurancebusinessmag.com/asia/news/cyber/"
+   ],
+   [
+    "Digital Transformation",
+    "https://www.insurancebusinessmag.com/asia/news/technology/"
+   ],
+   [
+    "Environmental",
+    "https://www.insurancebusinessmag.com/asia/news/environmental/"
+   ],
+   [
+    "Group Benefits",
+    "https://www.insurancebusinessmag.com/asia/news/benefits/"
+   ],
+   [
+    "Hospitality",
+    "https://www.insurancebusinessmag.com/asia/news/hospitality/"
+   ],
+   [
+    "Legal Insights",
+    "https://www.insurancebusinessmag.com/asia/news/legal-insights/"
+   ],
+   [
+    "Life & Health",
+    "https://www.insurancebusinessmag.com/asia/news/life-insurance/"
+   ],
+   [
+    "Marine",
+    "https://www.insurancebusinessmag.com/asia/news/marine/"
+   ],
+   [
+    "Motor & Fleet",
+    "https://www.insurancebusinessmag.com/asia/news/auto-motor/"
+   ],
+   [
+    "Non-Profits & Charities",
+    "https://www.insurancebusinessmag.com/asia/news/non-profits/"
+   ],
+   [
+    "Professionals Risks",
+    "https://www.insurancebusinessmag.com/asia/news/professional-liability/"
+   ],
+   [
+    "Property",
+    "https://www.insurancebusinessmag.com/asia/news/property/"
+   ],
+   [
+    "SME",
+    "https://www.insurancebusinessmag.com/asia/news/sme/"
+   ],
+   [
+    "Travel",
+    "https://www.insurancebusinessmag.com/asia/news/travel/"
+   ],
+   [
+    "Contact Us",
+    "https://www.insurancebusinessmag.com/asia/contact-us/"
+   ],
+   [
+    "Contact Us",
+    "https://www.insurancebusinessmag.com/asia/contact-us/"
+   ],
+   [
+    "E-newsletter",
+    "https://www.insurancebusinessmag.com/asia/newsletter/"
+   ],
+   [
+    "Authors",
+    "https://www.insurancebusinessmag.com/asia/authors/"
+   ],
+   [
+    "Regular Contributors",
+    "https://www.insurancebusinessmag.com/asia/regular-contributors/"
+   ],
+   [
+    "Advertise",
+    "https://info.insurancebusinessmag.com/media-kit-ib-asia-1/p/1"
+   ],
+   [
+    "",
+    "https://www.insurancebusinessmag.com/asia/"
+   ],
+   [
+    "Life & Health",
+    "https://www.insurancebusinessmag.com/asia/news/life-insurance/"
+   ],
+   [
+    "LIFE & HEALTH",
+    "https://www.insurancebusinessmag.com/asia/news/life-insurance/"
+   ],
+   [
+    "Roxanne San Jose",
+    "https://www.insurancebusinessmag.com/asia/authors/roxanne-sanjose/"
+   ],
+   [
+    "Nippon Life",
+    "https://www.insurancebusinessmag.com/asia/companies/nippon-life/211523/"
+   ],
+   [
+    "Ping An, Prudential ride life and health wave to Q1 wins",
+    "https://www.insurancebusinessmag.com/asia/news/life-insurance/ping-an-prudential-ride-life-and-health-wave-to-q1-wins-573457.aspx"
+   ],
+   [
+    "Kyobo Life net profit hits 752.3 billion won",
+    "https://www.insurancebusinessmag.com/asia/news/life-insurance/kyobo-life-net-profit-hits-752-3-billion-won-571559.aspx"
+   ],
+   [
+    "FWD reports higher Q1 new business across Asia",
+    "https://www.insurancebusinessmag.com/asia/news/life-insurance/fwd-reports-higher-q1-new-business-across-asia-573615.aspx"
+   ],
+   [
+    "Star Health Q4 profit jumps year on year, softens QoQ",
+    "https://www.insurancebusinessmag.com/asia/news/life-insurance/star-health-q4-profit-jumps-year-on-year-softens-qoq-573463.aspx"
+   ],
+   [
+    "",
+    "https://www.insurancebusinessmag.com/asia/news/life-insurance/insurance-moves-manulife-sunlife-598611.aspx"
+   ],
+   [
+    "Insurance moves: Manulife, Sunlife",
+    "https://www.insurancebusinessmag.com/asia/news/life-insurance/insurance-moves-manulife-sunlife-598611.aspx"
+   ],
+   [
+    "Life & Health",
+    "https://www.insurancebusinessmag.com/asia/news/life-insurance/"
+   ],
+   [
+    "",
+    "https://www.insurancebusinessmag.com/asia/news/life-insurance/eye-care-direct-billing-reaches-gba-as-health-cover-deepens-598605.aspx"
+   ],
+   [
+    "Eye care direct billing reaches GBA as health cover deepens",
+    "https://www.insurancebusinessmag.com/asia/news/life-insurance/eye-care-direct-billing-reaches-gba-as-health-cover-deepens-598605.aspx"
+   ],
+   [
+    "Life & Health",
+    "https://www.insurancebusinessmag.com/asia/news/life-insurance/"
+   ],
+   [
+    "",
+    "https://www.insurancebusinessmag.com/asia/news/breaking-news/oona-insurance-philippines-posts-profit-and-enters-nonlife-top-10-598593.aspx"
+   ],
+   [
+    "Oona Insurance Philippines posts profit and enters non-life top 10",
+    "https://www.insurancebusinessmag.com/asia/news/breaking-news/oona-insurance-philippines-posts-profit-and-enters-nonlife-top-10-598593.aspx"
+   ],
+   [
+    "Insurance News",
+    "https://www.insurancebusinessmag.com/asia/news/breaking-news/"
+   ],
+   [
+    "",
+    "https://www.insurancebusinessmag.com/asia/news/life-insurance/global-health-insurance-costs-to-exceed-10-again-in-2027-wtw-finds-598580.aspx"
+   ],
+   [
+    "Global health insurance costs to exceed 10% again in 2027, WTW finds",
+    "https://www.insurancebusinessmag.com/asia/news/life-insurance/global-health-insurance-costs-to-exceed-10-again-in-2027-wtw-finds-598580.aspx"
+   ],
+   [
+    "Life & Health",
+    "https://www.insurancebusinessmag.com/asia/news/life-insurance/"
+   ],
+   [
+    "",
+    "https://www.insurancebusinessmag.com/asia/news/technology/marsh-warns-ai-payoff-gap-energy-costs-and-geopolitics-will-squeeze-apac-insurers-in-2027-598566.aspx"
+   ],
+   [
+    "Marsh warns AI payoff gap, energy costs and geopolitics will squeeze APAC insurers in 2027",
+    "https://www.insurancebusinessmag.com/asia/news/technology/marsh-warns-ai-payoff-gap-energy-costs-and-geopolitics-will-squeeze-apac-insurers-in-2027-598566.aspx"
+   ],
+   [
+    "Digital Transformation",
+    "https://www.insurancebusinessmag.com/asia/news/technology/"
+   ],
+   [
+    "",
+    "https://www.insurancebusinessmag.com/asia/"
+   ],
+   [
+    "",
+    "https://www.facebook.com/InsuranceBusinessAsia"
+   ],
+   [
+    "",
+    "https://twitter.com/IB_Asia"
+   ],
+   [
+    "",
+    "https://www.linkedin.com/company/insurance-business-asia/"
+   ],
+   [
+    "People",
+    "https://www.insurancebusinessmag.com/asia/tools/people/"
+   ],
+   [
+    "Glossary",
+    "https://www.insurancebusinessmag.com/asia/glossary/"
+   ],
+   [
+    "Terms & conditions",
+    "https://www.keymedia.com/terms-and-conditions"
+   ],
+   [
+    "Privacy policy",
+    "https://www.insurancebusinessmag.com/asia/privacy-policy/"
+   ],
+   [
+    "Cookie policy",
+    "https://www.insurancebusinessmag.com/asia/cookie-policy/"
+   ],
+   [
+    "Your Privacy Choices",
+    "https://www.insurancebusinessmag.com/asia/news/life-insurance/nippon-life-posts-steep-profit-drop-on-back-of-securities-sales-losses-576783.aspx"
+   ],
+   [
+    "Conditions of Use",
+    "https://www.insurancebusinessmag.com/asia/conditions-of-use/"
+   ],
+   [
+    "About us",
+    "https://www.insurancebusinessmag.com/asia/about-us/"
+   ],
+   [
+    "Contact us",
+    "https://www.insurancebusinessmag.com/asia/contact-us/"
+   ],
+   [
+    "Sitemap",
+    "https://www.insurancebusinessmag.com/asia/sitemap/"
+   ],
+   [
+    "Rss",
+    "https://www.insurancebusinessmag.com/asia/rss/"
+   ]
+  ]
+ },
+ {
+  "n": 9,
+  "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0325/2026032500813.pdf",
+  "status": 200,
+  "final_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0325/2026032500813.pdf",
+  "content_type": "application/pdf",
+  "file": "09_2026032500813.pdf",
+  "bytes": 239132,
+  "sha256": "29c2476575dcc9799aaa10997404d93431a71d67e4ccb60eb53b9da449496d28"
+ },
+ {
+  "n": 10,
+  "url": "https://s201.q4cdn.com/280976757/files/2025-4Q/MET_4Q25_Earnings-Release-FINAL_v2.pdf",
+  "status": 200,
+  "final_url": "https://s201.q4cdn.com/280976757/files/2025-4Q/MET_4Q25_Earnings-Release-FINAL_v2.pdf",
+  "content_type": "application/pdf",
+  "file": "10_MET_4Q25_Earnings-Release-FINAL_v2.pdf",
+  "bytes": 487642,
+  "sha256": "5ffdec825f353ff45af1954b8480d10d8a5351ee8b0ec6094d478ea786a04053"
+ },
+ {
+  "n": 11,
+  "url": "https://www.businesswire.com/news/home/20260225107874/en/Allianz-Achieves-Record-Operating-Profit-of-17.4-Billion-Euros-%E2%80%93-Excellent-Start-to-New-Strategic-Cycle",
+  "status": 403,
+  "final_url": "https://www.businesswire.com/news/home/20260225107874/en/Allianz-Achieves-Record-Operating-Profit-of-17.4-Billion-Euros-%E2%80%93-Excellent-Start-to-New-Strategic-Cycle",
+  "content_type": "text/html",
+  "file": "11_Allianz-Achieves-Record-Operating-Profit-of-17.html",
+  "bytes": 605,
+  "sha256": "b3bd1c25296b7c757ce7e00bd2f199bf5e90d40a3153384edba1e5c20c24d372",
+  "title": "Access Denied",
+  "links": []
+ },
+ {
+  "n": 12,
+  "url": "https://www.axa.com/press/press-releases/2025-full-year-earnings",
+  "status": 200,
+  "final_url": "https://www.axa.com/press/press-releases/2025-full-year-earnings",
+  "content_type": "text/html; charset=utf-8",
+  "file": "12_2025-full-year-earnings.html",
+  "bytes": 581244,
+  "sha256": "6c92e4da9b1b5ac219f10c1aa7e0f24d23209ddd12e05db29d11c1d3880945f9",
+  "title": "Full Year 2025 Earnings | AXA",
+  "links": [
+   [
+    "Skip to main content",
+    "https://www.axa.com/press/press-releases/2025-full-year-earnings#content"
+   ],
+   [
+    "Skip to footer",
+    "https://www.axa.com/press/press-releases/2025-full-year-earnings#footer"
+   ],
+   [
+    "AXA 45.350 ( -0.02 %)",
+    "https://www.axa.com/en/investor/axa-share-performances?tab=share-performance"
+   ],
+   [
+    "Axa worldwide",
+    "https://www.axa.com/en/about-us/axa-worldwide"
+   ],
+   [
+    "fr",
+    "https://www.axa.com/fr/presse/communiques-de-presse/2025-resultats-annuels"
+   ],
+   [
+    "Back to home of AXA's website",
+    "https://www.axa.com/en"
+   ],
+   [
+    "About Us",
+    "https://www.axa.com/en/about-us"
+   ],
+   [
+    "News",
+    "https://www.axa.com/en/news"
+   ],
+   [
+    "Investors",
+    "https://www.axa.com/en/investor"
+   ],
+   [
+    "Press",
+    "https://www.axa.com/en/press"
+   ],
+   [
+    "Careers This link will open in a new window",
+    "https://careers.axa.com/careers-home/?lang=en-US"
+   ],
+   [
+    "Learn more",
+    "https://www.axa.com/en/about-us"
+   ],
+   [
+    "History",
+    "https://www.axa.com/en/timeline/axa-adventure"
+   ],
+   [
+    "AXA Foundation for Human Progress",
+    "https://www.axa.com/en/about-us/axa-foundation-for-human-progress"
+   ],
+   [
+    "Taking care of your mind health 32% of the population lives with mind health conditions. That’s why AXA has been committed to have a positive impact on mind hea",
+    "https://www.axa.com/en/about-us/group-therapy"
+   ],
+   [
+    "The Atlas of New Futures The eighth edition of the AXA Foresight Report takes the form of an Atlas of New Futures. Read more",
+    "https://www.axa.com/en/about-us/2026-foresight-report-the-atlas-of-new-futures"
+   ],
+   [
+    "Age shouldn’t be a risk AXA is committed to a society where every generation has its place. Read More",
+    "https://www.axa.com/en/about-us/age-shouldn-t-be-a-risk"
+   ],
+   [
+    "Vision & Strategy",
+    "https://www.axa.com/en/commitments/vision-and-strategy"
+   ],
+   [
+    "Climate & Biodiversity",
+    "https://www.axa.com/en/commitments/climate-and-biodiversity"
+   ],
+   [
+    "Responsible Business",
+    "https://www.axa.com/en/commitments/responsible-business"
+   ],
+   [
+    "Publications, Reports and Policies",
+    "https://www.axa.com/en/commitments/publications-reportings-and-policies"
+   ],
+   [
+    "Climate & Biodiversity AXA is committed to supporting the transition to a low-carbon economy and preserving natural ecosystems by mobilising its expertise, prod",
+    "https://www.axa.com/en/commitments/climate-and-biodiversity"
+   ],
+   [
+    "AXA EssentiALL Ensuring underserved customers around the world gain access to protection for their families, businesses and communities. Read more",
+    "https://www.axa.com/en/commitments/axa-essentiall-inclusive-insurance"
+   ],
+   [
+    "AXA Climate Making climate change adaptation possible. AXA Climate was founded to help both private and public players adapt to climate and environmental challe",
+    "https://www.axa.com/en/commitments/axa-climate"
+   ],
+   [
+    "Learn more",
+    "https://www.axa.com/en/news"
+   ],
+   [
+    "All articles",
+    "https://www.axa.com/en/news"
+   ],
+   [
+    "Research",
+    "https://www.axa.com/en/news/research"
+   ],
+   [
+    "Podcasts",
+    "https://www.axa.com/en/about-us/inside-the-corner-office-podcasts"
+   ],
+   [
+    "Half Year 2026 Earnings On track to deliver “Unlock the Future” plan targets Read more",
+    "https://www.axa.com/en/news/half-year-earnings-2026-news"
+   ],
+   [
+    "Inside the Corner Office Explore the insights into leadership, strategy and the different experiences that have shaped today’s top executives Read more",
+    "https://www.axa.com/en/about-us/inside-the-corner-office-podcasts"
+   ],
+   [
+    "Research Navigating Change, Shaping Insight Read more",
+    "https://www.axa.com/en/news/research"
+   ],
+   [
+    "Subscribe to email alerts",
+    "https://www.axa.com/en/page/newsletter-form"
+   ],
+   [
+    "Learn more",
+    "https://www.axa.com/en/investor"
+   ],
+   [
+    "Press Releases",
+    "https://www.axa.com/en/press/press-releases"
+   ],
+   [
+    "Publications",
+    "https://www.axa.com/en/press/publications"
+   ],
+   [
+    "AXA Share Performance",
+    "https://www.axa.com/en/investor/axa-share-performances"
+   ],
+   [
+    "Share buy-back",
+    "https://www.axa.com/en/investor/share-buyback-programs"
+   ],
+   [
+    "Listings and Market Indices",
+    "https://www.axa.com/en/investor/listings-and-market-indices"
+   ],
+   [
+    "Capital Ownership",
+    "https://www.axa.com/en/investor/capital-ownership"
+   ],
+   [
+    "Analysts Coverage",
+    "https://www.axa.com/en/investor/analysts-coverage"
+   ],
+   [
+    "Ratings",
+    "https://www.axa.com/en/investor/ratings"
+   ],
+   [
+    "Results",
+    "https://www.axa.com/en/investor/results"
+   ],
+   [
+    "Annual and Interim Reports",
+    "https://www.axa.com/en/investor/annual-and-interim-reports"
+   ],
+   [
+    "Investor Days",
+    "https://www.axa.com/en/investor/investor-days"
+   ],
+   [
+    "Other Presentations",
+    "https://www.axa.com/en/investor/other-financial-presentations"
+   ],
+   [
+    "Financial Calendar",
+    "https://www.axa.com/press/events?filters=aNvaEhIAACMAg7y1&filters=aNva6hIAACUAg7-I&filters=aNvU3BIAACUAg6s8&filters=aNvZUBIAACMAg7ob&filters=aNvqchIAACUAg-Qt"
+   ],
+   [
+    "Individual Shareholders Events",
+    "https://www.axa.com/press/events?filters=aNva6hIAACUAg7-I&filters=aNvU2hIAACQAg6s3&filters=aNvZUBIAACMAg7ob"
+   ],
+   [
+    "Being a Shareholder",
+    "https://www.axa.com/en/investor/being-a-shareholder"
+   ],
+   [
+    "AXA Shareholders' Circle",
+    "https://www.axa.com/en/investor/shareholders-circle"
+   ],
+   [
+    "Advisory Committee of Individual Shareholders",
+    "https://www.axa.com/en/investor/advisory-committee-individual-shareholders"
+   ],
+   [
+    "Shareholders' Meetings",
+    "https://www.axa.com/en/investor/shareholders-meetings"
+   ],
+   [
+    "Pure registered shares with AXA",
+    "https://www.axa.com/en/investor/pure-shareholding"
+   ],
+   [
+    "Financing",
+    "https://www.axa.com/en/investor/regulated-informations-financial-operations"
+   ],
+   [
+    "Organization Chart",
+    "https://www.axa.com/en/investor/organization-charts"
+   ],
+   [
+    "Sustainability Bond Framework and Reports",
+    "https://www.axa.com/en/investor/sustainable-financing"
+   ],
+   [
+    "Listed Notes (EMTN)",
+    "https://www.axa.com/en/investor/emtn-program"
+   ],
+   [
+    "Listed notes (other)",
+    "https://www.axa.com/en/investor/principal-listed-notes"
+   ],
+   [
+    "Equity or Equity linked",
+    "https://www.axa.com/en/investor/equity-or-equity-linked"
+   ],
+   [
+    "Regulated Information",
+    "https://www.axa.com/en/investor/regulated-information"
+   ],
+   [
+    "Investor Relations",
+    "https://www.axa.com/en/page/contact-form#investor"
+   ],
+   [
+    "Individual Shareholders",
+    "https://www.axa.com/en/page/contact-form#shareholders"
+   ],
+   [
+    "Learn more",
+    "https://www.axa.com/en/press"
+   ],
+   [
+    "Press Releases",
+    "https://www.axa.com/en/press/press-releases"
+   ],
+   [
+    "Leader's Voice",
+    "https://www.axa.com/en/press/leaders-voice"
+   ],
+   [
+    "Financial Results",
+    "https://www.axa.com/en/investor/results"
+   ],
+   [
+    "Publications",
+    "https://www.axa.com/en/press/publications"
+   ],
+   [
+    "Events and Conferences",
+    "https://www.axa.com/en/press/events"
+   ],
+   [
+    "Corporate Governance AXA announces changes within its leadership team. Read more",
+    "https://www.axa.com/en/press/press-releases/axa-announces-changes-within-its-leadership-team"
+   ],
+   [
+    "Unlock the Future AXA publishes its strategic plan and its key financial targets for 2024-2026. Read more",
+    "https://www.axa.com/en/press/press-releases/axa-announces-its-2024-2026-strategy-setting-ambitious-new-financial-targets"
+   ],
+   [
+    "Subscribe to email alerts",
+    "https://www.axa.com/en/page/newsletter-form"
+   ],
+   [
+    "Back to home of AXA's website",
+    "https://www.axa.com/en"
+   ],
+   [
+    "all press releases",
+    "https://www.axa.com/en/press/press-releases"
+   ],
+   [
+    "download",
+    "https://www-axa-com.cdn.prismic.io/www-axa-com/aZ_Ib8FoBIGEg123_AXA_PR_20260226.pdf"
+   ],
+   [
+    "press contacts",
+    "https://www.axa.com/press/press-releases/2025-full-year-earnings#contacts"
+   ],
+   [
+    "",
+    "https://www.axa.com/en/about-us/profile/thomas-buberl"
+   ],
+   [
+    "Contact us",
+    "https://www.axa.com/en/about-us/axa-contacts"
+   ],
+   [
+    "Subscribe to email alerts",
+    "https://www.axa.com/en/page/newsletter-form"
+   ],
+   [
+    "Regulated information",
+    "https://www.axa.com/en/investor/regulated-information"
+   ],
+   [
+    "Cookie Policy",
+    "https://www.axa.com/en/page/cookie-policy"
+   ],
+   [
+    "Privacy Policy",
+    "https://www.axa.com/en/page/privacy-policy"
+   ],
+   [
+    "Accessibility statement : Partially Compliant",
+    "https://www.axa.com/en/page/accessibility-statement"
+   ],
+   [
+    "X (Twitter)",
+    "https://twitter.com/AXA"
+   ],
+   [
+    "Linkedin",
+    "https://www.linkedin.com/company/axa/"
+   ],
+   [
+    "Instagram",
+    "https://www.instagram.com/axa/"
+   ],
+   [
+    "Youtube",
+    "https://www.youtube.com/user/axapeopleprotectors"
+   ],
+   [
+    "Legal information and terms of use",
+    "https://www.axa.com/en/about-us/Legal-Information"
+   ]
+  ]
+ },
+ {
+  "n": 13,
+  "url": "https://www.generali.com/info/discovering-generali/all/2026/Consolidated-Results-as-of-31-December-2025",
+  "status": 200,
+  "final_url": "https://www.generali.com/info/discovering-generali/all/2026/Consolidated-Results-as-of-31-December-2025",
+  "content_type": "text/html;charset=UTF-8",
+  "file": "13_Consolidated-Results-as-of-31-December-2025.html",
+  "bytes": 121308,
+  "sha256": "2c6a695f0ea85ecc7a365868cf8848bca2a1fb3d672a0dab2bcd9cee94c3ec8c",
+  "title": "Consolidated Results as of 31 December 20... - Generali Group",
+  "links": [
+   [
+    "",
+    "https://www.generali.com/info/discovering-generali/all/2026/Consolidated-Results-as-of-31-December-2025#mainnav"
+   ],
+   [
+    "shortcut to press release",
+    "https://www.generali.com/media/press-releases"
+   ],
+   [
+    "shortcut to financial figures",
+    "https://www.generali.com/investors/financial-highlights"
+   ],
+   [
+    "shortcut to financial calendar",
+    "https://www.generali.com/investors/financial-calendar"
+   ],
+   [
+    "shortcut to Generali stock",
+    "https://www.generali.com/investors/share-information-analysts"
+   ],
+   [
+    "shortcut to career",
+    "https://www.generali.com/work-with-us/join-us/job-search"
+   ],
+   [
+    "go to HomePage",
+    "https://www.generali.com/"
+   ],
+   [
+    "go to search",
+    "https://www.generali.com/tools/search-results"
+   ],
+   [
+    "go to map",
+    "https://www.generali.com/info/sitemap"
+   ],
+   [
+    "go to Italian version",
+    "https://www.generali.com/it/info/discovering-generali/all/2026/Consolidated-Results-as-of-31-December-2025"
+   ],
+   [
+    "go to English version",
+    "https://www.generali.com/info/discovering-generali/all/2026/Consolidated-Results-as-of-31-December-2025"
+   ],
+   [
+    "Main content",
+    "https://www.generali.com/info/discovering-generali/all/2026/Consolidated-Results-as-of-31-December-2025#content"
+   ],
+   [
+    "Close WorldMap",
+    "https://www.generali.com/info/discovering-generali/all/2026/Consolidated-Results-as-of-31-December-2025#collapseWorldMap"
+   ],
+   [
+    "",
+    "https://www.generali.com/info/discovering-generali/all/2026/Consolidated-Results-as-of-31-December-2025"
+   ],
+   [
+    "",
+    "https://www.generali.com/info/discovering-generali/all/2026/Consolidated-Results-as-of-31-December-2025"
+   ],
+   [
+    "where we are",
+    "https://www.generali.com/where-we-are"
+   ],
+   [
+    "",
+    "https://www.generali.com/"
+   ],
+   [
+    "",
+    "https://www.generali.com/"
+   ],
+   [
+    "Open WorldMap",
+    "https://www.generali.com/where-we-are"
+   ],
+   [
+    "Generali Stories",
+    "https://www.generali.com/info/discovering-generali"
+   ],
+   [
+    "Bollettino",
+    "https://www.generali.com/info/bollettino"
+   ],
+   [
+    "Strategic plan",
+    "https://www.generali.com/who-we-are/Strategic-Plan-Lifetime-Partner-27"
+   ],
+   [
+    "Download Center",
+    "https://www.generali.com/info/download-center"
+   ],
+   [
+    "Contact us",
+    "https://www.generali.com/info/contact-us"
+   ],
+   [
+    "Ita",
+    "https://www.generali.com/it/info/discovering-generali/all/2026/Consolidated-Results-as-of-31-December-2025"
+   ],
+   [
+    "Who We Are",
+    "https://www.generali.com/who-we-are"
+   ],
+   [
+    "Discover",
+    "https://www.generali.com/who-we-are"
+   ],
+   [
+    "At a Glance",
+    "https://www.generali.com/who-we-are/at-a-glance"
+   ],
+   [
+    "Our Culture",
+    "https://www.generali.com/who-we-are/our-culture"
+   ],
+   [
+    "Our Brand",
+    "https://www.generali.com/who-we-are/our-brand"
+   ],
+   [
+    "Strategic Plan: Lifetime Partner 27",
+    "https://www.generali.com/who-we-are/Strategic-Plan-Lifetime-Partner-27"
+   ],
+   [
+    "Excellence in Core Capabilities",
+    "https://www.generali.com/who-we-are/Strategic-Plan-Lifetime-Partner-27/Excellence-in-Core-Capabilities"
+   ],
+   [
+    "Excellence in Group Operating Model",
+    "https://www.generali.com/who-we-are/Strategic-Plan-Lifetime-Partner-27/Excellence-in-Group-Operating-Model"
+   ],
+   [
+    "Excellence in Customer Relationships",
+    "https://www.generali.com/who-we-are/Strategic-Plan-Lifetime-Partner-27/Excellence-in-Customer-Relationships"
+   ],
+   [
+    "People Powered Excellence",
+    "https://www.generali.com/who-we-are/Strategic-Plan-Lifetime-Partner-27/People-Powered-Excellence"
+   ],
+   [
+    "Sustainability rooted Excellence",
+    "https://www.generali.com/who-we-are/Strategic-Plan-Lifetime-Partner-27/Sustainability-rooted-Excellence"
+   ],
+   [
+    "AI & Data-Driven Excellence",
+    "https://www.generali.com/who-we-are/Strategic-Plan-Lifetime-Partner-27/AI-and-Data-Driven-Excellence"
+   ],
+   [
+    "Our management",
+    "https://www.generali.com/who-we-are/our-management"
+   ],
+   [
+    "Our organization",
+    "https://www.generali.com/who-we-are/global-positioning"
+   ],
+   [
+    "Insurance",
+    "https://www.generali.com/who-we-are/global-positioning/insurance-division"
+   ],
+   [
+    "Asset Management",
+    "https://www.generali.com/who-we-are/global-positioning/asset-management"
+   ],
+   [
+    "Wealth Management",
+    "https://www.generali.com/who-we-are/global-positioning/wealth-management"
+   ],
+   [
+    "Our business model",
+    "https://www.generali.com/who-we-are/our-business"
+   ],
+   [
+    "Our activities",
+    "https://www.generali.com/who-we-are/our-activities"
+   ],
+   [
+    "Our History",
+    "https://www.generali.com/who-we-are/history"
+   ],
+   [
+    "Generali 190 Anniversary",
+    "https://www.generali.com/who-we-are/history/Generali-190-Anniversary"
+   ],
+   [
+    "Generali 190 Events timeline",
+    "https://www.generali.com/who-we-are/history/Generali-190-Anniversary-Events-Timeline"
+   ],
+   [
+    "Interactive Timeline",
+    "https://www.generali.com/who-we-are/history/interactive-timeline"
+   ],
+   [
+    "Our logo over 190 years",
+    "https://www.generali.com/who-we-are/history/our-logo-over-190-years"
+   ],
+   [
+    "Generali publications",
+    "https://www.generali.com/who-we-are/history/the-age-of-the-lion"
+   ],
+   [
+    "Posters and advertising",
+    "https://www.generali.com/who-we-are/history/posters-and-advertising"
+   ],
+   [
+    "Group Historical Archives",
+    "https://www.generali.com/who-we-are/history/The-Generali-Group-Historical-Archives"
+   ],
+   [
+    "Group libraries",
+    "https://www.generali.com/who-we-are/history/group-libraries"
+   ],
+   [
+    "Sponsorship",
+    "https://www.generali.com/who-we-are/sponsorship"
+   ],
+   [
+    "Sport",
+    "https://www.generali.com/who-we-are/sponsorship/Sport"
+   ],
+   [
+    "Arts and Culture",
+    "https://www.generali.com/who-we-are/sponsorship/Arts-and-Culture"
+   ],
+   [
+    "Generali Women in Sailing",
+    "https://www.generali.com/who-we-are/sponsorship/Generali-women-in-sailing"
+   ],
+   [
+    "Generali Stories",
+    "https://www.generali.com/who-we-are/discovering-generali"
+   ],
+   [
+    "Our awards and recognition",
+    "https://www.generali.com/who-we-are/our-awards-and-recognition"
+   ],
+   [
+    "What we do",
+    "https://www.generali.com/what-we-do"
+   ],
+   [
+    "Discover",
+    "https://www.generali.com/what-we-do"
+   ],
+   [
+    "Insurance",
+    "https://www.generali.com/what-we-do/what-is-insurance"
+   ],
+   [
+    "Life Insurance",
+    "https://www.generali.com/what-we-do/what-is-insurance/life-insurance"
+   ],
+   [
+    "Property and Casualty Insurance",
+    "https://www.generali.com/what-we-do/what-is-insurance/property-and-casualty-insurance"
+   ],
+   [
+    "Insurance for Companies",
+    "https://www.generali.com/what-we-do/what-is-insurance/insurance-for-companies"
+   ],
+   [
+    "Insurance solutions for climate change and societal resilience",
+    "https://www.generali.com/what-we-do/what-is-insurance/insurance-solutions-with-ESG-components"
+   ],
+   [
+    "Generali Climate Hub",
+    "https://www.generali.com/what-we-do/what-is-insurance/Generali-Climate-Hub"
+   ],
+   [
+    "Global Advisor Excellence Contest",
+    "https://www.generali.com/what-we-do/what-is-insurance/Global-Advisor-Excellence-Contest"
+   ],
+   [
+    "Asset Management",
+    "https://www.generali.com/what-we-do/asset-management"
+   ],
+   [
+    "Wealth Management",
+    "https://www.generali.com/what-we-do/wealth-management"
+   ],
+   [
+    "Sustainability",
+    "https://www.generali.com/sustainability"
+   ],
+   [
+    "Discover",
+    "https://www.generali.com/sustainability"
+   ],
+   [
+    "Responsible Business",
+    "https://www.generali.com/sustainability/responsible-business"
+   ],
+   [
+    "Charter of Sustainability Commitments",
+    "https://www.generali.com/sustainability/responsible-business/charter_sustainability_commitments"
+   ],
+   [
+    "Double Materiality Assessment",
+    "https://www.generali.com/sustainability/responsible-business/materiality-analysis"
+   ],
+   [
+    "Stakeholder engagement",
+    "https://www.generali.com/sustainability/responsible-business/stakeholder-engagement"
+   ],
+   [
+    "Sustainability indices and ratings",
+    "https://www.generali.com/sustainability/responsible-business/sustainability-indices-and-ratings"
+   ],
+   [
+    "External commitments",
+    "https://www.generali.com/sustainability/responsible-business/external-commitments"
+   ],
+   [
+    "Public-Private partnerships",
+    "https://www.generali.com/sustainability/responsible-business/Public-Private-partnerships"
+   ],
+   [
+    "Responsible Insurer",
+    "https://www.generali.com/sustainability/responsible-insurer"
+   ],
+   [
+    "Sustainability into Underwriting",
+    "https://www.generali.com/sustainability/responsible-insurer/sustainability-into-underwriting"
+   ],
+   [
+    "Insurance solutions for climate change and societal resilience",
+    "https://www.generali.com/sustainability/responsible-insurer/insurance-solutions-for-climate-change-and-societal-resilience"
+   ],
+   [
+    "SME EnterPRIZE",
+    "https://www.generali.com/sustainability/responsible-insurer/SME-EnterPRIZE"
+   ],
+   [
+    "Excellence in Customer Relationships",
+    "https://www.generali.com/sustainability/responsible-insurer/Excellence-in-Customer-Relationships"
+   ],
+   [
+    "NPS: improving clients’ experience",
+    "https://www.generali.com/sustainability/responsible-insurer/NPS-improving-clients-experience"
+   ],
+   [
+    "Climate Loss Database – EU Taxonomy",
+    "https://www.generali.com/sustainability/responsible-insurer/EU-Taxonomy-TSC-4-Data-sharing"
+   ],
+   [
+    "Responsible Investor",
+    "https://www.generali.com/sustainability/responsible-investor"
+   ],
+   [
+    "Sustainability into Investments",
+    "https://www.generali.com/sustainability/responsible-investor/sustainability-into-investments"
+   ],
+   [
+    "Investing for climate",
+    "https://www.generali.com/sustainability/responsible-investor/investing-for-the-climate"
+   ],
+   [
+    "Sustainable real estate investing",
+    "https://www.generali.com/sustainability/responsible-investor/real-estate-investments"
+   ],
+   [
+    "Sustainability related disclosures",
+    "https://www.generali.com/sustainability/responsible-investor/sustainability-related-disclosures"
+   ],
+   [
+    "Responsible Employer",
+    "https://www.generali.com/sustainability/responsible-employer"
+   ],
+   [
+    "A Human-Centric Approach to Sustainable Performance",
+    "https://www.generali.com/sustainability/responsible-employer/a-human-centric-approach-to-Sustainable-Performance"
+   ],
+   [
+    "Occupational Health & Safety and Employee Support Programs",
+    "https://www.generali.com/sustainability/responsible-employer/occupational-health-and-safety"
+   ],
+   [
+    "Social Dialogue",
+    "https://www.generali.com/sustainability/responsible-employer/social-dialogue"
+   ],
+   [
+    "Environmental management system of Group Operations",
+    "https://www.generali.com/sustainability/responsible-employer/environmental-management"
+   ],
+   [
+    "Greenhouse gas emissions from Group operations",
+    "https://www.generali.com/sustainability/responsible-employer/greenhouse-gas-emissions-from-group-operations"
+   ],
+   [
+    "Our offices and mobility of our personnel",
+    "https://www.generali.com/sustainability/responsible-employer/Our-offices-and-mobility-of-our-personnel"
+   ],
+   [
+    "Working with our suppliers",
+    "https://www.generali.com/sustainability/responsible-employer/working-with-our-suppliers"
+   ],
+   [
+    "Responsible Corporate Citizen",
+    "https://www.generali.com/sustainability/responsible-citizen"
+   ],
+   [
+    "The Human Safety Net",
+    "https://www.generali.com/sustainability/responsible-citizen/the-human-safety-net"
+   ],
+   [
+    "Commitments to the environment and climate",
+    "https://www.generali.com/sustainability/our-commitment-to-the-environment-and-climate"
+   ],
+   [
+    "Greenhouse gas emissions",
+    "https://www.generali.com/sustainability/our-commitment-to-the-environment-and-climate/greenhouse-gas-emissions"
+   ],
+   [
+    "Climate advocacy policy and participation in public debate",
+    "https://www.generali.com/sustainability/our-commitment-to-the-environment-and-climate/participation-in-public-debate"
+   ],
+   [
+    "Performance and Reporting",
+    "https://www.generali.com/sustainability/performance-and-reporting"
+   ],
+   [
+    "Data and performance",
+    "https://www.generali.com/sustainability/performance-and-reporting/data-and-performance"
+   ],
+   [
+    "Tax Reporting",
+    "https://www.generali.com/sustainability/performance-and-reporting/tax-reporting"
+   ],
+   [
+    "Sustainable Financial Management",
+    "https://www.generali.com/sustainability/sustainable-financial-management"
+   ],
+   [
+    "Green & Sustainability Bonds",
+    "https://www.generali.com/sustainability/sustainable-financial-management/green-and-sustainability-bonds"
+   ],
+   [
+    "Green, Social and Sustainability ILS",
+    "https://www.generali.com/sustainability/sustainable-financial-management/green-social-and-sustainability-ILS"
+   ],
+   [
+    "Emerging risks",
+    "https://www.generali.com/sustainability/emerging-risks"
+   ],
+   [
+    "Our rules",
+    "https://www.generali.com/sustainability/our-rules"
+   ],
+   [
+    "Governance and management",
+    "https://www.generali.com/sustainability/our-rules/governance-management"
+   ],
+   [
+    "Generali Group Code of Conduct",
+    "https://www.generali.com/sustainability/our-rules/code-of-conduct"
+   ],
+   [
+    "Respecting human rights",
+    "https://www.generali.com/sustainability/our-rules/respecting-human-rights"
+   ],
+   [
+    "Anti-corruption",
+    "https://www.generali.com/sustainability/our-rules/anti-corruption"
+   ],
+   [
+    "Financial crimes compliance",
+    "https://www.generali.com/sustainability/our-rules/financial-crimes-compliance"
+   ],
+   [
+    "Anti Financial Crime and Anti Bribery & Corruption",
+    "https://www.generali.com/sustainability/our-rules/Anti-Financial-Crime-and-Anti-Bribery-and-Corruption"
+   ],
+   [
+    "Tax Strategy and Taxes",
+    "https://www.generali.com/sustainability/our-rules/tax-payments"
+   ],
+   [
+    "Group security",
+    "https://www.generali.com/sustainability/our-rules/group-security"
+   ],
+   [
+    "Contacts",
+    "https://www.generali.com/sustainability/contacts"
+   ],
+   [
+    "People & Careers",
+    "https://www.generali.com/people-and-careers"
+   ],
+   [
+    "Discover",
+    "https://www.generali.com/people-and-careers"
+   ],
+   [
+    "Our Culture",
+    "https://www.generali.com/people-and-careers/our-culture"
+   ],
+   [
+    "The Excellence Culture Framework",
+    "https://www.generali.com/people-and-careers/our-culture/the-excellence-culture-framework"
+   ],
+   [
+    "Diversity Equity and Inclusion",
+    "https://www.generali.com/people-and-careers/our-culture/diversity-and-inclusion"
+   ],
+   [
+    "Wellbeing and Health & Safety Initiatives",
+    "https://www.generali.com/people-and-careers/our-culture/well-being"
+   ],
+   [
+    "Engagement",
+    "https://www.generali.com/people-and-careers/our-culture/engagement"
+   ],
+   [
+    "Performance Management",
+    "https://www.generali.com/people-and-careers/our-culture/group-performance-management"
+   ],
+   [
+    "Our ways of Working",
+    "https://www.generali.com/people-and-careers/our-ways-of-working"
+   ],
+   [
+    "Hybrid Forward",
+    "https://www.generali.com/people-and-careers/our-ways-of-working/hybrid-forward"
+   ],
+   [
+    "AI/Gen AI Adoption",
+    "https://www.generali.com/people-and-careers/our-ways-of-working/ai-gen-ai-adoption"
+   ],
+   [
+    "Strategic Workforce Planning",
+    "https://www.generali.com/people-and-careers/our-ways-of-working/workforce-planning"
+   ],
+   [
+    "Our Learning and Development",
+    "https://www.generali.com/people-and-careers/our-learning-and-development"
+   ],
+   [
+    "Our learning and development",
+    "https://www.generali.com/people-and-careers/our-learning-and-development/learning-for-the-future"
+   ],
+   [
+    "Managerial, Talent and Leadership Development",
+    "https://www.generali.com/people-and-careers/our-learning-and-development/managerial-talent-and-leadership-development"
+   ],
+   [
+    "Our Rewards",
+    "https://www.generali.com/people-and-careers/our-rewards"
+   ],
+   [
+    "Work with Us",
+    "https://www.generali.com/people-and-careers/work-with-us"
+   ],
+   [
+    "Investors",
+    "https://www.generali.com/investors"
+   ],
+   [
+    "Discover",
+    "https://www.generali.com/investors"
+   ],
+   [
+    "Investing in Generali",
+    "https://www.generali.com/investors/investing-in-generali"
+   ],
+   [
+    "Strategy",
+    "https://www.generali.com/investors/Strategy"
+   ],
+   [
+    "Outlook",
+    "https://www.generali.com/investors/Strategy/Outlook"
+   ],
+   [
+    "Investments and divestments",
+    "https://www.generali.com/investors/Strategy/investments-and-divestments"
+   ],
+   [
+    "AI & Data-Driven Excellence",
+    "https://www.generali.com/investors/Strategy/AI-and-Data-Driven-Excellence"
+   ],
+   [
+    "Financial Results & Reports",
+    "https://www.generali.com/investors/financial-results-and-reports"
+   ],
+   [
+    "Financial Results",
+    "https://www.generali.com/investors/financial-results-and-reports/financial-results"
+   ],
+   [
+    "Reports Archive",
+    "https://www.generali.com/investors/financial-results-and-reports/report-archive"
+   ],
+   [
+    "Presentations",
+    "https://www.generali.com/investors/financial-results-and-reports/Presentations"
+   ],
+   [
+    "Investor Days",
+    "https://www.generali.com/investors/financial-results-and-reports/investor-day"
+   ],
+   [
+    "Exploring Generali",
+    "https://www.generali.com/investors/financial-results-and-reports/exploring-generali"
+   ],
+   [
+    "Financial highlights",
+    "https://www.generali.com/investors/financial-highlights"
+   ],
+   [
+    "Performance by segment",
+    "https://www.generali.com/investors/financial-highlights/performance-by-segment"
+   ],
+   [
+    "Performance by country",
+    "https://www.generali.com/investors/financial-highlights/performance-by-country"
+   ],
+   [
+    "Historical Data",
+    "https://www.generali.com/investors/financial-highlights/historical-data"
+   ],
+   [
+    "Financial calendar and events",
+    "https://www.generali.com/investors/financial-calendar"
+   ],
+   [
+    "Share information & analysts",
+    "https://www.generali.com/investors/share-information-analysts"
+   ],
+   [
+    "Key share figures",
+    "https://www.generali.com/investors/share-information-analysts/key-share-figures"
+   ],
+   [
+    "Tickers and indices",
+    "https://www.generali.com/investors/share-information-analysts/tickers-and-indices"
+   ],
+   [
+    "Share capital",
+    "https://www.generali.com/investors/share-information-analysts/share-capital"
+   ],
+   [
+    "Dividends",
+    "https://www.generali.com/investors/share-information-analysts/dividends"
+   ],
+   [
+    "Shareholding calculator",
+    "https://www.generali.com/investors/share-information-analysts/Shareholding-calculator"
+   ],
+   [
+    "Equity analysts and consensus",
+    "https://www.generali.com/investors/share-information-analysts/equity-analysts-and-consensus"
+   ],
+   [
+    "Ownership structure",
+    "https://www.generali.com/investors/share-information-analysts/ownership-structure"
+   ],
+   [
+    "Share buyback",
+    "https://www.generali.com/investors/share-information-analysts/share-buyback"
+   ],
+   [
+    "Debt & ratings",
+    "https://www.generali.com/investors/debt-ratings"
+   ],
+   [
+    "Debt securities",
+    "https://www.generali.com/investors/debt-ratings/listed-debt-securities"
+   ],
+   [
+    "Debt composition and maturity",
+    "https://www.generali.com/investors/debt-ratings/debt-composition-and-maturity"
+   ],
+   [
+    "Ratings",
+    "https://www.generali.com/investors/debt-ratings/ratings"
+   ],
+   [
+    "Credit analysts",
+    "https://www.generali.com/investors/debt-ratings/credit-analysts"
+   ],
+   [
+    "Green, Social and Sustainability Bond Framework and Report",
+    "https://www.generali.com/investors/debt-ratings/sustainability-bond-framework"
+   ],
+   [
+    "Our ESG approach",
+    "https://www.generali.com/investors/Our-ESG-approach"
+   ],
+   [
+    "Private investors",
+    "https://www.generali.com/investors/Private-investors"
+   ],
+   [
+    "Shareholders' Club",
+    "https://www.generali.com/investors/shareholders-club"
+   ],
+   [
+    "Contacts",
+    "https://www.generali.com/investors/contacts"
+   ],
+   [
+    "Contacts for institutional investors",
+    "https://www.generali.com/investors/contacts/Contacts-for-institutional-investors"
+   ],
+   [
+    "Contacts for private investors",
+    "https://www.generali.com/investors/contacts/Contacts-for-private-investors"
+   ],
+   [
+    "Media",
+    "https://www.generali.com/media"
+   ],
+   [
+    "Discover",
+    "https://www.generali.com/media"
+   ],
+   [
+    "Press releases",
+    "https://www.generali.com/media/press-releases"
+   ],
+   [
+    "News",
+    "https://www.generali.com/media/News"
+   ],
+   [
+    "Podcast & Vodcast",
+    "https://www.generali.com/media/podcast-and-vodcast"
+   ],
+   [
+    "Connessioni – La Voce del Bollettino Generali",
+    "https://www.generali.com/media/podcast-and-vodcast/Connessioni"
+   ],
+   [
+    "190 Years of Future",
+    "https://www.generali.com/media/podcast-and-vodcast/190-Years-of-Future"
+   ],
+   [
+    "Crepe",
+    "https://www.generali.com/media/podcast-and-vodcast/Crepe"
+   ],
+   [
+    "Media kit",
+    "https://www.generali.com/media/media-kit"
+   ],
+   [
+    "Events calendar",
+    "https://www.generali.com/media/events-calendar"
+   ],
+   [
+    "Multimedia-Gallery",
+    "https://www.generali.com/media/multimedia-gallery"
+   ],
+   [
+    "Videos",
+    "https://www.generali.com/media/multimedia-gallery/video"
+   ],
+   [
+    "Images",
+    "https://www.generali.com/media/multimedia-gallery/images"
+   ],
+   [
+    "Social media",
+    "https://www.generali.com/media/social-media"
+   ],
+   [
+    "Corporate magazines",
+    "https://www.generali.com/media/corporate-magazines"
+   ],
+   [
+    "Macroeconomic and insurance research",
+    "https://www.generali.com/media/macroeconomic-and-insurance-research"
+   ],
+   [
+    "Contacts",
+    "https://www.generali.com/media/macroeconomic-and-insurance-research/contacts"
+   ],
+   [
+    "Contacts",
+    "https://www.generali.com/media/contacts"
+   ],
+   [
+    "Governance",
+    "https://www.generali.com/governance"
+   ],
+   [
+    "Discover",
+    "https://www.generali.com/governance"
+   ],
+   [
+    "Corporate governance system",
+    "https://www.generali.com/governance/corporate-governance-system"
+   ],
+   [
+    "Articles of association",
+    "https://www.generali.com/governance/corporate-governance-system/articles-of-association"
+   ],
+   [
+    "Organizational and Management Model",
+    "https://www.generali.com/governance/corporate-governance-system/organisational-and-management-model"
+   ],
+   [
+    "Related-party transactions",
+    "https://www.generali.com/governance/corporate-governance-system/related-party-transactions"
+   ],
+   [
+    "Corporate Governance Report",
+    "https://www.generali.com/governance/corporate-governance-system/corporate-governance-report"
+   ],
+   [
+    "Diversity Policy",
+    "https://www.generali.com/governance/corporate-governance-system/diversity-policy"
+   ],
+   [
+    "Board of Directors",
+    "https://www.generali.com/governance/board-of-directors"
+   ],
+   [
+    "Role, functions and activity",
+    "https://www.generali.com/governance/board-of-directors/Role-functions-and-activity"
+   ],
+   [
+    "Experience and skills",
+    "https://www.generali.com/governance/board-of-directors/experience-and-skills"
+   ],
+   [
+    "Meetings and attendance",
+    "https://www.generali.com/governance/board-of-directors/meetings-and-attendance"
+   ],
+   [
+    "Board evaluation",
+    "https://www.generali.com/governance/board-of-directors/board-evaluation"
+   ],
+   [
+    "Succession plan",
+    "https://www.generali.com/governance/board-of-directors/succession-plan"
+   ],
+   [
+    "Committees",
+    "https://www.generali.com/governance/committees"
+   ],
+   [
+    "Risk and Control Committee",
+    "https://www.generali.com/governance/committees/risk-and-control"
+   ],
+   [
+    "Related party transactions Committee",
+    "https://www.generali.com/governance/committees/Related-Party-transactions"
+   ],
+   [
+    "Nominations and Corporate Governance Committee",
+    "https://www.generali.com/governance/committees/Nominations-and-corporate-governance"
+   ],
+   [
+    "Remuneration and Human Resources Committee",
+    "https://www.generali.com/governance/committees/remuneration-and-HR-committee"
+   ],
+   [
+    "Innovation, Social and Environmental Sustainability Committee",
+    "https://www.generali.com/governance/committees/Innovation-and-Sustainability"
+   ],
+   [
+    "Investment Committee",
+    "https://www.generali.com/governance/committees/Investment-Committee"
+   ],
+   [
+    "Statutory Auditors",
+    "https://www.generali.com/governance/statutory-auditors"
+   ],
+   [
+    "External Auditors Firm",
+    "https://www.generali.com/governance/auditing-firm"
+   ],
+   [
+    "Remuneration",
+    "https://www.generali.com/governance/remuneration"
+   ],
+   [
+    "We SHARE – the Share Plan for Group Employees",
+    "https://www.generali.com/governance/remuneration/share-plan-for-the-generali-group-employees"
+   ],
+   [
+    "Insider stock trading",
+    "https://www.generali.com/governance/insider-stock-trading"
+   ],
+   [
+    "List of insiders",
+    "https://www.generali.com/governance/insider-stock-trading/list-of-insiders"
+   ],
+   [
+    "Shareholdings",
+    "https://www.generali.com/governance/insider-stock-trading/shareholdings"
+   ],
+   [
+    "Transactions",
+    "https://www.generali.com/governance/insider-stock-trading/transactions"
+   ],
+   [
+    "Business conduct",
+    "https://www.generali.com/governance/business-conduct"
+   ],
+   [
+    "Engagement",
+    "https://www.generali.com/governance/engagement"
+   ],
+   [
+    "Relations with institutions",
+    "https://www.generali.com/governance/relations-with-institutions"
+   ],
+   [
+    "Internal Control & Risk Management System",
+    "https://www.generali.com/governance/internal-control-risk-management"
+   ],
+   [
+    "Internal control functions",
+    "https://www.generali.com/governance/internal-control-risk-management/internal-control-functions"
+   ],
+   [
+    "Annual General Meeting",
+    "https://www.generali.com/governance/annual-general-meeting"
+   ],
+   [
+    "A tree for a Shareholder",
+    "https://www.generali.com/governance/annual-general-meeting/a-tree-for-a-shareholder"
+   ],
+   [
+    "Shareholders' Meeting Extended Inclusion",
+    "https://www.generali.com/governance/annual-general-meeting/AGM-SMEI-program"
+   ],
+   [
+    "Annual General Meeting 2026",
+    "https://www.generali.com/governance/AGM-2026"
+   ],
+   [
+    "Notice of call - Annual General Meeting 2026",
+    "https://www.generali.com/governance/AGM-2026/notice-of-call-of-the-annual-general-meeting"
+   ],
+   [
+    "Documents - Annual General Meeting 2026",
+    "https://www.generali.com/governance/AGM-2026/annual-general-meeting-2026-documents"
+   ],
+   [
+    "Live streaming - Annual General Meeting 2026",
+    "https://www.generali.com/governance/AGM-2026/AGM-2026-live-streaming"
+   ],
+   [
+    "How to vote - Annual General Meeting 2026",
+    "https://www.generali.com/governance/AGM-2026/AGM-2026-How-to-vote"
+   ],
+   [
+    "FAQ - Annual General Meeting 2026",
+    "https://www.generali.com/governance/AGM-2026/faq"
+   ],
+   [
+    "Crisis management",
+    "https://www.generali.com/governance/crisis-management"
+   ],
+   [
+    "Contacts",
+    "https://www.generali.com/governance/contacts"
+   ],
+   [
+    "Search",
+    "https://www.generali.com/info/discovering-generali/all/2026/Consolidated-Results-as-of-31-December-2025"
+   ],
+   [
+    "Search",
+    "https://www.generali.com/info/discovering-generali/all/2026/Consolidated-Results-as-of-31-December-2025"
+   ],
+   [
+    "Close Search Close",
+    "https://www.generali.com/info/discovering-generali/all/2026/Consolidated-Results-as-of-31-December-2025"
+   ],
+   [
+    "",
+    "https://www.generali.com/"
+   ],
+   [
+    "Generali Stories",
+    "https://www.generali.com/info/discovering-generali"
+   ],
+   [
+    "All",
+    "https://www.generali.com/info/discovering-generali/all"
+   ],
+   [
+    "",
+    "https://www.generali.com/info/discovering-generali/all/2026/Consolidated-Results-as-of-31-December-2025"
+   ],
+   [
+    "",
+    "https://www.generali.com/info/discovering-generali/all/2026/Consolidated-Results-as-of-31-December-2025"
+   ],
+   [
+    "",
+    "https://www.generali.com/info/discovering-generali/all/2026/Consolidated-Results-as-of-31-December-2025"
+   ],
+   [
+    "All",
+    "https://www.generali.com/info/discovering-generali/all"
+   ],
+   [
+    "RESPONSIBLE INSURER",
+    "https://www.generali.com/info/discovering-generali/responsible-insurer"
+   ],
+   [
+    "RESPONSIBLE INVESTOR",
+    "https://www.generali.com/info/discovering-generali/responsible-investor"
+   ],
+   [
+    "RESPONSIBLE EMPLOYER",
+    "https://www.generali.com/info/discovering-generali/responsible-employer"
+   ],
+   [
+    "RESPONSIBLE CORPORATE CITIZEN",
+    "https://www.generali.com/info/discovering-generali/responsible-citizen"
+   ],
+   [
+    "All",
+    "https://www.generali.com/info/discovering-generali/all"
+   ],
+   [
+    "RESPONSIBLE INSURER",
+    "https://www.generali.com/info/discovering-generali/responsible-insurer"
+   ],
+   [
+    "RESPONSIBLE INVESTOR",
+    "https://www.generali.com/info/discovering-generali/responsible-investor"
+   ],
+   [
+    "RESPONSIBLE EMPLOYER",
+    "https://www.generali.com/info/discovering-generali/responsible-employer"
+   ],
+   [
+    "RESPONSIBLE CORPORATE CITIZEN",
+    "https://www.generali.com/info/discovering-generali/responsible-citizen"
+   ],
+   [
+    "Financial results",
+    "https://www.generali.com/info/discovering-generali/all?t1=c4740236-51ce-4af1-ae82-89a57289fe34"
+   ],
+   [
+    "Strategy",
+    "https://www.generali.com/info/discovering-generali/all?t1=b26b63b1-c983-47c2-9f1e-9aead754ad5b"
+   ],
+   [
+    "",
+    "https://www.generali.com/info/discovering-generali/all/2026/Consolidated-Results-as-of-31-December-2025"
+   ],
+   [
+    "Lifetime Partner 27: Driving Excellence",
+    "https://www.generali.com/who-we-are/Strategic-Plan-Lifetime-Partner-27"
+   ],
+   [
+    "press release",
+    "https://www.generali.com/media/press-releases/all/2026/Consolidated-Results-as-of-31-December-2025"
+   ],
+   [
+    "Our Stories Discover our stories and get inspired. Read more",
+    "https://www.generali.com/info/discovering-generali"
+   ],
+   [
+    "Press Release Discover more about consolidated results as of 31 December 2025. Read more",
+    "https://www.generali.com/media/press-releases/all/2026/Consolidated-Results-as-of-31-December-2025"
+   ],
+   [
+    "Annual General Meeting 2026 Discover more about the AGM 2026. Read more",
+    "https://www.generali.com/governance/AGM-2026"
+   ],
+   [
+    "",
+    "https://www.generali.com/"
+   ],
+   [
+    "",
+    "https://www.linkedin.com/company/generali?trk=top_nav_home"
+   ],
+   [
+    "",
+    "https://twitter.com/GENERALI"
+   ],
+   [
+    "",
+    "https://www.instagram.com/generaligroup/"
+   ],
+   [
+    "",
+    "https://www.youtube.com/user/GruppoGenerali"
+   ],
+   [
+    "2 minute survey",
+    "https://www.generali.com/tools/survey-modal"
+   ],
+   [
+    "Get Updates",
+    "https://www.generali.com/tools/subscription/content-categories-subscription"
+   ],
+   [
+    "Generali",
+    "https://www.generali.com/who-we-are"
+   ],
+   [
+    "Legal Info",
+    "https://www.generali.com/info/legal-information"
+   ],
+   [
+    "Cookie Policy",
+    "https://www.generali.com/info/cookies-policy"
+   ],
+   [
+    "Privacy & GDPR",
+    "https://www.generali.com/info/privacy/privacy-information"
+   ],
+   [
+    "FATCA",
+    "https://www.generali.com/info/fatca"
+   ],
+   [
+    "EMIR exemption",
+    "https://www.generali.com/info/European-Market-Infrastructure-Regulation"
+   ],
+   [
+    "Holocaust",
+    "https://www.generali.com/info/holocaust"
+   ],
+   [
+    "Accessibility",
+    "https://www.generali.com/info/accessibility"
+   ],
+   [
+    "Whistleblowing",
+    "https://generali.whispli.com/speakup"
+   ],
+   [
+    "Glossary",
+    "https://www.generali.com/info/glossary"
+   ],
+   [
+    "FAQ",
+    "https://www.generali.com/info/faq"
+   ],
+   [
+    "Who We Are",
+    "https://www.generali.com/who-we-are"
+   ],
+   [
+    "Discover",
+    "https://www.generali.com/who-we-are"
+   ],
+   [
+    "At a Glance",
+    "https://www.generali.com/who-we-are/at-a-glance"
+   ],
+   [
+    "Our Culture",
+    "https://www.generali.com/who-we-are/our-culture"
+   ],
+   [
+    "Our Brand",
+    "https://www.generali.com/who-we-are/our-brand"
+   ],
+   [
+    "Strategic Plan: Lifetime Partner 27",
+    "https://www.generali.com/who-we-are/Strategic-Plan-Lifetime-Partner-27"
+   ],
+   [
+    "Discover",
+    "https://www.generali.com/who-we-are/Strategic-Plan-Lifetime-Partner-27"
+   ],
+   [
+    "Excellence in Core Capabilities",
+    "https://www.generali.com/who-we-are/Strategic-Plan-Lifetime-Partner-27/Excellence-in-Core-Capabilities"
+   ],
+   [
+    "Excellence in Group Operating Model",
+    "https://www.generali.com/who-we-are/Strategic-Plan-Lifetime-Partner-27/Excellence-in-Group-Operating-Model"
+   ],
+   [
+    "Excellence in Customer Relationships",
+    "https://www.generali.com/who-we-are/Strategic-Plan-Lifetime-Partner-27/Excellence-in-Customer-Relationships"
+   ],
+   [
+    "People Powered Excellence",
+    "https://www.generali.com/who-we-are/Strategic-Plan-Lifetime-Partner-27/People-Powered-Excellence"
+   ],
+   [
+    "Sustainability rooted Excellence",
+    "https://www.generali.com/who-we-are/Strategic-Plan-Lifetime-Partner-27/Sustainability-rooted-Excellence"
+   ],
+   [
+    "AI & Data-Driven Excellence",
+    "https://www.generali.com/who-we-are/Strategic-Plan-Lifetime-Partner-27/AI-and-Data-Driven-Excellence"
+   ],
+   [
+    "Our management",
+    "https://www.generali.com/who-we-are/our-management"
+   ],
+   [
+    "Our organization",
+    "https://www.generali.com/who-we-are/global-positioning"
+   ],
+   [
+    "Discover",
+    "https://www.generali.com/who-we-are/global-positioning"
+   ],
+   [
+    "Insurance",
+    "https://www.generali.com/who-we-are/global-positioning/insurance-division"
+   ],
+   [
+    "Asset Management",
+    "https://www.generali.com/who-we-are/global-positioning/asset-management"
+   ],
+   [
+    "Wealth Management",
+    "https://www.generali.com/who-we-are/global-positioning/wealth-management"
+   ],
+   [
+    "Our business model",
+    "https://www.generali.com/who-we-are/our-business"
+   ],
+   [
+    "Our activities",
+    "https://www.generali.com/who-we-are/our-activities"
+   ],
+   [
+    "Our History",
+    "https://www.generali.com/who-we-are/history"
+   ],
+   [
+    "Discover",
+    "https://www.generali.com/who-we-are/history"
+   ],
+   [
+    "Generali 190 Anniversary",
+    "https://www.generali.com/who-we-are/history/Generali-190-Anniversary"
+   ],
+   [
+    "Generali 190 Events timeline",
+    "https://www.generali.com/who-we-are/history/Generali-190-Anniversary-Events-Timeline"
+   ],
+   [
+    "Interactive Timeline",
+    "https://www.generali.com/who-we-are/history/interactive-timeline"
+   ],
+   [
+    "Our logo over 190 years",
+    "https://www.generali.com/who-we-are/history/our-logo-over-190-years"
+   ],
+   [
+    "Generali publications",
+    "https://www.generali.com/who-we-are/history/the-age-of-the-lion"
+   ],
+   [
+    "Posters and advertising",
+    "https://www.generali.com/who-we-are/history/posters-and-advertising"
+   ],
+   [
+    "Group Historical Archives",
+    "https://www.generali.com/who-we-are/history/The-Generali-Group-Historical-Archives"
+   ],
+   [
+    "Group libraries",
+    "https://www.generali.com/who-we-are/history/group-libraries"
+   ],
+   [
+    "Sponsorship",
+    "https://www.generali.com/who-we-are/sponsorship"
+   ],
+   [
+    "Discover",
+    "https://www.generali.com/who-we-are/sponsorship"
+   ],
+   [
+    "Sport",
+    "https://www.generali.com/who-we-are/sponsorship/Sport"
+   ],
+   [
+    "Arts and Culture",
+    "https://www.generali.com/who-we-are/sponsorship/Arts-and-Culture"
+   ],
+   [
+    "Generali Women in Sailing",
+    "https://www.generali.com/who-we-are/sponsorship/Generali-women-in-sailing"
+   ],
+   [
+    "Generali Stories",
+    "https://www.generali.com/who-we-are/discovering-generali"
+   ],
+   [
+    "Our awards and recognition",
+    "https://www.generali.com/who-we-are/our-awards-and-recognition"
+   ],
+   [
+    "What we do",
+    "https://www.generali.com/what-we-do"
+   ],
+   [
+    "Discover",
+    "https://www.generali.com/what-we-do"
+   ],
+   [
+    "Insurance",
+    "https://www.generali.com/what-we-do/what-is-insurance"
+   ],
+   [
+    "Discover",
+    "https://www.generali.com/what-we-do/what-is-insurance"
+   ],
+   [
+    "Life Insurance",
+    "https://www.generali.com/what-we-do/what-is-insurance/life-insurance"
+   ],
+   [
+    "Property and Casualty Insurance",
+    "https://www.generali.com/what-we-do/what-is-insurance/property-and-casualty-insurance"
+   ],
+   [
+    "Insurance for Companies",
+    "https://www.generali.com/what-we-do/what-is-insurance/insurance-for-companies"
+   ],
+   [
+    "Insurance solutions for climate change and societal resilience",
+    "https://www.generali.com/what-we-do/what-is-insurance/insurance-solutions-with-ESG-components"
+   ],
+   [
+    "Generali Climate Hub",
+    "https://www.generali.com/what-we-do/what-is-insurance/Generali-Climate-Hub"
+   ],
+   [
+    "Global Advisor Excellence Contest",
+    "https://www.generali.com/what-we-do/what-is-insurance/Global-Advisor-Excellence-Contest"
+   ],
+   [
+    "Asset Management",
+    "https://www.generali.com/what-we-do/asset-management"
+   ],
+   [
+    "Wealth Management",
+    "https://www.generali.com/what-we-do/wealth-management"
+   ],
+   [
+    "Sustainability",
+    "https://www.generali.com/sustainability"
+   ],
+   [
+    "Discover",
+    "https://www.generali.com/sustainability"
+   ],
+   [
+    "Responsible Business",
+    "https://www.generali.com/sustainability/responsible-business"
+   ],
+   [
+    "Discover",
+    "https://www.generali.com/sustainability/responsible-business"
+   ],
+   [
+    "Charter of Sustainability Commitments",
+    "https://www.generali.com/sustainability/responsible-business/charter_sustainability_commitments"
+   ],
+   [
+    "Double Materiality Assessment",
+    "https://www.generali.com/sustainability/responsible-business/materiality-analysis"
+   ],
+   [
+    "Stakeholder engagement",
+    "https://www.generali.com/sustainability/responsible-business/stakeholder-engagement"
+   ],
+   [
+    "Sustainability indices and ratings",
+    "https://www.generali.com/sustainability/responsible-business/sustainability-indices-and-ratings"
+   ],
+   [
+    "External commitments",
+    "https://www.generali.com/sustainability/responsible-business/external-commitments"
+   ],
+   [
+    "Public-Private partnerships",
+    "https://www.generali.com/sustainability/responsible-business/Public-Private-partnerships"
+   ],
+   [
+    "Responsible Insurer",
+    "https://www.generali.com/sustainability/responsible-insurer"
+   ],
+   [
+    "Discover",
+    "https://www.generali.com/sustainability/responsible-insurer"
+   ],
+   [
+    "Sustainability into Underwriting",
+    "https://www.generali.com/sustainability/responsible-insurer/sustainability-into-underwriting"
+   ],
+   [
+    "Insurance solutions for climate change and societal resilience",
+    "https://www.generali.com/sustainability/responsible-insurer/insurance-solutions-for-climate-change-and-societal-resilience"
+   ],
+   [
+    "SME EnterPRIZE",
+    "https://www.generali.com/sustainability/responsible-insurer/SME-EnterPRIZE"
+   ],
+   [
+    "Excellence in Customer Relationships",
+    "https://www.generali.com/sustainability/responsible-insurer/Excellence-in-Customer-Relationships"
+   ],
+   [
+    "NPS: improving clients’ experience",
+    "https://www.generali.com/sustainability/responsible-insurer/NPS-improving-clients-experience"
+   ],
+   [
+    "Climate Loss Database – EU Taxonomy",
+    "https://www.generali.com/sustainability/responsible-insurer/EU-Taxonomy-TSC-4-Data-sharing"
+   ],
+   [
+    "Responsible Investor",
+    "https://www.generali.com/sustainability/responsible-investor"
+   ],
+   [
+    "Discover",
+    "https://www.generali.com/sustainability/responsible-investor"
+   ],
+   [
+    "Sustainability into Investments",
+    "https://www.generali.com/sustainability/responsible-investor/sustainability-into-investments"
+   ],
+   [
+    "Investing for climate",
+    "https://www.generali.com/sustainability/responsible-investor/investing-for-the-climate"
+   ],
+   [
+    "Sustainable real estate investing",
+    "https://www.generali.com/sustainability/responsible-investor/real-estate-investments"
+   ],
+   [
+    "Sustainability related disclosures",
+    "https://www.generali.com/sustainability/responsible-investor/sustainability-related-disclosures"
+   ],
+   [
+    "Responsible Employer",
+    "https://www.generali.com/sustainability/responsible-employer"
+   ],
+   [
+    "Discover",
+    "https://www.generali.com/sustainability/responsible-employer"
+   ],
+   [
+    "A Human-Centric Approach to Sustainable Performance",
+    "https://www.generali.com/sustainability/responsible-employer/a-human-centric-approach-to-Sustainable-Performance"
+   ],
+   [
+    "Occupational Health & Safety and Employee Support Programs",
+    "https://www.generali.com/sustainability/responsible-employer/occupational-health-and-safety"
+   ],
+   [
+    "Social Dialogue",
+    "https://www.generali.com/sustainability/responsible-employer/social-dialogue"
+   ],
+   [
+    "Environmental management system of Group Operations",
+    "https://www.generali.com/sustainability/responsible-employer/environmental-management"
+   ],
+   [
+    "Greenhouse gas emissions from Group operations",
+    "https://www.generali.com/sustainability/responsible-employer/greenhouse-gas-emissions-from-group-operations"
+   ],
+   [
+    "Our offices and mobility of our personnel",
+    "https://www.generali.com/sustainability/responsible-employer/Our-offices-and-mobility-of-our-personnel"
+   ],
+   [
+    "Working with our suppliers",
+    "https://www.generali.com/sustainability/responsible-employer/working-with-our-suppliers"
+   ],
+   [
+    "Responsible Corporate Citizen",
+    "https://www.generali.com/sustainability/responsible-citizen"
+   ],
+   [
+    "Discover",
+    "https://www.generali.com/sustainability/responsible-citizen"
+   ],
+   [
+    "The Human Safety Net",
+    "https://www.generali.com/sustainability/responsible-citizen/the-human-safety-net"
+   ],
+   [
+    "Commitments to the environment and climate",
+    "https://www.generali.com/sustainability/our-commitment-to-the-environment-and-climate"
+   ],
+   [
+    "Discover",
+    "https://www.generali.com/sustainability/our-commitment-to-the-environment-and-climate"
+   ],
+   [
+    "Greenhouse gas emissions",
+    "https://www.generali.com/sustainability/our-commitment-to-the-environment-and-climate/greenhouse-gas-emissions"
+   ],
+   [
+    "Climate advocacy policy and participation in public debate",
+    "https://www.generali.com/sustainability/our-commitment-to-the-environment-and-climate/participation-in-public-debate"
+   ],
+   [
+    "Performance and Reporting",
+    "https://www.generali.com/sustainability/performance-and-reporting"
+   ],
+   [
+    "Discover",
+    "https://www.generali.com/sustainability/performance-and-reporting"
+   ],
+   [
+    "Data and performance",
+    "https://www.generali.com/sustainability/performance-and-reporting/data-and-performance"
+   ],
+   [
+    "Tax Reporting",
+    "https://www.generali.com/sustainability/performance-and-reporting/tax-reporting"
+   ],
+   [
+    "Sustainable Financial Management",
+    "https://www.generali.com/sustainability/sustainable-financial-management"
+   ],
+   [
+    "Discover",
+    "https://www.generali.com/sustainability/sustainable-financial-management"
+   ],
+   [
+    "Green & Sustainability Bonds",
+    "https://www.generali.com/sustainability/sustainable-financial-management/green-and-sustainability-bonds"
+   ],
+   [
+    "Green, Social and Sustainability ILS",
+    "https://www.generali.com/sustainability/sustainable-financial-management/green-social-and-sustainability-ILS"
+   ],
+   [
+    "Emerging risks",
+    "https://www.generali.com/sustainability/emerging-risks"
+   ],
+   [
+    "Our rules",
+    "https://www.generali.com/sustainability/our-rules"
+   ],
+   [
+    "Discover",
+    "https://www.generali.com/sustainability/our-rules"
+   ],
+   [
+    "Governance and management",
+    "https://www.generali.com/sustainability/our-rules/governance-management"
+   ],
+   [
+    "Generali Group Code of Conduct",
+    "https://www.generali.com/sustainability/our-rules/code-of-conduct"
+   ],
+   [
+    "Respecting human rights",
+    "https://www.generali.com/sustainability/our-rules/respecting-human-rights"
+   ],
+   [
+    "Anti-corruption",
+    "https://www.generali.com/sustainability/our-rules/anti-corruption"
+   ],
+   [
+    "Financial crimes compliance",
+    "https://www.generali.com/sustainability/our-rules/financial-crimes-compliance"
+   ],
+   [
+    "Anti Financial Crime and Anti Bribery & Corruption",
+    "https://www.generali.com/sustainability/our-rules/Anti-Financial-Crime-and-Anti-Bribery-and-Corruption"
+   ],
+   [
+    "Tax Strategy and Taxes",
+    "https://www.generali.com/sustainability/our-rules/tax-payments"
+   ],
+   [
+    "Group security",
+    "https://www.generali.com/sustainability/our-rules/group-security"
+   ],
+   [
+    "Contacts",
+    "https://www.generali.com/sustainability/contacts"
+   ],
+   [
+    "People & Careers",
+    "https://www.generali.com/people-and-careers"
+   ],
+   [
+    "Discover",
+    "https://www.generali.com/people-and-careers"
+   ],
+   [
+    "Our Culture",
+    "https://www.generali.com/people-and-careers/our-culture"
+   ],
+   [
+    "Discover",
+    "https://www.generali.com/people-and-careers/our-culture"
+   ],
+   [
+    "The Excellence Culture Framework",
+    "https://www.generali.com/people-and-careers/our-culture/the-excellence-culture-framework"
+   ],
+   [
+    "Diversity Equity and Inclusion",
+    "https://www.generali.com/people-and-careers/our-culture/diversity-and-inclusion"
+   ],
+   [
+    "Wellbeing and Health & Safety Initiatives",
+    "https://www.generali.com/people-and-careers/our-culture/well-being"
+   ],
+   [
+    "Engagement",
+    "https://www.generali.com/people-and-careers/our-culture/engagement"
+   ],
+   [
+    "Performance Management",
+    "https://www.generali.com/people-and-careers/our-culture/group-performance-management"
+   ],
+   [
+    "Our ways of Working",
+    "https://www.generali.com/people-and-careers/our-ways-of-working"
+   ],
+   [
+    "Discover",
+    "https://www.generali.com/people-and-careers/our-ways-of-working"
+   ],
+   [
+    "Hybrid Forward",
+    "https://www.generali.com/people-and-careers/our-ways-of-working/hybrid-forward"
+   ],
+   [
+    "AI/Gen AI Adoption",
+    "https://www.generali.com/people-and-careers/our-ways-of-working/ai-gen-ai-adoption"
+   ],
+   [
+    "Strategic Workforce Planning",
+    "https://www.generali.com/people-and-careers/our-ways-of-working/workforce-planning"
+   ],
+   [
+    "Our Learning and Development",
+    "https://www.generali.com/people-and-careers/our-learning-and-development"
+   ],
+   [
+    "Discover",
+    "https://www.generali.com/people-and-careers/our-learning-and-development"
+   ],
+   [
+    "Our learning and development",
+    "https://www.generali.com/people-and-careers/our-learning-and-development/learning-for-the-future"
+   ],
+   [
+    "Managerial, Talent and Leadership Development",
+    "https://www.generali.com/people-and-careers/our-learning-and-development/managerial-talent-and-leadership-development"
+   ],
+   [
+    "Our Rewards",
+    "https://www.generali.com/people-and-careers/our-rewards"
+   ],
+   [
+    "Work with Us",
+    "https://www.generali.com/people-and-careers/work-with-us"
+   ],
+   [
+    "Investors",
+    "https://www.generali.com/investors"
+   ],
+   [
+    "Discover",
+    "https://www.generali.com/investors"
+   ],
+   [
+    "Investing in Generali",
+    "https://www.generali.com/investors/investing-in-generali"
+   ],
+   [
+    "Strategy",
+    "https://www.generali.com/investors/Strategy"
+   ],
+   [
+    "Discover",
+    "https://www.generali.com/investors/Strategy"
+   ],
+   [
+    "Outlook",
+    "https://www.generali.com/investors/Strategy/Outlook"
+   ],
+   [
+    "Investments and divestments",
+    "https://www.generali.com/investors/Strategy/investments-and-divestments"
+   ],
+   [
+    "AI & Data-Driven Excellence",
+    "https://www.generali.com/investors/Strategy/AI-and-Data-Driven-Excellence"
+   ],
+   [
+    "Financial Results & Reports",
+    "https://www.generali.com/investors/financial-results-and-reports"
+   ],
+   [
+    "Discover",
+    "https://www.generali.com/investors/financial-results-and-reports"
+   ],
+   [
+    "Financial Results",
+    "https://www.generali.com/investors/financial-results-and-reports/financial-results"
+   ],
+   [
+    "Reports Archive",
+    "https://www.generali.com/investors/financial-results-and-reports/report-archive"
+   ],
+   [
+    "Presentations",
+    "https://www.generali.com/investors/financial-results-and-reports/Presentations"
+   ],
+   [
+    "Investor Days",
+    "https://www.generali.com/investors/financial-results-and-reports/investor-day"
+   ],
+   [
+    "Exploring Generali",
+    "https://www.generali.com/investors/financial-results-and-reports/exploring-generali"
+   ],
+   [
+    "Financial highlights",
+    "https://www.generali.com/investors/financial-highlights"
+   ],
+   [
+    "Discover",
+    "https://www.generali.com/investors/financial-highlights"
+   ],
+   [
+    "Performance by segment",
+    "https://www.generali.com/investors/financial-highlights/performance-by-segment"
+   ],
+   [
+    "Performance by country",
+    "https://www.generali.com/investors/financial-highlights/performance-by-country"
+   ],
+   [
+    "Historical Data",
+    "https://www.generali.com/investors/financial-highlights/historical-data"
+   ],
+   [
+    "Financial calendar and events",
+    "https://www.generali.com/investors/financial-calendar"
+   ],
+   [
+    "Share information & analysts",
+    "https://www.generali.com/investors/share-information-analysts"
+   ],
+   [
+    "Discover",
+    "https://www.generali.com/investors/share-information-analysts"
+   ],
+   [
+    "Key share figures",
+    "https://www.generali.com/investors/share-information-analysts/key-share-figures"
+   ],
+   [
+    "Tickers and indices",
+    "https://www.generali.com/investors/share-information-analysts/tickers-and-indices"
+   ],
+   [
+    "Share capital",
+    "https://www.generali.com/investors/share-information-analysts/share-capital"
+   ],
+   [
+    "Dividends",
+    "https://www.generali.com/investors/share-information-analysts/dividends"
+   ],
+   [
+    "Shareholding calculator",
+    "https://www.generali.com/investors/share-information-analysts/Shareholding-calculator"
+   ],
+   [
+    "Equity analysts and consensus",
+    "https://www.generali.com/investors/share-information-analysts/equity-analysts-and-consensus"
+   ],
+   [
+    "Ownership structure",
+    "https://www.generali.com/investors/share-information-analysts/ownership-structure"
+   ],
+   [
+    "Share buyback",
+    "https://www.generali.com/investors/share-information-analysts/share-buyback"
+   ],
+   [
+    "Debt & ratings",
+    "https://www.generali.com/investors/debt-ratings"
+   ],
+   [
+    "Discover",
+    "https://www.generali.com/investors/debt-ratings"
+   ],
+   [
+    "Debt securities",
+    "https://www.generali.com/investors/debt-ratings/listed-debt-securities"
+   ],
+   [
+    "Debt composition and maturity",
+    "https://www.generali.com/investors/debt-ratings/debt-composition-and-maturity"
+   ],
+   [
+    "Ratings",
+    "https://www.generali.com/investors/debt-ratings/ratings"
+   ],
+   [
+    "Credit analysts",
+    "https://www.generali.com/investors/debt-ratings/credit-analysts"
+   ],
+   [
+    "Green, Social and Sustainability Bond Framework and Report",
+    "https://www.generali.com/investors/debt-ratings/sustainability-bond-framework"
+   ],
+   [
+    "Our ESG approach",
+    "https://www.generali.com/investors/Our-ESG-approach"
+   ],
+   [
+    "Private investors",
+    "https://www.generali.com/investors/Private-investors"
+   ],
+   [
+    "Shareholders' Club",
+    "https://www.generali.com/investors/shareholders-club"
+   ],
+   [
+    "Contacts",
+    "https://www.generali.com/investors/contacts"
+   ],
+   [
+    "Discover",
+    "https://www.generali.com/investors/contacts"
+   ],
+   [
+    "Contacts for institutional investors",
+    "https://www.generali.com/investors/contacts/Contacts-for-institutional-investors"
+   ],
+   [
+    "Contacts for private investors",
+    "https://www.generali.com/investors/contacts/Contacts-for-private-investors"
+   ],
+   [
+    "Media",
+    "https://www.generali.com/media"
+   ],
+   [
+    "Discover",
+    "https://www.generali.com/media"
+   ],
+   [
+    "Press releases",
+    "https://www.generali.com/media/press-releases"
+   ],
+   [
+    "News",
+    "https://www.generali.com/media/News"
+   ],
+   [
+    "Podcast & Vodcast",
+    "https://www.generali.com/media/podcast-and-vodcast"
+   ],
+   [
+    "Discover",
+    "https://www.generali.com/media/podcast-and-vodcast"
+   ],
+   [
+    "Connessioni – La Voce del Bollettino Generali",
+    "https://www.generali.com/media/podcast-and-vodcast/Connessioni"
+   ],
+   [
+    "190 Years of Future",
+    "https://www.generali.com/media/podcast-and-vodcast/190-Years-of-Future"
+   ],
+   [
+    "Crepe",
+    "https://www.generali.com/media/podcast-and-vodcast/Crepe"
+   ],
+   [
+    "Media kit",
+    "https://www.generali.com/media/media-kit"
+   ],
+   [
+    "Events calendar",
+    "https://www.generali.com/media/events-calendar"
+   ],
+   [
+    "Multimedia-Gallery",
+    "https://www.generali.com/media/multimedia-gallery"
+   ],
+   [
+    "Discover",
+    "https://www.generali.com/media/multimedia-gallery"
+   ],
+   [
+    "Videos",
+    "https://www.generali.com/media/multimedia-gallery/video"
+   ],
+   [
+    "Images",
+    "https://www.generali.com/media/multimedia-gallery/images"
+   ],
+   [
+    "Social media",
+    "https://www.generali.com/media/social-media"
+   ],
+   [
+    "Corporate magazines",
+    "https://www.generali.com/media/corporate-magazines"
+   ],
+   [
+    "Macroeconomic and insurance research",
+    "https://www.generali.com/media/macroeconomic-and-insurance-research"
+   ],
+   [
+    "Discover",
+    "https://www.generali.com/media/macroeconomic-and-insurance-research"
+   ],
+   [
+    "Contacts",
+    "https://www.generali.com/media/macroeconomic-and-insurance-research/contacts"
+   ],
+   [
+    "Contacts",
+    "https://www.generali.com/media/contacts"
+   ],
+   [
+    "Governance",
+    "https://www.generali.com/governance"
+   ],
+   [
+    "Discover",
+    "https://www.generali.com/governance"
+   ],
+   [
+    "Corporate governance system",
+    "https://www.generali.com/governance/corporate-governance-system"
+   ],
+   [
+    "Discover",
+    "https://www.generali.com/governance/corporate-governance-system"
+   ],
+   [
+    "Articles of association",
+    "https://www.generali.com/governance/corporate-governance-system/articles-of-association"
+   ],
+   [
+    "Organizational and Management Model",
+    "https://www.generali.com/governance/corporate-governance-system/organisational-and-management-model"
+   ],
+   [
+    "Related-party transactions",
+    "https://www.generali.com/governance/corporate-governance-system/related-party-transactions"
+   ],
+   [
+    "Corporate Governance Report",
+    "https://www.generali.com/governance/corporate-governance-system/corporate-governance-report"
+   ],
+   [
+    "Diversity Policy",
+    "https://www.generali.com/governance/corporate-governance-system/diversity-policy"
+   ],
+   [
+    "Board of Directors",
+    "https://www.generali.com/governance/board-of-directors"
+   ],
+   [
+    "Discover",
+    "https://www.generali.com/governance/board-of-directors"
+   ],
+   [
+    "Role, functions and activity",
+    "https://www.generali.com/governance/board-of-directors/Role-functions-and-activity"
+   ],
+   [
+    "Experience and skills",
+    "https://www.generali.com/governance/board-of-directors/experience-and-skills"
+   ],
+   [
+    "Meetings and attendance",
+    "https://www.generali.com/governance/board-of-directors/meetings-and-attendance"
+   ],
+   [
+    "Board evaluation",
+    "https://www.generali.com/governance/board-of-directors/board-evaluation"
+   ],
+   [
+    "Succession plan",
+    "https://www.generali.com/governance/board-of-directors/succession-plan"
+   ],
+   [
+    "Committees",
+    "https://www.generali.com/governance/committees"
+   ],
+   [
+    "Discover",
+    "https://www.generali.com/governance/committees"
+   ],
+   [
+    "Risk and Control Committee",
+    "https://www.generali.com/governance/committees/risk-and-control"
+   ],
+   [
+    "Related party transactions Committee",
+    "https://www.generali.com/governance/committees/Related-Party-transactions"
+   ],
+   [
+    "Nominations and Corporate Governance Committee",
+    "https://www.generali.com/governance/committees/Nominations-and-corporate-governance"
+   ],
+   [
+    "Remuneration and Human Resources Committee",
+    "https://www.generali.com/governance/committees/remuneration-and-HR-committee"
+   ],
+   [
+    "Innovation, Social and Environmental Sustainability Committee",
+    "https://www.generali.com/governance/committees/Innovation-and-Sustainability"
+   ],
+   [
+    "Investment Committee",
+    "https://www.generali.com/governance/committees/Investment-Committee"
+   ],
+   [
+    "Statutory Auditors",
+    "https://www.generali.com/governance/statutory-auditors"
+   ],
+   [
+    "External Auditors Firm",
+    "https://www.generali.com/governance/auditing-firm"
+   ],
+   [
+    "Remuneration",
+    "https://www.generali.com/governance/remuneration"
+   ],
+   [
+    "Discover",
+    "https://www.generali.com/governance/remuneration"
+   ],
+   [
+    "We SHARE – the Share Plan for Group Employees",
+    "https://www.generali.com/governance/remuneration/share-plan-for-the-generali-group-employees"
+   ],
+   [
+    "Insider stock trading",
+    "https://www.generali.com/governance/insider-stock-trading"
+   ],
+   [
+    "Discover",
+    "https://www.generali.com/governance/insider-stock-trading"
+   ],
+   [
+    "List of insiders",
+    "https://www.generali.com/governance/insider-stock-trading/list-of-insiders"
+   ],
+   [
+    "Shareholdings",
+    "https://www.generali.com/governance/insider-stock-trading/shareholdings"
+   ],
+   [
+    "Transactions",
+    "https://www.generali.com/governance/insider-stock-trading/transactions"
+   ],
+   [
+    "Business conduct",
+    "https://www.generali.com/governance/business-conduct"
+   ],
+   [
+    "Engagement",
+    "https://www.generali.com/governance/engagement"
+   ],
+   [
+    "Relations with institutions",
+    "https://www.generali.com/governance/relations-with-institutions"
+   ],
+   [
+    "Internal Control & Risk Management System",
+    "https://www.generali.com/governance/internal-control-risk-management"
+   ],
+   [
+    "Discover",
+    "https://www.generali.com/governance/internal-control-risk-management"
+   ],
+   [
+    "Internal control functions",
+    "https://www.generali.com/governance/internal-control-risk-management/internal-control-functions"
+   ],
+   [
+    "Annual General Meeting",
+    "https://www.generali.com/governance/annual-general-meeting"
+   ],
+   [
+    "Discover",
+    "https://www.generali.com/governance/annual-general-meeting"
+   ],
+   [
+    "A tree for a Shareholder",
+    "https://www.generali.com/governance/annual-general-meeting/a-tree-for-a-shareholder"
+   ],
+   [
+    "Shareholders' Meeting Extended Inclusion",
+    "https://www.generali.com/governance/annual-general-meeting/AGM-SMEI-program"
+   ],
+   [
+    "Annual General Meeting 2026",
+    "https://www.generali.com/governance/AGM-2026"
+   ],
+   [
+    "Discover",
+    "https://www.generali.com/governance/AGM-2026"
+   ],
+   [
+    "Notice of call - Annual General Meeting 2026",
+    "https://www.generali.com/governance/AGM-2026/notice-of-call-of-the-annual-general-meeting"
+   ],
+   [
+    "Documents - Annual General Meeting 2026",
+    "https://www.generali.com/governance/AGM-2026/annual-general-meeting-2026-documents"
+   ],
+   [
+    "Live streaming - Annual General Meeting 2026",
+    "https://www.generali.com/governance/AGM-2026/AGM-2026-live-streaming"
+   ],
+   [
+    "How to vote - Annual General Meeting 2026",
+    "https://www.generali.com/governance/AGM-2026/AGM-2026-How-to-vote"
+   ],
+   [
+    "FAQ - Annual General Meeting 2026",
+    "https://www.generali.com/governance/AGM-2026/faq"
+   ],
+   [
+    "Crisis management",
+    "https://www.generali.com/governance/crisis-management"
+   ],
+   [
+    "Contacts",
+    "https://www.generali.com/governance/contacts"
+   ],
+   [
+    "Generali Stories",
+    "https://www.generali.com/info/discovering-generali"
+   ],
+   [
+    "Bollettino",
+    "https://www.generali.com/info/bollettino"
+   ],
+   [
+    "Strategic plan",
+    "https://www.generali.com/who-we-are/Strategic-Plan-Lifetime-Partner-27"
+   ],
+   [
+    "Download Center",
+    "https://www.generali.com/info/download-center"
+   ],
+   [
+    "Contact us",
+    "https://www.generali.com/info/contact-us"
+   ],
+   [
+    "Eng",
+    "https://www.generali.com/info/discovering-generali/all/2026/Consolidated-Results-as-of-31-December-2025"
+   ],
+   [
+    "Ita",
+    "https://www.generali.com/it/info/discovering-generali/all/2026/Consolidated-Results-as-of-31-December-2025"
+   ]
+  ]
+ },
+ {
+  "n": 14,
+  "url": "https://ageas.com/en/newsroom/ageas-reports-full-year-2025-results",
+  "status": 403,
+  "final_url": "https://ageas.com/en/newsroom/ageas-reports-full-year-2025-results",
+  "content_type": "text/html; charset=UTF-8",
+  "file": "14_ageas-reports-full-year-2025-results.html",
+  "bytes": 5852,
+  "sha256": "b55812491bf7711c65ac2e51d9a286fa4f6d230a29e28d968053c35a5922ee07",
+  "title": "Just a moment...",
+  "links": []
+ },
+ {
+  "n": 15,
+  "url": "https://www.insurancebusinessmag.com/asia/news/breaking-news/great-eastern-fy25-profit-hits-record-nbev-increases-566425.aspx",
+  "status": 200,
+  "final_url": "https://www.insurancebusinessmag.com/asia/news/breaking-news/great-eastern-fy25-profit-hits-record-nbev-increases-566425.aspx",
+  "content_type": "text/html; charset=utf-8",
+  "file": "15_great-eastern-fy25-profit-hits-record-nbev-increases-566425.html",
+  "bytes": 98390,
+  "sha256": "ebb0119e1abc5790ea27dd216fde40a827133128284f201244fc456d76ec2021",
+  "title": "Great Eastern FY25 profit hits record, NBEV increases | Insurance Business",
+  "links": [
+   [
+    "",
+    "https://www.insurancebusinessmag.com/asia/"
+   ],
+   [
+    "News",
+    "https://www.insurancebusinessmag.com/asia/news/breaking-news/"
+   ],
+   [
+    "Insurance News",
+    "https://www.insurancebusinessmag.com/asia/news/breaking-news/"
+   ],
+   [
+    "Industry News",
+    "https://www.insurancebusinessmag.com/asia/news/industry-news/"
+   ],
+   [
+    "Columns",
+    "https://www.insurancebusinessmag.com/asia/news/columns/"
+   ],
+   [
+    "Diversity & Inclusion",
+    "https://www.insurancebusinessmag.com/asia/news/diversity-inclusion/"
+   ],
+   [
+    "Mergers & Acquisitions",
+    "https://www.insurancebusinessmag.com/asia/news/mergers-acquisitions/"
+   ],
+   [
+    "Reinsurance",
+    "https://www.insurancebusinessmag.com/reinsurance/"
+   ],
+   [
+    "TV",
+    "https://www.insurancebusinessmag.com/asia/tv/"
+   ],
+   [
+    "Digital Transformation",
+    "https://www.insurancebusinessmag.com/asia/news/technology/"
+   ],
+   [
+    "Risk Management",
+    "https://www.insurancebusinessmag.com/asia/news/risk-management/"
+   ],
+   [
+    "Resources",
+    "https://www.insurancebusinessmag.com/asia/news/breaking-news/great-eastern-fy25-profit-hits-record-nbev-increases-566425.aspx"
+   ],
+   [
+    "Annual Guides",
+    "https://www.insurancebusinessmag.com/asia/annual-guides/"
+   ],
+   [
+    "Business Strategy",
+    "https://www.insurancebusinessmag.com/asia/business-strategy/"
+   ],
+   [
+    "E-mag",
+    "https://www.insurancebusinessmag.com/asia/e-magazines/"
+   ],
+   [
+    "Editorial Panels",
+    "https://www.insurancebusinessmag.com/asia/editorial-panels/"
+   ],
+   [
+    "Events",
+    "https://www.insurancebusinessmag.com/asia/events/"
+   ],
+   [
+    "Guides",
+    "https://www.insurancebusinessmag.com/asia/guides/"
+   ],
+   [
+    "IB Talk",
+    "https://www.insurancebusinessmag.com/asia/ib-talk/"
+   ],
+   [
+    "Insurance Companies",
+    "https://www.insurancebusinessmag.com/asia/companies/"
+   ],
+   [
+    "Opinion",
+    "https://www.insurancebusinessmag.com/asia/opinion/"
+   ],
+   [
+    "Premium Content",
+    "https://www.insurancebusinessmag.com/asia/premium/"
+   ],
+   [
+    "Webinars",
+    "https://www.insurancebusinessmag.com/asia/webinars/"
+   ],
+   [
+    "White papers",
+    "https://www.insurancebusinessmag.com/asia/white-papers/"
+   ],
+   [
+    "Best In Insurance",
+    "https://www.insurancebusinessmag.com/asia/best-insurance/"
+   ],
+   [
+    "Specialty",
+    "https://www.insurancebusinessmag.com/asia/news/breaking-news/great-eastern-fy25-profit-hits-record-nbev-increases-566425.aspx"
+   ],
+   [
+    "Catastrophe & Flood",
+    "https://www.insurancebusinessmag.com/asia/news/catastrophe/"
+   ],
+   [
+    "Claims",
+    "https://www.insurancebusinessmag.com/asia/news/claims/"
+   ],
+   [
+    "Construction & Engineering",
+    "https://www.insurancebusinessmag.com/asia/news/construction/"
+   ],
+   [
+    "Cyber",
+    "https://www.insurancebusinessmag.com/asia/news/cyber/"
+   ],
+   [
+    "Digital Transformation",
+    "https://www.insurancebusinessmag.com/asia/news/technology/"
+   ],
+   [
+    "Environmental",
+    "https://www.insurancebusinessmag.com/asia/news/environmental/"
+   ],
+   [
+    "Group Benefits",
+    "https://www.insurancebusinessmag.com/asia/news/benefits/"
+   ],
+   [
+    "Hospitality",
+    "https://www.insurancebusinessmag.com/asia/news/hospitality/"
+   ],
+   [
+    "Legal Insights",
+    "https://www.insurancebusinessmag.com/asia/news/legal-insights/"
+   ],
+   [
+    "Life & Health",
+    "https://www.insurancebusinessmag.com/asia/news/life-insurance/"
+   ],
+   [
+    "Marine",
+    "https://www.insurancebusinessmag.com/asia/news/marine/"
+   ],
+   [
+    "Motor & Fleet",
+    "https://www.insurancebusinessmag.com/asia/news/auto-motor/"
+   ],
+   [
+    "Non-Profits & Charities",
+    "https://www.insurancebusinessmag.com/asia/news/non-profits/"
+   ],
+   [
+    "Professionals Risks",
+    "https://www.insurancebusinessmag.com/asia/news/professional-liability/"
+   ],
+   [
+    "Property",
+    "https://www.insurancebusinessmag.com/asia/news/property/"
+   ],
+   [
+    "SME",
+    "https://www.insurancebusinessmag.com/asia/news/sme/"
+   ],
+   [
+    "Travel",
+    "https://www.insurancebusinessmag.com/asia/news/travel/"
+   ],
+   [
+    "Contact Us",
+    "https://www.insurancebusinessmag.com/asia/contact-us/"
+   ],
+   [
+    "Contact Us",
+    "https://www.insurancebusinessmag.com/asia/contact-us/"
+   ],
+   [
+    "E-newsletter",
+    "https://www.insurancebusinessmag.com/asia/newsletter/"
+   ],
+   [
+    "Authors",
+    "https://www.insurancebusinessmag.com/asia/authors/"
+   ],
+   [
+    "Regular Contributors",
+    "https://www.insurancebusinessmag.com/asia/regular-contributors/"
+   ],
+   [
+    "Advertise",
+    "https://info.insurancebusinessmag.com/media-kit-ib-asia-1/p/1"
+   ],
+   [
+    "News",
+    "https://www.insurancebusinessmag.com/asia/news/breaking-news/"
+   ],
+   [
+    "Insurance News",
+    "https://www.insurancebusinessmag.com/asia/news/breaking-news/"
+   ],
+   [
+    "Industry News",
+    "https://www.insurancebusinessmag.com/asia/news/industry-news/"
+   ],
+   [
+    "Columns",
+    "https://www.insurancebusinessmag.com/asia/news/columns/"
+   ],
+   [
+    "Diversity & Inclusion",
+    "https://www.insurancebusinessmag.com/asia/news/diversity-inclusion/"
+   ],
+   [
+    "Mergers & Acquisitions",
+    "https://www.insurancebusinessmag.com/asia/news/mergers-acquisitions/"
+   ],
+   [
+    "Reinsurance",
+    "https://www.insurancebusinessmag.com/reinsurance/"
+   ],
+   [
+    "TV",
+    "https://www.insurancebusinessmag.com/asia/tv/"
+   ],
+   [
+    "Digital Transformation",
+    "https://www.insurancebusinessmag.com/asia/news/technology/"
+   ],
+   [
+    "Risk Management",
+    "https://www.insurancebusinessmag.com/asia/news/risk-management/"
+   ],
+   [
+    "Resources",
+    "https://www.insurancebusinessmag.com/asia/news/breaking-news/great-eastern-fy25-profit-hits-record-nbev-increases-566425.aspx"
+   ],
+   [
+    "Annual Guides",
+    "https://www.insurancebusinessmag.com/asia/annual-guides/"
+   ],
+   [
+    "Business Strategy",
+    "https://www.insurancebusinessmag.com/asia/business-strategy/"
+   ],
+   [
+    "E-mag",
+    "https://www.insurancebusinessmag.com/asia/e-magazines/"
+   ],
+   [
+    "Editorial Panels",
+    "https://www.insurancebusinessmag.com/asia/editorial-panels/"
+   ],
+   [
+    "Events",
+    "https://www.insurancebusinessmag.com/asia/events/"
+   ],
+   [
+    "Guides",
+    "https://www.insurancebusinessmag.com/asia/guides/"
+   ],
+   [
+    "IB Talk",
+    "https://www.insurancebusinessmag.com/asia/ib-talk/"
+   ],
+   [
+    "Insurance Companies",
+    "https://www.insurancebusinessmag.com/asia/companies/"
+   ],
+   [
+    "Opinion",
+    "https://www.insurancebusinessmag.com/asia/opinion/"
+   ],
+   [
+    "Premium Content",
+    "https://www.insurancebusinessmag.com/asia/premium/"
+   ],
+   [
+    "Webinars",
+    "https://www.insurancebusinessmag.com/asia/webinars/"
+   ],
+   [
+    "White papers",
+    "https://www.insurancebusinessmag.com/asia/white-papers/"
+   ],
+   [
+    "Best In Insurance",
+    "https://www.insurancebusinessmag.com/asia/best-insurance/"
+   ],
+   [
+    "Specialty",
+    "https://www.insurancebusinessmag.com/asia/news/breaking-news/great-eastern-fy25-profit-hits-record-nbev-increases-566425.aspx"
+   ],
+   [
+    "Catastrophe & Flood",
+    "https://www.insurancebusinessmag.com/asia/news/catastrophe/"
+   ],
+   [
+    "Claims",
+    "https://www.insurancebusinessmag.com/asia/news/claims/"
+   ],
+   [
+    "Construction & Engineering",
+    "https://www.insurancebusinessmag.com/asia/news/construction/"
+   ],
+   [
+    "Cyber",
+    "https://www.insurancebusinessmag.com/asia/news/cyber/"
+   ],
+   [
+    "Digital Transformation",
+    "https://www.insurancebusinessmag.com/asia/news/technology/"
+   ],
+   [
+    "Environmental",
+    "https://www.insurancebusinessmag.com/asia/news/environmental/"
+   ],
+   [
+    "Group Benefits",
+    "https://www.insurancebusinessmag.com/asia/news/benefits/"
+   ],
+   [
+    "Hospitality",
+    "https://www.insurancebusinessmag.com/asia/news/hospitality/"
+   ],
+   [
+    "Legal Insights",
+    "https://www.insurancebusinessmag.com/asia/news/legal-insights/"
+   ],
+   [
+    "Life & Health",
+    "https://www.insurancebusinessmag.com/asia/news/life-insurance/"
+   ],
+   [
+    "Marine",
+    "https://www.insurancebusinessmag.com/asia/news/marine/"
+   ],
+   [
+    "Motor & Fleet",
+    "https://www.insurancebusinessmag.com/asia/news/auto-motor/"
+   ],
+   [
+    "Non-Profits & Charities",
+    "https://www.insurancebusinessmag.com/asia/news/non-profits/"
+   ],
+   [
+    "Professionals Risks",
+    "https://www.insurancebusinessmag.com/asia/news/professional-liability/"
+   ],
+   [
+    "Property",
+    "https://www.insurancebusinessmag.com/asia/news/property/"
+   ],
+   [
+    "SME",
+    "https://www.insurancebusinessmag.com/asia/news/sme/"
+   ],
+   [
+    "Travel",
+    "https://www.insurancebusinessmag.com/asia/news/travel/"
+   ],
+   [
+    "Contact Us",
+    "https://www.insurancebusinessmag.com/asia/contact-us/"
+   ],
+   [
+    "Contact Us",
+    "https://www.insurancebusinessmag.com/asia/contact-us/"
+   ],
+   [
+    "E-newsletter",
+    "https://www.insurancebusinessmag.com/asia/newsletter/"
+   ],
+   [
+    "Authors",
+    "https://www.insurancebusinessmag.com/asia/authors/"
+   ],
+   [
+    "Regular Contributors",
+    "https://www.insurancebusinessmag.com/asia/regular-contributors/"
+   ],
+   [
+    "Advertise",
+    "https://info.insurancebusinessmag.com/media-kit-ib-asia-1/p/1"
+   ],
+   [
+    "",
+    "https://www.insurancebusinessmag.com/asia/"
+   ],
+   [
+    "Insurance News",
+    "https://www.insurancebusinessmag.com/asia/news/breaking-news/"
+   ],
+   [
+    "INSURANCE NEWS",
+    "https://www.insurancebusinessmag.com/asia/news/breaking-news/"
+   ],
+   [
+    "Roxanne San Jose",
+    "https://www.insurancebusinessmag.com/asia/authors/roxanne-sanjose/"
+   ],
+   [
+    "Great Eastern",
+    "https://www.insurancebusinessmag.com/asia/companies/great-eastern/61348/"
+   ],
+   [
+    "Great Eastern to relist after failed OCBC delisting bid",
+    "https://www.insurancebusinessmag.com/asia/news/breaking-news/great-eastern-to-relist-after-failed-ocbc-delisting-bid-541978.aspx"
+   ],
+   [
+    "OCBC pushes final bid to delist Great Eastern",
+    "https://www.insurancebusinessmag.com/asia/news/breaking-news/ocbc-pushes-final-bid-to-delist-great-eastern-541818.aspx"
+   ],
+   [
+    "",
+    "https://www.insurancebusinessmag.com/asia/news/life-insurance/insurance-moves-manulife-sunlife-598611.aspx"
+   ],
+   [
+    "Insurance moves: Manulife, Sunlife",
+    "https://www.insurancebusinessmag.com/asia/news/life-insurance/insurance-moves-manulife-sunlife-598611.aspx"
+   ],
+   [
+    "Life & Health",
+    "https://www.insurancebusinessmag.com/asia/news/life-insurance/"
+   ],
+   [
+    "",
+    "https://www.insurancebusinessmag.com/asia/news/life-insurance/eye-care-direct-billing-reaches-gba-as-health-cover-deepens-598605.aspx"
+   ],
+   [
+    "Eye care direct billing reaches GBA as health cover deepens",
+    "https://www.insurancebusinessmag.com/asia/news/life-insurance/eye-care-direct-billing-reaches-gba-as-health-cover-deepens-598605.aspx"
+   ],
+   [
+    "Life & Health",
+    "https://www.insurancebusinessmag.com/asia/news/life-insurance/"
+   ],
+   [
+    "",
+    "https://www.insurancebusinessmag.com/asia/news/breaking-news/oona-insurance-philippines-posts-profit-and-enters-nonlife-top-10-598593.aspx"
+   ],
+   [
+    "Oona Insurance Philippines posts profit and enters non-life top 10",
+    "https://www.insurancebusinessmag.com/asia/news/breaking-news/oona-insurance-philippines-posts-profit-and-enters-nonlife-top-10-598593.aspx"
+   ],
+   [
+    "Insurance News",
+    "https://www.insurancebusinessmag.com/asia/news/breaking-news/"
+   ],
+   [
+    "",
+    "https://www.insurancebusinessmag.com/asia/news/life-insurance/global-health-insurance-costs-to-exceed-10-again-in-2027-wtw-finds-598580.aspx"
+   ],
+   [
+    "Global health insurance costs to exceed 10% again in 2027, WTW finds",
+    "https://www.insurancebusinessmag.com/asia/news/life-insurance/global-health-insurance-costs-to-exceed-10-again-in-2027-wtw-finds-598580.aspx"
+   ],
+   [
+    "Life & Health",
+    "https://www.insurancebusinessmag.com/asia/news/life-insurance/"
+   ],
+   [
+    "",
+    "https://www.insurancebusinessmag.com/asia/news/technology/marsh-warns-ai-payoff-gap-energy-costs-and-geopolitics-will-squeeze-apac-insurers-in-2027-598566.aspx"
+   ],
+   [
+    "Marsh warns AI payoff gap, energy costs and geopolitics will squeeze APAC insurers in 2027",
+    "https://www.insurancebusinessmag.com/asia/news/technology/marsh-warns-ai-payoff-gap-energy-costs-and-geopolitics-will-squeeze-apac-insurers-in-2027-598566.aspx"
+   ],
+   [
+    "Digital Transformation",
+    "https://www.insurancebusinessmag.com/asia/news/technology/"
+   ],
+   [
+    "",
+    "https://www.insurancebusinessmag.com/asia/"
+   ],
+   [
+    "",
+    "https://www.facebook.com/InsuranceBusinessAsia"
+   ],
+   [
+    "",
+    "https://twitter.com/IB_Asia"
+   ],
+   [
+    "",
+    "https://www.linkedin.com/company/insurance-business-asia/"
+   ],
+   [
+    "People",
+    "https://www.insurancebusinessmag.com/asia/tools/people/"
+   ],
+   [
+    "Glossary",
+    "https://www.insurancebusinessmag.com/asia/glossary/"
+   ],
+   [
+    "Terms & conditions",
+    "https://www.keymedia.com/terms-and-conditions"
+   ],
+   [
+    "Privacy policy",
+    "https://www.insurancebusinessmag.com/asia/privacy-policy/"
+   ],
+   [
+    "Cookie policy",
+    "https://www.insurancebusinessmag.com/asia/cookie-policy/"
+   ],
+   [
+    "Your Privacy Choices",
+    "https://www.insurancebusinessmag.com/asia/news/breaking-news/great-eastern-fy25-profit-hits-record-nbev-increases-566425.aspx"
+   ],
+   [
+    "Conditions of Use",
+    "https://www.insurancebusinessmag.com/asia/conditions-of-use/"
+   ],
+   [
+    "About us",
+    "https://www.insurancebusinessmag.com/asia/about-us/"
+   ],
+   [
+    "Contact us",
+    "https://www.insurancebusinessmag.com/asia/contact-us/"
+   ],
+   [
+    "Sitemap",
+    "https://www.insurancebusinessmag.com/asia/sitemap/"
+   ],
+   [
+    "Rss",
+    "https://www.insurancebusinessmag.com/asia/rss/"
+   ]
+  ]
+ },
+ {
+  "n": 16,
+  "url": "https://www.chinadailyhk.com/article/630743",
+  "status": 200,
+  "final_url": "https://www.chinadailyhk.com/hk/article/630743",
+  "content_type": "text/html; charset=utf-8",
+  "file": "16_630743.html",
+  "bytes": 223213,
+  "sha256": "fcc26616cad23ae537695e2e07024cccb8a3349eab51cd886bef9793cde903f3",
+  "title": "AIA Group's new business value hits record high in 2025, unveils $1.7b buyback",
+  "links": [
+   [
+    "CHINA",
+    "http://www.chinadaily.com.cn"
+   ],
+   [
+    "GLOBAL EDITION",
+    "https://global.chinadaily.com.cn"
+   ],
+   [
+    "",
+    "https://www.facebook.com/chinadailyhkedition/"
+   ],
+   [
+    "",
+    "https://twitter.com/chinadailyasia"
+   ],
+   [
+    "",
+    "https://www.linkedin.com/company/china-daily-asia-pacific-limited"
+   ],
+   [
+    "",
+    "https://www.youtube.com/@chinadailyapac1"
+   ],
+   [
+    "",
+    "https://www.instagram.com/"
+   ],
+   [
+    "",
+    "https://cdroundtable.com"
+   ],
+   [
+    "",
+    "https://www.chinadailyhk.com/user/login"
+   ],
+   [
+    "HOME",
+    "https://www.chinadailyhk.com/"
+   ],
+   [
+    "Hong Kong",
+    "https://www.chinadailyhk.com/article/hong_kong"
+   ],
+   [
+    "Nation",
+    "https://www.chinadailyhk.com/article/nation"
+   ],
+   [
+    "Asia",
+    "https://www.chinadailyhk.com/article/asia"
+   ],
+   [
+    "World",
+    "https://www.chinadailyhk.com/article/world"
+   ],
+   [
+    "Business",
+    "https://www.chinadailyhk.com/article/business"
+   ],
+   [
+    "Science",
+    "https://www.chinadailyhk.com/article/science"
+   ],
+   [
+    "Sports",
+    "https://www.chinadailyhk.com/article/sports"
+   ],
+   [
+    "Life & Art",
+    "https://www.chinadailyhk.com/article/life_art"
+   ],
+   [
+    "In-depth China",
+    "https://www.chinadailyhk.com/article/in_depth_china"
+   ],
+   [
+    "Quirky",
+    "https://www.chinadailyhk.com/article/quirky"
+   ],
+   [
+    "Photo",
+    "https://www.chinadailyhk.com/article/photo"
+   ],
+   [
+    "Graphics",
+    "https://www.chinadailyhk.com/article/graphics"
+   ],
+   [
+    "Data",
+    "https://www.chinadailyhk.com/article/data"
+   ],
+   [
+    "Culture HK",
+    "https://www.chinadailyhk.com/article/culture_hK"
+   ],
+   [
+    "Global Weekly",
+    "https://www.chinadailyhk.com/article/asia_weekly"
+   ],
+   [
+    "Eye on Asia",
+    "https://www.chinadailyhk.com/article/eye_on_asia"
+   ],
+   [
+    "Special",
+    "https://www.chinadailyhk.com/hk/special"
+   ],
+   [
+    "From PR Newswire",
+    "https://www.chinadailyhk.com/article/From_PR_Newswire"
+   ],
+   [
+    "OPINION",
+    "https://www.chinadailyhk.com/article/opinion"
+   ],
+   [
+    "Editorials",
+    "https://www.chinadailyhk.com/article/editorials"
+   ],
+   [
+    "Joephy Chan",
+    "https://www.chinadailyhk.com/article/Joephy_Chan"
+   ],
+   [
+    "Bill Condon",
+    "https://www.chinadailyhk.com/article/Bill_Condon"
+   ],
+   [
+    "David Cottam",
+    "https://www.chinadailyhk.com/article/david_qottam"
+   ],
+   [
+    "Grenville Cross",
+    "https://www.chinadailyhk.com/article/special_subject_332"
+   ],
+   [
+    "Richard Cullen",
+    "https://www.chinadailyhk.com/article/special_subject_364"
+   ],
+   [
+    "Dong Yu",
+    "https://www.chinadailyhk.com/article/Dong_Yu"
+   ],
+   [
+    "Michael Edesess",
+    "https://www.chinadailyhk.com/article/Michael_Edesess"
+   ],
+   [
+    "Wilson Lee Flores",
+    "https://www.chinadailyhk.com/article/Wilson_Lee_Flores"
+   ],
+   [
+    "Tom Fowdy",
+    "https://www.chinadailyhk.com/article/Tom_Fowdy"
+   ],
+   [
+    "Fu Kin-chi",
+    "https://www.chinadailyhk.com/article/Fu-Kin-chi"
+   ],
+   [
+    "Henry Ho",
+    "https://www.chinadailyhk.com/article/special_subject_381"
+   ],
+   [
+    "Ho Lok-sang",
+    "https://www.chinadailyhk.com/article/special_subject_331"
+   ],
+   [
+    "Ken Ip",
+    "https://www.chinadailyhk.com/article/Ken_Ip"
+   ],
+   [
+    "Regina Ip",
+    "https://www.chinadailyhk.com/article/Regina_Ip"
+   ],
+   [
+    "Tony Kwok",
+    "https://www.chinadailyhk.com/article/special_subject_333"
+   ],
+   [
+    "Lau Siu-kai",
+    "https://www.chinadailyhk.com/article/special_subject_365"
+   ],
+   [
+    "Dominic Lee",
+    "https://www.chinadailyhk.com/article/Dominic_Lee"
+   ],
+   [
+    "Virginia Lee",
+    "https://www.chinadailyhk.com/article/Virginia_Lee"
+   ],
+   [
+    "Christine Loh",
+    "https://www.chinadailyhk.com/article/Christine_Loh"
+   ],
+   [
+    "James Ockenden",
+    "https://www.chinadailyhk.com/article/James_Ockenden"
+   ],
+   [
+    "Quentin Parker",
+    "https://www.chinadailyhk.com/article/quentin_parker"
+   ],
+   [
+    "Tu Haiming",
+    "https://www.chinadailyhk.com/article/special_subject_363"
+   ],
+   [
+    "Xiao Ping",
+    "https://www.chinadailyhk.com/article/special_subject_338"
+   ],
+   [
+    "Roy Ying",
+    "https://www.chinadailyhk.com/article/Roy_Ying"
+   ],
+   [
+    "GBA",
+    "https://www.chinadailyhk.com/article/GBA"
+   ],
+   [
+    "GBA Guide",
+    "https://www.chinadailyhk.com/article/GBA_GUIDE"
+   ],
+   [
+    "GBA Life",
+    "https://www.chinadailyhk.com/article/GBA_LIFE"
+   ],
+   [
+    "GBA in Figures",
+    "https://www.chinadailyhk.com/article/gba_in_figures"
+   ],
+   [
+    "GBA Pulse",
+    "https://www.chinadailyhk.com/article/gba_pulse/gba_list.html"
+   ],
+   [
+    "VIDEO",
+    "https://www.chinadailyhk.com/video"
+   ],
+   [
+    "News",
+    "https://www.chinadailyhk.com/video?code=videonews"
+   ],
+   [
+    "Asia Featured",
+    "https://www.chinadailyhk.com/video?code=asia_featured"
+   ],
+   [
+    "CDHK In-Depth",
+    "https://www.chinadailyhk.com/video?code=CDHK_In-Depth"
+   ],
+   [
+    "China Daily DOCS",
+    "https://www.chinadailyhk.com/video?code=china_dailydocs"
+   ],
+   [
+    "Drone and Phone",
+    "https://www.chinadailyhk.com/video?code=drone_and_phone"
+   ],
+   [
+    "Girl City",
+    "https://www.chinadailyhk.com/video?code=girl_city"
+   ],
+   [
+    "Peak Talk",
+    "https://www.chinadailyhk.com/video?code=PeakTalk"
+   ],
+   [
+    "Tech Asia",
+    "https://www.chinadailyhk.com/video?code=tech_asia"
+   ],
+   [
+    "The Gold",
+    "https://www.chinadailyhk.com/video?code=TheGold"
+   ],
+   [
+    "Hong Kong",
+    "https://www.chinadailyhk.com/article/hong_kong"
+   ],
+   [
+    "AIA Group",
+    "https://www.chinadailyasia.com/hk/article/618320#AIA-says-incoming-chair-Tucker-to-focus-on-governance,-strategy-2025-08-21"
+   ],
+   [
+    "HSBC's Mark Tucker moves to Asia insurer AIA as chairman",
+    "https://www.chinadailyasia.com/hk/article/613378#HSBC's-Mark-Tucker-moves-to-Asia-insurer-AIA-as-chairman-2025-06-06"
+   ],
+   [
+    "Hong Kong's AIA misses VONB estimates, unveils $1.6 billion buyback",
+    "https://www.chinadailyasia.com/hk/article/606973#Hong-Kong's-AIA-misses-VONB-estimates,-unveils-$1.6-billion-buyback-2025-03-14"
+   ],
+   [
+    "1 China says consistently followed developments regarding Aung San Suu Kyi",
+    "https://www.chinadailyhk.com/article/632825#China-says-consistently-followed-developments-regarding-Aung-San-Suu-Kyi-2026-04-30"
+   ],
+   [
+    "2 Iran: 'Unprecedented action' if US continues maritime 'banditry'",
+    "https://www.chinadailyhk.com/article/632794#Iran%3A-'Unprecedented-action'-if-US-continues-maritime-'banditry'-2026-04-30"
+   ],
+   [
+    "3 NED’s dirty tricks mean Hong Kong still faces national security threats",
+    "https://www.chinadailyhk.com/article/632775#NED%E2%80%99s-dirty-tricks-mean-Hong-Kong-still-faces-national-security-threats-2026-04-29"
+   ],
+   [
+    "4 US: Iran war 'terminated' for congressional war powers deadline",
+    "https://www.chinadailyhk.com/article/632841#US%3A-Iran-war-'terminated'-for-congressional-war-powers-deadline-2026-05-01"
+   ],
+   [
+    "5 We don’t know enough yet about AI to regulate it",
+    "https://www.chinadailyhk.com/article/632774#We-don%E2%80%99t-know-enough-yet-about-AI-to-regulate-it-2026-04-29"
+   ],
+   [
+    "China opposes US curbs on test and certification, telecom sectors",
+    "https://www.chinadailyhk.com/article/632854#China-opposes-US-curbs-on-test-and-certification%2C-telecom-sectors-2026-05-01"
+   ],
+   [
+    "HKSAR govt blasts move to ‘sugarcoat Jimmy Lai’s criminal acts’",
+    "https://www.chinadailyhk.com/article/632850#HKSAR-govt-blasts-move-to-%E2%80%98sugarcoat-Jimmy-Lai%E2%80%99s-criminal-acts%E2%80%99-2026-05-01"
+   ],
+   [
+    "Hong Kong raises statutory minimum wage rate to HK$43.1/hour",
+    "https://www.chinadailyhk.com/article/632846#Hong-Kong-raises-statutory-minimum-wage-rate-to-HK%2443.1%2Fhour-2026-05-01"
+   ],
+   [
+    "China opposes US curbs on test and certification, telecom sectors",
+    "https://www.chinadailyhk.com/article/632854#China-opposes-US-curbs-on-test-and-certification%2C-telecom-sectors-2026-05-01"
+   ],
+   [
+    "HKSAR govt blasts move to ‘sugarcoat Jimmy Lai’s criminal acts’",
+    "https://www.chinadailyhk.com/article/632850#HKSAR-govt-blasts-move-to-%E2%80%98sugarcoat-Jimmy-Lai%E2%80%99s-criminal-acts%E2%80%99-2026-05-01"
+   ],
+   [
+    "HK welcomes tourist influx",
+    "https://www.chinadailyhk.com/article/632863#HK-welcomes-tourist-influx-2026-05-01"
+   ],
+   [
+    "Ban on public possession of alternative smoking products in force in HK",
+    "https://www.chinadailyhk.com/article/632860#Ban-on-public-possession-of-alternative-smoking-products-in-force-in-HK-2026-05-01"
+   ],
+   [
+    "HKSAR govt blasts move to ‘sugarcoat Jimmy Lai’s criminal acts’",
+    "https://www.chinadailyhk.com/article/632850#HKSAR-govt-blasts-move-to-%E2%80%98sugarcoat-Jimmy-Lai%E2%80%99s-criminal-acts%E2%80%99-2026-05-01"
+   ],
+   [
+    "25 HK students get scholarships for academic excellence, I&T dedication",
+    "https://www.chinadailyhk.com/article/632849#25-HK-students-get-scholarships-for-academic-excellence%2C-I%26T-dedication-2026-05-01"
+   ],
+   [
+    "Hong Kong raises statutory minimum wage rate to HK$43.1/hour",
+    "https://www.chinadailyhk.com/article/632846#Hong-Kong-raises-statutory-minimum-wage-rate-to-HK%2443.1%2Fhour-2026-05-01"
+   ],
+   [
+    "Mainland, HK, Macao SARs ink 4 civil aviation cooperation pacts",
+    "https://www.chinadailyhk.com/article/632844#Mainland%2C-HK%2C-Macao-SARs-ink-4-civil-aviation-cooperation-pacts-2026-05-01"
+   ],
+   [
+    "Mainland energy storage giant lands in Hetao zone’s HK Park",
+    "https://www.chinadailyhk.com/article/632831#Mainland-energy-storage-giant-lands-in-Hetao-zone%E2%80%99s-HK-Park-2026-04-30"
+   ],
+   [
+    "Experts advise prudent investment approach toward HSI",
+    "https://www.chinadailyhk.com/article/632829#Experts-advise-prudent-investment-approach-toward-HSI-2026-04-30"
+   ],
+   [
+    "Hong Kong",
+    "https://www.chinadailyhk.com/article/hong_kong"
+   ],
+   [
+    "Nation",
+    "https://www.chinadailyhk.com/article/nation"
+   ],
+   [
+    "Asia",
+    "https://www.chinadailyhk.com/article/asia"
+   ],
+   [
+    "World",
+    "https://www.chinadailyhk.com/article/world"
+   ],
+   [
+    "Business",
+    "https://www.chinadailyhk.com/article/business"
+   ],
+   [
+    "Science",
+    "https://www.chinadailyhk.com/article/science"
+   ],
+   [
+    "Sports",
+    "https://www.chinadailyhk.com/article/sports"
+   ],
+   [
+    "Life & Art",
+    "https://www.chinadailyhk.com/article/life_art"
+   ],
+   [
+    "In-depth China",
+    "https://www.chinadailyhk.com/article/in_depth_china"
+   ],
+   [
+    "Quirky",
+    "https://www.chinadailyhk.com/article/quirky"
+   ],
+   [
+    "Photo",
+    "https://www.chinadailyhk.com/article/photo"
+   ],
+   [
+    "Graphics",
+    "https://www.chinadailyhk.com/article/graphics"
+   ],
+   [
+    "Data",
+    "https://www.chinadailyhk.com/article/data"
+   ],
+   [
+    "Culture HK",
+    "https://www.chinadailyhk.com/article/culture_hK"
+   ],
+   [
+    "Global Weekly",
+    "https://www.chinadailyhk.com/article/asia_weekly"
+   ],
+   [
+    "Eye on Asia",
+    "https://www.chinadailyhk.com/article/eye_on_asia"
+   ],
+   [
+    "Special",
+    "https://www.chinadailyhk.com/hk/special"
+   ],
+   [
+    "From PR Newswire",
+    "https://www.chinadailyhk.com/article/From_PR_Newswire"
+   ],
+   [
+    "OPINION",
+    "https://www.chinadailyhk.com/article/opinion"
+   ],
+   [
+    "Editorials",
+    "https://www.chinadailyhk.com/article/editorials"
+   ],
+   [
+    "Joephy Chan",
+    "https://www.chinadailyhk.com/article/Joephy_Chan"
+   ],
+   [
+    "Bill Condon",
+    "https://www.chinadailyhk.com/article/Bill_Condon"
+   ],
+   [
+    "David Cottam",
+    "https://www.chinadailyhk.com/article/david_qottam"
+   ],
+   [
+    "Grenville Cross",
+    "https://www.chinadailyhk.com/article/special_subject_332"
+   ],
+   [
+    "Richard Cullen",
+    "https://www.chinadailyhk.com/article/special_subject_364"
+   ],
+   [
+    "Dong Yu",
+    "https://www.chinadailyhk.com/article/Dong_Yu"
+   ],
+   [
+    "Michael Edesess",
+    "https://www.chinadailyhk.com/article/Michael_Edesess"
+   ],
+   [
+    "Wilson Lee Flores",
+    "https://www.chinadailyhk.com/article/Wilson_Lee_Flores"
+   ],
+   [
+    "Tom Fowdy",
+    "https://www.chinadailyhk.com/article/Tom_Fowdy"
+   ],
+   [
+    "Fu Kin-chi",
+    "https://www.chinadailyhk.com/article/Fu-Kin-chi"
+   ],
+   [
+    "Henry Ho",
+    "https://www.chinadailyhk.com/article/special_subject_381"
+   ],
+   [
+    "Ho Lok-sang",
+    "https://www.chinadailyhk.com/article/special_subject_331"
+   ],
+   [
+    "Ken Ip",
+    "https://www.chinadailyhk.com/article/Ken_Ip"
+   ],
+   [
+    "Regina Ip",
+    "https://www.chinadailyhk.com/article/Regina_Ip"
+   ],
+   [
+    "Tony Kwok",
+    "https://www.chinadailyhk.com/article/special_subject_333"
+   ],
+   [
+    "Lau Siu-kai",
+    "https://www.chinadailyhk.com/article/special_subject_365"
+   ],
+   [
+    "Dominic Lee",
+    "https://www.chinadailyhk.com/article/Dominic_Lee"
+   ],
+   [
+    "Virginia Lee",
+    "https://www.chinadailyhk.com/article/Virginia_Lee"
+   ],
+   [
+    "Christine Loh",
+    "https://www.chinadailyhk.com/article/Christine_Loh"
+   ],
+   [
+    "James Ockenden",
+    "https://www.chinadailyhk.com/article/James_Ockenden"
+   ],
+   [
+    "Quentin Parker",
+    "https://www.chinadailyhk.com/article/quentin_parker"
+   ],
+   [
+    "Tu Haiming",
+    "https://www.chinadailyhk.com/article/special_subject_363"
+   ],
+   [
+    "Xiao Ping",
+    "https://www.chinadailyhk.com/article/special_subject_338"
+   ],
+   [
+    "Roy Ying",
+    "https://www.chinadailyhk.com/article/Roy_Ying"
+   ],
+   [
+    "GBA",
+    "https://www.chinadailyhk.com/article/GBA"
+   ],
+   [
+    "GBA Guide",
+    "https://www.chinadailyhk.com/article/GBA_GUIDE"
+   ],
+   [
+    "GBA Life",
+    "https://www.chinadailyhk.com/article/GBA_LIFE"
+   ],
+   [
+    "GBA in Figures",
+    "https://www.chinadailyhk.com/article/gba_in_figures"
+   ],
+   [
+    "GBA Pulse",
+    "https://www.chinadailyhk.com/article/gba_pulse/gba_list.html"
+   ],
+   [
+    "VIDEO",
+    "https://www.chinadailyhk.com/video"
+   ],
+   [
+    "News",
+    "https://www.chinadailyhk.com/video?code=videonews"
+   ],
+   [
+    "Asia Featured",
+    "https://www.chinadailyhk.com/video?code=asia_featured"
+   ],
+   [
+    "CDHK In-Depth",
+    "https://www.chinadailyhk.com/video?code=CDHK_In-Depth"
+   ],
+   [
+    "China Daily DOCS",
+    "https://www.chinadailyhk.com/video?code=china_dailydocs"
+   ],
+   [
+    "Drone and Phone",
+    "https://www.chinadailyhk.com/video?code=drone_and_phone"
+   ],
+   [
+    "Girl City",
+    "https://www.chinadailyhk.com/video?code=girl_city"
+   ],
+   [
+    "Peak Talk",
+    "https://www.chinadailyhk.com/video?code=PeakTalk"
+   ],
+   [
+    "Tech Asia",
+    "https://www.chinadailyhk.com/video?code=tech_asia"
+   ],
+   [
+    "The Gold",
+    "https://www.chinadailyhk.com/video?code=TheGold"
+   ],
+   [
+    "Hong Kong Edition",
+    "https://www.chinadailyhk.com/newspaper?pub_code=chinadaily&g=0"
+   ],
+   [
+    "Global Weekly",
+    "https://www.chinadailyhk.com/newspaper?pub_code=global-edition-weekly&g=0"
+   ],
+   [
+    "Roundtable",
+    "http://www.cdroundtable.com/"
+   ],
+   [
+    "Campus News Awards",
+    "http://campus.chinadailyasia.com/"
+   ],
+   [
+    "Newsletter",
+    "https://www.chinadailyhk.com/subscription"
+   ],
+   [
+    "Lifestyle Premium",
+    "https://cdlifestylepremium.com/"
+   ],
+   [
+    "OPINION",
+    "https://www.chinadailyhk.com/article/opinion"
+   ],
+   [
+    "GBA",
+    "https://www.chinadailyhk.com/article/GBA"
+   ],
+   [
+    "VIDEO",
+    "https://www.chinadailyhk.com/video"
+   ],
+   [
+    "About Us",
+    "https://www.chinadailyhk.com/help/about-us.html"
+   ],
+   [
+    "Services & Products",
+    "https://www.chinadailyhk.com/help/services-products.html"
+   ],
+   [
+    "Advertise on Site",
+    "https://www.chinadailyhk.com/help/advertise-on-site.html"
+   ],
+   [
+    "Contact Us",
+    "https://www.chinadailyhk.com/help/contact-us.html"
+   ],
+   [
+    "Subscriptions",
+    "https://www.chinadailyhk.com/help/subscriptions.html"
+   ],
+   [
+    "Join Us",
+    "https://www.chinadailyhk.com/help/join-us.html"
+   ],
+   [
+    "Accessibility Statement",
+    "https://www.chinadailyhk.com/help/accessibility-statement.html"
+   ],
+   [
+    "Privacy Policy",
+    "https://www.chinadailyhk.com/help/privacy-policy.html"
+   ],
+   [
+    "",
+    "https://www.facebook.com/chinadailyhkedition/"
+   ],
+   [
+    "",
+    "https://twitter.com/chinadailyasia"
+   ],
+   [
+    "",
+    "https://www.linkedin.com/company/china-daily-asia-pacific-limited"
+   ],
+   [
+    "",
+    "https://www.youtube.com/@chinadailyapac1"
+   ],
+   [
+    "",
+    "https://www.instagram.com/"
+   ],
+   [
+    "CHINA",
+    "https://www.chinadaily.com.cn"
+   ],
+   [
+    "GLOBAL EDITION",
+    "https://global.chinadaily.com.cn"
+   ]
+  ]
+ }
+]
