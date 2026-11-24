@@ -4806,6 +4806,215 @@
    ],
    "completeness": "list-only",
    "last_verified": "2026-11-16"
+  },
+  {
+   "uin": "110N171V17",
+   "name": "Maha Raksha Supreme Select",
+   "segment": "Individual",
+   "category": "Term",
+   "plan_structure": "Pure Term",
+   "sub_category": "Total-protection term plan with life-stage cover increases and optional return of premium",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Life Secure",
+     "summary": "Single-life pure term cover"
+    },
+    {
+     "name": "Life Secure Plus",
+     "summary": "Single-life cover that returns 100% of premiums paid on survival to maturity"
+    },
+    {
+     "name": "Joint Life Secure",
+     "summary": "Joint cover for spouses"
+    },
+    {
+     "name": "Joint Life Secure Plus",
+     "summary": "Joint cover with return of 100% of premiums on survival"
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 18,
+    "entry_age_max_years": 65,
+    "maturity_age_max_years": 100,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": true,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Entry age and cover-to-100 from an aggregator review (Ditto). Minimum sum assured shown inconsistently there (Rs 25 lakh vs Rs 2 crore), so left blank. UIN V12 per Nov 2025 press release. Specs carried from 110N171V12; revised version not yet verified against new brochure."
+   },
+   "benefits": {
+    "death": "Highest of sum assured, 10x annualised premium or 105% of premiums paid (aggregator).",
+    "maturity": "Nil on Secure options; Plus options return 100% of premiums paid (excluding modal loadings and discounts) on survival.",
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": true,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": "Terminal illness pays 50% of effective sum assured early and waives later premiums; cover steps up at marriage (+50%), first child (+25%), second child (+25%) and home loan (up to +100% of loan); annual top-ups of 5-20%; FlexiPay premium deferral up to 12 months; Rs 3 lakh instant payout within one working day after 3 policy years; joint-life survivor can continue via a one-time premium."
+   },
+   "category_details": {
+    "term": {
+     "rop_option": true,
+     "whole_life_cover_option": true,
+     "ci_or_accelerated_benefit": "Terminal illness 50% accelerated payout; critical illness via CritiCare Plus rider (up to Rs 1 crore, 40 illnesses)",
+     "payout_options": "Lump sum + income option",
+     "women_or_nonsmoker_discount": "Women about 15% lower premium; salaried 8.5% off first-year premium; digital 10% off (limited/regular pay)",
+     "increasing_cover_option": "Yes - at marriage, childbirth, home loan and via annual top-ups"
+    },
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Four options: single or joint life, with or without return of premium",
+    "Cover rises automatically at marriage, childbirth and home loan",
+    "Premium holiday (FlexiPay) of up to 12 months",
+    "Terminal illness pays 50% of cover early",
+    "Discounts for women, salaried and digital buyers"
+   ],
+   "riders_available": [
+    "Accidental Death Benefit",
+    "Accidental Total and Permanent Disability",
+    "Waiver of Premium",
+    "Comprehensive Protection Rider",
+    "Vitality Protect",
+    "Vitality Health",
+    "CritiCare Plus",
+    "Hospicare"
+   ],
+   "online_purchase": true,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Non-linked, non-participating term plan with life-event cover increases, single and joint life options and optional return of premium, for customers wanting cover that grows with life stages.",
+   "urls": {
+    "product_page": "https://www.tataaia.com/life-insurance-plans/term-insurance/maha-raksha-supreme-select.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.tataaia.com/active-and-withdrawn-product-status.html",
+    "https://www.theweek.in/wire-updates/business/2025/11/19/dcm71-tata-aia.html",
+    "https://joinditto.in/term-insurance/tata-aia/maha-raksha-supreme-select/",
+    "https://www.oneassure.in/term-insurance/tata-aia-life-insurance-company/tata-aia-maha-raksha-supreme-select"
+   ],
+   "completeness": "partial",
+   "last_verified": "2026-11-24"
+  },
+  {
+   "uin": "110N176V14",
+   "name": "Sampoorna Raksha Promise",
+   "segment": "Individual",
+   "category": "Term",
+   "plan_structure": "Pure Term",
+   "sub_category": "Term cover to age 100 with optional return of premium",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Protection"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Life Promise",
+     "summary": "Single-life term cover (option 1 in the policy wording)"
+    },
+    {
+     "name": "Life Promise Plus",
+     "summary": "Single-life Plus option (option 2); the plan advertises a return-of-premium feature"
+    },
+    {
+     "name": "Joint Life Promise",
+     "summary": "Cover on two lives, the life insured and spouse (option 3)"
+    },
+    {
+     "name": "Joint Life Promise Plus",
+     "summary": "Two-life Plus option (option 4)"
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": 100,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": true,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Entry age, term, premium and sum assured limits not yet verified from an official brochure. UIN V09 per Dec 2025 press release; the policy wording seen was V07. Specs carried from 110N176V09; revised version not yet verified against new brochure."
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": true,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": "Future premiums waived on terminal illness diagnosis; premium holiday of up to 12 months; interim claim payout of up to Rs 3 lakh mentioned in a press release (conditions unverified)."
+   },
+   "category_details": {
+    "term": {
+     "rop_option": true,
+     "whole_life_cover_option": true,
+     "women_or_nonsmoker_discount": "About 15% lower premium for women; salaried and digital discounts advertised"
+    },
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Cover can run to age 100",
+    "Optional return of premium on survival (Plus options)",
+    "Premium holiday of up to 12 months",
+    "Terminal illness diagnosis waives future premiums",
+    "Women get about 15% lower premiums",
+    "Online purchase, claims and premium payment"
+   ],
+   "riders_available": [
+    "Terminal Illness with Term Booster (TTB)",
+    "Accidental Death Benefit (ADB)",
+    "Accidental Total and Permanent Disability (ATPD)"
+   ],
+   "online_purchase": true,
+   "channels": [],
+   "tax_benefits": null,
+   "description": "Non-linked, non-participating term plan with cover up to age 100, single and joint-life options and an optional return of premium, for long-duration family protection.",
+   "urls": {
+    "product_page": "https://www.tataaia.com/life-insurance-plans/term-insurance/sampoorna-raksha-promise.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.tataaia.com/active-and-withdrawn-product-status.html",
+    "https://www.tataaia.com/life-insurance-plans/term-insurance/sampoorna-raksha-promise.html",
+    "https://www.tribuneindia.com/news/business/tata-aia-sampoorna-raksha-promise-helps-families-secure-financial-goals-amid-rising-cost-of-living",
+    "https://www.americanexpress.com/content/dam/amex/in/Insurance/life-insurance-policy-wordings-tata-aia.pdf"
+   ],
+   "completeness": "partial",
+   "last_verified": "2026-11-24"
   }
  ],
  "notes": "Run 1 partial (usage limit hit). Official product pages are JS-rendered: static HTML gives names, not UINs or specs. UINs come from landing-page titles, press releases and policy wordings, so versions may lag. Combo 'Solutions' (Capital Guarantee ..., InstaProtect) look like bundles of existing UINs and are not listed as products. Withdrawn list is JS-only; withdrawn rows are inferred from absence in the active list. | 2026-11-16 deep check: UINs mapped from the active/withdrawn status page (latest version per product, cross-checked against the withdrawn download-centre list). OPEN: latest versions of Maha Raksha Supreme Select (110N171V16), Sampoorna Raksha Promise (110N176V13), Shubh Flexi Income (110N207V02), Saral Pension (110N159V09), Wealth Maxima (110L114V04) and 110N183V01 appear on the withdrawn list though the status page reads Active - confirm; product 110N183 (V02) labelled 'Health Buddy' vs Shubh Shakti unresolved."

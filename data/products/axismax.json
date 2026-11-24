@@ -8397,6 +8397,238 @@
    ],
    "completeness": "list-only",
    "last_verified": "2026-11-02"
+  },
+  {
+   "uin": "104L084V21",
+   "name": "Axis Max Life Shiksha Plus Super Plan",
+   "segment": "Individual",
+   "category": "ULIP",
+   "plan_structure": "Unit Linked",
+   "sub_category": null,
+   "linkage": "Linked",
+   "participation": "Non-Par",
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Specs carried from 104L084V20; revised version not yet verified against new brochure."
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/child-insurance-plans/shiksha-plus-super",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.axismaxlife.com/all-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-11-24"
+  },
+  {
+   "uin": "104N122V27",
+   "name": "Axis Max Life Smart Guaranteed Pension Plan",
+   "segment": "Individual",
+   "category": "Pension & Annuity",
+   "plan_structure": "Immediate Annuity",
+   "sub_category": "Single-premium immediate annuity (incl. NPS annuity)",
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Retirement"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Single Life (no death benefit)",
+     "summary": "Lifetime fixed income, stops on death."
+    },
+    {
+     "name": "Single Life (with death benefit)",
+     "summary": "Lifetime income; 100% of purchase price to nominee on death."
+    },
+    {
+     "name": "Joint Life (no death benefit)",
+     "summary": "Income until last survivor dies."
+    },
+    {
+     "name": "Joint Life (with death benefit)",
+     "summary": "Income until last survivor dies; purchase price returned; optional advance of 5 years' annuity."
+    },
+    {
+     "name": "NPS Family Income",
+     "summary": "For NPS subscribers only, per PFRDA rules."
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 30,
+    "entry_age_max_years": 85,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": true,
+    "ppt_options": [
+     "Single"
+    ],
+    "premium_modes": [
+     "Single"
+    ],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": "As per board-approved underwriting policy",
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Specs read from the V23 policy contract (V26 current) - verify. Under 30 only for compulsory annuity purchases; QROPS min 55. Annuity payable annual/half-yearly/quarterly/monthly; min payout Rs 12,000 p.a. / 6,000 half-yearly / 3,000 quarterly / 1,000 monthly. No medical underwriting. Top-ups in first 10 years, min Rs 1 lakh. Specs carried from 104N122V26; revised version not yet verified against new brochure."
+   },
+   "benefits": {
+    "death": "Death-benefit variants return 100% of single premium plus top-ups to nominee; policy then ends.",
+    "maturity": "None.",
+    "survival_income": "Fixed guaranteed annuity in arrears while annuitant(s) alive.",
+    "guaranteed": true,
+    "return_of_premium": true,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": "Surrender only for death-benefit variants after free look: 50% of single premium less annuities paid that year. Joint-life option to take 5 years' annuity in advance on first death."
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": {
+     "annuity_options_count": 5,
+     "immediate_or_deferred": "Immediate",
+     "joint_life": true,
+     "return_of_purchase_price": true
+    },
+    "health": null
+   },
+   "key_features": [
+    "Guaranteed fixed income for life on single or joint lives",
+    "Death-benefit variants return the purchase price to nominees",
+    "Top-ups allowed in first 10 years, min Rs 1 lakh each",
+    "Choice of annual, half-yearly, quarterly or monthly payouts",
+    "NPS subscribers can buy annuity from NPS proceeds"
+   ],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": "Subject to prevailing tax law; NRI/OCI NPS annuities subject to TDS.",
+   "description": "Non-linked non-participating single-premium immediate annuity giving guaranteed lifetime income, also usable for NPS annuity purchase.",
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/retirement-plans/smart-guaranteed-pension-plan",
+    "brochure": "https://ds4reac9d5tsg.cloudfront.net/static-page/assets/homepage/Smart%20Guaranteed%20Pension%20Plan%20-%20Individual%20Policy%20Contract_V23_Withdrawn.pdf"
+   },
+   "sources": [
+    "https://www.axismaxlife.com/all-insurance-plans",
+    "https://ds4reac9d5tsg.cloudfront.net/static-page/assets/homepage/Smart%20Guaranteed%20Pension%20Plan%20-%20Individual%20Policy%20Contract_V23_Withdrawn.pdf",
+    "https://www.axismaxlife.com/AnnuityRates"
+   ],
+   "completeness": "partial",
+   "last_verified": "2026-11-24"
+  },
+  {
+   "uin": "104N160V02",
+   "name": "Axis Max Life Smart Retirement Income with Sustained Earnings Plan",
+   "segment": "Individual",
+   "category": "Pension & Annuity",
+   "plan_structure": null,
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": null,
+   "need_tags": [],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [],
+   "eligibility": {
+    "entry_age_min_years": null,
+    "entry_age_max_years": null,
+    "maturity_age_max_years": null,
+    "policy_term_min_years": null,
+    "policy_term_max_years": null,
+    "whole_life": null,
+    "ppt_options": [],
+    "premium_modes": [],
+    "min_annual_premium_inr": null,
+    "min_single_premium_inr": null,
+    "max_premium_text": null,
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Specs carried from 104N160V01; revised version not yet verified against new brochure."
+   },
+   "benefits": {
+    "death": null,
+    "maturity": null,
+    "survival_income": null,
+    "guaranteed": null,
+    "return_of_premium": null,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": null,
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [],
+   "riders_available": [],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": null,
+   "description": null,
+   "urls": {
+    "product_page": "https://www.axismaxlife.com/pension-plans/smart-rise-plan",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.axismaxlife.com/all-insurance-plans"
+   ],
+   "completeness": "list-only",
+   "last_verified": "2026-11-24"
   }
  ],
  "notes": ""

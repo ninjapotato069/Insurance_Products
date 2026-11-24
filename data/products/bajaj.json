@@ -13114,6 +13114,113 @@
    ],
    "completeness": "list-only",
    "last_verified": "2026-10-28"
+  },
+  {
+   "uin": "116N188V10",
+   "name": "Bajaj Life Assured Wealth Goal Platinum",
+   "segment": "Individual",
+   "category": "Savings - Non-Par",
+   "plan_structure": "Guaranteed Income",
+   "sub_category": null,
+   "linkage": "Non-Linked",
+   "participation": "Non-Par",
+   "need_tags": [
+    "Savings"
+   ],
+   "standard_product": null,
+   "status": "Active",
+   "launch_date": null,
+   "withdrawn_date": null,
+   "variants": [
+    {
+     "name": "Smart Income",
+     "summary": "Guaranteed early income with an income period of 5 to 30 years plus 110% enhanced return of premium."
+    },
+    {
+     "name": "Regular Income",
+     "summary": "Guaranteed income that begins after the policy term and runs up to 30 years."
+    }
+   ],
+   "eligibility": {
+    "entry_age_min_years": 0,
+    "entry_age_max_years": 60,
+    "maturity_age_max_years": 75,
+    "policy_term_min_years": 5,
+    "policy_term_max_years": 20,
+    "whole_life": null,
+    "ppt_options": [
+     "Limited 5",
+     "Limited 6",
+     "Limited 7",
+     "Limited 8",
+     "Limited 10",
+     "Limited 12",
+     "Limited 15",
+     "Regular"
+    ],
+    "premium_modes": [
+     "Annual",
+     "Half-yearly",
+     "Quarterly",
+     "Monthly"
+    ],
+    "min_annual_premium_inr": 30000,
+    "min_single_premium_inr": null,
+    "max_premium_text": "No maximum, subject to underwriting policy",
+    "min_sum_assured_inr": null,
+    "max_sum_assured_text": null,
+    "notes": "Limited pay policy terms 10/15/20 years; regular pay term equals PPT. Minimum maturity age 18. The eligibility table lists only Smart Income although Regular Income is described elsewhere on the page. Specs carried from 116N188V09; revised version not yet verified against new brochure."
+   },
+   "benefits": {
+    "death": "Sum assured paid to the nominee if the life assured dies during the policy term (formula not stated on page).",
+    "maturity": "Enhanced return of premium: 110% of total premiums paid at the end of the income period.",
+    "survival_income": "Guaranteed income stream; Smart Income pays early income starting in the first policy years for an income period of 5-30 years.",
+    "guaranteed": true,
+    "return_of_premium": true,
+    "loan": null,
+    "partial_withdrawal": null,
+    "other": null
+   },
+   "category_details": {
+    "term": null,
+    "ulip": null,
+    "savings": {
+     "payout_type": "Income",
+     "income_duration": "5 to 30 years",
+     "bonus_type": "None",
+     "deferment_option": "Regular Income variant: income starts after the policy term"
+    },
+    "annuity": null,
+    "health": null
+   },
+   "key_features": [
+    "Guaranteed income stream with 110% return of premium",
+    "Smart Income starts early; Regular Income starts after the term",
+    "Income period of up to 30 years",
+    "Flexible premium payment terms of 5-15 years"
+   ],
+   "riders_available": [
+    "Accidental Death Benefit Rider II",
+    "Accidental Permanent Total/Partial Disability Benefit Rider II",
+    "Family Protect Rider",
+    "New Waiver of Premium Rider",
+    "New Critical Illness Benefit Rider",
+    "Care Plus Rider Non-Linked"
+   ],
+   "online_purchase": null,
+   "channels": [],
+   "tax_benefits": "Premium deduction under Section 123 (old regime); benefits exempt under Section 11 read with Schedule II of the Income-tax Act, 2025, subject to conditions.",
+   "description": "Non-linked non-participating savings plan paying guaranteed income, either from the early policy years (Smart Income) or after the policy term (Regular Income), with 110% return of premium at the end.",
+   "urls": {
+    "product_page": "https://www.bajajlifeinsurance.com/savings-plans/assured-wealth-goal-platinum-plan.html",
+    "brochure": null
+   },
+   "sources": [
+    "https://www.bajajlifeinsurance.com/on-sale-plans.html",
+    "https://www.bajajlifeinsurance.com/savings-plans/assured-wealth-goal-platinum-plan.html"
+   ],
+   "completeness": "full",
+   "last_verified": "2026-11-24"
   }
  ],
  "notes": "Inventory from bajajlifeinsurance.com on-sale-plans.html (32 individual, 14 group, 14 riders) and withdrawn-plans.html. The withdrawn page has no category or date columns and its text fetch stops at row 195 (page text truncated mid-link), so later rows, if any, are not captured. Withdrawn rows are collapsed to one row per product number (latest listed version; earlier versions noted in description); older versions of products still on sale (Group Term Life 116N021 V01-V02, Group Credit Protection Plus 116N094 V01-V03, Group Superannuation Secure 116N115V01, riders 116B005, 116B010, 116B026 early versions) are not listed separately. Withdrawn-row categories are inferred from names and UIN letter (N non-linked, L linked); null where unclear. No withdrawal dates are published. Group/rider categories are inferred from names. Company renamed from Bajaj Allianz Life Insurance around Nov 2025; withdrawn products keep the old brand name. | 2026-11-09 deep check: on-sale list matches catalogue except Saral Pension V18 (added)."

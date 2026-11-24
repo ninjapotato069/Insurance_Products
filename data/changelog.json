@@ -436,9 +436,10 @@
   "type": "missing_uin",
   "uin": "101L170V02",
   "title": "HDFC Life Group Gratuity Product is no longer on the product list",
-  "details": "Possible withdrawal or new version; needs confirmation.",
+  "details": "Superseded by 101L170V03 (same product, newer version) which is on the list",
   "source": "https://www.hdfclife.com/group-insurance-plans",
-  "status": "needs_review"
+  "status": "dismissed",
+  "resolved_on": "2026-11-24"
  },
  {
   "id": "2026-11-23-axismax-new_version-104L084V21",
@@ -446,10 +447,11 @@
   "company_id": "axismax",
   "type": "new_version",
   "uin": "104L084V21",
-  "title": "104L084V21 appeared on the official product list",
-  "details": "Spotted automatically; needs research to name and spec it.",
+  "title": "Axis Max Life Shiksha Plus Super Plan revised (104L084V21)",
+  "details": "New version 104L084V21 on the official product list replaces 104L084V20; revised specs not yet verified",
   "source": "https://www.axismaxlife.com/all-insurance-plans",
-  "status": "needs_review"
+  "status": "done",
+  "resolved_on": "2026-11-24"
  },
  {
   "id": "2026-11-23-axismax-new_version-104N122V27",
@@ -457,10 +459,11 @@
   "company_id": "axismax",
   "type": "new_version",
   "uin": "104N122V27",
-  "title": "104N122V27 appeared on the official product list",
-  "details": "Spotted automatically; needs research to name and spec it.",
+  "title": "Axis Max Life Smart Guaranteed Pension Plan revised (104N122V27)",
+  "details": "New version 104N122V27 on the official product list replaces 104N122V26; revised specs not yet verified",
   "source": "https://www.axismaxlife.com/all-insurance-plans",
-  "status": "needs_review"
+  "status": "done",
+  "resolved_on": "2026-11-24"
  },
  {
   "id": "2026-11-23-axismax-new_version-104N160V02",
@@ -468,10 +471,11 @@
   "company_id": "axismax",
   "type": "new_version",
   "uin": "104N160V02",
-  "title": "104N160V02 appeared on the official product list",
-  "details": "Spotted automatically; needs research to name and spec it.",
+  "title": "Axis Max Life Smart Retirement Income with Sustained Earnings Plan revised (104N160V02)",
+  "details": "New version 104N160V02 on the official product list replaces 104N160V01; revised specs not yet verified",
   "source": "https://www.axismaxlife.com/all-insurance-plans",
-  "status": "needs_review"
+  "status": "done",
+  "resolved_on": "2026-11-24"
  },
  {
   "id": "2026-11-23-axismax-missing_uin-104L084V20",
@@ -480,9 +484,10 @@
   "type": "missing_uin",
   "uin": "104L084V20",
   "title": "Axis Max Life Shiksha Plus Super Plan is no longer on the product list",
-  "details": "Possible withdrawal or new version; needs confirmation.",
+  "details": "Superseded by 104L084V21",
   "source": "https://www.axismaxlife.com/all-insurance-plans",
-  "status": "needs_review"
+  "status": "dismissed",
+  "resolved_on": "2026-11-24"
  },
  {
   "id": "2026-11-23-axismax-missing_uin-104N122V26",
@@ -491,9 +496,10 @@
   "type": "missing_uin",
   "uin": "104N122V26",
   "title": "Axis Max Life Smart Guaranteed Pension Plan is no longer on the product list",
-  "details": "Possible withdrawal or new version; needs confirmation.",
+  "details": "Superseded by 104N122V27",
   "source": "https://www.axismaxlife.com/all-insurance-plans",
-  "status": "needs_review"
+  "status": "dismissed",
+  "resolved_on": "2026-11-24"
  },
  {
   "id": "2026-11-23-axismax-missing_uin-104N160V01",
@@ -502,9 +508,10 @@
   "type": "missing_uin",
   "uin": "104N160V01",
   "title": "Axis Max Life Smart Retirement Income with Sustained Earnings Plan is no longer on the product list",
-  "details": "Possible withdrawal or new version; needs confirmation.",
+  "details": "Superseded by 104N160V02",
   "source": "https://www.axismaxlife.com/all-insurance-plans",
-  "status": "needs_review"
+  "status": "dismissed",
+  "resolved_on": "2026-11-24"
  },
  {
   "id": "2026-11-23-bajaj-new_version-116N188V10",
@@ -512,10 +519,11 @@
   "company_id": "bajaj",
   "type": "new_version",
   "uin": "116N188V10",
-  "title": "116N188V10 appeared on the official product list",
-  "details": "Spotted automatically; needs research to name and spec it.",
+  "title": "Bajaj Life Assured Wealth Goal Platinum revised (116N188V10)",
+  "details": "New version 116N188V10 on the official product list replaces 116N188V09; revised specs not yet verified",
   "source": "https://www.bajajlifeinsurance.com/on-sale-plans.html",
-  "status": "needs_review"
+  "status": "done",
+  "resolved_on": "2026-11-24"
  },
  {
   "id": "2026-11-23-bajaj-missing_uin-116N188V09",
@@ -524,9 +532,10 @@
   "type": "missing_uin",
   "uin": "116N188V09",
   "title": "Bajaj Life Assured Wealth Goal Platinum is no longer on the product list",
-  "details": "Possible withdrawal or new version; needs confirmation.",
+  "details": "Superseded by 116N188V10",
   "source": "https://www.bajajlifeinsurance.com/on-sale-plans.html",
-  "status": "needs_review"
+  "status": "dismissed",
+  "resolved_on": "2026-11-24"
  },
  {
   "id": "2026-11-23-tataaia-new_uin-110N134V05",
@@ -545,10 +554,11 @@
   "company_id": "tataaia",
   "type": "new_version",
   "uin": "110N171V17",
-  "title": "110N171V17 appeared on the official product list",
-  "details": "Spotted automatically; needs research to name and spec it.",
+  "title": "Maha Raksha Supreme Select revised (110N171V17)",
+  "details": "New version on official list replaces 110N171V12; specs not yet re-verified",
   "source": "https://www.tataaia.com/active-and-withdrawn-product-status.html",
-  "status": "needs_review"
+  "status": "done",
+  "resolved_on": "2026-11-24"
  },
  {
   "id": "2026-11-23-tataaia-new_version-110N176V14",
@@ -556,10 +566,11 @@
   "company_id": "tataaia",
   "type": "new_version",
   "uin": "110N176V14",
-  "title": "110N176V14 appeared on the official product list",
-  "details": "Spotted automatically; needs research to name and spec it.",
+  "title": "Sampoorna Raksha Promise revised (110N176V14)",
+  "details": "New version on official list replaces 110N176V09; specs not yet re-verified",
   "source": "https://www.tataaia.com/active-and-withdrawn-product-status.html",
-  "status": "needs_review"
+  "status": "done",
+  "resolved_on": "2026-11-24"
  },
  {
   "id": "2026-11-23-bandhan-new_uin-138L099V01",
