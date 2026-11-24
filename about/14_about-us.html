@@ -1,0 +1,4409 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> -->
+	<meta charset="utf-8" url="https://pramericalife.in/" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+				<title>About Us | Pramerica Life Insurance</title>
+		<meta property="og:title" content="About Us | Pramerica Life Insurance">
+		<link rel="icon" type="image/png" sizes="16x16" href="#">
+			<meta name="description" content="Pramerica Life Insurance Limited represents the coming together of two renowned financial services organizations, with a legacy of business excellence spread over decades.">
+		<meta property="og:description" content="Pramerica Life Insurance Limited represents the coming together of two renowned financial services organizations, with a legacy of business excellence spread over decades.">
+					<link rel="canonical" href="https://pramericalife.in/about-us">
+			<meta property="og:site_name" content="https://pramericalife.in/">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://pramericalife.in/about-us">
+	<!-- <link rel="icon" href="https://pramericalife.in//frontend/assets/images/favicon.ico" type="image/x-icon" />     -->
+	<link rel="stylesheet" type="text/css" href="https://pramericalife.in//frontend/assets/css/external.css" />
+	<link rel="stylesheet" type="text/css" href="https://pramericalife.in//frontend/assets/css/style.css" />
+	<link rel="stylesheet" type="text/css" href="https://pramericalife.in//frontend/assets/css/custom-style.css" />
+	<link rel="icon" type="image/x-icon" href="https://pramericalife.in/frontend/assets/images/favicon.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"  />
+	
+	<style>
+		/* scroll */
+	
+/* end */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overscroll-behavior: auto !important;
+}
+
+
+/* marquee css */
+		
+		:root {
+		--strip-bg: #0b1f42;
+		--strip-text: #ffffff;
+		--strip-height: 40px;
+		--marquee-speed: 40s;
+		--gap: 80px;
+	  }
+ 
+ 
+ 
+   /* ---------- Strip ---------- */
+  .marquee-strip {
+    position: relative;
+    width: 100%;
+    height: var(--strip-height);
+    background: var(--strip-bg);
+    color: var(--strip-text);
+    overflow: hidden;
+    transition: height 0.35s ease, opacity 0.3s ease;
+  }
+ 
+  /* Hidden until the page has fully loaded, then slides down and starts */
+  .marquee-strip:not(.is-ready) {
+    height: 0;
+    opacity: 0;
+  }
+ 
+  .marquee-strip:not(.is-ready) .marquee-track {
+    animation-play-state: paused;
+  }
+ 
+  .marquee-strip.is-hidden {
+    height: 0;
+    opacity: 0;
+    pointer-events: none;
+  }
+ 
+  .marquee-viewport {
+    height: 100%;
+    overflow: hidden;
+    /* leave room on the right for the close button */
+    padding-right: 56px;
+    display: flex;
+    align-items: center;
+  }
+ 
+  .marquee-track {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    width: max-content;
+    will-change: transform;
+    /* parked off-screen right until the animation is started */
+    transform: translateX(var(--enter-distance, 100vw));
+  }
+ 
+  /* The animation is only created AFTER the final sizes are measured,
+     so its speed never changes mid-run.
+     1) slide in from the right edge once, 2) then loop seamlessly */
+  .marquee-strip.is-ready .marquee-track {
+    animation:
+      marquee-enter var(--enter-duration) linear 1 forwards,
+      marquee-scroll var(--marquee-speed) linear var(--enter-duration) infinite;
+  }
+ 
+  /* Pause on hover / keyboard focus */
+  .marquee-strip:hover .marquee-track,
+  .marquee-strip:focus-within .marquee-track {
+    animation-play-state: paused;
+  }
+ 
+  .marquee-group {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    gap: var(--gap);
+    padding-right: var(--gap);
+  }
+ 
+  .marquee-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    white-space: nowrap;
+    line-height: 1;
+  }
+ 
+  .marquee-item .icon {
+    font-size: 24px;
+    line-height: 1;
+  }
+ 
+  .marquee-item a {
+    color: var(--strip-text);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+ 
+  .marquee-item a:hover,
+  .marquee-item a:focus-visible {
+    text-decoration: none;
+  }
+ 
+  /* Intro: start fully off-screen on the right, travel to the start position */
+  @keyframes marquee-enter {
+    from { transform: translateX(var(--enter-distance, 100vw)); }
+    to   { transform: translateX(0); }
+  }
+ 
+  /* Seamless loop: track holds two identical groups, shift by one group */
+  @keyframes marquee-scroll {
+    from { transform: translateX(0); }
+    to   { transform: translateX(-50%); }
+  }
+ 
+  /* ---------- Close button ---------- */
+  .marquee-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--strip-bg);
+    border: 0;
+    cursor: pointer;
+    z-index: 2;
+    /* soft fade so text slides under the button */
+    box-shadow: -14px 0 14px -6px var(--strip-bg);
+  }
+ 
+  .marquee-close svg {
+    width: 24px;
+    height: 24px;
+    display: block;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+    opacity: 0.85;
+  }
+ 
+  .marquee-close:hover svg,
+  .marquee-close:focus-visible svg {
+    opacity: 1;
+    transform: scale(1.12);
+  }
+ 
+  .marquee-close:focus-visible {
+    outline: 2px solid #fff;
+    outline-offset: -4px;
+    border-radius: 4px;
+  }
+ 
+  /* ---------- Responsive ---------- */
+  @media (max-width: 640px) {
+    :root { --strip-height: 44px; --gap: 56px; --marquee-speed: 30s; }
+    .marquee-item { font-size: 13px; }
+    .marquee-item .icon { font-size: 20px; }
+    .marquee-close { width: 44px; }
+    .marquee-viewport { padding-right: 44px; }
+  }
+ 
+  /* ---------- Reduced motion ---------- */
+  @media (prefers-reduced-motion: reduce) {
+    .marquee-track { animation: none; }
+    .marquee-viewport { overflow-x: auto; }
+  }
+/* end marquee css */
+
+.banner_strip{
+	 width: 100%;
+     padding: 20px 20px;
+    background-color: #f9d447;
+    text-align: center;
+   
+}
+
+.banner_strip p{
+	font-size: 20px;
+    color: #001f45;
+}
+
+@media (max-width: 767px) {
+			
+	.banner_strip{
+			padding: 10px 20px;
+	}
+
+	.banner_strip p{
+		 font-size: 14px;
+	}
+}
+		
+	
+	 .header-WhatsApp{
+		 height: 40px;
+		 position: relative;
+	 }
+	 
+	 .header-WhatsApp a{
+		 display: inline-block;
+		width: 40px;
+		margin-right: 10px;
+		background-color: #25d366;
+		height: 40px;
+		padding: 8px;
+		border-radius: 50%;
+	 }
+	 
+	 .text-black5.disclaimerText{
+		     font-family: "Open-Sans";
+	 }
+	 
+	  .header-WhatsApp a img{
+		  position: relative;
+		  top: -2px;
+	  }
+	  
+	  .header-WhatsApp.mobile-icon {
+		  display: none;
+	  }
+	  
+	   .desktop-logo{
+			 display: inline;
+		 }
+		 
+		  .mobile-logo{
+			 display: none;
+		 }
+		 
+	 
+	 #searchPopup {
+         position: fixed;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 0%;
+         background: rgba(0, 0, 0, 0.4);
+         z-index: 9999;
+         justify-content: center;
+         align-items: center;
+         }
+         #searchPopup.active{
+         height: 100%;
+         }
+         #searchPopup.active .search-box {
+         opacity: 1;
+         -webkit-transform: translateY(0%);
+         transform: translateY(0%);
+         margin-top: -32.5%;
+         }
+         /* Search Box */
+         .search-box {
+         background: transparent;
+         padding: 30px 30px;
+         border-radius: 0px;
+         width: 100%;
+         text-align: center;
+         position: relative;
+         min-height: 220px;
+         display: flex;
+         align-items: center;
+         max-width: 788px;
+         opacity: 0;
+         -webkit-transform: translateY(-200%);
+         transform: translateY(-200%);
+         -webkit-transition: opacity 0.4s linear, -webkit-transform 0.4s linear;
+         transition: opacity 0.4s linear, -webkit-transform 0.4s linear;
+         transition: transform 0.4s linear, opacity 0.4s linear;
+         transition: transform 0.4s linear, opacity 0.4s linear,
+         -webkit-transform 0.4s linear;
+         }
+         /* Close Button */
+         #closeSearch {
+         position: absolute;
+         right: 78px;
+         top: 30px;
+         font-size: 24px;
+         cursor: pointer;
+         background-color: #fff;
+         width: 32px;
+         height: 32px;
+         line-height: 32px;
+         border-radius: 50%;
+         text-align: center;
+         }
+         /* Input */
+         .search-box input {
+         width: 80%;
+         padding: 10px;
+         border: 1px solid #ddd;
+         border-radius: 0px;
+         font-size: 16px;
+         border: 4px solid #0b1f42;
+         border-top-left-radius: 40px;
+         border-bottom-left-radius: 40px;
+         padding-left: 14px;
+         }
+         .search-box input:focus{
+         outline: none;
+         }
+         .search-box form{
+         width: 100%;
+         }
+         /* Button */
+         .search-box button {
+         padding: 11px 18px;
+         background: #0b1f42;
+         color: #fff;
+         border: none;
+         border-radius: 0px;
+         margin-left: -6px;
+         cursor: pointer;
+         border: 3px solid #0b1f42;
+         border-top-right-radius: 40px;
+         border-bottom-right-radius: 40px;
+         }
+         .fa-search{
+         color: white;
+         padding-right: 0px;
+         font-size: 16px;
+         }
+		 
+		 #openSearchMobile{
+			 display: none;
+		 }
+		 @media (max-width: 767px) {
+		  .desktop-logo{
+			 display: none;
+		 }
+		 
+		  .mobile-logo{
+			 display: inline;
+		 } 		 
+		  #openSearchMobile{
+			 display: inline-block;
+		 }
+		  #openSearch{
+			 display: none;
+		 }
+		 
+		 .search-box{
+			     padding: 30px 10px;
+		 }
+		 .header-WhatsApp.mobile-icon {
+		  display: inline-block;
+	     }
+		 }
+         @media only screen and (min-width: 768px) and (max-width: 1199px)  {
+	      .desktop-logo{
+			 display: none;
+		 }
+		 
+		  .mobile-logo{
+			 display: inline;
+		 } 		 		 
+         #searchPopup.active .search-box {
+         margin-top: -17%;
+         }
+         .search-box{
+         min-height: 208px;
+         }
+		 
+		 #openSearch{
+			 margin-right: 6px !important;
+		 }
+         }
+         @media only screen and (min-width: 1200px) and (max-width: 1366px)  {
+         #searchPopup.active .search-box {
+         margin-top: -22%;
+         }
+         .search-box{
+         min-height: 208px;
+         }
+         }
+         @media only screen and (min-width: 1367px) and (max-width: 1440px)  {
+         #searchPopup.active .search-box {
+         margin-top: -23%;
+         }
+         .search-box{
+         min-height: 208px;
+         }
+         }
+         @media only screen and (min-width: 1441px) and (max-width: 1680px)  {
+         #searchPopup.active .search-box {
+         margin-top: -28%;
+         }
+         }
+	   .courtesy-link li {
+			padding-right: 12px;
+			margin-right: 12px;
+			
+		}
+		
+		.courtesy-link .link{
+			font-size: 12px;
+		}
+		
+		 
+		
+		.footer .footer-main .footer-nav.footer-nav-six-col ul {
+			padding: 0;
+		}
+
+		.footer .footer-main .footer-nav.footer-nav-five-col ul {
+			padding: 0;
+		}
+
+		.footer .footer-main .footer-nav ul li ul li a {
+			text-decoration: none;
+		}
+		.footer .footer-main .footer-nav a[href="#"] {
+		  cursor: default;
+		  pointer-events: none; /* optional: disables clicking */
+		}
+		.main-content {
+			padding-top: 0;
+		}
+
+		.hide-dots .slick-dots {
+			display: none;
+		}
+
+		.need-assistance-cntr {
+			padding-top: 30px;
+		}
+
+		.need-assistance-cntr::before {
+			background-color: #fbf4e9;
+		}
+
+		.product-banner-box.protecting-banner-box .product-banner-inner {
+			padding-bottom: 70px;
+			height: 100%;
+		}
+
+		.product-banner-box .banner-produtcs {
+			/* height: 100%; */
+		}
+
+		.product-banner-box.protecting-banner-box .slick-dots {
+			text-align: left;
+			left: 77px;
+			bottom: 20px;
+		}
+
+		.blog-card .plan-detail {
+			padding: 10px;
+			background-color: #c1e8ff;
+			border-radius: 8px;
+			margin-bottom: 16px;
+		}
+
+		.space-tb50.space-t100.blog-h {
+			padding-top: 60px;
+			margin-bottom: unset;
+			padding-bottom: 50px !important;
+		}
+
+		.space-tb50.space-t100.tb-sec {
+			padding-top: 30px;
+		}
+
+		.get-updates-box.space-tb50 {
+			padding-top: 20px;
+		}
+
+		.need-blogss.space-tb50 {
+			padding-bottom: 30px;
+		}
+
+		.life-box.home-life-box {
+			padding: 54px 0 40px;
+		}
+
+		.float-wh-icon {
+			position: fixed;
+			width: 60px;
+			height: 60px;
+			bottom: 130px;
+            right: 19px;
+			background-color: #25d366;
+			color: #FFF;
+			border-radius: 50px;
+			text-align: center;
+			font-size: 30px;
+			box-shadow: 2px 2px 3px #999;
+			z-index: 99;
+		}
+		
+		.float-chat-icon {
+			position: fixed;
+			width: 60px;
+			height: 60px;
+			 bottom: 164px;
+			right: 20px;
+			background-color: #ffffff;
+			color: #FFF;
+			border-radius: 50px;
+			text-align: center;
+			font-size: 30px;
+			box-shadow: 2px 2px 3px #999;
+			z-index: 99;
+			padding: 5px;
+			cursor: pointer;
+		}
+
+		.float-wh-icon .my-float {
+			margin-top: 11px !important;
+			margin-left: 22%;
+			height: 40px;
+		}
+		.mobile-dropdown {
+				position: absolute;
+				right: 10px;
+				width: 30px;
+				height: 30px;
+				top: 10px;
+				display: none;
+				z-index: 1;
+				color: #fff;
+		}
+		
+		.mobile-dropdown::before {
+			content: "\e90a";
+			font-family: "icomoon";
+			position: absolute;
+			right: 7px;
+			top: 2px;
+			font-size: 10px;
+		}
+	</style>
+
+	<style>
+		.online-payment-popup .premium_btn_blocks {
+			display: flex;
+			flex-wrap: wrap;
+		}
+
+		.online-payment-popup .premium_btn-item {
+			width: 50%;
+			margin-top: 36px;
+		}
+
+		.online-payment-popup .premium-title {
+			color: #2f598a;
+			font-size: 25px;
+		}
+
+		.online-payment-popup .premium_btn-item a {
+			background-color: #007bc3;
+			color: #fff;
+			padding: 8px 8px;
+			border-radius: 5px;
+			font-size: 14px;
+			display: inline-block;
+			width: 170px;
+		}
+
+		.online-payment-popup .premium_btn-item a:hover {
+			background-color: #;
+		}
+
+		.online-payment-popup .premium-item-sub-text {
+			font-size: 14px;
+			line-height: 120%;
+			color: #333333;
+			margin-top: 6px;
+			margin-bottom: 6px !important;
+		}
+
+		.online-payment-popup .premium-title-sub-text {
+			color: #2f598a;
+			font-size: 14px;
+			margin: 5px 0px;
+		}
+
+		.online-payment-popup .popup {
+			display: none;
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-color: rgb(0 0 0 / 74%);
+			justify-content: center;
+			align-items: center;
+			z-index: 200;
+		}
+
+		.online-payment-popup .paypopup-content {
+			background-color: #fff;
+			padding: 20px;
+			border-radius: 8px;
+			text-align: center;
+			width: 500px;
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+			position: relative;
+		}
+
+		.online-payment-popup .close-btn {
+			position: absolute;
+			top: -4px;
+			right: -4px;
+			font-size: 22px;
+			cursor: pointer;
+			background-color: #000;
+			color: #fff;
+			height: 30px;
+			width: 30px;
+			border-radius: 50%;
+			line-height: normal;
+		}
+		@media (max-width: 767px) {
+			
+			
+			.header-WhatsApp.desktop-icon {
+				display: none;
+			}
+			.online-payment-popup .premium_btn_blocks {
+				gap: 10px;
+			}
+
+			.online-payment-popup .premium_btn-item {
+				margin-top: 25px;
+				width: 48%;
+			}
+
+			.online-payment-popup .premium_btn-item a {
+				padding: 8px 2px;
+				width: 150px;
+				font-size: 13px;
+			}
+
+			.online-payment-popup .paypopup-content {
+				padding: 12px;
+				width: 336px;
+			}
+
+			
+			.mobile-dropdown{
+				display: inline-block;
+			}
+		}
+		
+		@media only screen and (min-width: 1200px) and (max-width: 1299px)  {
+		
+		.float-wh-icon{
+			bottom: 120px;
+		    right: 10px;
+			width: 50px;
+			height: 50px;
+		}
+		
+		
+		
+		.float-wh-icon .my-float {
+			margin-top: 8px !important;
+			height: 34px;
+		}
+		
+		.float-chat-icon{
+		  bottom: 124px;
+		  right: 10px;
+		   width: 50px;
+           height: 50px;
+		}
+		
+		.floating_right_icons ul li{
+			 padding-top: 6px;
+             padding-bottom: 6px;
+		}
+		
+		.floating_right_icons ul li a{
+			gap: 1px;
+		}
+		
+	}
+		
+		
+		@media only screen and (min-width: 1200px) and (max-width: 1366px)  {
+		 .courtesy-link .link{
+			font-size: 10.5px;
+		   }
+		}
+		@media only screen and (min-width: 1367px) and (max-width: 1550px)  {
+		 .courtesy-link .link{
+			font-size: 10.5px;
+		   }
+		   #searchPopup.active .search-box {
+         margin-top: -23%;
+         }
+         .search-box{
+         min-height: 208px;
+         }
+		}
+	</style>
+	<style>
+		.image-popup-section .img_popup-overlay {
+			display: none; /* Hidden by default */
+			position: fixed;
+			top: 0; left: 0;
+			width: 100%; height: 100%;
+			 background: rgb(0 0 0 / 82%);
+            /*background: rgba(0, 0, 0, 0.5);*/
+			z-index: 999;
+			justify-content: center;
+			align-items: center;
+			padding-top: 10%;
+		}
+		.image-popup-section .img_popup-content {
+			background: transparent;
+			padding: 0px 0px;
+			border-radius: 8px;
+			box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+			text-align: center;
+			width: fit-content;
+			margin: 0px auto;
+			position: relative;
+		}
+		.image-popup-section .img_popup-content button {
+			margin-top: 0px;
+			padding: 5px;
+			position: absolute;
+			right: -7px;
+			border: 0px;
+			width: 30px;
+			height: 30px;
+			border-radius: 50%;
+			line-height: 1.1;
+			top: -3px;
+			font-size: 20px;
+		}
+		.popup-desk-img{
+			display: block;
+			max-width: 740px;
+		}
+		.popup-mobile-img{
+			display: none;
+		}
+		@media (max-width: 767px) {
+			.popup-desk-img{
+				display: none;
+			}
+			.image-popup-section .img_popup-overlay{
+				    padding-top: 24%;
+			}
+			.popup-mobile-img{
+				display: block;
+				max-width: 328px;
+			}
+			.image-popup-section .img_popup-content button{
+				right: -14px;
+			}
+		}
+	</style>		
+				<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var
+f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M2CXLCRM');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18106087289"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-18106087289');
+</script>
+	<!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CFNP90KTYX"></script>
+    <script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-CFNP90KTYX'); </script>
+	
+	<script type="application/ld+json">
+
+{
+
+"@context": "https://schema.org",
+
+"@type":
+
+"InsuranceAgency",
+
+"name":
+
+"Pramerica Life Insurance Limited",
+
+"image": "https://pramericalife.in//frontend/assets/images/PRAMERICA_Blue_Hor.svg",
+
+"@id":
+
+"",
+
+"url":
+
+"https://www.pramericalife.in",
+
+"telephone": "011-4818 7070",
+
+"address":
+
+{
+
+"@type":
+
+"PostalAddress",
+
+"streetAddress": " 7th & 8th Floor, TOWER-2, Capital Business Park, Badshahpur Sohna Rd, Sector 48",
+
+"addressLocality": "Gurugram",
+
+"postalCode": "122018",
+
+"addressCountry": "IN"
+
+},
+
+"geo": {
+
+"@type":
+
+"GeoCoordinates",
+
+"latitude": 28.4156818,
+
+"longitude": 76.9631187
+
+},
+
+"openingHoursSpecification": {
+
+"@type":
+
+"OpeningHoursSpecification",
+
+"dayOfWeek": [
+
+"Monday",
+
+"Tuesday",
+
+"Wednesday",
+
+"Thursday",
+
+"Friday",
+
+"Saturday"
+
+],
+
+"opens":
+
+"09:30",
+
+"closes": "18:00"
+
+},
+
+"sameAs":
+
+[
+
+"https://www.facebook.com/PramericaLifeInsurance/",
+
+"https://www.instagram.com/pramerica_lifeinsurance/",
+
+"https://www.youtube.com/@pramericalifeinsurance",
+
+"https://www.linkedin.com/company/pramerica-life-insurance/",
+
+"https://www.pramericalife.in/"
+
+]
+
+}
+
+</script>
+	</head>
+
+<body>
+			<!-- Google Tag Manager (noscript) -->
+<noscript><iframe
+src="https://www.googletagmanager.com/ns.html?id=GTM-M2CXLCRM"
+height="0" width="0"
+style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+	
+	
+	
+		<section class="top-section has-bg pd-b0">
+		<!-- header -->
+		<header class="header">
+		   <!-- Search Popup -->
+                     <div id="searchPopup">
+                        <div class="search-box">
+                           <span id="closeSearch">&times;</span>
+                           <form action="https://pramericalife.in/search" method="GET">
+                              <input type="search" name="q" placeholder="Search here..." required>
+                              <button type="submit">
+                                 <!--Search--> <i class="fa fa-search" style="padding-right: 0; font-size: 20px;"></i>
+                              </button>
+                           </form>
+                        </div>
+                     </div>
+                     <!-- Overlay Search Popup -->
+			<div class="header-top d-none d-md-block">
+				<div class="container">
+					
+					<ul class="courtesy-link">
+					
+					<!-- <button id="openSearch" style="background:none;border:none;cursor:pointer;">
+                     <i class="fa fa-search"></i>
+                     </button> -->
+                     <!-- Hidden Search Box (Expands Like HDFC) -->
+                     <!-- Overlay Search Popup -->
+                  
+                     <div id="searchPopup"
+                        class="fixed inset-0 bg-black bg-opacity-50 hidden flex items-start justify-center z-50">
+                        <div class="bg-white w-full max-w-2xl mt-20 rounded-2xl shadow-lg p-6 relative">
+                           <!-- Close Button -->
+                           <button id="closeSearch" class="absolute right-4 top-4 text-gray-500 hover:text-red-500 text-2xl">
+                           ✖
+                           </button>
+                           <!-- Search Form -->
+                           <form action="/search" method="GET" class="w-full">
+                              <div class="relative">
+                                 <input type="search" name="q" placeholder="Search..."
+                                    class="w-full rounded-full border border-gray-300 pl-12 pr-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500 shadow-sm text-gray-700" />
+                                 <!-- Icon inside -->
+                                 <button type="submit"
+                                    class="absolute left-4 top-1/2 -translate-y-1/2 text-gray-500 hover:text-blue-600">
+                                 🔍
+                                 </button>
+                              </div>
+                           </form>
+                        </div>
+                     </div>
+					
+						<li><a href="https://pramericalife.in/become-an-advisor" class="link">Become An Advisor</a></li>
+						
+						<li><a href="https://pramericalife.in/corporate-disclaimers#public-disclosures" class="link">Public Disclosure</a></li>
+						<li><a href="https://pramericalife.in/fund-management" class="link">Fund Management</a></li>
+						<li><a href="https://pramericalife.in/unclaimed-amount" class="link">Unclaimed Amount</a></li>
+						<li><a href="https://pramericalife.in/log-complaint" class="link">Log  Complaint</a></li>
+						<li><a href="tel:1860 500 7070" class="link">1860 500 7070</a></li>
+						<li style="border-right: 0px;"><a href="mailto:contactus@pramericalife.in" class="link">contactus@pramericalife.in</a></li>
+						
+						<li><a href="https://pramericalife.in/pay-renewal-premium" class="btn btn-yellow animated-shadow">Pay premium</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="header-bottom">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-3 col-md-2">
+							<div class="brand-logo">
+								<a href="https://pramericalife.in/" class="brand">
+								<img class="desktop-logo"  src="https://pramericalife.in//frontend/assets/images/PRAMERICA_Blue_Hor.svg" alt="brand" />
+								<img class="mobile-logo" src="https://pramericalife.in//frontend/assets/images/PRAMERICA_Blue_mobile.svg" alt="brand" />
+								</a>
+							</div>
+						</div>
+						<div class="col-9 col-md-10">
+							<div class="header-right">
+							
+							  <span class="header-WhatsApp mobile-icon"><a href="https://wa.me/9289187070" target="blank">
+								<img alt="whats_app" src="https://pramericalife.in//frontend/assets/images/whatsappimg.svg"></a></span>
+							
+							   <button id="openSearchMobile" style="background:white;border-radius: 10px;border: 1px solid #fad447;cursor:pointer;width: 44px;margin-right: 14px;padding: 10px;">
+									 <i class="fa fa-search" style="color: #001f45; padding-right: 0px; font-size: 18px;"></i>
+									 </button>
+							    
+								<nav class="main-menu jsMainMenu">
+									<div class="inner-wrap">
+										<div class="menu-header d-block d-md-none">
+											<div class="row align-items-center">
+												<div class="col-6">
+													<div class="brand-logo">
+														<a href="/" class="brand"><img src="https://pramericalife.in//frontend/assets/images/brand-logo-white.svg" alt="brand" /></a>
+													</div>
+												</div>
+												<div class="col-6">
+													<div class="close-menu ms-auto">
+														<a href="https://pramericalife.in/" class="close jsCloseMenubar">
+															<i class="icon-plus"></i>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<ul class="nav-bar">
+											<li class="list-item dropdown-custom jsDropdownCntr">
+												<a href="javascript:void(0);" class="link-item jsToggleMenu">Who We Are</a>
+												<div class="custom-dropdown-menu jsDropdown">
+													<ul class="dropdown-menu-list">
+														<li class="sub-list"><a href="https://pramericalife.in/about-us" class="sub-item">About Pramerica Life</a></li>
+														<li class="sub-list"><a href="https://pramericalife.in/about-us/our-leadership-team" class="sub-item">Our Leadership</a></li>
+														<li class="sub-list"><a href="https://pramericalife.in/about-us/our-shareholders" class="sub-item">Our Shareholders</a></li>
+														<li class="sub-list"><a href="https://pramericalife.in/media-center" class="sub-item">Media Resources</a></li>
+														<li class="sub-list"><a href="https://pramericalife.in/prahri" class="sub-item">Prahri</a></li>
+														<li class="sub-list"><a href="https://pramericalife.in/param" class="sub-item">Param</a></li>
+													</ul>
+												</div>
+											</li>
+											<li class="list-item dropdown-custom jsDropdownCntr">
+											   <span class="mobile-dropdown jsToggleMenu"></span>
+												<a href="javascript:void(0);" class="link-item">Our Plans</a>
+												<div class="custom-dropdown-menu big-menu jsDropdown">
+													<ul class="dropdown-menu-list">
+														<li class="sub-list active">
+														    <span class="mobile-dropdown jsNestedlast"></span>
+															<a href="https://pramericalife.in/term-plans" class="sub-item jsNestedlast">Term Plans</a>
+															<div class="submenu-dropdown">
+																<div class="row">
+																	<div class="col-lg-6">
+																		<ul class="submenu-dropdown-list">
+																			<li class="submenu-dropdown-item"><a href="https://pramericalife.in/term-plans/pramerica-life-rocksolid-term-insurance"
+																					class="submenu-dropdown-link">Pramerica Life RockSolid Term Insurance</a></li>
+																			<li class="submenu-dropdown-item"><a href="https://pramericalife.in/term-plans/pramerica-life-saral-jeevan-bima"
+																					class="submenu-dropdown-link">Pramerica Life Saral Jeevan Bima</a></li>
+																			
+																			
+																		</ul>
+																	</div>
+																	<div class="col-lg-6 d-none d-lg-block">
+																		<div class="dropdown-details">
+																			<div class="media-holder">
+																				<img src="https://pramericalife.in//frontend/assets/images/deatils-img.png" alt="" />
+																			</div>
+																			<div class="info-cntr">
+																				<h4 class="size-14">Smart Savings, Lasting Benefits!</h4>
+																				<ul class="information-list mg-t12 mg-b12">
+																					<li>
+																						<span class="symbol-holder">
+																							<img src="https://pramericalife.in//frontend/assets/images/payment-options.svg" alt="" />
+																						</span>
+																						<a href="https://pramericalife.in/">Boost your wealth</a>
+																						<i class="icon-angle-right"></i>
+																					</li>
+																					<li>
+																						<span class="symbol-holder">
+																							<img src="https://pramericalife.in//frontend/assets/images/payment.svg" alt="" />
+																						</span>
+																						<a href="https://pramericalife.in/">Get benefits of life insurance cover</a>
+																						<i class="icon-angle-right"></i>
+																					</li>
+																				</ul>
+																				<div class="show-more">
+																					<a href="https://pramericalife.in/ulip-plans/pramerica-life-super-investment-plan">Show more <i class="icon-angle-right"></i></a>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</li>
+														<li class="sub-list">
+														     <span class="mobile-dropdown jsNestedlast"></span>
+															<a href="javascript:void(0);" class="sub-item jsNestedlast">ULIP</a>
+															<div class="submenu-dropdown">
+																<div class="row">
+																	<div class="col-lg-6">
+																		<ul class="submenu-dropdown-list">
+																			<li class="submenu-dropdown-item"><a href="https://pramericalife.in/ulip-plans/pramerica-life-smart-invest"
+																					class="submenu-dropdown-link">Pramerica Life Smart Invest</a></li>
+																			<li class="submenu-dropdown-item"><a href="https://pramericalife.in/ulip-plans/pramerica-life-super-investment-plan"
+																					class="submenu-dropdown-link">Pramerica Life Super Investment Plan</a></li>
+																			<li class="submenu-dropdown-item"><a href="https://pramericalife.in/ulip-plans/pramerica-life-wealth-enhancer"
+																					class="submenu-dropdown-link">Pramerica Life Wealth Enhancer</a></li>
+																			<li class="submenu-dropdown-item"><a href="https://pramericalife.in/ulip-plans/pramerica-life-wealth-maximiser"
+																					class="submenu-dropdown-link">Pramerica Life Wealth Maximiser</a></li>
+																			<li class="submenu-dropdown-item"><a href="https://pramericalife.in/ulip-plans/pramerica-life-wealth-plus-ace"
+																					class="submenu-dropdown-link">Pramerica Life Wealth + Ace</a></li>
+																			<li class="submenu-dropdown-item"><a href="https://pramericalife.in/ulip-plans/pramerica-life-smart-wealth-plus"
+																					class="submenu-dropdown-link">Pramerica Life Smart Wealth +</a></li>
+																			<li class="submenu-dropdown-item"><a href="https://pramericalife.in/ulip-plans/pramerica-life-smart-invest-1-up"
+																					class="submenu-dropdown-link">Pramerica Life Smart Invest 1 UP</a></li>
+																			<li class="submenu-dropdown-item"><a href="https://pramericalife.in/ulip-plans/pramerica-life-invest-shield"
+																					class="submenu-dropdown-link">Pramerica Life Invest Shield</a></li>
+																		</ul>
+																	</div>
+																	<div class="col-lg-6 d-none d-lg-block">
+																		<div class="dropdown-details">
+																			<div class="media-holder">
+																				<img src="https://pramericalife.in//frontend/assets/images/deatils-img.png" alt="" />
+																			</div>
+																			<div class="info-cntr">
+																				<h4 class="size-14">Smart Savings, Lasting Benefits!</h4>
+																				<ul class="information-list mg-t12 mg-b12">
+																					<li>
+																						<span class="symbol-holder">
+																							<img src="https://pramericalife.in//frontend/assets/images/payment-options.svg" alt="" />
+																						</span>
+																						<a href="https://pramericalife.in/">Boost your wealth</a>
+																						<i class="icon-angle-right"></i>
+																					</li>
+																					<li>
+																						<span class="symbol-holder">
+																							<img src="https://pramericalife.in//frontend/assets/images/payment.svg" alt="" />
+																						</span>
+																						<a href="https://pramericalife.in/">Get benefits of life insurance cover</a>
+																						<i class="icon-angle-right"></i>
+																					</li>
+																				</ul>
+																				<div class="show-more">
+																					<a href="https://pramericalife.in/ulip-plans/pramerica-life-super-investment-plan">Show more <i class="icon-angle-right"></i></a>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</li>
+														<li class="sub-list">
+														    <span class="mobile-dropdown jsNestedlast"></span>
+															<a href="https://pramericalife.in/saving-plans" class="sub-item jsNestedlast">Savings Plans</a>
+															<div class="submenu-dropdown">
+																<div class="row">
+																	<div class="col-lg-6">
+																		<ul class="submenu-dropdown-list">
+																			<li class="submenu-dropdown-item"><a href="https://pramericalife.in/saving-plans/pramerica-life-flexi-income-plan"
+																					class="submenu-dropdown-link">Pramerica Life Flexi Income Plan</a></li>
+																			<li class="submenu-dropdown-item"><a href="https://pramericalife.in/saving-plans/pramerica-life-signature-wealth"
+																					class="submenu-dropdown-link">Pramerica Life Signature Wealth</a></li>
+																			<li class="submenu-dropdown-item"><a href="https://pramericalife.in/saving-plans/pramerica-life-rocksolid-future"
+																					class="submenu-dropdown-link">Pramerica Life RockSolid Future</a></li>
+																			<li class="submenu-dropdown-item"><a href="https://pramericalife.in/saving-plans/pramerica-life-guaranteed-return-on-wealth-plan"
+																					class="submenu-dropdown-link">Pramerica Life Guaranteed Return on Wealth</a></li>
+																			<li class="submenu-dropdown-item"><a href="https://pramericalife.in/saving-plans/pramerica-life-smart-income"
+																					class="submenu-dropdown-link">Pramerica Life Smart Income</a></li>
+																			<li class="submenu-dropdown-item"><a href="https://pramericalife.in/saving-plans/pramerica-life-smart-assure"
+																					class="submenu-dropdown-link">Pramerica Life Smart Assure</a></li>
+
+                                                                            <li class="submenu-dropdown-item"><a href="https://pramericalife.in/saving-plans/pramerica-life-assured-wealth-plus"
+																					class="submenu-dropdown-link">Pramerica Life Assured Wealth Plus</a></li>
+
+																			<li class="submenu-dropdown-item"><a href="https://pramericalife.in/saving-plans/pramerica-life-magnum-assure"
+																					class="submenu-dropdown-link">Pramerica Life Magnum Assure</a></li>
+																					
+																			<li class="submenu-dropdown-item"><a href="https://pramericalife.in/saving-plans/pramerica-life-poorna-rakshak"
+																					class="submenu-dropdown-link">Pramerica Life Poorna Rakshak</a></li>		
+																			<li class="submenu-dropdown-item">
+																				<div class="show-more"><a href="https://pramericalife.in/saving-plans">View all Savings Plans </a></div>
+																			</li>
+																		</ul>
+																	</div>
+																	<div class="col-lg-6 d-none d-lg-block">
+																		<div class="dropdown-details">
+																			<div class="media-holder">
+																				<img src="https://pramericalife.in//frontend/assets/images/deatils-img.png" alt="" />
+																			</div>
+																			<div class="info-cntr">
+																				<h4 class="size-14">Smart Savings, Lasting Benefits!</h4>
+																				<ul class="information-list mg-t12 mg-b12">
+																					<li>
+																						<span class="symbol-holder">
+																							<img src="https://pramericalife.in//frontend/assets/images/payment-options.svg" alt="" />
+																						</span>
+																						<a href="https://pramericalife.in/">Boost your wealth</a>
+																						<i class="icon-angle-right"></i>
+																					</li>
+																					<li>
+																						<span class="symbol-holder">
+																							<img src="https://pramericalife.in//frontend/assets/images/payment.svg" alt="" />
+																						</span>
+																						<a href="https://pramericalife.in/">Get benefits of life insurance cover</a>
+																						<i class="icon-angle-right"></i>
+																					</li>
+																				</ul>
+																				<div class="show-more">
+																					<a href="https://pramericalife.in/ulip-plans/pramerica-life-super-investment-plan">Show more <i class="icon-angle-right"></i></a>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</li>
+														<li class="sub-list">
+														    <span class="mobile-dropdown jsNestedlast"></span>
+															<a href="javascript:void(0);" class="sub-item jsNestedlast">Health Plans</a>
+															<div class="submenu-dropdown">
+																<div class="row">
+																	<div class="col-lg-6">
+																		<ul class="submenu-dropdown-list">
+																			<li class="submenu-dropdown-item"><a href="https://pramericalife.in/health-plans/cancer-heart-shield-pro"
+																					class="submenu-dropdown-link">Pramerica Life Cancer + Heart Shield Pro</a></li>
+																		</ul>
+																	</div>
+																	<div class="col-lg-6 d-none d-lg-block">
+																		<div class="dropdown-details">
+																			<div class="media-holder">
+																				<img src="https://pramericalife.in//frontend/assets/images/deatils-img.png" alt="" />
+																			</div>
+																			<div class="info-cntr">
+																				<h4 class="size-14">Smart Savings, Lasting Benefits!</h4>
+																				<ul class="information-list mg-t12 mg-b12">
+																					<li>
+																						<span class="symbol-holder">
+																							<img src="https://pramericalife.in//frontend/assets/images/payment-options.svg" alt="" />
+																						</span>
+																						<a href="https://pramericalife.in/">Boost your wealth</a>
+																						<i class="icon-angle-right"></i>
+																					</li>
+																					<li>
+																						<span class="symbol-holder">
+																							<img src="https://pramericalife.in//frontend/assets/images/payment.svg" alt="" />
+																						</span>
+																						<a href="https://pramericalife.in/">Get benefits of life insurance cover</a>
+																						<i class="icon-angle-right"></i>
+																					</li>
+																				</ul>
+																				<div class="show-more">
+																					<a href="https://pramericalife.in/ulip-plans/pramerica-life-super-investment-plan">Show more <i class="icon-angle-right"></i></a>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</li>
+														<li class="sub-list">
+														   <span class="mobile-dropdown jsNestedlast"></span>
+															<a href="javascript:void(0);" class="sub-item jsNestedlast">Child Insurance
+																Plans</a>
+															<div class="submenu-dropdown">
+																<div class="row">
+																	<div class="col-lg-6">
+																		<ul class="submenu-dropdown-list">
+																			<li class="submenu-dropdown-item"><a href="https://pramericalife.in/child-insurance-plans/pramerica-life-rakshak-smart"
+																					class="submenu-dropdown-link">Pramerica Life Rakshak Smart</a></li>
+																		</ul>
+																	</div>
+																	<div class="col-lg-6 d-none d-lg-block">
+																		<div class="dropdown-details">
+																			<div class="media-holder">
+																				<img src="https://pramericalife.in//frontend/assets/images/deatils-img.png" alt="" />
+																			</div>
+																			<div class="info-cntr">
+																				<h4 class="size-14">Smart Savings, Lasting Benefits!</h4>
+																				<ul class="information-list mg-t12 mg-b12">
+																					<li>
+																						<span class="symbol-holder">
+																							<img src="https://pramericalife.in//frontend/assets/images/payment-options.svg" alt="" />
+																						</span>
+																						<a href="https://pramericalife.in/">Boost your wealth</a>
+																						<i class="icon-angle-right"></i>
+																					</li>
+																					<li>
+																						<span class="symbol-holder">
+																							<img src="https://pramericalife.in//frontend/assets/images/payment.svg" alt="" />
+																						</span>
+																						<a href="https://pramericalife.in/">Get benefits of life insurance cover</a>
+																						<i class="icon-angle-right"></i>
+																					</li>
+																				</ul>
+																				<div class="show-more">
+																					<a href="https://pramericalife.in/ulip-plans/pramerica-life-super-investment-plan">Show more <i class="icon-angle-right"></i></a>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</li>
+														<li class="sub-list">
+														  <span class="mobile-dropdown jsNestedlast"></span>
+															<a href="javascript:void(0);" class="sub-item jsNestedlast">Retirement
+																Plans</a>
+															<div class="submenu-dropdown">
+																<div class="row">
+																	<div class="col-lg-6">
+																		<ul class="submenu-dropdown-list">
+																			<li class="submenu-dropdown-item"><a href="https://pramericalife.in/retirement-plans/pramerica-life-saral-pension"
+																					class="submenu-dropdown-link">Pramerica Life Saral Pension</a></li>
+																			<li class="submenu-dropdown-item"><a href="https://pramericalife.in/retirement-plans/pramerica-life-nextgen-pension-plan"
+																					class="submenu-dropdown-link">Pramerica Life NextGen Pension Plan</a></li>
+																		</ul>
+																	</div>
+																	<div class="col-lg-6 d-none d-lg-block">
+																		<div class="dropdown-details">
+																			<div class="media-holder">
+																				<img src="https://pramericalife.in//frontend/assets/images/deatils-img.png" alt="" />
+																			</div>
+																			<div class="info-cntr">
+																				<h4 class="size-14">Smart Savings, Lasting Benefits!</h4>
+																				<ul class="information-list mg-t12 mg-b12">
+																					<li>
+																						<span class="symbol-holder">
+																							<img src="https://pramericalife.in//frontend/assets/images/payment-options.svg" alt="" />
+																						</span>
+																						<a href="https://pramericalife.in/">Boost your wealth</a>
+																						<i class="icon-angle-right"></i>
+																					</li>
+																					<li>
+																						<span class="symbol-holder">
+																							<img src="https://pramericalife.in//frontend/assets/images/payment.svg" alt="" />
+																						</span>
+																						<a href="https://pramericalife.in/">Get benefits of life insurance cover</a>
+																						<i class="icon-angle-right"></i>
+																					</li>
+																				</ul>
+																				<div class="show-more">
+																					<a href="https://pramericalife.in/ulip-plans/pramerica-life-super-investment-plan">Show more <i class="icon-angle-right"></i></a>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</li>
+														<li class="sub-list">
+														  <span class="mobile-dropdown jsNestedlast"></span>
+															<a href="javascript:void(0);" class="sub-item jsNestedlast">Group Plans</a>
+															<div class="submenu-dropdown">
+																<div class="row">
+																	<div class="col-lg-6">
+																		<ul class="submenu-dropdown-list">
+																			<li class="submenu-dropdown-item"><a href="https://pramericalife.in/group-plans/pramerica-life-group-total-protection"
+																					class="submenu-dropdown-link">Pramerica Life Group Total Protection</a></li>
+																			<li class="submenu-dropdown-item"><a href="https://pramericalife.in/group-plans/pramerica-life-group-credit-shield"
+																					class="submenu-dropdown-link">Pramerica Life Group Credit Shield</a></li>
+																			<li class="submenu-dropdown-item"><a href="https://pramericalife.in/group-plans/pramerica-life-group-health-kavach"
+																					class="submenu-dropdown-link">Pramerica Life Group Health Kavach</a></li>
+																			<li class="submenu-dropdown-item"><a href="https://pramericalife.in/group-plans/pramerica-life-group-term-plan"
+																					class="submenu-dropdown-link">Pramerica Life Group Term Plan</a></li>
+																			<li class="submenu-dropdown-item"><a href="https://pramericalife.in/group-plans/pramerica-life-group-secured-employee-benefit-plan"
+																					class="submenu-dropdown-link">Pramerica Life Group Secured Employee Benefit Plan</a></li>
+																			<li class="submenu-dropdown-item"><a href="https://pramericalife.in/group-plans/pramerica-life-group-traditional-employee-benefit-plan"
+																					class="submenu-dropdown-link">Pramerica Life New Group Traditional Employee Benefit Plan</a></li>
+																		</ul>
+																	</div>
+																	<div class="col-lg-6 d-none d-lg-block">
+																		<ul class="submenu-dropdown-list">
+																			<li class="submenu-dropdown-item"><a href="https://pramericalife.in/group-plans/pramerica-life-pradhan-mantri-jeevan-jyoti-bima-yojana"
+																					class="submenu-dropdown-link">Pramerica Life Pradhan Mantri Jeevan Jyoti Bima Yojana</a></li>
+																			<li class="submenu-dropdown-item"><a href="https://pramericalife.in/group-plans/pramerica-life-sarv-jan-suraksha"
+																					class="submenu-dropdown-link">Pramerica Life Sarv Jan Suraksha</a></li>
+																			<li class="submenu-dropdown-item"><a href="https://pramericalife.in/ulip-plans/pramerica-life-group-ulip-employee-benefit-plan"
+																					class="submenu-dropdown-link">Pramerica Life Group ULIP Employee Benefit Plan</a></li>
+																			<li class="submenu-dropdown-item"><a href="https://pramericalife.in/term-plans/pramerica-life-group-term-elite"
+																					class="submenu-dropdown-link">Pramerica Life Group Term Elite</a></li>
+																																					</ul>
+																	</div>
+																</div>
+															</div>
+														</li>
+														
+													</ul>
+												</div>
+											</li>
+											<li class="list-item dropdown-custom jsDropdownCntr">
+												<a href="javascript:void(0);" class="link-item jsToggleMenu">Help & Support</a>
+												<div class="custom-dropdown-menu jsDropdown">
+													<ul class="dropdown-menu-list">
+														<li class="sub-list"><a href="https://pramericalife.in/contact-us" class="sub-item">Contact Us</a></li>
+														<li class="sub-list"><a href="https://pramericalife.in/customer-services" class="sub-item">Customer Service</a></li>
+														<li class="sub-list"><a href="https://pramericalife.in/customer-services/grievance-redressal" class="sub-item">Grievance Redressal</a></li>
+														<li class="sub-list"><a href="https://pramericalife.in/claim" class="sub-item">Claims</a></li>
+														<li class="sub-list"><a href="https://pramericalife.in/locate-us" class="sub-item">Locate Us</a></li>
+													</ul>
+												</div>
+											</li>
+											<li class="list-item">
+												<a href="https://pramericalife.in/track-application-status" class="link-item">Track Application</a>
+											</li>
+											
+											<span class="header-WhatsApp desktop-icon"><a href="https://wa.me/9289187070" target="blank">
+												<img alt="whats_app2" src="https://pramericalife.in//frontend/assets/images/whatsappimg.svg"></a></span>
+											
+											<button id="openSearch" style="background:white;border:none;cursor:pointer;width: 50px;margin-right: 25px;border-radius: 10px;border: 1px solid #fad447;">
+												<i class="fa fa-search" style="color:black;"></i>
+												</button>
+
+
+											<li class="list-item d-block d-md-none">
+												<a href="https://pramericalife.in/become-an-advisor" class="link-item">Become An Advisor</a>
+											</li>
+																						<li class="list-item d-block d-md-none">
+												<a href="https://pramericalife.in/pay-renewal-premium" class="link-item">Pay premium</a>
+											</li>
+										</ul>
+									</div>
+								</nav>
+								<div class="user-account">
+									<ul class="user-item">
+										<li class="list-item dropdown user">
+											<a aria-expanded="false" class="btn btn-outline-yellow user-login" data-bs-toggle="dropdown" href="https://pramericalife.in/">Login</a>
+											<ul class="dropdown-menu-list dropdown-menu" style="">
+												<li class="sub-list">
+													<a class="sub-item" href="https://advisor.pramericalife.in/agent/login" target="_blank">Advisor login</a>
+												</li>
+												<li class="sub-list">
+													<a class="sub-item" href="https://customer.pramericalife.in/" target="_blank">Customer login</a>
+												</li>
+											</ul>
+										</li>
+										<!--<li class="list-item btn-buy-now">
+												<a href="https://pramericalife.in/" class="btn btn-yellow">Buy now</a>
+												</li>-->
+										<li class="list-item d-block d-md-none">
+											<a class="menu-bar jsOpenMenubar"><i class="icon-menu-bar d-block">&zwnj;</i> </a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		
+	
+		
+		
+		
+		<!-- header -->
+		<!--  np cntr  -->
+		<!--  np cntr  -->
+		<!--<div class="product-banner-box term-insurance-banner">
+				<div class="container">
+				  <div class="product-banner-inner">
+				    <div class="product-banner-left">
+				      <h2>Savings Plan</h2>
+				      <p>Empowering your future through smart savings</p>
+				      <ul class="list-img-text">
+				        <li>
+				          <p>
+				            <span class="icon-returns imgicon"></span>
+				            Life cover and tax benefits
+				          </p>
+				        </li>
+				        <li>
+				          <p>
+				            <span class="icon-tax-benefits imgicon"></span>
+				            Guaranteed returns
+				          </p>
+				        </li>
+				      </ul>
+				      <ul class="list-btn-info">
+				        <li>
+				          <a href="https://pramericalife.in/" class="btn btn-yellow">Find the right plan for you</a>
+				        </li>
+				      </ul>
+				    </div>
+				    <img src="https://pramericalife.in//frontend/assets/images/savings-plan-banner.png" alt="" class="banner-produtcs d-none d-md-block">
+				    <img src="https://pramericalife.in//frontend/assets/images/savings-plan-mob-banner.png" alt="" class="banner-produtcs d-block d-md-none">
+				
+				  </div>
+				</div>
+				</div>-->
+	</section>
+	<main class="main-content">
+		<style type="text/css">
+    .mb0040 {
+        margin-bottom: -40px;
+    }
+
+    .who-weare-box {
+        padding-top: 50px !important;
+    }
+    .text-editor-css-c ul {
+        list-style: outside;
+        margin-bottom: 15px;
+        padding-left: 15px;
+    }
+    .text-editor-css-c ol 
+    {
+        margin-bottom: 15px;
+        list-style: decimal;
+        padding-left: 12px;
+    }
+    .certified-img{
+        width: 170px;
+        position: absolute!important;
+        right: 49px!important;
+        top: -17px!important;
+    }
+    .heading40 {
+        font-size: 29px!important;
+        line-height: 37px!important;
+    }    
+    @media (max-width: 767px) {
+        .mb0040 {
+            margin-bottom: -24px;
+        }
+        .certified-img {
+            width: 148px;
+        }
+    }
+</style>
+<section class="top-section has-bg pd-b0">
+    <section id="ctl00_Body1_idSection1">
+        <div class="product-banner-box aboutus-banner-box" style="text-align: center;">
+            <div class="container">
+                <div class="product-banner-inner">
+                    <h1>We are powered by two strong business houses</h1>
+                    <div>
+                        <h3 style="color: #007ac3;">Piramal Finance + PFI</h3>
+                    </div>
+                </div>
+            </div>
+            <p style="font-size: 11px;">PFI is the acronym for Prudential Financial, Inc. (PFI), a large multinational financial service company based in the US</p>
+        </div>
+    </section>
+</section>
+<main class="main-content">
+    <!--Section 2 who we are starts -->
+    <div id="ctl00_Body1_idSection2" class="who-weare-box space-tb50">
+        <div class="container">
+            <div class="who-weare-inner">
+                <div class="who-weare-left text-editor-css-c">
+                    <h3 class="top-heads" style="margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding: 0px; overscroll-behavior: contain; line-height: 60px; font-size: 48px; letter-spacing: -0.02em; color: rgb(0, 0, 0); font-family: Prudential-Bold !important;">Who&nbsp;<span style="margin: 0px; padding: 0px; overscroll-behavior: contain; font-family: Open-Sans-Light;">we are</span></h3><p class="top-description" style="margin: 24px 0px 0px; padding: 0px; overscroll-behavior: contain; font-family: Open-Sans; line-height: 21px; letter-spacing: 0.16px; color: rgb(51, 51, 51);">Pramerica Life Insurance Limited provides trusted guidance on a wide range of life insurance solutions for individuals as well as groups. We have pan-India presence with 125 branches (31-Mar-26), multiple distribution channels catering to diverse financial needs of a broad range of customers to build a worry-free future. We have more than 3451 employees and over INR&nbsp;<span style="letter-spacing: 0.16px;">11,393.83</span>&nbsp;Crores as Assets Under Management (as on 30th June.2026).</p>
+                </div>
+                <div class="who-weare-right">
+                    <div class="right-inner-row">
+                        <div class="right-inner-col text-editor-css-c">
+                            <h4 class="heading28 col-heads" style="margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding: 0px; overscroll-behavior: contain; line-height: 32px; font-size: 28px; font-family: Prudential-Bold; letter-spacing: -0.56px; color: rgb(17, 17, 17); text-align: center;">
+  99.29% claim paid ratio</h4>
+<p class="size-14 col-bottom-text" style="margin: 4px 0px 0px; padding: 0px; overscroll-behavior: contain; font-family: Open-Sans; line-height: 21px; letter-spacing: 0.01em; color: rgb(51, 51, 51); text-align: center; font-size: 14px !important;">
+  <span class="size-14 col-bottom-text" style="margin: 4px 0px 0px; padding: 0px; overscroll-behavior: contain;">Individual Death Claims Paid Ratio as per audited financials FY’26</span>
+</p>
+<p class="size-14 col-bottom-text" style="margin: 4px 0px 0px; padding: 0px; overscroll-behavior: contain; font-family: Open-Sans; line-height: 21px; letter-spacing: 0.01em; color: rgb(51, 51, 51); text-align: center; font-size: 14px !important;">
+  <span class="size-14 col-bottom-text" style="margin: 4px 0px 0px; padding: 0px; overscroll-behavior: contain;"><br></span>
+</p>
+                        </div>
+                        <div class="right-inner-col text-editor-css-c">
+                            <h4 class="heading28 col-heads" style="margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding: 0px; overscroll-behavior: contain; line-height: 32px; font-size: 28px; font-family: Prudential-Bold; letter-spacing: -0.56px; color: rgb(17, 17, 17); text-align: center;">125 Branches pan-India</h4><p class="size-14 col-bottom-text" style="margin: 4px 0px 0px; padding: 0px; overscroll-behavior: contain; font-family: Open-Sans; line-height: 21px; letter-spacing: 0.01em; color: rgb(51, 51, 51); text-align: center; font-size: 14px !important;"><span class="size-14 col-bottom-text" style="margin: 4px 0px 0px; padding: 0px; overscroll-behavior: contain;">As reported in Annual Report for FY <br>31st March 26</span></p>
+                        </div>
+                        <div class="right-inner-col text-editor-css-c">
+                           <h4 class="heading28 col-heads" style="margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding: 0px; overscroll-behavior: contain; line-height: 32px; font-size: 28px; font-family: Prudential-Bold; letter-spacing: -0.56px; color: rgb(17, 17, 17); text-align: center;">209% solvency ratio</h4><p class="size-14 col-bottom-text" style="margin: 4px 0px 0px; padding: 0px; overscroll-behavior: contain; font-family: Open-Sans; line-height: 21px; letter-spacing: 0.01em; color: rgb(51, 51, 51); text-align: center; font-size: 14px !important;"><span class="size-14 col-bottom-text" style="margin: 4px 0px 0px; padding: 0px; overscroll-behavior: contain;">(As on 30th September 2025)</span></p>
+                        </div>
+                        <div class="right-inner-col text-editor-css-c">
+                            <h4 class="heading28 col-heads" style="margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding: 0px; overscroll-behavior: contain; line-height: 32px; font-size: 28px; font-family: Prudential-Bold; letter-spacing: -0.56px; color: rgb(17, 17, 17); text-align: center;">
+    Safeguarding 70 Lakh+ rising Indians</h4>
+<p class="size-14 col-bottom-text" style="margin: 4px 0px 0px; padding: 0px; overscroll-behavior: contain; font-family: Open-Sans; line-height: 21px; letter-spacing: 0.01em; color: rgb(51, 51, 51); text-align: center; font-size: 14px !important;">
+    (Group+Individual) in-force lives as on March’26</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Section 2 who we are ends -->
+    <div id="ctl00_Body1_idSection3" class="our-vision-box space-tb50">
+        <div class="container">
+            <div class="our-vision-inner">
+                                <div class="our-vision-col">
+                    <div class="qr-cols blocked-section">
+                        <div class="d-flex align-items-center flex-wrap">
+                            <div class="qr-left">
+                                <span class="qr-img">
+                                    <img alt="" src="https://pramericalife.in//admin/assets/images/our_mission_thumbnail/1740031076-our-vision.svg"/> 
+                                </span>
+                            </div>
+                            <div class="qr-right">
+                                <h5 class="mb-0">Our vision</h5>
+                            </div>
+                        </div>
+                        <div class="links-bottom">
+                            <p class="size-18 vision-text">Ensure that every life we touch feels secure and enriched</p>
+                        </div>
+                    </div>
+                </div>
+                                <div class="our-vision-col">
+                    <div class="qr-cols blocked-section">
+                        <div class="d-flex align-items-center flex-wrap">
+                            <div class="qr-left">
+                                <span class="qr-img">
+                                    <img alt="" src="https://pramericalife.in//admin/assets/images/our_mission_thumbnail/1740031084-our-mission.svg"/> 
+                                </span>
+                            </div>
+                            <div class="qr-right">
+                                <h5 class="mb-0">Our mission</h5>
+                            </div>
+                        </div>
+                        <div class="links-bottom">
+                            <p class="size-18 vision-text">We strive to be a trusted mentor, empowering people to make informed insurance choices that meet their financial goals</p>
+                        </div>
+                    </div>
+                </div>
+                            </div>
+        </div>
+    </div>
+    <!--Section 3 our vision ends -->
+    <div class="our-core-values-box space-tb50">
+        <div id="ctl00_Body1_idSection4" class="container">
+            <div class="page-title pd-t0 text-center mx-952">
+                <h3 class="mg-b0">
+                    <span>Our</span> core values
+                </h3>
+            </div>
+            <div class="core-value-inner">
+                                <div class="core-value-col">
+                    <div class="qr-cols blocked-section">
+                        <div class="d-flex align-items-center flex-wrap">
+                            <div class="qr-left">
+                                <span class="qr-img">
+                                    <img alt="" src="https://pramericalife.in//admin/assets/images/our_core_thumbnail/1740031122-agility.svg" />
+                                </span>
+                            </div>
+                            <div class="qr-right">
+                                <h5 class="mb-0">Agility</h5>
+                                    
+                            </div>
+                        </div>
+                        <div class="links-bottom">
+                            <p class="size-18 core-value-text">We are quick, responsive and reliable</p>
+                        </div>
+                    </div>
+                </div>
+                                <div class="core-value-col">
+                    <div class="qr-cols blocked-section">
+                        <div class="d-flex align-items-center flex-wrap">
+                            <div class="qr-left">
+                                <span class="qr-img">
+                                    <img alt="" src="https://pramericalife.in//admin/assets/images/our_core_thumbnail/1740031158-innovation.svg" />
+                                </span>
+                            </div>
+                            <div class="qr-right">
+                                <h5 class="mb-0">Innovation</h5>
+                                    
+                            </div>
+                        </div>
+                        <div class="links-bottom">
+                            <p class="size-18 core-value-text">We question status quo to create something new</p>
+                        </div>
+                    </div>
+                </div>
+                                <div class="core-value-col">
+                    <div class="qr-cols blocked-section">
+                        <div class="d-flex align-items-center flex-wrap">
+                            <div class="qr-left">
+                                <span class="qr-img">
+                                    <img alt="" src="https://pramericalife.in//admin/assets/images/our_core_thumbnail/1740031223-customer-focus.svg" />
+                                </span>
+                            </div>
+                            <div class="qr-right">
+                                <h5 class="mb-0">Customer Focus</h5>
+                                    
+                            </div>
+                        </div>
+                        <div class="links-bottom">
+                            <p class="size-18 core-value-text">We place customers first in everything we do to build deep and lasting relationships</p>
+                        </div>
+                    </div>
+                </div>
+                                <div class="core-value-col">
+                    <div class="qr-cols blocked-section">
+                        <div class="d-flex align-items-center flex-wrap">
+                            <div class="qr-left">
+                                <span class="qr-img">
+                                    <img alt="" src="https://pramericalife.in//admin/assets/images/our_core_thumbnail/1740031250-trust-and-respect.svg" />
+                                </span>
+                            </div>
+                            <div class="qr-right">
+                                <h5 class="mb-0">Trust and Respect</h5>
+                                    
+                            </div>
+                        </div>
+                        <div class="links-bottom">
+                            <p class="size-18 core-value-text">We are dependable and committed to &#039;Walking our Talk&#039;</p>
+                        </div>
+                    </div>
+                </div>
+                                <div class="core-value-col">
+                    <div class="qr-cols blocked-section">
+                        <div class="d-flex align-items-center flex-wrap">
+                            <div class="qr-left">
+                                <span class="qr-img">
+                                    <img alt="" src="https://pramericalife.in//admin/assets/images/our_core_thumbnail/1740031274-passion-to-win.svg" />
+                                </span>
+                            </div>
+                            <div class="qr-right">
+                                <h5 class="mb-0">Passion to Win</h5>
+                                    
+                            </div>
+                        </div>
+                        <div class="links-bottom">
+                            <p class="size-18 core-value-text">We deliver stretch goals with a CAN DO attitude</p>
+                        </div>
+                    </div>
+                </div>
+                            </div>
+        </div>
+    </div>
+    <!--Section 4 our core ends -->
+    <div id="ctl00_Body1_idSection5" class="partnership-box space-tb50">
+        <div class="container">
+            <div class="mx-842">
+                <div class="page-title pd-t0 text-center">
+                    <h3 class="mg-b0 Our Shareholders">
+                        <span> Our </span> Shareholders
+                    </h3>
+                </div>
+                <p class="size-18 partnership-text">
+                    <b><u>About Piramal Finance Limited (PFL)</u></b>
+                </p>
+                <div class="text-editor-css-c">
+                    <p class="size-18 partnership-text">
+			Piramal Finance Limited (formerly Piramal Capital &amp; Housing Finance Limited), a wholly owned subsidiary of Piramal Enterprises Limited (flagship company of the Piramal Group), is a housing finance company engaged in retail and wholesale lending. <a href="https://www.pramericalife.in/about-us/our-shareholders">Read More</a></p>
+                </div>                
+            </div>
+        </div>
+        <p>
+            &nbsp;</p>
+    </div>
+    <!--Section 5 rock solid partnership ends -->
+    <section id="ctl00_Body1_idSection6"></section>
+    <!--Section 6 our history ends -->
+    <section id="ctl00_Body1_idSection7">
+        <div class="meet-our-team-box space-tb50 space-t100">
+            <div class="container">
+                <div class="page-title pd-t0 text-center mx-952">
+                    <h3 class="mg-b0"><span>Meet</span> the team</h3>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <ul class="nav nav-tabs horizontal-nav-tabs newtabsui" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#leadershipTeam"
+                                type="button">
+                                Leadership team
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mx-1062">
+                <div class="container-nopadding">
+                    <div class="container">
+                        <div class="meet-our-team-inner">
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane show active" id="leadershipTeam">
+                                    <div class="leader-mangement-wrap">
+                                        <div class="leadership-inner-slider flex-slider jsMeetTeamSlider">
+                                                                                                                                                <div class="leadership-row">
+                                                        <div class="leadership-col">
+                                                            <div class="leadership-content-wrap">
+                                                                <p class="heading24 leader-name">
+                                                                    Pankaj Gupta
+                                                                </p>
+                                                                <p class="size-18 leader-profile">
+                                                                    Managing Director &amp; CEO
+                                                                </p>
+                                                            </div>
+                                                            <img src="https://pramericalife.in//admin/assets/images/leadership/1726664042_out-team-img1_ProfileDetail.png" class="meet-team-img" alt="" />
+                                                            <div class="view-details-wrap">
+                                                                <a href="https://pramericalife.in/about-us/our-leadership-team/pankaj-gupta"
+                                                                    class="size-16 view-details-text">
+                                                                    View details
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                                                                                                                                                                <div class="leadership-row">
+                                                        <div class="leadership-col">
+                                                            <div class="leadership-content-wrap">
+                                                                <p class="heading24 leader-name">
+                                                                    Pankaj Gupta
+                                                                </p>
+                                                                <p class="size-18 leader-profile">
+                                                                    Chief Financial Officer
+                                                                </p>
+                                                            </div>
+                                                            <img src="https://pramericalife.in//admin/assets/images/leadership/1732786330_pankaj-22- Final.png" class="meet-team-img" alt="" />
+                                                            <div class="view-details-wrap">
+                                                                <a href="https://pramericalife.in/about-us/our-leadership-team/pankaj-gupta-cfo"
+                                                                    class="size-16 view-details-text">
+                                                                    View details
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                                                                                                                                                                <div class="leadership-row">
+                                                        <div class="leadership-col">
+                                                            <div class="leadership-content-wrap">
+                                                                <p class="heading24 leader-name">
+                                                                    Karthik Chakrapani
+                                                                </p>
+                                                                <p class="size-18 leader-profile">
+                                                                    Chief Business Officer
+                                                                </p>
+                                                            </div>
+                                                            <img src="https://pramericalife.in//admin/assets/images/leadership/1726664086_out-team-img3_ProfileDetail.png" class="meet-team-img" alt="" />
+                                                            <div class="view-details-wrap">
+                                                                <a href="https://pramericalife.in/about-us/our-leadership-team/karthik-chakrapani"
+                                                                    class="size-16 view-details-text">
+                                                                    View details
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                                                                                                    </div>
+                                        <div class="all-members-wrap">
+                                            <a href="https://pramericalife.in/about-us/our-leadership-team" class="btn btn-primary">View all Members</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- meet our team ends -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="ctl00_Body1_idSection9">
+        <div class="emerging-visionaries-box space-tb50">
+            <div class="container">
+                <div class="mx-842">
+                    <div class="emerging-visionaries-inner">
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Section 9 emerging visionaries ends -->
+    <section id="ctl00_Body1_idSection11">
+        <div class="expansive-team-box space-tb50 pd-b0">
+            <div class="container">
+                <div class="mx-1062">
+                    <div class="expansive-team-inner">
+                        <div class="page-title pd-t0 text-center mx-952">
+                            <h3 class="mg-b0"><span>Join our Diverse &amp; </span> Dynamic Team of Achievers</h3>
+                        </div>
+                        <div class="expansive-content-wrap">
+                                                                                   <div class="expansive-content-row">
+                                <div class="expansive-content-col">
+                                    <div class="text-content">
+                                        <h4 class="heading40 text-top-heads">
+                                            Careers
+                                        </h4>
+                                        <p class="size-16 text-description">
+                                            Come join a team where passion meets purpose
+                                        </p>
+                                        <div class="carrer-btn-wrap">
+                                            <a href="https://pramericalife.in/career" class="btn btn-primary">Explore career opportunities</a>
+                                        </div>
+                                    </div>
+                                    <img src="https://pramericalife.in//admin/assets/images/dynamic_team_thumbnail/1740031501-our-expansive-team1.png"
+                                        class="carrers-img" alt="" />
+                                </div>
+                            </div>
+                                                                                                            <div class="expansive-content-row">
+        						<div class="expansive-content-col certified-col">
+        							<div class="text-content">        								
+        								<h4 class="heading40 text-top-heads">
+        									We are Great Place to Work Certified thrice in a row.
+        								</h4><br>
+                                        <p class="size-16 text-description">
+        									1. Recognised among Top 50 Best Workplaces in BFSI 2025 <br> <br>2. Recognised among Top 100 Best Workplaces for Women
+        								</p>
+        							</div>
+        							<img src="https://pramericalife.in//admin/assets/images/dynamic_team_thumbnail/1763532438-gptw logo (1).png" class="certified-img" alt="" />
+        						</div>
+        					</div>
+                                                                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+		<!-- Life insurance -->
+		<div class="tools-calculator-cntr">
+			<div class="container">
+			</div>
+		</div>
+	</main>
+	<!-- Footer -->
+	<footer class="footer">
+		<div class="get-in-touch blue-bg">
+			<div class="container">
+				<h5 class="mg-b24">Get in touch with us</h5>
+				<div class="contact-wrapper">
+					<div class="contact-details">
+						<div class="contact-block">
+							<div class="block-icon">
+								&nbsp;
+							</div>
+							<p class="size-14">
+								<span class="secondary-bold mg-b4">Pramerica Life Insurance Limited</span><br>
+								7th & 8th Floor, Tower 2, Capital Business Park,<br>
+								Sector 48, Gurugram – 122018
+							</p>
+						</div>
+						<div class="contact-block">
+							<div class="block-icon">
+								&nbsp;
+							</div>
+							<p class="size-14">
+								<span class="secondary-bold mg-b4">Customer Service Numbers</span><br>
+								1860 500 7070<br>
+								(Local charges apply)<br>
+								0124 469 7070<br>
+								9:00 AM to 7:00 PM<br>
+								(Monday - Saturday)
+							</p>
+						</div>
+						<div class="contact-block">
+							<div class="block-icon">
+								&nbsp;
+							</div>
+							<p class="size-14">
+								 <span class="secondary-bold mg-b4">WhatsApp on</span><br>
+								+91 9289187070
+							</p>
+						</div>
+						<div class="contact-block">
+							<div class="block-icon">
+								&nbsp;
+							</div>
+							<p class="size-14">
+								<span class="secondary-bold mg-b4">Email</span><br>
+								contactus@pramericalife.in
+							</p>
+							<p class="size-14">
+								<span class="secondary-bold mg-b4">Helpdesk For Senior Citizen</span><br>
+								seniorcitizen@pramericalife.in
+							</p>
+						</div>
+					</div>
+					<div class="social-links">
+						<p class="size-14"><span class="secondary-bold">Follow us on:</span></p>
+						<ul>
+							<li>
+								<a href="https://www.facebook.com/PramericaLifeInsurance/" target="_blank"><i class="icon-facebook"></i></a>
+							</li>
+							<li>
+								<a href="https://www.linkedin.com/company/pramerica-life-insurance/" target="_blank"><i class="icon-linkedin"></i></a>
+							</li>
+							<li>
+								<a href="https://www.instagram.com/pramerica_lifeinsurance/" target="_blank"><i class="icon-instagram"></i></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-main dark-blue-bg">
+			<div class="container">
+				<div class="footer-nav footer-nav-six-col">
+					<ul>
+						<li>
+							<a href="https://pramericalife.in/customer-services">Customer Service </a>
+							<ul>
+																<li>
+									<a href="https://pramericalife.in/customer-services/premium-payment-option">Pay Premium</a>
+								</li>
+								<li>
+									<a href="https://pramericalife.in/contact-us">Contact Us</a>
+								</li>
+								<li>
+									<a href="https://pramericalife.in/send-me-an-advisor">Send Me An Agent</a>
+								</li>
+								<li>
+									<a href="https://pramericalife.in/neft-validation">NEFT</a>
+								</li>
+								<li>
+									<a href="https://pramericalife.in/cheque-pickup">Cheque Pickup</a>
+								</li>
+								<li>
+									<a href="https://pramericalife.in/customer-services/grievance-redressal" target="_blank">Grievance Redressal</a>
+								</li>
+								
+								<li>
+									<a href="https://pramericalife.in/log-complaint">Log Complaint</a>
+								</li>
+								
+								<li>
+									<a href="https://pramericalife.in/faq">FAQ</a>
+								</li>
+
+								<li>
+									<a href="https://pramericalife.in/admin/assets/fileUpload/1771245297-Banner%20NCFE.pdf" target="_blank">Financial Literacy Week 2026</a>
+								</li>
+							</ul>
+							<span class="icon-angle-down footer-menu-collapse-btn"></span>
+						</li>
+						<li>
+							<a href="https://pramericalife.in/download">Downloads Center </a>
+							<ul>
+								<li>
+									<a href="https://customer.pramericalife.in/">Tax Certificate</a>
+								</li>
+								<li>
+									<a href="https://customer.pramericalife.in/">Download Policy Pack</a>
+								</li>
+								<li>
+									<a href="https://customer.pramericalife.in/">Premium Receipt Download</a>
+								</li>
+								<li>
+									<a href="https://pramericalife.in/unit-statement-login">Unit Statement Download</a>
+								</li>
+								<li>
+									<a href="https://pramericalife.in/download">Product Downloads</a>
+								</li>
+								<li>
+									<a href="https://pramericalife.in/customer-services/withdrawn-plans">Withdrawn Plans</a>
+								</li>
+							</ul>
+							<span class="icon-angle-down footer-menu-collapse-btn"></span>
+						</li>
+						<li>
+							<a href="https://pramericalife.in/corporate-disclaimers">Disclaimer & Others </a>
+							<ul>
+								<li>
+									<a href="https://pramericalife.in/privacy-policy">Privacy Policy</a>
+								</li>
+								<li>
+									<a href="https://pramericalife.in/corporate-disclaimers#disclaimer">Disclaimers</a>
+								</li>
+								<li>
+									<a href="https://pramericalife.in/terms-and-conditions">Terms & Conditions</a>
+								</li>
+								<li>
+									<a href="https://pramericalife.in/company-law-disclosure">Company Law Disclosure</a>
+								</li>
+								<li>
+									<a href="https://pramericalife.in/corporate-disclaimers#corporate-disclaimers">Corporate Disclaimer</a>
+								</li>
+								<li>
+									<a href="https://pramericalife.in/corporate-disclaimers#corporate-policies">Corporate Policies</a>
+								</li>
+								<li>
+									<a href="https://pramericalife.in/our-distributors">Our Distributors</a>
+								</li>
+								<li>
+									<a target="_blank"href="https://irdai.gov.in/list-of-black-listed-agents">List of Blacklisted Agents</a>
+								</li>
+								<!--<li>
+									<a target="_blank"href="https://drive.google.com/file/d/1bUWf1WXf_WJBFLtnNcgLS0aDLI6K0S_L/view?usp=drivesdk" target="_blank">IRDAI Chairman Message</a>
+								</li>-->
+							</ul>
+							<span class="icon-angle-down footer-menu-collapse-btn"></span>
+						</li>
+						<li>
+							<a href="https://pramericalife.in/company-law-disclosure">Disclosure </a>
+							<ul>
+								<li>
+									<a href="https://pramericalife.in/corporate-disclaimers#public-disclosures">Public Disclosure</a>
+								</li>
+								<li>
+									<a href="https://pramericalife.in/kpi-disclosures">KPI Disclosures</a>
+								</li>
+								<li>
+									<a href="https://irdai.gov.in/" target="_blank">IRDAI</a>
+								</li>
+								<li>
+									<a href="https://www.lifeinscouncil.org/code/HomePage" target="_blank">Life Insurance Council</a>
+								</li>
+								<li>
+									<a href="https://bimabharosa.irdai.gov.in/Home/Home">Bima Bharosa</a>
+								</li>
+								<li>
+									<a href="https://irdai.gov.in/ombudsman">Ombudsman</a>
+								</li>
+								<li>
+									<a href="https://pramericalife.in/do-not-call-registry">Do not Call Registry</a>
+								</li>
+								<li>
+									<a href="https://pramericalife.in/unclaimed-amount">Unclaimed Amount Details</a>
+								</li>
+							</ul>
+							<span class="icon-angle-down footer-menu-collapse-btn"></span>
+						</li>
+						<li>
+							<a href="https://pramericalife.in/prahri">Prahri </a>
+							<ul>
+								<li>
+									<a href="https://pramericalife.in/prahri/differentiators">Differentiator</a>
+								</li>
+								<li>
+									<a href="https://pramericalife.in/prahri/pfi-and-military">PFI and Military</a>
+								</li>
+								<li>
+									<a href="https://pramericalife.in/prahri/community-engagements">Community Engagements</a>
+								</li>
+								<li>
+									<a href="https://pramericalife.in/prahri/cantonment-presence">Cantonment Presence</a>
+								</li>
+								<li>
+									<a href="https://pramericalife.in/prahri/cantonment-events">Cantonment Events</a>
+								</li>
+								<li>
+									<a href="https://pramericalife.in/param"><strong>Param</strong></a>
+								</li>
+								<li>
+									<a href="https://pramericalife.in/sitemap"><strong>Sitemap</strong></a>
+								</li>
+							</ul>
+							<span class="icon-angle-down footer-menu-collapse-btn"></span>
+						</li>
+					</ul>
+					<span class="icon-angle-down footer-menu-collapse-btn"></span>
+				</div>
+				<div class="footer-nav footer-nav-five-col">
+					<ul>
+						<li>
+							<a href="https://pramericalife.in/fund-management">Funds</a>
+							<ul>
+								<li>
+									<a href="https://pramericalife.in/fund-management/nav-performance">Nav Performance</a>
+								</li>
+								<li>
+									<a href="https://pramericalife.in/fund-management/fund-portfolio">Fund Portfolio</a>
+								</li>
+								<li>
+									<a href="https://pramericalife.in/fund-management/market-update">Market Update</a>
+								</li>
+								<li>
+									<a href="https://pramericalife.in/fund-management/bonus-declaration">Bonus And Addition</a>
+								</li>
+								<li>
+									<a href="https://pramericalife.in/fund-management/stewardship">Stewardship</a>
+								</li>
+							</ul>
+							<span class="icon-angle-down footer-menu-collapse-btn"></span>
+						</li>
+						<li>
+							<a href="https://pramericalife.in/blogs">Blog </a>
+							<ul>
+								<li>
+									<a href="https://pramericalife.in/faq">FAQs</a>
+								</li>
+
+								<li>
+									<a href="https://pramericalife.in/admin/assets/fileUpload/1771245297-Banner%20NCFE.pdf" target="_blank">Financial Literacy Week 2026</a>
+								</li>
+							</ul>
+							<span class="icon-angle-down footer-menu-collapse-btn"></span>
+						</li>
+						<li>
+							<a href="https://pramericalife.in/career">Career </a>
+							<ul>
+								<li>
+									<a href="https://pramericalife.in/thisismyclimb">Thisismyclimb</a>
+								</li>
+								<li>
+									<a href="https://pramericalife.in/know-your-agent">Know Your Agent</a>
+								</li>
+							</ul>
+							<span class="icon-angle-down footer-menu-collapse-btn"></span>
+						</li>
+						<li>
+							<a href="https://pramericalife.in/claim">Claim </a>
+							<ul>
+								<li>
+									<a href="https://pramericalife.in/claim">Claim Process</a>
+								</li>
+								<li>
+									<a href="https://pramericalife.in/claim/claim-forms">Claim Forms</a>
+								</li>
+								<li>
+									<a href="https://pramericalife.in/claim/claim-status">Claim Status</a>
+								</li>
+							</ul>
+							<span class="icon-angle-down footer-menu-collapse-btn"></span>
+						</li>
+					</ul>
+					<span class="icon-angle-down footer-menu-collapse-btn"></span>
+				</div>
+				<p class="size-12 mg-b24">IRDAI Registration No.140. Category: Life. Validity: Valid. Pramerica Life Insurance Limited. Registered Office and Communication Address: Pramerica Life Insurance Limited 7th & 8th Floor, Tower 2, Capital Business Park, Sector 48, Gurugram, Haryana- 122018 CIN: U66000HR2007PLC052028.
+				</p>
+				<p class="size-12 mb-3">The Pramerica Life Mark displayed belongs to 'The Prudential Insurance Company of
+					America' and is used by Pramerica Life Insurance Limited under license.
+				</p>
+				<p class="size-12 mg-b24" style="border: 1px solid #fff; padding: 10px 10px; box-sizing: border-box;">
+					<b>BEWARE OF SPURIOUS PHONE CALLS AND FICTITIOUS / FRAUDULENT OFFERS: </b>IRDAI or its officials do not involve in activities like selling insurance policies, announcing bonus or investment of premiums. Public receiving such phone calls are requested to lodge a police complaint.
+				</p>
+				<div class="d-flex justify-content-between flex-column flex-sm-row">
+					<p class="size-12 mb-2 mb-sm-3">&copy; Copyright 2026, All Rights Reserved.</p>
+									</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Footer -->
+	<!-- quick links section -->
+	 	<div class="floating_right_icons">
+		<ul>
+			<li><a id="openPopupBtn" href="javascript:void(0)">
+					<span><img src="https://pramericalife.in//frontend/assets/images/call_me_icon.png"></span>
+					<span class="float-icon-text">Pay Online</span>
+				</a>
+			</li>
+			<li><a href="https://pramericalife.in/log-complaint">
+					<span><img src="https://pramericalife.in//frontend/assets/images/send_me_right_icon.png"></span>
+					<span class="float-icon-text">Concern</span>
+				</a>
+			</li>
+			<li><a href="https://pramericalife.in/locate-us">
+					<span><img src="https://pramericalife.in//frontend/assets/images/locate_us_icon.png"></span>
+					<span class="float-icon-text">Locate Us</span>
+				</a>
+			</li>
+			<li><a href="https://pramericalife.in/contact-us">
+					<span><img src="https://pramericalife.in//frontend/assets/images/quick-contact-us-icon.png"></span>
+					<span class="float-icon-text">Contact Us</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+		<div class="online-payment-popup">
+		<div id="popup" class="popup">
+			<div class="paypopup-content">
+				<span id="closePopupBtn" class="close-btn">&times;</span>
+				<div class="payonline-popup">
+					<h2 class="premium-title">Pay Premium Online</h2>
+					<p class="premium-title-sub-text">Click on the option as per your convenience</p>
+					<div class="premium_btn_blocks">
+						<div class="premium_btn-item">
+							<a href="https://pramericalife.in/pay-first-premium">Pay First Premium</a>
+							<p class="premium-item-sub-text">For new policy application</p>
+						</div>
+						<div class="premium_btn-item">
+							<a href="https://pramericalife.in/pay-renewal-premium">Pay Renewal Premium</a>
+							<p class="premium-item-sub-text">For existing policy</p>
+						</div>
+						<div class="premium_btn-item">
+							<a href="https://pramericalife.in/pay-loan-amount">Pay Loan Amount</a>
+							<p class="premium-item-sub-text">For existing policy</p>
+						</div>
+						<div class="premium_btn-item">
+							<a href="https://pramericalife.in/pay-top-up-premium">Pay Top Up Premium</a>
+							<p class="premium-item-sub-text">For existing ULIP policy</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<style>
+	.popup-desk-img.build-home-popup{
+			
+			    max-width: 680px;
+				margin: 0px auto;
+		}
+		
+	@media only screen and (min-width: 768px) and (max-width: 1199px)  {
+		 .popup-desk-img.build-home-popup {
+		        max-width: 446px;
+	    }
+		.image-popup-section .img_popup-overlay{
+			padding-top: 9%;
+		}
+	 }	
+	
+	@media only screen and (min-width: 1200px) and (max-width: 1366px)  {
+		 .popup-desk-img.build-home-popup {
+		        max-width: 414px;
+	    }
+	 }
+	 
+	  @media only screen and (min-width: 1367px) and (max-width: 1440px)  {
+		 .popup-desk-img.build-home-popup {
+		        max-width: 510px;
+	    }
+	 }
+	 
+	 @media only screen and (min-width: 1441px) and (max-width: 1599px)  {
+		 .popup-desk-img.build-home-popup {
+		        max-width: 600px;
+	    }
+	 }
+	 
+	 @media only screen and (min-width: 1600px) and (max-width: 1680px)  {
+		.popup-desk-img.build-home-popup {
+			max-width: 650px;
+		}
+	 }
+	</style>
+	
+		<!-- sticky bar show -->
+	<style>
+	
+	#sticky-bar {
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		background-color: #007bc1;
+		color: white;
+		text-align: center;
+		padding: 0px  15px;
+		z-index: 1000;
+		transition: transform 0.3s ease;
+		display: none;
+	}
+	
+	#close-sticky {
+    position: absolute;
+    right: 14px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 0px;
+    top: -12px;
+}
+
+.sticky-new-text-block{
+	margin-left: 1.5%;
+    position: relative;
+	display: none;
+}
+
+.sticky-new-text-block p{
+	text-align: left;
+    font-family: "Open-Sans";
+    font-size: 16px;
+    color: #fff !important;
+}
+
+.sticky-new-text-block p span{
+	    color: #ffca02;
+}
+	
+	#close-sticky svg {
+       width: 20px;
+		position: relative;
+		top: -1px;
+	}
+
+	#sticky-bar.show {
+	  opacity: 1;
+	  pointer-events: auto;
+	  display: block;
+	}
+	
+	.sticky-bar-inner {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	.father-daughter-icon {
+        max-width: 214px;
+    }
+	 .father-daughter-icon img {
+	 max-width: 100%;
+	 margin-top: -44px;
+	 }
+	
+	
+	.stkicy-heading-1 {
+		font-family: "Prudential-Bold" !important;
+		color: #fff;
+		font-size: 28px;
+		text-align: left;
+	}
+	
+	.stkicy-heading-1 span{
+		color: #ffc905;
+	}
+	
+	.sticky-info-text-block-1 {
+		margin-left: 4%;
+		position: relative;
+	}
+	
+	.sticky-rakshak-smart-text {
+		color: #fff;
+		font-family: "Open-Sans";
+		font-size: 18px;
+		text-align: left;
+		margin-bottom: 0px;
+		margin-top: 6px;
+		line-height: 1;
+	}
+	
+	.sticky-rakshak-smart-text .pl-life {
+		padding-top: 1px;
+		border-top: 1px solid #ffc905;
+	}
+	
+	.sticky-info-list-block-2{
+		margin-left: 3%;
+		position: relative;
+	}
+	
+	.sticky-info-list-block-2 ul{
+		padding-left: 0px;
+	}
+	
+	.sticky-info-list-block-2 ul li {
+		position: relative;
+		font-family: "Open-Sans";
+		font-size: 16px;
+		color: #fff !important;
+		display: flex;
+	}
+	
+	.sticky-info-list-block-2 ul li span img {
+		width: 30px;
+	}
+	
+	.sticky-rupee-icon{
+		margin-left: 2%;
+		position: relative;
+	}
+	
+	.sticky-rupee-icon img {
+		    max-width: 394px;
+		
+	}
+	
+	.sticky-book-now-link{
+		margin-left: 3%;
+		margin-top: 14px;
+	}
+	
+.sticky-book-now-link a {
+    background-color: #ffca02;
+    color: #000;
+    display: inline-block;
+    padding: 14px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: "Open-Sans";
+    font-size: 16px;
+    font-weight: 600;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 375px)  {
+	.sticky-rupee-icon img {
+		margin: 0px auto;
+         max-width: 182px !important;
+	}
+	
+	.sticky-rakshak-smart-text{
+	   font-size: 9px !important;
+	}
+	
+	.sticky-rupee-icon {
+        margin-left: -3% !important;
+	}
+}
+
+@media (max-width: 767px) {
+	
+
+#sticky-bar {
+    bottom: 50px;
+    padding: 0px 0px;
+}
+
+.sticky-new-text-block{
+	display: inline-block;
+}
+
+.sticky-new-text-block p {
+   
+    font-size: 10px;
+    line-height: 1.2;
+}
+
+.sticky-new-text-block {
+    margin-left: 0.5%;
+    padding-right: 4px;
+}
+	
+.father-daughter-icon {
+    display: none;
+}
+.sticky-info-list-block-2{
+	 display: none;
+}
+
+.stkicy-heading-1{
+	display: none;
+}
+
+.sticky-rakshak-smart-text {
+    color: #ffca02;
+    font-size: 9px;
+	font-weight: 600;
+}
+
+.sticky-info-text-block-1 {
+    margin-left: 0%;
+    position: relative;
+    width: 21%;
+	margin-top: 8px;
+}
+
+
+.sticky-rupee-icon img {
+    max-width: 185px;
+	margin: 0px auto;
+    margin-top: 0px;
+	
+}
+
+.sticky-book-now-link a {
+    padding: 2px 4px;
+    font-size: 9px;
+    margin-top: 6px;
+    font-weight: 600;
+}
+#sticky-bar{
+	    bottom: 50px;
+}
+
+#close-sticky svg {
+    width: 10px;
+    position: relative;
+    top: 2px;
+    height: 10px;
+}
+
+.sticky-rakshak-smart-text .pl-life{
+	  border-top: 0px solid #ffc905;
+}
+
+.sticky-rakshak-smart-text .pl-life span{
+	color: #fff;
+}
+
+#close-sticky {
+     right: 4px;
+    width: 20px;
+    height: 20px;
+	padding-bottom: 4px;
+   
+}
+
+.sticky-book-now-link {
+    margin-left: 0%;
+	margin-top: 0px;
+}
+
+.sticky-rupee-icon {
+    margin-left: 0%;
+	width: 48%;
+}
+
+.sticky-bar-inner{
+	gap: 10px;
+    border-bottom: 1px solid;
+	padding-bottom: 4px;
+}
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1000px)  {
+
+.banner_strip{
+		padding: 16px 20px;
+}
+
+.banner_strip{
+	 font-size: 14px;
+}
+	
+	 #searchPopup.active .search-box {
+         margin-top: -17%;
+         }
+         .search-box{
+         min-height: 208px;
+         }
+ .sticky-info-text-block-1{
+    margin-left: 2%;
+ }
+ 
+ #sticky-bar{
+	    height: 80px; 
+ }
+ 
+.father-daughter-icon img {
+         max-width: 100%;
+         margin-top: -22px;
+         }
+
+.sticky-info-list-block-2 ul li span img {
+    width: 18px;
+}
+ 
+.father-daughter-icon {
+    max-width: 86px;
+}
+ 
+ .stkicy-heading-1 {
+    font-size: 11px;
+}
+ 
+ .sticky-rakshak-smart-text{
+	 font-size: 10px;
+ }
+ 
+ .sticky-info-list-block-2 ul li{
+	font-size: 10px;
+    align-items: center;
+    line-height: normal;
+ }
+ 
+.sticky-rupee-icon img {
+    max-width: 196px;
+   
+}
+
+.sticky-new-text-block p {
+   font-size: 10px;
+   line-height: 1.2;
+}
+
+
+.sticky-book-now-link a {
+    padding: 4px 4px;
+    font-size: 10px;
+    line-height: 1.2;
+}
+
+.sticky-rupee-icon {
+    margin-left: 1%;
+    margin-right: 2px;
+}
+
+.father-daughter-icon {
+    max-width: 86px;
+}
+
+.sticky-book-now-link {
+    margin-left: 0%;
+}
+
+.sticky-info-list-block-2{
+    margin-left: 1%;
+ }
+ 
+ .sticky-info-text-block-1 {
+    margin-left: 1%;
+ }
+ 
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1199px)  {
+ .sticky-info-text-block-1{
+    margin-left: 2%;
+ }
+ 
+
+ 
+ .father-daughter-icon img {
+         max-width: 100%;
+         margin-top: -22px;
+         }
+
+.sticky-info-list-block-2 ul li span img {
+    width: 18px;
+}
+ 
+.father-daughter-icon {
+    max-width: 86px;
+}
+ 
+ .stkicy-heading-1 {
+    font-size: 14px;
+}
+ 
+ .sticky-rakshak-smart-text{
+	        font-size: 12px;
+ }
+ 
+ .sticky-info-list-block-2 ul li{
+	font-size: 12px;
+    align-items: center;
+    line-height: normal;
+ }
+ 
+.sticky-rupee-icon img {
+    max-width: 240px;
+   
+}
+
+.sticky-new-text-block p{
+	 font-size: 12px;
+	line-height: 1.2;
+}
+
+.sticky-book-now-link a {
+    padding: 4px 4px;
+    font-size: 12px;
+	line-height: 1.2;
+}
+
+.father-daughter-icon {
+    max-width: 86px;
+}
+
+.sticky-book-now-link {
+    margin-left: 2%;
+    
+}
+
+.sticky-info-text-block-1 {
+    margin-left: 2%;
+}
+ 
+ .sticky-info-text-block-1 {
+    margin-left: 2%;
+ }
+ 
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1366px)  {
+	
+.banner_strip{
+		padding: 16px 20px;
+}
+
+.banner_strip p{
+	    font-size: 16px;
+}
+	
+ .sticky-rupee-icon img {
+            max-width: 300px;
+   
+}
+    #searchPopup.active .search-box {
+         margin-top: -22%;
+         }
+         .search-box{
+         min-height: 208px;
+         }
+   .stkicy-heading-1{
+	   font-size: 18px;
+   }
+   
+   .father-daughter-icon {
+		max-width: 164px;
+	}
+	
+	.sticky-info-list-block-2 {
+      margin-left: 3%;
+	}
+	
+	.sticky-book-now-link {
+		margin-left: 3%;
+	}
+	
+	.sticky-rakshak-smart-text{
+		    font-size: 15px;
+	}
+	
+	.sticky-book-now-link a{
+		 padding: 7px 12px;
+			font-size: 14px;
+	}
+	
+	.sticky-rupee-icon {
+		margin-left: 3%;
+	 }
+	 
+	 .sticky-info-text-block-1 {
+      margin-left: 3%;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1299px)  {
+
+.father-daughter-icon {
+    max-width: 148px;
+}
+
+.father-daughter-icon img{
+         margin-top: -26px;
+         }
+
+.sticky-info-list-block-2 ul li{
+		    font-size: 13px;
+	}
+}
+
+@media only screen and (min-width: 1367px) and (max-width: 1440px)  {
+	
+.banner_strip{
+		padding: 18px 20px;
+}
+
+.banner_strip p{
+	    font-size: 18px;
+}
+	
+.sticky-rupee-icon img {
+    max-width: 320px;
+    
+}
+   
+   .stkicy-heading-1{
+	   font-size: 20px;
+   }
+   
+   .father-daughter-icon {
+		max-width: 164px;
+	}
+	
+	.sticky-info-list-block-2 {
+      margin-left: 3%;
+	}
+	
+	.sticky-book-now-link {
+		margin-left: 3%;
+	}
+	
+	.sticky-rakshak-smart-text{
+		    font-size: 16px;
+	}
+	
+	.sticky-book-now-link a{
+		    padding: 7px 18px;
+			font-size: 14px;
+	}
+	
+	.sticky-rupee-icon {
+		margin-left: 3%;
+	 }
+	 
+	 .sticky-info-text-block-1 {
+      margin-left: 2%;
+    }
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 1599px)  {
+.sticky-rupee-icon img {
+    max-width: 320px;
+    
+}
+   
+   .stkicy-heading-1{
+	   font-size: 20px;
+   }
+   
+   .father-daughter-icon {
+		max-width: 164px;
+	}
+	
+	.sticky-info-list-block-2 {
+      margin-left: 3%;
+	}
+	
+	.sticky-book-now-link {
+		margin-left: 3%;
+	}
+	
+	.sticky-rakshak-smart-text{
+		    font-size: 16px;
+	}
+	
+	.sticky-book-now-link a{
+		    padding: 8px 18px;
+			font-size: 14px;
+	}
+	
+	.sticky-rupee-icon {
+		margin-left: 3%;
+	 }
+	 
+	 .sticky-info-text-block-1 {
+      margin-left: 3%;
+    }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1680px){
+	.stkicy-heading-1{
+		font-size: 24px;
+	}
+	
+	.sticky-rakshak-smart-text{
+		    font-size: 16px;
+	}
+	
+	.sticky-rupee-icon img {
+    max-width: 390px;
+   
+}
+}
+
+<!-- End sticky bar show -->
+	
+</style>
+	
+		<div id="sticky-bar">
+	   <button id="close-sticky"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 32 32" width="32px" height="32px"><path d="M 7.21875 5.78125 L 5.78125 7.21875 L 14.5625 16 L 5.78125 24.78125 L 7.21875 26.21875 L 16 17.4375 L 24.78125 26.21875 L 26.21875 24.78125 L 17.4375 16 L 26.21875 7.21875 L 24.78125 5.78125 L 16 14.5625 Z"/></svg></button>
+	    <div class="sticky-bar-inner">
+		   <div class="father-daughter-icon">
+               <img src="https://pramericalife.in/admin/assets/fileUpload/1782119548-Website%20Pop%20Up_Smart%20Invest%201UP_OCT_2025-05%20(1).png" alt="Father Daughter">
+            </div>
+		   
+		   <!--<div class="sticky-info-text-block-1">
+		     <h2 class="stkicy-heading-1">GUARANTEED SMILES WITH <br /> <span>GUARANTEED RETURNS</span></h2>
+			 <p class="sticky-rakshak-smart-text"><span class="pl-life"><span>PRAMERICA LIFE</span> RAKSHAK SMART</span></p>
+		   </div>-->
+		   
+		    <div class="sticky-info-list-block-2">
+			  <ul>
+			    <li><span><img src="https://pramericalife.in/admin/assets/fileUpload/1753683285-sticky-list-check-icon.png"></span> <span style="text-align: left;">Upto 11%# guaranteed additions on 1 year premium</span></li>
+				<li><span><img src="https://pramericalife.in/admin/assets/fileUpload/1753683285-sticky-list-check-icon.png"></span> <span style="text-align: left;">Zero premium allocation and policy administration charges</span></li>
+				<li><span><img src="https://pramericalife.in/admin/assets/fileUpload/1753683285-sticky-list-check-icon.png"></span> <span style="text-align: left;">Life Coverage</span> <span style="text-align: left;position: absolute;right: 0; font-weight: 600; font-size: 10px;">*T&amp;C Apply</span></li>
+			  </ul>
+			</div>
+			
+			<div class="sticky-new-text-block">
+			   <p>Pramerica Life <br> <span>Smart Invest 1 UP</span> </p>
+			</div>
+			
+			<div class="sticky-rupee-icon">
+               <img src="https://pramericalife.in/admin/assets/fileUpload/1782476802-Website%20Pop%20Up_Smart%20Invest%201UP_OCT_2025-06.png" alt="Ruepee icon">
+            </div>
+            <div class="sticky-book-now-link">
+               <a class="call-back-open-popup" href="https://pramericalife.in/?showPopup=true">GET A CALL BACK</a>
+            </div>
+		</div>
+	</div>
+		
+	
+	<div class="callback-popup-overlay" id="callbackPopup">
+         <div class="callback-popup">
+            <span class="callback-close" id="closePopup">&times;</span>
+            <h2 class="popup-form-heading">You are one step away from securing your loved ones </h2>
+            <form method="post" action="https://pramericalife.in/sendFooterLead" id="frmcallback" name="frmcall_back">		
+				<input type="hidden" name="_token" value="7Au3jG60xZVIEBrqXd7Y1VagiCaJbNerOLBvHRYw">	
+				<input type="text" name="footer_form" value="" style="display:none !important">						
+               <div class="lp-form-section form-sidebar">
+                  <div id="UpdatePanel1">
+                     <div id="main">
+                      
+                        <div class="row rowgap-7">
+                           <div class="col-12">
+                              <div class="form-group-new">
+                                 <label>Full name*</label>
+                                 <div class="form-texts">
+                                    <input name="frmName" type="text" id="frmName" class="form-control" placeholder="Enter your full name">
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-12 mt-3">
+                              <div class="form-group-new">
+                                 <label>Email ID*</label>
+                                 <div class="form-texts">
+                                    <input name="frmEmailID" type="text" id="frmEmailID" class="form-control" placeholder="Enter your Email">
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-12 mt-3">
+                              <div class="form-group-new">
+                                 <div class="row">
+                                    <div class="col-lg-6 col-md-12 col-xs-12">
+                                       <label>Date of birth*</label>
+                                       <input class="form-control" type="date" name="dob" value="1997-01-01">
+                                    </div>
+                                    <div class="col-lg-6 col-md-12 col-xs-12 gender-block">
+                                       <label>Gender*</label>
+                                       <div class="gender-item">
+                                          <span class="toggle-span"><input type="radio" id="female" name="gender" value="female"><label for="female">Female</label> <img class="radio-icon" src="https://pramericalife.in/admin/assets/fileUpload/1750673159-radio-icon-1.png"></span>
+                                          <span class="toggle-span"><input type="radio" id="male" name="gender" value="male"><label for="male">Male  <img class="radio-icon" src="https://pramericalife.in/admin/assets/fileUpload/1750673183-radio-icon-2.png"></label></span>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+						<div class="row phone-otp-row">
+                        <div class="col-6 mt-3">
+                           <div class="form-group-new">
+                              <label>Enter mobile number*</label>
+                              <div class="form-texts text-with-lebels" data-type="+91">
+                                 <input name="frmContactNo" type="text" maxlength="10" id="frmContactNo" class="form-control send-otp-input jsEnterMobileNum " placeholder="00000 00000">
+                              </div>
+                              <div class="send-otp-wrap">
+                                 <input type="button" name="btnSendOTP" id="btnSendOTP" value="Send OTP" disabled="" class="otp-btn btn-links primary-semibold jsOtpSentBtn">
+                                 <p class="otp-sent font-14 primary-semibold d-none jsOtpSentSuccessfully">
+                                    OTP Sent
+                                 </p>
+                              </div>
+                           </div>
+                        </div>
+						<div class="col-6 mt-3">
+                        <div id="otp_field" class="col-12 otp-filed-none">
+                           <div class="form-group-new">
+                              <label>Enter OTP</label>
+                              <div class="form-texts">
+                                 <input name="otpvalue" type="text" id="otpvalue" class="form-control" placeholder="OTP" disabled="">
+                              </div>
+                           </div>
+                        </div>
+						</div>
+						</div>
+                        <div class="col-12">
+                           <div class="col-md-12 form-check mg-t10 custom-checkbox" >
+                              <input class="form-check-input" type="checkbox" value="" id="frmFlexCheckDefault" name="frmFlexCheckDefault">
+                              <label class="form-check-label size-12 text-black5" for="frmFlexCheckDefault"></label>
+                              <span class="size-12 text-black5 disclaimerText" id="checkboxError">By submitting my details, I override my National Do Not Call Registry registration and authorize Pramerica Life and its representatives to contact me through call, SMS, email, WhatsApp or any other mode. By choosing not to undergo the suitability analysis, you confirm to purchase the policy based on your independent assessment of suitability of the product and wish to bypass the suitability analysis. I hereby give my consent to Pramerica Life Insurance to fetch my insurance history details from Insurance Information Bureau. <span class="read-more-toggle"> <!---<a href="#" class="read-more-link">[+]</a>--></span> </span>
+                           </div>
+						   
+                        </div>
+						
+						<div class="col-12">
+							<a style="color:#333333;text-decoration:none;font-size:12px;margin:6px 0;display:inline-block;font-family:'Open-Sans';font-weight: 600;"
+							   href="https://pramericalife.in/admin/assets/fileUpload/1782120078-Disclaimer_Smart%20Invest%201%20UP_V4.pdf" target="_blank">
+							   Download Disclaimer
+							</a>
+						</div>
+
+                        <div class="col-12">
+						<input type="hidden" name="utm_source" id="utm_source" value=" " />
+						<input type="hidden" name="utm_medium" id="utm_medium" value="Smart_Invest_1_UP_Pop_up" />
+						<input type="hidden" name="utm_campaign" id="utm_campaign" value="Smart_Invest_Website_Pop_up" />
+						<input type="hidden" name="utm_term" id="utm_term" value="Smart Invest 1 UP" />
+						<input type="hidden" name="utm_content" id="utm_content" value="Smart_Invest_Website_Sticky_Pop_up" />
+						<input type="submit" name="callbackbtnSubmitDesktop" id="callbackbbtnSubmitDesktop" class="submit-btn disabled" value="Get A Call Back" disabled="">
+                        </div>
+                     </div>
+                  </div>
+                  <div class="no-spam-wrap">
+                     <div class="no-spam-inner">
+                        <ul class="no-wrap-list">
+                           <li class="no-spam-item">
+                              <div class="circle-28"> <img style="width: 22px;" src="https://pramericalife.in//frontend/assets/images/form-iocn-1.png">
+                              </div>
+                              <div class="spam-right">
+                                 <p class="size-12">No spam calls</p>
+                              </div>
+                           </li>
+                           <li class="no-spam-item">
+                              <div class="circle-28"><img style="width: 21px; height: 20px;" src="https://pramericalife.in//frontend/assets/images/form-icon-2.png">
+                              </div>
+                              <div class="spam-right">
+                                 <p class="size-12">No mis-selling</p>
+                              </div>
+                           </li>
+                           <li class="no-spam-item">
+                              <div class="circle-28"><img style="width: 22px;" src="https://pramericalife.in/admin/assets/fileUpload/1750844342-form-advisor-icon.png">
+                              </div>
+                              <div class="spam-right">
+                                 <p class="size-12">Official Pramerica Life advisors only</p>
+                              </div>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </form>
+         </div>
+      </div>
+	  
+	   <!-- sticky timer popup css -->
+	  
+	  <style>
+	 .sticky-timer-popup {
+		display: none;
+		position: fixed;
+		bottom: 188px;
+		left: 0px;
+		background: #333;
+		color: white;
+		padding: 0;
+		z-index: 1000;
+		max-width: 250px;
+	}
+	
+	  .sticky-timer-popup img{
+		  width: 100%;
+	  }
+	  
+	  
+	.timer_popup_close_btn {
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		background: none;
+		border: none;
+		color: white;
+		font-size: 22px;
+		cursor: pointer;
+		width: 30px;
+	}
+
+	.timer_popup_close_btn:hover {
+		color: #ffffff;
+	}
+	  
+	   @media (max-width: 767px) {
+		   .sticky-timer-popup{
+			   bottom: 124px;
+			   max-width: 122px;
+		   }
+		   
+		   .timer_popup_close_btn{
+			   right: -5px;
+		   }
+	   }
+	   
+	    @media only screen and (min-width: 768px) and (max-width: 1199px)  {
+			.sticky-timer-popup{
+				    bottom: 124px;
+				    max-width: 100px;
+			}
+		}
+	  
+	  @media only screen and (min-width: 1200px) and (max-width: 1440px)  {
+		  .sticky-timer-popup {
+			 max-width: 140px;
+		  }
+	  }
+	  
+	   @media only screen and (min-width: 1441px) and (max-width: 1680px)  {
+		    .sticky-timer-popup {
+			  max-width: 150px;
+		  }
+	   }
+	  
+	   @media only screen and (min-width: 1681px) and (max-width: 1790px)  {
+		  .sticky-timer-popup {
+			  max-width: 200px;
+		  }
+	  }
+	  
+	  </style>
+	  
+	  	  
+	  
+	
+	
+	<style>
+	  
+	   .popup-form-heading {
+			font-size: 18px;
+			margin-bottom: 22px;
+			padding: 18px 17px 0px;
+		}
+		
+		.callback-popup .form-group-new .text-with-lebels .form-control {
+			padding-left: 38px;
+		}
+		
+		.callback-popup .form-group-new {
+			    margin-bottom: 6px;
+		}
+	  
+         .callback-popup-overlay {
+         position: fixed;
+         inset: 0;
+         background: rgba(0, 0, 0, 0.6);
+         display: none;
+         align-items: center;
+         justify-content: center;
+         z-index: 1000;
+		 padding-top: 4%;
+         }
+         .callback-popup {
+			background: #fff;
+			border-radius: 10px;
+			padding: 0px;
+			max-width: 450px;
+			width: 90%;
+			box-shadow: 0 5px 25px rgba(0,0,0,0.2);
+			position: relative;
+			margin: 0px auto;
+		}
+		
+		.callback-popup .form-check{
+			    line-height: 1;
+				margin-top: 4px !important;
+		}
+		
+		.callback-popup #UpdatePanel1{
+			    padding: 0px 20px;
+		}
+		 
+		.callback-popup .gender-item {
+			display: flex;
+			gap: 10px;
+		}
+		
+		.callback-popup .gender-item span input {
+			visibility: hidden;
+		}
+		
+		.callback-popup .toggle-span.active {
+			border-color: #000;
+		}
+		
+		.callback-popup .gender-item span label {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			padding-left: 10px;
+			padding-top: 10px;
+			z-index: 2;
+			color: #111;
+			font-weight: normal;
+			font-family: "Open-Sans-SemiBold";
+			font-size: 12px;
+			line-height: 130%;
+			display: block;
+			margin-bottom: 6px;
+		}
+		
+		.callback-popup .gender-item span {
+			width: 50%;
+			border: 1px solid #dbdbdb;
+			border-radius: 30px;
+			position: relative;
+			height: 38px;
+		}
+		
+		.callback-popup .radio-icon {
+			position: absolute;
+			right: 5px;
+			top: 9px;
+			width: 15px;
+		}
+		
+		.callback-popup .send-otp-wrap {
+			position: absolute;
+			right: 6px;
+			top: 28px;
+		}
+		
+		.callback-popup .hidden-text {
+			display: none;
+		}
+		
+		.toggle-span.active{
+		  border-color: #000;
+		}
+		.callback-popup .submit-btn {
+			background-color: #001F45;
+			color: #fff;
+			border: 0px;
+			padding: 6px 18px;
+			display: inline-block;
+			margin-top: 10px;
+			border-radius: 5px;
+			font-size: 16px;
+			width: 100%;
+			border-radius: 30px;
+		}
+		
+		.callback-popup .otp-filed-none {
+			display: none;
+		}
+		
+		.callback-popup .submit-btn.disabled {
+			background-color: #cdcdcd;
+			color: #00000075;
+		}
+		
+		.callback-popup .no-spam-wrap {
+			background-color: #e2f4ff80;
+			margin: 0 0px;
+			border-bottom-left-radius: 20px;
+			border-bottom-right-radius: 20px;
+		}
+		
+		.callback-popup .no-spam-inner {
+			margin-top: 16px;
+			padding: 12px 8px;
+		}
+		
+		.callback-popup .no-wrap-list {
+			display: flex;
+			flex-wrap: wrap;
+			margin: 0 -8px;
+		}
+		
+		.callback-popup .btn-links {
+			    font-size: 13px;
+		}
+		
+		.callback-popup .no-wrap-list li .circle-28 {
+			width: 28px;
+		}
+		
+		.callback-popup .mt-3 {
+			margin-top: 0.4rem!important;
+		}
+		
+		.callback-popup .size-12 {
+			font-size: 10px !important;
+			line-height: 10.6px;
+			text-align: left;
+		}
+		
+		.callback-popup .no-wrap-list li .spam-right {
+			padding-left: 2px;
+			width: calc(100% - 28px);
+		}
+		
+		.callback-popup .no-wrap-list li {
+			display: flex;
+			flex-wrap: wrap;
+			padding: 0 2px;
+			width: 33%;
+			align-items: center;
+		}
+		
+         .callback-close {
+         position: absolute;
+         top: 10px;
+         right: 15px;
+         font-size: 22px;
+         color: #999;
+         cursor: pointer;
+         }
+         .callback-close:hover {
+         color: #000;
+         }
+         .show-popup {
+         display: block;
+         }
+		 
+		  @media (max-width: 767px) {
+			.popup-form-heading {
+				font-size: 12px;
+				margin-bottom: 18px;
+				padding: 16px 16px 0px;
+			}
+			.callback-popup .col-12.mt-3{
+			 margin-top: 0.5rem !important;
+		   }
+		   
+		   .callback-popup .gender-block{
+			   margin-top: 6px;
+		   }
+		   
+		   .callback-popup .form-group-new .form-control{
+			       padding: 7px 10px;
+		   }
+		   
+		   .callback-popup-overlay{
+			   padding-top: 2%;
+		   }
+		   
+		   .phone-otp-row .col-6{
+			       width: 100%;
+		   }
+		  }
+		  
+		  @media only screen and (min-width: 768px) and (max-width: 1199px)  {
+			  .callback-popup-overlay{
+				   padding-top: 10%;
+			  }
+		  }
+		 @media only screen and (min-width: 1200px) and (max-width: 1440px)  {
+		 .popup-form-heading {
+			font-size: 16px;
+			margin-bottom: 12px;
+			
+		 }
+		 
+		 .callback-popup .col-12.mt-3{
+			 margin-top: 0.5rem !important;
+		 }
+		 
+		 
+		 .callback-popup .form-group-new .form-control {
+  
+				padding: 6px 10px;
+			}
+			
+			.callback-popup .form-group-new .text-with-lebels:before{
+				top: 4px;
+			}
+			
+			.callback-popup .send-otp-wrap{
+				 top: 24px;
+			}
+			.callback-popup .gender-item span{
+				height: 32px;
+			}
+			
+			.callback-popup .gender-item span label{
+				    padding-top: 8px;
+			}
+			
+			.callback-popup .btn-links{
+				    font-size: 12px;
+			}
+			
+			.callback-popup .submit-btn{
+				    margin-top: 3px;
+			}
+			
+			.callback-popup-overlay{
+				padding-top: 2.5%;
+			}
+		 }
+      </style>
+	
+	
+	<style>
+	 
+.chat-popup {
+    position: fixed;
+    bottom: 138px;
+    right: 20px;
+    width: 645px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+    display: none;
+    flex-direction: column;
+    z-index: 1001;
+}
+
+.chatbot-iframe{
+	width: 100%;
+	height: 620px;
+}
+
+    .chat-header {
+		background: #0079c8;
+		color: #fff;
+		padding: 10px;
+		border-top-left-radius: 12px;
+		border-top-right-radius: 12px;
+		display: flex;
+		align-items: center;
+		justify-content: right;
+	}
+
+    .chat-body {
+      padding: 15px;
+      min-height: 150px;
+      font-size: 14px;
+      color: #333;
+    }
+
+    .close-btn {
+      cursor: pointer;
+      font-size: 18px;
+      font-weight: bold;
+    }
+	
+	@media (max-width: 767px) {
+		.chat-popup{
+		  right: 8px;
+          width: 95%;
+		}
+		
+		.chatbot-iframe{
+			    height: 448px;
+		}
+		
+		.chat-popup{
+			bottom: 58px;
+		}
+		
+		.float-chat-icon{
+			bottom: 198px;
+		}
+	}
+	
+	@media only screen and (min-width: 1200px) and (max-width: 1299px)  {
+		.chatbot-iframe {
+			width: 100%;
+			height: 358px;
+		}
+		
+		
+	}
+	
+	@media only screen and (min-width: 1300px) and (max-width: 1366px)  {
+		.chatbot-iframe {
+			width: 100%;
+			height: 435px;
+		}
+		
+		.floating_right_icons{
+			    top: 22%;
+		}
+		
+		.chat-popup{
+			bottom: 115px;
+			
+		}
+	}
+	
+	@media only screen and (min-width: 1367px) and (max-width: 1440px)  {
+		.chatbot-iframe{
+			height: 460px;
+		}
+		
+		.chat-popup{
+			    bottom: 120px;
+		}
+		
+	}
+	
+	@media only screen and (min-width: 1441px) and (max-width: 1600px)  {
+		.chatbot-iframe{
+			height: 480px;
+		}
+		
+		.chat-popup{
+			    bottom: 120px;
+		}
+		
+	}
+	</style>
+	
+	
+	
+	<!-- End sticky bar show -->
+	
+	
+	<a class="float-chat-icon" id="chatToggle"><img class="my-float" src="https://pramericalife.in/admin/assets/fileUpload/1755520956-Robot-Icon.png"></a>
+	
+	<!-- chat popup -->
+	
+	<div class="chat-popup" id="chatPopup">
+    <div class="chat-header">
+    
+      <span class="close-btn" id="chatClose">&times;</span>
+    </div>
+    <div class="chat-body">
+      <iframe class="chatbot-iframe" src="https://sarathiai.pramericalife.in/"  style="border:none;"></iframe>
+    </div>
+  </div>
+	
+	
+   <!--<a class="float-wh-icon" href="https://wa.me/9289187070" target="_blank"><img alt="whats_app3" class="my-float" src="https://pramericalife.in//frontend/assets/images/whatsappimg.svg"></a> -->
+	<!-- End quick links section -->
+	<script src="https://pramericalife.in//frontend/assets/js/jquery.js"></script>
+	<script src="https://pramericalife.in//frontend/assets/js/bootstrap.js"></script>
+	<script src="https://pramericalife.in//frontend/assets/js/ionSlider.js"></script>
+	<script src="https://pramericalife.in//frontend/assets/js/slick.min.js"></script>
+	<script src="https://pramericalife.in//frontend/assets/js/select2.js"></script>
+	<script src="https://pramericalife.in//frontend/assets/js/highchat.js"></script>
+	<script src="https://pramericalife.in//frontend/assets/js/custom.js"></script>
+	<!-- Section for page-specific scripts -->
+			
+	 <!-- sticky timer popup -->
+	  <script>
+document.addEventListener("DOMContentLoaded", function() {
+  document.body.style.transform = "translateZ(0)";
+});
+</script>
+	<script>
+  
+  let popupTimer = setTimeout(() => {
+    document.getElementById("stickyPopup").style.display = "block";
+  }, 5000);
+
+ 
+  window.addEventListener("beforeunload", () => clearTimeout(popupTimer));
+
+ 
+  document.getElementById("closetimerPopup").addEventListener("click", () => {
+    document.getElementById("stickyPopup").style.display = "none";
+  });
+</script>
+
+ <!-- sticky timer popup -->
+
+	 <script>
+document.addEventListener("DOMContentLoaded", function() {
+  const openSearch = document.getElementById("openSearch");
+  const openSearchMobile = document.getElementById("openSearchMobile");
+  const searchPopup = document.getElementById("searchPopup");
+
+  if (openSearch) {
+    openSearch.onclick = () => searchPopup.style.display = "flex";
+  }
+
+  if (openSearchMobile) {
+    openSearchMobile.onclick = () => searchPopup.style.display = "flex";
+  }
+});
+</script>
+     <script>
+document.addEventListener("DOMContentLoaded", function() {
+  const openSearch = document.getElementById('openSearch');
+  const openSearchMobile = document.getElementById('openSearchMobile');
+  const closeSearch = document.getElementById('closeSearch');
+  const searchPopup = document.getElementById('searchPopup');
+
+  
+  if (openSearch) {
+    openSearch.addEventListener('click', function () {
+      searchPopup.classList.add('active');
+    });
+  }
+
+
+  if (openSearchMobile) {
+    openSearchMobile.addEventListener('click', function () {
+      searchPopup.classList.add('active');
+    });
+  }
+
+  
+  if (closeSearch) {
+    closeSearch.addEventListener('click', function () {
+      searchPopup.classList.remove('active');
+    });
+  }
+});
+</script>
+
+<!--<script>
+ $(document).ready(function() {
+  $('.slick-slider').on('wheel', function (e) {
+    console.log("Wheel event triggered");
+    if (e.originalEvent.deltaY) {
+      e.preventDefault();
+      window.scrollBy({
+        top: e.originalEvent.deltaY,
+        left: 0,
+        behavior: 'smooth'
+      });
+    }
+  });
+});
+ </script>-->
+	
+<script>
+	$(document).ready(function(){
+		// CSRF Token setup for Laravel
+		$.ajaxSetup({
+			headers: {
+				'X-CSRF-TOKEN': '7Au3jG60xZVIEBrqXd7Y1VagiCaJbNerOLBvHRYw'
+			}
+		});
+		
+		
+		// Enable Send OTP button when valid number is entered
+		$("#frmContactNo").on("input", function () {
+			let mobile = $(this).val().trim();
+			let mobilePattern = /^[6-9]\d{9}$/; // Indian mobile numbers start with 6-9 and are 10 digits
+
+			if (mobilePattern.test(mobile)) {
+				$("#btnSendOTP").prop("disabled", false); // enable
+			} else {
+				$("#btnSendOTP").prop("disabled", true);  // disable
+			}
+		});
+
+		// Handle OTP form submission
+		$('#btnSendOTP').on('click', function(e) {
+			e.preventDefault();
+			let isValid = true;
+			$('.error-msg').remove();
+			$('input').css('box-shadow', 'none');  // Remove any previous box-shadow
+	
+			// Clear previous errors
+			$('.lblError').empty();
+			
+			// Validate if the mobile number field is not blank
+			let mobileNumber = $('#frmContactNo').val();
+			
+			if (mobileNumber.trim() === '') {
+				$('#frmContactNo').after('<span class="error-msg" style="color:red;">Mobile number is required.</span>');
+				$('#frmContactNo').css('box-shadow', '0 0 5px red');  // Add red shadow for error
+				isValid = false;
+			} else {
+				// Validate mobile number format
+				let mobileRegex = /^[0-9]{10}$/;  // Regular expression for 10 digits numeric only
+				if (!mobileRegex.test(mobileNumber)) {
+					$('#frmContactNo').after('<span class="error-msg" style="color:red;">Mobile number must be a 10-digit number.</span>');
+					$('#frmContactNo').css('box-shadow', '0 0 5px red'); 
+					isValid = false;
+				} else {
+					// Add the last 3 digits of the mobile number to the element with class lblMobile4Digits
+					let lastThreeDigits = mobileNumber.slice(-3);
+					//$('.lblMobile4Digits').text(lastThreeDigits);
+				} 
+			}
+	
+			// Submit the form if everything is valid
+			if (isValid) {
+				$.ajax({
+					type: 'POST',
+					url: "https://pramericalife.in/generatemobileotp", // Laravel route helper
+					data: $('#frmcallback').serialize()+ '&generateOTP=1',
+					dataType: 'json',
+					success: function(response) {
+						if (!response.status || response.status === 'success') {
+							$('#otp_field').show();
+							$('#otpvalue').prop('disabled', false);
+							
+							
+						} else {
+							$('#otp_field').hide();
+							$('#otpvalue').prop('disabled', true);
+							//alert(response.message);
+							$('.lblError').html(response.message).css('color', 'red');
+						}
+					}
+				});
+			}
+	
+		});
+		
+		// Handle OTP Verify submission
+		$('#otpvalue').on('input', function(e) {
+			let otp = $(this).val(); // Get the entered OTP
+			let token = '7Au3jG60xZVIEBrqXd7Y1VagiCaJbNerOLBvHRYw'; // Get CSRF token
+	
+			if (otp.length === 4) { // Check if OTP length is correct (adjust as needed)
+				$.ajax({
+					url: "https://pramericalife.in/verifymobileotp", // Laravel route for verification
+					type: 'POST',
+					data: {
+						otp: otp,
+						validateOTP: 1,
+						_token: token // Include CSRF token
+					},
+					dataType: 'json',
+					success: function(response) {
+						if (!response.status || response.status === 'success') {
+							$('#callbackbbtnSubmitDesktop').removeClass('disabled');
+							$('#callbackbbtnSubmitDesktop').prop('disabled', false);
+							$('#otpErrorMsg').remove(); // Clear any previous error
+						} else {
+							$('#callbackbbtnSubmitDesktop').addClass('disabled');
+							$('#callbackbbtnSubmitDesktop').prop('disabled', true);
+							
+							// Show OTP error message
+							if ($('#otpErrorMsg').length === 0) {
+								$('#otpvalue').after('<span id="otpErrorMsg" style="color:red;">Incorrect OTP. Try again</span>');
+							}
+						}
+					},
+					error: function(xhr) {
+						console.log(xhr.responseText);
+					}
+				});
+			}
+		});
+		
+		$("#frmcallback").on("submit", function (e) {
+			const honeypot = document.querySelector('input[name="footer_form"]').value;
+			if (honeypot !== '') {
+				e.preventDefault();
+				alert('Something went wrong with your submission. Please refresh the form and try again, or contact the administrator if the problem persists.');
+			}
+			
+			e.preventDefault(); // Prevent form submission if validation fails
+	
+			let isValid = true;
+			$('.error-msg').remove();
+			$('input').css('box-shadow', 'none');  // Remove any previous box-shadow
+	
+			// Full Name Validation (Required & No Numbers)
+			let name = $("#frmName").val().trim();
+			if (name === "" || /\d/.test(name)) {
+				$('#frmName').after('<span class="error-msg" style="color:red;">Please enter a valid full name without numbers.</span>');
+				$('#frmName').css('box-shadow', '0 0 5px red');  
+				isValid = false;
+			}
+	
+			// Email Validation (Valid Format)
+			let email = $("#frmEmailID").val().trim();
+			let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+			if (email === "") {
+				$('#frmEmailID').after('<span class="error-msg" style="color:red;">Please enter email address</span>');
+				$('#frmEmailID').css('box-shadow', '0 0 5px red');  
+				isValid = false;
+			} else if (email !== "" && !emailPattern.test(email)) {
+				$('#frmEmailID').after('<span class="error-msg" style="color:red;">Please enter a valid email address</span>');
+				$('#frmEmailID').css('box-shadow', '0 0 5px red');  
+				isValid = false;
+			}
+	
+	
+			// Mobile Number Validation (10 Digits & Numbers Only)
+			let mobile = $("#frmContactNo").val().trim();
+			let mobilePattern = /^[6-9]\d{9}$/; // Indian mobile number format
+			if (mobile === "" || !mobilePattern.test(mobile)) {
+				$('#frmContactNo').after('<span class="error-msg" style="color:red;">Please enter a valid 10-digit mobile number.</span>');
+				$('#frmContactNo').css('box-shadow', '0 0 5px red');
+				isValid = false;
+			}
+	
+			// OTP Validation (Only if field is enabled)
+			let otpField = $("#otpvalue");
+			if (!otpField.prop("disabled")) {
+				let otp = otpField.val().trim();
+				if (otp === "") {
+					$('#otpvalue').after('<span class="error-msg" style="color:red;">Please enter the OTP.</span>');
+					$('#otpvalue').css('box-shadow', '0 0 5px red');
+					isValid = false;
+				}
+			}
+	
+			const checkboxField = document.getElementById("frmFlexCheckDefault");
+			if (!checkboxField.checked) {
+				$('#checkboxError').after('<span class="error-msg" style="color:red;">You must authorize communication.</span>');
+				$('#frmFlexCheckDefault').css('box-shadow', '0 0 5px red');
+				isValid = false;
+			}
+			
+			// Submit form if all validations pass
+			if (isValid) {
+				this.submit();
+			}
+		});
+	
+	});
+</script>
+	<!--<script>
+			document.addEventListener("DOMContentLoaded", function() {
+			    const header = document.querySelector('header');  
+			    const headerHeight = header ? header.offsetHeight : 0; 
+			    
+			    function scrollToHash() {
+			        const hash = window.location.hash;
+			        if (hash) {
+			            const targetElement = document.querySelector(hash);  
+			            if (targetElement) {
+			               
+			                window.scrollTo({
+			                    top: targetElement.offsetTop - headerHeight,
+			                    behavior: 'smooth'  
+			                });
+			            }
+			        }
+			    }
+			  scrollToHash();
+			   window.addEventListener('hashchange', scrollToHash);
+			});
+			</script>-->
+			
+			<script>
+		  const openBtns = document.querySelectorAll('.call-back-open-popup');
+		  const popup = document.getElementById('callbackPopup');
+		  const closeBtn1 = document.getElementById('closePopup');
+
+		  // Loop through all open buttons
+		  openBtns.forEach(btn => {
+			btn.addEventListener('click', (e) => {
+			  e.preventDefault();
+			  popup.classList.add('show-popup');
+			});
+		  });
+
+		  // Close button click
+		  closeBtn1.addEventListener('click', () => {
+			popup.classList.remove('show-popup');
+		  });
+
+		  // Close when clicking outside the popup
+		  window.addEventListener('click', (e) => {
+			if (e.target === popup) popup.classList.remove('show-popup');
+		  });
+
+		 
+		 $(document).ready(function () {
+			   $(".read-more-link").click(function (e) {
+			      e.preventDefault(); // Prevent default anchor click behavior
+			      $(this).text($(this).text() == '[+]' ? '[-]' : '[+]'); // Toggle the text between [+] and [-]
+			      $(this).closest('.disclaimerText').find(".hidden-text").toggle(); // Toggle the visibility of the hidden text
+			   });
+			});
+      </script>  
+	  
+	  
+	  <script>
+  
+  document.querySelectorAll('.hide-popup').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelector('.image-popup-section').style.display = 'none';
+    });
+  });
+  
+</script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const spans = document.querySelectorAll('.toggle-span');
+
+        spans.forEach(span => {
+            span.addEventListener('click', function () {
+                spans.forEach(s => s.classList.remove('active')); 
+                this.classList.add('active'); 
+            });
+        });
+    });
+</script>
+			
+<script>
+  const stickyBar = document.getElementById('sticky-bar');
+  const closeBtn = document.getElementById('close-sticky');
+  let isClosedManually = false;
+
+  window.addEventListener('scroll', function () {
+    const scrollY = window.scrollY;
+    const triggerPoint = window.innerHeight * 1.03;
+
+    if (scrollY >= triggerPoint && !isClosedManually) {
+      stickyBar.style.display = 'block';
+    } 
+  });
+
+  closeBtn.addEventListener('click', function () {
+    stickyBar.style.display = 'none';
+    isClosedManually = true;
+  });
+</script>			
+				
+
+ <!-- chat popup js -->
+   <script>
+    const chatToggle = document.getElementById("chatToggle");
+    const chatPopup = document.getElementById("chatPopup");
+    const chatClose = document.getElementById("chatClose");
+
+    chatToggle.addEventListener("click", function(e) {
+      e.preventDefault(); 
+      chatPopup.style.display = "flex"; 
+    });
+
+    chatClose.addEventListener("click", function() {
+      chatPopup.style.display = "none"; 
+    });
+  </script>
+  
+   <!-- End chat popup js -->		
+			
+
+<script>
+	const COOKIE_NAME = 'popupClosed2';
+	const COOKIE_NAME_2 = 'popupClosed3';
+	const COOKIE_EXPIRY_DAYS = 1;
+	
+	// Set a cookie
+	function setCookie(name, value, days) {
+	  const date = new Date();
+	  date.setTime(date.getTime() + (days*24*60*60*1000));
+	  document.cookie = `${name}=${value};expires=${date.toUTCString()};path=/`;
+	}
+	
+	// Get a cookie by name
+	function getCookie(name) {
+	  const decodedCookie = decodeURIComponent(document.cookie);
+	  const cookies = decodedCookie.split(';');
+	  for (let i = 0; i < cookies.length; i++) {
+		const c = cookies[i].trim();
+		if (c.indexOf(name + '=') === 0) {
+		  return c.substring(name.length + 1, c.length);
+		}
+	  }
+	  return null;
+	}
+	
+	// Close popup and set cookie
+	function closePopup() {
+	  document.getElementById('popupContainer').style.display = 'none';
+	  document.getElementById('imgpopup').style.display = 'none';
+	  setCookie(COOKIE_NAME, 'true', COOKIE_EXPIRY_DAYS);
+	  setCookie(COOKIE_NAME_2, 'true', COOKIE_EXPIRY_DAYS);
+	}
+	
+	// Show popup if cookie is not set
+	window.addEventListener('DOMContentLoaded', function () {
+	if (!getCookie(COOKIE_NAME) || !getCookie(COOKIE_NAME_2)) {
+		setTimeout(function () {
+		  document.getElementById('popupContainer').style.display = 'block';
+		  document.getElementById('imgpopup').style.display = 'block'; // use flex for overlay
+		}, 3000);
+	  }
+	});
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // Get current URL parameters
+    const params = new URLSearchParams(window.location.search);
+
+    // Check if a specific parameter exists and is "true"
+    if (params.get('showPopup') === 'true') {
+		document.querySelectorAll('.hide-popup').forEach(btn => {
+			btn.addEventListener('click', () => {
+			  document.querySelector('.image-popup-section').style.display = 'none';
+			});
+		});
+		setCookie('popupClosed2', 'true', '1');
+        // Trigger popup open logic
+        document.getElementById('callbackPopup').classList.add('show-popup');
+    }
+	
+    // Check if a specific parameter exists and is "true"
+    if (params.get('utm_source') === 'NEWS_paper' && params.get('utm_campaign') === 'utm_bh_pramerica_NFO_Ulip_March-26') {
+		document.querySelectorAll('.hide-popup').forEach(btn => {
+			btn.addEventListener('click', () => {
+			  document.querySelector('.image-popup-section').style.display = 'none';
+			});
+		});
+		setCookie('popupClosed3', 'true', '1');
+        // Trigger popup open logic
+        document.getElementById('callbackPopup').classList.add('show-popup');
+    }
+});
+</script>
+	<script>
+		document.addEventListener("DOMContentLoaded", () => {
+			const openPopupBtn = document.getElementById("openPopupBtn");
+			const popup = document.getElementById("popup");
+			const closePopupBtn = document.getElementById("closePopupBtn");
+
+			openPopupBtn.addEventListener("click", () => {
+				popup.style.display = "flex";
+			});
+
+			closePopupBtn.addEventListener("click", () => {
+				popup.style.display = "none";
+			});
+
+
+			popup.addEventListener("click", (event) => {
+				if (event.target === popup) {
+					popup.style.display = "none";
+				}
+			});
+		});
+	</script>
+	<script>
+		document.addEventListener('DOMContentLoaded', () => {
+			// Handle slider dots visibility
+			$('.jsBannerSlider').each(function() {
+				const $slider = $(this);
+				if ($slider.find('.slick-slide').length <= 1) {
+					$slider.addClass('hide-dots');
+				}
+			});
+
+			// Toggle menu for mobile screens
+			$(document).on('click', '.jsToggleMenu', function(e) {
+				if ($(window).width() < 768) {
+					const $dropdownCntr = $(this).parents('.jsDropdownCntr');
+					const $dropdown = $dropdownCntr.find('.jsDropdown');
+					const isHidden = $dropdown.css('display') === 'none';
+
+					$('.jsDropdown').hide();
+					$('.submenu-dropdown').hide();
+					$('.jsDropdownCntr').removeClass('open');
+
+					if (isHidden) {
+						$dropdownCntr.addClass('open');
+						$dropdown.show();
+					}
+				}
+			});
+
+			// Toggle nested submenu
+			$(document).on('click', '.jsNestedlast', function(e) {
+				const $subList = $(this).parents('.sub-list');
+				const $submenu = $subList.find('.submenu-dropdown');
+				const isHidden = $submenu.css('display') === 'none';
+
+				$('.submenu-dropdown').hide();
+				$('.sub-list').removeClass('open');
+
+				if (isHidden) {
+					$subList.addClass('open');
+					$submenu.show();
+				}
+			});
+
+			// Big menu hover behavior
+			const $bigMenu = $('.custom-dropdown-menu.big-menu .dropdown-menu-list');
+
+			$bigMenu.on('mouseover', function() {
+				if ($(window).width() > 767) {
+					$bigMenu.find('.sub-list:first-child').removeClass('active');
+				}
+			});
+
+			$bigMenu.on('mouseleave', function() {
+				if ($(window).width() > 767) {
+					$bigMenu.find('.sub-list:first-child').addClass('active');
+				}
+			});
+		});
+	</script>
+
+	<script>
+		function setActiveTab(tabId) {
+			localStorage.setItem('activeTab', tabId);
+			window.location.href = 'https://pramericalife.in/company-law-disclosure';
+		}
+	</script>
+	<script type="text/javascript">
+		//document.getElementById('years1').addEventListener('click', function () {
+		//});
+		function fnDonuld(value) {
+			//alert(1);
+			// Data for the donut chart
+			var data = [{
+					name: "Debt fund",
+					y: value,
+				},
+				{
+					name: "Large cap equity fund",
+					y: 100 - value,
+				},
+			];
+
+			// Create the donut chart
+			if ($(".chat-donut").length > 0) {
+				Highcharts.chart("donutChartContainer", {
+					chart: {
+						type: "pie",
+						width: 210,
+						height: 210,
+					},
+					title: {
+						text: "",
+					},
+					plotOptions: {
+						pie: {
+							innerSize: "60%", // This makes it a donut chart
+							dataLabels: {
+								enabled: false,
+							},
+						},
+					},
+					series: [{
+						name: "",
+						data: data,
+						colors: ["#E66C20", "#FFD200"],
+						states: {
+							hover: {
+								colors: ["#E66C20", "#FFD200"],
+							},
+						},
+					}, ],
+				});
+			}
+		}
+	</script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			// Check if the URL contains '#become-an-advisors'
+			if (window.location.hash === '#become-an-advisors') {
+				// Scroll to the element with ID 'become-an-advisors'
+				$('html, body').animate({
+					scrollTop: $('#become-an-advisors').offset().top - 150
+				}, 1000); // Adjust the scroll speed (1000 milliseconds)
+			}
+		});
+
+		$(document).ready(function(e) {
+
+
+			$('.read-more-btn').on('click', function(e) {
+				$(this).parent().next().css({
+					"visibility": "visible",
+					"height": "auto"
+				});
+				$(this).css({
+					"visibility": "hidden",
+					"display": "none"
+				});
+				return false;
+			});
+
+			$('.read-less-btn').on('click', function(e) {
+				$(this).parent().parent().css({
+					"visibility": "hidden",
+					"height": "0"
+				});
+				$(this).parent().parent().prev().find('.read-more-btn').css({
+					"visibility": "visible",
+					"display": "inline-block"
+				});
+				return false;
+			});
+		});
+	</script>
+	<script>
+		$('.play-button').click(function(e) {
+			var iframeEl = $('<iframe>', {
+				src: $(this).data('url')
+			});
+			$('#youtubevideo').attr('src', $(this).data('url'));
+		})
+
+		$('#close-video').click(function(e) {
+			$('#youtubevideo').attr('src', '');
+		});
+
+		$('.popup-overlay').click(function(e) {
+			$('#youtubevideo').attr('src', '');
+		});
+
+
+
+		/*$(document).on('hidden.bs.modal','#myModal', function () {
+		$('#youtubevideo').attr('src', '');
+		}); */
+	</script>
+	<script>
+		$(document).ready(function() {
+			// Open popup
+			$('.popup-btn').click(function() {
+				$(' .popup-overlay').fadeIn();
+			});
+
+			// Close popup
+			$('.close').click(function() {
+				$('.popup-overlay').fadeOut();
+			});
+
+			// Close popup if clicking outside of the content
+			$(window).click(function(event) {
+				if ($(event.target).is('.popup-overlay')) {
+					$('.popup-overlay').fadeOut();
+				}
+			});
+		});
+	</script>
+	<script>
+		function setActiveTabadvisor(tabId) {
+			localStorage.setItem('activeTab', tabId);
+			window.location.href = "https://pramericalife.in/public/new-page/pramerica-events.php";
+		}
+	</script>
+
+
+	<!--cities filter based on selected state-->
+	<script>
+		$(document).ready(function() {
+			$('#state').on('change', function() {
+				var selectedState = $(this).val();
+				var citySelect = $('#city');
+
+				// Clear existing options
+				citySelect.html('<option value="">Select City</option>');
+
+				// If a state is selected
+				if (selectedState) {
+					$.ajax({
+						url: "https://pramericalife.in/get-ad-cities-by-state", // Create this route
+						method: 'POST',
+						data: {
+							_token: '7Au3jG60xZVIEBrqXd7Y1VagiCaJbNerOLBvHRYw',
+							state: selectedState
+						},
+						dataType: 'json',
+						success: function(response) {
+							// Populate city dropdown
+							$.each(response, function(index, city) {
+								citySelect.append('<option value="' + city.strCity + '">' + city.strCity + '</option>');
+							});
+						},
+						error: function(xhr) {
+							console.log('Error fetching cities');
+						}
+					});
+				}
+			});
+		});
+	</script>
+	<script>
+const observer = new MutationObserver(() => {
+    document.body.childNodes.forEach(node => {
+        if (node.nodeType === 3 && node.nodeValue.includes("wfocg.ttrk.io")) {
+            node.nodeValue = "";
+        }
+    });
+});
+
+observer.observe(document.body, { childList: true, subtree: true });
+</script>
+<script>
+(function() {
+  const BLOCK = "ttrk.io";
+
+  // Block fetch
+  const origFetch = window.fetch;
+  window.fetch = function(...args) {
+    if (args[0] && args[0].includes(BLOCK)) {
+      console.warn("Blocked fetch:", args[0]);
+      return Promise.resolve(new Response("", { status: 204 }));
+    }
+    return origFetch.apply(this, args);
+  };
+
+  // Block XHR
+  const origOpen = XMLHttpRequest.prototype.open;
+  XMLHttpRequest.prototype.open = function(method, url) {
+    if (url && url.includes(BLOCK)) {
+      console.warn("Blocked XHR:", url);
+      return;
+    }
+    return origOpen.apply(this, arguments);
+  };
+
+  // Block script/iframe injection
+  const observer = new MutationObserver(mutations => {
+    mutations.forEach(m => {
+      m.addedNodes.forEach(node => {
+        if (
+          node.tagName &&
+          (node.tagName === "SCRIPT" || node.tagName === "IFRAME")
+        ) {
+          if (node.src && node.src.includes(BLOCK)) {
+            console.warn("Removed node:", node.src);
+            node.remove();
+          }
+        }
+      });
+    });
+  });
+
+  observer.observe(document.documentElement, {
+    childList: true,
+    subtree: true
+  });
+
+})();
+</script>
+
+<!--<script>
+  (function () {
+    var strip = document.getElementById('marqueeStrip');
+    var closeBtn = document.getElementById('marqueeClose');
+    var track = strip.querySelector('.marquee-track');
+    var viewport = strip.querySelector('.marquee-viewport');
+ 
+    
+    function setupIntro() {
+      var loopSeconds = parseFloat(getComputedStyle(strip).getPropertyValue('--marquee-speed')) || 40;
+      var groupWidth = track.scrollWidth / 2;
+      var pxPerSec = groupWidth / loopSeconds;
+      var distance = viewport.clientWidth;
+      track.style.setProperty('--enter-distance', distance + 'px');
+      track.style.setProperty('--enter-duration', (distance / pxPerSec) + 's');
+    }
+    
+    function showStrip() {
+      var fontsReady = (document.fonts && document.fonts.ready) ? document.fonts.ready : Promise.resolve();
+      fontsReady.then(function () {
+        setupIntro();
+        requestAnimationFrame(function () {
+          strip.classList.add('is-ready');
+        });
+      });
+    }
+ 
+    if (document.readyState === 'complete') {
+      showStrip();
+    } else {
+      window.addEventListener('load', showStrip);
+    }
+ 
+    closeBtn.addEventListener('click', function () {
+      strip.classList.add('is-hidden');
+      strip.setAttribute('aria-hidden', 'true');
+     
+      setTimeout(function () { strip.style.display = 'none'; }, 400);
+    });
+  })();
+</script>-->
+
+</body>
+
+</html>
