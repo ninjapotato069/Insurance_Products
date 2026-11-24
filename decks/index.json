@@ -1,0 +1,1414 @@
+[
+ {
+  "n": 1,
+  "url": "https://www.hdfclife.com/content/dam/hdfclifeinsurancecompany/about-us/pdf/investor-relations/financial-information/investor-presentation/HDFC-Life-H1-FY2027-Investor-Presentation.pdf",
+  "status": 200,
+  "final_url": "https://www.hdfclife.com/content/dam/hdfclifeinsurancecompany/about-us/pdf/investor-relations/financial-information/investor-presentation/HDFC-Life-H1-FY2027-Investor-Presentation.pdf",
+  "content_type": "application/pdf",
+  "file": "01_HDFC-Life-H1-FY2027-Investor-Presentation.pdf",
+  "bytes": 4241177,
+  "sha256": "7505d47661aeda476a8586f911666f3f8c17ca325890eff8fdc1a80801ddf7dd"
+ },
+ {
+  "n": 2,
+  "url": "https://nsearchives.nseindia.com/corporate/BAJAJFINSV_31072026180854_BFSInvestorPresentation.pdf",
+  "status": 200,
+  "final_url": "https://nsearchives.nseindia.com/corporate/BAJAJFINSV_31072026180854_BFSInvestorPresentation.pdf",
+  "content_type": "application/pdf",
+  "file": "02_BAJAJFINSV_31072026180854_BFSInvestorPresentation.pdf",
+  "bytes": 2343544,
+  "sha256": "2a1ebe175c2295ff3c215beb147fc75303f708910bf6748b14872901904ae482"
+ },
+ {
+  "n": 3,
+  "url": "https://nsearchives.nseindia.com/corporate/SBILIFE_27102026185900_SEPR271026signed.pdf",
+  "status": 200,
+  "final_url": "https://nsearchives.nseindia.com/corporate/SBILIFE_27102026185900_SEPR271026signed.pdf",
+  "content_type": "application/pdf",
+  "file": "03_SBILIFE_27102026185900_SEPR271026signed.pdf",
+  "bytes": 3114731,
+  "sha256": "ee4665320dcc6f48c19eb93dc834d562f483fec4b93f60ca865b0dbe360751ec"
+ },
+ {
+  "n": 4,
+  "url": "https://licindia.in/analysts-presentation1",
+  "status": 200,
+  "final_url": "https://licindia.in/analysts-presentation1",
+  "content_type": "text/html;charset=UTF-8",
+  "file": "04_analysts-presentation1.html",
+  "bytes": 216079,
+  "sha256": "2352b26ffea778f026638af0627626f7bb0c44d42c998e87666483ffaab20344",
+  "title": "Analysts Presentation | Official website of Life Insurance Corporation \r\n   of India.",
+  "links": [
+   [
+    "Skip to Content",
+    "https://licindia.in/analysts-presentation1#main-content"
+   ],
+   [
+    "",
+    "https://licindia.in/home"
+   ],
+   [
+    "Skip to main content",
+    "https://licindia.in/analysts-presentation1#maincontent"
+   ],
+   [
+    "8976862090",
+    "https://licindia.in/analysts-presentation1"
+   ],
+   [
+    "+91-22-68276827",
+    "https://licindia.in/phone-help-line"
+   ],
+   [
+    "Branch Locator",
+    "https://licindia.in/branch"
+   ],
+   [
+    "",
+    "https://licindia.in/home"
+   ],
+   [
+    "About Us",
+    "https://licindia.in/web/guest/about-us"
+   ],
+   [
+    "History",
+    "https://licindia.in/web/guest/history"
+   ],
+   [
+    "Objectives Of LIC",
+    "https://licindia.in/web/guest/objectives-of-lic"
+   ],
+   [
+    "Mission/Vision",
+    "https://licindia.in/web/guest/mission/vision"
+   ],
+   [
+    "Who’s who",
+    "https://licindia.in/web/guest/who-s-who"
+   ],
+   [
+    "Operations",
+    "https://licindia.in/web/guest/operations"
+   ],
+   [
+    "Know About Your Life Insurance",
+    "https://licindia.in/web/guest/know-your-life-insurance"
+   ],
+   [
+    "Help us to serve you better",
+    "https://licindia.in/web/guest/help-us-to-serve-you-better"
+   ],
+   [
+    "Information Technology and LIC",
+    "https://licindia.in/web/guest/information-technology-and-lic"
+   ],
+   [
+    "Awards",
+    "https://licindia.in/web/guest/about-us/awards"
+   ],
+   [
+    "Archive Awards and Achievements",
+    "https://licindia.in/web/guest/archive-awards-and-achievements"
+   ],
+   [
+    "Organization chart",
+    "https://licindia.in/web/guest/organization-chart"
+   ],
+   [
+    "Products",
+    "https://licindia.in/web/guest/products"
+   ],
+   [
+    "Insurance Plans",
+    "https://licindia.in/web/guest/insurance-plan"
+   ],
+   [
+    "Endowment Plans",
+    "https://licindia.in/web/guest/endowment-plans"
+   ],
+   [
+    "Whole Life Plans",
+    "https://licindia.in/web/guest/whole-life-plans"
+   ],
+   [
+    "Money Back Plans",
+    "https://licindia.in/web/guest/money-back-plans"
+   ],
+   [
+    "Term Assurance Plans",
+    "https://licindia.in/web/guest/term-assurance-plans"
+   ],
+   [
+    "Riders",
+    "https://licindia.in/web/guest/riders"
+   ],
+   [
+    "Pension Plans",
+    "https://licindia.in/web/guest/pension-plan"
+   ],
+   [
+    "Unit Linked Plans",
+    "https://licindia.in/web/guest/unit-linked-plans"
+   ],
+   [
+    "Health Insurance Plans",
+    "https://licindia.in/health-insurance-plans"
+   ],
+   [
+    "Micro Insurance Plans",
+    "https://licindia.in/web/guest/micro-insurance-plans"
+   ],
+   [
+    "Withdrawn Plans",
+    "https://licindia.in/web/guest/withdrawn-plans"
+   ],
+   [
+    "GIFT City Plans",
+    "https://licindia.in/web/guest/gift-city-plans"
+   ],
+   [
+    "Group Business",
+    "https://licindia.in/web/guest/group-schemes"
+   ],
+   [
+    "Contact for Group Insurance Scheme",
+    "https://licindia.in/web/guest/contact-for-group-insurance-scheme"
+   ],
+   [
+    "Group Customer/Annuitant Login",
+    "https://ebiz.licindia.in/D2CPM/#Login"
+   ],
+   [
+    "87A Declaration for Group Annuity",
+    "https://licindia.in/87a-declaration-for-group-annuity"
+   ],
+   [
+    "Pension & Group Schemes New Product",
+    "https://licindia.in/pension-group-schemes-new-product"
+   ],
+   [
+    "Pension & Group Schemes Withdrawn Products",
+    "https://licindia.in/pension-group-schemes-withdrawn-products"
+   ],
+   [
+    "Gratuity Plus NAV",
+    "https://licindia.in/web/guest/gratuity-plus-nav"
+   ],
+   [
+    "Customer Services",
+    "https://licindia.in/web/guest/customer-services"
+   ],
+   [
+    "Customers Corner",
+    "https://licindia.in/web/guest/customers-corner"
+   ],
+   [
+    "Claims settlement requirements",
+    "https://licindia.in/web/guest/claims-settlement-requirements"
+   ],
+   [
+    "Premium Payment",
+    "https://licindia.in/web/guest/premium-payment"
+   ],
+   [
+    "Payment at Cash Counter",
+    "https://licindia.in/web/guest/payment-at-cash-counter"
+   ],
+   [
+    "Payment Through Alternate Channels",
+    "https://licindia.in/web/guest/payment-through-alternate-channels"
+   ],
+   [
+    "LIC Portal",
+    "https://licindia.in/web/guest/lic-portal"
+   ],
+   [
+    "Pay Premium Through LIC Credit Card",
+    "https://licindia.in/web/guest/pay-premium-through-lic-credit-card1"
+   ],
+   [
+    "Premium Point",
+    "https://licindia.in/web/guest/premium-point"
+   ],
+   [
+    "Spurious Calls",
+    "https://licindia.in/web/guest/spurious-calls"
+   ],
+   [
+    "Update Your Contact details – Offline",
+    "https://licindia.in/web/guest/update-your-contact-details-offline"
+   ],
+   [
+    "Unclaimed Amounts of Policyholders",
+    "https://licindia.in/web/guest/unclaimed-amounts-of-policyholders3"
+   ],
+   [
+    "Satarkata Shikayat Dwar",
+    "https://licindia.in/web/guest/satarkata-shikayat-dwar"
+   ],
+   [
+    "Policy Status",
+    "https://licindia.in/web/guest/policy-status"
+   ],
+   [
+    "Insurance Selector",
+    "https://licindia.in/web/guest/insurance-selector"
+   ],
+   [
+    "Policy Guidelines & Helpline",
+    "https://licindia.in/web/guest/policy-guidelines-helpline"
+   ],
+   [
+    "Tax Benefit",
+    "https://licindia.in/web/guest/tax-benefit"
+   ],
+   [
+    "NRI Centre",
+    "https://licindia.in/web/guest/nri-centre"
+   ],
+   [
+    "Investor Relations",
+    "https://licindia.in/web/guest/investor-relations"
+   ],
+   [
+    "IIO GIFT City",
+    "https://licindia.in/web/guest/lic-ifsc-brach-office"
+   ],
+   [
+    "NRI",
+    "https://licindia.in/c/portal/layout?p_v_l_s_g_id=0&groupId=20121&privateLayout=false&layoutId=11071"
+   ],
+   [
+    "NRI Centre",
+    "https://licindia.in/web/guest/nri-centre2"
+   ],
+   [
+    "NRI Customers",
+    "https://licindia.in/web/guest/nri-customers1"
+   ],
+   [
+    "Quickpay Premium",
+    "https://licindia.in/web/guest/quickpay-premium1"
+   ],
+   [
+    "FATCA/CRS",
+    "https://licindia.in/web/guest/fatca-crs"
+   ],
+   [
+    "Access Country List",
+    "https://licindia.in/web/guest/access-country-list"
+   ],
+   [
+    "NPS",
+    "https://licindia.in/web/guest/nps-subscriber-corner"
+   ],
+   [
+    "NPS Subscriber Corner",
+    "https://licindia.in/web/guest/nps-subscriber-corner"
+   ],
+   [
+    "Certificate of Registration (PoP) with PFRDA",
+    "https://licindia.in/documents/d/guest/certificate-of-registration-pop"
+   ],
+   [
+    "Notices",
+    "https://licindia.in/web/guest/notices"
+   ],
+   [
+    "Pay Premium",
+    "https://ebiz.licindia.in/D2CPM/#DirectPay"
+   ],
+   [
+    "Customer Portal",
+    "https://ebiz.licindia.in/D2CPM/?_ga=2.72703123.1272923387.1677050657-120722208.1677050657#Login"
+   ],
+   [
+    "NRI Customer Portal",
+    "https://nriebiz.licindia.in/D2CPM/#Login"
+   ],
+   [
+    "Online Revival of Policy",
+    "https://renew.licindia.in/licrevival/#Login"
+   ],
+   [
+    "Want to be an LIC Agent",
+    "https://agencycareer.licindia.in/agt_req/index1.php?_ga=2.132252684.382589343.1685778008-998430420.1685778008&_gac=1.91017576.1685872184.Cj0KCQjw7PCjBhDwARIsANo7Cgnay0YVbEoO5MslMzNkmXXG6Ra5XrDaHLDJKjFV-6L6dFlvzbQ0PDAaAi9pEALw_wcB"
+   ],
+   [
+    "Merchant Portal",
+    "https://merchant.licindia.in/merchant/?_ga=2.108944258.1272923387.1677050657-120722208.1677050657"
+   ],
+   [
+    "Employee Portal",
+    "https://licindia.in/employee-s-corner"
+   ],
+   [
+    "Group Customer/Annuitant Login",
+    "https://ebiz.licindia.in/D2CPM/#Login"
+   ],
+   [
+    "Group MasterPolicyholder Portal",
+    "https://ebiz.licindia.in/OrgPortal/#Login"
+   ],
+   [
+    "Retired Employees Portal",
+    "https://rep.licindia.in/penport/login?_ga=2.131348047.1319024671.1679223847-1480379755.1666842318"
+   ],
+   [
+    "",
+    "https://licindia.in/buy-online"
+   ],
+   [
+    "Home",
+    "https://licindia.in/web/guest/home"
+   ],
+   [
+    "Investor Relations",
+    "https://licindia.in/web/guest/investor-relations"
+   ],
+   [
+    "Analysts / Investors Meet",
+    "https://licindia.in/web/guest/analysts-investors-meet"
+   ],
+   [
+    "FY 2026-27",
+    "https://licindia.in/f.y.-2026-273"
+   ],
+   [
+    "FY 2025-26",
+    "https://licindia.in/f.y.-2025-261"
+   ],
+   [
+    "FY 2024-25",
+    "https://licindia.in/f.y-2024-252"
+   ],
+   [
+    "FY 2023-24",
+    "https://licindia.in/f.y-2023-242"
+   ],
+   [
+    "FY 2022-23",
+    "https://licindia.in/f.y-2022-233"
+   ],
+   [
+    "Plan NAV",
+    "https://licindia.in/plan-nav1"
+   ],
+   [
+    "1. UK",
+    "https://www.liciuk.com"
+   ],
+   [
+    "2. SriLanka",
+    "https://www.liclanka.com"
+   ],
+   [
+    "3. Fiji",
+    "https://www.licifiji.com"
+   ],
+   [
+    "4. Mauritius",
+    "https://lici.mu/"
+   ],
+   [
+    "5. Bahrain",
+    "https://www.licinternational.com"
+   ],
+   [
+    "6. Nepal",
+    "https://www.licnepal.com.np"
+   ],
+   [
+    "7. Kenindia Assurance",
+    "https://www.kenindia.com"
+   ],
+   [
+    "8. SICCI",
+    "https://licindia.in/analysts-presentation1"
+   ],
+   [
+    "9. Singapore",
+    "https://www.licsingapore.com/"
+   ],
+   [
+    "10. Bangladesh",
+    "https://www.licbangladesh.com"
+   ],
+   [
+    "1. Associate Companies",
+    "https://licindia.in/lic-associate-companies"
+   ],
+   [
+    "2. Subsidiaries Companies",
+    "https://licindia.in/lic-subsidiary-companies"
+   ],
+   [
+    "LIC Quick Tips",
+    "https://licindia.in/lic-product-ads-informative-videos"
+   ],
+   [
+    "Things you must know",
+    "https://licindia.in/know-your-life-insurance"
+   ],
+   [
+    "Why Life Insurance",
+    "https://licindia.in/know-your-life-insurance"
+   ],
+   [
+    "Why Invest",
+    "https://licindia.in/know-your-life-insurance"
+   ],
+   [
+    "Contact Us",
+    "https://licindia.in/contact-us"
+   ],
+   [
+    "+91-22-68276827",
+    "https://licindia.in/phone-help-line"
+   ],
+   [
+    "Branch Locator",
+    "https://licindia.in/branch"
+   ],
+   [
+    "Contact Us",
+    "https://licindia.in/contact-us"
+   ],
+   [
+    "Aap ki punji aap ka Adhikar",
+    "https://licindia.in/web/guest/aap-ki-punji-aap-ka-adhikari"
+   ],
+   [
+    "Anti-Bribery And Anti-Corruption Policy",
+    "https://licindia.in/web/guest/anti-bribery-and-anti-corruption-policy"
+   ],
+   [
+    "Anti Fraud Policy",
+    "https://licindia.in/web/guest/anti-fraud-policy"
+   ],
+   [
+    "Careers",
+    "https://licindia.in/web/guest/careers"
+   ],
+   [
+    "Citizens Charter",
+    "https://licindia.in/web/guest/citizens-charter"
+   ],
+   [
+    "Copyright Policy",
+    "https://licindia.in/web/guest/copyright-policy"
+   ],
+   [
+    "Customer Education",
+    "https://licindia.in/web/guest/customer-education"
+   ],
+   [
+    "Central Vigilance Commission",
+    "https://pledge.cvc.nic.in/"
+   ],
+   [
+    "Download Forms",
+    "https://licindia.in/web/guest/download-forms"
+   ],
+   [
+    "View our Ads",
+    "https://licindia.in/web/guest/view-our-ads"
+   ],
+   [
+    "+91-22-68276827",
+    "https://licindia.in/phone-help-line"
+   ],
+   [
+    "Employees Corner",
+    "https://licindia.in/web/guest/employee-s-corner"
+   ],
+   [
+    "Enquiry of Outstanding Claims for the Current Year",
+    "https://licindia.in/web/guest/enquiry-of-outstanding-claims-for-the-current-year1"
+   ],
+   [
+    "Environmental, Social, and Governance",
+    "https://licindia.in/web/guest/environmental-social-and-governance"
+   ],
+   [
+    "Equal Opportunity Policy",
+    "https://licindia.in/web/guest/equal-opportunity-policy"
+   ],
+   [
+    "Frequently Asked Questions",
+    "https://licindia.in/web/guest/faqs"
+   ],
+   [
+    "Feedback",
+    "https://licindia.in/web/guest/feedback"
+   ],
+   [
+    "Glossary",
+    "https://licindia.in/web/guest/glossary"
+   ],
+   [
+    "Golden Jubilee Foundation - Community Development",
+    "https://licindia.in/web/guest/golden-jubilee-foundation"
+   ],
+   [
+    "Grievance Redressal",
+    "https://licindia.in/web/guest/grievances"
+   ],
+   [
+    "Help",
+    "https://licindia.in/web/guest/help"
+   ],
+   [
+    "Health Insurance",
+    "https://licindia.in/web/guest/health-insurance"
+   ],
+   [
+    "Hyperlink Policy",
+    "https://licindia.in/web/guest/hyperlink-policy"
+   ],
+   [
+    "International Operations",
+    "https://licindia.in/web/guest/international-operations-associates"
+   ],
+   [
+    "Investee-AMRIT",
+    "https://licindia.in/web/guest/investee-amrit"
+   ],
+   [
+    "IRDAI Consumer Education",
+    "https://policyholder.gov.in/"
+   ],
+   [
+    "Join Our Team",
+    "https://licindia.in/web/guest/join-our-team"
+   ],
+   [
+    "LIC Act",
+    "https://licindia.in/web/guest/lic-act"
+   ],
+   [
+    "List of black-listed agents by IRDAI",
+    "https://irdai.gov.in/list-of-black-listed-agents"
+   ],
+   [
+    "News",
+    "https://licindia.in/web/guest/news"
+   ],
+   [
+    "NRI Centre",
+    "https://licindia.in/web/guest/nri-centre1"
+   ],
+   [
+    "Branch Locator",
+    "https://licindia.in/branch"
+   ],
+   [
+    "Photo Gallery",
+    "https://licindia.in/web/guest/photo-gallery"
+   ],
+   [
+    "Policy for protection of interests of policyholders",
+    "https://licindia.in/web/guest/policy-for-protection-of-interests-of-policyholders"
+   ],
+   [
+    "Press-Release",
+    "https://licindia.in/web/guest/press-release"
+   ],
+   [
+    "Privacy Policy",
+    "https://licindia.in/web/guest/privacy-policy"
+   ],
+   [
+    "Property",
+    "https://licindia.in/web/guest/property"
+   ],
+   [
+    "Rajbhasha Patrika",
+    "https://licindia.in/web/guest/rajbhasha-patrika-new"
+   ],
+   [
+    "Retired Employees Portal",
+    "https://licindia.in/web/guest/retired-employees-portal1"
+   ],
+   [
+    "RTI Center",
+    "https://licindia.in/web/guest/rti-center"
+   ],
+   [
+    "Stewardship Policy & Disclosure",
+    "https://licindia.in/web/guest/stewardship-policy-disclosure"
+   ],
+   [
+    "Swachh Bharat Campaign",
+    "https://licindia.in/web/guest/swachh-bharat-campaign"
+   ],
+   [
+    "Swavalamban",
+    "https://licindia.in/web/guest/swavalamban"
+   ],
+   [
+    "Tender –Award",
+    "https://licindia.in/web/guest/tender-award"
+   ],
+   [
+    "Tenders",
+    "https://licindia.in/web/guest/tenders"
+   ],
+   [
+    "Terms & Conditions",
+    "https://licindia.in/web/guest/terms-conditions"
+   ],
+   [
+    "Unclaimed Amounts of Policyholders",
+    "https://licindia.in/web/guest/unclaimed-amounts-of-policyholders2"
+   ],
+   [
+    "Underwriting Philosophy",
+    "https://licindia.in/web/guest/underwriting-philosophy"
+   ],
+   [
+    "Welcome Kit",
+    "https://licindia.in/web/guest/welcome-kit"
+   ],
+   [
+    "LIC Pension Fund Limited",
+    "https://licindia.in/web/guest/lic-pension-fund-limited"
+   ],
+   [
+    "LIC Cards Services Limited",
+    "https://licindia.in/web/guest/lic-cards-services-limited"
+   ],
+   [
+    "LIC Mutual Fund Trustee Private Limited",
+    "https://licindia.in/web/guest/lic-mutual-fund-trustee-private-limited"
+   ],
+   [
+    "LIC Mutual Fund Asset Management Limited",
+    "https://licindia.in/web/guest/lic-mutual-fund-asset-management-limited"
+   ],
+   [
+    "LIC Housing Finance Limited",
+    "https://licindia.in/web/guest/lic-housing-finance-limited"
+   ],
+   [
+    "LICHFL Asset Management Company Limited",
+    "https://licindia.in/web/guest/lichfl-asset-management-company-limited"
+   ],
+   [
+    "",
+    "http://india.gov.in/"
+   ],
+   [
+    "",
+    "https://www.geotrust.com"
+   ],
+   [
+    "",
+    "https://licindia.in/certificate"
+   ],
+   [
+    "Term & Conditions",
+    "https://licindia.in/terms-conditions"
+   ],
+   [
+    "Sitemap",
+    "https://licindia.in/sitemap"
+   ],
+   [
+    "Privacy policy",
+    "https://licindia.in/privacy-policy"
+   ]
+  ]
+ },
+ {
+  "n": 5,
+  "url": "https://licindia.in/corporate-presentation-updated",
+  "status": 200,
+  "final_url": "https://licindia.in/corporate-presentation-updated",
+  "content_type": "text/html;charset=UTF-8",
+  "file": "05_corporate-presentation-updated.html",
+  "bytes": 216918,
+  "sha256": "077171ab9893d57cbd3f06c68cd89ebf4e23d554d8fd03f679dec724651f4d82",
+  "title": "Corporate Presentation Updated | Official website of Life Insurance Corporation \r\n   of India.",
+  "links": [
+   [
+    "Skip to Content",
+    "https://licindia.in/corporate-presentation-updated#main-content"
+   ],
+   [
+    "",
+    "https://licindia.in/home"
+   ],
+   [
+    "Skip to main content",
+    "https://licindia.in/corporate-presentation-updated#maincontent"
+   ],
+   [
+    "8976862090",
+    "https://licindia.in/corporate-presentation-updated"
+   ],
+   [
+    "+91-22-68276827",
+    "https://licindia.in/phone-help-line"
+   ],
+   [
+    "Branch Locator",
+    "https://licindia.in/branch"
+   ],
+   [
+    "",
+    "https://licindia.in/home"
+   ],
+   [
+    "About Us",
+    "https://licindia.in/web/guest/about-us"
+   ],
+   [
+    "History",
+    "https://licindia.in/web/guest/history"
+   ],
+   [
+    "Objectives Of LIC",
+    "https://licindia.in/web/guest/objectives-of-lic"
+   ],
+   [
+    "Mission/Vision",
+    "https://licindia.in/web/guest/mission/vision"
+   ],
+   [
+    "Who’s who",
+    "https://licindia.in/web/guest/who-s-who"
+   ],
+   [
+    "Operations",
+    "https://licindia.in/web/guest/operations"
+   ],
+   [
+    "Know About Your Life Insurance",
+    "https://licindia.in/web/guest/know-your-life-insurance"
+   ],
+   [
+    "Help us to serve you better",
+    "https://licindia.in/web/guest/help-us-to-serve-you-better"
+   ],
+   [
+    "Information Technology and LIC",
+    "https://licindia.in/web/guest/information-technology-and-lic"
+   ],
+   [
+    "Awards",
+    "https://licindia.in/web/guest/about-us/awards"
+   ],
+   [
+    "Archive Awards and Achievements",
+    "https://licindia.in/web/guest/archive-awards-and-achievements"
+   ],
+   [
+    "Organization chart",
+    "https://licindia.in/web/guest/organization-chart"
+   ],
+   [
+    "Products",
+    "https://licindia.in/web/guest/products"
+   ],
+   [
+    "Insurance Plans",
+    "https://licindia.in/web/guest/insurance-plan"
+   ],
+   [
+    "Endowment Plans",
+    "https://licindia.in/web/guest/endowment-plans"
+   ],
+   [
+    "Whole Life Plans",
+    "https://licindia.in/web/guest/whole-life-plans"
+   ],
+   [
+    "Money Back Plans",
+    "https://licindia.in/web/guest/money-back-plans"
+   ],
+   [
+    "Term Assurance Plans",
+    "https://licindia.in/web/guest/term-assurance-plans"
+   ],
+   [
+    "Riders",
+    "https://licindia.in/web/guest/riders"
+   ],
+   [
+    "Pension Plans",
+    "https://licindia.in/web/guest/pension-plan"
+   ],
+   [
+    "Unit Linked Plans",
+    "https://licindia.in/web/guest/unit-linked-plans"
+   ],
+   [
+    "Health Insurance Plans",
+    "https://licindia.in/health-insurance-plans"
+   ],
+   [
+    "Micro Insurance Plans",
+    "https://licindia.in/web/guest/micro-insurance-plans"
+   ],
+   [
+    "Withdrawn Plans",
+    "https://licindia.in/web/guest/withdrawn-plans"
+   ],
+   [
+    "GIFT City Plans",
+    "https://licindia.in/web/guest/gift-city-plans"
+   ],
+   [
+    "Group Business",
+    "https://licindia.in/web/guest/group-schemes"
+   ],
+   [
+    "Contact for Group Insurance Scheme",
+    "https://licindia.in/web/guest/contact-for-group-insurance-scheme"
+   ],
+   [
+    "Group Customer/Annuitant Login",
+    "https://ebiz.licindia.in/D2CPM/#Login"
+   ],
+   [
+    "87A Declaration for Group Annuity",
+    "https://licindia.in/87a-declaration-for-group-annuity"
+   ],
+   [
+    "Pension & Group Schemes New Product",
+    "https://licindia.in/pension-group-schemes-new-product"
+   ],
+   [
+    "Pension & Group Schemes Withdrawn Products",
+    "https://licindia.in/pension-group-schemes-withdrawn-products"
+   ],
+   [
+    "Gratuity Plus NAV",
+    "https://licindia.in/web/guest/gratuity-plus-nav"
+   ],
+   [
+    "Customer Services",
+    "https://licindia.in/web/guest/customer-services"
+   ],
+   [
+    "Customers Corner",
+    "https://licindia.in/web/guest/customers-corner"
+   ],
+   [
+    "Claims settlement requirements",
+    "https://licindia.in/web/guest/claims-settlement-requirements"
+   ],
+   [
+    "Premium Payment",
+    "https://licindia.in/web/guest/premium-payment"
+   ],
+   [
+    "Payment at Cash Counter",
+    "https://licindia.in/web/guest/payment-at-cash-counter"
+   ],
+   [
+    "Payment Through Alternate Channels",
+    "https://licindia.in/web/guest/payment-through-alternate-channels"
+   ],
+   [
+    "LIC Portal",
+    "https://licindia.in/web/guest/lic-portal"
+   ],
+   [
+    "Pay Premium Through LIC Credit Card",
+    "https://licindia.in/web/guest/pay-premium-through-lic-credit-card1"
+   ],
+   [
+    "Premium Point",
+    "https://licindia.in/web/guest/premium-point"
+   ],
+   [
+    "Spurious Calls",
+    "https://licindia.in/web/guest/spurious-calls"
+   ],
+   [
+    "Update Your Contact details – Offline",
+    "https://licindia.in/web/guest/update-your-contact-details-offline"
+   ],
+   [
+    "Unclaimed Amounts of Policyholders",
+    "https://licindia.in/web/guest/unclaimed-amounts-of-policyholders3"
+   ],
+   [
+    "Satarkata Shikayat Dwar",
+    "https://licindia.in/web/guest/satarkata-shikayat-dwar"
+   ],
+   [
+    "Policy Status",
+    "https://licindia.in/web/guest/policy-status"
+   ],
+   [
+    "Insurance Selector",
+    "https://licindia.in/web/guest/insurance-selector"
+   ],
+   [
+    "Policy Guidelines & Helpline",
+    "https://licindia.in/web/guest/policy-guidelines-helpline"
+   ],
+   [
+    "Tax Benefit",
+    "https://licindia.in/web/guest/tax-benefit"
+   ],
+   [
+    "NRI Centre",
+    "https://licindia.in/web/guest/nri-centre"
+   ],
+   [
+    "Investor Relations",
+    "https://licindia.in/web/guest/investor-relations"
+   ],
+   [
+    "IIO GIFT City",
+    "https://licindia.in/web/guest/lic-ifsc-brach-office"
+   ],
+   [
+    "NRI",
+    "https://licindia.in/c/portal/layout?p_v_l_s_g_id=0&groupId=20121&privateLayout=false&layoutId=11071"
+   ],
+   [
+    "NRI Centre",
+    "https://licindia.in/web/guest/nri-centre2"
+   ],
+   [
+    "NRI Customers",
+    "https://licindia.in/web/guest/nri-customers1"
+   ],
+   [
+    "Quickpay Premium",
+    "https://licindia.in/web/guest/quickpay-premium1"
+   ],
+   [
+    "FATCA/CRS",
+    "https://licindia.in/web/guest/fatca-crs"
+   ],
+   [
+    "Access Country List",
+    "https://licindia.in/web/guest/access-country-list"
+   ],
+   [
+    "NPS",
+    "https://licindia.in/web/guest/nps-subscriber-corner"
+   ],
+   [
+    "NPS Subscriber Corner",
+    "https://licindia.in/web/guest/nps-subscriber-corner"
+   ],
+   [
+    "Certificate of Registration (PoP) with PFRDA",
+    "https://licindia.in/documents/d/guest/certificate-of-registration-pop"
+   ],
+   [
+    "Notices",
+    "https://licindia.in/web/guest/notices"
+   ],
+   [
+    "Pay Premium",
+    "https://ebiz.licindia.in/D2CPM/#DirectPay"
+   ],
+   [
+    "Customer Portal",
+    "https://ebiz.licindia.in/D2CPM/?_ga=2.72703123.1272923387.1677050657-120722208.1677050657#Login"
+   ],
+   [
+    "NRI Customer Portal",
+    "https://nriebiz.licindia.in/D2CPM/#Login"
+   ],
+   [
+    "Online Revival of Policy",
+    "https://renew.licindia.in/licrevival/#Login"
+   ],
+   [
+    "Want to be an LIC Agent",
+    "https://agencycareer.licindia.in/agt_req/index1.php?_ga=2.132252684.382589343.1685778008-998430420.1685778008&_gac=1.91017576.1685872184.Cj0KCQjw7PCjBhDwARIsANo7Cgnay0YVbEoO5MslMzNkmXXG6Ra5XrDaHLDJKjFV-6L6dFlvzbQ0PDAaAi9pEALw_wcB"
+   ],
+   [
+    "Merchant Portal",
+    "https://merchant.licindia.in/merchant/?_ga=2.108944258.1272923387.1677050657-120722208.1677050657"
+   ],
+   [
+    "Employee Portal",
+    "https://licindia.in/employee-s-corner"
+   ],
+   [
+    "Group Customer/Annuitant Login",
+    "https://ebiz.licindia.in/D2CPM/#Login"
+   ],
+   [
+    "Group MasterPolicyholder Portal",
+    "https://ebiz.licindia.in/OrgPortal/#Login"
+   ],
+   [
+    "Retired Employees Portal",
+    "https://rep.licindia.in/penport/login?_ga=2.131348047.1319024671.1679223847-1480379755.1666842318"
+   ],
+   [
+    "",
+    "https://licindia.in/buy-online"
+   ],
+   [
+    "Home",
+    "https://licindia.in/web/guest/home"
+   ],
+   [
+    "Investor Relations",
+    "https://licindia.in/web/guest/investor-relations"
+   ],
+   [
+    "FY 2026-27",
+    "https://licindia.in/fy-2026-271"
+   ],
+   [
+    "FY 2025-26",
+    "https://licindia.in/fy-2025-26"
+   ],
+   [
+    "FY 2024-25",
+    "https://licindia.in/2024-251"
+   ],
+   [
+    "FY 2023-24",
+    "https://licindia.in/2023-24"
+   ],
+   [
+    "FY 2022-23",
+    "https://licindia.in/investor-relations/financial-details/corporate-presentation/2022-23"
+   ],
+   [
+    "Plan NAV",
+    "https://licindia.in/plan-nav1"
+   ],
+   [
+    "1. UK",
+    "https://www.liciuk.com"
+   ],
+   [
+    "2. SriLanka",
+    "https://www.liclanka.com"
+   ],
+   [
+    "3. Fiji",
+    "https://www.licifiji.com"
+   ],
+   [
+    "4. Mauritius",
+    "https://lici.mu/"
+   ],
+   [
+    "5. Bahrain",
+    "https://www.licinternational.com"
+   ],
+   [
+    "6. Nepal",
+    "https://www.licnepal.com.np"
+   ],
+   [
+    "7. Kenindia Assurance",
+    "https://www.kenindia.com"
+   ],
+   [
+    "8. SICCI",
+    "https://licindia.in/corporate-presentation-updated"
+   ],
+   [
+    "9. Singapore",
+    "https://www.licsingapore.com/"
+   ],
+   [
+    "10. Bangladesh",
+    "https://www.licbangladesh.com"
+   ],
+   [
+    "1. Associate Companies",
+    "https://licindia.in/lic-associate-companies"
+   ],
+   [
+    "2. Subsidiaries Companies",
+    "https://licindia.in/lic-subsidiary-companies"
+   ],
+   [
+    "LIC Quick Tips",
+    "https://licindia.in/lic-product-ads-informative-videos"
+   ],
+   [
+    "Things you must know",
+    "https://licindia.in/know-your-life-insurance"
+   ],
+   [
+    "Why Life Insurance",
+    "https://licindia.in/know-your-life-insurance"
+   ],
+   [
+    "Why Invest",
+    "https://licindia.in/know-your-life-insurance"
+   ],
+   [
+    "Contact Us",
+    "https://licindia.in/contact-us"
+   ],
+   [
+    "+91-22-68276827",
+    "https://licindia.in/phone-help-line"
+   ],
+   [
+    "Branch Locator",
+    "https://licindia.in/branch"
+   ],
+   [
+    "Contact Us",
+    "https://licindia.in/contact-us"
+   ],
+   [
+    "Aap ki punji aap ka Adhikar",
+    "https://licindia.in/web/guest/aap-ki-punji-aap-ka-adhikari"
+   ],
+   [
+    "Anti-Bribery And Anti-Corruption Policy",
+    "https://licindia.in/web/guest/anti-bribery-and-anti-corruption-policy"
+   ],
+   [
+    "Anti Fraud Policy",
+    "https://licindia.in/web/guest/anti-fraud-policy"
+   ],
+   [
+    "Careers",
+    "https://licindia.in/web/guest/careers"
+   ],
+   [
+    "Citizens Charter",
+    "https://licindia.in/web/guest/citizens-charter"
+   ],
+   [
+    "Copyright Policy",
+    "https://licindia.in/web/guest/copyright-policy"
+   ],
+   [
+    "Customer Education",
+    "https://licindia.in/web/guest/customer-education"
+   ],
+   [
+    "Central Vigilance Commission",
+    "https://pledge.cvc.nic.in/"
+   ],
+   [
+    "Download Forms",
+    "https://licindia.in/web/guest/download-forms"
+   ],
+   [
+    "View our Ads",
+    "https://licindia.in/web/guest/view-our-ads"
+   ],
+   [
+    "+91-22-68276827",
+    "https://licindia.in/phone-help-line"
+   ],
+   [
+    "Employees Corner",
+    "https://licindia.in/web/guest/employee-s-corner"
+   ],
+   [
+    "Enquiry of Outstanding Claims for the Current Year",
+    "https://licindia.in/web/guest/enquiry-of-outstanding-claims-for-the-current-year1"
+   ],
+   [
+    "Environmental, Social, and Governance",
+    "https://licindia.in/web/guest/environmental-social-and-governance"
+   ],
+   [
+    "Equal Opportunity Policy",
+    "https://licindia.in/web/guest/equal-opportunity-policy"
+   ],
+   [
+    "Frequently Asked Questions",
+    "https://licindia.in/web/guest/faqs"
+   ],
+   [
+    "Feedback",
+    "https://licindia.in/web/guest/feedback"
+   ],
+   [
+    "Glossary",
+    "https://licindia.in/web/guest/glossary"
+   ],
+   [
+    "Golden Jubilee Foundation - Community Development",
+    "https://licindia.in/web/guest/golden-jubilee-foundation"
+   ],
+   [
+    "Grievance Redressal",
+    "https://licindia.in/web/guest/grievances"
+   ],
+   [
+    "Help",
+    "https://licindia.in/web/guest/help"
+   ],
+   [
+    "Health Insurance",
+    "https://licindia.in/web/guest/health-insurance"
+   ],
+   [
+    "Hyperlink Policy",
+    "https://licindia.in/web/guest/hyperlink-policy"
+   ],
+   [
+    "International Operations",
+    "https://licindia.in/web/guest/international-operations-associates"
+   ],
+   [
+    "Investee-AMRIT",
+    "https://licindia.in/web/guest/investee-amrit"
+   ],
+   [
+    "IRDAI Consumer Education",
+    "https://policyholder.gov.in/"
+   ],
+   [
+    "Join Our Team",
+    "https://licindia.in/web/guest/join-our-team"
+   ],
+   [
+    "LIC Act",
+    "https://licindia.in/web/guest/lic-act"
+   ],
+   [
+    "List of black-listed agents by IRDAI",
+    "https://irdai.gov.in/list-of-black-listed-agents"
+   ],
+   [
+    "News",
+    "https://licindia.in/web/guest/news"
+   ],
+   [
+    "NRI Centre",
+    "https://licindia.in/web/guest/nri-centre1"
+   ],
+   [
+    "Branch Locator",
+    "https://licindia.in/branch"
+   ],
+   [
+    "Photo Gallery",
+    "https://licindia.in/web/guest/photo-gallery"
+   ],
+   [
+    "Policy for protection of interests of policyholders",
+    "https://licindia.in/web/guest/policy-for-protection-of-interests-of-policyholders"
+   ],
+   [
+    "Press-Release",
+    "https://licindia.in/web/guest/press-release"
+   ],
+   [
+    "Privacy Policy",
+    "https://licindia.in/web/guest/privacy-policy"
+   ],
+   [
+    "Property",
+    "https://licindia.in/web/guest/property"
+   ],
+   [
+    "Rajbhasha Patrika",
+    "https://licindia.in/web/guest/rajbhasha-patrika-new"
+   ],
+   [
+    "Retired Employees Portal",
+    "https://licindia.in/web/guest/retired-employees-portal1"
+   ],
+   [
+    "RTI Center",
+    "https://licindia.in/web/guest/rti-center"
+   ],
+   [
+    "Stewardship Policy & Disclosure",
+    "https://licindia.in/web/guest/stewardship-policy-disclosure"
+   ],
+   [
+    "Swachh Bharat Campaign",
+    "https://licindia.in/web/guest/swachh-bharat-campaign"
+   ],
+   [
+    "Swavalamban",
+    "https://licindia.in/web/guest/swavalamban"
+   ],
+   [
+    "Tender –Award",
+    "https://licindia.in/web/guest/tender-award"
+   ],
+   [
+    "Tenders",
+    "https://licindia.in/web/guest/tenders"
+   ],
+   [
+    "Terms & Conditions",
+    "https://licindia.in/web/guest/terms-conditions"
+   ],
+   [
+    "Unclaimed Amounts of Policyholders",
+    "https://licindia.in/web/guest/unclaimed-amounts-of-policyholders2"
+   ],
+   [
+    "Underwriting Philosophy",
+    "https://licindia.in/web/guest/underwriting-philosophy"
+   ],
+   [
+    "Welcome Kit",
+    "https://licindia.in/web/guest/welcome-kit"
+   ],
+   [
+    "LIC Pension Fund Limited",
+    "https://licindia.in/web/guest/lic-pension-fund-limited"
+   ],
+   [
+    "LIC Cards Services Limited",
+    "https://licindia.in/web/guest/lic-cards-services-limited"
+   ],
+   [
+    "LIC Mutual Fund Trustee Private Limited",
+    "https://licindia.in/web/guest/lic-mutual-fund-trustee-private-limited"
+   ],
+   [
+    "LIC Mutual Fund Asset Management Limited",
+    "https://licindia.in/web/guest/lic-mutual-fund-asset-management-limited"
+   ],
+   [
+    "LIC Housing Finance Limited",
+    "https://licindia.in/web/guest/lic-housing-finance-limited"
+   ],
+   [
+    "LICHFL Asset Management Company Limited",
+    "https://licindia.in/web/guest/lichfl-asset-management-company-limited"
+   ],
+   [
+    "",
+    "http://india.gov.in/"
+   ],
+   [
+    "",
+    "https://www.geotrust.com"
+   ],
+   [
+    "",
+    "https://licindia.in/certificate"
+   ],
+   [
+    "Term & Conditions",
+    "https://licindia.in/terms-conditions"
+   ],
+   [
+    "Sitemap",
+    "https://licindia.in/sitemap"
+   ],
+   [
+    "Privacy policy",
+    "https://licindia.in/privacy-policy"
+   ]
+  ]
+ }
+]
