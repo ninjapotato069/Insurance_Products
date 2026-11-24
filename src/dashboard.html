@@ -85,8 +85,8 @@ p{margin:0}
 .brand{flex:1 1 320px;min-width:0}
 .brand h1{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
 .brand .sub{color:var(--ink-2);font-size:.86rem;margin-top:2px}
-.bench{display:flex;align-items:center;gap:8px;font-size:.82rem;color:var(--ink-2);padding-bottom:6px}
-.bench select{min-width:0;max-width:210px}
+label.bench{display:flex;align-items:center;gap:8px;font-size:.82rem;color:var(--ink-2);padding-bottom:6px}
+label.bench select{min-width:0;max-width:210px}
 .tabs{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;flex:1 1 100%;margin-top:6px}
 .tabs::-webkit-scrollbar{display:none}
 .tabs a{flex:0 0 auto;padding:9px 12px 10px;color:var(--ink-2);text-decoration:none;font-weight:500;font-size:.92rem;border-bottom:2px solid transparent}
@@ -455,11 +455,12 @@ table.scorecard,table.kpimatrix{width:max-content;min-width:100%}
 .scorecard td:first-child,.kpimatrix td:first-child,.scorecard th:first-child,.kpimatrix th:first-child{width:1%;white-space:nowrap}
 .strat-card .chip,.bench-sec .chip{white-space:normal}
 .strat-card{min-width:0;overflow-wrap:anywhere}
+td.cell.bcol{box-shadow:inset 0 0 0 2px var(--ink)}
 .install-tip{font-size:.8rem;color:var(--ink-2)}
 @media (max-width:760px){
   h1{font-size:1.45rem}
   .dhead h1{font-size:1.5rem}
-  .bench{padding-bottom:0}
+  label.bench{padding-bottom:0}
   .panel{padding:12px}
   .logitem{grid-template-columns:minmax(0,1fr);gap:2px}
 }
@@ -491,6 +492,8 @@ table.scorecard,table.kpimatrix{width:max-content;min-width:100%}
       <a href="#overview" data-v="overview">Overview</a>
       <a href="#benchmark" data-v="benchmark">Benchmark</a>
       <a href="#dept-scale" data-v="dept">Departments</a>
+      <a href="#network" data-v="network">Network</a>
+      <a href="#global" data-v="global">Global</a>
       <a href="#strategy" data-v="strategy">Strategy</a>
       <a href="#news" data-v="news">News</a>
       <a href="#insurers" data-v="insurers">Insurers</a>
@@ -552,7 +555,7 @@ const S = {
   f:{q:"",segment:"Individual",category:"",company:"",status:"Active",linkage:"",participation:"",need:"",online:""},
   sort:{k:"",dir:1}, shown:60, cmpP:[], cmpI:[], insSort:{k:"nbp_market_share_pct",dir:-1}, logType:"", logCo:"",
   ownType:"", ownCo:"", ownShown:25, anOpen:null,
-  b:null, kmeta:{}, bcomp:{}, scoreCache:{}, peer:"all", stratF:"", newsCo:"", newsTheme:""
+  b:null, kmeta:{}, bcomp:{}, scoreCache:{}, peer:"all", stratF:"", newsCo:"", newsTheme:"", netCo:"", netReg:"", glMetric:""
 };
 
 /* ---------- utilities ---------- */
@@ -2553,7 +2556,7 @@ function benchInsurerSection(cid){
   const P = scoredPillars(), st = (S.b.strategy || {})[cid] || {}, kname = k => (kmeta(k) || {}).name || k;
   const sec = h("section", {class:"section bench-sec"});
   sec.append(h("div", {class:"panel-head"}, h("div", {class:"t"}, h("h2", null, "Benchmark"), h("div", {class:"s"}, "Percentile scores against all insurers · 100 = best, 50 = middle")),
-    h("div", {class:"actions"}, h("a", {class:"btn", href:"#benchmark"}, "Scorecard"), h("a", {class:"btn", href:"#strategy"}, "Strategy"))));
+    h("div", {class:"actions"}, h("a", {class:"btn", href:"#benchmark"}, "Scorecard"), h("button", {class:"btn", type:"button", onclick:() => { S.netCo = cid; go("network"); }}, "State network"), h("a", {class:"btn", href:"#strategy"}, "Strategy"))));
   const tiles = [["Overall index", ix ? nf1.format(ix.score) : "—", ix ? `${rk(ix.rank)} of ${sc.n}` : "not enough data"], ["Size tier", bc.tier || "—", "by share of new business"], ["Distribution model", bc.model || "—", "by individual channel mix"],
     ["KPIs with data", String(Object.keys(S.b.values).filter(k => bval(k, cid)).length), `of ${Object.keys(S.kmeta).length} tracked`]];
   sec.append(h("div", {class:"kpis k4"}, tiles.map(([l, v, d]) => h("div", {class:"kpi"}, h("div", {class:"l"}, l), h("div", {class:"v vtext"}, v), h("div", {class:"d"}, d)))));
@@ -2596,6 +2599,123 @@ function benchOverviewCard(){
     () => simpleTable([{l:"Insurer", v:r => r.l}, {l:"Index", n:1, v:r => nf1.format(r.v)}, {l:"Rank", n:1, v:r => String(r.x.rank)}], rows));
 }
 
+/* ---------- state-level network ---------- */
+function viewNetwork(){
+  if (!S.b || !S.b.network) return benchMissing();
+  const N = S.b.network, view = h("div");
+  const ids = Object.keys(N.companies).sort((a, b) => cname(a).localeCompare(cname(b)));
+  if (!S.netCo || !N.companies[S.netCo]) S.netCo = N.companies[S.bench] ? S.bench : "lic";
+  const cid = S.netCo, C = N.companies[cid] || {states:{}}, fy = N.fy;
+  view.append(h("div", {class:"view-head"}, h("div", null, h("h2", null, "Branch network by state"),
+    h("p", null, `Offices and new business in every state and union territory, FY${fy}, from IRDAI's Handbook. Insurers do not publish figures per branch, so the state is the finest level available for all insurers.`))));
+  const csel = h("select", {"aria-label":"Insurer"}, ids.map(c => { const o = h("option", {value:c}, cname(c)); if (c === cid) o.selected = true; return o; }));
+  csel.addEventListener("change", () => { S.netCo = csel.value; render(); });
+  const rsel = h("select", {"aria-label":"Region"}, h("option", {value:""}, "All regions"), Object.keys(N.regions).map(r => { const o = h("option", {value:r}, r); if (S.netReg === r) o.selected = true; return o; }));
+  rsel.addEventListener("change", () => { S.netReg = rsel.value; render(); });
+  view.append(h("div", {class:"filters"}, h("label", {class:"bench"}, h("span", null, "Insurer"), csel), rsel));
+  const st = C.states || {}, ind = N.industry || {};
+  const totInd = sum(Object.values(ind).map(x => x.premium_cr || 0)), myPrem = sum(Object.values(st).map(x => x.ind_premium_cr || 0));
+  const natShare = totInd ? myPrem / totInd * 100 : null;
+  const offs = sum(Object.values(st).map(x => x.offices || 0)), offs5 = sum(Object.values(st).map(x => x.offices_5y || 0));
+  const gains = Object.values(st).filter(x => x.share_pct != null && x.share_prev_pct != null && x.share_pct > x.share_prev_pct && (x.ind_premium_cr || 0) > 0.5).length;
+  const top = Object.entries(st).sort((a, b) => (b[1].ind_premium_cr || 0) - (a[1].ind_premium_cr || 0))[0];
+  view.append(h("div", {class:"kpis k4"}, [
+    ["Offices", nfIN.format(offs), offs5 ? `${offs >= offs5 ? "+" : ""}${nfIN.format(offs - offs5)} in 5 years` : ""],
+    ["States with an office", String(Object.values(st).filter(x => (x.offices || 0) > 0).length), `of ${Object.keys(ind).length} states and UTs`],
+    ["National retail share", natShare == null ? "—" : nf2.format(natShare) + "%", `individual new business, FY${fy}`],
+    ["States where share rose", String(gains), top ? `largest: ${top[0]}` : ""]].map(([l, v, d]) => h("div", {class:"kpi"}, h("div", {class:"l"}, l), h("div", {class:"v vtext"}, v), h("div", {class:"d"}, d)))));
+  // office mix
+  const mix = C.office_mix || {}, mt = sum(["Metro", "Urban", "Semi Urban", "Rural"].map(k => mix[k] || 0));
+  const allMix = {}; Object.values(N.companies).forEach(c => Object.entries(c.office_mix || {}).forEach(([k, v]) => allMix[k] = (allMix[k] || 0) + (v || 0)));
+  const at = sum(["Metro", "Urban", "Semi Urban", "Rural"].map(k => allMix[k] || 0));
+  const segs = [["Metro", "var(--seq-7)", "#fff"], ["Urban", "var(--seq-5)", "#fff"], ["Semi Urban", "var(--seq-3)", "var(--ink)"], ["Rural", "var(--seq-2)", "var(--ink)"]];
+  const g = h("div", {class:"grid g2 section"});
+  if (mt) g.append(h("section", {class:"panel"}, h("div", {class:"panel-head"}, h("div", {class:"t"}, h("h3", null, "Where the offices are"), h("div", {class:"s"}, `${cname(cid)} against all life insurers · by area type, 31 Mar ${+fy.slice(0, 4) + 1}`))),
+    legendOf(segs.map(([l, c]) => ({l, color:c}))),
+    h("div", {class:"small ink2", style:"margin:8px 0 4px"}, cname(cid)), tallBar(segs.map(([k, c, ink]) => ({l:k, v:(mix[k] || 0) / mt * 100, color:c, ink, tip:`${nfIN.format(mix[k] || 0)} offices`}))),
+    h("div", {class:"small ink2", style:"margin:12px 0 4px"}, "All life insurers"), tallBar(segs.map(([k, c, ink]) => ({l:k, v:(allMix[k] || 0) / at * 100, color:c, ink, tip:`${nfIN.format(allMix[k] || 0)} offices`})))));
+  // region split of retail premium
+  const reg = Object.keys(N.regions).map(r => { const ss = N.regions[r]; const mine = sum(ss.map(s => (st[s] || {}).ind_premium_cr || 0)), tot = sum(ss.map(s => (ind[s] || {}).premium_cr || 0)); return {id:null, l:r, v:tot ? mine / tot * 100 : 0, mine, tot}; });
+  g.append(card("Retail share by region", `${cname(cid)}'s share of individual new business premium in each region, FY${fy} · line = national share`,
+    () => rowChart(reg, {x:v => v / Math.max(1, ...reg.map(r => r.v), natShare || 0) * 85, ticks:[0], rowH:26, noOpen:true,
+      marks:r => [h("span", {class:"dvb pos", style:`left:0;width:${Math.max(0.5, r.v / Math.max(1, ...reg.map(x => x.v), natShare || 0) * 85)}%;--c:var(--accent)`}), h("span", {class:"rc-t", style:`left:calc(${r.v / Math.max(1, ...reg.map(x => x.v), natShare || 0) * 85}% + 6px)`}, nf2.format(r.v) + "%")],
+      extra: natShare != null ? [h("span", {class:"rc-ref", style:`left:${natShare / Math.max(1, ...reg.map(x => x.v), natShare) * 85}%`})] : [],
+      tip:r => [nf2.format(r.v) + "%", r.l, `₹${nfIN.format(Math.round(r.mine))} cr of ₹${nfIN.format(Math.round(r.tot))} cr`]}),
+    () => simpleTable([{l:"Region", v:r => r.l}, {l:"Share", n:1, v:r => nf2.format(r.v) + "%"}, {l:"Insurer premium", n:1, v:r => "₹" + nfIN.format(Math.round(r.mine)) + " cr"}, {l:"Industry premium", n:1, v:r => "₹" + nfIN.format(Math.round(r.tot)) + " cr"}], reg)));
+  view.append(g);
+  // state table
+  const states = Object.keys(ind).filter(s => !S.netReg || N.region_of[s] === S.netReg).sort((a, b) => (ind[b].premium_cr || 0) - (ind[a].premium_cr || 0));
+  const rankOf = {}; Object.keys(ind).sort((a, b) => (ind[b].premium_cr || 0) - (ind[a].premium_cr || 0)).forEach((s, i) => rankOf[s] = i + 1);
+  const sig = (s, x) => {
+    if ((x.offices || 0) === 0 && rankOf[s] <= 20) return ["No office", "weak"];
+    if (x.share_pct == null || natShare == null) return null;
+    if (x.share_pct >= natShare * 1.5) return ["Stronghold", "good"];
+    if (x.share_pct <= natShare * 0.5) return ["Under-indexed", "weak"];
+    return null;
+  };
+  const pp = (a, b) => a == null || b == null ? "—" : h("span", {class:a >= b ? "better" : "worse"}, (a >= b ? "+" : "") + nf2.format(a - b) + " pp");
+  view.append(h("section", {class:"panel section"}, h("div", {class:"panel-head"}, h("div", {class:"t"}, h("h3", null, `${cname(cid)} state by state`), h("div", {class:"s"}, "States sorted by the size of their individual new business market · signals compare the state share with the national share"))),
+    h("div", {class:"tablewrap"}, h("table", {class:"sticky1"}, h("thead", null, h("tr", null, ["State", "Region", "Market (₹ cr)", "Market growth", "Offices", "5-year change", "Insurer premium (₹ cr)", "Share", "Share change", "Premium per office (₹ cr)", "Signal"].map((t, i) => h("th", {class:i >= 2 && i <= 9 ? "n" : null}, t)))),
+      h("tbody", null, states.map(s => { const x = st[s] || {}, I = ind[s] || {}, sg = sig(s, x);
+        return h("tr", null, h("td", null, s), h("td", {class:"small"}, N.region_of[s] || ""), h("td", {class:"n"}, I.premium_cr == null ? "—" : nfIN.format(Math.round(I.premium_cr))),
+          h("td", {class:"n"}, I.premium_prev_cr ? pc((I.premium_cr / I.premium_prev_cr - 1) * 100) : "—"),
+          h("td", {class:"n"}, x.offices == null ? "—" : String(x.offices)), h("td", {class:"n"}, x.offices == null || x.offices_5y == null ? "—" : (x.offices - x.offices_5y >= 0 ? "+" : "") + (x.offices - x.offices_5y)),
+          h("td", {class:"n"}, x.ind_premium_cr == null ? "—" : nf1.format(x.ind_premium_cr)), h("td", {class:"n"}, x.share_pct == null ? "—" : nf2.format(x.share_pct) + "%"), h("td", {class:"n"}, pp(x.share_pct, x.share_prev_pct)),
+          h("td", {class:"n"}, x.offices ? nf2.format((x.ind_premium_cr || 0) / x.offices) : "—"), h("td", null, sg ? h("span", {class:"chip " + sg[1]}, sg[0]) : ""));
+      }))))));
+  // matrix: state x top insurers share
+  const topIns = Object.keys(N.companies).map(c => ({c, p:sum(Object.values(N.companies[c].states).map(x => x.ind_premium_cr || 0))})).sort((a, b) => b.p - a.p).slice(0, 12).map(x => x.c);
+  if (S.bench && N.companies[S.bench] && !topIns.includes(S.bench)) topIns.push(S.bench);
+  const stp = v => v == null || v <= 0 ? 0 : v >= 40 ? 7 : v >= 20 ? 6 : v >= 12 ? 5 : v >= 8 ? 4 : v >= 4 ? 3 : v >= 2 ? 2 : 1;
+  view.append(h("section", {class:"panel section"}, h("div", {class:"panel-head"}, h("div", {class:"t"}, h("h3", null, "Who leads in each state"), h("div", {class:"s"}, `Share of individual new business premium, FY${fy} · largest ${topIns.length} insurers · darker = higher share`))),
+    legendOf([["<2%", 1], ["2-4%", 2], ["4-8%", 3], ["8-12%", 4], ["12-20%", 5], ["20-40%", 6], ["40%+", 7]].map(([l, n]) => ({l, color:`var(--seq-${n})`}))),
+    h("div", {class:"tablewrap"}, h("table", {class:"heat sticky1 kpimatrix"}, h("thead", null, h("tr", null, h("th", null, "State"), topIns.map(c => h("th", {class:"c"}, linkTo("insurer-" + c, cname(c)))))),
+      h("tbody", null, states.map(s => h("tr", null, h("td", null, s), topIns.map(c => { const v = ((N.companies[c].states || {})[s] || {}).share_pct, n = stp(v);
+        const td = h("td", {class:"cell" + (v ? "" : " zero") + (c === S.bench ? " bcol" : ""), style:n ? `background:var(--seq-${n});color:${n >= 5 ? "#fff" : "var(--ink)"}` : null, tabindex:v ? "0" : null}, v ? nf1.format(v) : "·");
+        if (v) hover(td, () => [nf2.format(v) + "%", `${cname(c)} · ${s}`, `${((N.companies[c].states[s] || {}).offices) || 0} offices`]);
+        return td; }))))))));
+  view.append(h("p", {class:"fn"}, "Source: ", ext(String(N.source).split(" ")[0], "IRDAI Handbook on Indian Insurance Statistics"), `, tables 5, 6, 8, 29 and 30 (FY${fy}). Signals: Stronghold = state share at least 1.5 times the national share; Under-indexed = half or less; No office = no office in one of the 20 largest state markets.`));
+  return view;
+}
+
+/* ---------- global peers ---------- */
+function viewGlobal(){
+  const G = S.b && S.b.global;
+  if (!G) return benchMissing();
+  const view = h("div"), M = G.metrics, ids = Object.keys(G.companies);
+  if (!S.glMetric || !M.find(m => m.id === S.glMetric)) S.glMetric = M[0].id;
+  const m = M.find(x => x.id === S.glMetric);
+  view.append(h("div", {class:"view-head"}, h("div", null, h("h2", null, "Global peers"),
+    h("p", null, `${ids.filter(c => !G.companies[c].india).length} Asian and global life insurers, most of them owners of Indian joint ventures, set beside India's listed insurers on the measures all of them publish. ${G.note || ""}`))));
+  view.append(h("nav", {class:"chips pillnav", "aria-label":"Measure"}, M.map(x => { const a = h("button", {type:"button", class:"chip" + (x.id === m.id ? " on" : "")}, x.name); a.addEventListener("click", () => { S.glMetric = x.id; render(); }); return a; })));
+  const fmt = v => v == null ? "—" : m.unit === "pct" ? nf1.format(v) + "%" : m.unit === "usd_m" ? "US$" + nfIN.format(Math.round(v)) + " m" : m.unit === "usd_bn" ? "US$" + nf1.format(v) + " bn" : nf2.format(v);
+  const rows = ids.map(c => { const x = (G.companies[c].values || {})[m.id]; return x && x.v != null ? {id:null, cid:c, l:G.companies[c].short || G.companies[c].name, v:x.v, x, sub:G.companies[c].india ? "India" : G.companies[c].region} : null; })
+    .filter(Boolean).sort((a, b) => m.better === "low" ? a.v - b.v : b.v - a.v);
+  const med = median(rows.map(r => r.v));
+  const vs = rows.map(r => r.v); let lo = Math.min(0, ...vs), hi = Math.max(0, ...vs); if (hi === lo) hi = lo + 1;
+  const span = hi - lo, dLo = lo < 0 ? lo - span * 0.05 : lo, dHi = hi + span * 0.25, X = v => (v - dLo) / (dHi - dLo) * 100, z = X(0);
+  view.append(h("div", {class:"section"}, card(m.name, `${m.def} · ${rows.length} insurers · line = median · Indian insurers in green`,
+    () => rowChart(rows, {x:X, ticks:niceTicks(lo, hi, 4).filter(t => t >= dLo && t <= dHi), zero:0, tickFmt:t => m.unit === "pct" ? nf1.format(t) + "%" : nfIN.format(t), rowH:24, noOpen:true,
+      marks:r => { const x = X(r.v); return [h("span", {class:"dvb " + (r.v < 0 ? "neg" : "pos"), style:`left:${Math.min(x, z)}%;width:${Math.max(Math.abs(x - z), 0.4)}%;--c:${G.companies[r.cid].india ? "var(--accent)" : "var(--cat-1)"}`}), h("span", {class:"rc-t", style:`left:calc(${Math.max(x, z)}% + 6px)`}, fmt(r.v))]; },
+      extra: med != null ? [h("span", {class:"rc-ref", style:`left:${X(med)}%`})] : [],
+      tip:r => [fmt(r.v), r.l, [r.x.p, r.x.local, r.x.note].filter(Boolean).join(" · ")]}),
+    () => simpleTable([{l:"Insurer", v:r => r.l}, {l:"Market", v:r => r.sub}, {l:m.name, n:1, v:r => fmt(r.v)}, {l:"Period", v:r => r.x.p || "—"}, {l:"As reported", v:r => r.x.local || ""}, {l:"Note", v:r => r.x.note || ""}], rows))));
+  // full matrix
+  view.append(h("section", {class:"panel section"}, h("h3", null, "All measures"),
+    h("div", {class:"tablewrap", style:"margin-top:10px"}, h("table", {class:"sticky1 kpimatrix"}, h("thead", null, h("tr", null, h("th", null, "Insurer"), h("th", null, "Market"), M.map(x => h("th", {class:"n"}, x.name)))),
+      h("tbody", null, ids.map(c => { const C = G.companies[c]; return h("tr", {class:C.india ? "bench" : null}, h("td", null, C.india && S.comp[C.india] ? linkTo("insurer-" + C.india, C.short || C.name) : (C.short || C.name)), h("td", {class:"small"}, C.india ? "India" : C.region || ""),
+        M.map(x => { const v = (C.values || {})[x.id]; return h("td", {class:"n"}, v && v.v != null ? (x.unit === "pct" ? nf1.format(v.v) + "%" : x.unit === "usd_m" ? nfIN.format(Math.round(v.v)) : nf1.format(v.v)) : "—"); })); })))),
+    h("p", {class:"fn"}, "US$ figures converted at 31 December 2025 exchange rates where the insurer reports in another currency; Indian figures are for the year to March 2026 unless marked. Margins, growth rates and solvency are as reported; solvency regimes differ (HK RBC, C-ROSS, Solvency II, Japan ESR, LICAT, IRDAI), so compare them only within a regime.")));
+  // profiles
+  view.append(h("div", {class:"grid g2 section"}, ids.filter(c => !G.companies[c].india).map(c => { const C = G.companies[c];
+    return h("section", {class:"panel"}, h("div", {class:"panel-head"}, h("div", {class:"t"}, h("h3", null, C.name), h("div", {class:"s"}, [C.hq, C.listing, C.fy].filter(Boolean).join(" · ")))),
+      C.india_link ? h("p", {class:"small"}, h("b", null, "India: "), C.india_link) : null,
+      C.focus ? h("p", {class:"small ink2", style:"margin-top:6px"}, C.focus) : null,
+      arr(C.highlights).length ? h("ul", {class:"feat", style:"margin-top:8px"}, C.highlights.map(x => h("li", {class:"small"}, x))) : null,
+      arr(C.sources).length ? h("div", {class:"sources", style:"margin-top:8px"}, C.sources.map(x => ext(x.url, x.title))) : null); })));
+  return view;
+}
+
 /* ---------- shell ---------- */
 function setBench(id){ S.bench = id; ls.set("ip.bench", id); $("#bench").value = id; }
 function updateTray(){
@@ -2610,7 +2730,7 @@ function parseHash(){
   if (raw.startsWith("product-")) return {v:"product", id:raw.slice(8)};
   if (raw.startsWith("dept-")) return {v:"dept", id:raw.slice(5)};
   if (raw.startsWith("kpi-")) return {v:"kpi", id:raw.slice(4)};
-  return {v:["overview","benchmark","strategy","news","insurers","ownership","products","compare","changes","about"].includes(raw) ? raw : "overview", id:null};
+  return {v:["overview","benchmark","network","global","strategy","news","insurers","ownership","products","compare","changes","about"].includes(raw) ? raw : "overview", id:null};
 }
 let lastKey = "";
 function render(){
@@ -2625,6 +2745,8 @@ function render(){
     case "benchmark": node = viewBenchmark(); break;
     case "dept": node = viewDept(r.id); break;
     case "kpi": node = viewKpi(r.id); break;
+    case "network": node = viewNetwork(); break;
+    case "global": node = viewGlobal(); break;
     case "strategy": node = viewStrategy(); break;
     case "news": node = viewNews(); break;
     case "insurers": node = viewInsurers(); break;

@@ -79,6 +79,11 @@ No WebFetch here: download pages/PDFs with the `fetch-sources.yml` workflow (inp
   penalties in 3 years, independent directors, investment yield, NPA, ad spend) with period and URL.
 When IRDAI publishes a new Handbook or Annual Report (usually Dec-Feb), fetch it and rerun
 `scripts/parse_irdai_handbook.py <folder> <FY> <url>` / `scripts/parse_irdai_annual.py <txt> <FY> <url>`.
+Also rerun `scripts/parse_irdai_states.py <folder> <FY> <url>` (state-level offices and business, Network tab).
+- Global peers (`data/benchmark/global.json`, Global tab): when foreign groups publish half- or full-year results
+  (Feb-Mar, Aug), refresh one or two groups per week from their results release; convert at the period-end
+  exchange rate (fetch `https://query1.finance.yahoo.com/v8/finance/chart/<CCY>=X`). Still missing: AIA margin,
+  Sun Life and Dai-ichi/Nippon new business value and solvency, Allianz and Ageas.
 Then `python3 scripts/build_benchmark.py`.
 
 ## 7. Build, publish, report

@@ -1,0 +1,689 @@
+{
+ "updated": "2026-11-24",
+ "note": "Calendar 2025 for foreign groups (Japanese insurers: year to March 2026); Indian insurers' latest full or half year as marked.",
+ "fx_usd": {
+  "EUR": 1.1747,
+  "CNY": 6.9961,
+  "JPY_Dec25": 156.413,
+  "JPY_Mar26": 158.579,
+  "CAD": 1.3695,
+  "SGD": 1.2839,
+  "INR_Dec25": 89.7694,
+  "INR_Mar26": 93.4843,
+  "source": "Yahoo Finance daily closes, 31 Dec 2025 and 31 Mar 2026"
+ },
+ "metrics": [
+  {
+   "id": "nbv_margin_pct",
+   "name": "New business margin",
+   "unit": "pct",
+   "better": "high",
+   "def": "Value of new business as a share of annualised new premium (APE, ANP or weighted sales), as reported"
+  },
+  {
+   "id": "nbv_usd_m",
+   "name": "Value of new business",
+   "unit": "usd_m",
+   "better": "high",
+   "def": "Value of new business written in the year, US$ million"
+  },
+  {
+   "id": "nbv_growth_pct",
+   "name": "New business value growth",
+   "unit": "pct",
+   "better": "high",
+   "def": "Growth in value of new business, as reported (often at constant exchange rates)"
+  },
+  {
+   "id": "profit_usd_m",
+   "name": "Operating profit after tax",
+   "unit": "usd_m",
+   "better": "high",
+   "def": "Operating, core, underlying or adjusted profit after tax as each group defines it, US$ million"
+  },
+  {
+   "id": "profit_growth_pct",
+   "name": "Profit growth",
+   "unit": "pct",
+   "better": "high",
+   "def": "Growth in that profit measure, as reported"
+  },
+  {
+   "id": "roe_pct",
+   "name": "Return on equity or EV",
+   "unit": "pct",
+   "better": "high",
+   "def": "Operating ROE or operating return on embedded value, as reported"
+  },
+  {
+   "id": "solvency_pct",
+   "name": "Solvency ratio",
+   "unit": "pct",
+   "better": "none",
+   "def": "Group solvency or capital ratio under the home regulator's regime, as reported"
+  }
+ ],
+ "companies": {
+  "aia": {
+   "name": "AIA Group",
+   "short": "AIA",
+   "region": "Pan-Asia",
+   "hq": "Hong Kong",
+   "listing": "HKEX 1299",
+   "fy": "FY2025",
+   "india_link": "Partner in Tata AIA Life with Tata Sons.",
+   "values": {
+    "nbv_usd_m": {
+     "v": 5516,
+     "p": "FY2025"
+    },
+    "nbv_growth_pct": {
+     "v": 15,
+     "p": "FY2025",
+     "note": "constant exchange rates"
+    },
+    "profit_usd_m": {
+     "v": 7136,
+     "p": "FY2025",
+     "local": "OPAT US$7,136m"
+    },
+    "profit_growth_pct": {
+     "v": 12,
+     "p": "FY2025",
+     "note": "OPAT per share, constant exchange rates"
+    }
+   },
+   "highlights": [
+    "Record VONB of US$5.5 bn (+15%); Hong Kong VONB +28%, Thailand +13%, Singapore +14%.",
+    "Target: OPAT per share CAGR of 9-11% over 2023-26, which AIA expects to meet or beat.",
+    "New US$1.7 bn share buyback."
+   ],
+   "sources": [
+    {
+     "title": "Insurance Business: AIA posts record 2025 results",
+     "url": "https://www.insurancebusinessmag.com/asia/news/breaking-news/aia-posts-record-2025-results-569208.aspx"
+    },
+    {
+     "title": "China Daily HK: AIA 2025 results",
+     "url": "https://www.chinadailyhk.com/article/630743"
+    }
+   ]
+  },
+  "prudential": {
+   "name": "Prudential plc",
+   "short": "Prudential plc",
+   "region": "Asia & Africa",
+   "hq": "Hong Kong / London",
+   "listing": "LSE, HKEX",
+   "fy": "FY2025",
+   "india_link": "Long-time partner in ICICI Prudential Life (renamed ICICI Life Insurance in Sep 2026).",
+   "values": {
+    "nbv_margin_pct": {
+     "v": 42,
+     "p": "FY2025",
+     "local": "New business margin, % of APE"
+    },
+    "nbv_usd_m": {
+     "v": 2782,
+     "p": "FY2025",
+     "local": "New business profit (TEV)"
+    },
+    "nbv_growth_pct": {
+     "v": 13,
+     "p": "FY2025"
+    },
+    "profit_usd_m": {
+     "v": 2772,
+     "p": "FY2025",
+     "local": "Adjusted operating profit after tax"
+    },
+    "profit_growth_pct": {
+     "v": 7,
+     "p": "FY2025"
+    },
+    "roe_pct": {
+     "v": 15,
+     "p": "FY2025",
+     "local": "Operating return on embedded value"
+    },
+    "solvency_pct": {
+     "v": 262,
+     "p": "FY2025",
+     "local": "GWS shareholder cover over GPCR"
+    }
+   },
+   "highlights": [
+    "APE sales US$6,661 m (+7%); new business margin up 2 points to 42%.",
+    "Strategy: multi-channel distribution, professionalising agency, bancassurance partnerships, health and protection."
+   ],
+   "sources": [
+    {
+     "title": "Prudential plc 2025 full year results",
+     "url": "https://www.prudentialplc.com/en/newsroom/company-news/2026/prudential-plc-2025-full-year-results/"
+    }
+   ]
+  },
+  "pingan": {
+   "name": "Ping An Insurance (Group)",
+   "short": "Ping An",
+   "region": "China",
+   "hq": "Shenzhen",
+   "listing": "HKEX 2318, SSE 601318",
+   "fy": "FY2025",
+   "values": {
+    "nbv_margin_pct": {
+     "v": 28.5,
+     "p": "FY2025",
+     "local": "NBV margin on ANP, +5.8 pts"
+    },
+    "nbv_usd_m": {
+     "v": 5273.9,
+     "p": "FY2025",
+     "local": "RMB36,897 m"
+    },
+    "nbv_growth_pct": {
+     "v": 29.3,
+     "p": "FY2025"
+    },
+    "profit_usd_m": {
+     "v": 19212.8,
+     "p": "FY2025",
+     "local": "OPAT attributable RMB134,415 m"
+    },
+    "profit_growth_pct": {
+     "v": 10.3,
+     "p": "FY2025"
+    }
+   },
+   "highlights": [
+    "Agency NBV +10.4% on NBV per agent +17.2%; bancassurance NBV +138%.",
+    "Integrated finance plus health and senior-care ecosystem."
+   ],
+   "sources": [
+    {
+     "title": "Ping An 2025 annual results press release",
+     "url": "https://group.pingan.com/resource/pingan/IR-Docs/2026/pingan-ar25-press-release.pdf"
+    }
+   ]
+  },
+  "chinalife": {
+   "name": "China Life Insurance",
+   "short": "China Life",
+   "region": "China",
+   "hq": "Beijing",
+   "listing": "HKEX 2628, SSE 601628",
+   "fy": "FY2025",
+   "values": {
+    "nbv_usd_m": {
+     "v": 6539.6,
+     "p": "FY2025",
+     "local": "Value of one year's sales RMB45,752 m"
+    },
+    "nbv_growth_pct": {
+     "v": 35.7,
+     "p": "FY2025"
+    },
+    "profit_usd_m": {
+     "v": 22023.4,
+     "p": "FY2025",
+     "local": "Net profit attributable RMB154,078 m",
+     "note": "net profit, not an operating measure"
+    },
+    "profit_growth_pct": {
+     "v": 44.1,
+     "p": "FY2025"
+    },
+    "solvency_pct": {
+     "v": 174.0,
+     "p": "31 Dec 2025",
+     "local": "Comprehensive solvency (C-ROSS); core 128.77%"
+    }
+   },
+   "highlights": [
+    "Gross written premiums RMB729.9 bn; embedded value RMB1.47 trillion; 327 million long-term policies in force."
+   ],
+   "sources": [
+    {
+     "title": "China Life 2025 annual results announcement (HKEX)",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0325/2026032500813.pdf"
+    }
+   ]
+  },
+  "manulife": {
+   "name": "Manulife Financial",
+   "short": "Manulife",
+   "region": "Canada & Asia",
+   "hq": "Toronto",
+   "listing": "TSX/NYSE MFC, HKEX 945",
+   "fy": "FY2025",
+   "india_link": "Proposed life insurance joint venture with Mahindra in India.",
+   "values": {
+    "nbv_usd_m": {
+     "v": 2579.8,
+     "p": "FY2025",
+     "local": "C$3,533 m"
+    },
+    "nbv_growth_pct": {
+     "v": 18,
+     "p": "FY2025"
+    },
+    "profit_usd_m": {
+     "v": 5491.8,
+     "p": "FY2025",
+     "local": "Core earnings C$7,521 m"
+    },
+    "profit_growth_pct": {
+     "v": 3,
+     "p": "FY2025",
+     "note": "constant exchange rates"
+    },
+    "roe_pct": {
+     "v": 16.5,
+     "p": "FY2025",
+     "local": "Core ROE"
+    },
+    "solvency_pct": {
+     "v": 136,
+     "p": "31 Dec 2025",
+     "local": "LICAT"
+    }
+   },
+   "highlights": [
+    "APE sales C$9.7 bn (+14%); new business CSM +28%.",
+    "Asia core earnings +18%, Asia NBV +20%."
+   ],
+   "sources": [
+    {
+     "title": "Manulife Q4 2025 press release",
+     "url": "https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_QPR_2025_Q4_EN.pdf"
+    }
+   ]
+  },
+  "sunlife": {
+   "name": "Sun Life Financial",
+   "short": "Sun Life",
+   "region": "Canada & Asia",
+   "hq": "Toronto",
+   "listing": "TSX/NYSE SLF",
+   "fy": "FY2025",
+   "india_link": "Joint-venture partner in Aditya Birla Sun Life Insurance (51:49 with the Aditya Birla Group).",
+   "values": {
+    "solvency_pct": {
+     "v": 157,
+     "p": "31 Dec 2025",
+     "local": "LICAT"
+    }
+   },
+   "highlights": [
+    "Q4 2025 underlying net income C$1,094 m (+13%); AUM C$1,605 bn. Full-year new business value not yet captured."
+   ],
+   "sources": [
+    {
+     "title": "Insurance Business: Sun Life Q4 2025",
+     "url": "https://www.insurancebusinessmag.com/asia/news/life-insurance/sun-life-posts-200basispoint-victory-over-closest-competitor-565129.aspx"
+    }
+   ]
+  },
+  "greateastern": {
+   "name": "Great Eastern Holdings",
+   "short": "Great Eastern",
+   "region": "Singapore & Malaysia",
+   "hq": "Singapore",
+   "listing": "SGX G07",
+   "fy": "FY2025",
+   "values": {
+    "nbv_margin_pct": {
+     "v": 48.2,
+     "p": "FY2025",
+     "local": "NBEV / total weighted new sales",
+     "note": "computed"
+    },
+    "nbv_usd_m": {
+     "v": 576.1,
+     "p": "FY2025",
+     "local": "NBEV S$739.7 m"
+    },
+    "nbv_growth_pct": {
+     "v": 19,
+     "p": "FY2025"
+    },
+    "profit_usd_m": {
+     "v": 940.2,
+     "p": "FY2025",
+     "local": "Profit attributable S$1,207.1 m"
+    },
+    "profit_growth_pct": {
+     "v": 21,
+     "p": "FY2025"
+    }
+   },
+   "highlights": [
+    "Weighted new sales -15% after a deliberate shift away from short-term single premium; NBEV +19%."
+   ],
+   "sources": [
+    {
+     "title": "Great Eastern FY2025 media release (SGX)",
+     "url": "https://links.sgx.com/1.0.0/corporate-announcements/CZ8U29FXNHYK9SE7/875678_20260224%20GEH%20Media%20Release.pdf"
+    }
+   ]
+  },
+  "daiichi": {
+   "name": "Dai-ichi Life Group",
+   "short": "Dai-ichi",
+   "region": "Japan",
+   "hq": "Tokyo",
+   "listing": "TSE 8750",
+   "fy": "FY to Mar 2026",
+   "india_link": "Shareholder in Star Union Dai-ichi Life with Bank of India and Union Bank of India.",
+   "values": {},
+   "highlights": [
+    "Premiums and other income ¥6.944 trillion (+2.1%), helped by Dai-ichi Frontier Life sales. New business value and ESR not yet captured."
+   ],
+   "sources": [
+    {
+     "title": "Tiger Brokers: Dai-ichi Life fiscal 2025",
+     "url": "https://www.itiger.com/news/2635080124"
+    }
+   ]
+  },
+  "nippon": {
+   "name": "Nippon Life Insurance",
+   "short": "Nippon Life",
+   "region": "Japan",
+   "hq": "Osaka",
+   "listing": "Mutual (unlisted)",
+   "fy": "FY to Mar 2026",
+   "india_link": "Partner in IndusInd Nippon Life (formerly Reliance Nippon Life).",
+   "values": {},
+   "highlights": [
+    "Annualised new policy premiums ¥272.9 bn (+16.7%); in-force annualised premiums ¥3,691 bn (-0.3%); profit fell on securities losses."
+   ],
+   "sources": [
+    {
+     "title": "Insurance Business: Nippon Life results",
+     "url": "https://www.insurancebusinessmag.com/asia/news/life-insurance/nippon-life-posts-steep-profit-drop-on-back-of-securities-sales-losses-576783.aspx"
+    }
+   ]
+  },
+  "metlife": {
+   "name": "MetLife",
+   "short": "MetLife",
+   "region": "US & global",
+   "hq": "New York",
+   "listing": "NYSE MET",
+   "fy": "FY2025",
+   "india_link": "Shareholder in PNB MetLife India with Punjab National Bank.",
+   "values": {
+    "profit_usd_m": {
+     "v": 5943,
+     "p": "FY2025",
+     "local": "Adjusted earnings"
+    },
+    "profit_growth_pct": {
+     "v": 3,
+     "p": "FY2025"
+    },
+    "roe_pct": {
+     "v": 16,
+     "p": "FY2025",
+     "local": "Adjusted ROE"
+    }
+   },
+   "highlights": [
+    "Premiums, fees and other revenues US$57.6 bn (+10%); adjusted EPS excluding notable items +10%."
+   ],
+   "sources": [
+    {
+     "title": "MetLife 4Q25 earnings release",
+     "url": "https://s201.q4cdn.com/280976757/files/2025-4Q/MET_4Q25_Earnings-Release-FINAL_v2.pdf"
+    }
+   ]
+  },
+  "axa": {
+   "name": "AXA",
+   "short": "AXA",
+   "region": "Europe & global",
+   "hq": "Paris",
+   "listing": "Euronext CS",
+   "fy": "FY2025",
+   "india_link": "Former partner in Bharti AXA Life (now Bharti Life).",
+   "values": {
+    "profit_usd_m": {
+     "v": 9867.5,
+     "p": "FY2025",
+     "local": "Underlying earnings €8.4 bn",
+     "note": "whole group incl. P&C"
+    },
+    "profit_growth_pct": {
+     "v": 6,
+     "p": "FY2025"
+    },
+    "solvency_pct": {
+     "v": 224,
+     "p": "31 Dec 2025",
+     "local": "Solvency II"
+    }
+   },
+   "highlights": [
+    "Gross written premiums and other revenues €116 bn (+6%)."
+   ],
+   "sources": [
+    {
+     "title": "AXA full year 2025 earnings",
+     "url": "https://www.axa.com/press/press-releases/2025-full-year-earnings"
+    }
+   ]
+  },
+  "generali": {
+   "name": "Generali",
+   "short": "Generali",
+   "region": "Europe",
+   "hq": "Trieste",
+   "listing": "Euronext Milan G",
+   "fy": "FY2025",
+   "india_link": "Partner in Generali Central Life with Central Bank of India.",
+   "values": {
+    "nbv_usd_m": {
+     "v": 3641.6,
+     "p": "FY2025",
+     "local": "Life NBV €3.1 bn"
+    },
+    "nbv_growth_pct": {
+     "v": 6.2,
+     "p": "FY2025"
+    },
+    "profit_usd_m": {
+     "v": 5051.2,
+     "p": "FY2025",
+     "local": "Adjusted net result €4.3 bn",
+     "note": "whole group incl. P&C"
+    },
+    "profit_growth_pct": {
+     "v": 14.5,
+     "p": "FY2025"
+    },
+    "solvency_pct": {
+     "v": 219,
+     "p": "31 Dec 2025",
+     "local": "Solvency II"
+    }
+   },
+   "highlights": [
+    "Strategy 'Lifetime Partner 27: Driving Excellence'; life net inflows €13.5 bn; GWP €98.1 bn."
+   ],
+   "sources": [
+    {
+     "title": "Generali consolidated results 2025",
+     "url": "https://www.generali.com/info/discovering-generali/all/2026/Consolidated-Results-as-of-31-December-2025"
+    }
+   ]
+  },
+  "in_lic": {
+   "name": "LIC",
+   "short": "LIC",
+   "india": "lic",
+   "values": {
+    "nbv_margin_pct": {
+     "v": 21.2,
+     "p": "FY2025-26"
+    },
+    "profit_usd_m": {
+     "v": 6142.1,
+     "p": "FY2025-26",
+     "local": "PAT Rs 57,419 cr"
+    },
+    "solvency_pct": {
+     "v": 235,
+     "p": "31 Mar 2026",
+     "local": "IRDAI"
+    }
+   }
+  },
+  "in_sbi": {
+   "name": "SBI Life",
+   "short": "SBI Life",
+   "india": "sbi",
+   "values": {
+    "nbv_margin_pct": {
+     "v": 27.9,
+     "p": "H1 FY2026-27"
+    },
+    "nbv_usd_m": {
+     "v": 349.8,
+     "p": "H1 FY2026-27",
+     "local": "VoNB Rs 32.7 bn (half year)"
+    },
+    "nbv_growth_pct": {
+     "v": 19,
+     "p": "H1 FY2026-27"
+    },
+    "profit_usd_m": {
+     "v": 264.2,
+     "p": "FY2025-26",
+     "local": "PAT Rs 2,470 cr"
+    },
+    "roe_pct": {
+     "v": 18.8,
+     "p": "H1 FY2026-27",
+     "local": "Operating RoEV"
+    },
+    "solvency_pct": {
+     "v": 197,
+     "p": "30 Sep 2026",
+     "local": "IRDAI"
+    }
+   }
+  },
+  "in_hdfc": {
+   "name": "HDFC Life",
+   "short": "HDFC Life",
+   "india": "hdfc",
+   "values": {
+    "nbv_margin_pct": {
+     "v": 24.5,
+     "p": "FY2025-26"
+    },
+    "nbv_usd_m": {
+     "v": 431.1,
+     "p": "FY2025-26",
+     "local": "VNB Rs 40.3 bn"
+    },
+    "nbv_growth_pct": {
+     "v": 1.8,
+     "p": "FY2025-26",
+     "note": "computed from VNB Rs 39.6 bn to 40.3 bn"
+    },
+    "profit_usd_m": {
+     "v": 204.3,
+     "p": "FY2025-26",
+     "local": "PAT Rs 1,910 cr"
+    },
+    "solvency_pct": {
+     "v": 180,
+     "p": "30 Sep 2026",
+     "local": "IRDAI"
+    }
+   }
+  },
+  "in_icici": {
+   "name": "ICICI Life",
+   "short": "ICICI Life",
+   "india": "icici",
+   "values": {
+    "nbv_margin_pct": {
+     "v": 26.0,
+     "p": "H1 FY2026-27"
+    },
+    "profit_usd_m": {
+     "v": 171.2,
+     "p": "FY2025-26",
+     "local": "PAT Rs 1,600 cr"
+    },
+    "solvency_pct": {
+     "v": 229.9,
+     "p": "30 Sep 2026",
+     "local": "IRDAI"
+    }
+   }
+  },
+  "in_axismax": {
+   "name": "Axis Max Life",
+   "short": "Axis Max Life",
+   "india": "axismax",
+   "values": {
+    "nbv_margin_pct": {
+     "v": 25.4,
+     "p": "H1 FY2026-27"
+    },
+    "solvency_pct": {
+     "v": 197,
+     "p": "30 Sep 2026",
+     "local": "IRDAI"
+    }
+   }
+  },
+  "in_bajaj": {
+   "name": "Bajaj Life Insurance",
+   "short": "Bajaj Life",
+   "india": "bajaj",
+   "values": {
+    "nbv_margin_pct": {
+     "v": 19.2,
+     "p": "FY2025-26",
+     "local": "New business margin"
+    },
+    "nbv_usd_m": {
+     "v": 172,
+     "p": "FY2025-26",
+     "local": "VNB US$172 m as reported by Bajaj Finserv"
+    },
+    "roe_pct": {
+     "v": 14.1,
+     "p": "FY2025-26",
+     "local": "Return on EV"
+    }
+   }
+  },
+  "in_canarahsbc": {
+   "name": "Canara HSBC Life",
+   "short": "Canara HSBC Life",
+   "india": "canarahsbc",
+   "values": {
+    "nbv_margin_pct": {
+     "v": 22.4,
+     "p": "FY2025-26"
+    },
+    "profit_usd_m": {
+     "v": 13.5,
+     "p": "FY2025-26",
+     "local": "PAT Rs 126.6 cr"
+    },
+    "solvency_pct": {
+     "v": 190,
+     "p": "31 Mar 2026",
+     "local": "IRDAI"
+    }
+   }
+  }
+ }
+}

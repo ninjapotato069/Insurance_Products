@@ -261,6 +261,44 @@ def main():
         if ra.get("opex") and pif_n and pif_n > 10000:
             put("opex_per_policy_inr", cid, ra["opex"] * 1e5 / pif_n, hper, S, nd=0)
 
+
+    # ---------- state-level network ----------
+    stsrc = latest_source("irdai_states")
+    NET = None
+    if stsrc:
+        sfy = stsrc["fy"]; sprev = f"{int(sfy[:4]) - 1}-{sfy[2:4]}"; s5 = f"{int(sfy[:4]) - 5}-{str(int(sfy[:4]) - 4)[2:]}"
+        sper = fy_label(sfy)
+        ind_tot = {st: x.get("premium_cr", {}) for st, x in stsrc["industry"].items()}
+        NET = {"fy": sfy, "prev": sprev, "source": stsrc["source"], "regions": stsrc["regions"], "region_of": stsrc["region_of"],
+               "industry": {st: {"premium_cr": r(x.get("premium_cr", {}).get(sfy)), "premium_prev_cr": r(x.get("premium_cr", {}).get(sprev)),
+                                 "policies": x.get("policies", {}).get(sfy), "premium_hist": {k: r(v) for k, v in x.get("premium_cr", {}).items()}}
+                            for st, x in stsrc["industry"].items()},
+               "companies": {}}
+        for cid, c in stsrc["companies"].items():
+            offs = c.get("offices", {}); prem = c.get("ind_premium_cr", {}); pol = c.get("ind_policies", {}); grp = c.get("grp_premium_cr", {})
+            states = sorted(set(offs) | set(prem) | set(grp))
+            rows = {}
+            for st in states:
+                o = offs.get(st, {}); p_ = prem.get(st, {})
+                it = (ind_tot.get(st) or {})
+                sh = div(p_.get(sfy), it.get(sfy), 100); shp = div(p_.get(sprev), it.get(sprev), 100)
+                rows[st] = {"offices": o.get(sfy), "offices_5y": o.get(s5), "ind_premium_cr": r(p_.get(sfy)), "ind_premium_prev_cr": r(p_.get(sprev)),
+                            "ind_policies": (pol.get(st) or {}).get(sfy), "grp_premium_cr": r(grp.get(st)), "share_pct": r(sh, 3), "share_prev_pct": r(shp, 3)}
+            NET["companies"][cid] = {"states": rows, "office_mix": c.get("office_mix")}
+            tot_off = sum((x["offices"] or 0) for x in rows.values()); tot5 = sum((x["offices_5y"] or 0) for x in rows.values())
+            put("office_states", cid, sum(1 for x in rows.values() if (x["offices"] or 0) > 0), f"31 Mar {int(sfy[:4]) + 1}", S, nd=0)
+            if tot5 >= 5:
+                put("offices_growth_5y_pct", cid, (tot_off / tot5 - 1) * 100, f"Mar {int(s5[:4]) + 1} to Mar {int(sfy[:4]) + 1}", S, nd=1)
+            mix = c.get("office_mix") or {}
+            cl = sum(v for k, v in mix.items() if k != "Unclassified")
+            if cl >= 5:
+                put("rural_semiurban_office_pct", cid, ((mix.get("Semi Urban") or 0) + (mix.get("Rural") or 0)) / cl * 100, f"31 Mar {int(sfy[:4]) + 1}", S, nd=1)
+            ip = sum((x["ind_premium_cr"] or 0) for x in rows.values())
+            if tot_off and ip:
+                put("ind_premium_per_office_cr", cid, ip / tot_off, sper, S)
+            if ip > 1:
+                put("state_share_gain_states", cid, sum(1 for x in rows.values() if x["share_pct"] is not None and x["share_prev_pct"] is not None and x["share_pct"] > x["share_prev_pct"] and (x["ind_premium_cr"] or 0) > 0.5), sper, S, nd=0)
+
     # ---------- IRDAI annual report ----------
     for cid, a in ar.items():
         aper = fy_label(arsrc.get("fy"))
@@ -481,7 +519,7 @@ def main():
         "values": V, "scores": SC, "stats": STATS, "pillar_scores": PS, "index": INDEX, "series": SER, "profiles": PROF,
         "strategy": strategy.get("companies", {}),
         "strategy_meta": {k: v for k, v in strategy.items() if k != "companies"},
-        "news": news_out, "news_updated": news.get("updated"),
+        "news": news_out, "news_updated": news.get("updated"), "network": NET, "global": jload(B / "global.json"),
         "digital": {"updated": digital.get("updated"), "signals": digital.get("signals"),
                     "companies": {cid: {k: w.get(k) for k in ("signals", "score", "readable", "social", "checked_on", "status", "note")} for cid, w in digital.get("companies", {}).items()}},
         "market": {cid: {k: v for k, v in (mk or {}).items()} for cid, mk in market.get("companies", {}).items()},
