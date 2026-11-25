@@ -31,8 +31,8 @@
    "https": true,
    "html_kb": 1616,
    "status": 200,
-   "load_seconds": 2.21,
-   "checked_on": "2026-11-24"
+   "load_seconds": 2.06,
+   "checked_on": "2026-11-25"
   },
   "creditaccess": {
    "url": "https://www.creditaccesslife.in/",
@@ -64,8 +64,8 @@
    "https": true,
    "html_kb": 128,
    "status": 200,
-   "load_seconds": 1.32,
-   "checked_on": "2026-11-24"
+   "load_seconds": 1.21,
+   "checked_on": "2026-11-25"
   },
   "bajaj": {
    "url": "https://www.bajajlifeinsurance.com/",
@@ -96,15 +96,15 @@
     "youtube"
    ],
    "https": true,
-   "html_kb": 932,
+   "html_kb": 933,
    "status": 200,
-   "load_seconds": 1.28,
-   "checked_on": "2026-11-24"
+   "load_seconds": 0.11,
+   "checked_on": "2026-11-25"
   },
   "lic": {
    "url": "https://licindia.in/",
    "readable": true,
-   "text_chars": 9895,
+   "text_chars": 9889,
    "links": 254,
    "signals": {
     "whatsapp": false,
@@ -130,10 +130,10 @@
     "youtube"
    ],
    "https": true,
-   "html_kb": 325,
+   "html_kb": 335,
    "status": 200,
-   "load_seconds": 0.31,
-   "checked_on": "2026-11-24"
+   "load_seconds": 0.26,
+   "checked_on": "2026-11-25"
   },
   "tataaia": {
    "url": "https://www.tataaia.com/",
@@ -166,8 +166,8 @@
    "https": true,
    "html_kb": 926,
    "status": 200,
-   "load_seconds": 0.36,
-   "checked_on": "2026-11-24"
+   "load_seconds": 0.18,
+   "checked_on": "2026-11-25"
   },
   "indiafirst": {
    "url": "https://www.indiafirstlife.com/",
@@ -200,8 +200,8 @@
    "https": true,
    "html_kb": 1395,
    "status": 200,
-   "load_seconds": 1.99,
-   "checked_on": "2026-11-24"
+   "load_seconds": 1.7,
+   "checked_on": "2026-11-25"
   },
   "generalicentral": {
    "url": "https://www.generalicentrallife.com/",
@@ -232,16 +232,16 @@
     "youtube"
    ],
    "https": true,
-   "html_kb": 182,
+   "html_kb": 179,
    "status": 200,
-   "load_seconds": 0.3,
-   "checked_on": "2026-11-24"
+   "load_seconds": 0.1,
+   "checked_on": "2026-11-25"
   },
   "hdfc": {
    "url": "https://www.hdfclife.com/",
    "readable": true,
-   "text_chars": 92380,
-   "links": 1093,
+   "text_chars": 92573,
+   "links": 1094,
    "signals": {
     "whatsapp": true,
     "chatbot": false,
@@ -266,15 +266,15 @@
     "youtube"
    ],
    "https": true,
-   "html_kb": 1480,
+   "html_kb": 1481,
    "status": 200,
-   "load_seconds": 0.19,
-   "checked_on": "2026-11-24"
+   "load_seconds": 0.06,
+   "checked_on": "2026-11-25"
   },
   "pramerica": {
    "url": "https://pramericalife.in/",
    "readable": true,
-   "text_chars": 32826,
+   "text_chars": 32827,
    "links": 304,
    "signals": {
     "whatsapp": true,
@@ -302,8 +302,8 @@
    "https": true,
    "html_kb": 290,
    "status": 200,
-   "load_seconds": 4.21,
-   "checked_on": "2026-11-24"
+   "load_seconds": 3.26,
+   "checked_on": "2026-11-25"
   },
   "pnbmetlife": {
    "url": "https://www.pnbmetlife.com/",
@@ -336,8 +336,8 @@
    "https": true,
    "html_kb": 459,
    "status": 200,
-   "load_seconds": 0.28,
-   "checked_on": "2026-11-24"
+   "load_seconds": 0.13,
+   "checked_on": "2026-11-25"
   },
   "indiapost": {
    "url": "https://pli.indiapost.gov.in",
@@ -363,7 +363,7 @@
    "social": [],
    "https": true,
    "html_kb": 0,
-   "checked_on": "2026-11-24",
+   "checked_on": "2026-11-25",
    "status": 200,
    "note": "page returned HTTP 200; earlier signals kept"
   },
@@ -398,8 +398,8 @@
    "https": true,
    "html_kb": 937,
    "status": 200,
-   "load_seconds": 0.75,
-   "checked_on": "2026-11-24"
+   "load_seconds": 0.61,
+   "checked_on": "2026-11-25"
   },
   "bandhan": {
    "url": "https://www.bandhanlife.com/",
@@ -432,14 +432,14 @@
    "https": true,
    "html_kb": 538,
    "status": 200,
-   "load_seconds": 1.81,
-   "checked_on": "2026-11-24"
+   "load_seconds": 1.97,
+   "checked_on": "2026-11-25"
   },
   "acko": {
    "url": "https://www.acko.com/life-insurance/",
    "readable": true,
-   "text_chars": 38027,
-   "links": 156,
+   "text_chars": 38055,
+   "links": 157,
    "signals": {
     "whatsapp": false,
     "chatbot": false,
@@ -466,8 +466,8 @@
    "https": true,
    "html_kb": 678,
    "status": 200,
-   "load_seconds": 0.87,
-   "checked_on": "2026-11-24"
+   "load_seconds": 1.42,
+   "checked_on": "2026-11-25"
   },
   "absli": {
    "url": "https://lifeinsurance.adityabirlacapital.com/",
@@ -500,8 +500,8 @@
    "https": true,
    "html_kb": 398,
    "status": 200,
-   "load_seconds": 1.76,
-   "checked_on": "2026-11-24"
+   "load_seconds": 2.12,
+   "checked_on": "2026-11-25"
   },
   "indusindnippon": {
    "url": "https://www.indusindnipponlife.com/",
@@ -534,8 +534,8 @@
    "https": true,
    "html_kb": 1100,
    "status": 200,
-   "load_seconds": 1.18,
-   "checked_on": "2026-11-24"
+   "load_seconds": 1.37,
+   "checked_on": "2026-11-25"
   },
   "aviva": {
    "url": "https://www.avivaindia.com/",
@@ -568,8 +568,8 @@
    "https": true,
    "html_kb": 310,
    "status": 200,
-   "load_seconds": 1.85,
-   "checked_on": "2026-11-24"
+   "load_seconds": 2.09,
+   "checked_on": "2026-11-25"
   },
   "ageasfederal": {
    "url": "https://www.ageasfederal.com/",
@@ -602,8 +602,8 @@
    "https": true,
    "html_kb": 1017,
    "status": 200,
-   "load_seconds": 1.81,
-   "checked_on": "2026-11-24"
+   "load_seconds": 1.62,
+   "checked_on": "2026-11-25"
   },
   "bharti": {
    "url": "https://www.bhartiaxa.com/",
@@ -632,8 +632,8 @@
    "https": true,
    "html_kb": 200,
    "status": 200,
-   "load_seconds": 1.56,
-   "checked_on": "2026-11-24"
+   "load_seconds": 1.46,
+   "checked_on": "2026-11-25"
   },
   "shriram": {
    "url": "https://www.shriramlife.com/",
@@ -666,8 +666,8 @@
    "https": true,
    "html_kb": 650,
    "status": 200,
-   "load_seconds": 1.58,
-   "checked_on": "2026-11-24"
+   "load_seconds": 1.39,
+   "checked_on": "2026-11-25"
   },
   "edelweiss": {
    "url": "https://www.edelweisslife.in/",
@@ -699,41 +699,41 @@
    "https": true,
    "html_kb": 377,
    "status": 200,
-   "load_seconds": 1.59,
-   "checked_on": "2026-11-24"
+   "load_seconds": 1.88,
+   "checked_on": "2026-11-25"
   },
   "canarahsbc": {
    "status": 403,
    "readable": false,
-   "checked_on": "2026-11-24",
+   "checked_on": "2026-11-25",
    "note": "page returned HTTP 403"
   },
   "godigit": {
    "status": 403,
    "readable": false,
-   "checked_on": "2026-11-24",
+   "checked_on": "2026-11-25",
    "note": "page returned HTTP 403"
   },
   "icici": {
    "status": 403,
    "readable": false,
-   "checked_on": "2026-11-24",
+   "checked_on": "2026-11-25",
    "note": "page returned HTTP 403"
   },
   "kotak": {
    "status": 202,
    "readable": false,
-   "checked_on": "2026-11-24",
+   "checked_on": "2026-11-25",
    "note": "page returned HTTP 202"
   },
   "sud": {
    "status": 403,
    "readable": false,
-   "checked_on": "2026-11-24",
+   "checked_on": "2026-11-25",
    "note": "page returned HTTP 403"
   }
  },
- "updated": "2026-11-24",
+ "updated": "2026-11-25",
  "signals": [
   {
    "key": "whatsapp",
