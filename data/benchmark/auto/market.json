@@ -3,12 +3,12 @@
   "hdfc": {
    "symbol": "HDFCLIFE.NS",
    "currency": "INR",
-   "close": 600.3,
-   "as_of": "2026-11-25",
-   "chg_1d_pct": 4.41,
-   "ret_1m_pct": 15.66,
-   "ret_1y_pct": -21.69,
-   "ret_ytd_pct": -19.97,
+   "close": 598.75,
+   "as_of": "2026-11-26",
+   "chg_1d_pct": -0.42,
+   "ret_1m_pct": 16.58,
+   "ret_1y_pct": -23.97,
+   "ret_ytd_pct": -20.18,
    "high_52w": 787.55,
    "low_52w": 513.6,
    "weekly": [
@@ -249,8 +249,8 @@
      588.65
     ],
     [
-     "2026-11-25",
-     600.3
+     "2026-11-26",
+     598.75
     ]
    ],
    "entity": "HDFC Life Insurance Company Ltd",
@@ -259,12 +259,12 @@
   "lic": {
    "symbol": "LICI.NS",
    "currency": "INR",
-   "close": 406.85,
-   "as_of": "2026-11-25",
-   "chg_1d_pct": -0.11,
-   "ret_1m_pct": 6.8,
-   "ret_1y_pct": -9.35,
-   "ret_ytd_pct": -4.58,
+   "close": 410.35,
+   "as_of": "2026-11-26",
+   "chg_1d_pct": 0.49,
+   "ret_1m_pct": 5.84,
+   "ret_1y_pct": -8.28,
+   "ret_ytd_pct": -3.76,
    "high_52w": 450.92,
    "low_52w": 362.83,
    "weekly": [
@@ -505,8 +505,8 @@
      410.7
     ],
     [
-     "2026-11-25",
-     406.85
+     "2026-11-26",
+     410.35
     ]
    ],
    "entity": "Life Insurance Corporation of India",
@@ -515,12 +515,12 @@
   "sbi": {
    "symbol": "SBILIFE.NS",
    "currency": "INR",
-   "close": 1826.1,
-   "as_of": "2026-11-25",
-   "chg_1d_pct": 1.17,
-   "ret_1m_pct": 11.1,
-   "ret_1y_pct": -10.09,
-   "ret_ytd_pct": -10.5,
+   "close": 1844.6,
+   "as_of": "2026-11-26",
+   "chg_1d_pct": 1.13,
+   "ret_1m_pct": 12.96,
+   "ret_1y_pct": -9.09,
+   "ret_ytd_pct": -9.6,
    "high_52w": 2109.6,
    "low_52w": 1633.0,
    "weekly": [
@@ -761,8 +761,8 @@
      1826.5
     ],
     [
-     "2026-11-25",
-     1826.1
+     "2026-11-26",
+     1844.6
     ]
    ],
    "entity": "SBI Life Insurance Company Ltd",
@@ -771,12 +771,12 @@
   "icici": {
    "symbol": "ICICIPRULI.NS",
    "currency": "INR",
-   "close": 465.0,
-   "as_of": "2026-11-23",
-   "chg_1d_pct": 0.65,
-   "ret_1m_pct": 12.5,
-   "ret_1y_pct": -6.47,
-   "ret_ytd_pct": -6.47,
+   "close": 474.0,
+   "as_of": "2026-11-25",
+   "chg_1d_pct": 1.94,
+   "ret_1m_pct": 14.67,
+   "ret_1y_pct": -4.66,
+   "ret_ytd_pct": -4.66,
    "high_52w": 522.35,
    "low_52w": 407.0,
    "weekly": [
@@ -857,8 +857,8 @@
      462.0
     ],
     [
-     "2026-11-23",
-     465.0
+     "2026-11-25",
+     474.0
     ]
    ],
    "entity": "ICICI Life Insurance Ltd (formerly ICICI Prudential Life)",
@@ -867,12 +867,12 @@
   "canarahsbc": {
    "symbol": "CANHLIFE.NS",
    "currency": "INR",
-   "close": 131.32,
-   "as_of": "2026-11-25",
-   "chg_1d_pct": 5.46,
-   "ret_1m_pct": 7.73,
-   "ret_1y_pct": 6.92,
-   "ret_ytd_pct": -10.35,
+   "close": 135.6,
+   "as_of": "2026-11-26",
+   "chg_1d_pct": 1.99,
+   "ret_1m_pct": 11.31,
+   "ret_1y_pct": 8.48,
+   "ret_ytd_pct": -7.43,
    "high_52w": 157.23,
    "low_52w": 118.84,
    "weekly": [
@@ -1109,8 +1109,8 @@
      127.32
     ],
     [
-     "2026-11-25",
-     131.32
+     "2026-11-26",
+     135.6
     ]
    ],
    "entity": "Canara HSBC Life Insurance Company Ltd",
@@ -1119,12 +1119,12 @@
   "axismax": {
    "symbol": "MFSL.NS",
    "currency": "INR",
-   "close": 1453.0,
-   "as_of": "2026-11-25",
-   "chg_1d_pct": 1.47,
-   "ret_1m_pct": 17.17,
-   "ret_1y_pct": -14.42,
-   "ret_ytd_pct": -13.2,
+   "close": 1459.6,
+   "as_of": "2026-11-26",
+   "chg_1d_pct": 1.08,
+   "ret_1m_pct": 18.54,
+   "ret_1y_pct": -15.96,
+   "ret_ytd_pct": -12.81,
    "high_52w": 1870.0,
    "low_52w": 1176.7,
    "weekly": [
@@ -1365,14 +1365,14 @@
      1435.1
     ],
     [
-     "2026-11-25",
-     1453.0
+     "2026-11-26",
+     1459.6
     ]
    ],
    "entity": "Max Financial Services Ltd (holding company of Axis Max Life)",
    "pure_play": false
   }
  },
- "updated": "2026-11-25",
+ "updated": "2026-11-26",
  "source": "Yahoo Finance chart API (NSE prices); share counts from data/benchmark/listed.json"
 }
