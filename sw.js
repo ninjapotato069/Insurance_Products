@@ -1,6 +1,6 @@
 // Service worker: network first for the app and its data (so every visit gets the latest daily build),
 // cached copy when offline; fonts cache first.
-const VERSION = "lib-e1d8cb84e3";
+const VERSION = "lib-06b8102ffc";
 const SHELL = ["./", "index.html", "manifest.webmanifest", "icons/icon-192.png", "icons/icon-512.png"];
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(VERSION).then(c => c.addAll(SHELL)).then(() => self.skipWaiting()));
