@@ -75,8 +75,11 @@ No WebFetch here: download pages/PDFs with the `fetch-sources.yml` workflow (inp
 `git fetch origin raw-sources` and parse locally (`pdftotext -layout`). For each insurer:
 - `data/benchmark/strategy.json`: purpose, strategic pillars, stated targets, key facts and footprint from the latest
   investor presentation / annual report / about page (status `deep` when pillars and targets are filled). Paraphrase.
-- `data/benchmark/research.json`: KPIs with no automatic source (employees, attrition, women in workforce, IRDAI
-  penalties in 3 years, independent directors, investment yield, NPA, ad spend) with period and URL.
+- `data/benchmark/research.json`: KPIs with no automatic source, with period and URL: HR (employees, attrition, women
+  in workforce), governance (IRDAI penalties in 3 years, independent directors, CEO tenure), investments (L-34 yield,
+  L-33 NPA), marketing (ad spend), and operations items insurers disclose unevenly: agency 13M persistency, active
+  agents, issuance TAT, free-look cancellations, non-medical limits, medical share, declines, auto-debit share of
+  renewals, maturity payout TAT (L-39), unclaimed amounts. Department definitions: `data/benchmark/framework.json`.
 When IRDAI publishes a new Handbook or Annual Report (usually Dec-Feb), fetch it and rerun
 `scripts/parse_irdai_handbook.py <folder> <FY> <url>` / `scripts/parse_irdai_annual.py <txt> <FY> <url>`.
 Also rerun `scripts/parse_irdai_states.py <folder> <FY> <url>` (state-level offices and business, Network tab).

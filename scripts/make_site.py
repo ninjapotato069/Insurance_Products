@@ -19,7 +19,7 @@ MARK = "<!-- BODY -->"
 APP = {
     "name": "Life Insurance Benchmark (India)",
     "short_name": "Life Benchmark",
-    "description": "Every Indian life insurer benchmarked across 15 departments, with products, claims, ratings, ownership, strategy and news. Refreshed daily.",
+    "description": "Every Indian life insurer benchmarked across 20 departments, with products, claims, ratings, ownership, strategy and news. Refreshed daily.",
     "start_url": "./#benchmark",
     "scope": "./",
     "display": "standalone",

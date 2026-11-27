@@ -353,6 +353,105 @@
     "2024": 4423579.63,
     "2025": 4799949.3502
    },
+   "aum_mix": {
+    "2022": {
+     "life": {
+      "Central Government Securities": 1144537.1694401,
+      "State Government & Other Approved Securities": 586336.4703698,
+      "Housing & Infrastructure Investments": 214463.1611499,
+      "Approved Investments": 557603.2386076,
+      "Other Investments": 142978.497439,
+      "Total (Life Fund)": 2645918.5370063996
+     },
+     "pension_group": {
+      "Central Government Securities": 392373.5767487,
+      "State Govt & Other Approved Securities": 405632.9181403,
+      "Approved Investments": 211750.0925264,
+      "Total (Pension & General Annuity & Group Fund)": 1009756.5874154
+     },
+     "ulip": {
+      "Approved Investments": 23101.28,
+      "Other Investments": 698.56,
+      "Total (ULIP Funds)": 23799.84
+     }
+    },
+    "2023": {
+     "life": {
+      "Central Government Securities": 1271063.5237613,
+      "State Government & Other Approved Securities": 602679.0653001,
+      "Housing & Infrastructure Investments": 215210.2183283,
+      "Approved Investments": 645442.4177573,
+      "Other Investments": 127204.8815178,
+      "Total (Life Fund)": 2861600.1066648
+     },
+     "pension_group": {
+      "Central Government Securities": 473237.80855,
+      "State Govt & Other Approved Securities": 454229.4324275,
+      "Approved Investments": 228408.2448487,
+      "Total (Pension & General Annuity & Group Fund)": 1155875.4858262
+     },
+     "ulip": {
+      "Approved Investments": 25419.0603072,
+      "Other Investments": 760.8587769,
+      "Total (ULIP Funds)": 26179.9190841
+     }
+    },
+    "2024": {
+     "life": {
+      "Central Government Securities": 1377418.0,
+      "State Government & Other Approved Securities": 663690.0,
+      "Housing & Infrastructure Investments": 243610.0,
+      "Approved Investments": 761159.76,
+      "Other Investments": 83637.03,
+      "Total (Life Fund)": 3129514.79
+     },
+     "pension_group": {
+      "Central Government Securities": 526422.68,
+      "State Govt & Other Approved Securities": 495529.31999999995,
+      "Approved Investments": 237073.12,
+      "Total (Pension & General Annuity & Group Fund)": 1259025.12
+     },
+     "ulip": {
+      "Approved Investments": 34435.96,
+      "Other Investments": 603.76,
+      "Total (ULIP Funds)": 35039.72
+     }
+    },
+    "2025": {
+     "life": {
+      "Central Government Securities": 1449611.3924635,
+      "State Government & Other Approved Securities": 683625.4587661999,
+      "Housing & Infrastructure Investments": 312932.1903612,
+      "Approved Investments": 897548.3972458,
+      "Other Investments": 40872.541445,
+      "Total (Life Fund)": 3384589.9802817
+     },
+     "pension_group": {
+      "Central Government Securities": 565188.6498679,
+      "State Govt & Other Approved Securities": 528902.7196125,
+      "Approved Investments": 273812.3466219,
+      "Total (Pension & General Annuity & Group Fund)": 1367903.7161023
+     },
+     "ulip": {
+      "Approved Investments": 47390.2869681,
+      "Other Investments": 65.3668047,
+      "Total (ULIP Funds)": 47455.653772800004
+     }
+    }
+   },
+   "equity_capital_cr": {
+    "2015": 100.0,
+    "2016": 100.0,
+    "2017": 100.0,
+    "2018": 100.0,
+    "2019": 100.0,
+    "2020": 100.0,
+    "2021": 100.0,
+    "2022": 6324.9977,
+    "2023": 6325.0,
+    "2024": 6325.0,
+    "2025": 6324.9977
+   },
    "solvency": {
     "June 2015": 1.5181,
     "September 2015": 1.5621,
@@ -399,6 +498,7 @@
     "2015-16": {
      "premium": 26644420.56,
      "ri_ceded": -21882.199999999997,
+     "inv_income": 15133826.739999998,
      "commission": 1547716.5799999998,
      "opex": 2269182.9999999995,
      "benefits": 14280694.600000001,
@@ -407,6 +507,7 @@
     "2016-17": {
      "premium": 30048735.980000004,
      "ri_ceded": -29067.579999999998,
+     "inv_income": 16401496.65,
      "commission": 1659006.6600000001,
      "opex": 2895205.5100000002,
      "benefits": 16669477.95,
@@ -415,6 +516,7 @@
     "2017-18": {
      "premium": 31822320.56,
      "ri_ceded": -37221.69,
+     "inv_income": 18209599.3,
      "commission": 1822104.7000000002,
      "opex": 3014239.54,
      "benefits": 19656503.96,
@@ -423,6 +525,7 @@
     "2018-19": {
      "premium": 33750507.11,
      "ri_ceded": -31967.46,
+     "inv_income": 19789360.43,
      "commission": 1931119.38,
      "opex": 2918201.6799999997,
      "benefits": 24928486.17,
@@ -431,6 +534,7 @@
     "2019-20": {
      "premium": 37938959.9,
      "ri_ceded": -32704.19,
+     "inv_income": 21579107.37,
      "commission": 2102713.68,
      "opex": 3456803.66,
      "benefits": 25254889.46,
@@ -439,6 +543,7 @@
     "2020-21": {
      "premium": 40328655.48,
      "ri_ceded": -44221.05,
+     "inv_income": 23446140.73,
      "commission": 2217064.0,
      "opex": 3498952.29,
      "benefits": 28465473.32,
@@ -447,6 +552,7 @@
     "2021-22": {
      "premium": 42802497.15,
      "ri_ceded": -60575.94,
+     "inv_income": 25260799.36,
      "commission": 2317145.53,
      "opex": 3889067.8,
      "benefits": 35343758.47,
@@ -455,6 +561,7 @@
     "2022-23": {
      "premium": 47466813.63,
      "ri_ceded": -66352.58,
+     "inv_income": 27368495.52,
      "commission": 2558038.98,
      "opex": 4814560.02,
      "benefits": 33931267.28,
@@ -463,6 +570,7 @@
     "2023-24": {
      "premium": 47575192.0,
      "ri_ceded": -68234.0,
+     "inv_income": 29632199.0,
      "commission": 2595912.0,
      "opex": 4812168.0,
      "benefits": 38594915.0,
@@ -471,11 +579,24 @@
     "2024-25": {
      "premium": 48884892.0,
      "ri_ceded": -70075.0,
+     "inv_income": 31582851.0,
      "commission": 2530876.0,
      "opex": 3541520.0,
      "benefits": 41327889.0,
      "surplus": 4783995.0
     }
+   },
+   "sh_inv_income_lakh": {
+    "2015-16": 3191.09,
+    "2016-17": 3576.99,
+    "2017-18": 3521.33,
+    "2018-19": 3737.53,
+    "2019-20": 3520.1,
+    "2020-21": 1777.65,
+    "2021-22": 16095.8,
+    "2022-23": 106866.69,
+    "2023-24": 356477.0,
+    "2024-25": 564996.0
    },
    "pat_lakh": {
     "2015-16": 251784.79,
@@ -917,6 +1038,100 @@
       "lives": 46163553.0
      }
     }
+   },
+   "health_products_nb": {
+    "2016-17": {
+     "count": 130069.0,
+     "persons": 185297.0,
+     "premium_lakh": 5647.0
+    },
+    "2017-18": {
+     "count": 201022.0,
+     "persons": 257053.0,
+     "premium_lakh": 8915.07376
+    },
+    "2018-19": {
+     "count": 262906.0,
+     "persons": 309467.0,
+     "premium_lakh": 11260.35139
+    },
+    "2019-20": {
+     "count": 282563.0,
+     "persons": 313491.0,
+     "premium_lakh": 10473.71657
+    },
+    "2020-21": {
+     "count": 323777.0,
+     "persons": 369322.0,
+     "premium_lakh": 10210.03901
+    },
+    "2021-22": {
+     "count": 246278.0,
+     "persons": 260110.0,
+     "premium_lakh": 9442.97908
+    },
+    "2022-23": {
+     "count": 238929.0,
+     "persons": 237895.0,
+     "premium_lakh": 7633.68
+    },
+    "2023-24": {
+     "count": 39199.0,
+     "persons": 38559.0,
+     "premium_lakh": 3875.46
+    },
+    "2024-25": {
+     "count": 9602.0,
+     "persons": 8536.0,
+     "premium_lakh": 1230.0
+    }
+   },
+   "health_riders_nb": {
+    "2016-17": {
+     "count": 8639.0,
+     "persons": 8003.0,
+     "premium_lakh": 51.34
+    },
+    "2017-18": {
+     "count": 7248.0,
+     "persons": 6490.0,
+     "premium_lakh": 40.94
+    },
+    "2018-19": {
+     "count": 3785.0,
+     "persons": 3563.0,
+     "premium_lakh": 99.7025074
+    },
+    "2019-20": {
+     "count": 5088.0,
+     "persons": 4801.0,
+     "premium_lakh": 111.446327
+    },
+    "2020-21": {
+     "count": 6661.0,
+     "persons": 6405.0,
+     "premium_lakh": 136.08008
+    },
+    "2021-22": {
+     "count": 7052.0,
+     "persons": 6827.0,
+     "premium_lakh": 120.85602600000001
+    },
+    "2022-23": {
+     "count": 8652.0,
+     "persons": 8009.0,
+     "premium_lakh": 288.0
+    },
+    "2023-24": {
+     "count": 293.0,
+     "persons": 292.0,
+     "premium_lakh": 25.24
+    },
+    "2024-25": {
+     "count": 2927.0,
+     "persons": 2793.0,
+     "premium_lakh": 140.0
+    }
    }
   },
   "acko": {
@@ -1070,6 +1285,52 @@
     "2024": 159.2477,
     "2025": 172.1939
    },
+   "aum_mix": {
+    "2024": {
+     "life": {
+      "Central Government Securities": 84.4508767,
+      "State Government & Other Approved Securities": 0.0,
+      "Housing & Infrastructure Investments": 35.0043489,
+      "Approved Investments": 39.1233729,
+      "Other Investments": 0.6690984,
+      "Total (Life Fund)": 159.2476969
+     },
+     "pension_group": {
+      "Central Government Securities": 0.0,
+      "State Govt & Other Approved Securities": 0.0,
+      "Approved Investments": 0.0,
+      "Total (Pension & General Annuity & Group Fund)": 0.0
+     },
+     "ulip": {
+      "Approved Investments": 0.0,
+      "Other Investments": 0.0,
+      "Total (ULIP Funds)": 0.0
+     }
+    },
+    "2025": {
+     "life": {
+      "Central Government Securities": 95.0391534,
+      "Housing & Infrastructure Investments": 35.0078145,
+      "Approved Investments": 35.3664582,
+      "Other Investments": 6.780447,
+      "Total (Life Fund)": 172.19387310000002
+     },
+     "pension_group": {
+      "Central Government Securities": 0.0,
+      "State Govt & Other Approved Securities": 0.0,
+      "Approved Investments": 0.0,
+      "Total (Pension & General Annuity & Group Fund)": 0.0
+     },
+     "ulip": {
+      "Approved Investments": 0.0,
+      "Total (ULIP Funds)": 0.0
+     }
+    }
+   },
+   "equity_capital_cr": {
+    "2024": 140.05,
+    "2025": 140.05
+   },
    "solvency": {
     "June 2023": 2.76,
     "September 2023": 2.7385,
@@ -1084,6 +1345,7 @@
     "2023-24": {
      "premium": 3651.9222276,
      "ri_ceded": -8.5538966,
+     "inv_income": 41.3020474,
      "commission": 681.8959295999999,
      "opex": 2292.1415417,
      "benefits": 111.03624099999999,
@@ -1092,11 +1354,16 @@
     "2024-25": {
      "premium": 6405.0,
      "ri_ceded": -133.0,
+     "inv_income": 407.0,
      "commission": 815.0,
      "opex": 4341.0,
      "benefits": 1266.0,
      "surplus": 606.0
     }
+   },
+   "sh_inv_income_lakh": {
+    "2023-24": 551.2668,
+    "2024-25": 775.0
    },
    "pat_lakh": {
     "2023-24": -2123.5741,
@@ -1369,6 +1636,25 @@
       "premium": 60.28442408661558,
       "lives": 678936.0
      }
+    }
+   },
+   "health_products_nb": {
+    "2023-24": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    }
+   },
+   "health_riders_nb": {
+    "2023-24": {
+     "count": 1.0,
+     "persons": 56.0,
+     "premium_lakh": 2.3776703
+    },
+    "2024-25": {
+     "count": 1.0,
+     "persons": 498.0,
+     "premium_lakh": 19.77
     }
    }
   },
@@ -1718,6 +2004,105 @@
     "2024": 85763.04,
     "2025": 99431.5153
    },
+   "aum_mix": {
+    "2022": {
+     "life": {
+      "Central Government Securities": 11568.18,
+      "State Government & Other Approved Securities": 1236.88,
+      "Housing & Infrastructure Investments": 6009.0,
+      "Approved Investments": 3754.38,
+      "Other Investments": 348.086,
+      "Total (Life Fund)": 22916.526
+     },
+     "pension_group": {
+      "Central Government Securities": 2811.32,
+      "State Govt & Other Approved Securities": 678.37,
+      "Approved Investments": 3990.22,
+      "Total (Pension & General Annuity & Group Fund)": 7479.91
+     },
+     "ulip": {
+      "Approved Investments": 28520.329999999998,
+      "Other Investments": 1639.86,
+      "Total (ULIP Funds)": 30160.19
+     }
+    },
+    "2023": {
+     "life": {
+      "Central Government Securities": 16059.276945,
+      "State Government & Other Approved Securities": 1669.2845477,
+      "Housing & Infrastructure Investments": 6953.5578385,
+      "Approved Investments": 4298.117484,
+      "Other Investments": 575.6700496,
+      "Total (Life Fund)": 29555.9068648
+     },
+     "pension_group": {
+      "Central Government Securities": 4438.3173173,
+      "State Govt & Other Approved Securities": 979.9230578,
+      "Approved Investments": 4405.458870099999,
+      "Total (Pension & General Annuity & Group Fund)": 9823.699245199998
+     },
+     "ulip": {
+      "Approved Investments": 28965.0306986,
+      "Other Investments": 1542.382449,
+      "Total (ULIP Funds)": 30507.4131476
+     }
+    },
+    "2024": {
+     "life": {
+      "Central Government Securities": 21758.8,
+      "State Government & Other Approved Securities": 1761.170000000002,
+      "Housing & Infrastructure Investments": 7297.72,
+      "Approved Investments": 6021.17,
+      "Other Investments": 629.7,
+      "Total (Life Fund)": 37468.56
+     },
+     "pension_group": {
+      "Central Government Securities": 5138.37,
+      "State Govt & Other Approved Securities": 1278.8100000000004,
+      "Approved Investments": 5871.65,
+      "Total (Pension & General Annuity & Group Fund)": 12288.83
+     },
+     "ulip": {
+      "Approved Investments": 33388.17,
+      "Other Investments": 2617.48,
+      "Total (ULIP Funds)": 36005.65
+     }
+    },
+    "2025": {
+     "life": {
+      "Central Government Securities": 28684.3833201,
+      "State Government & Other Approved Securities": 1713.640126899998,
+      "Housing & Infrastructure Investments": 7674.900954,
+      "Approved Investments": 7361.1704665,
+      "Other Investments": 1261.0835338,
+      "Total (Life Fund)": 46695.1784013
+     },
+     "pension_group": {
+      "Central Government Securities": 6086.9269745,
+      "State Govt & Other Approved Securities": 1345.0493263,
+      "Approved Investments": 7440.421210199999,
+      "Total (Pension & General Annuity & Group Fund)": 14872.397511
+     },
+     "ulip": {
+      "Approved Investments": 35278.8662933,
+      "Other Investments": 2585.0730487,
+      "Total (ULIP Funds)": 37863.939342
+     }
+    }
+   },
+   "equity_capital_cr": {
+    "2015": 1901.21,
+    "2016": 1901.21,
+    "2017": 1901.21,
+    "2018": 1901.21,
+    "2019": 1901.21,
+    "2020": 1901.21,
+    "2021": 1901.208,
+    "2022": 1901.208,
+    "2023": 1938.23,
+    "2024": 1986.51,
+    "2025": 2019.59
+   },
    "solvency": {
     "June 2015": 2.1442,
     "September 2015": 2.1356,
@@ -1764,6 +2149,7 @@
     "2015-16": {
      "premium": 557971.25,
      "ri_ceded": -16797.73,
+     "inv_income": 161089.31,
      "commission": 21806.09,
      "opex": 90421.55,
      "benefits": 424709.43,
@@ -1772,6 +2158,7 @@
     "2016-17": {
      "premium": 572395.51,
      "ri_ceded": -19040.75,
+     "inv_income": 178470.6567292,
      "commission": 25505.99,
      "opex": 76993.47,
      "benefits": 465233.92,
@@ -1780,6 +2167,7 @@
     "2017-18": {
      "premium": 590300.33,
      "ri_ceded": -18155.01,
+     "inv_income": 190663.82,
      "commission": 26881.74,
      "opex": 81736.49,
      "benefits": 505531.03,
@@ -1788,6 +2176,7 @@
     "2018-19": {
      "premium": 751126.12,
      "ri_ceded": -22563.58,
+     "inv_income": 213440.18,
      "commission": 41774.98,
      "opex": 110034.13,
      "benefits": 524851.04,
@@ -1796,6 +2185,7 @@
     "2019-20": {
      "premium": 800997.4,
      "ri_ceded": -25217.15,
+     "inv_income": 236704.58,
      "commission": 48243.76,
      "opex": 124415.42,
      "benefits": 554608.77,
@@ -1804,6 +2194,7 @@
     "2020-21": {
      "premium": 977522.42,
      "ri_ceded": -29294.43,
+     "inv_income": 259125.6,
      "commission": 54282.35,
      "opex": 143491.90000000002,
      "benefits": 478453.04,
@@ -1812,6 +2203,7 @@
     "2021-22": {
      "premium": 1214023.0,
      "ri_ceded": -49878.0,
+     "inv_income": 283848.0,
      "commission": 59624.0,
      "opex": 152089.0,
      "benefits": 675423.0,
@@ -1820,6 +2212,7 @@
     "2022-23": {
      "premium": 1506968.54,
      "ri_ceded": -53023.19,
+     "inv_income": 358660.6,
      "commission": 84360.54,
      "opex": 209650.2,
      "benefits": 577229.98,
@@ -1828,6 +2221,7 @@
     "2023-24": {
      "premium": 1726011.78,
      "ri_ceded": -53593.85,
+     "inv_income": 436641.65,
      "commission": 122599.5,
      "opex": 196482.71,
      "benefits": 774234.64,
@@ -1836,11 +2230,24 @@
     "2024-25": {
      "premium": 2063877.05,
      "ri_ceded": -59596.25,
+     "inv_income": 435764.0,
      "commission": 201030.94,
      "opex": 219543.0,
      "benefits": 970386.0,
      "surplus": -6875.030000000261
     }
+   },
+   "sh_inv_income_lakh": {
+    "2015-16": 14008.08,
+    "2016-17": 13592.29,
+    "2017-18": 14607.5,
+    "2018-19": 16075.91,
+    "2019-20": 17686.0,
+    "2020-21": 18377.93,
+    "2021-22": 19285.0,
+    "2022-23": 23366.24,
+    "2023-24": 28395.05,
+    "2024-25": 32637.0
    },
    "pat_lakh": {
     "2015-16": 13999.9176,
@@ -2282,6 +2689,100 @@
       "lives": 4903513.0
      }
     }
+   },
+   "health_products_nb": {
+    "2016-17": {
+     "count": 17261.0,
+     "persons": 18461.0,
+     "premium_lakh": 812.42
+    },
+    "2017-18": {
+     "count": 15642.0,
+     "persons": 16835.0,
+     "premium_lakh": 831.0856504200428
+    },
+    "2018-19": {
+     "count": 12670.0,
+     "persons": 12768.0,
+     "premium_lakh": 492.3718261000001
+    },
+    "2019-20": {
+     "count": 11622.0,
+     "persons": 11719.0,
+     "premium_lakh": 273.9332102
+    },
+    "2020-21": {
+     "count": 4541.0,
+     "persons": 4476.0,
+     "premium_lakh": 124.2001526
+    },
+    "2021-22": {
+     "count": 3104.0,
+     "persons": 3091.0,
+     "premium_lakh": 83.4869274
+    },
+    "2022-23": {
+     "count": 3120.0,
+     "persons": 3158.0,
+     "premium_lakh": 84.6549897000001
+    },
+    "2023-24": {
+     "count": 4146.0,
+     "persons": 4162.0,
+     "premium_lakh": 81.4555262
+    },
+    "2024-25": {
+     "count": 3137.0,
+     "persons": 3166.0,
+     "premium_lakh": 49.65
+    }
+   },
+   "health_riders_nb": {
+    "2016-17": {
+     "count": 5624.0,
+     "persons": 20956.0,
+     "premium_lakh": 58.1
+    },
+    "2017-18": {
+     "count": 5875.0,
+     "persons": 5938.0,
+     "premium_lakh": 74.77702064304
+    },
+    "2018-19": {
+     "count": 6374.0,
+     "persons": 6382.0,
+     "premium_lakh": 104.17375236926028
+    },
+    "2019-20": {
+     "count": 9342.0,
+     "persons": 9377.0,
+     "premium_lakh": 110.7649667
+    },
+    "2020-21": {
+     "count": 6742.0,
+     "persons": 532053.0,
+     "premium_lakh": 1472.337657621988
+    },
+    "2021-22": {
+     "count": 2699.0,
+     "persons": 158409.0,
+     "premium_lakh": 438.36746320001004
+    },
+    "2022-23": {
+     "count": 1553.0,
+     "persons": 137029.0,
+     "premium_lakh": 1023.74881766154
+    },
+    "2023-24": {
+     "count": 2703.0,
+     "persons": 81841.0,
+     "premium_lakh": 860.7274050584202
+    },
+    "2024-25": {
+     "count": 11431.0,
+     "persons": 189916.0,
+     "premium_lakh": 2520.86
+    }
    }
   },
   "ageasfederal": {
@@ -2630,6 +3131,105 @@
     "2024": 16991.8874,
     "2025": 18539.8181
    },
+   "aum_mix": {
+    "2022": {
+     "life": {
+      "Central Government Securities": 2926.96,
+      "State Government & Other Approved Securities": 2585.94,
+      "Housing & Infrastructure Investments": 1682.6,
+      "Approved Investments": 1404.48,
+      "Other Investments": 82.711,
+      "Total (Life Fund)": 8682.690999999999
+     },
+     "pension_group": {
+      "Central Government Securities": 245.71,
+      "State Govt & Other Approved Securities": 169.1,
+      "Approved Investments": 273.37,
+      "Total (Pension & General Annuity & Group Fund)": 688.1800000000001
+     },
+     "ulip": {
+      "Approved Investments": 3764.12,
+      "Other Investments": 379.59,
+      "Total (ULIP Funds)": 4143.71
+     }
+    },
+    "2023": {
+     "life": {
+      "Central Government Securities": 3011.65760265,
+      "State Government & Other Approved Securities": 3517.796229307,
+      "Housing & Infrastructure Investments": 1854.330425151,
+      "Approved Investments": 1345.39024966599,
+      "Other Investments": 77.950618593,
+      "Total (Life Fund)": 9807.12512536699
+     },
+     "pension_group": {
+      "Central Government Securities": 327.018594517,
+      "State Govt & Other Approved Securities": 226.809845626,
+      "Approved Investments": 357.20057668799893,
+      "Total (Pension & General Annuity & Group Fund)": 911.0290168309989
+     },
+     "ulip": {
+      "Approved Investments": 3727.788594677,
+      "Other Investments": 236.024550488,
+      "Total (ULIP Funds)": 3963.813145165
+     }
+    },
+    "2024": {
+     "life": {
+      "Central Government Securities": 3086.042321359,
+      "State Government & Other Approved Securities": 3852.718398619,
+      "Housing & Infrastructure Investments": 2025.121605237,
+      "Approved Investments": 2063.24771973499,
+      "Other Investments": 38.961215218,
+      "Total (Life Fund)": 11066.09126016799
+     },
+     "pension_group": {
+      "Central Government Securities": 342.19719898,
+      "State Govt & Other Approved Securities": 266.813547105,
+      "Approved Investments": 487.27733119499896,
+      "Total (Pension & General Annuity & Group Fund)": 1096.288077279999
+     },
+     "ulip": {
+      "Approved Investments": 4584.818105554999,
+      "Other Investments": 244.689971188,
+      "Total (ULIP Funds)": 4829.508076742999
+     }
+    },
+    "2025": {
+     "life": {
+      "Central Government Securities": 3340.211427256,
+      "State Government & Other Approved Securities": 3816.1454672520003,
+      "Housing & Infrastructure Investments": 2291.0558936919997,
+      "Approved Investments": 2730.31026469,
+      "Other Investments": 66.21469688500001,
+      "Total (Life Fund)": 12243.937749775
+     },
+     "pension_group": {
+      "Central Government Securities": 312.593224937,
+      "State Govt & Other Approved Securities": 258.80031423,
+      "Approved Investments": 618.701520238999,
+      "Total (Pension & General Annuity & Group Fund)": 1190.095059405999
+     },
+     "ulip": {
+      "Approved Investments": 4802.266347044,
+      "Other Investments": 303.518905061,
+      "Total (ULIP Funds)": 5105.785252105
+     }
+    }
+   },
+   "equity_capital_cr": {
+    "2015": 799.78,
+    "2016": 799.89,
+    "2017": 800.0,
+    "2018": 800.0,
+    "2019": 800.0,
+    "2020": 800.0,
+    "2021": 800.0,
+    "2022": 800.0,
+    "2023": 800.0,
+    "2024": 800.0,
+    "2025": 800.0
+   },
    "solvency": {
     "June 2015": 5.1293,
     "September 2015": 4.8497,
@@ -2676,6 +3276,7 @@
     "2015-16": {
      "premium": 123966.57067,
      "ri_ceded": -884.14766,
+     "inv_income": 26212.69323,
      "commission": 8885.61921,
      "opex": 22594.97,
      "benefits": 45600.29368,
@@ -2684,6 +3285,7 @@
     "2016-17": {
      "premium": 156518.63082,
      "ri_ceded": -1122.26248,
+     "inv_income": 31446.71981,
      "commission": 10038.60883,
      "opex": 25014.9237,
      "benefits": 60587.24934,
@@ -2692,6 +3294,7 @@
     "2017-18": {
      "premium": 178324.07,
      "ri_ceded": -1106.62,
+     "inv_income": 39621.57,
      "commission": 9992.79,
      "opex": 25994.14,
      "benefits": 49852.87,
@@ -2700,6 +3303,7 @@
     "2018-19": {
      "premium": 193251.67,
      "ri_ceded": -1403.12,
+     "inv_income": 48541.9,
      "commission": 10724.05,
      "opex": 25647.81,
      "benefits": 57889.8,
@@ -2708,6 +3312,7 @@
     "2019-20": {
      "premium": 184251.45,
      "ri_ceded": -1614.79,
+     "inv_income": 56718.85,
      "commission": 7608.82,
      "opex": 24473.01,
      "benefits": 69730.89,
@@ -2716,6 +3321,7 @@
     "2020-21": {
      "premium": 195863.74,
      "ri_ceded": -1725.39,
+     "inv_income": 63435.83,
      "commission": 6708.49,
      "opex": 23890.4,
      "benefits": 95164.24,
@@ -2724,6 +3330,7 @@
     "2021-22": {
      "premium": 220730.09793,
      "ri_ceded": -2201.66199,
+     "inv_income": 72422.29587,
      "commission": 8191.0,
      "opex": 26652.0,
      "benefits": 111597.0,
@@ -2732,6 +3339,7 @@
     "2022-23": {
      "premium": 228899.69,
      "ri_ceded": -2752.0,
+     "inv_income": 81562.0,
      "commission": 10806.0,
      "opex": 35831.0,
      "benefits": 136078.0,
@@ -2740,6 +3348,7 @@
     "2023-24": {
      "premium": 269736.79732,
      "ri_ceded": -3791.53548,
+     "inv_income": 90863.0235,
      "commission": 19135.09472,
      "opex": 46388.96208,
      "benefits": 181191.46022,
@@ -2748,11 +3357,24 @@
     "2024-25": {
      "premium": 307273.93,
      "ri_ceded": -4865.78,
+     "inv_income": 99241.34,
      "commission": 25300.0,
      "opex": 57238.79,
      "benefits": 182205.19,
      "surplus": 4691.759539999941
     }
+   },
+   "sh_inv_income_lakh": {
+    "2015-16": 3411.9887,
+    "2016-17": 3086.4091,
+    "2017-18": 3282.16,
+    "2018-19": 4023.17,
+    "2019-20": 4122.79,
+    "2020-21": 4356.15,
+    "2021-22": 4839.0,
+    "2022-23": 5005.0,
+    "2023-24": 5140.1805,
+    "2024-25": 5311.9805
    },
    "pat_lakh": {
     "2015-16": 1528.1425,
@@ -3194,6 +3816,100 @@
       "lives": 1906546.0
      }
     }
+   },
+   "health_products_nb": {
+    "2016-17": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2017-18": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2018-19": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2019-20": {
+     "count": 292.0,
+     "persons": 248.0,
+     "premium_lakh": 12.412806000000002
+    },
+    "2020-21": {
+     "count": 622.0,
+     "persons": 498.0,
+     "premium_lakh": 16.41847
+    },
+    "2021-22": {
+     "count": 130.0,
+     "persons": 115.0,
+     "premium_lakh": 3.9392475
+    },
+    "2022-23": {
+     "count": 884.0,
+     "persons": 799.0,
+     "premium_lakh": 23.5785775
+    },
+    "2023-24": {
+     "count": 446.0,
+     "persons": 409.0,
+     "premium_lakh": 16.043476000000002
+    },
+    "2024-25": {
+     "count": 84.0,
+     "persons": 84.0,
+     "premium_lakh": 3.75
+    }
+   },
+   "health_riders_nb": {
+    "2016-17": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2017-18": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": -0.0399
+    },
+    "2018-19": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2019-20": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2020-21": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2021-22": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2022-23": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2023-24": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2024-25": {
+     "count": 122.0,
+     "persons": 122.0,
+     "premium_lakh": 8.35
+    }
    }
   },
   "aviva": {
@@ -3535,6 +4251,105 @@
     "2024": 13842.5608,
     "2025": 14736.0131
    },
+   "aum_mix": {
+    "2022": {
+     "life": {
+      "Central Government Securities": 4829.87,
+      "State Government & Other Approved Securities": 1345.61,
+      "Housing & Infrastructure Investments": 1184.5,
+      "Approved Investments": 170.56,
+      "Other Investments": 19.2,
+      "Total (Life Fund)": 7549.74
+     },
+     "pension_group": {
+      "Central Government Securities": 214.63,
+      "State Govt & Other Approved Securities": 19.56,
+      "Approved Investments": 44.92,
+      "Total (Pension & General Annuity & Group Fund)": 279.11
+     },
+     "ulip": {
+      "Approved Investments": 3283.34,
+      "Other Investments": 447.58,
+      "Total (ULIP Funds)": 3730.92
+     }
+    },
+    "2023": {
+     "life": {
+      "Central Government Securities": 5047.3829867,
+      "State Government & Other Approved Securities": 1804.4758229,
+      "Housing & Infrastructure Investments": 1466.4401331,
+      "Approved Investments": 254.0820197,
+      "Other Investments": 19.102445,
+      "Total (Life Fund)": 8591.4834074
+     },
+     "pension_group": {
+      "Central Government Securities": 217.0763632,
+      "State Govt & Other Approved Securities": 13.8869664,
+      "Approved Investments": 44.8955462,
+      "Total (Pension & General Annuity & Group Fund)": 275.8588758
+     },
+     "ulip": {
+      "Approved Investments": 3130.2354299999997,
+      "Other Investments": 344.8331303,
+      "Total (ULIP Funds)": 3475.0685602999997
+     }
+    },
+    "2024": {
+     "life": {
+      "Central Government Securities": 5318.7310806,
+      "State Government & Other Approved Securities": 2323.4638558,
+      "Housing & Infrastructure Investments": 1678.1134195000002,
+      "Approved Investments": 157.4225921,
+      "Other Investments": 38.0858433,
+      "Total (Life Fund)": 9515.816791299998
+     },
+     "pension_group": {
+      "Central Government Securities": 205.3536637,
+      "State Govt & Other Approved Securities": 34.2169259,
+      "Approved Investments": 43.049447699999995,
+      "Total (Pension & General Annuity & Group Fund)": 282.6200373
+     },
+     "ulip": {
+      "Approved Investments": 3744.3698566999997,
+      "Other Investments": 299.7540833,
+      "Total (ULIP Funds)": 4044.1239399999995
+     }
+    },
+    "2025": {
+     "life": {
+      "Central Government Securities": 5329.1461214,
+      "State Government & Other Approved Securities": 2983.1961643999994,
+      "Housing & Infrastructure Investments": 1810.0502183,
+      "Approved Investments": 234.2456859,
+      "Other Investments": 6.6,
+      "Total (Life Fund)": 10363.23819
+     },
+     "pension_group": {
+      "Central Government Securities": 189.1821864,
+      "State Govt & Other Approved Securities": 37.0763963,
+      "Approved Investments": 47.17033059999999,
+      "Total (Pension & General Annuity & Group Fund)": 273.4289133
+     },
+     "ulip": {
+      "Approved Investments": 3986.0852682,
+      "Other Investments": 113.2607599,
+      "Total (ULIP Funds)": 4099.3460281
+     }
+    }
+   },
+   "equity_capital_cr": {
+    "2015": 2004.9,
+    "2016": 2004.9,
+    "2017": 2004.9,
+    "2018": 2004.9,
+    "2019": 2004.9,
+    "2020": 2004.9,
+    "2021": 2004.8995,
+    "2022": 2004.9,
+    "2023": 2189.9,
+    "2024": 2189.9,
+    "2025": 2189.9
+   },
    "solvency": {
     "June 2015": 3.9229,
     "September 2015": 3.9285,
@@ -3581,6 +4396,7 @@
     "2015-16": {
      "premium": 149314.63186,
      "ri_ceded": -5296.43296,
+     "inv_income": 47859.30504,
      "commission": 4204.98,
      "opex": 34589.84,
      "benefits": 174218.71,
@@ -3589,6 +4405,7 @@
     "2016-17": {
      "premium": 133650.63157,
      "ri_ceded": -5413.19975,
+     "inv_income": 48281.22469,
      "commission": 3527.98925,
      "opex": 29032.7131,
      "benefits": 160231.06934,
@@ -3597,6 +4414,7 @@
     "2017-18": {
      "premium": 134421.63,
      "ri_ceded": -5290.33,
+     "inv_income": 50407.82,
      "commission": 3659.27,
      "opex": 28309.53,
      "benefits": 161138.93,
@@ -3605,6 +4423,7 @@
     "2018-19": {
      "premium": 126493.72,
      "ri_ceded": -5499.92,
+     "inv_income": 54428.05,
      "commission": 2050.92,
      "opex": 24177.84,
      "benefits": 118174.16,
@@ -3613,6 +4432,7 @@
     "2019-20": {
      "premium": 119363.74,
      "ri_ceded": -5858.98,
+     "inv_income": 56768.83,
      "commission": 2372.57,
      "opex": 23425.91,
      "benefits": 109038.26,
@@ -3621,6 +4441,7 @@
     "2020-21": {
      "premium": 116525.5,
      "ri_ceded": -6512.36,
+     "inv_income": 57948.82,
      "commission": 2516.14,
      "opex": 23856.86,
      "benefits": 99331.56,
@@ -3629,6 +4450,7 @@
     "2021-22": {
      "premium": 126814.0,
      "ri_ceded": -7020.0,
+     "inv_income": 65673.0,
      "commission": 3245.0,
      "opex": 25317.0,
      "benefits": 118917.0,
@@ -3637,6 +4459,7 @@
     "2022-23": {
      "premium": 131745.29,
      "ri_ceded": -6960.49,
+     "inv_income": 72442.5,
      "commission": 3521.79,
      "opex": 27337.85,
      "benefits": 110002.01,
@@ -3645,6 +4468,7 @@
     "2023-24": {
      "premium": 134685.91938,
      "ri_ceded": -7997.12563,
+     "inv_income": 81145.87595,
      "commission": 7946.15961,
      "opex": 26881.56013,
      "benefits": 100613.11755,
@@ -3653,11 +4477,24 @@
     "2024-25": {
      "premium": 130677.09,
      "ri_ceded": -11389.93506,
+     "inv_income": 74574.0,
      "commission": 3510.159,
      "opex": 25701.0,
      "benefits": 111373.92907,
      "surplus": 6283.84170999995
     }
+   },
+   "sh_inv_income_lakh": {
+    "2015-16": 6238.9906,
+    "2016-17": 6074.9012,
+    "2017-18": 5434.69,
+    "2018-19": 5015.21,
+    "2019-20": 5021.41,
+    "2020-21": 4430.295,
+    "2021-22": 4027.0,
+    "2022-23": 3551.95,
+    "2023-24": 3904.32,
+    "2024-25": 4916.0
    },
    "pat_lakh": {
     "2015-16": 872.1552,
@@ -4099,6 +4936,90 @@
       "lives": 774850.0
      }
     }
+   },
+   "health_products_nb": {
+    "2016-17": {
+     "count": 4231.0,
+     "persons": 4894.0,
+     "premium_lakh": 165.06323
+    },
+    "2017-18": {
+     "count": 2905.0,
+     "persons": 2919.0,
+     "premium_lakh": 119.78934
+    },
+    "2018-19": {
+     "count": 383.0,
+     "persons": 383.0,
+     "premium_lakh": 18.67022
+    },
+    "2019-20": {
+     "count": 107.0,
+     "persons": 107.0,
+     "premium_lakh": 4.77058
+    },
+    "2020-21": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.47701
+    },
+    "2021-22": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2022-23": {
+     "count": 1.0,
+     "persons": 1.0,
+     "premium_lakh": 0.10456
+    },
+    "2023-24": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    }
+   },
+   "health_riders_nb": {
+    "2016-17": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2017-18": {
+     "count": 23.0,
+     "persons": 521.0,
+     "premium_lakh": 2.03727
+    },
+    "2018-19": {
+     "count": 31.0,
+     "persons": 235.0,
+     "premium_lakh": 2.41944
+    },
+    "2019-20": {
+     "count": 5.0,
+     "persons": 164.0,
+     "premium_lakh": 1.08876
+    },
+    "2020-21": {
+     "count": 0.0,
+     "persons": 65.0,
+     "premium_lakh": 0.27468
+    },
+    "2021-22": {
+     "count": 0.0,
+     "persons": 77.0,
+     "premium_lakh": 0.0
+    },
+    "2022-23": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2023-24": {
+     "count": 57.0,
+     "persons": 47.0,
+     "premium_lakh": 2.71736
+    }
    }
   },
   "axismax": {
@@ -4441,6 +5362,105 @@
     "2024": 147427.8007,
     "2025": 171663.9381
    },
+   "aum_mix": {
+    "2022": {
+     "life": {
+      "Central Government Securities": 37431.93,
+      "State Government & Other Approved Securities": 7012.29,
+      "Housing & Infrastructure Investments": 11411.4,
+      "Approved Investments": 12002.58,
+      "Other Investments": 2501.646,
+      "Total (Life Fund)": 70359.84599999999
+     },
+     "pension_group": {
+      "Central Government Securities": 1075.9,
+      "State Govt & Other Approved Securities": 656.56,
+      "Approved Investments": 1255.84,
+      "Total (Pension & General Annuity & Group Fund)": 2988.3
+     },
+     "ulip": {
+      "Approved Investments": 29864.1,
+      "Other Investments": 3579.08,
+      "Total (ULIP Funds)": 33443.18
+     }
+    },
+    "2023": {
+     "life": {
+      "Central Government Securities": 44935.2243826,
+      "State Government & Other Approved Securities": 7516.7171552,
+      "Housing & Infrastructure Investments": 13592.3622498,
+      "Approved Investments": 13811.0416662,
+      "Other Investments": 2315.772582,
+      "Total (Life Fund)": 82171.11803580001
+     },
+     "pension_group": {
+      "Central Government Securities": 1871.4058101,
+      "State Govt & Other Approved Securities": 1106.3263586,
+      "Approved Investments": 1680.5660211,
+      "Total (Pension & General Annuity & Group Fund)": 4658.2981898
+     },
+     "ulip": {
+      "Approved Investments": 32940.946275243,
+      "Other Investments": 2309.286179457,
+      "Total (ULIP Funds)": 35250.232454699995
+     }
+    },
+    "2024": {
+     "life": {
+      "Central Government Securities": 52802.12,
+      "State Government & Other Approved Securities": 8549.339999999997,
+      "Housing & Infrastructure Investments": 17056.56,
+      "Approved Investments": 14552.85,
+      "Other Investments": 3062.3358603,
+      "Total (Life Fund)": 96023.2058603
+     },
+     "pension_group": {
+      "Central Government Securities": 2867.7777184,
+      "State Govt & Other Approved Securities": 2622.9,
+      "Approved Investments": 1734.6471513000001,
+      "Total (Pension & General Annuity & Group Fund)": 7225.3248697
+     },
+     "ulip": {
+      "Approved Investments": 40147.39,
+      "Other Investments": 4031.88,
+      "Total (ULIP Funds)": 44179.27
+     }
+    },
+    "2025": {
+     "life": {
+      "Central Government Securities": 65562.3124881,
+      "State Government & Other Approved Securities": 10240.22171160001,
+      "Housing & Infrastructure Investments": 18348.6949505,
+      "Approved Investments": 17381.9210542,
+      "Other Investments": 2906.183836,
+      "Total (Life Fund)": 114439.3340404
+     },
+     "pension_group": {
+      "Central Government Securities": 4941.184294,
+      "State Govt & Other Approved Securities": 3050.7898401,
+      "Approved Investments": 1464.5740026,
+      "Total (Pension & General Annuity & Group Fund)": 9456.5481367
+     },
+     "ulip": {
+      "Approved Investments": 44316.3183528,
+      "Other Investments": 3451.7375475,
+      "Total (ULIP Funds)": 47768.0559003
+     }
+    }
+   },
+   "equity_capital_cr": {
+    "2015": 1918.8128,
+    "2016": 1918.8128,
+    "2017": 1918.8128,
+    "2018": 1918.8128,
+    "2019": 1918.8128,
+    "2020": 1918.8128,
+    "2021": 1918.8128,
+    "2022": 1918.8128,
+    "2023": 1918.81,
+    "2024": 1918.81,
+    "2025": 2061.392
+   },
    "solvency": {
     "June 2015": 4.2662,
     "September 2015": 4.0102,
@@ -4487,6 +5507,7 @@
     "2015-16": {
      "premium": 921616.41602,
      "ri_ceded": -7723.76049,
+     "inv_income": 179404.72098,
      "commission": 82101.25713,
      "opex": 124957.58578,
      "benefits": 314605.83257,
@@ -4495,6 +5516,7 @@
     "2016-17": {
      "premium": 1078040.23026,
      "ri_ceded": -10016.28244,
+     "inv_income": 221990.63773,
      "commission": 93642.75524,
      "opex": 159120.61708,
      "benefits": 377681.12841,
@@ -4503,6 +5525,7 @@
     "2017-18": {
      "premium": 1250089.2,
      "ri_ceded": -12134.41,
+     "inv_income": 266155.92,
      "commission": 89287.53,
      "opex": 160987.25,
      "benefits": 494561.49,
@@ -4511,6 +5534,7 @@
     "2018-19": {
      "premium": 1457522.92,
      "ri_ceded": -15685.07,
+     "inv_income": 320647.93,
      "commission": 98884.15,
      "opex": 192736.33,
      "benefits": 571647.35,
@@ -4519,6 +5543,7 @@
     "2019-20": {
      "premium": 1618364.7,
      "ri_ceded": -20488.07,
+     "inv_income": 391255.21,
      "commission": 102444.13,
      "opex": 234410.67,
      "benefits": 662051.22,
@@ -4527,6 +5552,7 @@
     "2020-21": {
      "premium": 1901789.91,
      "ri_ceded": -27886.62,
+     "inv_income": 443666.25,
      "commission": 122701.0,
      "opex": 270062.55,
      "benefits": 699822.13,
@@ -4535,6 +5561,7 @@
     "2021-22": {
      "premium": 2241416.9,
      "ri_ceded": -42719.4,
+     "inv_income": 520787.47,
      "commission": 140281.14,
      "opex": 301923.2,
      "benefits": 927346.72,
@@ -4543,6 +5570,7 @@
     "2022-23": {
      "premium": 2534191.19,
      "ri_ceded": -46008.45,
+     "inv_income": 618853.78,
      "commission": 161383.74,
      "opex": 358081.98,
      "benefits": 997649.85,
@@ -4551,6 +5579,7 @@
     "2023-24": {
      "premium": 2952897.44,
      "ri_ceded": -54428.41,
+     "inv_income": 732534.67,
      "commission": 239827.17,
      "opex": 408606.63,
      "benefits": 1331769.74,
@@ -4559,11 +5588,24 @@
     "2024-25": {
      "premium": 3322260.12,
      "ri_ceded": -62494.82,
+     "inv_income": 735327.05,
      "commission": 314489.38,
      "opex": 451403.15,
      "benefits": 1702579.63,
      "surplus": 33359.861310000066
     }
+   },
+   "sh_inv_income_lakh": {
+    "2015-16": 17309.3939,
+    "2016-17": 13560.6896,
+    "2017-18": 17559.68,
+    "2018-19": 16345.47,
+    "2019-20": 17331.11,
+    "2020-21": 21475.25,
+    "2021-22": 23096.49,
+    "2022-23": 30908.58,
+    "2023-24": 37729.42,
+    "2024-25": 53103.0
    },
    "pat_lakh": {
     "2015-16": 43911.0313,
@@ -5005,6 +6047,100 @@
       "lives": 5239445.0
      }
     }
+   },
+   "health_products_nb": {
+    "2016-17": {
+     "count": 20682.0,
+     "persons": 20612.0,
+     "premium_lakh": 1554.0132580999998
+    },
+    "2017-18": {
+     "count": 24611.0,
+     "persons": 24371.0,
+     "premium_lakh": 1801.4059097
+    },
+    "2018-19": {
+     "count": 26259.0,
+     "persons": 25924.999999999996,
+     "premium_lakh": 2011.2221083
+    },
+    "2019-20": {
+     "count": 32155.0,
+     "persons": 31769.0,
+     "premium_lakh": 2513.9763922
+    },
+    "2020-21": {
+     "count": 15763.0,
+     "persons": 15595.0,
+     "premium_lakh": 1286.7707559
+    },
+    "2021-22": {
+     "count": 2440.0,
+     "persons": 2419.0,
+     "premium_lakh": 233.712488
+    },
+    "2022-23": {
+     "count": 2199.0,
+     "persons": 2193.0,
+     "premium_lakh": 201.3328089
+    },
+    "2023-24": {
+     "count": 1083.0,
+     "persons": 1096.0,
+     "premium_lakh": 108.65842860000001
+    },
+    "2024-25": {
+     "count": -31.0,
+     "persons": -62.0,
+     "premium_lakh": -14.16
+    }
+   },
+   "health_riders_nb": {
+    "2016-17": {
+     "count": 113491.0,
+     "persons": 126219.0,
+     "premium_lakh": 869.8660318000001
+    },
+    "2017-18": {
+     "count": 167042.0,
+     "persons": 183763.0,
+     "premium_lakh": 1260.0446091000001
+    },
+    "2018-19": {
+     "count": 214559.0,
+     "persons": 274290.0,
+     "premium_lakh": 1548.0170274000013
+    },
+    "2019-20": {
+     "count": 183352.0,
+     "persons": 299225.0,
+     "premium_lakh": 1864.1281463999999
+    },
+    "2020-21": {
+     "count": 175632.0,
+     "persons": 317837.0,
+     "premium_lakh": 2870.8461719
+    },
+    "2021-22": {
+     "count": 242464.0,
+     "persons": 341844.0,
+     "premium_lakh": 4717.956182999991
+    },
+    "2022-23": {
+     "count": 244025.0,
+     "persons": 300813.0,
+     "premium_lakh": 3847.4321682999926
+    },
+    "2023-24": {
+     "count": 297923.0,
+     "persons": 387475.0,
+     "premium_lakh": 6423.028144800013
+    },
+    "2024-25": {
+     "count": 474245.0,
+     "persons": 542679.0,
+     "premium_lakh": 18205.14
+    }
    }
   },
   "bajaj": {
@@ -5353,6 +6489,105 @@
     "2024": 107800.4152,
     "2025": 123590.0054
    },
+   "aum_mix": {
+    "2022": {
+     "life": {
+      "Central Government Securities": 20243.05,
+      "State Government & Other Approved Securities": 1954.17,
+      "Housing & Infrastructure Investments": 6042.2,
+      "Approved Investments": 8272.84,
+      "Other Investments": 639.898,
+      "Total (Life Fund)": 37152.158
+     },
+     "pension_group": {
+      "Central Government Securities": 6984.96,
+      "State Govt & Other Approved Securities": 2335.51,
+      "Approved Investments": 3747.03,
+      "Total (Pension & General Annuity & Group Fund)": 13067.500000000002
+     },
+     "ulip": {
+      "Approved Investments": 30409.34,
+      "Other Investments": 2813.27,
+      "Total (ULIP Funds)": 33222.61
+     }
+    },
+    "2023": {
+     "life": {
+      "Central Government Securities": 19325.6111261,
+      "State Government & Other Approved Securities": 4209.4979094,
+      "Housing & Infrastructure Investments": 6581.4082968,
+      "Approved Investments": 11376.0780287,
+      "Other Investments": 873.6703556,
+      "Total (Life Fund)": 42366.2657166
+     },
+     "pension_group": {
+      "Central Government Securities": 7504.1724158,
+      "State Govt & Other Approved Securities": 1888.5101955,
+      "Approved Investments": 4051.0382283,
+      "Total (Pension & General Annuity & Group Fund)": 13443.720839599999
+     },
+     "ulip": {
+      "Approved Investments": 30518.5886009,
+      "Other Investments": 3067.5807856,
+      "Total (ULIP Funds)": 33586.1693865
+     }
+    },
+    "2024": {
+     "life": {
+      "Central Government Securities": 21379.3,
+      "State Government & Other Approved Securities": 7197.850000000002,
+      "Housing & Infrastructure Investments": 5572.799999999999,
+      "Approved Investments": 13547.0,
+      "Other Investments": 700.4152054,
+      "Total (Life Fund)": 48397.3652054
+     },
+     "pension_group": {
+      "Central Government Securities": 7041.53,
+      "State Govt & Other Approved Securities": 3197.8900000000003,
+      "Approved Investments": 5479.54,
+      "Total (Pension & General Annuity & Group Fund)": 15718.96
+     },
+     "ulip": {
+      "Approved Investments": 39814.13,
+      "Other Investments": 3869.96,
+      "Total (ULIP Funds)": 43684.09
+     }
+    },
+    "2025": {
+     "life": {
+      "Central Government Securities": 24422.4866374,
+      "State Government & Other Approved Securities": 6936.241824099998,
+      "Housing & Infrastructure Investments": 9231.8056226,
+      "Approved Investments": 16658.6464065,
+      "Other Investments": 762.573262,
+      "Total (Life Fund)": 58011.753752599994
+     },
+     "pension_group": {
+      "Central Government Securities": 6957.9374354,
+      "State Govt & Other Approved Securities": 3022.717849,
+      "Approved Investments": 8368.7333943,
+      "Total (Pension & General Annuity & Group Fund)": 18349.3886787
+     },
+     "ulip": {
+      "Approved Investments": 44748.132529099996,
+      "Other Investments": 2480.730466,
+      "Total (ULIP Funds)": 47228.8629951
+     }
+    }
+   },
+   "equity_capital_cr": {
+    "2015": 150.7,
+    "2016": 150.7,
+    "2017": 150.7,
+    "2018": 150.71,
+    "2019": 150.71,
+    "2020": 150.71,
+    "2021": 150.71,
+    "2022": 150.709,
+    "2023": 150.71,
+    "2024": 150.71,
+    "2025": 150.71
+   },
    "solvency": {
     "June 2015": 7.872,
     "September 2015": 8.093,
@@ -5399,6 +6634,7 @@
     "2015-16": {
      "premium": 589731.212,
      "ri_ceded": -6559.59902,
+     "inv_income": 177419.82846,
      "commission": 15740.61197,
      "opex": 110863.3812,
      "benefits": 499825.61518,
@@ -5407,6 +6643,7 @@
     "2016-17": {
      "premium": 618332.15588,
      "ri_ceded": -6122.27988,
+     "inv_income": 194080.10492,
      "commission": 14643.99238,
      "opex": 105630.18812,
      "benefits": 617005.99103,
@@ -5415,6 +6652,7 @@
     "2017-18": {
      "premium": 757837.46,
      "ri_ceded": -6106.81,
+     "inv_income": 206609.41,
      "commission": 20316.74,
      "opex": 120756.81,
      "benefits": 805354.6,
@@ -5423,6 +6661,7 @@
     "2018-19": {
      "premium": 885716.27,
      "ri_ceded": -5318.37,
+     "inv_income": 226694.97,
      "commission": 30290.97,
      "opex": 155828.97,
      "benefits": 533214.77,
@@ -5431,6 +6670,7 @@
     "2019-20": {
      "premium": 975252.77,
      "ri_ceded": -7403.42,
+     "inv_income": 241004.23,
      "commission": 41884.54,
      "opex": 176322.72,
      "benefits": 671406.58,
@@ -5439,6 +6679,7 @@
     "2020-21": {
      "premium": 1202484.14,
      "ri_ceded": -9882.47,
+     "inv_income": 264379.04195,
      "commission": 57991.09414,
      "opex": 192676.94933,
      "benefits": 610825.0958,
@@ -5447,6 +6688,7 @@
     "2021-22": {
      "premium": 1612705.38,
      "ri_ceded": -20215.1,
+     "inv_income": 299064.35,
      "commission": 83396.88,
      "opex": 286783.76,
      "benefits": 881013.49,
@@ -5455,6 +6697,7 @@
     "2022-23": {
      "premium": 1946143.0,
      "ri_ceded": -34603.05,
+     "inv_income": 335159.12,
      "commission": 120667.43,
      "opex": 389340.42,
      "benefits": 1237219.79,
@@ -5463,6 +6706,7 @@
     "2023-24": {
      "premium": 2304304.47,
      "ri_ceded": -37975.08,
+     "inv_income": 396315.61,
      "commission": 205932.04,
      "opex": 383032.76,
      "benefits": 1201160.77,
@@ -5471,11 +6715,24 @@
     "2024-25": {
      "premium": 2716006.13,
      "ri_ceded": -47036.02,
+     "inv_income": 454220.89,
      "commission": 310676.3,
      "opex": 424845.9,
      "benefits": 1247539.56834,
      "surplus": -34448.425489999354
     }
+   },
+   "sh_inv_income_lakh": {
+    "2015-16": 65013.281,
+    "2016-17": 60648.5255,
+    "2017-18": 59104.09,
+    "2018-19": 62028.23,
+    "2019-20": 58814.75,
+    "2020-21": 50441.23,
+    "2021-22": 54911.4,
+    "2022-23": 57099.65,
+    "2023-24": 66935.75,
+    "2024-25": 64092.4524
    },
    "pat_lakh": {
     "2015-16": 87896.9426,
@@ -5917,6 +7174,100 @@
       "lives": 16469399.0
      }
     }
+   },
+   "health_products_nb": {
+    "2016-17": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2017-18": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2018-19": {
+     "count": 1378.0,
+     "persons": 966.0,
+     "premium_lakh": 448.48086
+    },
+    "2019-20": {
+     "count": 718.0,
+     "persons": 601.0,
+     "premium_lakh": 257.72771
+    },
+    "2020-21": {
+     "count": 393.0,
+     "persons": 311.0,
+     "premium_lakh": 133.75894820000002
+    },
+    "2021-22": {
+     "count": 125.0,
+     "persons": 84.0,
+     "premium_lakh": 39.86912069999999
+    },
+    "2022-23": {
+     "count": 108.0,
+     "persons": 80.0,
+     "premium_lakh": 35.0503189
+    },
+    "2023-24": {
+     "count": 34.0,
+     "persons": 20.0,
+     "premium_lakh": 12.491490500000003
+    },
+    "2024-25": {
+     "count": 4.0,
+     "persons": 3.0,
+     "premium_lakh": 1.85
+    }
+   },
+   "health_riders_nb": {
+    "2016-17": {
+     "count": 8337.0,
+     "persons": 12380.0,
+     "premium_lakh": 117.4901091
+    },
+    "2017-18": {
+     "count": 12207.0,
+     "persons": 1282943.0,
+     "premium_lakh": 5156.8622672
+    },
+    "2018-19": {
+     "count": 682.0,
+     "persons": 628.0,
+     "premium_lakh": 31.36442880600003
+    },
+    "2019-20": {
+     "count": 690.0,
+     "persons": 1653447.0,
+     "premium_lakh": 3856.728894815
+    },
+    "2020-21": {
+     "count": 367.0,
+     "persons": 1910614.0,
+     "premium_lakh": 2318.8984187
+    },
+    "2021-22": {
+     "count": 312.0,
+     "persons": 3137692.0,
+     "premium_lakh": 3667.1620350030003
+    },
+    "2022-23": {
+     "count": 343.0,
+     "persons": 4098339.0,
+     "premium_lakh": 3932.2633193000006
+    },
+    "2023-24": {
+     "count": 361.0,
+     "persons": 2164220.0,
+     "premium_lakh": 3529.9760048540015
+    },
+    "2024-25": {
+     "count": 2010.0,
+     "persons": 1449135.0,
+     "premium_lakh": 2941.96
+    }
    }
   },
   "bandhan": {
@@ -6258,6 +7609,105 @@
     "2024": 4424.6558,
     "2025": 4760.7927
    },
+   "aum_mix": {
+    "2022": {
+     "life": {
+      "Central Government Securities": 1190.08,
+      "State Government & Other Approved Securities": 384.54,
+      "Housing & Infrastructure Investments": 626.5,
+      "Approved Investments": 412.6,
+      "Other Investments": 10.615,
+      "Total (Life Fund)": 2624.3349999999996
+     },
+     "pension_group": {
+      "Central Government Securities": 6.62,
+      "State Govt & Other Approved Securities": 0.0,
+      "Approved Investments": 0.74,
+      "Total (Pension & General Annuity & Group Fund)": 7.36
+     },
+     "ulip": {
+      "Approved Investments": 938.5300000000001,
+      "Other Investments": 108.17,
+      "Total (ULIP Funds)": 1046.7
+     }
+    },
+    "2023": {
+     "life": {
+      "Central Government Securities": 1183.3098468,
+      "State Government & Other Approved Securities": 498.6115878,
+      "Housing & Infrastructure Investments": 670.9109652,
+      "Approved Investments": 756.3787508,
+      "Other Investments": 25.0204667,
+      "Total (Life Fund)": 3134.2316173
+     },
+     "pension_group": {
+      "Central Government Securities": 4.188876,
+      "State Govt & Other Approved Securities": 0.0,
+      "Approved Investments": 0.9845735,
+      "Total (Pension & General Annuity & Group Fund)": 5.173449499999999
+     },
+     "ulip": {
+      "Approved Investments": 841.2371427,
+      "Other Investments": 115.1812111,
+      "Total (ULIP Funds)": 956.4183538000001
+     }
+    },
+    "2024": {
+     "life": {
+      "Central Government Securities": 1136.6230906,
+      "State Government & Other Approved Securities": 663.2270492,
+      "Housing & Infrastructure Investments": 674.3549322,
+      "Approved Investments": 885.6947658,
+      "Other Investments": 0.0,
+      "Total (Life Fund)": 3359.8998378
+     },
+     "pension_group": {
+      "Central Government Securities": 4.1953957,
+      "State Govt & Other Approved Securities": 0.0,
+      "Approved Investments": 1.5045639,
+      "Total (Pension & General Annuity & Group Fund)": 5.6999596
+     },
+     "ulip": {
+      "Approved Investments": 987.3322517,
+      "Other Investments": 71.7237447,
+      "Total (ULIP Funds)": 1059.0559964
+     }
+    },
+    "2025": {
+     "life": {
+      "Central Government Securities": 1121.155916,
+      "State Government & Other Approved Securities": 830.0323674000001,
+      "Housing & Infrastructure Investments": 878.4005247,
+      "Approved Investments": 922.7009118,
+      "Other Investments": 8.9717904,
+      "Total (Life Fund)": 3761.2615103
+     },
+     "pension_group": {
+      "Central Government Securities": 4.2020398,
+      "State Govt & Other Approved Securities": 0.0,
+      "Approved Investments": 1.915274,
+      "Total (Pension & General Annuity & Group Fund)": 6.1173138
+     },
+     "ulip": {
+      "Approved Investments": 950.6558107000001,
+      "Other Investments": 42.7580465,
+      "Total (ULIP Funds)": 993.4138572
+     }
+    }
+   },
+   "equity_capital_cr": {
+    "2015": 1310.5,
+    "2016": 1359.44,
+    "2017": 1429.8515,
+    "2018": 1442.6215,
+    "2019": 1463.1115,
+    "2020": 1465.599,
+    "2021": 1468.252,
+    "2022": 1477.73,
+    "2023": 1477.73,
+    "2024": 1842.73,
+    "2025": 2287.72
+   },
    "solvency": {
     "June 2015": 1.9742,
     "September 2015": 2.2067,
@@ -6304,6 +7754,7 @@
     "2015-16": {
      "premium": 50160.25423,
      "ri_ceded": -3028.69759,
+     "inv_income": 6472.83343,
      "commission": 1898.0198,
      "opex": 28090.67857,
      "benefits": 31535.96682,
@@ -6312,6 +7763,7 @@
     "2016-17": {
      "premium": 45071.91488,
      "ri_ceded": -3483.93654,
+     "inv_income": 8087.30382,
      "commission": 575.52885,
      "opex": 16991.99295,
      "benefits": 38844.48931,
@@ -6320,6 +7772,7 @@
     "2017-18": {
      "premium": 53120.67,
      "ri_ceded": -4097.77,
+     "inv_income": 9759.71,
      "commission": 564.32,
      "opex": 19260.82,
      "benefits": 34526.46,
@@ -6328,6 +7781,7 @@
     "2018-19": {
      "premium": 56888.19,
      "ri_ceded": -5081.93,
+     "inv_income": 11460.45,
      "commission": 414.2,
      "opex": 16438.73,
      "benefits": 29694.73,
@@ -6336,6 +7790,7 @@
     "2019-20": {
      "premium": 57573.67,
      "ri_ceded": -6160.14,
+     "inv_income": 13940.65,
      "commission": 462.19,
      "opex": 22099.39,
      "benefits": 28028.0,
@@ -6344,6 +7799,7 @@
     "2020-21": {
      "premium": 52607.157119999996,
      "ri_ceded": -7142.10311,
+     "inv_income": 14437.68098,
      "commission": 506.1533498,
      "opex": 10655.609999999997,
      "benefits": 30962.54349,
@@ -6352,6 +7808,7 @@
     "2021-22": {
      "premium": 41646.22,
      "ri_ceded": -7654.52,
+     "inv_income": 16449.94,
      "commission": 293.19,
      "opex": 16260.03,
      "benefits": 39111.12,
@@ -6360,6 +7817,7 @@
     "2022-23": {
      "premium": 36994.8,
      "ri_ceded": -6914.26,
+     "inv_income": 18860.71,
      "commission": 158.16,
      "opex": 16313.12,
      "benefits": 36094.29,
@@ -6368,6 +7826,7 @@
     "2023-24": {
      "premium": 43091.24,
      "ri_ceded": -7508.77,
+     "inv_income": 22212.08,
      "commission": 1888.26,
      "opex": 18262.67,
      "benefits": 40907.29,
@@ -6376,11 +7835,24 @@
     "2024-25": {
      "premium": 51228.0,
      "ri_ceded": -7882.0,
+     "inv_income": 24893.0,
      "commission": 7959.0,
      "opex": 28046.0,
      "benefits": 41974.0,
      "surplus": -11687.0
     }
+   },
+   "sh_inv_income_lakh": {
+    "2015-16": 404.2534,
+    "2016-17": 635.958,
+    "2017-18": 396.18,
+    "2018-19": 418.16,
+    "2019-20": 456.93,
+    "2020-21": 398.02,
+    "2021-22": 121.76,
+    "2022-23": 157.51,
+    "2023-24": 139.88,
+    "2024-25": 188.0
    },
    "pat_lakh": {
     "2015-16": -10439.0607,
@@ -6822,6 +8294,99 @@
       "lives": 181469.0
      }
     }
+   },
+   "health_products_nb": {
+    "2016-17": {
+     "count": 208.0,
+     "persons": 208.0,
+     "premium_lakh": 25.69
+    },
+    "2017-18": {
+     "count": 269.0,
+     "persons": 215.0,
+     "premium_lakh": 14.4412923
+    },
+    "2018-19": {
+     "count": 53.0,
+     "persons": 53.0,
+     "premium_lakh": 5.174751
+    },
+    "2019-20": {
+     "count": 8.0,
+     "persons": 8.0,
+     "premium_lakh": 4.96145
+    },
+    "2020-21": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 2.93645
+    },
+    "2021-22": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 1.42054
+    },
+    "2022-23": {
+     "count": 6.0,
+     "persons": 6.0,
+     "premium_lakh": 2.83695
+    },
+    "2023-24": {
+     "count": 0.0,
+     "persons": 4.0,
+     "premium_lakh": 1.3729
+    },
+    "2024-25": {
+     "count": 0.0,
+     "persons": 0.0
+    }
+   },
+   "health_riders_nb": {
+    "2016-17": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2017-18": {
+     "count": 7608.0,
+     "persons": 8179.0,
+     "premium_lakh": 55.93514
+    },
+    "2018-19": {
+     "count": 5758.0,
+     "persons": 8541.0,
+     "premium_lakh": 6.7054839
+    },
+    "2019-20": {
+     "count": 2170.0,
+     "persons": 36467.0,
+     "premium_lakh": 29.23669
+    },
+    "2020-21": {
+     "count": 5554.0,
+     "persons": 57888.0,
+     "premium_lakh": 313.7335697000054
+    },
+    "2021-22": {
+     "count": 2756.0,
+     "persons": 26536.0,
+     "premium_lakh": 76.11068320000004
+    },
+    "2022-23": {
+     "count": 6.0,
+     "persons": 6.0,
+     "premium_lakh": 0.09186
+    },
+    "2023-24": {
+     "count": 5369.0,
+     "persons": 5047.0,
+     "premium_lakh": 33.66549
+    },
+    "2024-25": {
+     "count": 183.0,
+     "persons": 113.0,
+     "premium_lakh": 22.67
+    }
    }
   },
   "bharti": {
@@ -7167,6 +8732,105 @@
     "2024": 15302.4741,
     "2025": 17048.1423
    },
+   "aum_mix": {
+    "2022": {
+     "life": {
+      "Central Government Securities": 4076.31,
+      "State Government & Other Approved Securities": 1271.08,
+      "Housing & Infrastructure Investments": 1490.2,
+      "Approved Investments": 1679.91,
+      "Other Investments": 283.939,
+      "Total (Life Fund)": 8801.439
+     },
+     "pension_group": {
+      "Central Government Securities": 166.35,
+      "State Govt & Other Approved Securities": 79.14,
+      "Approved Investments": 270.0,
+      "Total (Pension & General Annuity & Group Fund)": 515.49
+     },
+     "ulip": {
+      "Approved Investments": 1465.9,
+      "Other Investments": 245.63,
+      "Total (ULIP Funds)": 1711.5300000000002
+     }
+    },
+    "2023": {
+     "life": {
+      "Central Government Securities": 5218.284871,
+      "State Government & Other Approved Securities": 1818.3124756,
+      "Housing & Infrastructure Investments": 1936.9568722,
+      "Approved Investments": 1308.74400460043,
+      "Other Investments": 265.3185887,
+      "Total (Life Fund)": 10547.61681210043
+     },
+     "pension_group": {
+      "Central Government Securities": 180.7591747,
+      "State Govt & Other Approved Securities": 136.5417151,
+      "Approved Investments": 307.19735979999996,
+      "Total (Pension & General Annuity & Group Fund)": 624.4982496
+     },
+     "ulip": {
+      "Approved Investments": 1584.7752547999999,
+      "Other Investments": 181.368627,
+      "Total (ULIP Funds)": 1766.1438818
+     }
+    },
+    "2024": {
+     "life": {
+      "Central Government Securities": 6187.6038975,
+      "State Government & Other Approved Securities": 1903.6098225,
+      "Housing & Infrastructure Investments": 2202.1883354,
+      "Approved Investments": 1882.03410780043,
+      "Other Investments": 194.6324328,
+      "Total (Life Fund)": 12370.068596000428
+     },
+     "pension_group": {
+      "Central Government Securities": 266.0940336,
+      "State Govt & Other Approved Securities": 129.1275223,
+      "Approved Investments": 291.5390202,
+      "Total (Pension & General Annuity & Group Fund)": 686.7605761
+     },
+     "ulip": {
+      "Approved Investments": 2088.849978,
+      "Other Investments": 156.7949909,
+      "Total (ULIP Funds)": 2245.6449689
+     }
+    },
+    "2025": {
+     "life": {
+      "Central Government Securities": 7168.6977464,
+      "State Government & Other Approved Securities": 2219.346359099999,
+      "Housing & Infrastructure Investments": 2391.1932938,
+      "Approved Investments": 2053.0835759,
+      "Other Investments": 197.2423407,
+      "Total (Life Fund)": 14029.563315899999
+     },
+     "pension_group": {
+      "Central Government Securities": 260.5975216,
+      "State Govt & Other Approved Securities": 126.4544759,
+      "Approved Investments": 308.2144803,
+      "Total (Pension & General Annuity & Group Fund)": 695.2664778000001
+     },
+     "ulip": {
+      "Approved Investments": 2088.3109870999997,
+      "Other Investments": 235.0015456,
+      "Total (ULIP Funds)": 2323.3125327
+     }
+    }
+   },
+   "equity_capital_cr": {
+    "2015": 2115.701,
+    "2016": 2286.2,
+    "2017": 2406.201,
+    "2018": 2406.201,
+    "2019": 2526.201,
+    "2020": 2891.2009,
+    "2021": 3086.201,
+    "2022": 3426.201,
+    "2023": 3706.2,
+    "2024": 3841.2,
+    "2025": 3943.2
+   },
    "solvency": {
     "June 2015": 2.0017,
     "September 2015": 1.6157,
@@ -7213,6 +8877,7 @@
     "2015-16": {
      "premium": 120833.41034,
      "ri_ceded": -1889.27429,
+     "inv_income": 13532.36703,
      "commission": 8324.79943,
      "opex": 60576.48,
      "benefits": 62535.0608,
@@ -7221,6 +8886,7 @@
     "2016-17": {
      "premium": 139650.20186,
      "ri_ceded": -2203.46302,
+     "inv_income": 17800.66851,
      "commission": 10028.09263,
      "opex": 61578.33,
      "benefits": 56812.74588,
@@ -7229,6 +8895,7 @@
     "2017-18": {
      "premium": 168439.14,
      "ri_ceded": -2469.33,
+     "inv_income": 23614.62,
      "commission": 12193.87,
      "opex": 41730.5,
      "benefits": 56949.48,
@@ -7237,6 +8904,7 @@
     "2018-19": {
      "premium": 207550.2,
      "ri_ceded": -2843.02,
+     "inv_income": 31890.85,
      "commission": 17199.81,
      "opex": 45288.32,
      "benefits": 43262.63,
@@ -7245,6 +8913,7 @@
     "2019-20": {
      "premium": 218725.86,
      "ri_ceded": -3042.7,
+     "inv_income": 41552.85,
      "commission": 18960.4,
      "opex": 75736.27,
      "benefits": 39388.41,
@@ -7253,6 +8922,7 @@
     "2020-21": {
      "premium": 228082.16,
      "ri_ceded": -3245.15,
+     "inv_income": 50787.59,
      "commission": 15626.91,
      "opex": 69935.27,
      "benefits": 55064.34,
@@ -7261,6 +8931,7 @@
     "2021-22": {
      "premium": 260155.63,
      "ri_ceded": -4034.12,
+     "inv_income": 59502.32,
      "commission": 16807.78,
      "opex": 87178.78,
      "benefits": 77176.56,
@@ -7269,6 +8940,7 @@
     "2022-23": {
      "premium": 292057.89,
      "ri_ceded": -4981.6,
+     "inv_income": 73602.29,
      "commission": 18827.56,
      "opex": 92905.25,
      "benefits": 85926.63,
@@ -7277,6 +8949,7 @@
     "2023-24": {
      "premium": 290830.26,
      "ri_ceded": -5643.23,
+     "inv_income": 86983.85,
      "commission": 27969.25,
      "opex": 70137.26,
      "benefits": 111888.47,
@@ -7285,11 +8958,24 @@
     "2024-25": {
      "premium": 297995.0,
      "ri_ceded": -4887.0,
+     "inv_income": 88274.0,
      "commission": 27913.0,
      "opex": 65726.0,
      "benefits": 148885.0,
      "surplus": 12204.0
     }
+   },
+   "sh_inv_income_lakh": {
+    "2015-16": 1540.9039,
+    "2016-17": 1872.64,
+    "2017-18": 1906.1,
+    "2018-19": 2197.43,
+    "2019-20": 2490.98,
+    "2020-21": 2856.31,
+    "2021-22": 3777.53,
+    "2022-23": 3733.32,
+    "2023-24": 4659.82,
+    "2024-25": 5027.0
    },
    "pat_lakh": {
     "2015-16": -11148.0568,
@@ -7731,6 +9417,100 @@
       "lives": 353402.0
      }
     }
+   },
+   "health_products_nb": {
+    "2016-17": {
+     "count": 1087.0,
+     "persons": 914.0,
+     "premium_lakh": 77.07418204347829
+    },
+    "2017-18": {
+     "count": 1073.0,
+     "persons": 885.0,
+     "premium_lakh": 79.84706
+    },
+    "2018-19": {
+     "count": 939.0,
+     "persons": 937.0,
+     "premium_lakh": 83.1844559
+    },
+    "2019-20": {
+     "count": 22.0,
+     "persons": 22.0,
+     "premium_lakh": 1.8006821000000002
+    },
+    "2020-21": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2021-22": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2022-23": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2023-24": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2024-25": {
+     "count": -1.0,
+     "persons": -1.0,
+     "premium_lakh": -0.1
+    }
+   },
+   "health_riders_nb": {
+    "2016-17": {
+     "count": 7827.0,
+     "persons": 7755.0,
+     "premium_lakh": 150.98483453504022
+    },
+    "2017-18": {
+     "count": 6755.0,
+     "persons": 5880.0,
+     "premium_lakh": 147.41982
+    },
+    "2018-19": {
+     "count": 8791.0,
+     "persons": 8734.0,
+     "premium_lakh": 237.03264349999995
+    },
+    "2019-20": {
+     "count": 6895.0,
+     "persons": 6895.0,
+     "premium_lakh": 201.04621450000008
+    },
+    "2020-21": {
+     "count": 6649.0,
+     "persons": 6660.000000000001,
+     "premium_lakh": 151.46242880150308
+    },
+    "2021-22": {
+     "count": 4977.0,
+     "persons": 4759.0,
+     "premium_lakh": 101.75549199999999
+    },
+    "2022-23": {
+     "count": 2718.0,
+     "persons": 1223.0,
+     "premium_lakh": 65.99
+    },
+    "2023-24": {
+     "count": 1614.0,
+     "persons": 780.0,
+     "premium_lakh": 51.35951480000014
+    },
+    "2024-25": {
+     "count": 3643.0,
+     "persons": 1602.0,
+     "premium_lakh": 74.96
+    }
    }
   },
   "canarahsbc": {
@@ -8075,6 +9855,105 @@
     "2024": 37313.33,
     "2025": 41125.1698
    },
+   "aum_mix": {
+    "2022": {
+     "life": {
+      "Central Government Securities": 3552.08,
+      "State Government & Other Approved Securities": 2121.35,
+      "Housing & Infrastructure Investments": 1915.1,
+      "Approved Investments": 1468.89,
+      "Other Investments": 101.816,
+      "Total (Life Fund)": 9159.236
+     },
+     "pension_group": {
+      "Central Government Securities": 1315.24,
+      "State Govt & Other Approved Securities": 959.59,
+      "Approved Investments": 1835.81,
+      "Total (Pension & General Annuity & Group Fund)": 4110.639999999999
+     },
+     "ulip": {
+      "Approved Investments": 11375.679999999998,
+      "Other Investments": 1622.51,
+      "Total (ULIP Funds)": 12998.189999999999
+     }
+    },
+    "2023": {
+     "life": {
+      "Central Government Securities": 4363.0433586,
+      "State Government & Other Approved Securities": 3232.4421878,
+      "Housing & Infrastructure Investments": 2486.7535632999998,
+      "Approved Investments": 1716.5010876,
+      "Other Investments": 141.7530932,
+      "Total (Life Fund)": 11940.4932905
+     },
+     "pension_group": {
+      "Central Government Securities": 1211.950619,
+      "State Govt & Other Approved Securities": 1283.1275428,
+      "Approved Investments": 2791.8538085,
+      "Total (Pension & General Annuity & Group Fund)": 5286.9319703
+     },
+     "ulip": {
+      "Approved Investments": 11752.6482124,
+      "Other Investments": 1186.801529,
+      "Total (ULIP Funds)": 12939.4497414
+     }
+    },
+    "2024": {
+     "life": {
+      "Central Government Securities": 5149.56,
+      "State Government & Other Approved Securities": 4913.62,
+      "Housing & Infrastructure Investments": 2496.06,
+      "Approved Investments": 2755.79,
+      "Other Investments": 32.46,
+      "Total (Life Fund)": 15347.489999999998
+     },
+     "pension_group": {
+      "Central Government Securities": 1347.0,
+      "State Govt & Other Approved Securities": 1531.71,
+      "Approved Investments": 3169.54,
+      "Total (Pension & General Annuity & Group Fund)": 6048.25
+     },
+     "ulip": {
+      "Approved Investments": 14611.13,
+      "Other Investments": 1306.46,
+      "Total (ULIP Funds)": 15917.59
+     }
+    },
+    "2025": {
+     "life": {
+      "Central Government Securities": 6491.6299675,
+      "State Government & Other Approved Securities": 5755.6454441,
+      "Housing & Infrastructure Investments": 3280.5913074,
+      "Approved Investments": 3289.4303577,
+      "Other Investments": 51.520611,
+      "Total (Life Fund)": 18868.8176877
+     },
+     "pension_group": {
+      "Central Government Securities": 1215.2668282,
+      "State Govt & Other Approved Securities": 1598.5847038,
+      "Approved Investments": 2294.2700134,
+      "Total (Pension & General Annuity & Group Fund)": 5108.121545399999
+     },
+     "ulip": {
+      "Approved Investments": 16506.5488962,
+      "Other Investments": 641.6816786,
+      "Total (ULIP Funds)": 17148.230574800004
+     }
+    }
+   },
+   "equity_capital_cr": {
+    "2015": 950.0,
+    "2016": 950.0,
+    "2017": 950.0,
+    "2018": 950.0,
+    "2019": 950.0,
+    "2020": 950.0,
+    "2021": 950.0,
+    "2022": 950.0,
+    "2023": 950.0,
+    "2024": 950.0,
+    "2025": 950.0
+   },
    "solvency": {
     "June 2015": 3.5327,
     "September 2015": 3.84,
@@ -8121,6 +10000,7 @@
     "2015-16": {
      "premium": 205996.14048,
      "ri_ceded": -1467.07302,
+     "inv_income": 41021.23981,
      "commission": 5471.634,
      "opex": 27332.93459,
      "benefits": 174336.04576,
@@ -8129,6 +10009,7 @@
     "2016-17": {
      "premium": 229470.53111,
      "ri_ceded": -1470.59424,
+     "inv_income": 46369.6297,
      "commission": 6872.02287,
      "opex": 31243.21986,
      "benefits": 178332.76431,
@@ -8137,6 +10018,7 @@
     "2017-18": {
      "premium": 278105.69,
      "ri_ceded": -2874.95,
+     "inv_income": 51576.33,
      "commission": 12640.09,
      "opex": 36533.19,
      "benefits": 178574.19,
@@ -8145,6 +10027,7 @@
     "2018-19": {
      "premium": 349074.48,
      "ri_ceded": -4038.06,
+     "inv_income": 60026.31,
      "commission": 18500.47,
      "opex": 40741.33,
      "benefits": 160692.56,
@@ -8153,6 +10036,7 @@
     "2019-20": {
      "premium": 394282.25,
      "ri_ceded": -5405.19,
+     "inv_income": 72691.6,
      "commission": 22453.52,
      "opex": 52506.96,
      "benefits": 172269.78,
@@ -8161,6 +10045,7 @@
     "2020-21": {
      "premium": 511602.97,
      "ri_ceded": -8961.63,
+     "inv_income": 86236.72,
      "commission": 29364.83,
      "opex": 58756.61,
      "benefits": 205366.62,
@@ -8169,6 +10054,7 @@
     "2021-22": {
      "premium": 588992.27,
      "ri_ceded": -6586.62,
+     "inv_income": 109619.59,
      "commission": 35918.42,
      "opex": 69729.53,
      "benefits": 264375.11,
@@ -8177,6 +10063,7 @@
     "2022-23": {
      "premium": 719738.32,
      "ri_ceded": -16766.16,
+     "inv_income": 136855.66,
      "commission": 41354.82,
      "opex": 83622.95,
      "benefits": 307893.86,
@@ -8185,6 +10072,7 @@
     "2023-24": {
      "premium": 712870.11,
      "ri_ceded": -19606.22,
+     "inv_income": 173754.41,
      "commission": 41112.19,
      "opex": 93540.57,
      "benefits": 315065.17,
@@ -8193,11 +10081,24 @@
     "2024-25": {
      "premium": 802746.0,
      "ri_ceded": -17722.0,
+     "inv_income": 172463.0,
      "commission": 50712.0,
      "opex": 99422.0,
      "benefits": 506089.0,
      "surplus": 8115.0
     }
+   },
+   "sh_inv_income_lakh": {
+    "2015-16": 4202.8562,
+    "2016-17": 4994.9602,
+    "2017-18": 5618.88,
+    "2018-19": 6739.01,
+    "2019-20": 8468.22,
+    "2020-21": 8242.28,
+    "2021-22": 8013.54,
+    "2022-23": 9151.2,
+    "2023-24": 9617.93,
+    "2024-25": 9179.0
    },
    "pat_lakh": {
     "2015-16": 12600.4131,
@@ -8627,6 +10528,100 @@
       "lives": 8026161.0
      }
     }
+   },
+   "health_products_nb": {
+    "2016-17": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2017-18": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2018-19": {
+     "count": 3132.0,
+     "persons": 2331.0,
+     "premium_lakh": 66.22983269999997
+    },
+    "2019-20": {
+     "count": 16045.0,
+     "persons": 12011.0,
+     "premium_lakh": 244.96548150000226
+    },
+    "2020-21": {
+     "count": 9365.0,
+     "persons": 7392.0,
+     "premium_lakh": 141.06275470000026
+    },
+    "2021-22": {
+     "count": 2295.0,
+     "persons": 1868.0,
+     "premium_lakh": 35.85032260000009
+    },
+    "2022-23": {
+     "count": 1346.0,
+     "persons": 1087.0,
+     "premium_lakh": 18.491272500000026
+    },
+    "2023-24": {
+     "count": 401.0,
+     "persons": 330.0,
+     "premium_lakh": 8.200392300000008
+    },
+    "2024-25": {
+     "count": 39.0,
+     "persons": 27.0,
+     "premium_lakh": 2.14
+    }
+   },
+   "health_riders_nb": {
+    "2016-17": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2017-18": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2018-19": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2019-20": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2020-21": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2021-22": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2022-23": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2023-24": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2024-25": {
+     "count": 5.0,
+     "persons": 5.0,
+     "premium_lakh": 0.42
+    }
    }
   },
   "creditaccess": {
@@ -8780,6 +10775,53 @@
     "2024": 216.4225,
     "2025": 333.9289
    },
+   "aum_mix": {
+    "2024": {
+     "life": {
+      "Central Government Securities": 80.6824884,
+      "State Government & Other Approved Securities": 9.9000601,
+      "Housing & Infrastructure Investments": 27.4235785,
+      "Approved Investments": 23.3610029,
+      "Other Investments": 7.8828277,
+      "Total (Life Fund)": 149.24995760000002
+     },
+     "pension_group": {
+      "Central Government Securities": 31.9506308,
+      "State Govt & Other Approved Securities": 0.0,
+      "Approved Investments": 35.2219126,
+      "Total (Pension & General Annuity & Group Fund)": 67.1725434
+     },
+     "ulip": {
+      "Approved Investments": 0.0,
+      "Other Investments": 0.0,
+      "Total (ULIP Funds)": 0.0
+     }
+    },
+    "2025": {
+     "life": {
+      "Central Government Securities": 75.8671166,
+      "State Government & Other Approved Securities": 5.899403199999995,
+      "Housing & Infrastructure Investments": 32.5919588,
+      "Approved Investments": 45.1447679,
+      "Other Investments": 26.3833956,
+      "Total (Life Fund)": 185.88664210000002
+     },
+     "pension_group": {
+      "Central Government Securities": 65.6912884,
+      "State Govt & Other Approved Securities": 11.649909,
+      "Approved Investments": 70.7010354000044,
+      "Total (Pension & General Annuity & Group Fund)": 148.0422328000044
+     },
+     "ulip": {
+      "Approved Investments": 0.0,
+      "Total (ULIP Funds)": 0.0
+     }
+    }
+   },
+   "equity_capital_cr": {
+    "2024": 168.0,
+    "2025": 168.0
+   },
    "solvency": {
     "June 2023": 3.275,
     "September 2023": 3.2095,
@@ -8793,6 +10835,7 @@
    "revenue_account_lakh": {
     "2023-24": {
      "premium": 9699.78,
+     "inv_income": 100.23,
      "commission": 914.64,
      "opex": 2461.59,
      "benefits": 598.36,
@@ -8801,11 +10844,16 @@
     "2024-25": {
      "premium": 19297.0,
      "ri_ceded": -40.0,
+     "inv_income": 543.0,
      "commission": 2979.0,
      "opex": 2966.0,
      "benefits": 4184.0,
      "surplus": 1430.0
     }
+   },
+   "sh_inv_income_lakh": {
+    "2023-24": 702.6,
+    "2024-25": 745.2
    },
    "pat_lakh": {
     "2023-24": 440.82,
@@ -9068,6 +11116,20 @@
       "premium": 192.9741211685336,
       "lives": 1769060.0
      }
+    }
+   },
+   "health_products_nb": {
+    "2023-24": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    }
+   },
+   "health_riders_nb": {
+    "2023-24": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
     }
    }
   },
@@ -9411,6 +11473,105 @@
     "2024": 7919.8564,
     "2025": 9378.9473
    },
+   "aum_mix": {
+    "2022": {
+     "life": {
+      "Central Government Securities": 2004.59,
+      "State Government & Other Approved Securities": 7.3,
+      "Housing & Infrastructure Investments": 597.4,
+      "Approved Investments": 580.77,
+      "Other Investments": 226.937,
+      "Total (Life Fund)": 3416.997
+     },
+     "pension_group": {
+      "Central Government Securities": 200.84,
+      "State Govt & Other Approved Securities": 7.26,
+      "Approved Investments": 85.91,
+      "Total (Pension & General Annuity & Group Fund)": 294.01
+     },
+     "ulip": {
+      "Approved Investments": 1513.47,
+      "Other Investments": 193.08,
+      "Total (ULIP Funds)": 1706.55
+     }
+    },
+    "2023": {
+     "life": {
+      "Central Government Securities": 2384.2716268,
+      "State Government & Other Approved Securities": 106.3943338,
+      "Housing & Infrastructure Investments": 729.8410936,
+      "Approved Investments": 851.670700400002,
+      "Other Investments": 484.0991764,
+      "Total (Life Fund)": 4556.276931000002
+     },
+     "pension_group": {
+      "Central Government Securities": 211.6310557,
+      "State Govt & Other Approved Securities": 6.0230693,
+      "Approved Investments": 60.77909700000001,
+      "Total (Pension & General Annuity & Group Fund)": 278.433222
+     },
+     "ulip": {
+      "Approved Investments": 1567.4199411,
+      "Other Investments": 178.5782919,
+      "Total (ULIP Funds)": 1745.998233
+     }
+    },
+    "2024": {
+     "life": {
+      "Central Government Securities": 2947.3402366,
+      "State Government & Other Approved Securities": 222.8117402,
+      "Housing & Infrastructure Investments": 1039.88,
+      "Approved Investments": 880.81,
+      "Other Investments": 428.0284563,
+      "Total (Life Fund)": 5518.870433100001
+     },
+     "pension_group": {
+      "Central Government Securities": 206.4159564,
+      "State Govt & Other Approved Securities": 6.02,
+      "Approved Investments": 87.93,
+      "Total (Pension & General Annuity & Group Fund)": 300.3659564
+     },
+     "ulip": {
+      "Approved Investments": 1880.49,
+      "Other Investments": 220.13,
+      "Total (ULIP Funds)": 2100.62
+     }
+    },
+    "2025": {
+     "life": {
+      "Central Government Securities": 3655.9223299,
+      "State Government & Other Approved Securities": 212.73945249999997,
+      "Housing & Infrastructure Investments": 1135.2306257,
+      "Approved Investments": 1120.8406452,
+      "Other Investments": 810.8564859,
+      "Total (Life Fund)": 6935.5895392
+     },
+     "pension_group": {
+      "Central Government Securities": 187.5468955,
+      "State Govt & Other Approved Securities": 6.0216545,
+      "Approved Investments": 93.9708585,
+      "Total (Pension & General Annuity & Group Fund)": 287.53940850000004
+     },
+     "ulip": {
+      "Approved Investments": 1896.6229194,
+      "Other Investments": 259.1954134,
+      "Total (ULIP Funds)": 2155.8183328
+     }
+    }
+   },
+   "equity_capital_cr": {
+    "2015": 180.2865,
+    "2016": 261.59,
+    "2017": 261.5922,
+    "2018": 312.6222,
+    "2019": 312.6222,
+    "2020": 312.6209,
+    "2021": 312.6209,
+    "2022": 665.5521,
+    "2023": 915.55,
+    "2024": 915.552,
+    "2025": 1114.63
+   },
    "solvency": {
     "June 2015": 2.27,
     "September 2015": 2.5752,
@@ -9457,6 +11618,7 @@
     "2015-16": {
      "premium": 31006.5974043,
      "ri_ceded": -988.5327614,
+     "inv_income": 2264.85,
      "commission": 2654.2575207,
      "opex": 23634.62,
      "benefits": 1835.0651433,
@@ -9465,6 +11627,7 @@
     "2016-17": {
      "premium": 44133.3112634,
      "ri_ceded": -1544.1160712,
+     "inv_income": 4291.88,
      "commission": 2888.6689946,
      "opex": 28862.5960342,
      "benefits": 4294.1949942,
@@ -9473,6 +11636,7 @@
     "2017-18": {
      "premium": 63825.96,
      "ri_ceded": -1936.78,
+     "inv_income": 6845.96,
      "commission": 4001.85,
      "opex": 23817.66,
      "benefits": 7369.92,
@@ -9481,6 +11645,7 @@
     "2018-19": {
      "premium": 91931.1,
      "ri_ceded": -3022.58,
+     "inv_income": 10302.85,
      "commission": 5958.95,
      "opex": 30621.82,
      "benefits": 6685.25,
@@ -9489,6 +11654,7 @@
     "2019-20": {
      "premium": 104848.47,
      "ri_ceded": -4460.38,
+     "inv_income": 15577.97,
      "commission": 7896.11,
      "opex": 56928.78,
      "benefits": 8801.32,
@@ -9497,6 +11663,7 @@
     "2020-21": {
      "premium": 124823.84,
      "ri_ceded": -3583.28,
+     "inv_income": 22215.64,
      "commission": 10602.56,
      "opex": 54295.4,
      "benefits": 16458.83,
@@ -9505,6 +11672,7 @@
     "2021-22": {
      "premium": 146420.41,
      "ri_ceded": -3316.98,
+     "inv_income": 26515.78,
      "commission": 10727.01,
      "opex": 53890.95,
      "benefits": 31955.92,
@@ -9513,6 +11681,7 @@
     "2022-23": {
      "premium": 169047.09,
      "ri_ceded": -3608.91,
+     "inv_income": 35136.38,
      "commission": 13616.28,
      "opex": 57811.96,
      "benefits": 43522.6,
@@ -9521,6 +11690,7 @@
     "2023-24": {
      "premium": 193209.1,
      "ri_ceded": -3806.0,
+     "inv_income": 42334.33,
      "commission": 18159.89,
      "opex": 61763.77,
      "benefits": 70786.74,
@@ -9529,11 +11699,24 @@
     "2024-25": {
      "premium": 209299.0,
      "ri_ceded": -3906.0,
+     "inv_income": 43421.0,
      "commission": 22642.0,
      "opex": 60013.0,
      "benefits": 85293.0,
      "surplus": -7016.040000000037
     }
+   },
+   "sh_inv_income_lakh": {
+    "2015-16": 3790.521,
+    "2016-17": 5274.5627,
+    "2017-18": 4680.36,
+    "2018-19": 6613.04,
+    "2019-20": 4871.84,
+    "2020-21": 2436.26,
+    "2021-22": 2066.1,
+    "2022-23": 4934.2,
+    "2023-24": 4429.01,
+    "2024-25": 3228.0
    },
    "pat_lakh": {
     "2015-16": -15477.9577,
@@ -9974,6 +12157,99 @@
       "lives": 60430.0
      }
     }
+   },
+   "health_products_nb": {
+    "2016-17": {
+     "count": 714.0,
+     "persons": 709.0,
+     "premium_lakh": 54.55
+    },
+    "2017-18": {
+     "count": 1713.0,
+     "persons": 1702.0,
+     "premium_lakh": 242.38645
+    },
+    "2018-19": {
+     "count": 4859.0,
+     "persons": 4810.0,
+     "premium_lakh": 1678.87197
+    },
+    "2019-20": {
+     "count": 6939.0,
+     "persons": 6760.0,
+     "premium_lakh": 2106.05869
+    },
+    "2020-21": {
+     "count": 194.0,
+     "persons": 193.0,
+     "premium_lakh": 14.606156599999998
+    },
+    "2021-22": {
+     "count": 87.0,
+     "persons": 87.0,
+     "premium_lakh": 6.228349999999998
+    },
+    "2022-23": {
+     "count": 25.0,
+     "persons": 25.0,
+     "premium_lakh": 1.4193799999999999
+    },
+    "2023-24": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2024-25": {
+     "count": 0.0,
+     "persons": 0.0
+    }
+   },
+   "health_riders_nb": {
+    "2016-17": {
+     "count": 65.0,
+     "persons": 1299.0,
+     "premium_lakh": 19.5320253
+    },
+    "2017-18": {
+     "count": 7795.0,
+     "persons": 12508.0,
+     "premium_lakh": 74.31680853589819
+    },
+    "2018-19": {
+     "count": 12556.0,
+     "persons": 15738.0,
+     "premium_lakh": 129.42841152719998
+    },
+    "2019-20": {
+     "count": 15353.0,
+     "persons": 19651.0,
+     "premium_lakh": 159.14590966059998
+    },
+    "2020-21": {
+     "count": 294.0,
+     "persons": 4164.0,
+     "premium_lakh": 33.99828010000001
+    },
+    "2021-22": {
+     "count": 199.0,
+     "persons": 1625.0,
+     "premium_lakh": 14.7673177
+    },
+    "2022-23": {
+     "count": 18.0,
+     "persons": 18.0,
+     "premium_lakh": 9.114550000000003
+    },
+    "2023-24": {
+     "count": 86.0,
+     "persons": 86.0,
+     "premium_lakh": 6.624770000000001
+    },
+    "2024-25": {
+     "count": 41.0,
+     "persons": 41.0,
+     "premium_lakh": 2.03
+    }
    }
   },
   "generalicentral": {
@@ -10319,6 +12595,105 @@
     "2024": 7977.0242,
     "2025": 8826.763
    },
+   "aum_mix": {
+    "2022": {
+     "life": {
+      "Central Government Securities": 2978.61,
+      "State Government & Other Approved Securities": 197.6,
+      "Housing & Infrastructure Investments": 688.7,
+      "Approved Investments": 426.13,
+      "Other Investments": 7.238,
+      "Total (Life Fund)": 4298.278
+     },
+     "pension_group": {
+      "Central Government Securities": 221.26,
+      "State Govt & Other Approved Securities": 271.72,
+      "Approved Investments": 485.11,
+      "Total (Pension & General Annuity & Group Fund)": 978.09
+     },
+     "ulip": {
+      "Approved Investments": 655.81,
+      "Other Investments": 76.58,
+      "Total (ULIP Funds)": 732.39
+     }
+    },
+    "2023": {
+     "life": {
+      "Central Government Securities": 3528.6060667,
+      "State Government & Other Approved Securities": 392.8871231,
+      "Housing & Infrastructure Investments": 918.2373028,
+      "Approved Investments": 420.507653,
+      "Other Investments": 2.2387298,
+      "Total (Life Fund)": 5262.4768754
+     },
+     "pension_group": {
+      "Central Government Securities": 270.0118885,
+      "State Govt & Other Approved Securities": 288.4838321,
+      "Approved Investments": 577.9514343,
+      "Total (Pension & General Annuity & Group Fund)": 1136.4471549
+     },
+     "ulip": {
+      "Approved Investments": 626.8733711,
+      "Other Investments": 65.8904551,
+      "Total (ULIP Funds)": 692.7638262
+     }
+    },
+    "2024": {
+     "life": {
+      "Central Government Securities": 3900.67,
+      "State Government & Other Approved Securities": 383.57000000000016,
+      "Housing & Infrastructure Investments": 1089.55,
+      "Approved Investments": 737.22,
+      "Other Investments": 46.02,
+      "Total (Life Fund)": 6157.030000000001
+     },
+     "pension_group": {
+      "Central Government Securities": 261.5664253,
+      "State Govt & Other Approved Securities": 265.8375726,
+      "Approved Investments": 553.2102318,
+      "Total (Pension & General Annuity & Group Fund)": 1080.6142297
+     },
+     "ulip": {
+      "Approved Investments": 643.59,
+      "Other Investments": 95.79,
+      "Total (ULIP Funds)": 739.38
+     }
+    },
+    "2025": {
+     "life": {
+      "Central Government Securities": 4141.3826384,
+      "State Government & Other Approved Securities": 430.92998949999946,
+      "Housing & Infrastructure Investments": 1234.2224639,
+      "Approved Investments": 1109.1751221,
+      "Other Investments": 41.3431723,
+      "Total (Life Fund)": 6957.0533862
+     },
+     "pension_group": {
+      "Central Government Securities": 265.1821825,
+      "State Govt & Other Approved Securities": 247.3685499,
+      "Approved Investments": 586.8707784,
+      "Total (Pension & General Annuity & Group Fund)": 1099.4215107999999
+     },
+     "ulip": {
+      "Approved Investments": 719.1726261,
+      "Other Investments": 51.1154815,
+      "Total (ULIP Funds)": 770.2881076
+     }
+    }
+   },
+   "equity_capital_cr": {
+    "2015": 1452.0,
+    "2016": 1452.0,
+    "2017": 1507.45,
+    "2018": 1737.82,
+    "2019": 1842.82,
+    "2020": 1935.8206,
+    "2021": 1965.821,
+    "2022": 2145.821,
+    "2023": 2445.82,
+    "2024": 2599.32,
+    "2025": 2599.321
+   },
    "solvency": {
     "June 2015": 2.7325,
     "September 2015": 2.5778,
@@ -10365,6 +12740,7 @@
     "2015-16": {
      "premium": 59249.9385366,
      "ri_ceded": -2321.5441171,
+     "inv_income": 17437.3745514,
      "commission": 2637.8092304,
      "opex": 28375.18,
      "benefits": 42474.8961285,
@@ -10373,6 +12749,7 @@
     "2016-17": {
      "premium": 73984.7189152,
      "ri_ceded": -3197.429292,
+     "inv_income": 18153.2964233,
      "commission": 3421.5136698,
      "opex": 36468.46,
      "benefits": 40249.8553935,
@@ -10381,6 +12758,7 @@
     "2017-18": {
      "premium": 99229.33,
      "ri_ceded": -3477.6,
+     "inv_income": 19940.77,
      "commission": 3307.75,
      "opex": 54188.52,
      "benefits": 40436.42,
@@ -10389,6 +12767,7 @@
     "2018-19": {
      "premium": 124316.47,
      "ri_ceded": -4356.99,
+     "inv_income": 22857.07,
      "commission": 5097.27,
      "opex": 35375.38,
      "benefits": 36531.05,
@@ -10397,6 +12776,7 @@
     "2019-20": {
      "premium": 148024.73,
      "ri_ceded": -5139.37,
+     "inv_income": 27166.95,
      "commission": 5321.22,
      "opex": 62136.63,
      "benefits": 45451.75,
@@ -10405,6 +12785,7 @@
     "2020-21": {
      "premium": 132219.44,
      "ri_ceded": -4584.92,
+     "inv_income": 30151.54,
      "commission": 4163.71,
      "opex": 54939.31,
      "benefits": 50192.03,
@@ -10413,6 +12794,7 @@
     "2021-22": {
      "premium": 143353.63,
      "ri_ceded": -5726.63,
+     "inv_income": 37074.21,
      "commission": 4661.24,
      "opex": 51340.17,
      "benefits": 56058.55,
@@ -10421,6 +12803,7 @@
     "2022-23": {
      "premium": 175801.42,
      "ri_ceded": -9020.36,
+     "inv_income": 43864.48,
      "commission": 6573.73,
      "opex": 59273.71,
      "benefits": 65731.54,
@@ -10429,6 +12812,7 @@
     "2023-24": {
      "premium": 181053.79,
      "ri_ceded": -9534.41,
+     "inv_income": 49680.53,
      "commission": 8863.33,
      "opex": 54125.74,
      "benefits": 86560.75,
@@ -10437,11 +12821,24 @@
     "2024-25": {
      "premium": 251085.14,
      "ri_ceded": -11938.87097,
+     "inv_income": 46453.89449,
      "commission": 8552.8677477,
      "opex": 56592.0,
      "benefits": 138516.50356,
      "surplus": 8533.64068229997
     }
+   },
+   "sh_inv_income_lakh": {
+    "2015-16": 1867.1931,
+    "2016-17": 1481.945,
+    "2017-18": 1611.86,
+    "2018-19": 1854.62,
+    "2019-20": 1817.27,
+    "2020-21": 1746.31,
+    "2021-22": 825.19,
+    "2022-23": 1687.13,
+    "2023-24": 2993.36,
+    "2024-25": 2934.9431
    },
    "pat_lakh": {
     "2015-16": -3568.3068,
@@ -10883,6 +13280,100 @@
       "lives": 127965.0
      }
     }
+   },
+   "health_products_nb": {
+    "2016-17": {
+     "count": 1278.0,
+     "persons": 1261.0,
+     "premium_lakh": 25.92
+    },
+    "2017-18": {
+     "count": 16904.0,
+     "persons": 16683.0,
+     "premium_lakh": 324.75128
+    },
+    "2018-19": {
+     "count": 4427.0,
+     "persons": 4238.0,
+     "premium_lakh": 389.04353589999994
+    },
+    "2019-20": {
+     "count": 3693.0,
+     "persons": 3496.0,
+     "premium_lakh": 346.8437
+    },
+    "2020-21": {
+     "count": 5773.0,
+     "persons": 5719.0,
+     "premium_lakh": 423.65765
+    },
+    "2021-22": {
+     "count": 410.0,
+     "persons": 346.0,
+     "premium_lakh": 112.2828
+    },
+    "2022-23": {
+     "count": 278.0,
+     "persons": 213.0,
+     "premium_lakh": 27.49241
+    },
+    "2023-24": {
+     "count": 205.0,
+     "persons": 184.0,
+     "premium_lakh": 7.66765
+    },
+    "2024-25": {
+     "count": 32.0,
+     "persons": 26.0,
+     "premium_lakh": 1.49
+    }
+   },
+   "health_riders_nb": {
+    "2016-17": {
+     "count": 3714.0,
+     "persons": 290518.0,
+     "premium_lakh": 2558.88
+    },
+    "2017-18": {
+     "count": 93.0,
+     "persons": 408476.0,
+     "premium_lakh": 3635.290261700001
+    },
+    "2018-19": {
+     "count": 10.0,
+     "persons": 548901.0,
+     "premium_lakh": 5263.018507399916
+    },
+    "2019-20": {
+     "count": 14.0,
+     "persons": 351047.0,
+     "premium_lakh": 2738.1753704000007
+    },
+    "2020-21": {
+     "count": 6.0,
+     "persons": 36999.0,
+     "premium_lakh": 81.31891950000012
+    },
+    "2021-22": {
+     "count": 1.0,
+     "persons": 22249.0,
+     "premium_lakh": 62.43382530000001
+    },
+    "2022-23": {
+     "count": 5.0,
+     "persons": 30107.0,
+     "premium_lakh": 136.23849289999993
+    },
+    "2023-24": {
+     "count": 4.0,
+     "persons": 22315.0,
+     "premium_lakh": 91.323944
+    },
+    "2024-25": {
+     "count": 2.0,
+     "persons": 24431.0,
+     "premium_lakh": 87.61
+    }
    }
   },
   "godigit": {
@@ -11030,6 +13521,53 @@
     "2024": 398.9285,
     "2025": 1671.7747
    },
+   "aum_mix": {
+    "2024": {
+     "life": {
+      "Central Government Securities": 148.002577518938,
+      "State Government & Other Approved Securities": 0.0,
+      "Housing & Infrastructure Investments": 52.8828348165249,
+      "Approved Investments": 74.6366398267195,
+      "Other Investments": 5.74441022041777,
+      "Total (Life Fund)": 281.2664623826002
+     },
+     "pension_group": {
+      "Central Government Securities": 67.2530980509458,
+      "State Govt & Other Approved Securities": 0.0,
+      "Approved Investments": 50.40893668614766,
+      "Total (Pension & General Annuity & Group Fund)": 117.66203473709345
+     },
+     "ulip": {
+      "Approved Investments": 0.0,
+      "Other Investments": 0.0,
+      "Total (ULIP Funds)": 0.0
+     }
+    },
+    "2025": {
+     "life": {
+      "Central Government Securities": 758.292821474221,
+      "State Government & Other Approved Securities": 12.193319171529993,
+      "Housing & Infrastructure Investments": 277.161010738429,
+      "Approved Investments": 263.028660397345,
+      "Other Investments": 21.234879829535203,
+      "Total (Life Fund)": 1331.9106916110602
+     },
+     "pension_group": {
+      "Central Government Securities": 157.524299437326,
+      "State Govt & Other Approved Securities": 5.00611967311461,
+      "Approved Investments": 177.3335586204579,
+      "Total (Pension & General Annuity & Group Fund)": 339.86397773089845
+     },
+     "ulip": {
+      "Approved Investments": 0.0,
+      "Total (ULIP Funds)": 0.0
+     }
+    }
+   },
+   "equity_capital_cr": {
+    "2024": 121.19,
+    "2025": 213.2008
+   },
    "solvency": {
     "June 2023": 1.8232,
     "September 2023": 1.5591,
@@ -11044,6 +13582,7 @@
     "2023-24": {
      "premium": 42635.87,
      "ri_ceded": -17947.54,
+     "inv_income": 219.05,
      "commission": 11065.52,
      "opex": 13529.98,
      "benefits": 2249.98,
@@ -11052,11 +13591,16 @@
     "2024-25": {
      "premium": 106941.06,
      "ri_ceded": -45270.04321,
+     "inv_income": 2395.2292700000003,
      "commission": 34517.6,
      "opex": 27291.7,
      "benefits": 15581.33,
      "surplus": 16564.112709999987
     }
+   },
+   "sh_inv_income_lakh": {
+    "2023-24": 466.81,
+    "2024-25": 3591.0
    },
    "pat_lakh": {
     "2023-24": -10130.93,
@@ -11336,6 +13880,13 @@
       "premium": 1017.6080518890185,
       "lives": 6700659.0
      }
+    }
+   },
+   "health_riders_nb": {
+    "2024-25": {
+     "count": 7.0,
+     "persons": 479247.0,
+     "premium_lakh": 918.0
     }
    }
   },
@@ -11688,6 +14239,105 @@
     "2024": 287136.6336,
     "2025": 331407.6689
    },
+   "aum_mix": {
+    "2022": {
+     "life": {
+      "Central Government Securities": 32977.28,
+      "State Government & Other Approved Securities": 10076.62,
+      "Housing & Infrastructure Investments": 11557.2,
+      "Approved Investments": 21110.35,
+      "Other Investments": 1785.82,
+      "Total (Life Fund)": 77507.27000000002
+     },
+     "pension_group": {
+      "Central Government Securities": 18070.49,
+      "State Govt & Other Approved Securities": 10838.83,
+      "Approved Investments": 15013.85,
+      "Total (Pension & General Annuity & Group Fund)": 43923.17
+     },
+     "ulip": {
+      "Approved Investments": 71671.32,
+      "Other Investments": 8950.23,
+      "Total (ULIP Funds)": 80621.55
+     }
+    },
+    "2023": {
+     "life": {
+      "Central Government Securities": 58304.515091,
+      "State Government & Other Approved Securities": 10888.0262688,
+      "Housing & Infrastructure Investments": 19217.113157,
+      "Approved Investments": 19729.4376191,
+      "Other Investments": 2453.1750701,
+      "Total (Life Fund)": 110592.267206
+     },
+     "pension_group": {
+      "Central Government Securities": 24155.5949785,
+      "State Govt & Other Approved Securities": 10563.349084,
+      "Approved Investments": 12481.6780197,
+      "Total (Pension & General Annuity & Group Fund)": 47200.6220822
+     },
+     "ulip": {
+      "Approved Investments": 71368.10795490001,
+      "Other Investments": 7833.3579796,
+      "Total (ULIP Funds)": 79201.46593450001
+     }
+    },
+    "2024": {
+     "life": {
+      "Central Government Securities": 75563.14,
+      "State Government & Other Approved Securities": 15623.669999999998,
+      "Housing & Infrastructure Investments": 23328.08,
+      "Approved Investments": 20608.32,
+      "Other Investments": 2304.083269,
+      "Total (Life Fund)": 137427.293269
+     },
+     "pension_group": {
+      "Central Government Securities": 27457.4302957,
+      "State Govt & Other Approved Securities": 16315.629999999997,
+      "Approved Investments": 10394.66,
+      "Total (Pension & General Annuity & Group Fund)": 54167.7202957
+     },
+     "ulip": {
+      "Approved Investments": 86590.37,
+      "Other Investments": 8951.25,
+      "Total (ULIP Funds)": 95541.62
+     }
+    },
+    "2025": {
+     "life": {
+      "Central Government Securities": 91759.2823385,
+      "State Government & Other Approved Securities": 19093.3465955,
+      "Housing & Infrastructure Investments": 29297.2287251,
+      "Approved Investments": 26103.1014645,
+      "Other Investments": 4242.060288,
+      "Total (Life Fund)": 170495.0194116
+     },
+     "pension_group": {
+      "Central Government Securities": 27323.0743464,
+      "State Govt & Other Approved Securities": 19877.4812359,
+      "Approved Investments": 12083.9532618,
+      "Total (Pension & General Annuity & Group Fund)": 59284.5088441
+     },
+     "ulip": {
+      "Approved Investments": 94369.14673810001,
+      "Other Investments": 7258.9939451,
+      "Total (ULIP Funds)": 101628.1406832
+     }
+    }
+   },
+   "equity_capital_cr": {
+    "2015": 1994.88,
+    "2016": 1995.29,
+    "2017": 1998.48,
+    "2018": 2011.74,
+    "2019": 2017.38,
+    "2020": 2018.7984,
+    "2021": 2020.94,
+    "2022": 2112.6192,
+    "2023": 2149.4,
+    "2024": 2150.94,
+    "2025": 2152.9882
+   },
    "solvency": {
     "June 2015": 2.0815,
     "September 2015": 2.0426,
@@ -11734,6 +14384,7 @@
     "2015-16": {
      "premium": 1631297.77018,
      "ri_ceded": -13419.8029,
+     "inv_income": 347252.22453,
      "commission": 70184.36559,
      "opex": 187183.06443,
      "benefits": 817690.61,
@@ -11742,6 +14393,7 @@
     "2016-17": {
      "premium": 1944548.58139,
      "ri_ceded": -17062.14484,
+     "inv_income": 406761.30397,
      "commission": 79202.48431,
      "opex": 238528.12076,
      "benefits": 984217.08,
@@ -11750,6 +14402,7 @@
     "2017-18": {
      "premium": 2356441.33,
      "ri_ceded": -19344.68,
+     "inv_income": 473539.12,
      "commission": 107493.05,
      "opex": 315930.39,
      "benefits": 1289487.77,
@@ -11758,6 +14411,7 @@
     "2018-19": {
      "premium": 2918602.41,
      "ri_ceded": -26201.62,
+     "inv_income": 567916.75,
      "commission": 111767.95,
      "opex": 381357.32,
      "benefits": 1341463.91,
@@ -11766,6 +14420,7 @@
     "2019-20": {
      "premium": 3270689.38,
      "ri_ceded": -48329.31,
+     "inv_income": 684531.66,
      "commission": 149118.2,
      "opex": 426689.68,
      "benefits": 1817303.78,
@@ -11774,6 +14429,7 @@
     "2020-21": {
      "premium": 3858349.33,
      "ri_ceded": -46119.52,
+     "inv_income": 786115.35,
      "commission": 171039.85,
      "opex": 458597.05,
      "benefits": 2178067.13,
@@ -11782,6 +14438,7 @@
     "2021-22": {
      "premium": 4596282.78,
      "ri_ceded": -56636.56,
+     "inv_income": 945928.9,
      "commission": 194028.67,
      "opex": 561248.02,
      "benefits": 3115134.03,
@@ -11790,6 +14447,7 @@
     "2022-23": {
      "premium": 5753342.45,
      "ri_ceded": -76941.17,
+     "inv_income": 1284466.2,
      "commission": 288684.45,
      "opex": 843737.58,
      "benefits": 3764520.5700000003,
@@ -11798,6 +14456,7 @@
     "2023-24": {
      "premium": 6307648.1,
      "ri_ceded": -111726.06,
+     "inv_income": 1581152.0,
      "commission": 525632.08,
      "opex": 690105.78,
      "benefits": 3784131.11,
@@ -11806,11 +14465,24 @@
     "2024-25": {
      "premium": 7104491.3,
      "ri_ceded": -142876.77891,
+     "inv_income": 1166561.1842800002,
      "commission": 783528.66303,
      "opex": 622178.0,
      "benefits": 3691092.69,
      "surplus": 95235.5782300001
     }
+   },
+   "sh_inv_income_lakh": {
+    "2015-16": 16394.11,
+    "2016-17": 18331.07,
+    "2017-18": 22504.92,
+    "2018-19": 30490.25,
+    "2019-20": 36025.46,
+    "2020-21": 43820.11,
+    "2021-22": 47875.55,
+    "2022-23": 67202.85,
+    "2023-24": 82999.18,
+    "2024-25": 101604.0
    },
    "pat_lakh": {
     "2015-16": 81840.3543,
@@ -12252,6 +14924,100 @@
       "lives": 48407906.0
      }
     }
+   },
+   "health_products_nb": {
+    "2016-17": {
+     "count": 144312.0,
+     "persons": 160070.0,
+     "premium_lakh": 4117.0018377999995
+    },
+    "2017-18": {
+     "count": 154655.0,
+     "persons": 166344.0,
+     "premium_lakh": 5031.681945899997
+    },
+    "2018-19": {
+     "count": 114444.0,
+     "persons": 205349.0,
+     "premium_lakh": 8653.9561302
+    },
+    "2019-20": {
+     "count": 36435.0,
+     "persons": 153420.0,
+     "premium_lakh": 6311.3414815999995
+    },
+    "2020-21": {
+     "count": 10348.0,
+     "persons": 32672.0,
+     "premium_lakh": 1751.4033537
+    },
+    "2021-22": {
+     "count": 4660.0,
+     "persons": 13286.0,
+     "premium_lakh": 596.9268775
+    },
+    "2022-23": {
+     "count": 4652.0,
+     "persons": 15569.0,
+     "premium_lakh": 597.5720615
+    },
+    "2023-24": {
+     "count": 4267.0,
+     "persons": 4907.0,
+     "premium_lakh": 598.8710526
+    },
+    "2024-25": {
+     "count": 1837.0,
+     "persons": 6399.0,
+     "premium_lakh": 312.81
+    }
+   },
+   "health_riders_nb": {
+    "2016-17": {
+     "count": 32881.0,
+     "persons": 132345.0,
+     "premium_lakh": 2983.3548628999997
+    },
+    "2017-18": {
+     "count": 73108.0,
+     "persons": 80864.0,
+     "premium_lakh": 1007.89
+    },
+    "2018-19": {
+     "count": 77567.0,
+     "persons": 322224.0,
+     "premium_lakh": 3958.401732300026
+    },
+    "2019-20": {
+     "count": 47836.0,
+     "persons": 441408.0,
+     "premium_lakh": 5617.5310739999995
+    },
+    "2020-21": {
+     "count": 31733.0,
+     "persons": 323275.0,
+     "premium_lakh": 4491.642140899973
+    },
+    "2021-22": {
+     "count": 27072.0,
+     "persons": 590682.0,
+     "premium_lakh": 8556.2555832
+    },
+    "2022-23": {
+     "count": 49549.0,
+     "persons": 815528.0,
+     "premium_lakh": 9881.791866399999
+    },
+    "2023-24": {
+     "count": 58175.0,
+     "persons": 135555.0,
+     "premium_lakh": 1663.61001
+    },
+    "2024-25": {
+     "count": 74511.0,
+     "persons": 224020.0,
+     "premium_lakh": 2496.82
+    }
    }
   },
   "icici": {
@@ -12611,6 +15377,105 @@
     "2024": 286820.2872,
     "2025": 303175.9745
    },
+   "aum_mix": {
+    "2022": {
+     "life": {
+      "Central Government Securities": 41158.05,
+      "State Government & Other Approved Securities": 4560.3,
+      "Housing & Infrastructure Investments": 11594.5,
+      "Approved Investments": 12658.01,
+      "Other Investments": 2490.596,
+      "Total (Life Fund)": 72461.456
+     },
+     "pension_group": {
+      "Central Government Securities": 8565.29,
+      "State Govt & Other Approved Securities": 731.26,
+      "Approved Investments": 3317.34,
+      "Total (Pension & General Annuity & Group Fund)": 12613.890000000001
+     },
+     "ulip": {
+      "Approved Investments": 126595.44000000002,
+      "Other Investments": 24270.86,
+      "Total (ULIP Funds)": 150866.30000000002
+     }
+    },
+    "2023": {
+     "life": {
+      "Central Government Securities": 49060.755654026,
+      "State Government & Other Approved Securities": 5863.602667568,
+      "Housing & Infrastructure Investments": 13823.732173706001,
+      "Approved Investments": 15047.0800538,
+      "Other Investments": 2197.0989286,
+      "Total (Life Fund)": 85992.2694777
+     },
+     "pension_group": {
+      "Central Government Securities": 10250.6704615,
+      "State Govt & Other Approved Securities": 2127.401437,
+      "Approved Investments": 4014.0477123,
+      "Total (Pension & General Annuity & Group Fund)": 16392.1196108
+     },
+     "ulip": {
+      "Approved Investments": 122498.9842025,
+      "Other Investments": 21559.0723284,
+      "Total (ULIP Funds)": 144058.0565309
+     }
+    },
+    "2024": {
+     "life": {
+      "Central Government Securities": 59456.82,
+      "State Government & Other Approved Securities": 6658.140000000007,
+      "Housing & Infrastructure Investments": 16485.93,
+      "Approved Investments": 17616.837040151,
+      "Other Investments": 1919.2523654,
+      "Total (Life Fund)": 102136.97940555101
+     },
+     "pension_group": {
+      "Central Government Securities": 11739.359178415,
+      "State Govt & Other Approved Securities": 2838.83,
+      "Approved Investments": 5262.728573185001,
+      "Total (Pension & General Annuity & Group Fund)": 19840.917751599998
+     },
+     "ulip": {
+      "Approved Investments": 138033.18,
+      "Other Investments": 26809.21,
+      "Total (ULIP Funds)": 164842.38999999998
+     }
+    },
+    "2025": {
+     "life": {
+      "Central Government Securities": 62767.103121,
+      "State Government & Other Approved Securities": 5737.557888599993,
+      "Housing & Infrastructure Investments": 22780.4347262,
+      "Approved Investments": 24171.8648803,
+      "Other Investments": 2347.7874372,
+      "Total (Life Fund)": 117804.74805329999
+     },
+     "pension_group": {
+      "Central Government Securities": 12769.692377315,
+      "State Govt & Other Approved Securities": 3907.2444568,
+      "Approved Investments": 7454.385322685001,
+      "Total (Pension & General Annuity & Group Fund)": 24131.3221568
+     },
+     "ulip": {
+      "Approved Investments": 148496.2983105,
+      "Other Investments": 12743.6060042,
+      "Total (ULIP Funds)": 161239.9043147
+     }
+    }
+   },
+   "equity_capital_cr": {
+    "2015": 1431.72,
+    "2016": 1432.3194,
+    "2017": 1435.35,
+    "2018": 1435.35,
+    "2019": 1435.78,
+    "2020": 1435.8626,
+    "2021": 1435.9742,
+    "2022": 1437.306,
+    "2023": 1438.5714,
+    "2024": 1440.62,
+    "2025": 1445.32
+   },
    "solvency": {
     "June 2015": 3.4043,
     "September 2015": 3.2824,
@@ -12657,6 +15522,7 @@
     "2015-16": {
      "premium": 1916439.10122,
      "ri_ceded": -16569.38357,
+     "inv_income": 381690.27,
      "commission": 61997.68,
      "opex": 188834.89,
      "benefits": 1240868.22855,
@@ -12665,6 +15531,7 @@
     "2016-17": {
      "premium": 2235400.20861,
      "ri_ceded": -19875.44339,
+     "inv_income": 419291.63989,
      "commission": 75891.59471,
      "opex": 235719.55053,
      "benefits": 1496440.86168,
@@ -12673,6 +15540,7 @@
     "2017-18": {
      "premium": 2706876.92,
      "ri_ceded": -25809.17,
+     "inv_income": 481317.47,
      "commission": 140327.36,
      "opex": 202993.12,
      "benefits": 1722586.17,
@@ -12681,6 +15549,7 @@
     "2018-19": {
      "premium": 3092977.42,
      "ri_ceded": -35148.76,
+     "inv_income": 524383.42,
      "commission": 155128.9,
      "opex": 260532.11,
      "benefits": 1418850.86,
@@ -12689,6 +15558,7 @@
     "2019-20": {
      "premium": 3343070.38,
      "ri_ceded": -55175.3,
+     "inv_income": 607688.24,
      "commission": 158602.44,
      "opex": 284687.03,
      "benefits": 1930264.49,
@@ -12697,6 +15567,7 @@
     "2020-21": {
      "premium": 3573282.45,
      "ri_ceded": -75951.08,
+     "inv_income": 672300.73,
      "commission": 150021.79,
      "opex": 268826.36,
      "benefits": 2252466.23,
@@ -12705,6 +15576,7 @@
     "2021-22": {
      "premium": 3745799.35,
      "ri_ceded": -113679.15,
+     "inv_income": 788362.21,
      "commission": 167290.5,
      "opex": 367295.75,
      "benefits": 2914530.96,
@@ -12713,6 +15585,7 @@
     "2022-23": {
      "premium": 3993278.08,
      "ri_ceded": -137609.12,
+     "inv_income": 872834.86,
      "commission": 186388.72,
      "opex": 458322.96,
      "benefits": 3078867.62,
@@ -12721,6 +15594,7 @@
     "2023-24": {
      "premium": 4323564.37,
      "ri_ceded": -147597.1,
+     "inv_income": 1020193.52,
      "commission": 372196.47,
      "opex": 412598.15,
      "benefits": 3974590.46,
@@ -12729,11 +15603,24 @@
     "2024-25": {
      "premium": 4895071.0,
      "ri_ceded": -169130.0,
+     "inv_income": 1108106.0,
      "commission": 485940.0,
      "opex": 397160.0,
      "benefits": 4547108.0,
      "surplus": 77595.0
     }
+   },
+   "sh_inv_income_lakh": {
+    "2015-16": 38776.63,
+    "2016-17": 37406.83,
+    "2017-18": 41933.54,
+    "2018-19": 42514.66,
+    "2019-20": 44809.66,
+    "2020-21": 48153.69,
+    "2021-22": 50384.66,
+    "2022-23": 60675.9,
+    "2023-24": 64858.8,
+    "2024-25": 71301.0
    },
    "pat_lakh": {
     "2015-16": 165046.0609,
@@ -13175,6 +16062,100 @@
       "lives": 40600272.0
      }
     }
+   },
+   "health_products_nb": {
+    "2016-17": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2017-18": {
+     "count": 79610.0,
+     "persons": 83860.0,
+     "premium_lakh": 3507.33426
+    },
+    "2018-19": {
+     "count": 23119.0,
+     "persons": 24825.0,
+     "premium_lakh": 1238.47849
+    },
+    "2019-20": {
+     "count": 22768.0,
+     "persons": 22976.0,
+     "premium_lakh": 958.22886
+    },
+    "2020-21": {
+     "count": 31422.0,
+     "persons": 32181.0,
+     "premium_lakh": 1243.1726
+    },
+    "2021-22": {
+     "count": 19622.0,
+     "persons": 18640.0,
+     "premium_lakh": 770.64935
+    },
+    "2022-23": {
+     "count": 10618.0,
+     "persons": 10265.0,
+     "premium_lakh": 471.73789
+    },
+    "2023-24": {
+     "count": 9257.0,
+     "persons": 9139.0,
+     "premium_lakh": 496.98234
+    },
+    "2024-25": {
+     "count": 14128.0,
+     "persons": 12905.0,
+     "premium_lakh": 1018.65
+    }
+   },
+   "health_riders_nb": {
+    "2016-17": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2017-18": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": -0.0399
+    },
+    "2018-19": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": -0.02076
+    },
+    "2019-20": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.00091
+    },
+    "2020-21": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": -0.0239
+    },
+    "2021-22": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2022-23": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.00546
+    },
+    "2023-24": {
+     "count": 4332.0,
+     "persons": 4332.0,
+     "premium_lakh": 48.53858
+    },
+    "2024-25": {
+     "count": 18037.0,
+     "persons": 125014.0,
+     "premium_lakh": 1057.14
+    }
    }
   },
   "indiafirst": {
@@ -13521,6 +16502,105 @@
     "2024": 26655.8163,
     "2025": 30501.7827
    },
+   "aum_mix": {
+    "2022": {
+     "life": {
+      "Central Government Securities": 1713.08,
+      "State Government & Other Approved Securities": 1814.32,
+      "Housing & Infrastructure Investments": 899.0,
+      "Approved Investments": 888.82,
+      "Other Investments": 52.228,
+      "Total (Life Fund)": 5367.447999999999
+     },
+     "pension_group": {
+      "Central Government Securities": 1587.56,
+      "State Govt & Other Approved Securities": 2285.68,
+      "Approved Investments": 2339.88,
+      "Total (Pension & General Annuity & Group Fund)": 6213.12
+     },
+     "ulip": {
+      "Approved Investments": 6150.02,
+      "Other Investments": 1027.66,
+      "Total (ULIP Funds)": 7177.68
+     }
+    },
+    "2023": {
+     "life": {
+      "Central Government Securities": 2471.3729855,
+      "State Government & Other Approved Securities": 2705.3289797,
+      "Housing & Infrastructure Investments": 1656.7106923,
+      "Approved Investments": 1144.5722817,
+      "Other Investments": 71.5890566,
+      "Total (Life Fund)": 8049.5739957999995
+     },
+     "pension_group": {
+      "Central Government Securities": 1771.5403137,
+      "State Govt & Other Approved Securities": 2258.1758839,
+      "Approved Investments": 1612.3025192,
+      "Total (Pension & General Annuity & Group Fund)": 5642.018716799999
+     },
+     "ulip": {
+      "Approved Investments": 7119.6529685000005,
+      "Other Investments": 619.1538799,
+      "Total (ULIP Funds)": 7738.8068484000005
+     }
+    },
+    "2024": {
+     "life": {
+      "Central Government Securities": 3982.3777558,
+      "State Government & Other Approved Securities": 3380.8464361,
+      "Housing & Infrastructure Investments": 2064.8294976,
+      "Approved Investments": 1648.0916987,
+      "Other Investments": 64.9961659,
+      "Total (Life Fund)": 11141.1415541
+     },
+     "pension_group": {
+      "Central Government Securities": 2070.3143685,
+      "State Govt & Other Approved Securities": 2217.5768988,
+      "Approved Investments": 1704.8764606,
+      "Total (Pension & General Annuity & Group Fund)": 5992.7677279
+     },
+     "ulip": {
+      "Approved Investments": 8629.2384566,
+      "Other Investments": 892.6685199,
+      "Total (ULIP Funds)": 9521.9069765
+     }
+    },
+    "2025": {
+     "life": {
+      "Central Government Securities": 5532.0053212,
+      "State Government & Other Approved Securities": 4196.4492522,
+      "Housing & Infrastructure Investments": 2554.4563374,
+      "Approved Investments": 1635.7138658,
+      "Other Investments": 113.9720302,
+      "Total (Life Fund)": 14032.5968068
+     },
+     "pension_group": {
+      "Central Government Securities": 2545.0248358,
+      "State Govt & Other Approved Securities": 2342.8048717,
+      "Approved Investments": 1752.6903002,
+      "Total (Pension & General Annuity & Group Fund)": 6640.5200077
+     },
+     "ulip": {
+      "Approved Investments": 9086.6632999,
+      "Other Investments": 742.0026354,
+      "Total (ULIP Funds)": 9828.6659353
+     }
+    }
+   },
+   "equity_capital_cr": {
+    "2015": 475.0,
+    "2016": 625.0,
+    "2017": 625.0,
+    "2018": 625.0,
+    "2019": 625.0,
+    "2020": 635.0,
+    "2021": 663.46,
+    "2022": 663.4615,
+    "2023": 754.37,
+    "2024": 754.37,
+    "2025": 754.5893
+   },
    "solvency": {
     "June 2015": 1.633,
     "September 2015": 1.5814,
@@ -13567,6 +16647,7 @@
     "2015-16": {
      "premium": 196739.9954218,
      "ri_ceded": -3031.7621541,
+     "inv_income": 47644.9022966,
      "commission": 3981.4036798,
      "opex": 19074.9498,
      "benefits": 134211.5958629,
@@ -13575,6 +16656,7 @@
     "2016-17": {
      "premium": 226517.4667177,
      "ri_ceded": -4543.757265,
+     "inv_income": 56249.9691466,
      "commission": 6906.6123945,
      "opex": 22956.8314,
      "benefits": 114089.643805,
@@ -13583,6 +16665,7 @@
     "2017-18": {
      "premium": 230900.9587,
      "ri_ceded": -5128.8202,
+     "inv_income": 66649.407,
      "commission": 9385.7167,
      "opex": 27250.508,
      "benefits": 109897.5412,
@@ -13591,6 +16674,7 @@
     "2018-19": {
      "premium": 321255.2192,
      "ri_ceded": -5479.5451,
+     "inv_income": 74228.9177,
      "commission": 11504.8121,
      "opex": 34200.0346,
      "benefits": 135841.5588,
@@ -13599,6 +16683,7 @@
     "2019-20": {
      "premium": 336043.6429,
      "ri_ceded": -11514.019,
+     "inv_income": 82944.9358,
      "commission": 15062.322,
      "opex": 49178.8475,
      "benefits": 309390.981,
@@ -13607,6 +16692,7 @@
     "2020-21": {
      "premium": 405550.22,
      "ri_ceded": -15456.16,
+     "inv_income": 87830.58,
      "commission": 17136.49,
      "opex": 59326.19,
      "benefits": 332709.22,
@@ -13615,6 +16701,7 @@
     "2021-22": {
      "premium": 518656.44,
      "ri_ceded": -20135.91,
+     "inv_income": 92409.16,
      "commission": 25371.26,
      "opex": 70427.78,
      "benefits": 400876.54,
@@ -13623,6 +16710,7 @@
     "2022-23": {
      "premium": 607453.4139,
      "ri_ceded": -10089.443,
+     "inv_income": 99463.3996,
      "commission": 31043.3444,
      "opex": 84425.3337,
      "benefits": 373053.6814,
@@ -13631,6 +16719,7 @@
     "2023-24": {
      "premium": 697382.5345,
      "ri_ceded": -10088.9769,
+     "inv_income": 119093.6077,
      "commission": 44918.1888,
      "opex": 85035.6859,
      "benefits": 327593.6283,
@@ -13639,11 +16728,24 @@
     "2024-25": {
      "premium": 721808.92,
      "ri_ceded": -35227.56,
+     "inv_income": 143892.03,
      "commission": 57972.09,
      "opex": 93738.42,
      "benefits": 364134.84,
      "surplus": 8557.670000000158
     }
+   },
+   "sh_inv_income_lakh": {
+    "2015-16": 3318.4139,
+    "2016-17": 3645.9452,
+    "2017-18": 4018.7357,
+    "2018-19": 4223.046,
+    "2019-20": 4621.6825,
+    "2020-21": 5095.57,
+    "2021-22": 4474.87,
+    "2022-23": 4382.5966,
+    "2023-24": 5449.1381,
+    "2024-25": 6427.01
    },
    "pat_lakh": {
     "2015-16": 772.7035,
@@ -14085,6 +17187,95 @@
       "lives": 7652667.0
      }
     }
+   },
+   "health_products_nb": {
+    "2016-17": {
+     "count": 112.0,
+     "persons": 254.0,
+     "premium_lakh": 6.61202
+    },
+    "2017-18": {
+     "count": 1.0,
+     "persons": 656.0,
+     "premium_lakh": 0.1450638
+    },
+    "2018-19": {
+     "count": 2.0,
+     "persons": 13554.0,
+     "premium_lakh": 1.8413718
+    },
+    "2019-20": {
+     "count": 1.0,
+     "persons": 50.0,
+     "premium_lakh": 0.04041
+    },
+    "2020-21": {
+     "count": 9.0,
+     "persons": 4964.0,
+     "premium_lakh": 20.24878150000008
+    },
+    "2021-22": {
+     "count": 13.0,
+     "persons": 111971.0,
+     "premium_lakh": 84.33803479999911
+    },
+    "2022-23": {
+     "count": 6.0,
+     "persons": 1349.0,
+     "premium_lakh": 2.02
+    },
+    "2023-24": {
+     "count": 6.0,
+     "persons": 113502.0,
+     "premium_lakh": 57.38608259999739
+    },
+    "2024-25": {
+     "count": 4.0,
+     "persons": 31962.0,
+     "premium_lakh": 22.16
+    }
+   },
+   "health_riders_nb": {
+    "2016-17": {
+     "count": 1.0,
+     "persons": 45.0,
+     "premium_lakh": 0.1576
+    },
+    "2017-18": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": -0.0399
+    },
+    "2018-19": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2019-20": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2020-21": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2021-22": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2022-23": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2023-24": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    }
    }
   },
   "kotak": {
@@ -14438,6 +17629,105 @@
     "2024": 79227.2336,
     "2025": 90997.7929
    },
+   "aum_mix": {
+    "2022": {
+     "life": {
+      "Central Government Securities": 21569.43,
+      "State Government & Other Approved Securities": 435.4,
+      "Housing & Infrastructure Investments": 4926.1,
+      "Approved Investments": 2880.79,
+      "Other Investments": 654.868,
+      "Total (Life Fund)": 30466.588
+     },
+     "pension_group": {
+      "Central Government Securities": 1430.93,
+      "State Govt & Other Approved Securities": 13.33,
+      "Approved Investments": 701.55,
+      "Total (Pension & General Annuity & Group Fund)": 2145.81
+     },
+     "ulip": {
+      "Approved Investments": 19695.26,
+      "Other Investments": 2857.12,
+      "Total (ULIP Funds)": 22552.379999999997
+     }
+    },
+    "2023": {
+     "life": {
+      "Central Government Securities": 24503.258035,
+      "State Government & Other Approved Securities": 1653.217603,
+      "Housing & Infrastructure Investments": 6543.821352800001,
+      "Approved Investments": 4661.7221339,
+      "Other Investments": 738.9586984,
+      "Total (Life Fund)": 38100.9778231
+     },
+     "pension_group": {
+      "Central Government Securities": 1958.8458256,
+      "State Govt & Other Approved Securities": 478.1966155,
+      "Approved Investments": 683.2867386,
+      "Total (Pension & General Annuity & Group Fund)": 3120.3291797
+     },
+     "ulip": {
+      "Approved Investments": 20809.6054223,
+      "Other Investments": 1931.8297855,
+      "Total (ULIP Funds)": 22741.4352078
+     }
+    },
+    "2024": {
+     "life": {
+      "Central Government Securities": 29818.68,
+      "State Government & Other Approved Securities": 2881.5499999999993,
+      "Housing & Infrastructure Investments": 7584.34,
+      "Approved Investments": 4698.404492,
+      "Other Investments": 1054.6345896,
+      "Total (Life Fund)": 46037.6090816
+     },
+     "pension_group": {
+      "Central Government Securities": 3002.84,
+      "State Govt & Other Approved Securities": 716.6999999999998,
+      "Approved Investments": 784.2645026,
+      "Total (Pension & General Annuity & Group Fund)": 4503.8045026
+     },
+     "ulip": {
+      "Approved Investments": 25752.4,
+      "Other Investments": 2933.42,
+      "Total (ULIP Funds)": 28685.82
+     }
+    },
+    "2025": {
+     "life": {
+      "Central Government Securities": 34222.1416089,
+      "State Government & Other Approved Securities": 3991.1192731000046,
+      "Housing & Infrastructure Investments": 9126.3479162,
+      "Approved Investments": 5516.7551892,
+      "Other Investments": 1105.6240644,
+      "Total (Life Fund)": 53961.9880518
+     },
+     "pension_group": {
+      "Central Government Securities": 3976.4587952,
+      "State Govt & Other Approved Securities": 1020.3182052,
+      "Approved Investments": 1211.0606058,
+      "Total (Pension & General Annuity & Group Fund)": 6207.837606200001
+     },
+     "ulip": {
+      "Approved Investments": 28973.740196799998,
+      "Other Investments": 1854.2270618,
+      "Total (ULIP Funds)": 30827.967258599998
+     }
+    }
+   },
+   "equity_capital_cr": {
+    "2015": 510.2902,
+    "2016": 510.2902,
+    "2017": 510.2902,
+    "2018": 510.2902,
+    "2019": 510.2902,
+    "2020": 510.2902,
+    "2021": 510.2902,
+    "2022": 510.2902,
+    "2023": 510.29,
+    "2024": 510.29,
+    "2025": 510.29
+   },
    "solvency": {
     "June 2015": 3.2116,
     "September 2015": 3.1603,
@@ -14484,6 +17774,7 @@
     "2015-16": {
      "premium": 397168.1934,
      "ri_ceded": -5839.61594,
+     "inv_income": 76881.58,
      "commission": 25811.48015,
      "opex": 79412.7355,
      "benefits": 182403.31281,
@@ -14492,6 +17783,7 @@
     "2016-17": {
      "premium": 513954.81275,
      "ri_ceded": -7208.97404,
+     "inv_income": 92139.8,
      "commission": 32481.44315,
      "opex": 92818.0581,
      "benefits": 228716.80997,
@@ -14500,6 +17792,7 @@
     "2017-18": {
      "premium": 659867.22,
      "ri_ceded": -8720.57,
+     "inv_income": 108876.39,
      "commission": 37934.06,
      "opex": 111125.79,
      "benefits": 277093.36,
@@ -14508,6 +17801,7 @@
     "2018-19": {
      "premium": 816829.03,
      "ri_ceded": -11764.3,
+     "inv_income": 136364.77,
      "commission": 47472.47,
      "opex": 132973.6,
      "benefits": 293569.73,
@@ -14516,6 +17810,7 @@
     "2019-20": {
      "premium": 1034007.86,
      "ri_ceded": -14232.9,
+     "inv_income": 174295.23,
      "commission": 54995.22,
      "opex": 145900.99,
      "benefits": 357222.8,
@@ -14524,6 +17819,7 @@
     "2020-21": {
      "premium": 1110022.11,
      "ri_ceded": -19871.51,
+     "inv_income": 205250.53,
      "commission": 52300.495,
      "opex": 149668.69,
      "benefits": 409990.14,
@@ -14532,6 +17828,7 @@
     "2021-22": {
      "premium": 1301511.0,
      "ri_ceded": -23748.0,
+     "inv_income": 231170.0,
      "commission": 59028.0,
      "opex": 164847.0,
      "benefits": 581793.0,
@@ -14540,6 +17837,7 @@
     "2022-23": {
      "premium": 1532045.91,
      "ri_ceded": -30201.13,
+     "inv_income": 289383.39,
      "commission": 81420.6,
      "opex": 204583.81,
      "benefits": 636651.08,
@@ -14548,6 +17846,7 @@
     "2023-24": {
      "premium": 1770838.26,
      "ri_ceded": -36530.11,
+     "inv_income": 362242.2,
      "commission": 138630.3,
      "opex": 200580.17,
      "benefits": 726513.88,
@@ -14556,11 +17855,24 @@
     "2024-25": {
      "premium": 1837565.93,
      "ri_ceded": -38331.17,
+     "inv_income": 395215.97,
      "commission": 172946.61,
      "opex": 209906.55,
      "benefits": 831080.4,
      "surplus": 32780.554186900146
     }
+   },
+   "sh_inv_income_lakh": {
+    "2015-16": 10488.7921,
+    "2016-17": 12447.7901,
+    "2017-18": 14357.76,
+    "2018-19": 16786.6,
+    "2019-20": 20513.04,
+    "2020-21": 24335.77,
+    "2021-22": 27163.0,
+    "2022-23": 31830.34,
+    "2023-24": 39393.02,
+    "2024-25": 43915.0
    },
    "pat_lakh": {
     "2015-16": 25074.6829,
@@ -15002,6 +18314,100 @@
       "lives": 17009282.0
      }
     }
+   },
+   "health_products_nb": {
+    "2016-17": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2017-18": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2018-19": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2019-20": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2020-21": {
+     "count": 8832.0,
+     "persons": 8808.0,
+     "premium_lakh": 631.89693
+    },
+    "2021-22": {
+     "count": 12072.0,
+     "persons": 11983.0,
+     "premium_lakh": 718.6475
+    },
+    "2022-23": {
+     "count": 3400.0,
+     "persons": 3400.0,
+     "premium_lakh": 191.03034
+    },
+    "2023-24": {
+     "count": -3.0,
+     "persons": -3.0,
+     "premium_lakh": 0.27445
+    },
+    "2024-25": {
+     "count": 296.0,
+     "persons": 293.0,
+     "premium_lakh": 9.81
+    }
+   },
+   "health_riders_nb": {
+    "2016-17": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2017-18": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": -0.0399
+    },
+    "2018-19": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2019-20": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2020-21": {
+     "count": 259613.0,
+     "persons": 330329.0,
+     "premium_lakh": 1698.3099087
+    },
+    "2021-22": {
+     "count": 339964.0,
+     "persons": 140472.0,
+     "premium_lakh": 1158.3699085999976
+    },
+    "2022-23": {
+     "count": 158063.0,
+     "persons": 164541.0,
+     "premium_lakh": 1194.5151791999951
+    },
+    "2023-24": {
+     "count": 133561.0,
+     "persons": 85895.0,
+     "premium_lakh": 1206.0838509999999
+    },
+    "2024-25": {
+     "count": 74108.0,
+     "persons": 119240.0,
+     "premium_lakh": 1937.59
+    }
    }
   },
   "pnbmetlife": {
@@ -15353,6 +18759,105 @@
     "2024": 47420.0559,
     "2025": 54000.6861
    },
+   "aum_mix": {
+    "2022": {
+     "life": {
+      "Central Government Securities": 10608.38,
+      "State Government & Other Approved Securities": 3511.39,
+      "Housing & Infrastructure Investments": 5863.6,
+      "Approved Investments": 4278.54,
+      "Other Investments": 211.964,
+      "Total (Life Fund)": 24473.874
+     },
+     "pension_group": {
+      "Central Government Securities": 1015.4,
+      "State Govt & Other Approved Securities": 237.82,
+      "Approved Investments": 296.06,
+      "Total (Pension & General Annuity & Group Fund)": 1549.28
+     },
+     "ulip": {
+      "Approved Investments": 7056.790000000001,
+      "Other Investments": 1024.31,
+      "Total (ULIP Funds)": 8081.1
+     }
+    },
+    "2023": {
+     "life": {
+      "Central Government Securities": 12438.7190376,
+      "State Government & Other Approved Securities": 5064.1939482,
+      "Housing & Infrastructure Investments": 7462.501368499999,
+      "Approved Investments": 3798.3018147,
+      "Other Investments": 255.3223605,
+      "Total (Life Fund)": 29019.0385295
+     },
+     "pension_group": {
+      "Central Government Securities": 1512.4993218,
+      "State Govt & Other Approved Securities": 353.5488186,
+      "Approved Investments": 341.0324806,
+      "Total (Pension & General Annuity & Group Fund)": 2207.080621
+     },
+     "ulip": {
+      "Approved Investments": 7925.2775331,
+      "Other Investments": 468.5889118,
+      "Total (ULIP Funds)": 8393.8664449
+     }
+    },
+    "2024": {
+     "life": {
+      "Central Government Securities": 13773.52,
+      "State Government & Other Approved Securities": 6335.23,
+      "Housing & Infrastructure Investments": 6948.4400000000005,
+      "Approved Investments": 6570.94,
+      "Other Investments": 218.2,
+      "Total (Life Fund)": 33846.33
+     },
+     "pension_group": {
+      "Central Government Securities": 1684.5563744,
+      "State Govt & Other Approved Securities": 546.54,
+      "Approved Investments": 549.0595201,
+      "Total (Pension & General Annuity & Group Fund)": 2780.1558945
+     },
+     "ulip": {
+      "Approved Investments": 10354.13,
+      "Other Investments": 439.44,
+      "Total (ULIP Funds)": 10793.57
+     }
+    },
+    "2025": {
+     "life": {
+      "Central Government Securities": 15598.6609614,
+      "State Government & Other Approved Securities": 6874.851908299999,
+      "Housing & Infrastructure Investments": 7718.9502864,
+      "Approved Investments": 7359.5434426,
+      "Other Investments": 171.2754566,
+      "Total (Life Fund)": 37723.282055300006
+     },
+     "pension_group": {
+      "Central Government Securities": 2026.7269367,
+      "State Govt & Other Approved Securities": 871.4286872,
+      "Approved Investments": 1260.8055182,
+      "Total (Pension & General Annuity & Group Fund)": 4158.9611421
+     },
+     "ulip": {
+      "Approved Investments": 11582.4057486,
+      "Other Investments": 536.0371306,
+      "Total (ULIP Funds)": 12118.4428792
+     }
+    }
+   },
+   "equity_capital_cr": {
+    "2015": 2012.8843,
+    "2016": 2012.8843,
+    "2017": 2012.8843,
+    "2018": 2012.8843,
+    "2019": 2012.8843,
+    "2020": 2012.8843,
+    "2021": 2012.8843,
+    "2022": 2012.8843,
+    "2023": 2012.88,
+    "2024": 2012.88,
+    "2025": 2012.88
+   },
    "solvency": {
     "June 2015": 2.1796,
     "September 2015": 2.1827,
@@ -15399,6 +18904,7 @@
     "2015-16": {
      "premium": 282783.4547,
      "ri_ceded": -10060.54514,
+     "inv_income": 71933.94352,
      "commission": 16146.26423,
      "opex": 74932.94661,
      "benefits": 143073.5279,
@@ -15407,6 +18913,7 @@
     "2016-17": {
      "premium": 323607.99601,
      "ri_ceded": -9717.42472,
+     "inv_income": 81086.22904,
      "commission": 17965.21967,
      "opex": 74663.38446,
      "benefits": 176908.25279,
@@ -15415,6 +18922,7 @@
     "2017-18": {
      "premium": 395351.08,
      "ri_ceded": -9299.55,
+     "inv_income": 95808.66,
      "commission": 21547.6,
      "opex": 81483.95,
      "benefits": 210843.49,
@@ -15423,6 +18931,7 @@
     "2018-19": {
      "premium": 477719.66,
      "ri_ceded": -11855.73,
+     "inv_income": 113520.21,
      "commission": 25077.06,
      "opex": 90646.52,
      "benefits": 193633.44,
@@ -15431,6 +18940,7 @@
     "2019-20": {
      "premium": 550695.52,
      "ri_ceded": -15885.69,
+     "inv_income": 128379.62,
      "commission": 28364.68,
      "opex": 90710.68,
      "benefits": 233507.69,
@@ -15439,6 +18949,7 @@
     "2020-21": {
      "premium": 603281.87,
      "ri_ceded": -21919.52,
+     "inv_income": 150495.21,
      "commission": 33891.89,
      "opex": 100850.1,
      "benefits": 250843.7,
@@ -15447,6 +18958,7 @@
     "2021-22": {
      "premium": 734826.0,
      "ri_ceded": -38779.0,
+     "inv_income": 177161.0,
      "commission": 40678.0,
      "opex": 120892.0,
      "benefits": 300065.0,
@@ -15455,6 +18967,7 @@
     "2022-23": {
      "premium": 878520.56,
      "ri_ceded": -45126.7,
+     "inv_income": 208610.43,
      "commission": 51944.55,
      "opex": 145177.03,
      "benefits": 290277.34,
@@ -15463,6 +18976,7 @@
     "2023-24": {
      "premium": 973228.06,
      "ri_ceded": -42325.67,
+     "inv_income": 249491.15,
      "commission": 67712.17,
      "opex": 148694.37,
      "benefits": 455144.26,
@@ -15471,11 +18985,24 @@
     "2024-25": {
      "premium": 1175239.0,
      "ri_ceded": -43125.0,
+     "inv_income": 285335.0,
      "commission": 76425.0,
      "opex": 148903.0,
      "benefits": 566469.0,
      "surplus": 22423.97999999998
     }
+   },
+   "sh_inv_income_lakh": {
+    "2015-16": 5280.9319,
+    "2016-17": 5669.0051,
+    "2017-18": 6459.83,
+    "2018-19": 8566.7,
+    "2019-20": 9446.83,
+    "2020-21": 10146.43,
+    "2021-22": 10214.0,
+    "2022-23": 12719.14,
+    "2023-24": 13617.99,
+    "2024-25": 15560.69
    },
    "pat_lakh": {
     "2015-16": 5362.6154,
@@ -15917,6 +19444,95 @@
       "lives": 1257344.0
      }
     }
+   },
+   "health_products_nb": {
+    "2016-17": {
+     "count": 14510.0,
+     "persons": 14478.0,
+     "premium_lakh": 2382.7284907000017
+    },
+    "2017-18": {
+     "count": 2924.0,
+     "persons": 2924.0,
+     "premium_lakh": 593.8508493999985
+    },
+    "2018-19": {
+     "count": 644.0,
+     "persons": 644.0,
+     "premium_lakh": 134.14657800000015
+    },
+    "2019-20": {
+     "count": 333.0,
+     "persons": 332.0,
+     "premium_lakh": 56.2731601
+    },
+    "2020-21": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2021-22": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2022-23": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2023-24": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    }
+   },
+   "health_riders_nb": {
+    "2016-17": {
+     "count": 17136.0,
+     "persons": 87852.0,
+     "premium_lakh": 359.4599317
+    },
+    "2017-18": {
+     "count": 17614.0,
+     "persons": 19694.0,
+     "premium_lakh": 144.9459670999998
+    },
+    "2018-19": {
+     "count": 5593.0,
+     "persons": 17836.0,
+     "premium_lakh": 269.6745639999985
+    },
+    "2019-20": {
+     "count": 4444.0,
+     "persons": 123560.0,
+     "premium_lakh": 500.40112
+    },
+    "2020-21": {
+     "count": 4470.0,
+     "persons": 34564.0,
+     "premium_lakh": 519.6281501999986
+    },
+    "2021-22": {
+     "count": 2723.0,
+     "persons": 25683.0,
+     "premium_lakh": 478.8486818999998
+    },
+    "2022-23": {
+     "count": 488.0,
+     "persons": 80855.0,
+     "premium_lakh": 568.8823881
+    },
+    "2023-24": {
+     "count": 263.0,
+     "persons": 56609.0,
+     "premium_lakh": 363.7762556999999
+    },
+    "2024-25": {
+     "count": 45.0,
+     "persons": 34058.0,
+     "premium_lakh": 346.81
+    }
    }
   },
   "pramerica": {
@@ -16266,6 +19882,105 @@
     "2024": 8422.4075,
     "2025": 9607.1481
    },
+   "aum_mix": {
+    "2022": {
+     "life": {
+      "Central Government Securities": 2595.64,
+      "State Government & Other Approved Securities": 244.07,
+      "Housing & Infrastructure Investments": 1056.9,
+      "Approved Investments": 691.12,
+      "Other Investments": 47.93,
+      "Total (Life Fund)": 4635.660000000001
+     },
+     "pension_group": {
+      "Central Government Securities": 535.26,
+      "State Govt & Other Approved Securities": 52.37,
+      "Approved Investments": 531.68,
+      "Total (Pension & General Annuity & Group Fund)": 1119.31
+     },
+     "ulip": {
+      "Approved Investments": 363.68,
+      "Other Investments": 47.46,
+      "Total (ULIP Funds)": 411.14
+     }
+    },
+    "2023": {
+     "life": {
+      "Central Government Securities": 2984.5197689,
+      "State Government & Other Approved Securities": 476.6851448,
+      "Housing & Infrastructure Investments": 1284.0327266,
+      "Approved Investments": 647.3513966,
+      "Other Investments": 37.1013852,
+      "Total (Life Fund)": 5429.6904220999995
+     },
+     "pension_group": {
+      "Central Government Securities": 600.9023323,
+      "State Govt & Other Approved Securities": 129.6600203,
+      "Approved Investments": 703.4626801999999,
+      "Total (Pension & General Annuity & Group Fund)": 1434.0250328
+     },
+     "ulip": {
+      "Approved Investments": 333.85074080000004,
+      "Other Investments": 25.1255936,
+      "Total (ULIP Funds)": 358.97633440000004
+     }
+    },
+    "2024": {
+     "life": {
+      "Central Government Securities": 3400.0749837,
+      "State Government & Other Approved Securities": 793.9655452,
+      "Housing & Infrastructure Investments": 1234.1341443000001,
+      "Approved Investments": 684.2182363,
+      "Other Investments": 43.966633,
+      "Total (Life Fund)": 6156.3595425
+     },
+     "pension_group": {
+      "Central Government Securities": 777.6379224,
+      "State Govt & Other Approved Securities": 196.6389528,
+      "Approved Investments": 934.1529054,
+      "Total (Pension & General Annuity & Group Fund)": 1908.4297806
+     },
+     "ulip": {
+      "Approved Investments": 334.0037067,
+      "Other Investments": 23.6144816,
+      "Total (ULIP Funds)": 357.6181883
+     }
+    },
+    "2025": {
+     "life": {
+      "Central Government Securities": 3631.5040045,
+      "State Government & Other Approved Securities": 1037.0007517,
+      "Housing & Infrastructure Investments": 1529.5433377,
+      "Approved Investments": 763.6565026,
+      "Other Investments": 36.5465181,
+      "Total (Life Fund)": 6998.2511146
+     },
+     "pension_group": {
+      "Central Government Securities": 786.273645,
+      "State Govt & Other Approved Securities": 368.4096185,
+      "Approved Investments": 1077.5334064,
+      "Total (Pension & General Annuity & Group Fund)": 2232.2166699
+     },
+     "ulip": {
+      "Approved Investments": 346.8859189,
+      "Other Investments": 29.7943836,
+      "Total (ULIP Funds)": 376.6803025
+     }
+    }
+   },
+   "equity_capital_cr": {
+    "2015": 374.0619,
+    "2016": 374.0619,
+    "2017": 374.0619,
+    "2018": 374.0619,
+    "2019": 374.0619,
+    "2020": 374.0619,
+    "2021": 374.0619,
+    "2022": 374.0619,
+    "2023": 374.0619,
+    "2024": 374.06,
+    "2025": 374.06
+   },
    "solvency": {
     "June 2015": 12.7919,
     "September 2015": 13.1248,
@@ -16312,6 +20027,7 @@
     "2015-16": {
      "premium": 92020.96216,
      "ri_ceded": -3209.9154,
+     "inv_income": 7776.55486,
      "commission": 2460.56242,
      "opex": 34298.31558,
      "benefits": 15785.32618,
@@ -16320,6 +20036,7 @@
     "2016-17": {
      "premium": 114210.2727,
      "ri_ceded": -5258.71245,
+     "inv_income": 11595.83,
      "commission": 2599.9767,
      "opex": 41152.00922,
      "benefits": 19369.402,
@@ -16328,6 +20045,7 @@
     "2017-18": {
      "premium": 184445.91,
      "ri_ceded": -9868.71,
+     "inv_income": 16796.68,
      "commission": 7065.97,
      "opex": 62462.66,
      "benefits": 25433.58,
@@ -16336,6 +20054,7 @@
     "2018-19": {
      "premium": 181686.03,
      "ri_ceded": -12549.08,
+     "inv_income": 23430.46,
      "commission": 8135.15,
      "opex": 53535.33,
      "benefits": 32191.54,
@@ -16344,6 +20063,7 @@
     "2019-20": {
      "premium": 122806.23,
      "ri_ceded": -10075.54,
+     "inv_income": 28056.69,
      "commission": 3960.36,
      "opex": 33031.07,
      "benefits": 39373.93,
@@ -16352,6 +20072,7 @@
     "2020-21": {
      "premium": 99360.045,
      "ri_ceded": -5859.65,
+     "inv_income": 31417.5,
      "commission": 2942.94,
      "opex": 24981.63,
      "benefits": 38562.88,
@@ -16360,6 +20081,7 @@
     "2021-22": {
      "premium": 109877.51,
      "ri_ceded": -4597.44,
+     "inv_income": 35152.22,
      "commission": 3311.07,
      "opex": 26189.61,
      "benefits": 51461.84,
@@ -16368,6 +20090,7 @@
     "2022-23": {
      "premium": 149539.22,
      "ri_ceded": -4492.48,
+     "inv_income": 40498.57,
      "commission": 6024.66,
      "opex": 32027.8,
      "benefits": 44614.59,
@@ -16376,6 +20099,7 @@
     "2023-24": {
      "premium": 191937.95,
      "ri_ceded": -7378.34,
+     "inv_income": 46727.13,
      "commission": 27014.76,
      "opex": 43175.63,
      "benefits": 56523.89,
@@ -16384,11 +20108,24 @@
     "2024-25": {
      "premium": 207443.49,
      "ri_ceded": -14562.11,
+     "inv_income": 55183.25,
      "commission": 32712.49,
      "opex": 45146.02,
      "benefits": 61949.13,
      "surplus": 15048.756570000027
     }
+   },
+   "sh_inv_income_lakh": {
+    "2015-16": 5732.727,
+    "2016-17": 5799.9128,
+    "2017-18": 5987.6,
+    "2018-19": 5682.84,
+    "2019-20": 4047.82,
+    "2020-21": 4535.39,
+    "2021-22": 4677.35,
+    "2022-23": 5375.38,
+    "2023-24": 4895.26,
+    "2024-25": 3777.4323
    },
    "pat_lakh": {
     "2015-16": 5084.368,
@@ -16830,6 +20567,100 @@
       "lives": 4087785.0
      }
     }
+   },
+   "health_products_nb": {
+    "2016-17": {
+     "count": 3042.0,
+     "persons": 11819.0,
+     "premium_lakh": 51.25569350000001
+    },
+    "2017-18": {
+     "count": 9036.0,
+     "persons": 122619.0,
+     "premium_lakh": 477.8110878147266
+    },
+    "2018-19": {
+     "count": 2642.0,
+     "persons": 914633.0,
+     "premium_lakh": 618.7691168000001
+    },
+    "2019-20": {
+     "count": 386.0,
+     "persons": 65734.0,
+     "premium_lakh": 60.90989180000002
+    },
+    "2020-21": {
+     "count": 2214.0,
+     "persons": 50307.0,
+     "premium_lakh": 212.79737227541108
+    },
+    "2021-22": {
+     "count": 12.0,
+     "persons": 2552.0,
+     "premium_lakh": 30.486555199999998
+    },
+    "2022-23": {
+     "count": 9.0,
+     "persons": 1917.0,
+     "premium_lakh": 36.57380760000001
+    },
+    "2023-24": {
+     "count": 53.0,
+     "persons": 602.0,
+     "premium_lakh": 44.333194500000005
+    },
+    "2024-25": {
+     "count": 59.0,
+     "persons": 12708.0,
+     "premium_lakh": 217.25
+    }
+   },
+   "health_riders_nb": {
+    "2016-17": {
+     "count": 22.0,
+     "persons": 22.0,
+     "premium_lakh": 1.16679
+    },
+    "2017-18": {
+     "count": 76.0,
+     "persons": 76.0,
+     "premium_lakh": 4.5721899
+    },
+    "2018-19": {
+     "count": 99.0,
+     "persons": 297.0,
+     "premium_lakh": 2.975011
+    },
+    "2019-20": {
+     "count": 22.0,
+     "persons": 525.0,
+     "premium_lakh": 1.2604103
+    },
+    "2020-21": {
+     "count": 0.0,
+     "persons": 8.0,
+     "premium_lakh": 0.6970319000000001
+    },
+    "2021-22": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.7857819
+    },
+    "2022-23": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2023-24": {
+     "count": 3.0,
+     "persons": 1256.0,
+     "premium_lakh": 1.6699187000000004
+    },
+    "2024-25": {
+     "count": 49.0,
+     "persons": 2740.0,
+     "premium_lakh": 9.46
+    }
    }
   },
   "indusindnippon": {
@@ -17180,6 +21011,105 @@
     "2024": 35044.6097,
     "2025": 38505.4809
    },
+   "aum_mix": {
+    "2022": {
+     "life": {
+      "Central Government Securities": 11219.37,
+      "State Government & Other Approved Securities": 3453.67,
+      "Housing & Infrastructure Investments": 3436.0,
+      "Approved Investments": 1816.78,
+      "Other Investments": 232.457,
+      "Total (Life Fund)": 20158.277
+     },
+     "pension_group": {
+      "Central Government Securities": 173.72,
+      "State Govt & Other Approved Securities": 105.2,
+      "Approved Investments": 27.54,
+      "Total (Pension & General Annuity & Group Fund)": 306.46000000000004
+     },
+     "ulip": {
+      "Approved Investments": 5984.68,
+      "Other Investments": 914.21,
+      "Total (ULIP Funds)": 6898.89
+     }
+    },
+    "2023": {
+     "life": {
+      "Central Government Securities": 13725.3810095,
+      "State Government & Other Approved Securities": 3663.8929573,
+      "Housing & Infrastructure Investments": 3906.4444917,
+      "Approved Investments": 1748.4826198,
+      "Other Investments": 125.7429796,
+      "Total (Life Fund)": 23169.9440579
+     },
+     "pension_group": {
+      "Central Government Securities": 176.4474502,
+      "State Govt & Other Approved Securities": 135.479649,
+      "Approved Investments": 29.851065,
+      "Total (Pension & General Annuity & Group Fund)": 341.7781642
+     },
+     "ulip": {
+      "Approved Investments": 6347.5959569,
+      "Other Investments": 617.7582044,
+      "Total (ULIP Funds)": 6965.3541613
+     }
+    },
+    "2024": {
+     "life": {
+      "Central Government Securities": 15017.2740216,
+      "State Government & Other Approved Securities": 4446.8854885,
+      "Housing & Infrastructure Investments": 4963.803817399999,
+      "Approved Investments": 2047.6233288,
+      "Other Investments": 102.9823765,
+      "Total (Life Fund)": 26578.5690328
+     },
+     "pension_group": {
+      "Central Government Securities": 191.6388649,
+      "State Govt & Other Approved Securities": 148.6544215,
+      "Approved Investments": 52.866649900000006,
+      "Total (Pension & General Annuity & Group Fund)": 393.1599363
+     },
+     "ulip": {
+      "Approved Investments": 7378.3848736,
+      "Other Investments": 694.4958287,
+      "Total (ULIP Funds)": 8072.8807023
+     }
+    },
+    "2025": {
+     "life": {
+      "Central Government Securities": 15454.2546251,
+      "State Government & Other Approved Securities": 5412.657161000001,
+      "Housing & Infrastructure Investments": 5886.8924906,
+      "Approved Investments": 3305.6126916,
+      "Other Investments": 268.7496339,
+      "Total (Life Fund)": 30328.1666022
+     },
+     "pension_group": {
+      "Central Government Securities": 239.1510148,
+      "State Govt & Other Approved Securities": 185.9171287,
+      "Approved Investments": 101.1559097,
+      "Total (Pension & General Annuity & Group Fund)": 526.2240532
+     },
+     "ulip": {
+      "Approved Investments": 7357.9557128,
+      "Other Investments": 293.1344902,
+      "Total (ULIP Funds)": 7651.090203
+     }
+    }
+   },
+   "equity_capital_cr": {
+    "2015": 1196.3235,
+    "2016": 1196.3235,
+    "2017": 1196.3235,
+    "2018": 1196.3235,
+    "2019": 1196.3235,
+    "2020": 1196.3235,
+    "2021": 1196.3235,
+    "2022": 1196.3235,
+    "2023": 1196.32,
+    "2024": 1196.32,
+    "2025": 1196.32
+   },
    "solvency": {
     "June 2015": 3.6538,
     "September 2015": 3.6836,
@@ -17226,6 +21156,7 @@
     "2015-16": {
      "premium": 439811.74412,
      "ri_ceded": -2747.69433,
+     "inv_income": 66727.46917,
      "commission": 24587.78581,
      "opex": 138636.10492,
      "benefits": 424467.85966,
@@ -17234,6 +21165,7 @@
     "2016-17": {
      "premium": 402682.1324,
      "ri_ceded": -2756.55776,
+     "inv_income": 71390.28906,
      "commission": 19541.03599,
      "opex": 77983.71999,
      "benefits": 312711.04194,
@@ -17242,6 +21174,7 @@
     "2017-18": {
      "premium": 406937.07,
      "ri_ceded": -2768.36,
+     "inv_income": 84294.56,
      "commission": 15807.62,
      "opex": 85800.14,
      "benefits": 297079.43,
@@ -17250,6 +21183,7 @@
     "2018-19": {
      "premium": 435792.68,
      "ri_ceded": -2225.77,
+     "inv_income": 105173.22,
      "commission": 17335.63,
      "opex": 89596.79,
      "benefits": 353851.08,
@@ -17258,6 +21192,7 @@
     "2019-20": {
      "premium": 444093.94,
      "ri_ceded": -2263.39,
+     "inv_income": 116225.32,
      "commission": 18265.4,
      "opex": 100053.9,
      "benefits": 308372.93,
@@ -17266,6 +21201,7 @@
     "2020-21": {
      "premium": 473645.05,
      "ri_ceded": -2435.41,
+     "inv_income": 127811.45,
      "commission": 14912.68,
      "opex": 104144.64,
      "benefits": 277675.16,
@@ -17274,6 +21210,7 @@
     "2021-22": {
      "premium": 503657.0,
      "ri_ceded": -3684.0,
+     "inv_income": 145978.0,
      "commission": 15480.0,
      "opex": 107182.0,
      "benefits": 309943.0,
@@ -17282,6 +21219,7 @@
     "2022-23": {
      "premium": 512209.92,
      "ri_ceded": -3548.42,
+     "inv_income": 162956.47,
      "commission": 16413.27,
      "opex": 116011.88,
      "benefits": 244860.45,
@@ -17290,6 +21228,7 @@
     "2023-24": {
      "premium": 553689.77,
      "ri_ceded": -4173.83,
+     "inv_income": 184112.9,
      "commission": 18665.86,
      "opex": 130882.67,
      "benefits": 326275.13,
@@ -17298,11 +21237,24 @@
     "2024-25": {
      "premium": 571067.85,
      "ri_ceded": -4055.52,
+     "inv_income": 203866.33,
      "commission": 23182.19,
      "opex": 121187.08,
      "benefits": 352286.98,
      "surplus": 18418.789999999804
     }
+   },
+   "sh_inv_income_lakh": {
+    "2015-16": 10655.4943,
+    "2016-17": 9437.6366,
+    "2017-18": 8657.48,
+    "2018-19": 9156.13,
+    "2019-20": 8462.67,
+    "2020-21": 8271.81,
+    "2021-22": 8809.0,
+    "2022-23": 9185.06,
+    "2023-24": 10095.69,
+    "2024-25": 11196.1693
    },
    "pat_lakh": {
     "2015-16": -19727.7486,
@@ -17744,6 +21696,100 @@
       "lives": 402927.0
      }
     }
+   },
+   "health_products_nb": {
+    "2016-17": {
+     "count": 1638.0,
+     "persons": 2780.0,
+     "premium_lakh": 105.42296
+    },
+    "2017-18": {
+     "count": 45.0,
+     "persons": 45.0,
+     "premium_lakh": 1.65684
+    },
+    "2018-19": {
+     "count": 1408.0,
+     "persons": 1408.0,
+     "premium_lakh": 25.86713
+    },
+    "2019-20": {
+     "count": 4866.0,
+     "persons": 4807.0,
+     "premium_lakh": 116.65309000000002
+    },
+    "2020-21": {
+     "count": 8280.0,
+     "persons": 8195.0,
+     "premium_lakh": 210.25928
+    },
+    "2021-22": {
+     "count": 6788.0,
+     "persons": 6736.0,
+     "premium_lakh": 138.55541
+    },
+    "2022-23": {
+     "count": 2734.0,
+     "persons": 2718.0,
+     "premium_lakh": 56.497879999999995
+    },
+    "2023-24": {
+     "count": 499.0,
+     "persons": 497.0,
+     "premium_lakh": 11.52958
+    },
+    "2024-25": {
+     "count": 1803.0,
+     "persons": 1798.0,
+     "premium_lakh": 41.43
+    }
+   },
+   "health_riders_nb": {
+    "2016-17": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2017-18": {
+     "count": 61021.0,
+     "persons": 61021.0,
+     "premium_lakh": 215.52507229999992
+    },
+    "2018-19": {
+     "count": 88897.0,
+     "persons": 88897.0,
+     "premium_lakh": 398.66462550000006
+    },
+    "2019-20": {
+     "count": 81236.0,
+     "persons": 79794.0,
+     "premium_lakh": 425.9010845
+    },
+    "2020-21": {
+     "count": 73707.0,
+     "persons": 71161.0,
+     "premium_lakh": 504.64250000000015
+    },
+    "2021-22": {
+     "count": 68727.0,
+     "persons": 66763.0,
+     "premium_lakh": 640.3748819
+    },
+    "2022-23": {
+     "count": 68274.0,
+     "persons": 65773.0,
+     "premium_lakh": 547.8836754999995
+    },
+    "2023-24": {
+     "count": 63807.0,
+     "persons": 62402.0,
+     "premium_lakh": 533.1806469
+    },
+    "2024-25": {
+     "count": 81596.0,
+     "persons": 69550.0,
+     "premium_lakh": 289.5
+    }
    }
   },
   "sahara": {
@@ -18016,6 +22062,95 @@
     "2024": 0.0,
     "2025": 0.0
    },
+   "aum_mix": {
+    "2022": {
+     "life": {
+      "Central Government Securities": 558.82,
+      "State Government & Other Approved Securities": 252.21,
+      "Housing & Infrastructure Investments": 465.8,
+      "Approved Investments": 117.69,
+      "Other Investments": 21.129,
+      "Total (Life Fund)": 1415.6490000000001
+     },
+     "pension_group": {
+      "Central Government Securities": 3.53,
+      "State Govt & Other Approved Securities": 0.0,
+      "Approved Investments": 0.0,
+      "Total (Pension & General Annuity & Group Fund)": 3.53
+     },
+     "ulip": {
+      "Approved Investments": 63.74,
+      "Other Investments": 22.6,
+      "Total (ULIP Funds)": 86.34
+     }
+    },
+    "2023": {
+     "life": {
+      "Central Government Securities": 671.5980618,
+      "State Government & Other Approved Securities": 196.9417408,
+      "Housing & Infrastructure Investments": 449.67436849999996,
+      "Approved Investments": 87.3834038,
+      "Other Investments": 17.6162351,
+      "Total (Life Fund)": 1423.21381
+     },
+     "pension_group": {
+      "Central Government Securities": 3.2304272,
+      "State Govt & Other Approved Securities": 0.0,
+      "Approved Investments": 0.0,
+      "Total (Pension & General Annuity & Group Fund)": 3.2304272
+     },
+     "ulip": {
+      "Approved Investments": 66.6095253,
+      "Other Investments": 4.5868695,
+      "Total (ULIP Funds)": 71.19639480000001
+     }
+    },
+    "2024": {
+     "life": {
+      "Central Government Securities": 0.0,
+      "State Government & Other Approved Securities": 0.0,
+      "Housing & Infrastructure Investments": 0.0,
+      "Approved Investments": 0.0,
+      "Other Investments": 0.0,
+      "Total (Life Fund)": 0.0
+     },
+     "pension_group": {
+      "Central Government Securities": 0.0,
+      "State Govt & Other Approved Securities": 0.0,
+      "Approved Investments": 0.0,
+      "Total (Pension & General Annuity & Group Fund)": 0.0
+     },
+     "ulip": {
+      "Approved Investments": 0.0,
+      "Other Investments": 0.0,
+      "Total (ULIP Funds)": 0.0
+     }
+    },
+    "2025": {
+     "life": {
+      "Total (Life Fund)": 0.0
+     },
+     "pension_group": {
+      "Total (Pension & General Annuity & Group Fund)": 0.0
+     },
+     "ulip": {
+      "Total (ULIP Funds)": 0.0
+     }
+    }
+   },
+   "equity_capital_cr": {
+    "2015": 232.0,
+    "2016": 232.0,
+    "2017": 232.0,
+    "2018": 232.0,
+    "2019": 232.0,
+    "2020": 232.0,
+    "2021": 232.0,
+    "2022": 232.0,
+    "2023": 232.0,
+    "2024": 232.0,
+    "2025": 232.0
+   },
    "solvency": {
     "June 2015": 8.15,
     "September 2015": 8.05,
@@ -18050,6 +22185,7 @@
     "2015-16": {
      "premium": 15705.42,
      "ri_ceded": -8.25,
+     "inv_income": 6486.94,
      "commission": 805.99,
      "opex": 3759.47,
      "benefits": 13307.05,
@@ -18058,6 +22194,7 @@
     "2016-17": {
      "premium": 15394.06,
      "ri_ceded": -8.06,
+     "inv_income": 6764.38,
      "commission": 782.65,
      "opex": 2544.4,
      "benefits": 12943.66,
@@ -18066,6 +22203,7 @@
     "2017-18": {
      "premium": 11202.57,
      "ri_ceded": -7.75,
+     "inv_income": 7497.93,
      "commission": 493.22,
      "opex": 3278.72,
      "benefits": 9373.87,
@@ -18074,6 +22212,7 @@
     "2018-19": {
      "premium": 10070.89,
      "ri_ceded": -6.43,
+     "inv_income": 8188.64,
      "commission": 404.83,
      "opex": 3541.39,
      "benefits": 7367.41,
@@ -18082,6 +22221,7 @@
     "2019-20": {
      "premium": 8743.13,
      "ri_ceded": -5.08,
+     "inv_income": 7866.61,
      "commission": 355.2,
      "opex": 3626.42,
      "benefits": 9386.03,
@@ -18090,6 +22230,7 @@
     "2020-21": {
      "premium": 7320.0,
      "ri_ceded": -4.8,
+     "inv_income": 8431.48,
      "commission": 292.1,
      "opex": 3305.33,
      "benefits": 10271.99,
@@ -18098,6 +22239,7 @@
     "2021-22": {
      "premium": 6144.0,
      "ri_ceded": -4.0,
+     "inv_income": 8671.0,
      "commission": 247.0,
      "opex": 3075.0,
      "benefits": 14071.0,
@@ -18106,6 +22248,7 @@
     "2022-23": {
      "premium": 4419.2188462,
      "ri_ceded": -3.6579166,
+     "inv_income": 9202.8337234,
      "commission": 176.974752462712,
      "opex": 2984.2613364,
      "benefits": 13788.4749557,
@@ -18114,6 +22257,16 @@
     "2023-24": {
      "surplus": 0.0
     }
+   },
+   "sh_inv_income_lakh": {
+    "2015-16": 1717.58,
+    "2016-17": 2234.12,
+    "2017-18": 2210.55,
+    "2018-19": 2066.76,
+    "2019-20": 2403.28,
+    "2020-21": 2145.31,
+    "2021-22": 2042.0,
+    "2022-23": 1493.3274
    },
    "pat_lakh": {
     "2015-16": 640.39,
@@ -18508,6 +22661,90 @@
       "lives": 0.0
      }
     }
+   },
+   "health_products_nb": {
+    "2016-17": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2017-18": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2018-19": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2019-20": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2020-21": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2021-22": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2022-23": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2023-24": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    }
+   },
+   "health_riders_nb": {
+    "2016-17": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2017-18": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2018-19": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2019-20": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2020-21": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2021-22": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2022-23": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2023-24": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    }
    }
   },
   "sbi": {
@@ -18863,6 +23100,105 @@
     "2024": 385094.9891,
     "2025": 444870.4951
    },
+   "aum_mix": {
+    "2022": {
+     "life": {
+      "Central Government Securities": 35028.78,
+      "State Government & Other Approved Securities": 5280.54,
+      "Housing & Infrastructure Investments": 12657.9,
+      "Approved Investments": 17231.85,
+      "Other Investments": 1886.707,
+      "Total (Life Fund)": 72085.777
+     },
+     "pension_group": {
+      "Central Government Securities": 19611.28,
+      "State Govt & Other Approved Securities": 14340.77,
+      "Approved Investments": 15386.29,
+      "Total (Pension & General Annuity & Group Fund)": 49338.340000000004
+     },
+     "ulip": {
+      "Approved Investments": 130725.34,
+      "Other Investments": 11899.97,
+      "Total (ULIP Funds)": 142625.31
+     }
+    },
+    "2023": {
+     "life": {
+      "Central Government Securities": 41780.2442711,
+      "State Government & Other Approved Securities": 5643.2277181,
+      "Housing & Infrastructure Investments": 15232.4919984,
+      "Approved Investments": 19077.3252556,
+      "Other Investments": 2308.9682102,
+      "Total (Life Fund)": 84042.2574534
+     },
+     "pension_group": {
+      "Central Government Securities": 26620.1320114,
+      "State Govt & Other Approved Securities": 14599.6667775,
+      "Approved Investments": 16896.059078600003,
+      "Total (Pension & General Annuity & Group Fund)": 58115.8578675
+     },
+     "ulip": {
+      "Approved Investments": 151231.09068619998,
+      "Other Investments": 12024.4498559,
+      "Total (ULIP Funds)": 163255.54054209997
+     }
+    },
+    "2024": {
+     "life": {
+      "Central Government Securities": 53870.24,
+      "State Government & Other Approved Securities": 5689.370000000003,
+      "Housing & Infrastructure Investments": 17701.27,
+      "Approved Investments": 20949.77,
+      "Other Investments": 2489.2,
+      "Total (Life Fund)": 100699.85
+     },
+     "pension_group": {
+      "Central Government Securities": 33116.9129588,
+      "State Govt & Other Approved Securities": 17636.85,
+      "Approved Investments": 17631.1061186,
+      "Total (Pension & General Annuity & Group Fund)": 68384.8690774
+     },
+     "ulip": {
+      "Approved Investments": 200070.78,
+      "Other Investments": 15939.49,
+      "Total (ULIP Funds)": 216010.27
+     }
+    },
+    "2025": {
+     "life": {
+      "Central Government Securities": 68788.5533857,
+      "State Government & Other Approved Securities": 6741.984859500008,
+      "Housing & Infrastructure Investments": 22155.3983619,
+      "Approved Investments": 24364.7477335,
+      "Other Investments": 3233.8536223,
+      "Total (Life Fund)": 125284.53796290001
+     },
+     "pension_group": {
+      "Central Government Securities": 32065.5806822,
+      "State Govt & Other Approved Securities": 18169.4152936,
+      "Approved Investments": 21715.293362499997,
+      "Total (Pension & General Annuity & Group Fund)": 71950.2893383
+     },
+     "ulip": {
+      "Approved Investments": 237106.3502108,
+      "Other Investments": 10529.3175857,
+      "Total (ULIP Funds)": 247635.6677965
+     }
+    }
+   },
+   "equity_capital_cr": {
+    "2015": 1000.0,
+    "2016": 1000.0,
+    "2017": 1000.0,
+    "2018": 1000.0,
+    "2019": 1000.0,
+    "2020": 1000.0263,
+    "2021": 1000.07,
+    "2022": 1000.37,
+    "2023": 1000.89,
+    "2024": 1001.46,
+    "2025": 1002.14
+   },
    "solvency": {
     "June 2015": 2.0994,
     "September 2015": 2.1481,
@@ -18909,6 +23245,7 @@
     "2015-16": {
      "premium": 1582536.48602,
      "ri_ceded": -15991.38165,
+     "inv_income": 416110.44094,
      "commission": 71425.75486,
      "opex": 145812.9074,
      "benefits": 795955.05289,
@@ -18917,6 +23254,7 @@
     "2016-17": {
      "premium": 2101513.49957,
      "ri_ceded": -16268.18807,
+     "inv_income": 511146.66959,
      "commission": 78334.24962,
      "opex": 164648.86258,
      "benefits": 952614.20723,
@@ -18925,6 +23263,7 @@
     "2017-18": {
      "premium": 2535418.95,
      "ri_ceded": -19412.24,
+     "inv_income": 611569.79,
      "commission": 112087.07,
      "opex": 171883.7,
      "benefits": 1167748.81,
@@ -18933,6 +23272,7 @@
     "2018-19": {
      "premium": 3298942.13,
      "ri_ceded": -9906.99,
+     "inv_income": 729158.98,
      "commission": 134634.71,
      "opex": 212350.3,
      "benefits": 1523307.77,
@@ -18941,6 +23281,7 @@
     "2019-20": {
      "premium": 4063472.88,
      "ri_ceded": -31071.73,
+     "inv_income": 891809.89,
      "commission": 162493.91,
      "opex": 241308.48,
      "benefits": 1617534.62,
@@ -18949,6 +23290,7 @@
     "2020-21": {
      "premium": 5025416.81,
      "ri_ceded": -48588.91,
+     "inv_income": 974482.65,
      "commission": 177878.06,
      "opex": 241225.09,
      "benefits": 2149287.55,
@@ -18957,6 +23299,7 @@
     "2021-22": {
      "premium": 5875963.69339,
      "ri_ceded": -32734.51797,
+     "inv_income": 1118459.19606,
      "commission": 215829.49288,
      "opex": 297445.20293,
      "benefits": 3123808.21395,
@@ -18965,6 +23308,7 @@
     "2022-23": {
      "premium": 6731560.46464,
      "ri_ceded": -73460.628,
+     "inv_income": 1351013.80676,
      "commission": 306248.84449,
      "opex": 340947.18998,
      "benefits": 3009017.948,
@@ -18973,6 +23317,7 @@
     "2023-24": {
      "premium": 8143063.8577,
      "ri_ceded": -84353.72382,
+     "inv_income": 1593457.6295,
      "commission": 325531.36322,
      "opex": 398189.89698,
      "benefits": 4272435.3281,
@@ -18981,11 +23326,24 @@
     "2024-25": {
      "premium": 8498463.0,
      "ri_ceded": -92480.0,
+     "inv_income": 1790684.0,
      "commission": 373875.0,
      "opex": 449080.0,
      "benefits": 4832950.0,
      "surplus": 299446.0
     }
+   },
+   "sh_inv_income_lakh": {
+    "2015-16": 27568.58,
+    "2016-17": 31436.19,
+    "2017-18": 34840.95,
+    "2018-19": 40419.07,
+    "2019-20": 46655.94,
+    "2020-21": 52110.67,
+    "2021-22": 58988.64,
+    "2022-23": 69072.3663,
+    "2023-24": 79425.0222,
+    "2024-25": 91898.0
    },
    "pat_lakh": {
     "2015-16": 86103.4178,
@@ -19427,6 +23785,100 @@
       "lives": 23319208.0
      }
     }
+   },
+   "health_products_nb": {
+    "2016-17": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2017-18": {
+     "count": 27488.0,
+     "persons": 27133.0,
+     "premium_lakh": 394.02048840000003
+    },
+    "2018-19": {
+     "count": 27973.0,
+     "persons": 27778.0,
+     "premium_lakh": 366.11316850000003
+    },
+    "2019-20": {
+     "count": 19417.0,
+     "persons": 19417.0,
+     "premium_lakh": 310.3453623
+    },
+    "2020-21": {
+     "count": 14924.0,
+     "persons": 14924.0,
+     "premium_lakh": 265.3920686
+    },
+    "2021-22": {
+     "count": 39749.0,
+     "persons": 39749.0,
+     "premium_lakh": 695.7580534
+    },
+    "2022-23": {
+     "count": 18055.0,
+     "persons": 18055.0,
+     "premium_lakh": 501.0107351
+    },
+    "2023-24": {
+     "count": 20510.0,
+     "persons": 20510.0,
+     "premium_lakh": 613.7801216999999
+    },
+    "2024-25": {
+     "count": 10614.0,
+     "persons": 10614.0,
+     "premium_lakh": 287.07
+    }
+   },
+   "health_riders_nb": {
+    "2016-17": {
+     "count": 10201.0,
+     "persons": 27652.0,
+     "premium_lakh": 89.87
+    },
+    "2017-18": {
+     "count": 10517.0,
+     "persons": 25782.0,
+     "premium_lakh": 165.07738529999997
+    },
+    "2018-19": {
+     "count": 12264.0,
+     "persons": 15330.0,
+     "premium_lakh": 119.3087308
+    },
+    "2019-20": {
+     "count": 20020.0,
+     "persons": 26850.0,
+     "premium_lakh": 379.09219370000005
+    },
+    "2020-21": {
+     "count": 7.0,
+     "persons": 6459.0,
+     "premium_lakh": 47.205573699999995
+    },
+    "2021-22": {
+     "count": 13.0,
+     "persons": 14755.0,
+     "premium_lakh": 111.112461
+    },
+    "2022-23": {
+     "count": 13.0,
+     "persons": 11329.0,
+     "premium_lakh": 153.6980589
+    },
+    "2023-24": {
+     "count": 7.0,
+     "persons": 6270.0,
+     "premium_lakh": 28.2064742
+    },
+    "2024-25": {
+     "count": 108329.0,
+     "persons": 118524.0,
+     "premium_lakh": 1582.41
+    }
    }
   },
   "shriram": {
@@ -19775,6 +24227,105 @@
     "2024": 11117.8104,
     "2025": 13124.0498
    },
+   "aum_mix": {
+    "2022": {
+     "life": {
+      "Central Government Securities": 2354.02,
+      "State Government & Other Approved Securities": 1758.74,
+      "Housing & Infrastructure Investments": 1450.8,
+      "Approved Investments": 848.54,
+      "Other Investments": 96.173,
+      "Total (Life Fund)": 6508.273
+     },
+     "pension_group": {
+      "Central Government Securities": 182.61,
+      "State Govt & Other Approved Securities": 192.91,
+      "Approved Investments": 266.63,
+      "Total (Pension & General Annuity & Group Fund)": 642.15
+     },
+     "ulip": {
+      "Approved Investments": 442.76,
+      "Other Investments": 26.82,
+      "Total (ULIP Funds)": 469.58
+     }
+    },
+    "2023": {
+     "life": {
+      "Central Government Securities": 2634.5607926,
+      "State Government & Other Approved Securities": 2053.8414077,
+      "Housing & Infrastructure Investments": 2051.7322628,
+      "Approved Investments": 950.0771295,
+      "Other Investments": 58.3046411,
+      "Total (Life Fund)": 7748.5162337
+     },
+     "pension_group": {
+      "Central Government Securities": 230.3515625,
+      "State Govt & Other Approved Securities": 247.2460058,
+      "Approved Investments": 321.7703621,
+      "Total (Pension & General Annuity & Group Fund)": 799.3679304
+     },
+     "ulip": {
+      "Approved Investments": 406.47641280000005,
+      "Other Investments": 22.350031,
+      "Total (ULIP Funds)": 428.82644380000005
+     }
+    },
+    "2024": {
+     "life": {
+      "Central Government Securities": 3226.27,
+      "State Government & Other Approved Securities": 2428.35,
+      "Housing & Infrastructure Investments": 2061.5,
+      "Approved Investments": 1783.27,
+      "Other Investments": 72.69,
+      "Total (Life Fund)": 9572.08
+     },
+     "pension_group": {
+      "Central Government Securities": 253.0808286,
+      "State Govt & Other Approved Securities": 358.26,
+      "Approved Investments": 413.88,
+      "Total (Pension & General Annuity & Group Fund)": 1025.2208286
+     },
+     "ulip": {
+      "Approved Investments": 491.4559001,
+      "Other Investments": 29.0536623,
+      "Total (ULIP Funds)": 520.5095624
+     }
+    },
+    "2025": {
+     "life": {
+      "Central Government Securities": 3831.2043202,
+      "State Government & Other Approved Securities": 2644.0287264000003,
+      "Housing & Infrastructure Investments": 2492.9690002,
+      "Approved Investments": 2191.0474211,
+      "Other Investments": 91.9600614,
+      "Total (Life Fund)": 11251.2095293
+     },
+     "pension_group": {
+      "Central Government Securities": 313.5985962,
+      "State Govt & Other Approved Securities": 421.3486388,
+      "Approved Investments": 519.0448626,
+      "Total (Pension & General Annuity & Group Fund)": 1253.9920975999999
+     },
+     "ulip": {
+      "Approved Investments": 612.3891645,
+      "Other Investments": 6.4589593,
+      "Total (ULIP Funds)": 618.8481237999999
+     }
+    }
+   },
+   "equity_capital_cr": {
+    "2015": 175.0009,
+    "2016": 175.0487,
+    "2017": 179.375,
+    "2018": 179.375,
+    "2019": 179.375,
+    "2020": 179.375,
+    "2021": 179.375,
+    "2022": 179.375,
+    "2023": 177.8479,
+    "2024": 179.17,
+    "2025": 180.38
+   },
    "solvency": {
     "June 2015": 3.4052,
     "September 2015": 3.286,
@@ -19821,6 +24372,7 @@
     "2015-16": {
      "premium": 102210.93611,
      "ri_ceded": -223.76232,
+     "inv_income": 12812.12342,
      "commission": 6048.38916,
      "opex": 45616.69843,
      "benefits": 38042.22,
@@ -19829,6 +24381,7 @@
     "2016-17": {
      "premium": 120793.79817,
      "ri_ceded": -283.42974,
+     "inv_income": 14839.06425,
      "commission": 7022.73495,
      "opex": 39705.10743,
      "benefits": 56719.34,
@@ -19837,6 +24390,7 @@
     "2017-18": {
      "premium": 149703.66,
      "ri_ceded": -318.28,
+     "inv_income": 17970.25,
      "commission": 9298.57,
      "opex": 38141.33,
      "benefits": 56408.47,
@@ -19845,6 +24399,7 @@
     "2018-19": {
      "premium": 169946.24,
      "ri_ceded": -470.78,
+     "inv_income": 21700.65,
      "commission": 10593.21,
      "opex": 41334.38,
      "benefits": 57064.85,
@@ -19853,6 +24408,7 @@
     "2019-20": {
      "premium": 172905.46,
      "ri_ceded": -530.87,
+     "inv_income": 27437.07,
      "commission": 11227.42,
      "opex": 50886.07,
      "benefits": 49507.17,
@@ -19861,6 +24417,7 @@
     "2020-21": {
      "premium": 201853.32,
      "ri_ceded": -542.31,
+     "inv_income": 33782.01,
      "commission": 12290.66,
      "opex": 48881.03,
      "benefits": 55833.92,
@@ -19869,6 +24426,7 @@
     "2021-22": {
      "premium": 234960.28,
      "ri_ceded": -945.77,
+     "inv_income": 40279.26,
      "commission": 12764.51,
      "opex": 51305.26,
      "benefits": 86932.34,
@@ -19877,6 +24435,7 @@
     "2022-23": {
      "premium": 254639.79049,
      "ri_ceded": -753.56267,
+     "inv_income": 49413.11796,
      "commission": 15042.29,
      "opex": 57721.53,
      "benefits": 76366.71,
@@ -19885,6 +24444,7 @@
     "2023-24": {
      "premium": 350753.78,
      "ri_ceded": -824.35,
+     "inv_income": 61077.15,
      "commission": 38509.58,
      "opex": 72203.98,
      "benefits": 93699.93,
@@ -19893,11 +24453,24 @@
     "2024-25": {
      "premium": 421642.4,
      "ri_ceded": -6750.5,
+     "inv_income": 70088.01,
      "commission": 61188.22,
      "opex": 90522.2,
      "benefits": 134754.77,
      "surplus": 5766.000000000058
     }
+   },
+   "sh_inv_income_lakh": {
+    "2015-16": 2582.8725,
+    "2016-17": 2159.8033,
+    "2017-18": 2145.9,
+    "2018-19": 2054.65,
+    "2019-20": 2193.35,
+    "2020-21": 3153.91,
+    "2021-22": 3993.65,
+    "2022-23": 4244.65,
+    "2023-24": 4754.61,
+    "2024-25": 4617.0
    },
    "pat_lakh": {
     "2015-16": 1884.1729,
@@ -20339,6 +24912,90 @@
       "lives": 10064832.0
      }
     }
+   },
+   "health_products_nb": {
+    "2016-17": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2017-18": {
+     "count": 2102.0,
+     "persons": 2100.0,
+     "premium_lakh": 20.3603
+    },
+    "2018-19": {
+     "count": 2360.0,
+     "persons": 2358.0,
+     "premium_lakh": 26.71057
+    },
+    "2019-20": {
+     "count": 1653.0,
+     "persons": 1648.0,
+     "premium_lakh": 9.92462
+    },
+    "2020-21": {
+     "count": 317.0,
+     "persons": 317.0,
+     "premium_lakh": 2.22196
+    },
+    "2021-22": {
+     "count": 33.0,
+     "persons": 33.0,
+     "premium_lakh": 0.27915
+    },
+    "2022-23": {
+     "count": 4.0,
+     "persons": 4.0,
+     "premium_lakh": 0.16072
+    }
+   },
+   "health_riders_nb": {
+    "2016-17": {
+     "count": 2271.0,
+     "persons": 2258.0,
+     "premium_lakh": 28.38826
+    },
+    "2017-18": {
+     "count": 1902.0,
+     "persons": 1881.0,
+     "premium_lakh": 26.82062194879002
+    },
+    "2018-19": {
+     "count": 2132.0,
+     "persons": 2111.0,
+     "premium_lakh": 27.112168440230015
+    },
+    "2019-20": {
+     "count": 2403.0,
+     "persons": 2363.0,
+     "premium_lakh": 28.25784494800999
+    },
+    "2020-21": {
+     "count": 2160.0,
+     "persons": 2160.0,
+     "premium_lakh": 21.5010025
+    },
+    "2021-22": {
+     "count": 3379.0,
+     "persons": 3373.0,
+     "premium_lakh": 19.237774508299992
+    },
+    "2022-23": {
+     "count": 5972.0,
+     "persons": 5945.0,
+     "premium_lakh": 26.089368074900005
+    },
+    "2023-24": {
+     "count": 5331.0,
+     "persons": 5298.0,
+     "premium_lakh": 29.126071350000018
+    },
+    "2024-25": {
+     "count": 1.0,
+     "persons": 6191.0,
+     "premium_lakh": 122.28
+    }
    }
   },
   "sud": {
@@ -20684,6 +25341,105 @@
     "2024": 23993.5511,
     "2025": 29941.0325
    },
+   "aum_mix": {
+    "2022": {
+     "life": {
+      "Central Government Securities": 4843.04,
+      "State Government & Other Approved Securities": 1244.33,
+      "Housing & Infrastructure Investments": 1429.5,
+      "Approved Investments": 793.47,
+      "Other Investments": 76.5,
+      "Total (Life Fund)": 8386.84
+     },
+     "pension_group": {
+      "Central Government Securities": 1305.01,
+      "State Govt & Other Approved Securities": 935.94,
+      "Approved Investments": 1187.42,
+      "Total (Pension & General Annuity & Group Fund)": 3428.37
+     },
+     "ulip": {
+      "Approved Investments": 2454.83,
+      "Other Investments": 244.59,
+      "Total (ULIP Funds)": 2699.42
+     }
+    },
+    "2023": {
+     "life": {
+      "Central Government Securities": 6052.1066962,
+      "State Government & Other Approved Securities": 1684.4852309,
+      "Housing & Infrastructure Investments": 1878.4469505000002,
+      "Approved Investments": 1051.4646266,
+      "Other Investments": 94.0937579,
+      "Total (Life Fund)": 10760.5972621
+     },
+     "pension_group": {
+      "Central Government Securities": 1447.4857204,
+      "State Govt & Other Approved Securities": 1873.6195257,
+      "Approved Investments": 1854.9664599,
+      "Total (Pension & General Annuity & Group Fund)": 5176.071706
+     },
+     "ulip": {
+      "Approved Investments": 2540.3742173,
+      "Other Investments": 240.8182042,
+      "Total (ULIP Funds)": 2781.1924215
+     }
+    },
+    "2024": {
+     "life": {
+      "Central Government Securities": 6225.6155003,
+      "State Government & Other Approved Securities": 3425.750000000001,
+      "Housing & Infrastructure Investments": 2593.15,
+      "Approved Investments": 1193.3,
+      "Other Investments": 165.16,
+      "Total (Life Fund)": 13602.975500300001
+     },
+     "pension_group": {
+      "Central Government Securities": 2183.8768472,
+      "State Govt & Other Approved Securities": 2417.46,
+      "Approved Investments": 2245.7373374,
+      "Total (Pension & General Annuity & Group Fund)": 6847.0741846
+     },
+     "ulip": {
+      "Approved Investments": 3407.9411062,
+      "Other Investments": 135.5602612,
+      "Total (ULIP Funds)": 3543.5013674
+     }
+    },
+    "2025": {
+     "life": {
+      "Central Government Securities": 7553.159308,
+      "State Government & Other Approved Securities": 3924.2673022,
+      "Housing & Infrastructure Investments": 3462.4253346,
+      "Approved Investments": 1961.4177984,
+      "Other Investments": 151.5915014,
+      "Total (Life Fund)": 17052.8612446
+     },
+     "pension_group": {
+      "Central Government Securities": 2380.746839,
+      "State Govt & Other Approved Securities": 2713.931054,
+      "Approved Investments": 3429.0054112,
+      "Total (Pension & General Annuity & Group Fund)": 8523.6833042
+     },
+     "ulip": {
+      "Approved Investments": 4208.9893902,
+      "Other Investments": 155.4985459,
+      "Total (ULIP Funds)": 4364.4879361
+     }
+    }
+   },
+   "equity_capital_cr": {
+    "2015": 250.0,
+    "2016": 250.0,
+    "2017": 258.96,
+    "2018": 258.96,
+    "2019": 258.96,
+    "2020": 258.96,
+    "2021": 258.96,
+    "2022": 258.9641,
+    "2023": 338.96,
+    "2024": 338.9641,
+    "2025": 357.24
+   },
    "solvency": {
     "June 2015": 1.7128,
     "September 2015": 1.7695,
@@ -20730,6 +25486,7 @@
     "2015-16": {
      "premium": 130747.05,
      "ri_ceded": -2981.0,
+     "inv_income": 31473.91,
      "commission": 10467.0,
      "opex": 25944.89,
      "benefits": 85991.8,
@@ -20738,6 +25495,7 @@
     "2016-17": {
      "premium": 151088.25,
      "ri_ceded": -3107.37,
+     "inv_income": 34105.71,
      "commission": 13696.33,
      "opex": 26710.17,
      "benefits": 112928.74,
@@ -20746,6 +25504,7 @@
     "2017-18": {
      "premium": 178300.66,
      "ri_ceded": -3501.99,
+     "inv_income": 38597.75,
      "commission": 14259.07,
      "opex": 29444.67,
      "benefits": 95868.14,
@@ -20754,6 +25513,7 @@
     "2018-19": {
      "premium": 199407.44,
      "ri_ceded": -3757.56,
+     "inv_income": 45548.26,
      "commission": 14998.65,
      "opex": 31750.06,
      "benefits": 90883.54,
@@ -20762,6 +25522,7 @@
     "2019-20": {
      "premium": 231035.91,
      "ri_ceded": -5767.97,
+     "inv_income": 54612.5,
      "commission": 15189.94,
      "opex": 36683.29,
      "benefits": 103496.31,
@@ -20770,6 +25531,7 @@
     "2020-21": {
      "premium": 299862.05,
      "ri_ceded": -11169.42,
+     "inv_income": 61943.55,
      "commission": 18219.76,
      "opex": 38997.94,
      "benefits": 113700.33,
@@ -20778,6 +25540,7 @@
     "2021-22": {
      "premium": 413680.24,
      "ri_ceded": -22062.09,
+     "inv_income": 77481.45,
      "commission": 23780.22,
      "opex": 47518.24,
      "benefits": 168031.5,
@@ -20786,6 +25549,7 @@
     "2022-23": {
      "premium": 574636.51,
      "ri_ceded": -25418.94,
+     "inv_income": 99736.84,
      "commission": 29876.55,
      "opex": 75963.68,
      "benefits": 146376.99,
@@ -20794,6 +25558,7 @@
     "2023-24": {
      "premium": 671786.64,
      "ri_ceded": -28301.65,
+     "inv_income": 129813.73,
      "commission": 33733.6,
      "opex": 84466.93,
      "benefits": 179597.32,
@@ -20802,11 +25567,24 @@
     "2024-25": {
      "premium": 826038.0,
      "ri_ceded": -22686.0,
+     "inv_income": 162253.0,
      "commission": 53231.0,
      "opex": 96179.0,
      "benefits": 289794.0,
      "surplus": 3198.0
     }
+   },
+   "sh_inv_income_lakh": {
+    "2015-16": 1208.242,
+    "2016-17": 1052.0543,
+    "2017-18": 2411.43,
+    "2018-19": 3185.35,
+    "2019-20": 3587.48,
+    "2020-21": 3903.16,
+    "2021-22": 4389.89,
+    "2022-23": 5918.19,
+    "2023-24": 7815.52,
+    "2024-25": 8759.0
    },
    "pat_lakh": {
     "2015-16": 2262.4404,
@@ -21248,6 +26026,99 @@
       "lives": 4320256.0
      }
     }
+   },
+   "health_products_nb": {
+    "2016-17": {
+     "count": 18583.0,
+     "persons": 18475.0,
+     "premium_lakh": 2704.23175
+    },
+    "2017-18": {
+     "count": 7455.0,
+     "persons": 7455.0,
+     "premium_lakh": 1125.14094
+    },
+    "2018-19": {
+     "count": 4261.0,
+     "persons": 4261.0,
+     "premium_lakh": 650.18484
+    },
+    "2019-20": {
+     "count": 42.0,
+     "persons": 42.0,
+     "premium_lakh": 11.65123
+    },
+    "2020-21": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2021-22": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2022-23": {
+     "count": 2.0,
+     "persons": 2.0,
+     "premium_lakh": 0.50733
+    },
+    "2023-24": {
+     "count": 1325.0,
+     "persons": 1226.0,
+     "premium_lakh": 47.78623
+    },
+    "2024-25": {
+     "count": 629.0,
+     "persons": 528.0,
+     "premium_lakh": 21.3
+    }
+   },
+   "health_riders_nb": {
+    "2016-17": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2017-18": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2018-19": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2019-20": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2020-21": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2021-22": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2022-23": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2023-24": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2024-25": {
+     "count": 0.0,
+     "persons": 0.0
+    }
    }
   },
   "tataaia": {
@@ -21590,6 +26461,105 @@
     "2024": 96798.8335,
     "2025": 121300.096
    },
+   "aum_mix": {
+    "2022": {
+     "life": {
+      "Central Government Securities": 24270.36,
+      "State Government & Other Approved Securities": 97.91,
+      "Housing & Infrastructure Investments": 5578.8,
+      "Approved Investments": 4370.94,
+      "Other Investments": 515.086,
+      "Total (Life Fund)": 34833.096000000005
+     },
+     "pension_group": {
+      "Central Government Securities": 1706.96,
+      "State Govt & Other Approved Securities": 62.51,
+      "Approved Investments": 348.31,
+      "Total (Pension & General Annuity & Group Fund)": 2117.78
+     },
+     "ulip": {
+      "Approved Investments": 17012.13,
+      "Other Investments": 3040.65,
+      "Total (ULIP Funds)": 20052.780000000002
+     }
+    },
+    "2023": {
+     "life": {
+      "Central Government Securities": 30673.7409139,
+      "State Government & Other Approved Securities": 88.1208563,
+      "Housing & Infrastructure Investments": 8035.2566664999995,
+      "Approved Investments": 5073.1439664,
+      "Other Investments": 649.3863773,
+      "Total (Life Fund)": 44519.6487804
+     },
+     "pension_group": {
+      "Central Government Securities": 2666.4231304,
+      "State Govt & Other Approved Securities": 62.2813201,
+      "Approved Investments": 557.3186269,
+      "Total (Pension & General Annuity & Group Fund)": 3286.0230774
+     },
+     "ulip": {
+      "Approved Investments": 18801.2067886,
+      "Other Investments": 3135.6346824,
+      "Total (ULIP Funds)": 21936.841471
+     }
+    },
+    "2024": {
+     "life": {
+      "Central Government Securities": 41094.88,
+      "State Government & Other Approved Securities": 69.76000000000204,
+      "Housing & Infrastructure Investments": 10042.74,
+      "Approved Investments": 6883.38,
+      "Other Investments": 1164.02,
+      "Total (Life Fund)": 59254.77999999999
+     },
+     "pension_group": {
+      "Central Government Securities": 3748.7967001,
+      "State Govt & Other Approved Securities": 49.5399601,
+      "Approved Investments": 763.0868274,
+      "Total (Pension & General Annuity & Group Fund)": 4561.4234876
+     },
+     "ulip": {
+      "Approved Investments": 27848.82,
+      "Other Investments": 5133.81,
+      "Total (ULIP Funds)": 32982.63
+     }
+    },
+    "2025": {
+     "life": {
+      "Central Government Securities": 52637.0387165,
+      "State Government & Other Approved Securities": 48.841429200001585,
+      "Housing & Infrastructure Investments": 13900.3502233,
+      "Approved Investments": 8200.9243281,
+      "Other Investments": 1143.1600532,
+      "Total (Life Fund)": 75930.3147503
+     },
+     "pension_group": {
+      "Central Government Securities": 4931.0302277,
+      "State Govt & Other Approved Securities": 9.9465858,
+      "Approved Investments": 883.5402429,
+      "Total (Pension & General Annuity & Group Fund)": 5824.5170564
+     },
+     "ulip": {
+      "Approved Investments": 34627.423474,
+      "Other Investments": 4917.8406876,
+      "Total (ULIP Funds)": 39545.264161600004
+     }
+    }
+   },
+   "equity_capital_cr": {
+    "2015": 1953.5,
+    "2016": 1953.5,
+    "2017": 1953.5,
+    "2018": 1953.5,
+    "2019": 1953.5,
+    "2020": 1953.5,
+    "2021": 1953.4994,
+    "2022": 1953.5,
+    "2023": 1953.5,
+    "2024": 2933.5,
+    "2025": 4533.5
+   },
    "solvency": {
     "June 2015": 3.6206,
     "September 2015": 3.6142,
@@ -21636,6 +26606,7 @@
     "2015-16": {
      "premium": 247896.02,
      "ri_ceded": -4316.51,
+     "inv_income": 93097.37,
      "commission": 14948.95,
      "opex": 48028.13,
      "benefits": 289195.24,
@@ -21644,6 +26615,7 @@
     "2016-17": {
      "premium": 317108.36,
      "ri_ceded": -5581.19,
+     "inv_income": 96987.65,
      "commission": 26434.81,
      "opex": 73542.69,
      "benefits": 251238.1,
@@ -21652,6 +26624,7 @@
     "2017-18": {
      "premium": 416295.01,
      "ri_ceded": -6918.04,
+     "inv_income": 103956.43,
      "commission": 35055.95,
      "opex": 83415.53,
      "benefits": 215704.0,
@@ -21660,6 +26633,7 @@
     "2018-19": {
      "premium": 606976.36,
      "ri_ceded": -11353.03,
+     "inv_income": 123726.92,
      "commission": 56385.49,
      "opex": 127820.95,
      "benefits": 196292.6,
@@ -21668,6 +26642,7 @@
     "2019-20": {
      "premium": 830850.79,
      "ri_ceded": -20313.7,
+     "inv_income": 134746.38,
      "commission": 83880.95,
      "opex": 159166.49,
      "benefits": 236746.44,
@@ -21676,6 +26651,7 @@
     "2020-21": {
      "premium": 1110508.57,
      "ri_ceded": -32583.04,
+     "inv_income": 160256.69,
      "commission": 105752.0,
      "opex": 173397.33,
      "benefits": 277651.27,
@@ -21684,6 +26660,7 @@
     "2021-22": {
      "premium": 1444502.68,
      "ri_ceded": -37427.72,
+     "inv_income": 198546.18,
      "commission": 132154.7,
      "opex": 291515.79,
      "benefits": 411829.21,
@@ -21692,6 +26669,7 @@
     "2022-23": {
      "premium": 2050350.15,
      "ri_ceded": -52818.38,
+     "inv_income": 235315.24,
      "commission": 199621.36,
      "opex": 437641.93,
      "benefits": 479501.3,
@@ -21700,6 +26678,7 @@
     "2023-24": {
      "premium": 2569182.48,
      "ri_ceded": -62573.9,
+     "inv_income": 255425.65,
      "commission": 257853.73,
      "opex": 448783.67,
      "benefits": 693537.69,
@@ -21708,11 +26687,24 @@
     "2024-25": {
      "premium": 3148360.0,
      "ri_ceded": -74274.0,
+     "inv_income": 329038.0,
      "commission": 417017.0,
      "opex": 395548.0,
      "benefits": 861714.0,
      "surplus": 708.0
     }
+   },
+   "sh_inv_income_lakh": {
+    "2015-16": 14595.5403,
+    "2016-17": 12482.969,
+    "2017-18": 12453.9,
+    "2018-19": 13820.48,
+    "2019-20": 13208.23,
+    "2020-21": 13344.97,
+    "2021-22": 14011.87,
+    "2022-23": 14456.1,
+    "2023-24": 13671.75,
+    "2024-25": 19534.0
    },
    "pat_lakh": {
     "2015-16": 6362.6546,
@@ -22153,6 +27145,100 @@
       "premium": 1041.589405010052,
       "lives": 2652966.0
      }
+    }
+   },
+   "health_products_nb": {
+    "2016-17": {
+     "count": 209.0,
+     "persons": 214.0,
+     "premium_lakh": 18.19
+    },
+    "2017-18": {
+     "count": 157.0,
+     "persons": 180.0,
+     "premium_lakh": 31.53785
+    },
+    "2018-19": {
+     "count": 220.0,
+     "persons": 246.0,
+     "premium_lakh": 40.94633
+    },
+    "2019-20": {
+     "count": 159.0,
+     "persons": 169.0,
+     "premium_lakh": 25.612202999999997
+    },
+    "2020-21": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2021-22": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2022-23": {
+     "count": 21.0,
+     "persons": 19.0,
+     "premium_lakh": 0.22
+    },
+    "2023-24": {
+     "count": 9177.0,
+     "persons": 2849.0,
+     "premium_lakh": 4961.35602
+    },
+    "2024-25": {
+     "count": 123630.0,
+     "persons": 30391.0,
+     "premium_lakh": 41920.82
+    }
+   },
+   "health_riders_nb": {
+    "2016-17": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2017-18": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2018-19": {
+     "count": 0.0,
+     "persons": 0.0,
+     "premium_lakh": 0.0
+    },
+    "2019-20": {
+     "count": 24555.0,
+     "persons": 23968.0,
+     "premium_lakh": 793.4556
+    },
+    "2020-21": {
+     "count": 12977.0,
+     "persons": 12946.0,
+     "premium_lakh": 654.1699
+    },
+    "2021-22": {
+     "count": 56588.0,
+     "persons": 55339.0,
+     "premium_lakh": 2770.88556
+    },
+    "2022-23": {
+     "count": 279907.0,
+     "persons": 142087.0,
+     "premium_lakh": 26289.0
+    },
+    "2023-24": {
+     "count": 194482.0,
+     "persons": 62599.0,
+     "premium_lakh": 19800.0452
+    },
+    "2024-25": {
+     "count": 160451.0,
+     "persons": 0.0,
+     "premium_lakh": 21962.55
     }
    }
   }

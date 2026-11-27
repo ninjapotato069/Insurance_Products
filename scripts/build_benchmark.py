@@ -384,6 +384,110 @@ def main():
         if isinstance(o, dict) and o.get("foreign_stake_pct") is not None:
             put("foreign_stake_pct", cid, o["foreign_stake_pct"], (o.get("as_of") or ""), "research", nd=2)
 
+    # ---------- department KPIs (channels, operations, investments) ----------
+    for cid, h in hb.items():
+        hper, mper = fy_label(FY), f"31 Mar {mar1}"
+        ch = (h.get("channels_individual") or {}).get("by_channel", {})
+        tot = (ch.get("Total Individual New Business") or {})
+        g = lambda key, *ks: sum(((ch.get(k) or {}).get(key) or 0) for k in ks)
+        if (tot.get("premium") or 0) > 1:
+            for kid, chans in (("agency", ("Individual Agents",)), ("banca", ("Corporate Agents - Banks",)), ("direct", ("Direct Selling", "Online"))):
+                pr, po = g("premium", *chans), g("policies", *chans)
+                put(f"{kid}_premium_cr", cid, pr, hper, S, nd=0)
+                put(f"{kid}_policies", cid, po, hper, S, nd=0)
+                if po >= 100:
+                    put(f"{kid}_ticket_inr", cid, pr * 1e7 / po, hper, S, nd=0)
+            put("broker_premium_cr", cid, g("premium", "Brokers"), hper, S, nd=1)
+            put("other_ca_premium_cr", cid, g("premium", "Corporate Agents - Others"), hper, S, nd=1)
+            put("proprietary_share_pct", cid, g("premium", "Individual Agents", "Direct Selling", "Online") / tot["premium"] * 100, hper, S, nd=1)
+            offs = (h.get("offices") or {}).get(y1)
+            if offs and (tot.get("policies") or 0) > 100:
+                put("policies_per_office", cid, tot["policies"] / offs, hper, S, nd=0)
+        gch = (h.get("channels_group") or {}).get("by_channel", {})
+        gtot = (gch.get("Total Group New Business") or {}).get("premium") or 0
+        if gtot > 1:
+            put("group_banca_pct", cid, ((gch.get("Corporate Agents - Banks") or {}).get("premium") or 0) / gtot * 100, hper, S, nd=1)
+            put("group_direct_pct", cid, ((gch.get("Direct Selling") or {}).get("premium") or 0) / gtot * 100, hper, S, nd=1)
+        put("agent_premium_per_policy", cid, (h.get("agent_premium_per_policy_inr") or {}).get("individual", {}).get(y1) or None, hper, S, nd=0)
+        if (h.get("corporate_agents") or {}).get(mar1):
+            put("ca_nbp_lakh", cid, (h.get("agent_nbp_lakh_avg") or {}).get("corporate", {}).get(y1) or None, hper, S)
+            put("ca_policies", cid, (h.get("agent_policies_avg") or {}).get("corporate", {}).get(y1) or None, hper, S, nd=1)
+        tp, nb = h.get("total_premium_cr", {}), h.get("nbp_cr", {})
+        ren = {y: tp[y] - nb[y] for y in tp if y in nb and tp[y] is not None and nb[y] is not None}
+        if ren.get(y1) is not None and ren[y1] > 0:
+            put("renewal_premium_cr", cid, ren[y1], hper, S, nd=0)
+            if (ren.get(y0) or 0) > 1:
+                put("renewal_growth_pct", cid, (ren[y1] / ren[y0] - 1) * 100, hper, S, nd=1)
+            if (ren.get(y3) or 0) > 1:
+                put("renewal_cagr3_pct", cid, ((ren[y1] / ren[y3]) ** (1 / 3) - 1) * 100, f"FY{y3[:4]}-{FY[5:]}", S, nd=1)
+        ra = (h.get("revenue_account_lakh") or {}).get(y1, {})
+        if ra.get("benefits") is not None:
+            put("benefits_paid_cr", cid, ra["benefits"] / 100, hper, S, nd=0)
+        dcl = (h.get("death_claims_ind") or {}).get(y1, {})
+        put("death_claims_paid_cr", cid, dcl.get("paid_amt"), hper, S, nd=0)
+        pif = (h.get("policies_in_force_000") or {}).get(y1)
+        offs = (h.get("offices") or {}).get(y1)
+        if pif and offs:
+            put("pif_per_office", cid, pif * 1000 / offs, mper, S, nd=0)
+        aum = h.get("aum_cr", {})
+        inc = (ra.get("inv_income") or 0) + ((h.get("sh_inv_income_lakh") or {}).get(y1) or 0)
+        if inc > 0 and aum.get(mar1) and aum.get(mar0):
+            put("investment_income_yield_pct", cid, inc / 100 / ((aum[mar1] + aum[mar0]) / 2) * 100, hper, S, nd=2)
+        mix = (h.get("aum_mix") or {}).get(mar1) or {}
+        lf, pg, ul = mix.get("life", {}), mix.get("pension_group", {}), mix.get("ulip", {})
+        nonlinked = (lf.get("Total (Life Fund)") or 0) + (pg.get("Total (Pension & General Annuity & Group Fund)") or 0)
+        if nonlinked > 10:
+            gsec = sum((d.get(k) or 0) for d in (lf, pg) for k in d if "government" in k.lower() or "govt" in k.lower())
+            put("gsec_share_pct", cid, gsec / nonlinked * 100, mper, S, nd=1)
+        if (lf.get("Total (Life Fund)") or 0) > 10:
+            put("infra_share_pct", cid, (lf.get("Housing & Infrastructure Investments") or 0) / lf["Total (Life Fund)"] * 100, mper, S, nd=1)
+        if aum.get(mar1):
+            put("other_inv_share_pct", cid, ((lf.get("Other Investments") or 0) + (ul.get("Other Investments") or 0)) / aum[mar1] * 100, mper, S, nd=2)
+        hp = (h.get("health_products_nb") or {}).get(y1) or {}
+        if hp.get("premium_lakh") is not None:
+            put("health_products_premium_cr", cid, hp["premium_lakh"] / 100, hper, S, nd=1)
+        hr = (h.get("health_riders_nb") or {}).get(y1) or {}
+        if hr.get("persons") is not None:
+            put("health_rider_lives", cid, hr["persons"], hper, S, nd=0)
+    if mp:
+        per = "FYTD " + dt.date.fromisoformat(mp["as_on"]).strftime("%b %Y")
+        for cid, c in mp["companies"].items():
+            seg = c.get("segments", {})
+            gs = [seg.get(k, {}) for k in ("grp_single", "grp_nonsingle", "grp_yrt")]
+            gf, gp = sum((x.get("fyp_ytd") or 0) for x in gs), sum((x.get("fyp_ytd_prev") or 0) for x in gs)
+            if gf > 0:
+                put("group_nbp_ytd_cr", cid, gf, per, "irdai_monthly", nd=0)
+                put("group_share_of_nbp_pct", cid, div(gf, c.get("fyp_ytd"), 100), per, "irdai_monthly", nd=1)
+                if gp > 1:
+                    put("group_nbp_growth_pct", cid, (gf / gp - 1) * 100, per, "irdai_monthly", nd=1)
+                if (c.get("lives_ytd") or 0) > 100:
+                    put("group_premium_per_life_inr", cid, gf * 1e7 / c["lives_ytd"], per, "irdai_monthly", nd=0)
+            ip = sum((seg.get(s, {}).get("pol_ytd") or 0) for s in ("ind_single", "ind_nonsingle"))
+            if ip:
+                put("ind_policies_ytd", cid, ip, per, "irdai_monthly", nd=0)
+            ind = sum((seg.get(s, {}).get("fyp_ytd") or 0) for s in ("ind_single", "ind_nonsingle"))
+            if ind > 1:
+                put("single_premium_share_pct", cid, (seg.get("ind_single", {}).get("fyp_ytd") or 0) / ind * 100, per, "irdai_monthly", nd=1)
+    for cid, w in digital.get("companies", {}).items():
+        sg = w.get("signals") or {}
+        if not (w.get("readable") and sg):
+            continue
+        d = w.get("checked_on") or ""
+        b = lambda k: 1 if sg.get(k) else 0
+        put("onboarding_digital", cid, b("buy_online") + b("video_kyc") + b("ai_tools"), d, "web_audit", nd=0)
+        put("payments_digital", cid, b("pay_premium") + b("upi_autopay") + b("android_app") + b("ios_app"), d, "web_audit", nd=0)
+        put("servicing_digital", cid, b("customer_login") + b("claims_online") + b("whatsapp") + b("chatbot"), d, "web_audit", nd=0)
+        put("communication_reach", cid, b("whatsapp") + b("chatbot") + b("regional_language") + (1 if len(w.get("social") or []) >= 4 else 0), d, "web_audit", nd=0)
+        for kpi_id, key in (("pay_online", "pay_premium"), ("upi_autopay", "upi_autopay"), ("claims_online", "claims_online"), ("whatsapp", "whatsapp"), ("regional_language", "regional_language"), ("ai_tools", "ai_tools")):
+            put(kpi_id, cid, bool(sg.get(key)), d, "web_audit")
+    revs = {}
+    for e in changelog if isinstance(changelog, list) else []:
+        if e.get("type") == "new_version" and (e.get("date") or "") >= year_ago and e.get("status") != "dismissed":
+            revs[e.get("company_id")] = revs.get(e.get("company_id"), 0) + 1
+    for c in companies:
+        if (c.get("stats") or {}).get("active_individual"):
+            put("revisions_12m", c["id"], revs.get(c["id"], 0), "Last 12 months", "catalogue", nd=0)
+
     # ---------- research overrides ----------
     for cid, kv in research.get("companies", {}).items():
         for kpi, rec in kv.items():

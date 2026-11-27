@@ -6,7 +6,7 @@
 <style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}img{max-width:100%}</style>
 <title>Life Insurance Benchmark</title>
 <meta name="claude:viewport-fit-sides" content="cover">
-<meta name="description" content="Every Indian life insurer benchmarked across 15 departments, with products, claims, ratings, ownership, strategy and news, refreshed daily.">
+<meta name="description" content="Every Indian life insurer benchmarked across 20 departments, with products, claims, ratings, ownership, strategy and news, refreshed daily.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@500;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap">
@@ -462,6 +462,19 @@ table.scorecard,table.kpimatrix{width:max-content;min-width:100%}
 .strat-card .chip,.bench-sec .chip{white-space:normal}
 .strat-card{min-width:0;overflow-wrap:anywhere}
 td.cell.bcol{box-shadow:inset 0 0 0 2px var(--ink)}
+.pillnav.grouped{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:flex-start}
+.pgroup{display:flex;flex-direction:column;gap:4px;min-width:0}
+.pfam{font-size:.66rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.chip.all{align-self:flex-end;background:transparent;border:1px solid var(--line-strong);text-decoration:none}
+.scorecard tr.famrow th{font-size:.64rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);border-bottom:0;padding-bottom:2px}
+.scorecard th.fam{border-left:2px solid var(--surface)}
+h3.famhead{margin:22px 0 10px;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.tiles.depttiles{grid-template-columns:repeat(auto-fill,minmax(260px,1fr))}
+a.tile.dept{text-decoration:none;color:var(--ink);display:flex;flex-direction:column}
+a.tile.dept:hover{border-color:var(--accent)}
+.dtop{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+.dscore{font-weight:600;font-size:.9rem;border-radius:5px;padding:2px 8px;font-variant-numeric:tabular-nums}
+.dmeta{font-size:.74rem;color:var(--muted);margin-top:6px}
 .install-tip{font-size:.8rem;color:var(--ink-2)}
 @media (max-width:760px){
   h1{font-size:1.45rem}
@@ -506,7 +519,7 @@ td.cell.bcol{box-shadow:inset 0 0 0 2px var(--ink)}
     <nav class="tabs" aria-label="Sections">
       <a href="#overview" data-v="overview">Overview</a>
       <a href="#benchmark" data-v="benchmark">Benchmark</a>
-      <a href="#dept-scale" data-v="dept">Departments</a>
+      <a href="#departments" data-v="dept">Departments</a>
       <a href="#network" data-v="network">Network</a>
       <a href="#global" data-v="global">Global</a>
       <a href="#strategy" data-v="strategy">Strategy</a>
@@ -893,7 +906,7 @@ function activeInd(cid){ return products().filter(p => p.status_label === "Activ
 /* ---------- views ---------- */
 function setTabs(v){
   document.querySelectorAll(".tabs a").forEach(a => {
-    const on = a.dataset.v === v || (v === "insurer" && a.dataset.v === "insurers") || (v === "product" && a.dataset.v === "products") || (v === "kpi" && a.dataset.v === "dept");
+    const on = a.dataset.v === v || (v === "insurer" && a.dataset.v === "insurers") || (v === "product" && a.dataset.v === "products") || (v === "kpi" && a.dataset.v === "dept") || (v === "departments" && a.dataset.v === "dept");
     if (on) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
   });
 }
@@ -2040,6 +2053,12 @@ function viewCompare(){
       {l:"Products on sale", rows:[{l:"Individual", v:c => (c.stats||{}).active_individual, num:c => (c.stats||{}).active_individual, best:"high"}, ...CAT_IND.map(k => ({l:k, v:c => ((c.stats||{}).by_category||{})[k] || 0})), {l:"Riders", v:c => (c.stats||{}).active_rider}, {l:"Group", v:c => (c.stats||{}).active_group}, {l:"Launched in 12 months", v:c => (c.stats||{}).launches_12m, num:c => (c.stats||{}).launches_12m, best:"high"}]},
       {l:"Customers", rows:[{l:"Android app rating", v:c => { const a = (c.reviews||{}).android; return a && a.rating != null ? `${nf1.format(a.rating)} ★ (${a.ratings_count ? nfIN.format(a.ratings_count) : "?"})` : null; }, num:c => ((c.reviews||{}).android||{}).rating, best:"high"}, {l:"iOS app rating", v:c => { const a = (c.reviews||{}).ios; return a && a.rating != null ? `${nf1.format(a.rating)} ★ (${a.ratings_count ? nfIN.format(a.ratings_count) : "?"})` : null; }, num:c => ((c.reviews||{}).ios||{}).rating, best:"high"}, {l:"WhatsApp servicing", v:c => yn(((c.reviews||{}).digital_servicing||{}).whatsapp)}, {l:"Top complaint theme", v:c => ((c.reviews||{}).negatives||[])[0]}]}
     ];
+    if (S.b){
+      const sc = scoresFor(peerIds("all"));
+      groups.push({l:"Department scores (percentile, all insurers)", rows:scoredPillars().map(p => ({l:p.name, v:c => { const x = sc.ps[p.id] && sc.ps[p.id][c.id]; return x ? `${Math.round(x.score)} (${rk(x.rank)})` : null; }, num:c => { const x = sc.ps[p.id] && sc.ps[p.id][c.id]; return x ? x.score : null; }, best:"high"}))
+        .concat([{l:"Overall index", v:c => { const x = sc.idx[c.id]; return x ? `${nf1.format(x.score)} (${rk(x.rank)})` : null; }, num:c => (sc.idx[c.id] || {}).score, best:"high"}])});
+      scoredPillars().forEach(p => groups.push({l:p.name, rows:p.kpis.filter(k => k.core || Object.keys(S.b.values[k.id] || {}).length >= 10).map(k => ({l:k.name, v:c => { const x = bval(k.id, c.id); return x ? fmtK(k.id, x.v) : null; }, num:c => { const x = bval(k.id, c.id); return x && typeof x.v === "number" ? x.v : null; }, best:k.better === "high" || k.better === "low" ? k.better : null}))}));
+    }
     groups.forEach(g => g.rows = g.rows.filter(r => is.some(c => { const v = r.v(c); return v != null && v !== "—"; })));
     iSec.append(cmpTable(cols, groups.filter(g => g.rows.length)));
   } else iSec.append(h("div", {class:"empty", style:"margin-top:10px"}, h("h3", null, "No insurers picked yet"), h("p", null, "Search above or tap + on the Insurers table.")));
@@ -2096,7 +2115,7 @@ function viewAbout(){
       h("h3", null, "How it stays current"),
       h("p", null, "Every morning a GitHub Action checks IRDAI for a new monthly new-business statement, refreshes app ratings, collects news headlines, reads each insurer's homepage for digital capabilities and updates listed insurers' share prices, then rebuilds the benchmark. Mondays it also re-reads every insurer's official product list for new or missing UINs, and a scheduled Claude session researches flagged items, fills specs and KPIs that need desk research, and refreshes strategy profiles on a rotation."),
       h("h3", null, "The benchmark"),
-      h("p", null, "Fifteen departments, from scale and growth to underwriting, claims, service, digital, people and governance, each with defined KPIs. Core KPIs are scored as percentiles within a peer group (all insurers, private insurers, the same size tier or the same distribution model); department scores average them and the overall index averages departments. IRDAI's Handbook on Indian Insurance Statistics and Annual Report supply the annual KPIs, IRDAI's monthly statement the sales KPIs."),
+      h("p", null, "Twenty departments laid out like an insurer's organisation: agency, proprietary sales, bancassurance and institutional sales; pre-sales and issuance, underwriting, renewals, payments, payouts, policy servicing, customer communication, customer service and branch operations; IT, projects, product, finance, investments, the CEO office and HR, each with defined KPIs. Core KPIs are scored as percentiles within a peer group (all insurers, private insurers, the same size tier or the same distribution model); department scores average them and the overall index averages departments. IRDAI's Handbook on Indian Insurance Statistics and Annual Report supply the annual KPIs, IRDAI's monthly statement the sales KPIs."),
       h("h3", null, "Reading the specs"),
       h("p", null, "UIN is IRDAI's Unique Identification Number: insurer registration number, type letter (N non-linked, L linked), product number and version. ‘Replaced by new version’ means the same product number was refiled. ‘Spec’ shows how much of a product's detail was captured: full, partial, or listed only. Ages are in completed years; premiums exclude GST."),
       h("p", {class:"note"}, "Compiled from public information for comparison. Product terms change; confirm against the insurer's current brochure and policy wording before relying on any figure.")),
@@ -2127,11 +2146,13 @@ function specCoverageCard(){
 function notFound(msg, back){ return h("div", {class:"empty"}, h("h3", null, msg), h("p", null, linkTo(back, "Back to the list"))); }
 
 /* ---------- benchmark: data access ---------- */
-const PILLAR_SHORT = {scale:"Scale", growth:"Growth", profit:"Profit", capital:"Capital", distribution:"Distribution", product:"Product", marketing:"Marketing", underwriting:"Underwriting", claims:"Claims", service:"Service", efficiency:"Efficiency", digital:"Digital", people:"People", governance:"Governance", strategy:"Strategy"};
+const PILLAR_SHORT_OLD = {scale:"Scale", growth:"Growth", profit:"Profit", capital:"Capital", distribution:"Distribution", product:"Product", marketing:"Marketing", underwriting:"Underwriting", claims:"Claims", service:"Service", efficiency:"Efficiency", digital:"Digital", people:"People", governance:"Governance", strategy:"Strategy"};
 const KPI_SERIES = {persistency_13:"persistency_13", persistency_61:"persistency_61", commission_ratio_pct:"commission_ratio", lapse_ratio_pct:"lapse_ratio", agents_count:"agents", offices:"offices", gwp_cr:"total_premium", solvency_ratio:"solvency", nbp_share_pct:"nbp_share_monthly"};
 const PEER_LABEL = {all:"All insurers", private:"Private insurers", tier:"Same size tier", model:"Same distribution model"};
 function fwk(){ return S.b.framework; }
 function allPillars(){ return fwk().pillars; }
+function pshort(p){ return p.short || (typeof PILLAR_SHORT_OLD !== "undefined" && PILLAR_SHORT_OLD[p.id]) || p.name; }
+function families(){ const out = []; allPillars().forEach(p => { const f = p.family || "Other"; let g = out.find(x => x.f === f); if (!g){ g = {f, ps:[]}; out.push(g); } g.ps.push(p); }); return out; }
 function scoredPillars(){ return allPillars().filter(p => !p.qualitative && p.kpis.some(k => k.core)); }
 function kmeta(id){ return S.kmeta[id] || null; }
 function bval(k, cid){ return (S.b.values[k] || {})[cid] || null; }
@@ -2142,6 +2163,7 @@ function fmtK(id, v){
   if (v == null || v === "") return "—";
   if (typeof v === "boolean") return v ? "Yes" : "No";
   if (typeof v !== "number") return String(v);
+  if (Math.abs(v) < 0.005) v = 0;
   const u = (kmeta(id) || {}).unit;
   switch (u){
     case "cr": return "₹" + (Math.abs(v) >= 100 ? nfIN.format(Math.round(v)) : nf2.format(v)) + " cr";
@@ -2149,7 +2171,7 @@ function fmtK(id, v){
     case "pp": return (v > 0 ? "+" : "") + nf1.format(v) + " pp";
     case "bps": return (v > 0 ? "+" : "") + nfIN.format(Math.round(v)) + " bps";
     case "x": return (Math.abs(v) >= 10 ? nf1 : nf2).format(v) + "×";
-    case "count": return nfIN.format(Math.round(v));
+    case "count": return Math.abs(v) < 100 && !Number.isInteger(v) ? nf1.format(v) : nfIN.format(Math.round(v));
     case "inr": return "₹" + nfIN.format(Math.round(v));
     case "inr_lakh": return "₹" + nf2.format(v) + " lakh";
     case "lakh": return nf1.format(v) + " lakh";
@@ -2240,12 +2262,12 @@ function peerPicker(){
   return h("label", {class:"bench", for:"peer"}, h("span", null, "Compare within"), sel);
 }
 function pillarNav(active){
-  return h("nav", {class:"chips pillnav", "aria-label":"Departments"}, allPillars().map(p => {
-    const href = p.qualitative ? "#strategy" : "#dept-" + p.id;
-    return h("a", {class:"chip" + (p.id === active ? " on" : ""), href, "aria-current": p.id === active ? "page" : null}, PILLAR_SHORT[p.id] || p.name);
-  }));
+  return h("nav", {class:"pillnav grouped", "aria-label":"Departments"}, families().map(g => h("div", {class:"pgroup"}, h("span", {class:"pfam"}, g.f),
+    h("div", {class:"chips"}, g.ps.map(p => {
+      const href = p.qualitative ? "#strategy" : "#dept-" + p.id;
+      return h("a", {class:"chip" + (p.id === active ? " on" : ""), href, "aria-current": p.id === active ? "page" : null}, pshort(p));
+    })))), h("a", {class:"chip all" + (active === "home" ? " on" : ""), href:"#departments"}, "All departments"));
 }
-
 /* ---------- benchmark: scorecard ---------- */
 function viewBenchmark(){
   if (!S.b) return benchMissing();
@@ -2277,7 +2299,9 @@ function viewBenchmark(){
   // scorecard
   const rows = ids.map(c => ({id:c, l:cname(c), idx:sc.idx[c]})).sort((x, y) => (x.idx ? x.idx.rank : 999) - (y.idx ? y.idx.rank : 999) || x.l.localeCompare(y.l));
   const table = h("div", {class:"tablewrap"}, h("table", {class:"heat sticky1 scorecard"},
-    h("thead", null, h("tr", null, h("th", null, "Insurer"), h("th", {class:"c"}, "Index"), P.map(p => h("th", {class:"c"}, h("a", {href:"#dept-" + p.id}, PILLAR_SHORT[p.id] || p.name))))),
+    h("thead", null,
+      h("tr", {class:"famrow"}, h("th", null, ""), h("th", null, ""), (() => { const out = []; P.forEach((p, i) => { const f = p.family || ""; if (i && (P[i - 1].family || "") === f) out[out.length - 1].span++; else out.push({f, span:1}); }); return out.map(x => h("th", {class:"c fam", colspan:String(x.span)}, x.f)); })()),
+      h("tr", null, h("th", null, "Insurer"), h("th", {class:"c"}, "Index"), P.map(p => h("th", {class:"c"}, h("a", {href:"#dept-" + p.id, title:p.name}, pshort(p)))))),
     h("tbody", null, rows.map(r => h("tr", {class:r.id === S.bench ? "bench" : null},
       h("td", null, linkTo("insurer-" + r.id, r.l), h("span", {class:"pnote"}, [(bcomp(r.id) || {}).tier, (bcomp(r.id) || {}).model].filter(Boolean).join(" · "))),
       (() => { const td = h("td", {class:"cell idx" + (r.idx ? "" : " zero"), style:r.idx ? scoreStyle(r.idx.score) : null, tabindex:r.idx ? "0" : null}, r.idx ? String(Math.round(r.idx.score)) : "·"); if (r.idx) hover(td, () => [nf1.format(r.idx.score), `${r.l} · overall index`, `${rk(r.idx.rank)} of ${sc.n} · ${r.idx.n} departments scored`]); return td; })(),
@@ -2315,6 +2339,34 @@ function methodPanel(){
       h("div", {class:"prose"}, h("h3", null, "Sources and refresh"), h("ul", {class:"theme-list"}, Object.entries(f.sources || {}).map(([k, s]) => h("li", null, s.url ? ext(s.url, s.name) : s.name, h("span", {class:"muted"}, ` · ${s.freq}${s.auto ? " · automatic" : ""}`)))))));
 }
 
+
+/* ---------- departments: organisation chart landing ---------- */
+function viewDeptHome(){
+  if (!S.b) return benchMissing();
+  const mode = peerMode(), ids = peerIds(mode), sc = scoresFor(ids), nIns = S.b.companies.length;
+  const view = h("div");
+  view.append(h("div", {class:"view-head"}, h("div", null, h("h2", null, "Departments"),
+    h("p", null, `${allPillars().filter(p => !p.qualitative).length} departments laid out like a life insurer's organisation chart, each with its own KPIs. Tap a department to compare every insurer on its KPIs. Scores are percentiles within ${peerText(mode).toLowerCase()}.`)), peerPicker()));
+  if (!S.bench) view.append(h("p", {class:"small muted", style:"margin-bottom:12px"}, "Pick an insurer under ‘Highlight insurer’ to see its score and rank in every department."));
+  families().forEach(g => {
+    view.append(h("h3", {class:"famhead"}, g.f));
+    view.append(h("div", {class:"tiles depttiles"}, g.ps.map(p => {
+      if (p.qualitative) return h("a", {class:"tile dept", href:"#strategy"}, h("div", {class:"lt"}, p.name), h("div", {class:"p"}, p.question), h("div", {class:"dmeta"}, "Purpose, pillars and stated targets per insurer"));
+      const m = sc.ps[p.id] || {}, top = Object.entries(m).sort((a, b) => a[1].rank - b[1].rank)[0], mine = S.bench && m[S.bench];
+      const nCore = p.kpis.filter(k => k.core).length, filled = p.kpis.filter(k => Object.keys(S.b.values[k.id] || {}).length).length;
+      const cov = p.kpis.length ? sum(p.kpis.map(k => Object.keys(S.b.values[k.id] || {}).length)) / (p.kpis.length * nIns) * 100 : 0;
+      return h("a", {class:"tile dept", href:"#dept-" + p.id},
+        h("div", {class:"dtop"}, h("div", {class:"lt"}, p.name), mine ? h("span", {class:"dscore", style:scoreStyle(mine.score)}, String(Math.round(mine.score))) : null),
+        h("div", {class:"p"}, p.question),
+        h("div", {class:"chips", style:"margin-top:8px"}, arr(p.functions).slice(0, 4).map(f => h("span", {class:"chip"}, f))),
+        h("div", {class:"dmeta"}, `${p.kpis.length} KPIs · ${nCore} scored · ${p.kpis.length - filled} need research · ${Math.round(cov)}% data coverage`),
+        top ? h("div", {class:"dmeta"}, `Leader: ${cname(top[0])} (${Math.round(top[1].score)})` + (mine ? ` · ${cname(S.bench)}: ${rk(mine.rank)} of ${Object.keys(m).length}` : "")) : h("div", {class:"dmeta"}, "Not scored yet: too few comparable KPIs"));
+    })));
+  });
+  view.append(h("div", {class:"section"}, methodPanel()));
+  return view;
+}
+
 /* ---------- benchmark: departments ---------- */
 function viewDept(pid){
   if (!S.b) return benchMissing();
@@ -2322,10 +2374,14 @@ function viewDept(pid){
   const mode = peerMode(), ids = peerIds(mode), sc = scoresFor(ids), show = shownIds(mode);
   const view = h("div");
   view.append(h("div", {class:"crumbs"}, linkTo("benchmark", "Benchmark"), h("span", null, "/"), h("span", null, p.name)));
-  view.append(h("div", {class:"view-head"}, h("div", null, h("div", {class:"eyebrow"}, p.dept), h("h2", null, p.name), h("p", null, p.question),
+  view.append(h("div", {class:"view-head"}, h("div", null, h("div", {class:"eyebrow"}, p.family || p.dept), h("h2", null, p.name), h("p", null, p.question),
     h("div", {class:"chips", style:"margin-top:8px"}, arr(p.functions).map(fn => h("span", {class:"chip"}, fn)))), peerPicker()));
   view.append(pillarNav(p.id));
   const core = p.kpis.filter(k => k.core), ctx = p.kpis.filter(k => !k.core);
+  const gaps = p.kpis.filter(k => !Object.keys(S.b.values[k.id] || {}).length);
+  if (!core.some(k => Object.keys(S.b.values[k.id] || {}).length >= 5) || core.filter(k => (sc.ks[k.id])).length < 2)
+    view.append(h("p", {class:"note", style:"margin-bottom:12px"}, "This department is not scored yet: fewer than two of its core KPIs are published for enough insurers. The KPIs below still compare what is available; research items are listed under definitions."));
+  if (gaps.length) view.append(h("p", {class:"small muted", style:"margin:-4px 0 12px"}, `${gaps.length} KPI${gaps.length > 1 ? "s" : ""} here need disclosure research (${gaps.map(k => k.name).join("; ")}).`));
   // department ranking
   const m = sc.ps[p.id] || {};
   const rrows = Object.entries(m).map(([c, x]) => ({id:c, l:cname(c), v:x.score, x})).sort((a, b) => b.v - a.v);
@@ -2355,7 +2411,7 @@ function viewDept(pid){
   // definitions
   view.append(h("div", {class:"section"}, h("details", {class:"fold"}, h("summary", null, h("span", null, h("h3", null, "Definitions and sources"), h("span", {class:"fold-s"}, `${p.kpis.length} KPIs in this department`)), h("span", {class:"fold-k"})),
     h("div", {class:"tablewrap"}, h("table", null, h("thead", null, h("tr", null, h("th", null, "KPI"), h("th", null, "Definition"), h("th", null, "Direction"), h("th", null, "Source"), h("th", null, "Refresh"), h("th", {class:"n"}, "Insurers"))),
-      h("tbody", null, p.kpis.map(k => h("tr", null, h("td", {class:"pname"}, linkTo("kpi-" + k.id, k.name), k.core ? null : h("span", {class:"ins"}, "context")), h("td", {class:"desc"}, k.def), h("td", null, k.better === "high" ? "Higher is better" : k.better === "low" ? "Lower is better" : "Context"), h("td", {class:"small"}, srcUrl(k.source) ? ext(srcUrl(k.source), srcName(k.source)) : srcName(k.source)), h("td", {class:"small"}, k.freq), h("td", {class:"n"}, String(Object.keys(S.b.values[k.id] || {}).length))))))))));
+      h("tbody", null, p.kpis.map(k => h("tr", null, h("td", {class:"pname"}, linkTo("kpi-" + k.id, k.name), Object.keys(S.b.values[k.id] || {}).length ? (k.core ? null : h("span", {class:"ins"}, "context")) : h("span", {class:"ins"}, "not yet published comparably: research item")), h("td", {class:"desc"}, k.def), h("td", null, k.better === "high" ? "Higher is better" : k.better === "low" ? "Lower is better" : "Context"), h("td", {class:"small"}, srcUrl(k.source) ? ext(srcUrl(k.source), srcName(k.source)) : srcName(k.source)), h("td", {class:"small"}, k.freq), h("td", {class:"n"}, String(Object.keys(S.b.values[k.id] || {}).length))))))))));
   return view;
 }
 
@@ -2745,7 +2801,7 @@ function parseHash(){
   if (raw.startsWith("product-")) return {v:"product", id:raw.slice(8)};
   if (raw.startsWith("dept-")) return {v:"dept", id:raw.slice(5)};
   if (raw.startsWith("kpi-")) return {v:"kpi", id:raw.slice(4)};
-  return {v:["overview","benchmark","network","global","strategy","news","insurers","ownership","products","compare","changes","about"].includes(raw) ? raw : "overview", id:null};
+  return {v:["overview","benchmark","departments","network","global","strategy","news","insurers","ownership","products","compare","changes","about"].includes(raw) ? raw : "overview", id:null};
 }
 let lastKey = "";
 function render(){
@@ -2759,6 +2815,7 @@ function render(){
   switch (r.v){
     case "benchmark": node = viewBenchmark(); break;
     case "dept": node = viewDept(r.id); break;
+    case "departments": node = viewDeptHome(); break;
     case "kpi": node = viewKpi(r.id); break;
     case "network": node = viewNetwork(); break;
     case "global": node = viewGlobal(); break;

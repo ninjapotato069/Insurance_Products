@@ -4,7 +4,7 @@
 *Add to Home screen* / *Install app*). Needs GitHub Pages on: Settings → Pages → Deploy from a branch → `main` / root.
 
 ## Benchmark
-- `data/benchmark/framework.json` — 15 departments (scale, growth, profit, capital, distribution, product, marketing,
+- `data/benchmark/framework.json` — 20 departments (scale, growth, profit, capital, distribution, product, marketing,
   underwriting, claims, service, efficiency, digital, people, governance, strategy), ~120 KPIs with definition,
   direction, source and refresh. Core KPIs are percentile-scored within a peer group; department and overall scores follow.
 - Sources: IRDAI monthly new business statement (auto), IRDAI Handbook on Indian Insurance Statistics and Annual

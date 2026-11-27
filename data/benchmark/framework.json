@@ -1,12 +1,12 @@
 {
- "version": 1,
- "updated": "2026-11-24",
- "title": "Life Insurer Benchmarking Framework (India)",
- "summary": "Fifteen pillars that mirror how a life insurer is organised, from the board's view of scale and value down to the departments that sell, price, underwrite, pay claims, serve customers and run technology. Each pillar holds KPIs with a definition, formula, direction, source and refresh frequency. Core KPIs feed the scores; context KPIs explain the mix without ranking it.",
+ "version": 2,
+ "updated": "2026-11-27",
+ "title": "Life Insurer Department Benchmark (India)",
+ "summary": "Twenty departments laid out like a life insurer's organisation: four sales channels, nine operations functions from pre-sales to branch operations, IT and projects, product, finance, investments, the CEO office and HR. Each department holds KPIs with a definition, direction, source and refresh frequency. Core KPIs are scored against peers; context KPIs explain the mix; research KPIs mark what insurers do not yet publish in a comparable way.",
  "scoring": {
-  "method": "Within each core KPI, insurers with a value are ranked and given a percentile score from 0 (worst) to 100 (best), flipped where lower is better. A pillar score is the average of the insurer's core KPI scores in that pillar, shown only when at least 2 are available. The overall index averages the scored pillars (equal weights) and is shown only when at least 6 pillars are scored.",
+  "method": "Within each core KPI, insurers with a value are ranked and given a percentile score from 0 (worst) to 100 (best), flipped where lower is better. A department score is the average of the insurer's core KPI scores in that department, shown only when at least 2 are available. The overall index averages the scored departments (equal weights) and is shown only when at least 8 are scored.",
   "min_kpis_per_pillar": 2,
-  "min_pillars_for_index": 6,
+  "min_pillars_for_index": 8,
   "caveats": [
    "Scores rank insurers against each other; they are not ratings of financial soundness.",
    "Business mix drives many ratios (a single-premium or group-heavy book reads differently from a regular-premium retail book). Compare within peer groups for fairness.",
@@ -104,432 +104,39 @@
  },
  "pillars": [
   {
-   "id": "scale",
-   "name": "Scale & market position",
-   "dept": "Board & strategy",
+   "id": "agency",
+   "name": "Agency",
+   "short": "Agency sales",
+   "family": "Sales & distribution",
+   "dept": "Sales & distribution",
+   "question": "Individual agents, agency managers and agency branches",
    "functions": [
-    "Corporate strategy",
-    "Finance"
+    "Agent recruitment",
+    "Agent productivity",
+    "Agency persistency"
    ],
-   "question": "How big is the franchise and how much of the market does it hold?",
    "kpis": [
     {
-     "id": "nbp_ytd_cr",
-     "name": "New business premium, year to date",
-     "unit": "cr",
-     "better": "high",
-     "core": true,
-     "source": "irdai_monthly",
-     "freq": "Monthly",
-     "def": "First-year plus single premium collected this financial year to date, individual and group.",
-     "why": "The headline measure of selling power."
-    },
-    {
-     "id": "nbp_share_pct",
-     "name": "Share of industry new business",
-     "unit": "pct",
-     "better": "high",
-     "core": true,
-     "source": "irdai_monthly",
-     "freq": "Monthly",
-     "def": "Insurer's new business premium as a share of all life insurers, year to date.",
-     "why": "Relative position, independent of market cycles."
-    },
-    {
-     "id": "nbp_private_share_pct",
-     "name": "Share of private-sector new business",
-     "unit": "pct",
-     "better": "high",
-     "core": false,
-     "source": "irdai_monthly",
-     "freq": "Monthly",
-     "def": "New business premium as a share of the private insurers' total, year to date (not shown for LIC).",
-     "why": "The fight that matters for private insurers."
-    },
-    {
-     "id": "ind_nbp_ytd_cr",
-     "name": "Individual new business premium, year to date",
-     "unit": "cr",
-     "better": "high",
-     "core": true,
-     "source": "irdai_monthly",
-     "freq": "Monthly",
-     "def": "Individual single plus non-single first-year premium, year to date.",
-     "why": "Retail franchise strength, without lumpy group fund flows."
-    },
-    {
-     "id": "ind_nbp_share_pct",
-     "name": "Share of industry individual new business",
-     "unit": "pct",
-     "better": "high",
-     "core": true,
-     "source": "irdai_monthly",
-     "freq": "Monthly",
-     "def": "Individual new business premium as a share of the industry's, year to date.",
-     "why": "Retail market share."
-    },
-    {
-     "id": "gwp_cr",
-     "name": "Total premium (gross written)",
+     "id": "agency_premium_cr",
+     "name": "Agency new business premium",
      "unit": "cr",
      "better": "high",
      "core": true,
      "source": "irdai_handbook",
      "freq": "Annual",
-     "def": "First-year, single and renewal premium for the financial year.",
-     "why": "Size of the in-force book plus new sales."
+     "def": "Individual new business premium sold through individual agents.",
+     "why": "Size of the agency franchise."
     },
     {
-     "id": "aum_cr",
-     "name": "Assets under management",
-     "unit": "cr",
-     "better": "high",
-     "core": true,
-     "source": "irdai_handbook",
-     "freq": "Annual",
-     "def": "Investments across life, pension and group, and unit-linked funds at 31 March.",
-     "why": "Balance-sheet scale and long-term earnings base."
-    },
-    {
-     "id": "pif_lakh",
-     "name": "Individual policies in force",
-     "unit": "lakh",
-     "better": "high",
-     "core": true,
-     "source": "irdai_handbook",
-     "freq": "Annual",
-     "def": "Individual policies in force at 31 March, all lines of business.",
-     "why": "Size of the customer base to serve and cross-sell."
-    },
-    {
-     "id": "sa_ytd_cr",
-     "name": "Sum assured written, year to date",
-     "unit": "cr",
-     "better": "high",
-     "core": false,
-     "source": "irdai_monthly",
-     "freq": "Monthly",
-     "def": "Sum assured on new business this financial year to date.",
-     "why": "Amount of protection sold."
-    },
-    {
-     "id": "lives_ytd",
-     "name": "Group lives covered, year to date",
+     "id": "agency_policies",
+     "name": "Agency policies sold",
      "unit": "count",
      "better": "high",
      "core": false,
-     "source": "irdai_monthly",
-     "freq": "Monthly",
-     "def": "Lives covered under new group schemes this financial year to date.",
-     "why": "Reach of group and credit-life business."
-    }
-   ]
-  },
-  {
-   "id": "growth",
-   "name": "Growth momentum",
-   "dept": "Sales & strategy",
-   "functions": [
-    "Sales leadership",
-    "Business planning"
-   ],
-   "question": "Is it gaining or losing ground?",
-   "kpis": [
-    {
-     "id": "nbp_ytd_growth_pct",
-     "name": "New business premium growth, year to date",
-     "unit": "pct",
-     "better": "high",
-     "core": true,
-     "source": "irdai_monthly",
-     "freq": "Monthly",
-     "def": "Year-to-date new business premium against the same period last year.",
-     "why": "Current momentum."
-    },
-    {
-     "id": "ind_nbp_growth_pct",
-     "name": "Individual new business growth, year to date",
-     "unit": "pct",
-     "better": "high",
-     "core": true,
-     "source": "irdai_monthly",
-     "freq": "Monthly",
-     "def": "Year-to-date individual new business premium against the same period last year.",
-     "why": "Retail momentum."
-    },
-    {
-     "id": "ind_regular_growth_pct",
-     "name": "Individual regular-premium growth, year to date",
-     "unit": "pct",
-     "better": "high",
-     "core": true,
-     "source": "irdai_monthly",
-     "freq": "Monthly",
-     "def": "Year-to-date individual non-single premium against the same period last year.",
-     "why": "Growth in the most valuable, recurring business."
-    },
-    {
-     "id": "ind_policies_growth_pct",
-     "name": "Individual policies sold, growth",
-     "unit": "pct",
-     "better": "high",
-     "core": true,
-     "source": "irdai_monthly",
-     "freq": "Monthly",
-     "def": "Year-to-date individual policies issued against the same period last year.",
-     "why": "Customer acquisition, not just ticket size."
-    },
-    {
-     "id": "share_change_bps",
-     "name": "Change in market share",
-     "unit": "bps",
-     "better": "high",
-     "core": true,
-     "source": "irdai_monthly",
-     "freq": "Monthly",
-     "def": "Year-to-date share of industry new business minus the same period last year, in basis points.",
-     "why": "Winning or losing against the market."
-    },
-    {
-     "id": "month_growth_pct",
-     "name": "Latest month new business growth",
-     "unit": "pct",
-     "better": "high",
-     "core": false,
-     "source": "irdai_monthly",
-     "freq": "Monthly",
-     "def": "New business premium in the latest month against the same month last year.",
-     "why": "The most recent signal; volatile."
-    },
-    {
-     "id": "gwp_growth_pct",
-     "name": "Total premium growth",
-     "unit": "pct",
-     "better": "high",
-     "core": true,
      "source": "irdai_handbook",
      "freq": "Annual",
-     "def": "Total premium against the previous financial year.",
-     "why": "Growth of the whole book, including renewals."
+     "def": "Individual policies sold through individual agents."
     },
-    {
-     "id": "gwp_cagr3_pct",
-     "name": "Total premium growth, 3-year CAGR",
-     "unit": "pct",
-     "better": "high",
-     "core": true,
-     "source": "irdai_handbook",
-     "freq": "Annual",
-     "def": "Compound annual growth of total premium over three financial years.",
-     "why": "Sustained growth, smoothing one-off years."
-    },
-    {
-     "id": "aum_growth_pct",
-     "name": "AUM growth",
-     "unit": "pct",
-     "better": "high",
-     "core": false,
-     "source": "irdai_handbook",
-     "freq": "Annual",
-     "def": "Assets under management against a year earlier.",
-     "why": "Compounding of the balance sheet (includes market movements)."
-    }
-   ]
-  },
-  {
-   "id": "profit",
-   "name": "Profitability & value creation",
-   "dept": "Finance & actuarial",
-   "functions": [
-    "Finance",
-    "Actuarial",
-    "Investor relations"
-   ],
-   "question": "Does growth create value for shareholders and policyholders?",
-   "kpis": [
-    {
-     "id": "pat_cr",
-     "name": "Profit after tax",
-     "unit": "cr",
-     "better": "high",
-     "core": true,
-     "source": "irdai_handbook",
-     "freq": "Annual",
-     "def": "Shareholders' profit after tax for the financial year.",
-     "why": "Accounting profit (understates value for growing insurers)."
-    },
-    {
-     "id": "roe_pct",
-     "name": "Return on equity",
-     "unit": "pct",
-     "better": "high",
-     "core": true,
-     "source": "irdai_handbook",
-     "freq": "Annual",
-     "def": "Profit after tax divided by average shareholders' funds.",
-     "why": "Efficiency of shareholder capital."
-    },
-    {
-     "id": "pat_margin_pct",
-     "name": "Profit after tax to premium",
-     "unit": "pct",
-     "better": "high",
-     "core": true,
-     "source": "irdai_handbook",
-     "freq": "Annual",
-     "def": "Profit after tax divided by total premium.",
-     "why": "Profit per rupee of business."
-    },
-    {
-     "id": "ph_surplus_pct",
-     "name": "Policyholders' account surplus to premium",
-     "unit": "pct",
-     "better": "high",
-     "core": true,
-     "source": "irdai_handbook",
-     "freq": "Annual",
-     "def": "Surplus (deficit) in the policyholders' account divided by premium.",
-     "why": "Whether the insurance operations generate surplus before shareholder support."
-    },
-    {
-     "id": "net_worth_cr",
-     "name": "Shareholders' funds (net worth)",
-     "unit": "cr",
-     "better": "high",
-     "core": false,
-     "source": "irdai_handbook",
-     "freq": "Annual",
-     "def": "Share capital, reserves and surplus and fair value change, at 31 March.",
-     "why": "Capital base."
-    },
-    {
-     "id": "net_worth_growth_pct",
-     "name": "Net worth growth",
-     "unit": "pct",
-     "better": "high",
-     "core": true,
-     "source": "irdai_handbook",
-     "freq": "Annual",
-     "def": "Shareholders' funds against a year earlier.",
-     "why": "Internal capital generation (plus any infusion)."
-    },
-    {
-     "id": "vnb_margin_pct",
-     "name": "VNB margin",
-     "unit": "pct",
-     "better": "high",
-     "core": false,
-     "source": "disclosures",
-     "freq": "Quarterly",
-     "def": "Value of new business as a share of annualised premium equivalent, as reported by the insurer.",
-     "why": "Economic profitability of new sales; published mainly by listed insurers."
-    }
-   ]
-  },
-  {
-   "id": "capital",
-   "name": "Capital, risk & investments",
-   "dept": "Risk, actuarial & investments",
-   "functions": [
-    "Risk management",
-    "Appointed actuary",
-    "Investments",
-    "Treasury"
-   ],
-   "question": "Is the balance sheet safe and the money well managed?",
-   "kpis": [
-    {
-     "id": "solvency_ratio",
-     "name": "Solvency ratio",
-     "unit": "x",
-     "better": "high",
-     "core": true,
-     "source": "irdai_handbook",
-     "freq": "Quarterly",
-     "def": "Available solvency margin divided by required solvency margin at the latest quarter end in the source (IRDAI's control level is 1.5).",
-     "why": "Capital cushion; very high levels can also mean idle capital."
-    },
-    {
-     "id": "solvency_change",
-     "name": "Solvency change over 4 quarters",
-     "unit": "x",
-     "better": "high",
-     "core": true,
-     "source": "irdai_handbook",
-     "freq": "Quarterly",
-     "def": "Latest solvency ratio minus the ratio four quarters earlier.",
-     "why": "Capital consumption or build-up."
-    },
-    {
-     "id": "ulip_aum_share_pct",
-     "name": "Unit-linked share of AUM",
-     "unit": "pct",
-     "better": "none",
-     "core": false,
-     "source": "irdai_handbook",
-     "freq": "Annual",
-     "def": "Unit-linked funds as a share of total assets under management.",
-     "why": "Market-linked versus guaranteed balance sheet."
-    },
-    {
-     "id": "aum_to_premium_x",
-     "name": "AUM to total premium",
-     "unit": "x",
-     "better": "none",
-     "core": false,
-     "source": "irdai_handbook",
-     "freq": "Annual",
-     "def": "Assets under management divided by total premium.",
-     "why": "Maturity and savings depth of the book."
-    },
-    {
-     "id": "reinsurance_ceded_pct",
-     "name": "Reinsurance ceded to premium",
-     "unit": "pct",
-     "better": "none",
-     "core": false,
-     "source": "irdai_handbook",
-     "freq": "Annual",
-     "def": "Premium ceded to reinsurers divided by gross premium.",
-     "why": "How much mortality risk is passed on."
-    },
-    {
-     "id": "investment_yield_pct",
-     "name": "Investment yield",
-     "unit": "pct",
-     "better": "high",
-     "core": false,
-     "source": "disclosures",
-     "freq": "Quarterly",
-     "def": "Yield on policyholders' and shareholders' investments without unrealised gains (form L-34).",
-     "why": "Investment performance on guaranteed books."
-    },
-    {
-     "id": "npa_pct",
-     "name": "Gross NPA in investments",
-     "unit": "pct",
-     "better": "low",
-     "core": false,
-     "source": "disclosures",
-     "freq": "Quarterly",
-     "def": "Gross non-performing investments as a share of total (form L-33).",
-     "why": "Credit quality of the portfolio."
-    }
-   ]
-  },
-  {
-   "id": "distribution",
-   "name": "Distribution & sales",
-   "dept": "Sales & distribution",
-   "functions": [
-    "Agency",
-    "Bancassurance & partnerships",
-    "Brokers & alliances",
-    "Direct & online sales",
-    "Group & corporate sales"
-   ],
-   "question": "How diversified and productive is the sales engine?",
-   "kpis": [
     {
      "id": "ch_agency_pct",
      "name": "Agency share of individual new business",
@@ -540,72 +147,6 @@
      "freq": "Annual",
      "def": "Individual new business premium sold by individual agents, share of total.",
      "why": "Reliance on a proprietary agency force."
-    },
-    {
-     "id": "ch_banca_pct",
-     "name": "Bancassurance share",
-     "unit": "pct",
-     "better": "none",
-     "core": false,
-     "source": "irdai_handbook",
-     "freq": "Annual",
-     "def": "Individual new business premium through bank corporate agents, share of total.",
-     "why": "Reliance on bank partners."
-    },
-    {
-     "id": "ch_other_ca_pct",
-     "name": "Other corporate agents share",
-     "unit": "pct",
-     "better": "none",
-     "core": false,
-     "source": "irdai_handbook",
-     "freq": "Annual",
-     "def": "Individual new business premium through non-bank corporate agents (NBFCs, MFIs and others), share of total.",
-     "why": "Partnership reach beyond banks."
-    },
-    {
-     "id": "ch_broker_pct",
-     "name": "Broker share",
-     "unit": "pct",
-     "better": "none",
-     "core": false,
-     "source": "irdai_handbook",
-     "freq": "Annual",
-     "def": "Individual new business premium through brokers, share of total.",
-     "why": "Open-market and broker relationships."
-    },
-    {
-     "id": "ch_direct_pct",
-     "name": "Direct and online share",
-     "unit": "pct",
-     "better": "none",
-     "core": false,
-     "source": "irdai_handbook",
-     "freq": "Annual",
-     "def": "Individual new business premium from direct selling and online, share of total.",
-     "why": "Own-channel and digital strength."
-    },
-    {
-     "id": "ch_other_pct",
-     "name": "POSP, web aggregators and others",
-     "unit": "pct",
-     "better": "none",
-     "core": false,
-     "source": "irdai_handbook",
-     "freq": "Annual",
-     "def": "Individual new business premium through point-of-sale persons, web aggregators, insurance marketing firms, micro-insurance agents, common service centres and others.",
-     "why": "Long-tail and emerging channels."
-    },
-    {
-     "id": "channel_diversity",
-     "name": "Channel diversity index",
-     "unit": "score",
-     "better": "high",
-     "core": true,
-     "source": "irdai_handbook",
-     "freq": "Annual",
-     "def": "100 x (1 - sum of squared channel shares of individual new business premium). 0 = one channel only.",
-     "why": "Resilience: less dependence on any single partner or channel."
     },
     {
      "id": "agents_count",
@@ -652,6 +193,174 @@
      "why": "Agent activity."
     },
     {
+     "id": "agency_ticket_inr",
+     "name": "Agency average premium per policy",
+     "unit": "inr",
+     "better": "none",
+     "core": false,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "Agency new business premium divided by agency policies.",
+     "why": "Customer segment the agency serves."
+    },
+    {
+     "id": "agency_13m_persistency",
+     "name": "Agency 13th-month persistency",
+     "unit": "pct",
+     "better": "high",
+     "core": false,
+     "source": "research",
+     "freq": "Quarterly",
+     "def": "13th-month persistency of agency-sourced policies, where disclosed.",
+     "why": "Sales quality of the agency channel."
+    },
+    {
+     "id": "agent_activation_pct",
+     "name": "Active agents",
+     "unit": "pct",
+     "better": "high",
+     "core": false,
+     "source": "research",
+     "freq": "Quarterly",
+     "def": "Agents who sold at least one policy in the period as a share of all agents, where disclosed.",
+     "why": "Productive share of the agency force."
+    }
+   ]
+  },
+  {
+   "id": "proprietary",
+   "name": "Proprietary sales force & in-house",
+   "short": "Direct sales",
+   "family": "Sales & distribution",
+   "dept": "Sales & distribution",
+   "question": "The insurer's own salaried sales force, in-house telesales and online sales",
+   "functions": [
+    "Direct sales force",
+    "Telesales",
+    "Online sales"
+   ],
+   "kpis": [
+    {
+     "id": "direct_premium_cr",
+     "name": "Proprietary and direct new business premium",
+     "unit": "cr",
+     "better": "high",
+     "core": true,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "Individual new business premium from the insurer's own direct sales force and online.",
+     "why": "Business owned end to end by the insurer."
+    },
+    {
+     "id": "direct_policies",
+     "name": "Proprietary and direct policies sold",
+     "unit": "count",
+     "better": "high",
+     "core": false,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "Individual policies from direct selling and online."
+    },
+    {
+     "id": "ch_direct_pct",
+     "name": "Direct and online share",
+     "unit": "pct",
+     "better": "none",
+     "core": false,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "Individual new business premium from direct selling and online, share of total.",
+     "why": "Own-channel and digital strength."
+    },
+    {
+     "id": "direct_ticket_inr",
+     "name": "Direct average premium per policy",
+     "unit": "inr",
+     "better": "none",
+     "core": false,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "Direct and online new business premium divided by policies."
+    },
+    {
+     "id": "proprietary_share_pct",
+     "name": "Proprietary channels share (agency + direct)",
+     "unit": "pct",
+     "better": "none",
+     "core": false,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "Individual new business premium from agency, direct selling and online, share of total.",
+     "why": "Control over distribution versus dependence on partners."
+    },
+    {
+     "id": "online_nb_pct",
+     "name": "Online share of individual new business",
+     "unit": "pct",
+     "better": "high",
+     "core": true,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "Individual new business premium from online sales and web aggregators, share of total.",
+     "why": "Digital sales traction."
+    }
+   ]
+  },
+  {
+   "id": "banca",
+   "name": "Bancassurance",
+   "short": "Bancassurance",
+   "family": "Sales & distribution",
+   "dept": "Sales & distribution",
+   "question": "Sales through bank partners",
+   "functions": [
+    "Bank partnerships",
+    "Branch banking sales",
+    "Credit-linked cover"
+   ],
+   "kpis": [
+    {
+     "id": "banca_premium_cr",
+     "name": "Bancassurance new business premium",
+     "unit": "cr",
+     "better": "high",
+     "core": true,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "Individual new business premium through bank corporate agents."
+    },
+    {
+     "id": "banca_policies",
+     "name": "Bancassurance policies sold",
+     "unit": "count",
+     "better": "high",
+     "core": false,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "Individual policies sold through bank partners."
+    },
+    {
+     "id": "ch_banca_pct",
+     "name": "Bancassurance share",
+     "unit": "pct",
+     "better": "none",
+     "core": false,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "Individual new business premium through bank corporate agents, share of total.",
+     "why": "Reliance on bank partners."
+    },
+    {
+     "id": "banca_ticket_inr",
+     "name": "Bancassurance average premium per policy",
+     "unit": "inr",
+     "better": "none",
+     "core": false,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "Bank channel new business premium divided by policies."
+    },
+    {
      "id": "corporate_agents",
      "name": "Corporate agent partners",
      "unit": "count",
@@ -663,70 +372,94 @@
      "why": "Breadth of partnerships."
     },
     {
-     "id": "offices",
-     "name": "Offices",
+     "id": "ca_nbp_lakh",
+     "name": "New business premium per corporate agent",
+     "unit": "inr_lakh",
+     "better": "high",
+     "core": true,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "Average individual new business premium per corporate agent (banks and other partners), as IRDAI publishes it.",
+     "why": "Partner productivity."
+    },
+    {
+     "id": "ca_policies",
+     "name": "Policies per corporate agent",
      "unit": "count",
      "better": "high",
+     "core": true,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "Average individual policies sold per corporate agent.",
+     "why": "Partner activity."
+    },
+    {
+     "id": "group_banca_pct",
+     "name": "Bank share of group new business",
+     "unit": "pct",
+     "better": "none",
      "core": false,
      "source": "irdai_handbook",
      "freq": "Annual",
-     "def": "Offices across states and union territories at 31 March.",
-     "why": "Physical footprint."
-    },
+     "def": "Group new business premium through bank corporate agents (mostly credit life), share of group total."
+    }
+   ]
+  },
+  {
+   "id": "institutional",
+   "name": "Institutional & group business",
+   "short": "Institutional business",
+   "family": "Sales & distribution",
+   "dept": "Sales & distribution",
+   "question": "Brokers, non-bank partners, POSP and web aggregators, and group business for employers and lenders",
+   "functions": [
+    "Brokers and alliances",
+    "NBFC and MFI partners",
+    "Group term and credit life",
+    "Gratuity and superannuation"
+   ],
+   "kpis": [
     {
-     "id": "nbp_per_office_cr",
-     "name": "New business premium per office",
+     "id": "group_nbp_ytd_cr",
+     "name": "Group new business premium, year to date",
      "unit": "cr",
      "better": "high",
      "core": true,
-     "source": "irdai_handbook",
-     "freq": "Annual",
-     "def": "Annual new business premium divided by offices.",
-     "why": "Branch productivity."
+     "source": "irdai_monthly",
+     "freq": "Monthly",
+     "def": "Group single, non-single and yearly-renewable first-year premium this financial year to date.",
+     "why": "Size of the institutional and employer franchise."
     },
     {
-     "id": "states_present",
-     "name": "States and UTs with individual business",
-     "unit": "count",
+     "id": "group_nbp_growth_pct",
+     "name": "Group new business growth, year to date",
+     "unit": "pct",
      "better": "high",
      "core": true,
-     "source": "irdai_handbook",
-     "freq": "Annual",
-     "def": "States and union territories where the insurer wrote individual new business premium.",
-     "why": "Geographic reach."
+     "source": "irdai_monthly",
+     "freq": "Monthly",
+     "def": "Year-to-date group new business premium against the same period last year."
     },
     {
-     "id": "top3_state_share_pct",
-     "name": "Top-3 states share of individual business",
+     "id": "lives_ytd",
+     "name": "Group lives covered, year to date",
+     "unit": "count",
+     "better": "high",
+     "core": false,
+     "source": "irdai_monthly",
+     "freq": "Monthly",
+     "def": "Lives covered under new group schemes this financial year to date.",
+     "why": "Reach of group and credit-life business."
+    },
+    {
+     "id": "group_share_of_nbp_pct",
+     "name": "Group share of new business",
      "unit": "pct",
-     "better": "low",
-     "core": true,
-     "source": "irdai_handbook",
-     "freq": "Annual",
-     "def": "Share of individual new business premium from the insurer's three largest states.",
-     "why": "Geographic concentration risk."
-    },
-    {
-     "id": "ind_ticket_inr",
-     "name": "Average individual premium per policy",
-     "unit": "inr",
      "better": "none",
      "core": false,
      "source": "irdai_monthly",
      "freq": "Monthly",
-     "def": "Year-to-date individual new business premium divided by individual policies.",
-     "why": "Customer segment and channel mix (affluent versus mass)."
-    },
-    {
-     "id": "regular_share_pct",
-     "name": "Regular premium share of individual business",
-     "unit": "pct",
-     "better": "high",
-     "core": true,
-     "source": "irdai_monthly",
-     "freq": "Monthly",
-     "def": "Individual non-single premium as a share of individual new business premium, year to date.",
-     "why": "Quality of the retail book: recurring premiums build value."
+     "def": "Group new business premium as a share of the insurer's total new business premium, year to date."
     },
     {
      "id": "ind_share_of_nbp_pct",
@@ -740,308 +473,218 @@
      "why": "Retail versus group orientation."
     },
     {
-     "id": "office_states",
-     "name": "States and UTs with an office",
-     "unit": "count",
-     "better": "high",
-     "core": true,
-     "source": "irdai_handbook",
-     "freq": "Annual",
-     "def": "States and union territories where the insurer has at least one office at 31 March.",
-     "why": "Physical reach of the branch network."
+     "id": "group_premium_per_life_inr",
+     "name": "Group premium per life covered",
+     "unit": "inr",
+     "better": "none",
+     "core": false,
+     "source": "irdai_monthly",
+     "freq": "Monthly",
+     "def": "Year-to-date group new business premium divided by lives covered.",
+     "why": "Credit-life and term (low) versus fund business (high)."
     },
     {
-     "id": "offices_growth_5y_pct",
-     "name": "Office network growth, 5 years",
+     "id": "group_direct_pct",
+     "name": "Direct share of group new business",
      "unit": "pct",
      "better": "none",
      "core": false,
      "source": "irdai_handbook",
      "freq": "Annual",
-     "def": "Change in the number of offices over five years.",
-     "why": "Expanding or consolidating the branch footprint."
+     "def": "Group new business premium won directly by the insurer, share of group total."
     },
     {
-     "id": "rural_semiurban_office_pct",
-     "name": "Offices in semi-urban and rural areas",
-     "unit": "pct",
-     "better": "none",
-     "core": false,
-     "source": "irdai_handbook",
-     "freq": "Annual",
-     "def": "Semi-urban and rural offices as a share of all classified offices.",
-     "why": "How far the network reaches beyond cities."
-    },
-    {
-     "id": "ind_premium_per_office_cr",
-     "name": "Individual new business per office",
+     "id": "broker_premium_cr",
+     "name": "Broker new business premium",
      "unit": "cr",
      "better": "high",
      "core": false,
      "source": "irdai_handbook",
      "freq": "Annual",
-     "def": "Individual new business premium divided by offices, all states.",
-     "why": "Retail productivity of the branch network."
+     "def": "Individual new business premium through insurance brokers."
     },
     {
-     "id": "state_share_gain_states",
-     "name": "States where retail share grew",
+     "id": "other_ca_premium_cr",
+     "name": "Non-bank partner new business premium",
+     "unit": "cr",
+     "better": "high",
+     "core": false,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "Individual new business premium through non-bank corporate agents (NBFCs, MFIs and others)."
+    },
+    {
+     "id": "ch_broker_pct",
+     "name": "Broker share",
+     "unit": "pct",
+     "better": "none",
+     "core": false,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "Individual new business premium through brokers, share of total.",
+     "why": "Open-market and broker relationships."
+    },
+    {
+     "id": "ch_other_ca_pct",
+     "name": "Other corporate agents share",
+     "unit": "pct",
+     "better": "none",
+     "core": false,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "Individual new business premium through non-bank corporate agents (NBFCs, MFIs and others), share of total.",
+     "why": "Partnership reach beyond banks."
+    },
+    {
+     "id": "ch_other_pct",
+     "name": "POSP, web aggregators and others",
+     "unit": "pct",
+     "better": "none",
+     "core": false,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "Individual new business premium through point-of-sale persons, web aggregators, insurance marketing firms, micro-insurance agents, common service centres and others.",
+     "why": "Long-tail and emerging channels."
+    },
+    {
+     "id": "channel_diversity",
+     "name": "Channel diversity index",
+     "unit": "score",
+     "better": "high",
+     "core": true,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "100 x (1 - sum of squared channel shares of individual new business premium). 0 = one channel only.",
+     "why": "Resilience: less dependence on any single partner or channel."
+    }
+   ]
+  },
+  {
+   "id": "presales",
+   "name": "Pre-sales & issuance",
+   "short": "New business operations",
+   "family": "Operations",
+   "dept": "Operations",
+   "question": "Proposal processing, KYC, policy issuance and welcome kits",
+   "functions": [
+    "Proposal login",
+    "KYC",
+    "Policy issuance"
+   ],
+   "kpis": [
+    {
+     "id": "ind_policies_ytd",
+     "name": "Individual policies issued, year to date",
+     "unit": "count",
+     "better": "high",
+     "core": true,
+     "source": "irdai_monthly",
+     "freq": "Monthly",
+     "def": "Individual new policies (single and regular premium) this financial year to date.",
+     "why": "Issuance volume handled."
+    },
+    {
+     "id": "ind_policies_growth_pct",
+     "name": "Individual policies sold, growth",
+     "unit": "pct",
+     "better": "high",
+     "core": true,
+     "source": "irdai_monthly",
+     "freq": "Monthly",
+     "def": "Year-to-date individual policies issued against the same period last year.",
+     "why": "Customer acquisition, not just ticket size."
+    },
+    {
+     "id": "policies_per_office",
+     "name": "Individual policies issued per office",
      "unit": "count",
      "better": "high",
      "core": true,
      "source": "irdai_handbook",
      "freq": "Annual",
-     "def": "States and UTs where the insurer's share of individual new business premium rose over the previous year.",
-     "why": "Breadth of market-share gains across geography."
-    }
-   ]
-  },
-  {
-   "id": "product",
-   "name": "Product & proposition",
-   "dept": "Products",
-   "functions": [
-    "Product development",
-    "Actuarial pricing",
-    "Product compliance"
-   ],
-   "question": "How broad, fresh and accessible is the shelf?",
-   "kpis": [
+     "def": "Individual policies issued in the year divided by offices.",
+     "why": "Issuance throughput of the branch network."
+    },
     {
-     "id": "active_individual",
-     "name": "Individual products on sale",
-     "unit": "count",
+     "id": "onboarding_digital",
+     "name": "Digital onboarding capabilities",
+     "unit": "score",
      "better": "high",
      "core": true,
-     "source": "catalogue",
-     "freq": "Weekly",
-     "def": "Individual plans currently on sale.",
-     "why": "Breadth of shelf."
-    },
-    {
-     "id": "category_breadth",
-     "name": "Categories covered",
-     "unit": "count",
-     "better": "high",
-     "core": true,
-     "source": "catalogue",
-     "freq": "Weekly",
-     "def": "How many of the six individual categories (term, ULIP, par savings, non-par savings, pension and annuity, health and CI) have at least one plan on sale.",
-     "why": "Completeness of proposition across life stages."
-    },
-    {
-     "id": "launches_12m",
-     "name": "Products launched in 12 months",
-     "unit": "count",
-     "better": "high",
-     "core": true,
-     "source": "catalogue",
-     "freq": "Weekly",
-     "def": "New individual products launched in the last 12 months, from the change log.",
-     "why": "Innovation pace."
-    },
-    {
-     "id": "products_filed",
-     "name": "Products and riders filed in the year",
-     "unit": "count",
-     "better": "high",
-     "core": true,
-     "source": "irdai_annual",
-     "freq": "Annual",
-     "def": "Products and riders filed with IRDAI during the financial year (File & Use plus Use & File).",
-     "why": "Product pipeline activity, including revisions."
-    },
-    {
-     "id": "riders_active",
-     "name": "Riders on sale",
-     "unit": "count",
-     "better": "high",
-     "core": true,
-     "source": "catalogue",
-     "freq": "Weekly",
-     "def": "Riders currently offered.",
-     "why": "Ability to customise cover."
-    },
-    {
-     "id": "group_products",
-     "name": "Group products on sale",
-     "unit": "count",
-     "better": "high",
-     "core": false,
-     "source": "catalogue",
-     "freq": "Weekly",
-     "def": "Group plans currently on sale (term, credit life, gratuity, superannuation, annuity and others).",
-     "why": "Corporate and institutional proposition."
-    },
-    {
-     "id": "online_pct",
-     "name": "Plans buyable online",
-     "unit": "pct",
-     "better": "high",
-     "core": true,
-     "source": "catalogue",
-     "freq": "Weekly",
-     "def": "Share of individual plans on sale that can be bought online.",
-     "why": "Direct-to-customer access."
-    },
-    {
-     "id": "standard_products",
-     "name": "IRDAI standard products offered",
-     "unit": "count",
-     "better": "high",
-     "core": false,
-     "source": "catalogue",
-     "freq": "Weekly",
-     "def": "Standard products on sale (Saral Jeevan Bima, Saral Pension and others).",
-     "why": "Simple, comparable entry products."
-    },
-    {
-     "id": "micro_products",
-     "name": "Micro-insurance products",
-     "unit": "count",
-     "better": "high",
-     "core": false,
-     "source": "catalogue",
-     "freq": "Weekly",
-     "def": "Micro-insurance products on sale.",
-     "why": "Financial inclusion."
-    },
-    {
-     "id": "linked_nb_share_pct",
-     "name": "ULIP share of new business",
-     "unit": "pct",
-     "better": "none",
-     "core": false,
-     "source": "irdai_annual",
-     "freq": "Annual",
-     "def": "Linked new business premium as a share of total new business premium.",
-     "why": "Market-linked versus traditional mix."
-    },
-    {
-     "id": "protection_intensity",
-     "name": "Protection intensity of retail sales",
-     "unit": "x",
-     "better": "high",
-     "core": true,
-     "source": "irdai_monthly",
-     "freq": "Monthly",
-     "def": "Sum assured on individual new business per rupee of individual new business premium, year to date.",
-     "why": "How much life cover the retail book actually sells."
-    },
-    {
-     "id": "term_max_cover_age",
-     "name": "Longest term cover offered",
-     "unit": "yrs",
-     "better": "high",
-     "core": false,
-     "source": "catalogue",
-     "freq": "Weekly",
-     "def": "Highest maturity age across term plans on sale.",
-     "why": "Competitiveness of the flagship protection product."
-    }
-   ]
-  },
-  {
-   "id": "marketing",
-   "name": "Marketing & brand",
-   "dept": "Marketing",
-   "functions": [
-    "Brand",
-    "Communications",
-    "Digital marketing"
-   ],
-   "question": "How visible and well regarded is the brand?",
-   "kpis": [
-    {
-     "id": "news_30d",
-     "name": "News mentions, last 30 days",
-     "unit": "count",
-     "better": "high",
-     "core": true,
-     "source": "news",
-     "freq": "Daily",
-     "def": "Headlines naming the insurer in Google News (India) over 30 days.",
-     "why": "Media visibility."
-    },
-    {
-     "id": "news_sov_pct",
-     "name": "Share of voice",
-     "unit": "pct",
-     "better": "high",
-     "core": false,
-     "source": "news",
-     "freq": "Daily",
-     "def": "Insurer's news mentions as a share of mentions of all tracked insurers, 30 days.",
-     "why": "Visibility relative to peers."
-    },
-    {
-     "id": "app_installs",
-     "name": "App installs (Android)",
-     "unit": "count",
-     "better": "high",
-     "core": true,
-     "source": "app_stores",
-     "freq": "Daily",
-     "def": "Lower bound of the Google Play install range for the customer app.",
-     "why": "Reach of the brand's digital front door."
-    },
-    {
-     "id": "review_volume",
-     "name": "App ratings given",
-     "unit": "count",
-     "better": "high",
-     "core": false,
-     "source": "app_stores",
-     "freq": "Daily",
-     "def": "Ratings on Google Play and the App Store combined.",
-     "why": "Customer engagement."
-    },
-    {
-     "id": "third_party_rating",
-     "name": "Review-site rating",
-     "unit": "stars",
-     "better": "high",
-     "core": false,
-     "source": "research",
-     "freq": "Monthly",
-     "def": "Average customer rating on review and aggregator sites.",
-     "why": "Reputation outside the insurer's own channels."
-    },
-    {
-     "id": "social_platforms",
-     "name": "Social platforms linked",
-     "unit": "count",
-     "better": "high",
-     "core": false,
      "source": "web_audit",
      "freq": "Daily",
-     "def": "Social networks linked from the homepage (Facebook, Instagram, LinkedIn, YouTube, X).",
-     "why": "Presence across channels."
+     "def": "How many of: buy online or instant quote, video KYC / e-KYC / DigiLocker, and AI or need-analysis tools appear on the homepage (0-3).",
+     "why": "Paperless, assisted digital onboarding."
     },
     {
-     "id": "ad_spend_pct",
-     "name": "Advertisement & publicity to premium",
+     "id": "ind_ticket_inr",
+     "name": "Average individual premium per policy",
+     "unit": "inr",
+     "better": "none",
+     "core": false,
+     "source": "irdai_monthly",
+     "freq": "Monthly",
+     "def": "Year-to-date individual new business premium divided by individual policies.",
+     "why": "Customer segment and channel mix (affluent versus mass)."
+    },
+    {
+     "id": "single_premium_share_pct",
+     "name": "Single premium share of individual business",
      "unit": "pct",
      "better": "none",
      "core": false,
-     "source": "disclosures",
+     "source": "irdai_monthly",
+     "freq": "Monthly",
+     "def": "Individual single premium as a share of individual new business premium, year to date."
+    },
+    {
+     "id": "sa_ytd_cr",
+     "name": "Sum assured written, year to date",
+     "unit": "cr",
+     "better": "high",
+     "core": false,
+     "source": "irdai_monthly",
+     "freq": "Monthly",
+     "def": "Sum assured on new business this financial year to date.",
+     "why": "Amount of protection sold."
+    },
+    {
+     "id": "issuance_tat_days",
+     "name": "Average policy issuance time",
+     "unit": "days",
+     "better": "low",
+     "core": false,
+     "source": "research",
+     "freq": "Quarterly",
+     "def": "Days from complete proposal to policy issuance, where disclosed.",
+     "why": "Speed of new business operations."
+    },
+    {
+     "id": "freelook_pct",
+     "name": "Free-look cancellations",
+     "unit": "pct",
+     "better": "low",
+     "core": false,
+     "source": "research",
      "freq": "Annual",
-     "def": "Advertisement and publicity expense divided by total premium (schedule L-6).",
-     "why": "Brand investment intensity."
+     "def": "Policies returned in the free-look period as a share of policies issued, where disclosed.",
+     "why": "Mis-selling and onboarding quality."
     }
    ]
   },
   {
    "id": "underwriting",
-   "name": "Underwriting & risk selection",
-   "dept": "Underwriting",
+   "name": "Underwriting: medical & non-medical",
+   "short": "Underwriting",
+   "family": "Operations",
+   "dept": "Operations",
+   "question": "Risk selection for life cover, with and without medical tests",
    "functions": [
-    "Underwriting",
-    "Medical",
+    "Medical underwriting",
+    "Non-medical underwriting",
     "Reinsurance",
     "Fraud control"
    ],
-   "question": "Does it select risk well without denying genuine claims?",
    "kpis": [
     {
      "id": "repudiation_pct",
@@ -1088,6 +731,50 @@
      "why": "Risk selection in group and credit-life business."
     },
     {
+     "id": "reinsurance_ceded_pct",
+     "name": "Reinsurance ceded to premium",
+     "unit": "pct",
+     "better": "none",
+     "core": false,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "Premium ceded to reinsurers divided by gross premium.",
+     "why": "How much mortality risk is passed on."
+    },
+    {
+     "id": "nonmedical_limit_inr",
+     "name": "Highest non-medical sum assured (term)",
+     "unit": "inr",
+     "better": "none",
+     "core": false,
+     "source": "research",
+     "freq": "As changed",
+     "def": "Largest cover issued without medical tests on the flagship term plan, where published.",
+     "why": "Non-medical underwriting appetite."
+    },
+    {
+     "id": "medical_share_pct",
+     "name": "Proposals with medical underwriting",
+     "unit": "pct",
+     "better": "none",
+     "core": false,
+     "source": "research",
+     "freq": "Annual",
+     "def": "Share of proposals that needed medical tests, where disclosed.",
+     "why": "Medical underwriting load."
+    },
+    {
+     "id": "decline_rate_pct",
+     "name": "Proposals declined or postponed",
+     "unit": "pct",
+     "better": "none",
+     "core": false,
+     "source": "research",
+     "freq": "Annual",
+     "def": "Proposals declined or postponed as a share of proposals, where disclosed.",
+     "why": "Underwriting strictness."
+    },
+    {
      "id": "mortality_ae",
      "name": "Mortality experience (actual vs expected)",
      "unit": "pct",
@@ -1101,96 +788,61 @@
    ]
   },
   {
-   "id": "claims",
-   "name": "Claims",
-   "dept": "Claims",
+   "id": "renewal",
+   "name": "Renewals & persistency",
+   "short": "Renewals",
+   "family": "Operations",
+   "dept": "Operations",
+   "question": "Keeping policies in force: premium reminders, revival and retention",
    "functions": [
-    "Death claims",
-    "Living benefits",
-    "Group claims"
+    "Renewal collections",
+    "Revival",
+    "Retention"
    ],
-   "question": "Does it pay, and pay fast?",
    "kpis": [
     {
-     "id": "csr_count_pct",
-     "name": "Death claims paid (by number)",
+     "id": "renewal_premium_cr",
+     "name": "Renewal premium",
+     "unit": "cr",
+     "better": "high",
+     "core": true,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "Total premium minus new business premium for the financial year.",
+     "why": "The book's recurring revenue."
+    },
+    {
+     "id": "renewal_growth_pct",
+     "name": "Renewal premium growth",
      "unit": "pct",
      "better": "high",
      "core": true,
      "source": "irdai_handbook",
      "freq": "Annual",
-     "def": "Individual death claims paid divided by total claims (pending at start plus intimated).",
-     "why": "The promise kept."
+     "def": "Renewal premium against the previous financial year.",
+     "why": "Compounding of the in-force book."
     },
     {
-     "id": "csr_amount_pct",
-     "name": "Death claims paid (by amount)",
-     "unit": "pct",
-     "better": "high",
-     "core": true,
-     "source": "irdai_handbook",
-     "freq": "Annual",
-     "def": "Amount of individual death claims paid divided by total claim amount.",
-     "why": "Shows whether large claims are paid as readily as small ones."
-    },
-    {
-     "id": "claims_30d_pct",
-     "name": "Death claims settled within 30 days",
-     "unit": "pct",
-     "better": "high",
-     "core": true,
-     "source": "irdai_handbook",
-     "freq": "Annual",
-     "def": "Individual death claims settled within 30 days of intimation, share of claims settled.",
-     "why": "Speed at the moment that matters most."
-    },
-    {
-     "id": "claims_pending_pct",
-     "name": "Death claims pending at year end",
-     "unit": "pct",
-     "better": "low",
-     "core": true,
-     "source": "irdai_handbook",
-     "freq": "Annual",
-     "def": "Individual death claims pending at year end divided by total claims.",
-     "why": "Backlog."
-    },
-    {
-     "id": "group_csr_pct",
-     "name": "Group death claims paid",
-     "unit": "pct",
-     "better": "high",
-     "core": true,
-     "source": "irdai_handbook",
-     "freq": "Annual",
-     "def": "Group death claims paid divided by total group claims.",
-     "why": "Claims performance for employer and credit-life members."
-    },
-    {
-     "id": "csr_latest_pct",
-     "name": "Death claims paid, latest disclosed",
+     "id": "renewal_cagr3_pct",
+     "name": "Renewal premium growth, 3-year CAGR",
      "unit": "pct",
      "better": "high",
      "core": false,
-     "source": "disclosures",
+     "source": "irdai_handbook",
      "freq": "Annual",
-     "def": "Most recent claim settlement ratio by number as compiled from insurer disclosures.",
-     "why": "A more recent read than the IRDAI handbook."
-    }
-   ]
-  },
-  {
-   "id": "service",
-   "name": "Customer service & retention",
-   "dept": "Operations & customer service",
-   "functions": [
-    "Policy servicing",
-    "Grievance redressal",
-    "Renewals & retention",
-    "Contact centre & branches"
-   ],
-   "question": "Do customers stay, and are they treated well?",
-   "kpis": [
+     "def": "Compound annual growth of renewal premium over three years."
+    },
+    {
+     "id": "renewal_share_pct",
+     "name": "Renewal share of total premium",
+     "unit": "pct",
+     "better": "high",
+     "core": true,
+     "source": "irdai_annual",
+     "freq": "Annual",
+     "def": "Renewal premium as a share of total premium.",
+     "why": "Stable, low-cost revenue base."
+    },
     {
      "id": "persistency_13",
      "name": "13th-month persistency",
@@ -1269,6 +921,230 @@
      "why": "Customers dropping out."
     },
     {
+     "id": "persistency_13_premium",
+     "name": "13th-month persistency (by premium), latest disclosed",
+     "unit": "pct",
+     "better": "high",
+     "core": false,
+     "source": "disclosures",
+     "freq": "Quarterly",
+     "def": "13th-month persistency on premium basis from the insurer's latest disclosure.",
+     "why": "The measure insurers report to investors."
+    }
+   ]
+  },
+  {
+   "id": "payments",
+   "name": "Premium payments & collections",
+   "short": "Payments",
+   "family": "Operations",
+   "dept": "Operations",
+   "question": "How customers pay premiums and how reliably collections come in",
+   "functions": [
+    "Payment gateways",
+    "Auto-debit mandates",
+    "Cash and branch collections"
+   ],
+   "kpis": [
+    {
+     "id": "payments_digital",
+     "name": "Digital premium payment options",
+     "unit": "score",
+     "better": "high",
+     "core": true,
+     "source": "web_audit",
+     "freq": "Daily",
+     "def": "How many of: online premium payment, UPI or auto-pay mandate, Android app and iOS app links appear on the homepage (0-4).",
+     "why": "Ease of paying renewals."
+    },
+    {
+     "id": "pay_online",
+     "name": "Online premium payment on homepage",
+     "unit": "bool",
+     "better": "none",
+     "core": false,
+     "source": "web_audit",
+     "freq": "Daily",
+     "def": "Pay or renew premium link on the homepage."
+    },
+    {
+     "id": "upi_autopay",
+     "name": "UPI / auto-pay mandate offered",
+     "unit": "bool",
+     "better": "none",
+     "core": false,
+     "source": "web_audit",
+     "freq": "Daily",
+     "def": "UPI, auto-pay or e-mandate mentioned on the homepage."
+    },
+    {
+     "id": "autodebit_share_pct",
+     "name": "Renewals collected by auto-debit",
+     "unit": "pct",
+     "better": "high",
+     "core": false,
+     "source": "research",
+     "freq": "Annual",
+     "def": "Renewal premium collected through standing instructions, NACH or UPI mandates, where disclosed."
+    }
+   ]
+  },
+  {
+   "id": "payouts",
+   "name": "Payouts & claims",
+   "short": "Payouts",
+   "family": "Operations",
+   "dept": "Operations",
+   "question": "Death claims, maturities, survival benefits, annuities and surrenders",
+   "functions": [
+    "Death claims",
+    "Maturity and survival payouts",
+    "Group claims"
+   ],
+   "kpis": [
+    {
+     "id": "csr_count_pct",
+     "name": "Death claims paid (by number)",
+     "unit": "pct",
+     "better": "high",
+     "core": true,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "Individual death claims paid divided by total claims (pending at start plus intimated).",
+     "why": "The promise kept."
+    },
+    {
+     "id": "csr_amount_pct",
+     "name": "Death claims paid (by amount)",
+     "unit": "pct",
+     "better": "high",
+     "core": true,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "Amount of individual death claims paid divided by total claim amount.",
+     "why": "Shows whether large claims are paid as readily as small ones."
+    },
+    {
+     "id": "claims_30d_pct",
+     "name": "Death claims settled within 30 days",
+     "unit": "pct",
+     "better": "high",
+     "core": true,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "Individual death claims settled within 30 days of intimation, share of claims settled.",
+     "why": "Speed at the moment that matters most."
+    },
+    {
+     "id": "claims_pending_pct",
+     "name": "Death claims pending at year end",
+     "unit": "pct",
+     "better": "low",
+     "core": true,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "Individual death claims pending at year end divided by total claims.",
+     "why": "Backlog."
+    },
+    {
+     "id": "group_csr_pct",
+     "name": "Group death claims paid",
+     "unit": "pct",
+     "better": "high",
+     "core": true,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "Group death claims paid divided by total group claims.",
+     "why": "Claims performance for employer and credit-life members."
+    },
+    {
+     "id": "benefits_paid_cr",
+     "name": "Benefits paid",
+     "unit": "cr",
+     "better": "none",
+     "core": false,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "Claims, maturities, survival benefits, annuities and surrenders paid (net of reinsurance)."
+    },
+    {
+     "id": "benefits_ratio_pct",
+     "name": "Benefits paid to premium",
+     "unit": "pct",
+     "better": "none",
+     "core": false,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "Benefits paid (claims, maturities, surrenders) divided by premium.",
+     "why": "Maturity of the book and outflow pressure."
+    },
+    {
+     "id": "death_claims_paid_cr",
+     "name": "Individual death claims paid",
+     "unit": "cr",
+     "better": "none",
+     "core": false,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "Amount of individual death claims paid in the year."
+    },
+    {
+     "id": "claims_online",
+     "name": "Online claim intimation or tracking",
+     "unit": "bool",
+     "better": "none",
+     "core": false,
+     "source": "web_audit",
+     "freq": "Daily",
+     "def": "Claim intimation, tracking or status link on the homepage."
+    },
+    {
+     "id": "csr_latest_pct",
+     "name": "Death claims paid, latest disclosed",
+     "unit": "pct",
+     "better": "high",
+     "core": false,
+     "source": "disclosures",
+     "freq": "Annual",
+     "def": "Most recent claim settlement ratio by number as compiled from insurer disclosures.",
+     "why": "A more recent read than the IRDAI handbook."
+    },
+    {
+     "id": "maturity_tat_days",
+     "name": "Maturity payout time",
+     "unit": "days",
+     "better": "low",
+     "core": false,
+     "source": "research",
+     "freq": "Quarterly",
+     "def": "Average days to pay maturity claims after the due date, where disclosed (form L-39)."
+    },
+    {
+     "id": "unclaimed_cr",
+     "name": "Unclaimed policyholder money",
+     "unit": "cr",
+     "better": "low",
+     "core": false,
+     "source": "research",
+     "freq": "Half-yearly",
+     "def": "Unclaimed amounts held for policyholders, from the insurer's mandatory disclosure."
+    }
+   ]
+  },
+  {
+   "id": "servicing",
+   "name": "Policy servicing",
+   "short": "Policy servicing",
+   "family": "Operations",
+   "dept": "Operations",
+   "question": "Changes, loans, surrenders, nominations and grievance handling",
+   "functions": [
+    "Service requests",
+    "Grievance redressal",
+    "Ombudsman cases"
+   ],
+   "kpis": [
+    {
      "id": "grievances_per_10k",
      "name": "Grievances per 10,000 policies",
      "unit": "per10k",
@@ -1302,29 +1178,720 @@
      "why": "Escalations the insurer failed to resolve."
     },
     {
-     "id": "persistency_13_premium",
-     "name": "13th-month persistency (by premium), latest disclosed",
+     "id": "servicing_digital",
+     "name": "Digital self-service options",
+     "unit": "score",
+     "better": "high",
+     "core": true,
+     "source": "web_audit",
+     "freq": "Daily",
+     "def": "How many of: customer login or self-service portal, online claims, WhatsApp service and chat assistant appear on the homepage (0-4).",
+     "why": "Breadth of self-service."
+    },
+    {
+     "id": "pif_per_office",
+     "name": "Policies in force per office",
+     "unit": "count",
+     "better": "none",
+     "core": false,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "Individual policies in force divided by offices.",
+     "why": "Servicing load on the branch network."
+    },
+    {
+     "id": "opex_per_policy_inr",
+     "name": "Operating expense per policy in force",
+     "unit": "inr",
+     "better": "low",
+     "core": false,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "Operating expenses divided by individual policies in force.",
+     "why": "Unit servicing cost (affected by group business)."
+    },
+    {
+     "id": "whatsapp",
+     "name": "WhatsApp service",
+     "unit": "bool",
+     "better": "none",
+     "core": false,
+     "source": "web_audit",
+     "freq": "Daily",
+     "def": "WhatsApp service link or number on the homepage."
+    }
+   ]
+  },
+  {
+   "id": "communication",
+   "name": "Customer communication",
+   "short": "Communication",
+   "family": "Operations",
+   "dept": "Operations",
+   "question": "Reaching customers across languages, channels and media",
+   "functions": [
+    "Languages",
+    "Messaging",
+    "Media and social"
+   ],
+   "kpis": [
+    {
+     "id": "communication_reach",
+     "name": "Communication reach",
+     "unit": "score",
+     "better": "high",
+     "core": true,
+     "source": "web_audit",
+     "freq": "Daily",
+     "def": "How many of: WhatsApp, chat assistant, a regional-language site, and four or more linked social platforms (0-4).",
+     "why": "Channels customers can use to hear from and talk to the insurer."
+    },
+    {
+     "id": "news_30d",
+     "name": "News mentions, last 30 days",
+     "unit": "count",
+     "better": "high",
+     "core": true,
+     "source": "news",
+     "freq": "Daily",
+     "def": "Headlines naming the insurer in Google News (India) over 30 days.",
+     "why": "Media visibility."
+    },
+    {
+     "id": "news_sov_pct",
+     "name": "Share of voice",
+     "unit": "pct",
+     "better": "high",
+     "core": false,
+     "source": "news",
+     "freq": "Daily",
+     "def": "Insurer's news mentions as a share of mentions of all tracked insurers, 30 days.",
+     "why": "Visibility relative to peers."
+    },
+    {
+     "id": "social_platforms",
+     "name": "Social platforms linked",
+     "unit": "count",
+     "better": "high",
+     "core": false,
+     "source": "web_audit",
+     "freq": "Daily",
+     "def": "Social networks linked from the homepage (Facebook, Instagram, LinkedIn, YouTube, X).",
+     "why": "Presence across channels."
+    },
+    {
+     "id": "regional_language",
+     "name": "Regional-language website",
+     "unit": "bool",
+     "better": "none",
+     "core": false,
+     "source": "web_audit",
+     "freq": "Daily",
+     "def": "Hindi or another regional-language version of the website."
+    }
+   ]
+  },
+  {
+   "id": "custservice",
+   "name": "Customer servicing & experience",
+   "short": "Customer experience",
+   "family": "Operations",
+   "dept": "Operations",
+   "question": "How customers rate the service: apps, review sites, complaints",
+   "functions": [
+    "App experience",
+    "Reviews and ratings"
+   ],
+   "kpis": [
+    {
+     "id": "android_rating",
+     "name": "Android app rating",
+     "unit": "stars",
+     "better": "high",
+     "core": true,
+     "source": "app_stores",
+     "freq": "Daily",
+     "def": "Google Play rating of the customer app.",
+     "why": "Customer verdict on the app."
+    },
+    {
+     "id": "ios_rating",
+     "name": "iOS app rating",
+     "unit": "stars",
+     "better": "high",
+     "core": true,
+     "source": "app_stores",
+     "freq": "Daily",
+     "def": "App Store rating of the customer app.",
+     "why": "Customer verdict on the app."
+    },
+    {
+     "id": "app_rating_blend",
+     "name": "App rating, both stores",
+     "unit": "stars",
+     "better": "high",
+     "core": false,
+     "source": "app_stores",
+     "freq": "Daily",
+     "def": "Average of Android and iOS ratings weighted by number of ratings.",
+     "why": "One app score."
+    },
+    {
+     "id": "third_party_rating",
+     "name": "Review-site rating",
+     "unit": "stars",
+     "better": "high",
+     "core": true,
+     "source": "research",
+     "freq": "Monthly",
+     "def": "Average customer rating on review and aggregator sites.",
+     "why": "Reputation outside the insurer's own channels."
+    },
+    {
+     "id": "review_volume",
+     "name": "App ratings given",
+     "unit": "count",
+     "better": "high",
+     "core": false,
+     "source": "app_stores",
+     "freq": "Daily",
+     "def": "Ratings on Google Play and the App Store combined.",
+     "why": "Customer engagement."
+    }
+   ]
+  },
+  {
+   "id": "branchops",
+   "name": "Branch operations",
+   "short": "Branch operations",
+   "family": "Operations",
+   "dept": "Operations",
+   "question": "The office network: reach, productivity and footprint",
+   "functions": [
+    "Branch network",
+    "Branch productivity",
+    "Rural reach"
+   ],
+   "kpis": [
+    {
+     "id": "offices",
+     "name": "Offices",
+     "unit": "count",
+     "better": "high",
+     "core": false,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "Offices across states and union territories at 31 March.",
+     "why": "Physical footprint."
+    },
+    {
+     "id": "office_states",
+     "name": "States and UTs with an office",
+     "unit": "count",
+     "better": "high",
+     "core": true,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "States and union territories where the insurer has at least one office at 31 March.",
+     "why": "Physical reach of the branch network."
+    },
+    {
+     "id": "nbp_per_office_cr",
+     "name": "New business premium per office",
+     "unit": "cr",
+     "better": "high",
+     "core": true,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "Annual new business premium divided by offices.",
+     "why": "Branch productivity."
+    },
+    {
+     "id": "premium_per_office_cr",
+     "name": "Total premium per office",
+     "unit": "cr",
+     "better": "high",
+     "core": true,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "Total premium divided by offices.",
+     "why": "Footprint productivity."
+    },
+    {
+     "id": "ind_premium_per_office_cr",
+     "name": "Individual new business per office",
+     "unit": "cr",
+     "better": "high",
+     "core": false,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "Individual new business premium divided by offices, all states.",
+     "why": "Retail productivity of the branch network."
+    },
+    {
+     "id": "agents_per_office",
+     "name": "Agents per office",
+     "unit": "count",
+     "better": "none",
+     "core": false,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "Individual agents divided by offices.",
+     "why": "Agency model intensity."
+    },
+    {
+     "id": "offices_growth_5y_pct",
+     "name": "Office network growth, 5 years",
+     "unit": "pct",
+     "better": "none",
+     "core": false,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "Change in the number of offices over five years.",
+     "why": "Expanding or consolidating the branch footprint."
+    },
+    {
+     "id": "rural_semiurban_office_pct",
+     "name": "Offices in semi-urban and rural areas",
+     "unit": "pct",
+     "better": "none",
+     "core": false,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "Semi-urban and rural offices as a share of all classified offices.",
+     "why": "How far the network reaches beyond cities."
+    },
+    {
+     "id": "states_present",
+     "name": "States and UTs with individual business",
+     "unit": "count",
+     "better": "high",
+     "core": true,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "States and union territories where the insurer wrote individual new business premium.",
+     "why": "Geographic reach."
+    },
+    {
+     "id": "top3_state_share_pct",
+     "name": "Top-3 states share of individual business",
+     "unit": "pct",
+     "better": "low",
+     "core": true,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "Share of individual new business premium from the insurer's three largest states.",
+     "why": "Geographic concentration risk."
+    },
+    {
+     "id": "state_share_gain_states",
+     "name": "States where retail share grew",
+     "unit": "count",
+     "better": "high",
+     "core": true,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "States and UTs where the insurer's share of individual new business premium rose over the previous year.",
+     "why": "Breadth of market-share gains across geography."
+    }
+   ]
+  },
+  {
+   "id": "it",
+   "name": "IT & technology",
+   "short": "IT & digital",
+   "family": "Technology & change",
+   "dept": "Technology & change",
+   "question": "Apps, websites, digital sales and AI",
+   "functions": [
+    "Customer apps",
+    "Web",
+    "Data and AI"
+   ],
+   "kpis": [
+    {
+     "id": "web_signals",
+     "name": "Homepage digital capabilities",
+     "unit": "score",
+     "better": "high",
+     "core": true,
+     "source": "web_audit",
+     "freq": "Daily",
+     "def": "Count of 12 capabilities found on the homepage: WhatsApp service, chat assistant, app links (Android, iOS), online premium payment, online claims, customer login, buy online, regional language, video KYC, UPI auto-pay, AI tools.",
+     "why": "Breadth of the digital front door."
+    },
+    {
+     "id": "app_installs",
+     "name": "App installs (Android)",
+     "unit": "count",
+     "better": "high",
+     "core": true,
+     "source": "app_stores",
+     "freq": "Daily",
+     "def": "Lower bound of the Google Play install range for the customer app.",
+     "why": "Reach of the brand's digital front door."
+    },
+    {
+     "id": "online_pct",
+     "name": "Plans buyable online",
+     "unit": "pct",
+     "better": "high",
+     "core": true,
+     "source": "catalogue",
+     "freq": "Weekly",
+     "def": "Share of individual plans on sale that can be bought online.",
+     "why": "Direct-to-customer access."
+    },
+    {
+     "id": "app_freshness_days",
+     "name": "Days since app update",
+     "unit": "days",
+     "better": "low",
+     "core": false,
+     "source": "app_stores",
+     "freq": "Daily",
+     "def": "Days since the Android app was last updated.",
+     "why": "Active product development."
+    },
+    {
+     "id": "web_load_seconds",
+     "name": "Homepage response time",
+     "unit": "secs",
+     "better": "low",
+     "core": false,
+     "source": "web_audit",
+     "freq": "Daily",
+     "def": "Seconds to download the homepage HTML from a cloud server (mobile user agent).",
+     "why": "Basic site speed."
+    },
+    {
+     "id": "ai_tools",
+     "name": "AI or digital advisor tools",
+     "unit": "bool",
+     "better": "none",
+     "core": false,
+     "source": "web_audit",
+     "freq": "Daily",
+     "def": "AI, robo-advice or need-analysis tools mentioned on the homepage."
+    }
+   ]
+  },
+  {
+   "id": "projects",
+   "name": "Projects & transformation",
+   "short": "Projects",
+   "family": "Technology & change",
+   "dept": "Technology & change",
+   "question": "Launches, refilings and change programmes",
+   "functions": [
+    "Product launches",
+    "Regulatory change",
+    "Strategic programmes"
+   ],
+   "kpis": [
+    {
+     "id": "launches_12m",
+     "name": "Products launched in 12 months",
+     "unit": "count",
+     "better": "high",
+     "core": true,
+     "source": "catalogue",
+     "freq": "Weekly",
+     "def": "New individual products launched in the last 12 months, from the change log.",
+     "why": "Innovation pace."
+    },
+    {
+     "id": "products_filed",
+     "name": "Products and riders filed in the year",
+     "unit": "count",
+     "better": "high",
+     "core": true,
+     "source": "irdai_annual",
+     "freq": "Annual",
+     "def": "Products and riders filed with IRDAI during the financial year (File & Use plus Use & File).",
+     "why": "Product pipeline activity, including revisions."
+    },
+    {
+     "id": "revisions_12m",
+     "name": "Product revisions in 12 months",
+     "unit": "count",
+     "better": "none",
+     "core": false,
+     "source": "catalogue",
+     "freq": "Weekly",
+     "def": "Existing products refiled as a new version in the last 12 months.",
+     "why": "Maintenance of the shelf after regulation changes."
+    }
+   ]
+  },
+  {
+   "id": "product",
+   "name": "Product",
+   "short": "Product",
+   "family": "Product",
+   "dept": "Product",
+   "question": "Product design, pricing and the shelf",
+   "functions": [
+    "Product development",
+    "Pricing",
+    "Product compliance"
+   ],
+   "kpis": [
+    {
+     "id": "active_individual",
+     "name": "Individual products on sale",
+     "unit": "count",
+     "better": "high",
+     "core": true,
+     "source": "catalogue",
+     "freq": "Weekly",
+     "def": "Individual plans currently on sale.",
+     "why": "Breadth of shelf."
+    },
+    {
+     "id": "category_breadth",
+     "name": "Categories covered",
+     "unit": "count",
+     "better": "high",
+     "core": true,
+     "source": "catalogue",
+     "freq": "Weekly",
+     "def": "How many of the six individual categories (term, ULIP, par savings, non-par savings, pension and annuity, health and CI) have at least one plan on sale.",
+     "why": "Completeness of proposition across life stages."
+    },
+    {
+     "id": "riders_active",
+     "name": "Riders on sale",
+     "unit": "count",
+     "better": "high",
+     "core": true,
+     "source": "catalogue",
+     "freq": "Weekly",
+     "def": "Riders currently offered.",
+     "why": "Ability to customise cover."
+    },
+    {
+     "id": "group_products",
+     "name": "Group products on sale",
+     "unit": "count",
+     "better": "high",
+     "core": false,
+     "source": "catalogue",
+     "freq": "Weekly",
+     "def": "Group plans currently on sale (term, credit life, gratuity, superannuation, annuity and others).",
+     "why": "Corporate and institutional proposition."
+    },
+    {
+     "id": "standard_products",
+     "name": "IRDAI standard products offered",
+     "unit": "count",
+     "better": "high",
+     "core": false,
+     "source": "catalogue",
+     "freq": "Weekly",
+     "def": "Standard products on sale (Saral Jeevan Bima, Saral Pension and others).",
+     "why": "Simple, comparable entry products."
+    },
+    {
+     "id": "micro_products",
+     "name": "Micro-insurance products",
+     "unit": "count",
+     "better": "high",
+     "core": false,
+     "source": "catalogue",
+     "freq": "Weekly",
+     "def": "Micro-insurance products on sale.",
+     "why": "Financial inclusion."
+    },
+    {
+     "id": "protection_intensity",
+     "name": "Protection intensity of retail sales",
+     "unit": "x",
+     "better": "high",
+     "core": true,
+     "source": "irdai_monthly",
+     "freq": "Monthly",
+     "def": "Sum assured on individual new business per rupee of individual new business premium, year to date.",
+     "why": "How much life cover the retail book actually sells."
+    },
+    {
+     "id": "regular_share_pct",
+     "name": "Regular premium share of individual business",
+     "unit": "pct",
+     "better": "high",
+     "core": true,
+     "source": "irdai_monthly",
+     "freq": "Monthly",
+     "def": "Individual non-single premium as a share of individual new business premium, year to date.",
+     "why": "Quality of the retail book: recurring premiums build value."
+    },
+    {
+     "id": "linked_nb_share_pct",
+     "name": "ULIP share of new business",
+     "unit": "pct",
+     "better": "none",
+     "core": false,
+     "source": "irdai_annual",
+     "freq": "Annual",
+     "def": "Linked new business premium as a share of total new business premium.",
+     "why": "Market-linked versus traditional mix."
+    },
+    {
+     "id": "term_max_cover_age",
+     "name": "Longest term cover offered",
+     "unit": "yrs",
+     "better": "high",
+     "core": false,
+     "source": "catalogue",
+     "freq": "Weekly",
+     "def": "Highest maturity age across term plans on sale.",
+     "why": "Competitiveness of the flagship protection product."
+    },
+    {
+     "id": "health_products_premium_cr",
+     "name": "Health products new business premium",
+     "unit": "cr",
+     "better": "high",
+     "core": false,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "New business premium from health insurance products sold by the life insurer (individual and group)."
+    },
+    {
+     "id": "health_rider_lives",
+     "name": "Lives with health riders added",
+     "unit": "count",
+     "better": "high",
+     "core": false,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "Persons covered by health riders attached to new life policies."
+    }
+   ]
+  },
+  {
+   "id": "finance",
+   "name": "Finance",
+   "short": "Finance",
+   "family": "Finance & investments",
+   "dept": "Finance & investments",
+   "question": "Profit, costs, capital and solvency",
+   "functions": [
+    "Financial reporting",
+    "Cost management",
+    "Capital management"
+   ],
+   "kpis": [
+    {
+     "id": "gwp_cr",
+     "name": "Total premium (gross written)",
+     "unit": "cr",
+     "better": "high",
+     "core": true,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "First-year, single and renewal premium for the financial year.",
+     "why": "Size of the in-force book plus new sales."
+    },
+    {
+     "id": "gwp_growth_pct",
+     "name": "Total premium growth",
+     "unit": "pct",
+     "better": "high",
+     "core": true,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "Total premium against the previous financial year.",
+     "why": "Growth of the whole book, including renewals."
+    },
+    {
+     "id": "gwp_cagr3_pct",
+     "name": "Total premium growth, 3-year CAGR",
+     "unit": "pct",
+     "better": "high",
+     "core": true,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "Compound annual growth of total premium over three financial years.",
+     "why": "Sustained growth, smoothing one-off years."
+    },
+    {
+     "id": "pat_cr",
+     "name": "Profit after tax",
+     "unit": "cr",
+     "better": "high",
+     "core": true,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "Shareholders' profit after tax for the financial year.",
+     "why": "Accounting profit (understates value for growing insurers)."
+    },
+    {
+     "id": "roe_pct",
+     "name": "Return on equity",
+     "unit": "pct",
+     "better": "high",
+     "core": true,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "Profit after tax divided by average shareholders' funds.",
+     "why": "Efficiency of shareholder capital."
+    },
+    {
+     "id": "pat_margin_pct",
+     "name": "Profit after tax to premium",
+     "unit": "pct",
+     "better": "high",
+     "core": true,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "Profit after tax divided by total premium.",
+     "why": "Profit per rupee of business."
+    },
+    {
+     "id": "ph_surplus_pct",
+     "name": "Policyholders' account surplus to premium",
+     "unit": "pct",
+     "better": "high",
+     "core": true,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "Surplus (deficit) in the policyholders' account divided by premium.",
+     "why": "Whether the insurance operations generate surplus before shareholder support."
+    },
+    {
+     "id": "net_worth_cr",
+     "name": "Shareholders' funds (net worth)",
+     "unit": "cr",
+     "better": "high",
+     "core": false,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "Share capital, reserves and surplus and fair value change, at 31 March.",
+     "why": "Capital base."
+    },
+    {
+     "id": "net_worth_growth_pct",
+     "name": "Net worth growth",
+     "unit": "pct",
+     "better": "high",
+     "core": true,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "Shareholders' funds against a year earlier.",
+     "why": "Internal capital generation (plus any infusion)."
+    },
+    {
+     "id": "vnb_margin_pct",
+     "name": "VNB margin",
      "unit": "pct",
      "better": "high",
      "core": false,
      "source": "disclosures",
      "freq": "Quarterly",
-     "def": "13th-month persistency on premium basis from the insurer's latest disclosure.",
-     "why": "The measure insurers report to investors."
-    }
-   ]
-  },
-  {
-   "id": "efficiency",
-   "name": "Operating efficiency",
-   "dept": "Operations & finance",
-   "functions": [
-    "Cost management",
-    "Commission management",
-    "Branch productivity"
-   ],
-   "question": "How lean is the cost base?",
-   "kpis": [
+     "def": "Value of new business as a share of annualised premium equivalent, as reported by the insurer.",
+     "why": "Economic profitability of new sales; published mainly by listed insurers."
+    },
     {
      "id": "opex_ratio_pct",
      "name": "Operating expense ratio",
@@ -1370,233 +1937,286 @@
      "why": "Effect of the 2023 commission rules and channel competition."
     },
     {
-     "id": "renewal_share_pct",
-     "name": "Renewal share of total premium",
-     "unit": "pct",
+     "id": "solvency_ratio",
+     "name": "Solvency ratio",
+     "unit": "x",
      "better": "high",
      "core": true,
-     "source": "irdai_annual",
-     "freq": "Annual",
-     "def": "Renewal premium as a share of total premium.",
-     "why": "Stable, low-cost revenue base."
+     "source": "irdai_handbook",
+     "freq": "Quarterly",
+     "def": "Available solvency margin divided by required solvency margin at the latest quarter end in the source (IRDAI's control level is 1.5).",
+     "why": "Capital cushion; very high levels can also mean idle capital."
     },
     {
-     "id": "premium_per_office_cr",
-     "name": "Total premium per office",
+     "id": "solvency_change",
+     "name": "Solvency change over 4 quarters",
+     "unit": "x",
+     "better": "high",
+     "core": true,
+     "source": "irdai_handbook",
+     "freq": "Quarterly",
+     "def": "Latest solvency ratio minus the ratio four quarters earlier.",
+     "why": "Capital consumption or build-up."
+    }
+   ]
+  },
+  {
+   "id": "investment",
+   "name": "Investments",
+   "short": "Investments",
+   "family": "Finance & investments",
+   "dept": "Finance & investments",
+   "question": "Managing policyholders' and shareholders' funds",
+   "functions": [
+    "Fixed income",
+    "Equity",
+    "Unit-linked funds"
+   ],
+   "kpis": [
+    {
+     "id": "aum_cr",
+     "name": "Assets under management",
      "unit": "cr",
      "better": "high",
      "core": true,
      "source": "irdai_handbook",
      "freq": "Annual",
-     "def": "Total premium divided by offices.",
-     "why": "Footprint productivity."
+     "def": "Investments across life, pension and group, and unit-linked funds at 31 March.",
+     "why": "Balance-sheet scale and long-term earnings base."
     },
     {
-     "id": "opex_per_policy_inr",
-     "name": "Operating expense per policy in force",
-     "unit": "inr",
-     "better": "low",
-     "core": false,
-     "source": "irdai_handbook",
-     "freq": "Annual",
-     "def": "Operating expenses divided by individual policies in force.",
-     "why": "Unit servicing cost (affected by group business)."
-    },
-    {
-     "id": "benefits_ratio_pct",
-     "name": "Benefits paid to premium",
+     "id": "aum_growth_pct",
+     "name": "AUM growth",
      "unit": "pct",
-     "better": "none",
+     "better": "high",
      "core": false,
      "source": "irdai_handbook",
      "freq": "Annual",
-     "def": "Benefits paid (claims, maturities, surrenders) divided by premium.",
-     "why": "Maturity of the book and outflow pressure."
-    }
-   ]
-  },
-  {
-   "id": "digital",
-   "name": "Digital & technology",
-   "dept": "Technology & digital",
-   "functions": [
-    "Apps & self-service",
-    "Web & online sales",
-    "Digital servicing",
-    "Data & AI"
-   ],
-   "question": "How good are the digital touchpoints?",
-   "kpis": [
-    {
-     "id": "android_rating",
-     "name": "Android app rating",
-     "unit": "stars",
-     "better": "high",
-     "core": true,
-     "source": "app_stores",
-     "freq": "Daily",
-     "def": "Google Play rating of the customer app.",
-     "why": "Customer verdict on the app."
+     "def": "Assets under management against a year earlier.",
+     "why": "Compounding of the balance sheet (includes market movements)."
     },
     {
-     "id": "ios_rating",
-     "name": "iOS app rating",
-     "unit": "stars",
-     "better": "high",
-     "core": true,
-     "source": "app_stores",
-     "freq": "Daily",
-     "def": "App Store rating of the customer app.",
-     "why": "Customer verdict on the app."
-    },
-    {
-     "id": "app_rating_blend",
-     "name": "App rating, both stores",
-     "unit": "stars",
-     "better": "high",
-     "core": false,
-     "source": "app_stores",
-     "freq": "Daily",
-     "def": "Average of Android and iOS ratings weighted by number of ratings.",
-     "why": "One app score."
-    },
-    {
-     "id": "app_freshness_days",
-     "name": "Days since app update",
-     "unit": "days",
-     "better": "low",
-     "core": false,
-     "source": "app_stores",
-     "freq": "Daily",
-     "def": "Days since the Android app was last updated.",
-     "why": "Active product development."
-    },
-    {
-     "id": "web_signals",
-     "name": "Homepage digital capabilities",
-     "unit": "score",
-     "better": "high",
-     "core": true,
-     "source": "web_audit",
-     "freq": "Daily",
-     "def": "Count of 12 capabilities found on the homepage: WhatsApp service, chat assistant, app links (Android, iOS), online premium payment, online claims, customer login, buy online, regional language, video KYC, UPI auto-pay, AI tools.",
-     "why": "Breadth of the digital front door."
-    },
-    {
-     "id": "online_nb_pct",
-     "name": "Online share of individual new business",
+     "id": "investment_income_yield_pct",
+     "name": "Investment income yield",
      "unit": "pct",
      "better": "high",
      "core": true,
      "source": "irdai_handbook",
      "freq": "Annual",
-     "def": "Individual new business premium from online sales and web aggregators, share of total.",
-     "why": "Digital sales traction."
+     "def": "Interest, dividends and rent (policyholders' and shareholders' accounts) divided by average assets under management. Excludes realised and unrealised gains.",
+     "why": "Running income earned on the portfolio."
     },
     {
-     "id": "web_load_seconds",
-     "name": "Homepage response time",
-     "unit": "secs",
+     "id": "ulip_aum_share_pct",
+     "name": "Unit-linked share of AUM",
+     "unit": "pct",
+     "better": "none",
+     "core": false,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "Unit-linked funds as a share of total assets under management.",
+     "why": "Market-linked versus guaranteed balance sheet."
+    },
+    {
+     "id": "gsec_share_pct",
+     "name": "Government securities share (non-linked funds)",
+     "unit": "pct",
+     "better": "none",
+     "core": false,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "Central and state government and other approved securities as a share of non-linked life, pension and group funds."
+    },
+    {
+     "id": "infra_share_pct",
+     "name": "Housing and infrastructure share (life fund)",
+     "unit": "pct",
+     "better": "none",
+     "core": false,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "Housing and infrastructure investments as a share of the life fund."
+    },
+    {
+     "id": "other_inv_share_pct",
+     "name": "'Other investments' share",
+     "unit": "pct",
      "better": "low",
      "core": false,
-     "source": "web_audit",
-     "freq": "Daily",
-     "def": "Seconds to download the homepage HTML from a cloud server (mobile user agent).",
-     "why": "Basic site speed."
-    }
-   ]
-  },
-  {
-   "id": "people",
-   "name": "People & organisation",
-   "dept": "Human resources",
-   "functions": [
-    "Workforce",
-    "Agency force",
-    "Leadership"
-   ],
-   "question": "How big, stable and productive is the organisation?",
-   "kpis": [
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "Investments outside IRDAI's approved categories as a share of all funds.",
+     "why": "Riskier, less liquid holdings."
+    },
     {
-     "id": "employees",
-     "name": "Employees",
-     "unit": "count",
+     "id": "aum_to_premium_x",
+     "name": "AUM to total premium",
+     "unit": "x",
      "better": "none",
+     "core": false,
+     "source": "irdai_handbook",
+     "freq": "Annual",
+     "def": "Assets under management divided by total premium.",
+     "why": "Maturity and savings depth of the book."
+    },
+    {
+     "id": "investment_yield_pct",
+     "name": "Investment yield",
+     "unit": "pct",
+     "better": "high",
      "core": false,
      "source": "disclosures",
-     "freq": "Annual",
-     "def": "On-roll employees at year end (form L-45 or annual report).",
-     "why": "Organisation size."
+     "freq": "Quarterly",
+     "def": "Yield on policyholders' and shareholders' investments without unrealised gains (form L-34).",
+     "why": "Investment performance on guaranteed books."
     },
     {
-     "id": "premium_per_employee_cr",
-     "name": "Premium per employee",
+     "id": "npa_pct",
+     "name": "Gross NPA in investments",
+     "unit": "pct",
+     "better": "low",
+     "core": false,
+     "source": "disclosures",
+     "freq": "Quarterly",
+     "def": "Gross non-performing investments as a share of total (form L-33).",
+     "why": "Credit quality of the portfolio."
+    }
+   ]
+  },
+  {
+   "id": "ceo",
+   "name": "CEO office & strategy",
+   "short": "CEO office",
+   "family": "Leadership",
+   "dept": "Leadership",
+   "question": "Market position, growth, ambition, governance and brand",
+   "functions": [
+    "Strategy",
+    "Investor relations",
+    "Governance"
+   ],
+   "kpis": [
+    {
+     "id": "nbp_ytd_cr",
+     "name": "New business premium, year to date",
      "unit": "cr",
      "better": "high",
-     "core": false,
-     "source": "disclosures",
-     "freq": "Annual",
-     "def": "Total premium divided by employees.",
-     "why": "Workforce productivity."
+     "core": true,
+     "source": "irdai_monthly",
+     "freq": "Monthly",
+     "def": "First-year plus single premium collected this financial year to date, individual and group.",
+     "why": "The headline measure of selling power."
     },
     {
-     "id": "employee_attrition_pct",
-     "name": "Employee attrition",
+     "id": "nbp_share_pct",
+     "name": "Share of industry new business",
      "unit": "pct",
-     "better": "low",
-     "core": false,
-     "source": "disclosures",
-     "freq": "Annual",
-     "def": "Employees who left during the year as a share of average headcount.",
-     "why": "Stability of the organisation."
+     "better": "high",
+     "core": true,
+     "source": "irdai_monthly",
+     "freq": "Monthly",
+     "def": "Insurer's new business premium as a share of all life insurers, year to date.",
+     "why": "Relative position, independent of market cycles."
     },
     {
-     "id": "women_workforce_pct",
-     "name": "Women in workforce",
+     "id": "nbp_private_share_pct",
+     "name": "Share of private-sector new business",
      "unit": "pct",
      "better": "high",
      "core": false,
-     "source": "disclosures",
-     "freq": "Annual",
-     "def": "Women as a share of employees (BRSR or annual report).",
-     "why": "Diversity."
+     "source": "irdai_monthly",
+     "freq": "Monthly",
+     "def": "New business premium as a share of the private insurers' total, year to date (not shown for LIC).",
+     "why": "The fight that matters for private insurers."
     },
     {
-     "id": "agents_per_office",
-     "name": "Agents per office",
-     "unit": "count",
-     "better": "none",
-     "core": false,
+     "id": "ind_nbp_ytd_cr",
+     "name": "Individual new business premium, year to date",
+     "unit": "cr",
+     "better": "high",
+     "core": true,
+     "source": "irdai_monthly",
+     "freq": "Monthly",
+     "def": "Individual single plus non-single first-year premium, year to date.",
+     "why": "Retail franchise strength, without lumpy group fund flows."
+    },
+    {
+     "id": "ind_nbp_share_pct",
+     "name": "Share of industry individual new business",
+     "unit": "pct",
+     "better": "high",
+     "core": true,
+     "source": "irdai_monthly",
+     "freq": "Monthly",
+     "def": "Individual new business premium as a share of the industry's, year to date.",
+     "why": "Retail market share."
+    },
+    {
+     "id": "pif_lakh",
+     "name": "Individual policies in force",
+     "unit": "lakh",
+     "better": "high",
+     "core": true,
      "source": "irdai_handbook",
      "freq": "Annual",
-     "def": "Individual agents divided by offices.",
-     "why": "Agency model intensity."
+     "def": "Individual policies in force at 31 March, all lines of business.",
+     "why": "Size of the customer base to serve and cross-sell."
     },
     {
-     "id": "ceo_tenure_yrs",
-     "name": "CEO tenure",
-     "unit": "yrs",
-     "better": "none",
+     "id": "nbp_ytd_growth_pct",
+     "name": "New business premium growth, year to date",
+     "unit": "pct",
+     "better": "high",
+     "core": true,
+     "source": "irdai_monthly",
+     "freq": "Monthly",
+     "def": "Year-to-date new business premium against the same period last year.",
+     "why": "Current momentum."
+    },
+    {
+     "id": "ind_nbp_growth_pct",
+     "name": "Individual new business growth, year to date",
+     "unit": "pct",
+     "better": "high",
+     "core": true,
+     "source": "irdai_monthly",
+     "freq": "Monthly",
+     "def": "Year-to-date individual new business premium against the same period last year.",
+     "why": "Retail momentum."
+    },
+    {
+     "id": "ind_regular_growth_pct",
+     "name": "Individual regular-premium growth, year to date",
+     "unit": "pct",
+     "better": "high",
+     "core": true,
+     "source": "irdai_monthly",
+     "freq": "Monthly",
+     "def": "Year-to-date individual non-single premium against the same period last year.",
+     "why": "Growth in the most valuable, recurring business."
+    },
+    {
+     "id": "share_change_bps",
+     "name": "Change in market share",
+     "unit": "bps",
+     "better": "high",
+     "core": true,
+     "source": "irdai_monthly",
+     "freq": "Monthly",
+     "def": "Year-to-date share of industry new business minus the same period last year, in basis points.",
+     "why": "Winning or losing against the market."
+    },
+    {
+     "id": "month_growth_pct",
+     "name": "Latest month new business growth",
+     "unit": "pct",
+     "better": "high",
      "core": false,
-     "source": "research",
-     "freq": "As changed",
-     "def": "Years since the current MD & CEO took office.",
-     "why": "Leadership continuity."
-    }
-   ]
-  },
-  {
-   "id": "governance",
-   "name": "Governance, compliance & ESG",
-   "dept": "Board, legal & compliance",
-   "functions": [
-    "Ownership",
-    "Board",
-    "Regulatory record",
-    "ESG"
-   ],
-   "question": "Is it well governed, well owned and clean with the regulator?",
-   "kpis": [
+     "source": "irdai_monthly",
+     "freq": "Monthly",
+     "def": "New business premium in the latest month against the same month last year.",
+     "why": "The most recent signal; volatile."
+    },
     {
      "id": "listed",
      "name": "Listed on stock exchanges",
@@ -1651,19 +2271,101 @@
      "freq": "Annual",
      "def": "Independent directors as a share of the board (form L-31).",
      "why": "Board oversight."
+    },
+    {
+     "id": "ceo_tenure_yrs",
+     "name": "CEO tenure",
+     "unit": "yrs",
+     "better": "none",
+     "core": false,
+     "source": "research",
+     "freq": "As changed",
+     "def": "Years since the current MD & CEO took office.",
+     "why": "Leadership continuity."
+    },
+    {
+     "id": "ad_spend_pct",
+     "name": "Advertisement & publicity to premium",
+     "unit": "pct",
+     "better": "none",
+     "core": false,
+     "source": "disclosures",
+     "freq": "Annual",
+     "def": "Advertisement and publicity expense divided by total premium (schedule L-6).",
+     "why": "Brand investment intensity."
+    }
+   ]
+  },
+  {
+   "id": "people",
+   "name": "People & HR",
+   "short": "HR",
+   "family": "Leadership",
+   "dept": "Leadership",
+   "question": "Workforce size, stability and diversity",
+   "functions": [
+    "Workforce",
+    "Talent"
+   ],
+   "kpis": [
+    {
+     "id": "employees",
+     "name": "Employees",
+     "unit": "count",
+     "better": "none",
+     "core": false,
+     "source": "disclosures",
+     "freq": "Annual",
+     "def": "On-roll employees at year end (form L-45 or annual report).",
+     "why": "Organisation size."
+    },
+    {
+     "id": "premium_per_employee_cr",
+     "name": "Premium per employee",
+     "unit": "cr",
+     "better": "high",
+     "core": false,
+     "source": "disclosures",
+     "freq": "Annual",
+     "def": "Total premium divided by employees.",
+     "why": "Workforce productivity."
+    },
+    {
+     "id": "employee_attrition_pct",
+     "name": "Employee attrition",
+     "unit": "pct",
+     "better": "low",
+     "core": false,
+     "source": "disclosures",
+     "freq": "Annual",
+     "def": "Employees who left during the year as a share of average headcount.",
+     "why": "Stability of the organisation."
+    },
+    {
+     "id": "women_workforce_pct",
+     "name": "Women in workforce",
+     "unit": "pct",
+     "better": "high",
+     "core": false,
+     "source": "disclosures",
+     "freq": "Annual",
+     "def": "Women as a share of employees (BRSR or annual report).",
+     "why": "Diversity."
     }
    ]
   },
   {
    "id": "strategy",
    "name": "Strategy & ambition",
+   "short": "Strategy",
+   "family": "Leadership",
    "dept": "CEO office",
+   "question": "What is each insurer trying to become?",
    "functions": [
     "Vision",
     "Strategic pillars",
     "Stated targets"
    ],
-   "question": "What is it trying to become?",
    "qualitative": true,
    "kpis": []
   }

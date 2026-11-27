@@ -207,13 +207,26 @@ def main():
             elif "total (ulip funds)" in g:
                 put(cid, "aum_ulip_cr", lab[-1], v)
 
+    # Table 21 in detail: investment mix by fund and asset category
+    for cid, rec in wide_by_insurer(sheet(p1, "21")).items():
+        for lab, v in rec.items():
+            if len(lab) >= 3:
+                fund = "life" if lab[0].lower().startswith("life") else "pension_group" if lab[0].lower().startswith("pension") else "ulip" if lab[0].lower().startswith("unit") else None
+                if fund:
+                    co.setdefault(cid, {}).setdefault("aum_mix", {}).setdefault(str(lab[-1]), {}).setdefault(fund, {})[lab[1]] = v
+
+    # Table 22: equity share capital (Rs crore, 31 March)
+    for cid, rec in wide_by_insurer(sheet(p1, "22")).items():
+        for lab, v in rec.items():
+            put(cid, "equity_capital_cr", lab[-1], v)
+
     # Table 23: solvency at quarter ends
     for cid, rec in wide_by_insurer(sheet(p1, "23")).items():
         for lab, v in rec.items():
             put(cid, "solvency", lab[-1], v)
 
     # Table 24: policyholders' account (Rs lakh)
-    want24 = {"(a) premium": "premium", "(b) reinsurance ceded": "ri_ceded", "commission": "commission", "operating expenses related to insurance business": "opex",
+    want24 = {"(a) premium": "premium", "(b) reinsurance ceded": "ri_ceded", "(a) interest, dividends & rent – gross": "inv_income", "commission": "commission", "operating expenses related to insurance business": "opex",
               "benefits paid (net)": "benefits", "surplus/ (deficit) (d) =(a)-(b)- (c )": "surplus"}
     for cid, rec in wide_by_particulars(sheet(p1, "24")).items():
         for (lab, y), v in rec.items():
@@ -226,6 +239,8 @@ def main():
         for (lab, y), v in rec.items():
             if re.sub(r"\s+", " ", lab.lower()).startswith("profit / (loss) after tax"):
                 put(cid, "pat_lakh", y, v)
+            if " ".join(lab.lower().split()).startswith("(a) interest, dividends & rent"):
+                put(cid, "sh_inv_income_lakh", y, v)
 
     # Table 26: shareholders' funds = first 'Sub-Total' (Rs lakh)
     rows26 = sheet(p1, "26")
@@ -314,6 +329,18 @@ def main():
                 if k:
                     ch.setdefault(name.replace("**", "").replace("*", "").strip(), {})[k] = v
             co.setdefault(cid, {})[key] = {"year": fy, "by_channel": ch}
+
+    # Part III tables 73 and 75: health products and health riders written by life insurers (new business, Rs lakh)
+    try:
+        p3 = openpyxl.load_workbook(folder / "Part III.xlsx", data_only=True, read_only=True)
+        for tno, key in (("73", "health_products_nb"), ("75", "health_riders_nb")):
+            for cid, rec in wide_by_insurer(sheet(p3, tno)).items():
+                for lab, v in rec.items():
+                    if len(lab) >= 3 and lab[1].upper().startswith("TOTAL"):
+                        k = "premium_lakh" if "premium" in lab[2].lower() else "persons" if "persons" in lab[2].lower() else "count"
+                        co.setdefault(cid, {}).setdefault(key, {}).setdefault(lab[0], {})[k] = v
+    except FileNotFoundError:
+        pass
 
     out = {"source": src, "fy": fy, "companies": co,
            "notes": "Parsed from IRDAI Handbook on Indian Insurance Statistics (Excel). Amounts in the units named by each key."}
