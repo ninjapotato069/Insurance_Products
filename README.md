@@ -4,9 +4,9 @@
 *Add to Home screen* / *Install app*). Needs GitHub Pages on: Settings → Pages → Deploy from a branch → `main` / root.
 
 ## Benchmark
-- `data/benchmark/framework.json` — 20 departments (scale, growth, profit, capital, distribution, product, marketing,
-  underwriting, claims, service, efficiency, digital, people, governance, strategy), ~120 KPIs with definition,
-  direction, source and refresh. Core KPIs are percentile-scored within a peer group; department and overall scores follow.
+- `data/benchmark/framework.json` — 20 departments in six families (sales & distribution, operations, technology &
+  change, product, finance & investments, leadership) plus strategy, with each KPI's definition, direction, source
+  and refresh. Core KPIs are percentile-scored within a peer group; department and overall scores follow.
 - Sources: IRDAI monthly new business statement (auto), IRDAI Handbook on Indian Insurance Statistics and Annual
   Report (parsed by `scripts/parse_irdai_handbook.py`, `scripts/parse_irdai_annual.py`), app stores, homepage audit,
   Google News headlines, NSE prices, desk research (`data/benchmark/research.json`, `data/benchmark/strategy.json`).
@@ -27,9 +27,21 @@ Postal Life Insurance / Rural PLI.
 
 ## Dashboard
 `index.html` (GitHub Pages, if enabled: Settings → Pages → Deploy from branch `main`, folder `/`) and a
-Claude artifact built from the same source. Views: market overview, insurer profiles with metrics
-against the industry median, product catalogue with category-specific columns, product detail with
-UIN decoding, side-by-side compare (products and insurers), change log.
+Claude artifact built from the same source (`src/dashboard.html`; `scripts/make_site.py` wraps it,
+`scripts/make_icons.py` draws the app icons).
+
+- **Home**: pick *My company* in the header (defaults to Bajaj Life Insurance). Shows league position, index,
+  level and XP (index × 10; Rookie <35, Challenger 35, Contender 45, Pro 55, Elite 65, Legend 75), a scoreboard of
+  headline KPIs with ranks, a grade per department (S 80+, A 60-80, B 40-60, C 20-40, D <20) with medals for
+  top-three finishes, missions (reach the top-quartile mark on one ratio KPI and see the index gain and places
+  climbed, other insurers held constant), rivals, 18 badges and a feed of competitor moves.
+- **League**: podium, standings with movement since the last visit, level, medals and form (monthly change in
+  year-to-date share of new business), the department heatmap and department champions.
+- **Duel**: any two insurers department by department, with the KPIs where each leads.
+- **Search** (`/` or Ctrl/Cmd-K): insurers, departments, KPIs, products and views from one box. Star insurers to keep
+  them on the watchlist. My company, watchlist and movement history live in the browser (localStorage).
+- Also: market overview, departments, state network, global peers, strategy, news, insurer profiles, ownership,
+  product catalogue and detail with UIN decoding, side-by-side compare, change log.
 
 ## Weekly refresh
 | When (IST) | What | Where |

@@ -6,107 +6,158 @@
 <style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}img{max-width:100%}</style>
 <title>Life Insurance Benchmark</title>
 <meta name="claude:viewport-fit-sides" content="cover">
-<meta name="description" content="Every Indian life insurer benchmarked across 20 departments, with products, claims, ratings, ownership, strategy and news, refreshed daily.">
+<meta name="description" content="Every Indian life insurer in one league table: department grades, missions, head-to-head duels and badges, plus products, claims, ownership, strategy and news, refreshed daily.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@500;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800;900&display=swap">
 <style>
-/* Layout: sticky ledger header + tab strip over one scrolling column (max 1280px); panels only around charts and tables. */
+/* Layout: navy "season" band (brand, search, my company, section tabs) over one scrolling column (max 1280px).
+   Colour roles: blue = data marks and links, saffron = my company, gold/silver/bronze = podium finishes, violet = rival side in a duel. */
 :root{
-  --bg:#f1f4f1;          /* page plane: faint green-grey, like policy-bond security paper */
-  --surface:#fbfcfa;     /* panels, chart surface */
-  --surface-2:#e8ece7;   /* table heads, chips */
-  --ink:#111a16;
-  --ink-2:#46524d;
-  --muted:#76837d;
-  --line:#d8dfda;
-  --line-strong:#bcc6c0;
-  --accent:#0b6a5a;      /* policy green: links, active states, single-series marks */
+  --bg:#eef1f8;          /* page plane: cool paper */
+  --surface:#ffffff;     /* cards, chart surface */
+  --surface-2:#e8ecf6;   /* table heads, chips, tracks */
+  --ink:#0e1630;
+  --ink-2:#3e4867;
+  --muted:#687190;
+  --line:#dbe0ec;
+  --line-strong:#c0c8dc;
+  --accent:#2453d4;      /* data blue: links, active states, single-series marks */
   --accent-ink:#ffffff;
-  --accent-wash:#d9ebe5;
+  --accent-wash:#e4ebfd;
+  --me:#e8590c;          /* saffron: my company, wherever it appears */
+  --me-ink:#ffffff;
+  --me-wash:#fff0e6;
+  --me-text:#b4440a;
+  --me-btn:#c2410c; --me-btn-ink:#ffffff;
+  --rival:#7c3aed;
+  --band:#0d1a45; --band-2:#1b2d74; --band-ink:#ffffff; --band-muted:#aab6de;
+  --gold:#d9a21b; --gold-wash:#fdf4d8; --gold-text:#8a5d00; --silver:#9aa6bd; --bronze:#b8703f;
+  --plat:#1aa3c4; --legend:#8b5cf6;
+  --good:#1e9e57; --crit:#d9483f;
+  --crest-1:#2251c9; --crest-2:#0f766e; --crest-3:#6d28d9; --crest-4:#b4235f; --crest-5:#a35a06; --crest-6:#15803d; --crest-7:#475569; --crest-8:#b23a16;
   --stamp:#5a3db3;       /* rubber-stamp violet: administrative states (new, withdrawn, review) */
   --stamp-wash:#ece6fb;
-  --emph-muted:#c3ccc7;  /* de-emphasised marks when an insurer is highlighted */
+  --emph-muted:#cbd3e6;  /* de-emphasised marks when my company is highlighted */
   --good-text:#006300; --crit-text:#b3312f; --warn-text:#8a5a00;
   --cat-1:#2a78d6; --cat-2:#eb6834; --cat-3:#1baf7a; --cat-4:#eda100; --cat-5:#e87ba4; --cat-6:#008300;
   --seq-1:#e3eefb; --seq-2:#cde2fb; --seq-3:#9ec5f4; --seq-4:#6da7ec; --seq-5:#3987e5; --seq-6:#256abf; --seq-7:#184f95;
-  --div-pos:#2a78d6; --div-neg:#e34948; --div-mid:#f0efec;  /* diverging pair: blue above zero, red below, gray midpoint */
-  --on-cat-1:#ffffff; --on-cat-2:#0b0b0b; --on-cat-3:#0b0b0b; --on-cat-4:#0b0b0b; --on-cat-5:#0b0b0b; --on-cat-6:#ffffff;  /* label ink inside each categorical fill, whichever of white or near-black reads better */
+  --div-pos:#2a78d6; --div-neg:#e34948; --div-mid:#eef0f4;  /* diverging pair: blue above zero, red below, gray midpoint */
+  --on-cat-1:#ffffff; --on-cat-2:#0b0b0b; --on-cat-3:#0b0b0b; --on-cat-4:#0b0b0b; --on-cat-5:#0b0b0b; --on-cat-6:#ffffff;
   --on-pos:#ffffff; --on-neg:#0b0b0b;
-  --font-ui:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
-  --font-display:"IBM Plex Sans Condensed","IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --shadow:0 1px 2px rgba(16,24,56,.06),0 10px 26px -20px rgba(16,24,56,.4);
+  --shadow-lg:0 26px 50px -30px rgba(13,26,69,.6);
+  --scrim:rgba(8,12,30,.55);
+  --font-ui:"Figtree",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --font-display:"Big Shoulders Display","Big Shoulders","Barlow Condensed","Arial Narrow","Roboto Condensed",system-ui,sans-serif;
   --font-mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
-  --r:6px;
+  --r:14px; --r-sm:10px;
+  --bnav-h:64px;
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
-    --bg:#0d1210; --surface:#141a17; --surface-2:#1c2420; --ink:#e7edea; --ink-2:#b1bdb7; --muted:#7d8a84;
-    --line:#252f2b; --line-strong:#36423d; --accent:#3cb8a2; --accent-ink:#06120f; --accent-wash:#15332c;
-    --stamp:#a593f2; --stamp-wash:#241e40; --emph-muted:#38433f;
+    --bg:#0a0f22; --surface:#111936; --surface-2:#18224a; --ink:#e8ecf8; --ink-2:#b3bcd8; --muted:#7f89aa;
+    --line:#222c52; --line-strong:#33406e; --accent:#7aa2ff; --accent-ink:#0a1130; --accent-wash:#1a2756;
+    --me:#ff8a3d; --me-ink:#1a0b02; --me-wash:#3a1f0f; --me-text:#ffa361; --me-btn:#ff8a3d; --me-btn-ink:#1a0b02;
+    --rival:#a78bfa;
+    --band:#111c4a; --band-2:#1a2a6a; --band-ink:#ffffff; --band-muted:#a3b0db;
+    --gold:#f2c14e; --gold-wash:#3a2f10; --gold-text:#f2c14e; --silver:#b9c3d8; --bronze:#d9925e;
+    --plat:#4cc9f0; --legend:#b197fc; --good:#2fbf6b; --crit:#ef6461;
+    --stamp:#a593f2; --stamp-wash:#241e40; --emph-muted:#2c3762;
     --good-text:#3ccb5a; --crit-text:#ef7b78; --warn-text:#f2b84b;
     --cat-1:#3987e5; --cat-2:#d95926; --cat-3:#199e70; --cat-4:#c98500; --cat-5:#d55181; --cat-6:#008300;
     --seq-1:#18222d; --seq-2:#1b3150; --seq-3:#1d4a80; --seq-4:#2565b0; --seq-5:#3a86de; --seq-6:#6ea9ee; --seq-7:#a8cdf6;
-    --div-pos:#3987e5; --div-neg:#e66767; --div-mid:#383835;
+    --div-pos:#3987e5; --div-neg:#e66767; --div-mid:#2a3355;
     --on-cat-1:#0b0b0b; --on-cat-2:#0b0b0b; --on-cat-3:#0b0b0b; --on-cat-4:#0b0b0b; --on-cat-5:#0b0b0b; --on-cat-6:#ffffff; --on-pos:#0b0b0b; --on-neg:#0b0b0b;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 12px 28px -22px rgba(0,0,0,.8);
+    --shadow-lg:0 26px 50px -30px rgba(0,0,0,.85);
+    --scrim:rgba(0,0,0,.62);
     color-scheme:dark;
   }
 }
 :root[data-theme="dark"]{
-  --bg:#0d1210; --surface:#141a17; --surface-2:#1c2420; --ink:#e7edea; --ink-2:#b1bdb7; --muted:#7d8a84;
-  --line:#252f2b; --line-strong:#36423d; --accent:#3cb8a2; --accent-ink:#06120f; --accent-wash:#15332c;
-  --stamp:#a593f2; --stamp-wash:#241e40; --emph-muted:#38433f;
+  --bg:#0a0f22; --surface:#111936; --surface-2:#18224a; --ink:#e8ecf8; --ink-2:#b3bcd8; --muted:#7f89aa;
+  --line:#222c52; --line-strong:#33406e; --accent:#7aa2ff; --accent-ink:#0a1130; --accent-wash:#1a2756;
+  --me:#ff8a3d; --me-ink:#1a0b02; --me-wash:#3a1f0f; --me-text:#ffa361; --me-btn:#ff8a3d; --me-btn-ink:#1a0b02;
+  --rival:#a78bfa;
+  --band:#111c4a; --band-2:#1a2a6a; --band-ink:#ffffff; --band-muted:#a3b0db;
+  --gold:#f2c14e; --gold-wash:#3a2f10; --gold-text:#f2c14e; --silver:#b9c3d8; --bronze:#d9925e;
+  --plat:#4cc9f0; --legend:#b197fc; --good:#2fbf6b; --crit:#ef6461;
+  --stamp:#a593f2; --stamp-wash:#241e40; --emph-muted:#2c3762;
   --good-text:#3ccb5a; --crit-text:#ef7b78; --warn-text:#f2b84b;
   --cat-1:#3987e5; --cat-2:#d95926; --cat-3:#199e70; --cat-4:#c98500; --cat-5:#d55181; --cat-6:#008300;
   --seq-1:#18222d; --seq-2:#1b3150; --seq-3:#1d4a80; --seq-4:#2565b0; --seq-5:#3a86de; --seq-6:#6ea9ee; --seq-7:#a8cdf6;
-  --div-pos:#3987e5; --div-neg:#e66767; --div-mid:#383835;
+  --div-pos:#3987e5; --div-neg:#e66767; --div-mid:#2a3355;
   --on-cat-1:#0b0b0b; --on-cat-2:#0b0b0b; --on-cat-3:#0b0b0b; --on-cat-4:#0b0b0b; --on-cat-5:#0b0b0b; --on-cat-6:#ffffff; --on-pos:#0b0b0b; --on-neg:#0b0b0b;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 12px 28px -22px rgba(0,0,0,.8);
+  --shadow-lg:0 26px 50px -30px rgba(0,0,0,.85);
+  --scrim:rgba(0,0,0,.62);
   color-scheme:dark;
 }
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
+html.noscroll{overflow:hidden}
 body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 var(--font-ui);-webkit-font-smoothing:antialiased}
-body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:40;background:var(--bg)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:40;background:var(--band)}
 [hidden]{display:none!important}
 a{color:var(--accent);text-decoration-thickness:1px;text-underline-offset:2px}
 button,select,input{font:inherit;color:inherit}
 button{cursor:pointer}
 :focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:3px}
-h1,h2,h3{font-family:var(--font-display);font-weight:600;line-height:1.15;text-wrap:balance;margin:0}
-h1{font-size:1.75rem;letter-spacing:.005em}
-h2{font-size:1.3rem}
-h3{font-size:1.05rem}
+h1,h2,h3{font-family:var(--font-display);font-weight:800;line-height:1.05;text-wrap:balance;margin:0;letter-spacing:.01em}
+h1{font-size:2rem}
+h2{font-size:1.75rem;text-transform:uppercase;letter-spacing:.025em}
+h3{font-family:var(--font-ui);font-size:1.02rem;font-weight:700;line-height:1.25;letter-spacing:0}
 p{margin:0}
 .mono{font-family:var(--font-mono);font-size:.86em;letter-spacing:.01em}
 .num{font-variant-numeric:tabular-nums}
 .muted{color:var(--muted)}
 .ink2{color:var(--ink-2)}
 .small{font-size:.82rem}
-.eyebrow{font-size:.7rem;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.eyebrow{font-size:.68rem;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);font-weight:700}
 .wrap{max-width:1280px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
 
-/* header */
-.top{position:relative;z-index:30;background:var(--bg);border-bottom:1px solid var(--line)}
+/* header: the season band */
+.top{position:relative;z-index:30;color:var(--band-ink);background:radial-gradient(70% 160% at 100% 0%,color-mix(in srgb,var(--me) 26%,transparent) 0,transparent 55%),linear-gradient(180deg,var(--band),var(--band-2))}
 @media (min-width:761px){.top{position:sticky;top:env(safe-area-inset-top,0px)}}
-.top .wrap{display:flex;flex-wrap:wrap;align-items:flex-end;gap:8px 20px;padding-block:14px 0}
-.brand{flex:1 1 320px;min-width:0}
-.brand h1{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
-.brand .sub{color:var(--ink-2);font-size:.86rem;margin-top:2px}
-label.bench{display:flex;align-items:center;gap:8px;font-size:.82rem;color:var(--ink-2);padding-bottom:6px}
-label.bench select{min-width:0;max-width:210px}
-.tabs{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;flex:1 1 100%;margin-top:6px}
+.top .wrap{display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px;padding-block:12px 0}
+.brand{flex:1 1 240px;min-width:0;display:flex;align-items:center;gap:12px;color:inherit;text-decoration:none}
+.logo{flex:0 0 40px;width:40px;height:40px;border-radius:12px;display:grid;place-items:center;background:linear-gradient(145deg,var(--gold),var(--me));color:#1a0d05;box-shadow:0 8px 20px -10px var(--me)}
+.logo svg{width:24px;height:24px}
+.bt{display:flex;flex-direction:column;min-width:0}
+.bname{font:800 1.5rem/1 var(--font-display);letter-spacing:.04em;text-transform:uppercase;color:var(--band-ink);margin:0}
+.bsub{font-size:.74rem;color:var(--band-muted);margin-top:4px;letter-spacing:.02em}
+.hdr-actions{display:flex;align-items:center;gap:8px;min-width:0;flex-wrap:wrap}
+.sbtn{display:inline-flex;align-items:center;gap:8px;min-height:40px;padding:0 10px 0 12px;border-radius:12px;border:1px solid color-mix(in srgb,var(--band-ink) 22%,transparent);background:color-mix(in srgb,var(--band-ink) 8%,transparent);color:var(--band-muted);font-size:.85rem}
+.sbtn:hover{color:var(--band-ink);border-color:color-mix(in srgb,var(--band-ink) 45%,transparent)}
+.sbtn svg{width:17px;height:17px}
+.sbtn kbd,.pal kbd{font:600 .7rem/1.4 var(--font-mono);border:1px solid currentColor;border-radius:5px;padding:0 6px;opacity:.75}
+label.mine{display:flex;align-items:center;gap:8px;min-height:40px;padding:4px 6px 4px 5px;border-radius:12px;background:color-mix(in srgb,var(--band-ink) 8%,transparent);border:1px solid color-mix(in srgb,var(--me) 60%,transparent)}
+.mycrest{display:inline-flex}
+.mycrest > svg{width:22px;height:22px;color:var(--band-muted);margin:0 2px}
+label.mine .mt{display:flex;flex-direction:column;min-width:0}
+label.mine .bl{font-size:.6rem;letter-spacing:.1em;text-transform:uppercase;color:var(--band-muted);font-weight:700;line-height:1.1;padding-left:2px}
+label.mine select{color-scheme:dark;background:transparent;border:0;color:var(--band-ink);font-weight:700;font-size:.9rem;min-height:24px;padding:0 4px 0 2px;max-width:180px}
+label.mine select option{color:var(--ink);background:var(--surface)}
+label.bench{display:flex;align-items:center;gap:8px;font-size:.82rem;color:var(--ink-2)}
+label.bench select{min-width:0;max-width:240px}
+.tabs{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;flex:1 1 100%;margin-top:2px}
 .tabs::-webkit-scrollbar{display:none}
-.tabs a{flex:0 0 auto;padding:9px 12px 10px;color:var(--ink-2);text-decoration:none;font-weight:500;font-size:.92rem;border-bottom:2px solid transparent}
-.tabs a:hover{color:var(--ink)}
-.tabs a[aria-current="page"]{color:var(--ink);border-bottom-color:var(--accent)}
-main{padding-block:22px 110px}
+.tabs a{flex:0 0 auto;display:inline-flex;align-items:center;gap:6px;padding:10px 12px 11px;color:var(--band-muted);text-decoration:none;font-weight:600;font-size:.9rem;border-bottom:3px solid transparent}
+.tabs a svg{width:15px;height:15px}
+.tabs a:hover{color:var(--band-ink)}
+.tabs a[aria-current="page"]{color:var(--band-ink);border-bottom-color:var(--me)}
+.tabs a[aria-current="page"] svg{color:var(--me)}
+main{padding-block:24px 120px}
 .view-head{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:10px 24px;margin-bottom:18px}
-.view-head p{color:var(--ink-2);max-width:68ch;margin-top:6px}
+.view-head p{color:var(--ink-2);max-width:70ch;margin-top:8px}
 
 /* form controls */
-select,input[type="search"],input[type="text"]{background:var(--surface);border:1px solid var(--line-strong);border-radius:5px;padding:7px 9px;font-size:.88rem;min-height:36px}
+select,input[type="search"],input[type="text"]{background:var(--surface);border:1px solid var(--line-strong);border-radius:9px;padding:7px 9px;font-size:.88rem;min-height:36px}
 select{padding-right:26px}
 input[type="search"]{min-width:0}
-.btn{display:inline-flex;align-items:center;gap:6px;background:var(--surface);border:1px solid var(--line-strong);border-radius:5px;padding:7px 12px;font-size:.86rem;font-weight:500;min-height:36px;color:var(--ink);text-decoration:none}
+.btn{display:inline-flex;align-items:center;gap:6px;background:var(--surface);border:1px solid var(--line-strong);border-radius:10px;padding:7px 12px;font-size:.86rem;font-weight:600;min-height:36px;color:var(--ink);text-decoration:none}
 .btn:hover{border-color:var(--accent);color:var(--accent)}
 .btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
 .btn.primary:hover{filter:brightness(1.08);color:var(--accent-ink)}
@@ -121,7 +172,7 @@ input[type="search"]{min-width:0}
 .g3{grid-template-columns:repeat(3,minmax(0,1fr))}
 @media (max-width:900px){.g2,.g3{grid-template-columns:minmax(0,1fr)}}
 .stack{display:flex;flex-direction:column;gap:16px}
-.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px;min-width:0}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:18px;min-width:0;box-shadow:var(--shadow)}
 .panel-head{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;margin-bottom:12px}
 .panel-head .t{min-width:0}
 .panel-head .s{color:var(--muted);font-size:.8rem;margin-top:2px}
@@ -129,13 +180,14 @@ input[type="search"]{min-width:0}
 .section > h2{margin-bottom:12px}
 
 /* KPI tiles */
-.kpis{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
-.kpi{background:var(--surface);padding:14px 16px;min-width:0}
-.kpi .v{font-size:1.85rem;font-weight:600;line-height:1.1;margin-top:4px}
-.kpi .l{font-size:.8rem;color:var(--ink-2)}
-.kpi .d{font-size:.75rem;color:var(--muted);margin-top:3px}
+.kpis{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:10px}
+.kpi{position:relative;overflow:hidden;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);padding:14px 16px 14px 18px;min-width:0}
+.kpi::before{content:"";position:absolute;inset:0 auto 0 0;width:4px;background:linear-gradient(180deg,var(--accent),color-mix(in srgb,var(--accent) 25%,transparent))}
+.kpi .v{font:800 2.05rem/1.05 var(--font-display);margin-top:6px;font-variant-numeric:tabular-nums;letter-spacing:.01em}
+.kpi .l{font-size:.68rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;font-weight:700}
+.kpi .d{font-size:.76rem;color:var(--ink-2);margin-top:4px}
 @media (max-width:1050px){.kpis{grid-template-columns:repeat(3,minmax(0,1fr))}}
-@media (max-width:560px){.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.kpi .v{font-size:1.5rem}}
+@media (max-width:560px){.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.kpi .v{font-size:1.7rem}}
 
 /* chips & stamps */
 .chips{display:flex;flex-wrap:wrap;gap:6px}
@@ -149,19 +201,20 @@ input[type="search"]{min-width:0}
 .catdot{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:6px;vertical-align:baseline}
 
 /* tables */
-.tablewrap{overflow-x:auto;-webkit-overflow-scrolling:touch;border:1px solid var(--line);border-radius:var(--r);background:var(--surface)}
+.tablewrap{overflow-x:auto;-webkit-overflow-scrolling:touch;border:1px solid var(--line);border-radius:var(--r-sm);background:var(--surface)}
 table{border-collapse:separate;border-spacing:0;width:100%;font-size:.86rem}
 th,td{padding:8px 10px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line)}
-th{background:var(--surface-2);font-weight:600;color:var(--ink-2);font-size:.76rem;white-space:nowrap;position:sticky;top:0}
+th{background:var(--surface-2);font-weight:700;color:var(--ink-2);font-size:.7rem;letter-spacing:.05em;text-transform:uppercase;white-space:nowrap;position:sticky;top:0}
 tbody tr:last-child td{border-bottom:0}
 td.n,th.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
 tbody tr.click{cursor:pointer}
 tbody tr.click:hover td{background:var(--accent-wash)}
-tr.bench td{background:color-mix(in srgb,var(--accent-wash) 70%,transparent)}
+tr.bench td{background:var(--me-wash)}
+tr.bench td:first-child{box-shadow:inset 3px 0 0 var(--me)}
 .sticky1 th:first-child,.sticky1 td:first-child{position:sticky;left:0;z-index:1;background:var(--surface);box-shadow:1px 0 0 var(--line)}
 .sticky1 th:first-child{z-index:2;background:var(--surface-2)}
 .sticky1 tbody tr.click:hover td:first-child{background:var(--accent-wash)}
-.sticky1 tr.bench td:first-child{background:var(--accent-wash)}
+.sticky1 tr.bench td:first-child{background:var(--me-wash);box-shadow:inset 3px 0 0 var(--me),1px 0 0 var(--line)}
 th button.sort{background:none;border:0;padding:0;font:inherit;color:inherit;display:inline-flex;gap:4px;align-items:center}
 th button.sort[aria-sort="ascending"]::after{content:"↑"}
 th button.sort[aria-sort="descending"]::after{content:"↓"}
@@ -189,6 +242,7 @@ details.filterbox > summary::-webkit-details-marker{display:none}
 .bar-row .track{display:flex;align-items:center;gap:6px;min-width:0}
 .bar-row .bar{height:14px;border-radius:0 4px 4px 0;background:var(--accent);min-width:2px;transition:filter .15s}
 .bar-row .bar.mut{background:var(--emph-muted)}
+.bar-row .bar.me{background:var(--me)}
 .bar-row .val{font-variant-numeric:tabular-nums;color:var(--ink-2);white-space:nowrap;font-size:.78rem}
 .bar-row.click{cursor:pointer}
 .bar-row.click:hover .bar,.bar-row.click:focus-visible .bar{filter:brightness(1.15)}
@@ -212,6 +266,7 @@ details.filterbox > summary::-webkit-details-marker{display:none}
 .med-line{stroke:var(--line-strong);stroke-width:1}
 .dot{fill:var(--accent);stroke:var(--surface);stroke-width:2}
 .dot.mut{fill:var(--emph-muted)}
+.dot.me{fill:var(--me)}
 .svgchart .dot{pointer-events:none}
 .hit{fill:transparent;cursor:pointer}
 .hit:hover + .dot,.hit:focus + .dot{stroke:var(--ink)}
@@ -238,7 +293,9 @@ details.filterbox > summary::-webkit-details-marker{display:none}
 .dhead{display:flex;flex-wrap:wrap;gap:12px 24px;justify-content:space-between;align-items:flex-start;margin-bottom:18px}
 .dhead .main{flex:1 1 420px;min-width:0}
 .dhead .ins{color:var(--ink-2);font-weight:500;margin-bottom:4px}
-.dhead h1{font-size:1.9rem}
+.dhead h1{font-size:2.3rem}
+.dh-title{display:flex;gap:16px;align-items:center;min-width:0}
+.dh-title > div{min-width:0}
 .dhead .desc{color:var(--ink-2);margin-top:10px;max-width:70ch}
 .dhead .stamp{white-space:normal;line-height:1.4;max-width:100%}
 .actions{display:flex;flex-wrap:wrap;gap:8px}
@@ -260,9 +317,9 @@ ul.feat{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:6px}
 .variants > div{border-left:2px solid var(--line-strong);padding-left:10px}
 .sources{font-size:.8rem;display:flex;flex-direction:column;gap:3px;overflow-wrap:anywhere}
 .tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px}
-.tile{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:12px 14px;min-width:0}
+.tile{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:12px 14px;min-width:0;box-shadow:var(--shadow)}
 .tile .l{font-size:.78rem;color:var(--ink-2)}
-.tile .v{font-size:1.45rem;font-weight:600;margin-top:2px;line-height:1.2}
+.tile .v{font:800 1.75rem/1.1 var(--font-display);margin-top:4px;font-variant-numeric:tabular-nums}
 .tile .p{font-size:.72rem;color:var(--muted);margin-top:2px}
 .tile .p.clamp{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;cursor:help}
 td.desc{min-width:260px;max-width:460px;color:var(--ink-2);font-size:.82rem}
@@ -279,10 +336,10 @@ td.desc{min-width:260px;max-width:460px;color:var(--ink-2);font-size:.82rem}
 .cmphead{display:flex;flex-direction:column;gap:6px}
 .picker{display:flex;flex-direction:column;gap:6px;margin-top:8px}
 .picker .opt{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:6px 8px;border:1px solid var(--line);border-radius:5px;background:var(--surface);font-size:.85rem}
-.tray{position:fixed;left:0;right:0;bottom:0;z-index:35;background:var(--ink);color:var(--bg);padding-bottom:env(safe-area-inset-bottom,0px)}
+.tray{position:fixed;left:0;right:0;bottom:0;z-index:35;background:var(--band);color:var(--band-ink);padding-bottom:env(safe-area-inset-bottom,0px);box-shadow:0 -8px 24px -12px rgba(0,0,0,.4)}
 .tray .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-block:10px}
-.tray a{color:var(--bg);font-weight:600}
-.tray .btn{background:transparent;color:var(--bg);border-color:color-mix(in srgb,var(--bg) 40%,transparent)}
+.tray a{color:var(--band-ink);font-weight:600}
+.tray .btn{background:transparent;color:var(--band-ink);border-color:color-mix(in srgb,var(--band-ink) 40%,transparent)}
 .empty{border:1px dashed var(--line-strong);border-radius:var(--r);padding:28px 18px;text-align:center;color:var(--ink-2);background:var(--surface)}
 .empty h3{margin-bottom:6px;color:var(--ink)}
 .log{display:flex;flex-direction:column}
@@ -441,13 +498,13 @@ details.fold[open] .fold-k::after{transform:translateY(2px) rotate(-135deg)}
 .tiles.leaders{grid-template-columns:repeat(auto-fill,minmax(230px,1fr))}
 a.tile.lead{text-decoration:none;color:var(--ink);display:block}
 a.tile.lead:hover{border-color:var(--accent)}
-.tile .lt{font-family:var(--font-display);font-weight:600;font-size:1.02rem;margin-top:2px}
+.tile .lt{font-weight:700;font-size:1rem;margin-top:2px;line-height:1.25}
 ol.top3{margin:8px 0 0;padding-left:20px;font-size:.86rem;display:flex;flex-direction:column;gap:3px}
 ol.top3 li span{display:inline-block;max-width:150px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;vertical-align:bottom}
 ol.top3 li b{float:right;font-variant-numeric:tabular-nums}
 ol.top3 li.b{font-weight:600}
 .strat .panel{display:flex;flex-direction:column}
-.strat-card.is-bench{border-color:var(--accent)}
+.strat-card.is-bench{border-color:var(--me);box-shadow:inset 0 3px 0 var(--me),var(--shadow)}
 .strat-card .purpose{color:var(--ink-2);margin-top:2px}
 .sblock{margin-top:12px}
 .sblock .eyebrow{margin-bottom:6px}
@@ -476,9 +533,314 @@ a.tile.dept:hover{border-color:var(--accent)}
 .dscore{font-weight:600;font-size:.9rem;border-radius:5px;padding:2px 8px;font-variant-numeric:tabular-nums}
 .dmeta{font-size:.74rem;color:var(--muted);margin-top:6px}
 .install-tip{font-size:.8rem;color:var(--ink-2)}
+
+/* ---------- game layer: crests, levels, grades, medals ---------- */
+.crest{--cc:var(--crest-7);--cs:36px;flex:0 0 auto;display:inline-grid;place-items:center;width:var(--cs);height:var(--cs);border-radius:24% 24% 50% 50% / 20% 20% 46% 46%;background:linear-gradient(160deg,color-mix(in srgb,var(--cc) 72%,#fff) 0,var(--cc) 52%,color-mix(in srgb,var(--cc) 74%,#000) 100%);color:#fff;font:800 calc(var(--cs) * var(--cf,.36))/1 var(--font-display);letter-spacing:.03em;text-transform:uppercase;box-shadow:inset 0 0 0 1.5px color-mix(in srgb,#fff 26%,transparent),0 2px 6px -2px rgba(0,0,0,.35);user-select:none}
+.crest.me{box-shadow:0 0 0 2px var(--surface),0 0 0 4px var(--me),0 6px 14px -6px var(--me)}
+.crest.sm{--cs:26px}
+.crest.lg{--cs:60px}
+.crest.xl{--cs:84px}
+.top .crest.me,.hero .crest.me{box-shadow:0 0 0 2px var(--band),0 0 0 4px var(--me),0 6px 18px -6px var(--me)}
+.lvl{display:inline-flex;align-items:center;gap:6px;font:700 .7rem/1 var(--font-ui);letter-spacing:.07em;text-transform:uppercase;padding:5px 9px 5px 7px;border-radius:999px;background:var(--surface-2);color:var(--ink-2);white-space:nowrap}
+.lvl i{width:9px;height:9px;border-radius:2px;transform:rotate(45deg);background:var(--lc);box-shadow:0 0 0 1.5px color-mix(in srgb,var(--lc) 35%,transparent)}
+.lvl.on-band{background:color-mix(in srgb,var(--band-ink) 12%,transparent);color:var(--band-ink)}
+.grade{display:inline-grid;place-items:center;min-width:32px;height:32px;padding:0 6px;border-radius:10px;font:900 1.15rem/1 var(--font-display);letter-spacing:.02em}
+.grade.none{background:var(--surface-2);color:var(--muted)}
+.medal{display:inline-grid;place-items:center;width:24px;height:24px;border-radius:50%;font:900 .78rem/1 var(--font-display);color:#2a1a00;background:radial-gradient(circle at 32% 28%,rgba(255,255,255,.75) 0,transparent 42%),var(--mc);box-shadow:inset 0 -2px 0 rgba(0,0,0,.18),0 1px 3px rgba(0,0,0,.25);flex:0 0 auto}
+.medal.g{--mc:var(--gold)} .medal.s{--mc:var(--silver)} .medal.b{--mc:var(--bronze)}
+.medal.sm{width:15px;height:15px;font-size:0}
+.medals{display:inline-flex;gap:8px;align-items:center;white-space:nowrap}
+.mc{display:inline-flex;align-items:center;gap:4px;font:700 .82rem/1 var(--font-ui);font-variant-numeric:tabular-nums}
+.medrow{display:inline-flex;gap:12px;align-items:center}
+.medrow .mc{font:800 1.4rem/1 var(--font-display)}
+.btn svg{width:16px;height:16px;flex:0 0 auto}
+.btn.me{background:var(--me-btn);border-color:var(--me-btn);color:var(--me-btn-ink);font-weight:700}
+.btn.me:hover{filter:brightness(1.07);color:var(--me-btn-ink);border-color:var(--me-btn)}
+.btn.onband{background:transparent;color:var(--band-ink);border-color:color-mix(in srgb,var(--band-ink) 30%,transparent)}
+.btn.onband:hover{color:var(--band-ink);border-color:var(--band-ink)}
+.star{display:inline-grid;place-items:center;width:36px;height:36px;border-radius:10px;border:1px solid var(--line-strong);background:var(--surface);color:var(--muted);flex:0 0 auto}
+.star svg{width:18px;height:18px}
+.star:hover{color:var(--gold-text);border-color:var(--gold)}
+.star[aria-pressed="true"]{color:var(--gold-text);border-color:var(--gold);background:var(--gold-wash)}
+.star[aria-pressed="true"] svg{fill:var(--gold);stroke:var(--gold)}
+.wstar svg{width:14px;height:14px;fill:var(--gold);stroke:var(--gold);vertical-align:-2px}
+.pbar{height:6px;border-radius:999px;background:var(--surface-2);overflow:hidden}
+.pbar > i{display:block;height:100%;border-radius:inherit;background:var(--c,var(--accent))}
+.shead{display:flex;justify-content:space-between;align-items:flex-end;gap:10px 20px;flex-wrap:wrap;margin:34px 0 14px}
+.shead p{color:var(--ink-2);font-size:.88rem;margin-top:6px;max-width:72ch}
+.shead .chips{justify-content:flex-end}
+.eyebrow-b{font-size:.66rem;letter-spacing:.11em;text-transform:uppercase;color:var(--band-muted);font-weight:700}
+
+/* hero: my company's dugout */
+.hero{position:relative;overflow:hidden;border-radius:22px;padding:22px 24px;color:var(--band-ink);border:1px solid color-mix(in srgb,var(--band-ink) 10%,transparent);background:radial-gradient(80% 130% at 100% 0%,color-mix(in srgb,var(--me) 34%,transparent),transparent 56%),radial-gradient(70% 100% at 0% 100%,color-mix(in srgb,var(--accent) 38%,transparent),transparent 62%),linear-gradient(135deg,var(--band),var(--band-2));box-shadow:var(--shadow-lg)}
+.hero::after{content:"";position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(115deg,transparent 0 26px,color-mix(in srgb,var(--band-ink) 4%,transparent) 26px 27px)}
+.hero > *{position:relative;z-index:1}
+.hero a{color:var(--band-ink)}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1.35fr) auto minmax(0,1fr);gap:18px 30px;align-items:center}
+.who{display:flex;gap:18px;align-items:center;min-width:0}
+.whot{min-width:0;display:flex;flex-direction:column;gap:4px}
+.hero .nm{font:800 2.3rem/1 var(--font-display);text-transform:uppercase;letter-spacing:.025em;overflow-wrap:break-word}
+.hero .meta{color:var(--band-muted);font-size:.84rem}
+.lvlrow{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:6px}
+.xpt{font-size:.78rem;color:var(--band-muted);font-variant-numeric:tabular-nums}
+.xp{height:10px;border-radius:999px;background:color-mix(in srgb,var(--band-ink) 14%,transparent);overflow:hidden;margin-top:6px;max-width:380px}
+.xp > i{display:block;height:100%;width:var(--w,0%);border-radius:inherit;background:linear-gradient(90deg,var(--me),var(--gold));box-shadow:0 0 12px color-mix(in srgb,var(--gold) 60%,transparent);transition:width 1.1s cubic-bezier(.2,.8,.2,1)}
+.rankbig{display:flex;flex-direction:column;align-items:center;text-align:center;gap:2px;padding:0 6px}
+.rankbig > span{font-size:.66rem;letter-spacing:.11em;text-transform:uppercase;color:var(--band-muted);font-weight:700}
+.rankbig > b{display:block;font:900 5.6rem/.9 var(--font-display);letter-spacing:-.01em;font-variant-numeric:tabular-nums;background:linear-gradient(180deg,#fff 30%,var(--gold));-webkit-background-clip:text;background-clip:text;color:transparent;padding:2px 4px}
+.rankbig .move{margin-top:4px}
+.hstat{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.hstat > div{background:color-mix(in srgb,var(--band-ink) 8%,transparent);border:1px solid color-mix(in srgb,var(--band-ink) 14%,transparent);border-radius:14px;padding:10px 12px;min-width:0}
+.hstat .l{font-size:.64rem;letter-spacing:.09em;text-transform:uppercase;color:var(--band-muted);font-weight:700}
+.hstat .v{font:800 1.75rem/1.05 var(--font-display);margin-top:4px;font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+.hstat .d{font-size:.74rem;color:var(--band-muted);margin-top:2px;overflow-wrap:anywhere}
+.move{display:inline-flex;align-items:center;gap:2px;font:800 .78rem/1 var(--font-ui);white-space:nowrap;font-variant-numeric:tabular-nums}
+.move.up{color:var(--good-text)} .move.dn{color:var(--crit-text)} .move.eq{color:var(--muted)}
+.hero .move.up{color:#6ee7a0} .hero .move.dn{color:#ff9b94} .hero .move.eq{color:var(--band-muted)}
+@media (max-width:900px){.hero-grid{grid-template-columns:minmax(0,1fr) auto}.hero-grid .hx{grid-column:1 / -1}}
+@media (max-width:560px){
+  .hero{padding:18px 16px;border-radius:18px}
+  .hero-grid{grid-template-columns:minmax(0,1fr)}
+  .who{gap:14px}.crest.xl{--cs:62px}
+  .hero .nm{font-size:1.9rem}
+  .rankbig{flex-direction:row;flex-wrap:wrap;align-items:baseline;justify-content:flex-start;gap:4px 12px;padding:0}
+  .rankbig > b{font-size:3.8rem}
+  .hstat .v{font-size:1.45rem}
+}
+
+/* scoreboard stat cards */
+.statgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(178px,1fr));gap:10px}
+a.stat{position:relative;display:block;text-decoration:none;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:12px 14px 14px;box-shadow:var(--shadow);transition:transform .15s,border-color .15s;min-width:0}
+a.stat:hover{transform:translateY(-2px);border-color:var(--accent)}
+.stat .l{font-size:.66rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:700;padding-right:44px}
+.stat .v{font:800 1.9rem/1.05 var(--font-display);margin-top:6px;font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+.stat .d{font-size:.74rem;color:var(--ink-2);margin:2px 0 10px}
+.rkp{position:absolute;top:10px;right:10px;font:900 1.05rem/1 var(--font-display);padding:5px 8px 4px;border-radius:9px;background:var(--surface-2);color:var(--ink-2);font-variant-numeric:tabular-nums}
+.rkp.top{background:linear-gradient(140deg,var(--gold),var(--bronze));color:#1a1204}
+
+/* department power grid */
+.pgrid{columns:240px 5;column-gap:10px}
+.pfamh{font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:700;padding:0 0 8px;margin-top:10px;break-after:avoid;break-inside:avoid}
+.pgrid > .pfamh:first-child{margin-top:0}
+.pgrid > a.dcell{break-inside:avoid;margin-bottom:10px;width:100%}
+a.dcell{display:grid;grid-template-columns:auto minmax(0,1fr) auto;column-gap:10px;row-gap:1px;align-items:center;text-decoration:none;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:13px;padding:10px 12px 12px;box-shadow:var(--shadow);transition:transform .15s,border-color .15s;min-width:0}
+a.dcell:hover{transform:translateY(-2px);border-color:var(--accent)}
+a.dcell.off{opacity:.66;box-shadow:none}
+.dcell .grade{grid-column:1;grid-row:1 / span 2}
+.dcell .dn{grid-column:2;grid-row:1;font-weight:700;font-size:.88rem;line-height:1.2;min-width:0;overflow-wrap:anywhere}
+.dcell .dr{grid-column:2;grid-row:2;font-size:.72rem;color:var(--muted);font-variant-numeric:tabular-nums}
+.dcell .medal,.dcell .dpos{grid-column:3;grid-row:1 / span 2}
+.dpos{font:800 .95rem/1 var(--font-display);color:var(--muted);font-variant-numeric:tabular-nums}
+.dcell .pbar{grid-column:1 / -1;grid-row:3;margin-top:9px}
+
+/* missions */
+.missions{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:12px}
+a.mission{position:relative;overflow:hidden;display:flex;flex-direction:column;gap:7px;text-decoration:none;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px 14px 14px;box-shadow:var(--shadow);transition:transform .15s,border-color .15s;min-width:0}
+a.mission::before{content:"";position:absolute;inset:0 0 auto;height:4px;background:linear-gradient(90deg,var(--me),var(--gold))}
+a.mission:hover{transform:translateY(-2px);border-color:var(--me)}
+.mtop{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.mission .mt{font-weight:700;font-size:.98rem;line-height:1.25}
+.mission .md{font-size:.8rem;color:var(--ink-2)}
+.pips{display:inline-flex;align-items:center;gap:3px;font-size:.68rem;color:var(--muted);font-weight:700;letter-spacing:.04em;text-transform:uppercase;white-space:nowrap}
+.pips i{width:8px;height:8px;border-radius:2px;background:var(--line-strong)}
+.pips i.on{background:var(--me)}
+.pips b{margin-left:4px;font-weight:700}
+.mprog{position:relative;height:8px;border-radius:999px;background:var(--surface-2);margin:4px 0 2px}
+.mprog > i{position:absolute;inset:0 auto 0 0;border-radius:inherit;background:var(--accent)}
+.mprog > b{position:absolute;top:-4px;bottom:-4px;width:3px;margin-left:-1.5px;border-radius:2px;background:var(--me)}
+.reward{display:flex;flex-wrap:wrap;gap:6px;margin-top:2px}
+.reward span{font:700 .74rem/1 var(--font-ui);padding:6px 9px;border-radius:999px;background:var(--me-wash);color:var(--me-text);white-space:nowrap}
+.reward span.xp2{background:var(--gold-wash);color:var(--gold-text)}
+
+/* rivals */
+.rivals{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
+.rival{display:flex;flex-direction:column;gap:10px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:14px;box-shadow:var(--shadow);min-width:0}
+.rtop{display:flex;align-items:center;gap:10px;min-width:0}
+.rn{flex:1 1 auto;min-width:0;display:flex;flex-direction:column}
+.rn a{font-weight:700;color:var(--ink);text-decoration:none;overflow-wrap:anywhere}
+.rn a:hover{text-decoration:underline}
+.vs{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:10px;padding:10px;border-radius:12px;background:var(--surface-2)}
+.vsn{display:flex;flex-direction:column;align-items:center;min-width:0;text-align:center}
+.vsn b{font:900 2.2rem/1 var(--font-display);font-variant-numeric:tabular-nums}
+.vsn.me b{color:var(--me-text)}
+.vsn span{font-size:.72rem;color:var(--muted);max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.vs .x{font:900 .9rem/1 var(--font-display);letter-spacing:.14em;color:var(--muted)}
+.rival .btn{align-self:flex-start}
+
+/* badges */
+.badges{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
+.badge{display:flex;flex-direction:column;align-items:center;text-align:center;gap:6px;padding:14px 10px 12px;border-radius:var(--r);background:var(--surface);border:1px solid var(--line);box-shadow:var(--shadow);min-width:0}
+.hex{width:54px;height:60px;display:grid;place-items:center;clip-path:polygon(50% 0,100% 25%,100% 75%,50% 100%,0 75%,0 25%);background:linear-gradient(150deg,var(--b1),var(--b2));color:#fff}
+.hex svg{width:26px;height:26px;filter:drop-shadow(0 1px 1px rgba(0,0,0,.3))}
+.badge.locked{box-shadow:none;background:transparent;border-style:dashed}
+.badge.locked .hex{background:var(--surface-2);color:var(--muted)}
+.badge.locked .hex svg{filter:none}
+.badge .bn{font-weight:700;font-size:.84rem;line-height:1.2}
+.badge .br{font-size:.72rem;color:var(--muted);line-height:1.3}
+.badge .bh{font-size:.68rem;color:var(--ink-2);line-height:1.3}
+
+/* intel feed */
+.feed{display:flex;flex-direction:column}
+.fitem{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:10px;align-items:start;padding:10px 0;border-bottom:1px solid var(--line)}
+.fitem:last-child{border-bottom:0}
+.fitem .ft{font-weight:600;line-height:1.3;overflow-wrap:anywhere}
+.fitem .ft a{color:var(--ink);text-decoration:none}
+.fitem .ft a:hover{color:var(--accent);text-decoration:underline}
+.fitem .fs{font-size:.74rem;color:var(--muted);margin-top:3px;display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.fitem .fd{font-size:.74rem;color:var(--muted);white-space:nowrap;font-variant-numeric:tabular-nums;padding-top:2px}
+.chip.btnchip{border:0;cursor:pointer}
+
+/* pick your company */
+.teamgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
+.team{display:flex;flex-direction:column;align-items:center;gap:8px;padding:16px 10px 14px;border-radius:var(--r);border:1px solid var(--line);background:var(--surface);box-shadow:var(--shadow);transition:transform .15s,border-color .15s;text-align:center}
+.team:hover{transform:translateY(-3px);border-color:var(--me)}
+.team .tn{font-weight:700;line-height:1.2}
+.team .ts{font-size:.72rem;color:var(--muted)}
+
+/* league: season strip, podium, standings */
+.season{display:flex;align-items:center;gap:8px 14px;flex-wrap:wrap;font-size:.8rem;color:var(--ink-2);margin:-4px 0 18px}
+.stag{font:800 1rem/1 var(--font-display);letter-spacing:.07em;text-transform:uppercase;color:var(--me-text)}
+.months{display:inline-flex;gap:3px}
+.months i{width:15px;height:8px;border-radius:3px;background:var(--surface-2);box-shadow:inset 0 0 0 1px var(--line)}
+.months i.on{background:var(--accent);box-shadow:none}
+.months i.now{background:var(--me);box-shadow:none}
+.podium{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;align-items:end;max-width:720px;margin:0 auto 8px}
+a.pod{display:flex;flex-direction:column;align-items:center;text-align:center;gap:6px;text-decoration:none;color:var(--ink);min-width:0}
+.pod .pn{font-weight:700;font-size:.92rem;line-height:1.2;overflow-wrap:anywhere}
+.pod .ps{font-size:.76rem;color:var(--muted);font-variant-numeric:tabular-nums}
+.plinth{width:100%;border-radius:14px 14px 4px 4px;display:flex;flex-direction:column;align-items:center;padding-top:12px;color:#1a1204;background:linear-gradient(180deg,var(--pc),color-mix(in srgb,var(--pc) 72%,#000));box-shadow:inset 0 2px 0 rgba(255,255,255,.35);margin-top:4px}
+.plinth span{font:900 2.8rem/1 var(--font-display)}
+.plinth small{font:700 .6rem/1 var(--font-ui);letter-spacing:.12em;text-transform:uppercase;margin-top:4px;opacity:.8}
+.pod.p1 .plinth{height:150px;--pc:var(--gold)}
+.pod.p2 .plinth{height:112px;--pc:var(--silver)}
+.pod.p3 .plinth{height:88px;--pc:var(--bronze)}
+a.pod:hover .plinth{filter:brightness(1.07)}
+table.league td{vertical-align:middle}
+.lteam{display:flex;align-items:center;gap:10px;min-width:200px}
+.lrank{font:900 1.35rem/1 var(--font-display);min-width:26px;text-align:right;font-variant-numeric:tabular-nums;color:var(--ink-2)}
+.lteam a{font-weight:700;color:var(--ink);text-decoration:none}
+.lteam a:hover{text-decoration:underline}
+.lteam .pnote{white-space:nowrap}
+.ibar{display:flex;align-items:center;gap:8px;min-width:150px}
+.ibar > span{flex:1 1 auto;height:8px;border-radius:999px;background:var(--surface-2);overflow:hidden}
+.ibar > span > i{display:block;height:100%;border-radius:inherit;background:var(--accent)}
+.ibar > b{font:800 1.1rem/1 var(--font-display);min-width:36px;text-align:right;font-variant-numeric:tabular-nums}
+tr.bench .ibar > span > i{background:var(--me)}
+.form{display:inline-flex;gap:3px}
+.form i{width:18px;height:18px;border-radius:5px;display:inline-grid;place-items:center;font:800 .62rem/1 var(--font-ui);font-style:normal;color:#fff;cursor:default}
+.form i.w{background:var(--good)} .form i.l{background:var(--crit)} .form i.d{background:var(--line-strong);color:var(--ink)}
+ol.top3{list-style:none;padding-left:0}
+ol.top3 li{display:flex;align-items:center;gap:8px}
+ol.top3 li span:not(.medal){flex:1 1 auto;max-width:none}
+ol.top3 li b{float:none;margin-left:auto}
+
+/* duel */
+.hero.duel{padding:22px 20px}
+.duelhead{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:16px;align-items:center}
+.dside{display:flex;flex-direction:column;align-items:center;gap:8px;text-align:center;min-width:0}
+.dside select{color-scheme:light;background:var(--surface);color:var(--ink);font-weight:700;max-width:100%}
+.dmid{display:flex;flex-direction:column;align-items:center;gap:6px;text-align:center}
+.dsc{display:flex;gap:12px;align-items:center;font:900 4.8rem/.9 var(--font-display);font-variant-numeric:tabular-nums}
+.dsc .dash{font-size:2.2rem;color:var(--band-muted)}
+.dsc b.wn{color:var(--gold)}
+.wtag{display:inline-flex;align-items:center;gap:6px;font:700 .82rem/1.2 var(--font-ui);color:var(--gold)}
+.wtag svg{width:16px;height:16px}
+@media (max-width:620px){
+  .duelhead{grid-template-columns:minmax(0,1fr) minmax(0,1fr);grid-template-areas:"a b" "m m"}
+  .duelhead > .dside:first-child{grid-area:a}
+  .duelhead > .dside:last-child{grid-area:b}
+  .duelhead > .dmid{grid-area:m}
+  .dsc{font-size:3.6rem}
+}
+.bfly{display:grid;grid-template-columns:minmax(0,1fr) minmax(86px,150px) minmax(0,1fr);gap:7px 10px;align-items:center}
+.bfh{font:700 .68rem/1.2 var(--font-ui);text-transform:uppercase;letter-spacing:.07em;color:var(--muted);padding-bottom:2px;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.bfly .bl,.bfly .br{display:grid;align-items:center;gap:6px;min-width:0}
+.bfly .bl{grid-template-columns:auto minmax(0,1fr)}
+.bfly .br{grid-template-columns:minmax(0,1fr) auto}
+.bfly .tk{display:flex;height:16px;min-width:0}
+.bfly .bl .tk{justify-content:flex-end}
+.bfly .tk i{display:block;height:100%;background:var(--c);opacity:.34;border-radius:6px 0 0 6px}
+.bfly .br .tk i{border-radius:0 6px 6px 0}
+.bfly .tk i.win{opacity:1}
+.bfly .vl{font:800 .95rem/1 var(--font-display);font-variant-numeric:tabular-nums;min-width:22px;color:var(--ink-2)}
+.bfly .br .vl{text-align:right}
+.bfly .vl.win{color:var(--ink)}
+.bfly .dl{text-align:center;font-size:.76rem;font-weight:600;color:var(--ink);text-decoration:none;line-height:1.15}
+.bfly .dl:hover{text-decoration:underline}
+.edges{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.edges li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 12px;padding:9px 0;border-top:1px solid var(--line)}
+.edges li:first-child{border-top:0}
+.edges a{font-weight:600;min-width:0}
+.edges .ev{grid-column:1;font-size:.78rem;color:var(--muted);font-variant-numeric:tabular-nums}
+.edges .eg{grid-column:2;grid-row:1 / span 2;align-self:center;font:800 .95rem/1 var(--font-display);color:var(--good-text);white-space:nowrap}
+.wcell{font-weight:700}
+.wcell::after{content:" ●";color:var(--good-text);font-size:.7em;vertical-align:middle}
+
+/* search palette */
+.pal{position:fixed;inset:0;z-index:80;background:var(--scrim);display:flex;align-items:flex-start;justify-content:center;padding:max(9vh,calc(env(safe-area-inset-top,0px) + 16px)) max(16px,env(safe-area-inset-right,0px)) 16px max(16px,env(safe-area-inset-left,0px))}
+.pal-box{width:min(660px,100%);background:var(--surface);border:1px solid var(--line-strong);border-radius:18px;box-shadow:0 30px 70px -24px rgba(0,0,0,.55);overflow:hidden;display:flex;flex-direction:column;max-height:min(78vh,720px)}
+.pal-in{display:flex;align-items:center;gap:10px;padding:12px 14px;border-bottom:1px solid var(--line);color:var(--muted)}
+.pal-in svg{width:20px;height:20px;flex:0 0 auto}
+.pal-in input{flex:1 1 auto;min-width:0;border:0;background:transparent;font-size:1.05rem;min-height:38px;outline:none;padding:0;color:var(--ink)}
+.pal-res{overflow-y:auto;padding:6px;overscroll-behavior:contain}
+.pal-grp{font-size:.64rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:700;padding:10px 10px 4px}
+a.pal-it{display:flex;align-items:center;gap:10px;padding:8px 10px;border-radius:10px;color:var(--ink);text-decoration:none;min-width:0}
+a.pal-it[aria-selected="true"],a.pal-it:hover{background:var(--accent-wash)}
+.pal-it .pt{font-weight:600;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pal-it .ps{font-size:.76rem;color:var(--muted);margin-left:auto;padding-left:8px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:45%}
+.pal-ic{width:26px;height:26px;border-radius:8px;display:grid;place-items:center;background:var(--surface-2);color:var(--ink-2);flex:0 0 26px}
+.pal-ic svg{width:15px;height:15px}
+.pal-empty{padding:18px 12px;color:var(--muted);font-size:.88rem}
+.pal-ft{font-size:.72rem;color:var(--muted);padding:8px 14px;border-top:1px solid var(--line)}
+
+/* mobile bottom navigation */
+.bnav{display:none}
+@media (max-width:760px){
+  .bnav{position:fixed;left:0;right:0;bottom:0;z-index:36;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));background:var(--band);border-top:1px solid color-mix(in srgb,var(--band-ink) 14%,transparent);padding:6px max(6px,env(safe-area-inset-right,0px)) calc(6px + env(safe-area-inset-bottom,0px)) max(6px,env(safe-area-inset-left,0px))}
+  .bnav a,.bnav button{display:flex;flex-direction:column;align-items:center;gap:3px;padding:6px 2px;background:none;border:0;color:var(--band-muted);text-decoration:none;font-size:.68rem;font-weight:700;border-radius:10px;min-width:0}
+  .bnav svg{width:22px;height:22px}
+  .bnav [aria-current="page"]{color:var(--band-ink)}
+  .bnav [aria-current="page"] svg{color:var(--me)}
+  .tray{bottom:calc(var(--bnav-h) + env(safe-area-inset-bottom,0px));padding-bottom:0}
+  main{padding-bottom:calc(150px + env(safe-area-inset-bottom,0px))}
+  .sbtn{padding:0 10px}
+  .sbtn span,.sbtn kbd{display:none}
+  .bname{font-size:1.25rem}
+  .bsub{font-size:.7rem}
+  .logo{flex-basis:34px;width:34px;height:34px;border-radius:10px}
+  .shead{margin-top:28px}
+  .tray .wrap{padding-block:8px;gap:8px}
+  #traytext{font-size:.8rem;line-height:1.25}
+  .tray .actions{flex-wrap:nowrap;gap:6px}
+  .tray .btn{min-height:32px;padding:4px 10px;font-size:.8rem}
+}
+@media (max-width:560px){
+  .statgrid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+  a.stat{padding:10px 11px 12px}
+  .stat .v{font-size:1.5rem}
+  .stat .l{padding-right:34px;font-size:.6rem}
+  .stat .d{font-size:.68rem}
+  .rkp{font-size:.85rem;padding:4px 6px 3px;top:8px;right:8px}
+  .pgrid{columns:2;column-gap:8px}
+  .pgrid > a.dcell{margin-bottom:8px}
+  a.dcell{padding:9px 9px 10px;column-gap:7px}
+  .dcell .grade{min-width:26px;height:26px;font-size:.95rem;border-radius:8px}
+  .dcell .dn{font-size:.78rem}
+  .dcell .dr{font-size:.64rem}
+  .dcell .medal{width:20px;height:20px;font-size:.66rem}
+  .dpos{font-size:.8rem}
+  .bfly{grid-template-columns:minmax(0,1fr) 96px minmax(0,1fr);column-gap:6px}
+  .bfly .dl{font-size:.68rem}
+  .bfly .vl{font-size:.82rem;min-width:18px}
+  .missions,.rivals{grid-template-columns:minmax(0,1fr)}
+  .badges{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .podium{gap:8px}
+  .plinth span{font-size:2.2rem}
+  .pod.p1 .plinth{height:118px}.pod.p2 .plinth{height:90px}.pod.p3 .plinth{height:70px}
+}
 @media (max-width:760px){
   h1{font-size:1.45rem}
-  .dhead h1{font-size:1.5rem}
+  .dhead h1{font-size:1.8rem}
   label.bench{padding-bottom:0}
   .panel{padding:12px}
   .logitem{grid-template-columns:minmax(0,1fr);gap:2px}
@@ -498,7 +860,7 @@ a.tile.dept:hover{border-color:var(--accent)}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 </style>
 <link rel="manifest" href="manifest.webmanifest">
-<meta name="theme-color" content="#0b6a5a">
+<meta name="theme-color" content="#0d1a45">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
@@ -509,17 +871,20 @@ a.tile.dept:hover{border-color:var(--accent)}
 <body>
 <header class="top">
   <div class="wrap">
-    <div class="brand">
-      <h1>Life Insurance Benchmark <span class="eyebrow" id="asof"></span></h1>
-      <div class="sub">Every Indian life insurer, benchmarked department by department: sales, products, underwriting, claims, service, efficiency, digital, strategy, plus the full product catalogue.</div>
+    <a class="brand" href="#home" aria-label="Life Insurance Benchmark, home">
+      <span class="logo" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 4h8v5a4 4 0 0 1-8 0z"/><path d="M8 6H5.5a2.5 2.5 0 0 0 2.6 3.6M16 6h2.5a2.5 2.5 0 0 1-2.6 3.6M12 13v3.5M8.5 20h7M9.5 16.5h5"/></svg></span>
+      <span class="bt"><h1 class="bname">Life Insurance Benchmark</h1><span class="bsub" id="asof"></span></span>
+    </a>
+    <div class="hdr-actions">
+      <button class="sbtn" id="openpal" type="button" aria-label="Search insurers, departments, KPIs and products"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m20 20-4.2-4.2"/></svg><span>Search everything</span><kbd>/</kbd></button>
+      <label class="mine" for="bench"><span class="mycrest" id="mycrest"></span><span class="mt"><span class="bl">My company</span><select id="bench"><option value="">Not set</option></select></span></label>
     </div>
-    <label class="bench" for="bench"><span>Highlight insurer</span>
-      <select id="bench" aria-label="Highlight insurer"><option value="">None</option></select>
-    </label>
     <nav class="tabs" aria-label="Sections">
-      <a href="#overview" data-v="overview">Overview</a>
-      <a href="#benchmark" data-v="benchmark">Benchmark</a>
+      <a href="#home" data-v="home">Home</a>
+      <a href="#benchmark" data-v="benchmark">League</a>
+      <a href="#duel" data-v="duel">Duel</a>
       <a href="#departments" data-v="dept">Departments</a>
+      <a href="#overview" data-v="overview">Market</a>
       <a href="#network" data-v="network">Network</a>
       <a href="#global" data-v="global">Global</a>
       <a href="#strategy" data-v="strategy">Strategy</a>
@@ -583,7 +948,7 @@ const S = {
   f:{q:"",segment:"Individual",category:"",company:"",status:"Active",linkage:"",participation:"",need:"",online:""},
   sort:{k:"",dir:1}, shown:60, cmpP:[], cmpI:[], insSort:{k:"nbp_market_share_pct",dir:-1}, logType:"", logCo:"",
   ownType:"", ownCo:"", ownShown:25, anOpen:null,
-  b:null, kmeta:{}, bcomp:{}, scoreCache:{}, peer:"all", stratF:"", newsCo:"", newsTheme:"", netCo:"", netReg:"", glMetric:""
+  b:null, kmeta:{}, bcomp:{}, scoreCache:{}, peer:"all", stratF:"", newsCo:"", newsTheme:"", netCo:"", netReg:"", glMetric:"", watch:[], feedF:"all"
 };
 
 /* ---------- utilities ---------- */
@@ -726,7 +1091,7 @@ function barList(rows, {fmt, onClick, tipLabel}){
     const mut = S.bench && r.id !== S.bench;
     const row = h("div", {class:"bar-row" + (onClick ? " click" : ""), tabindex: onClick ? "0" : null, role: onClick ? "link" : null},
       h("div", {class:"lab" + (r.id && r.id === S.bench ? " b" : "")}, r.l),
-      h("div", {class:"track"}, h("div", {class:"bar" + (mut ? " mut" : ""), style:`width:${Math.max(0.6, 100 * (r.v || 0) / max) * 0.86}%`}), h("span", {class:"val"}, fmt(r.v))));
+      h("div", {class:"track"}, h("div", {class:"bar" + (mut ? " mut" : "") + (r.id && r.id === S.bench ? " me" : ""), style:`width:${Math.max(0.6, 100 * (r.v || 0) / max) * 0.86}%`}), h("span", {class:"val"}, fmt(r.v))));
     if (onClick){ row.addEventListener("click", () => onClick(r)); row.addEventListener("keydown", e => { if (e.key === "Enter") onClick(r); }); }
     hover(row, () => [fmt(r.v), r.l, tipLabel ? tipLabel(r) : null]);
     return row;
@@ -766,7 +1131,7 @@ function scatter(points, {xKey, yKey, xLabel, yLabel, xFmt, yFmt, yFit, tip}){
       const mut = S.bench && p.id !== S.bench;
       const cx = X(p.x), cy = Y(p.y);
       const hit = sv("circle", {cx, cy, r:12, class:"hit", tabindex:"0", role:"link", "aria-label":`${p.l}: ${xFmt(p.x)}, ${yFmt(p.y)}`});
-      const dot = sv("circle", {cx, cy, r:5, class:"dot" + (mut ? " mut" : "")});
+      const dot = sv("circle", {cx, cy, r:5, class:"dot" + (mut ? " mut" : "") + (p.id === S.bench ? " me" : "")});
       hit.addEventListener("click", () => go("insurer-" + p.id));
       hit.addEventListener("keydown", e => { if (e.key === "Enter") go("insurer-" + p.id); });
       hover(hit, () => tip ? tip(p) : [`${xFmt(p.x)} · ${yFmt(p.y)}`, p.l, `${xLabel} · ${yLabel}`]);
@@ -905,10 +1270,12 @@ function activeInd(cid){ return products().filter(p => p.status_label === "Activ
 
 /* ---------- views ---------- */
 function setTabs(v){
-  document.querySelectorAll(".tabs a").forEach(a => {
+  document.querySelectorAll(".tabs a, .bnav a").forEach(a => {
     const on = a.dataset.v === v || (v === "insurer" && a.dataset.v === "insurers") || (v === "product" && a.dataset.v === "products") || (v === "kpi" && a.dataset.v === "dept") || (v === "departments" && a.dataset.v === "dept");
     if (on) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
   });
+  const nav = $(".tabs"), cur = nav && nav.querySelector("[aria-current]");
+  if (cur && (cur.offsetLeft < nav.scrollLeft || cur.offsetLeft + cur.offsetWidth > nav.scrollLeft + nav.clientWidth)) nav.scrollLeft = Math.max(0, cur.offsetLeft - 24);
 }
 
 function viewOverview(){
@@ -1227,17 +1594,22 @@ function viewInsurer(id){
   const sel = S.cmpI.includes(id);
   const cmpB = h("button", {class:"btn" + (sel ? " primary" : ""), type:"button"}, sel ? "✓ In compare" : "Add to compare");
   cmpB.addEventListener("click", () => { toggleCmp("I", id); render(); });
-  const benchB = h("button", {class:"btn", type:"button"}, S.bench === id ? "Highlighted" : "Highlight everywhere");
+  const benchB = h("button", {class:"btn", type:"button", "aria-pressed":String(S.bench === id)}, S.bench === id ? "✓ My company" : "Set as my company");
   benchB.addEventListener("click", () => { setBench(S.bench === id ? "" : id); render(); });
+  const vsMe = S.b && S.bench && S.bench !== id && bcomp(S.bench) && bcomp(id);
+  const duelB = S.b && bcomp(id) ? h("a", {class:"btn me", href:"#duel-" + (vsMe ? `${S.bench}-${id}` : id)}, icon("swords"), vsMe ? `Duel vs ${cname(S.bench)}` : "Duel") : null;
+  const lix = S.b && bcomp(id) ? scoresFor(peerIds("all")).idx[id] : null;
   view.append(h("div", {class:"dhead"},
     h("div", {class:"main"},
-      h("div", {class:"ins"}, [c.sector, c.irdai_reg_no ? "IRDAI reg. " + c.irdai_reg_no : null, c.established_year ? "since " + c.established_year : null, c.hq_city].filter(Boolean).join(" · ")),
-      h("h1", null, c.legal_name || c.name || cname(id)),
+      h("div", {class:"dh-title"}, crestOf(id, "lg"), h("div", null,
+        h("div", {class:"ins"}, [c.sector, c.irdai_reg_no ? "IRDAI reg. " + c.irdai_reg_no : null, c.established_year ? "since " + c.established_year : null, c.hq_city].filter(Boolean).join(" · ")),
+        h("h1", null, c.legal_name || c.name || cname(id)))),
+      lix ? h("div", {class:"chips", style:"margin-top:10px;align-items:center"}, h("span", {class:"chip"}, `${rk(lix.rank)} in the league · index ${nf1.format(lix.score)}`), lvlChip(lix.score)) : null,
       c.former_names && c.former_names.length ? h("div", {class:"small muted", style:"margin-top:4px"}, "Formerly " + c.former_names.join("; ")) : null,
       c.status_note ? h("div", {style:"margin-top:8px"}, h("span", {class:"stamp solid"}, c.status_note)) : null,
       h("div", {class:"desc"}, [ownText(c), c.listed, c.md_ceo ? "MD & CEO: " + c.md_ceo : null].filter(Boolean).join(" · ")),
       h("div", {class:"chips", style:"margin-top:10px"}, c.website ? h("a", {class:"chip", href:c.website, target:"_blank", rel:"noopener"}, host(c.website)) : null, (c.urls && c.urls.product_list_url) ? h("a", {class:"chip", href:c.urls.product_list_url, target:"_blank", rel:"noopener"}, "Official product list") : null)),
-    h("div", {class:"actions"}, cmpB, benchB)));
+    h("div", {class:"actions"}, starBtn(id), duelB, cmpB, benchB)));
 
   const tiles = TILE_KEYS.map(k => metricTile(c, k)).filter(Boolean);
   view.append(h("h2", {style:"margin:6px 0 12px"}, "Key metrics"), tiles.length ? h("div", {class:"tiles"}, tiles) : h("p", {class:"muted"}, "No published metrics captured for this insurer yet."));
@@ -1615,7 +1987,7 @@ function termMaturityCard(act){
   const none = [...new Set(terms.map(p => p.company_id))].filter(id => !by[id]).map(cname).sort();
   const chart = () => h("div", null, rowChart(rows, {
     x:X, rowH:22, ticks, tickFmt:t => String(t), one:true,
-    marks: r => { const mut = !!S.bench && r.id !== S.bench; return [h("span", {class:"rc-guide", style:`width:${X(r.v)}%`}), h("span", {class:"rc-dot", style:`left:${X(r.v)}%;--c:${mut ? "var(--emph-muted)" : "var(--accent)"}`}), lab.has(r.id) ? h("span", {class:"rc-t", style:`left:${X(r.v)}%;margin-left:9px`}, trimNum(r.v)) : null]; },
+    marks: r => { const mut = !!S.bench && r.id !== S.bench; return [h("span", {class:"rc-guide", style:`width:${X(r.v)}%`}), h("span", {class:"rc-dot", style:`left:${X(r.v)}%;--c:${mut ? "var(--emph-muted)" : r.id === S.bench ? "var(--me)" : "var(--accent)"}`}), lab.has(r.id) ? h("span", {class:"rc-t", style:`left:${X(r.v)}%;margin-left:9px`}, trimNum(r.v)) : null]; },
     tip: r => [`${trimNum(r.v)} years`, r.l, `Highest of ${noun(r.n, "term plan")} with a recorded maturity age`]
   }), h("p", {class:"fn"}, "Age in years at the end of the longest policy. Tap a row to open the insurer." + (none.length ? ` No maturity age recorded for term plans from ${none.join(", ")}.` : "")));
   return card("Term plans: highest age at maturity", "Oldest age any term plan on sale runs to, by insurer", chart,
@@ -2251,8 +2623,8 @@ function peerPicker(){
   const mode = peerMode(), b = S.bench && bcomp(S.bench);
   const sel = h("select", {id:"peer", "aria-label":"Peer group"},
     [["all", "All insurers"], ["private", "Private insurers only"],
-     ["tier", b && b.tier ? `Same size tier as ${cname(b.id)} (${b.tier})` : "Same size tier (highlight an insurer first)"],
-     ["model", b && b.model ? `Same model as ${cname(b.id)} (${b.model})` : "Same distribution model (highlight an insurer first)"]].map(([v, l]) => {
+     ["tier", b && b.tier ? `Same size tier as ${cname(b.id)} (${b.tier})` : "Same size tier (set your company first)"],
+     ["model", b && b.model ? `Same model as ${cname(b.id)} (${b.model})` : "Same distribution model (set your company first)"]].map(([v, l]) => {
       const o = h("option", {value:v}, l);
       if ((v === "tier" || v === "model") && peerIds(v).length < 4) o.disabled = true;
       if (v === mode) o.selected = true;
@@ -2274,28 +2646,12 @@ function viewBenchmark(){
   const mode = peerMode(), ids = peerIds(mode), sc = scoresFor(ids), P = scoredPillars(), per = S.b.periods || {};
   const nCore = sum(P.map(p => p.kpis.filter(k => k.core).length));
   const view = h("div");
-  view.append(h("div", {class:"view-head"}, h("div", null, h("h2", null, "Competitive benchmark"),
+  view.append(h("div", {class:"view-head"}, h("div", null, h("h2", null, "League table"),
     h("p", null, `Each insurer is scored against its peers on ${nCore} core KPIs in ${P.length} departments: 100 is best in the group, 50 the middle, 0 the weakest. Monthly sales run to ${fmtMonth(per.monthly)}, IRDAI annual statistics to FY${per.handbook}; apps, websites and news refresh daily.`)),
     peerPicker()));
-  view.append(pillarNav(null));
-  // headline tiles
-  const b = S.bench && sc.idx[S.bench] ? S.bench : null;
-  const top = Object.entries(sc.idx).sort((x, y) => x[1].rank - y[1].rank)[0];
-  const pillOf = cid => P.map(p => ({p, s:sc.ps[p.id] && sc.ps[p.id][cid]})).filter(x => x.s).sort((x, y) => y.s.score - x.s.score);
-  const tiles = [];
-  if (b){
-    const pl = pillOf(b), bi = sc.idx[b];
-    tiles.push([cname(b) + " overall", `${rk(bi.rank)} of ${sc.n}`, `index ${nf1.format(bi.score)} in ${peerText(mode).toLowerCase()}`]);
-    tiles.push(["Strongest department", pl[0] ? pl[0].p.name : "—", pl[0] ? `score ${Math.round(pl[0].s.score)} · ${rk(pl[0].s.rank)}` : ""]);
-    tiles.push(["Weakest department", pl.length ? pl[pl.length - 1].p.name : "—", pl.length ? `score ${Math.round(pl[pl.length - 1].s.score)} · ${rk(pl[pl.length - 1].s.rank)}` : ""]);
-  } else {
-    tiles.push(["Top overall", top ? cname(top[0]) : "—", top ? `index ${nf1.format(top[1].score)}` : ""]);
-    tiles.push(["Insurers scored", String(sc.n), peerText(mode)]);
-    tiles.push(["Core KPIs", String(nCore), `${P.length} departments`]);
-  }
-  tiles.push(["Latest monthly data", fmtMonth(per.monthly), "IRDAI new business statement"]);
-  view.append(h("div", {class:"kpis k4"}, tiles.map(([l, v, d]) => h("div", {class:"kpi"}, h("div", {class:"l"}, l), h("div", {class:"v vtext"}, v), h("div", {class:"d"}, d)))));
-  if (!b) view.append(h("p", {class:"small muted", style:"margin-top:8px"}, "Tip: pick an insurer under ‘Highlight insurer’ to see where it stands, and to compare it within its size tier or distribution model."));
+  const ss = seasonStrip(); if (ss) view.append(ss);
+  view.append(leagueBlock(ids, sc, mode));
+  view.append(h("div", {class:"section"}, pillarNav(null)));
   // scorecard
   const rows = ids.map(c => ({id:c, l:cname(c), idx:sc.idx[c]})).sort((x, y) => (x.idx ? x.idx.rank : 999) - (y.idx ? y.idx.rank : 999) || x.l.localeCompare(y.l));
   const table = h("div", {class:"tablewrap"}, h("table", {class:"heat sticky1 scorecard"},
@@ -2315,16 +2671,16 @@ function viewBenchmark(){
         }
         return td;
       }))))));
-  view.append(h("section", {class:"panel section"}, h("div", {class:"panel-head"}, h("div", {class:"t"}, h("h3", null, "Scorecard"), h("div", {class:"s"}, `${peerText(mode)} · sorted by overall index · tap a cell to open that department`))), scoreLegend(), table,
+  view.append(h("section", {class:"panel section"}, h("div", {class:"panel-head"}, h("div", {class:"t"}, h("h3", null, "Department scorecard"), h("div", {class:"s"}, `${peerText(mode)} · sorted by overall index · tap a cell to open that department`))), scoreLegend(), table,
     h("p", {class:"fn"}, "A dot means fewer than two of that department's core KPIs have data for the insurer. Sahara India Life (no new business) and India Post (outside IRDAI) are not scored.")));
   // leaders by department
-  view.append(h("div", {class:"section"}, h("h2", {style:"margin-bottom:12px"}, "Leaders by department"),
+  view.append(h("div", {class:"section"}, h("h2", {style:"margin-bottom:12px"}, "Department champions"),
     h("div", {class:"tiles leaders"}, P.map(p => {
       const m = sc.ps[p.id] || {}, top3 = Object.entries(m).sort((x, y) => x[1].rank - y[1].rank).slice(0, 3);
       const mine = S.bench && m[S.bench];
       return h("a", {class:"tile lead", href:"#dept-" + p.id},
         h("div", {class:"l"}, p.dept), h("div", {class:"lt"}, p.name),
-        h("ol", {class:"top3"}, top3.map(([c, x]) => h("li", {class:c === S.bench ? "b" : null}, h("span", null, cname(c)), h("b", null, String(Math.round(x.score)))))),
+        h("ol", {class:"top3"}, top3.map(([c, x], i) => h("li", {class:c === S.bench ? "b" : null}, medal(i + 1), h("span", null, cname(c)), h("b", null, String(Math.round(x.score)))))),
         mine && mine.rank > 3 ? h("div", {class:"p"}, `${cname(S.bench)}: ${rk(mine.rank)}, score ${Math.round(mine.score)}`) : null);
     }))));
   view.append(h("div", {class:"section"}, methodPanel()));
@@ -2347,7 +2703,7 @@ function viewDeptHome(){
   const view = h("div");
   view.append(h("div", {class:"view-head"}, h("div", null, h("h2", null, "Departments"),
     h("p", null, `${allPillars().filter(p => !p.qualitative).length} departments laid out like a life insurer's organisation chart, each with its own KPIs. Tap a department to compare every insurer on its KPIs. Scores are percentiles within ${peerText(mode).toLowerCase()}.`)), peerPicker()));
-  if (!S.bench) view.append(h("p", {class:"small muted", style:"margin-bottom:12px"}, "Pick an insurer under ‘Highlight insurer’ to see its score and rank in every department."));
+  if (!S.bench) view.append(h("p", {class:"small muted", style:"margin-bottom:12px"}, "Set your company in the header to see its grade and rank in every department."));
   families().forEach(g => {
     view.append(h("h3", {class:"famhead"}, g.f));
     view.append(h("div", {class:"tiles depttiles"}, g.ps.map(p => {
@@ -2356,7 +2712,7 @@ function viewDeptHome(){
       const nCore = p.kpis.filter(k => k.core).length, filled = p.kpis.filter(k => Object.keys(S.b.values[k.id] || {}).length).length;
       const cov = p.kpis.length ? sum(p.kpis.map(k => Object.keys(S.b.values[k.id] || {}).length)) / (p.kpis.length * nIns) * 100 : 0;
       return h("a", {class:"tile dept", href:"#dept-" + p.id},
-        h("div", {class:"dtop"}, h("div", {class:"lt"}, p.name), mine ? h("span", {class:"dscore", style:scoreStyle(mine.score)}, String(Math.round(mine.score))) : null),
+        h("div", {class:"dtop"}, h("div", {class:"lt"}, p.name), mine ? h("span", {class:"medals"}, medal(mine.rank), gradeChip(mine.score)) : null),
         h("div", {class:"p"}, p.question),
         h("div", {class:"chips", style:"margin-top:8px"}, arr(p.functions).slice(0, 4).map(f => h("span", {class:"chip"}, f))),
         h("div", {class:"dmeta"}, `${p.kpis.length} KPIs · ${nCore} scored · ${p.kpis.length - filled} need research · ${Math.round(cov)}% data coverage`),
@@ -2462,7 +2818,7 @@ function kpiBars(id, rows, o = {}){
   return rowChart(rows, {x:X, ticks, zero:0, tickFmt:t => fmtTick(id, t), rowH:22,
     marks: r => {
       const x = X(r.v), mut = S.bench && r.id !== S.bench;
-      return [h("span", {class:"dvb " + (r.v < 0 ? "neg" : "pos") + (mut ? " mut" : ""), style:`left:${Math.min(x, z)}%;width:${Math.max(Math.abs(x - z), 0.4)}%;--c:var(--accent)`}),
+      return [h("span", {class:"dvb " + (r.v < 0 ? "neg" : "pos") + (mut ? " mut" : ""), style:`left:${Math.min(x, z)}%;width:${Math.max(Math.abs(x - z), 0.4)}%;--c:${r.id === S.bench ? "var(--me)" : "var(--accent)"}`}),
         h("span", {class:"rc-t", style:`left:calc(${Math.max(x, z)}% + 6px)`}, fmtK(id, r.v))];
     },
     extra: o.median != null ? [h("span", {class:"rc-ref", style:`left:${X(o.median)}%`})] : [],
@@ -2481,7 +2837,7 @@ function trendLines(ser, focus){
   const at = (c, p) => { const f = (ser.by[c] || []).find(x => x[0] === p); return f ? f[1] : null; };
   const med = periods.map(p => { const v = Object.keys(ser.by).map(c => at(c, p)).filter(x => x != null); return v.length >= 3 ? median(v) : null; });
   const lines = [{id:"_median", l:"Industry median", color:"var(--muted)", pts:med}];
-  focus.forEach((c, i) => lines.push({id:c, l:cname(c), color:i === 0 ? "var(--accent)" : "var(--cat-2)", pts:periods.map(p => at(c, p))}));
+  focus.forEach((c, i) => lines.push({id:c, l:cname(c), color:c === S.bench ? "var(--me)" : "var(--accent)", pts:periods.map(p => at(c, p))}));
   return {periods, lines};
 }
 function trendTable(ser, focus, id){
@@ -2665,7 +3021,7 @@ function benchOverviewCard(){
   const sc = scoresFor(peerIds("all"));
   const rows = Object.entries(sc.idx).map(([c, x]) => ({id:c, l:cname(c), v:x.score, x})).sort((a, b) => b.v - a.v).slice(0, 12);
   if (!rows.length) return null;
-  return card("Competitive index", `Average department score across ${scoredPillars().length} departments · top ${rows.length} of ${sc.n} · open the Benchmark tab for the full scorecard`,
+  return card("Competitive index", `Average department score across ${scoredPillars().length} departments · top ${rows.length} of ${sc.n} · open the League tab for the full standings`,
     () => h("div", null, barList(rows, {fmt:v => nf1.format(v), onClick:r => go("insurer-" + r.id), tipLabel:r => `${rk(r.x.rank)} · ${r.x.n} departments scored`}), h("p", {style:"margin-top:10px"}, linkTo("benchmark", "Open the scorecard →"))),
     () => simpleTable([{l:"Insurer", v:r => r.l}, {l:"Index", n:1, v:r => nf1.format(r.v)}, {l:"Rank", n:1, v:r => String(r.x.rank)}], rows));
 }
@@ -2767,7 +3123,7 @@ function viewGlobal(){
   const span = hi - lo, dLo = lo < 0 ? lo - span * 0.05 : lo, dHi = hi + span * 0.25, X = v => (v - dLo) / (dHi - dLo) * 100, z = X(0);
   view.append(h("div", {class:"section"}, card(m.name, `${m.def} · ${rows.length} insurers · line = median · Indian insurers in green`,
     () => rowChart(rows, {x:X, ticks:niceTicks(lo, hi, 4).filter(t => t >= dLo && t <= dHi), zero:0, tickFmt:t => m.unit === "pct" ? nf1.format(t) + "%" : nfIN.format(t), rowH:24, noOpen:true,
-      marks:r => { const x = X(r.v); return [h("span", {class:"dvb " + (r.v < 0 ? "neg" : "pos"), style:`left:${Math.min(x, z)}%;width:${Math.max(Math.abs(x - z), 0.4)}%;--c:${G.companies[r.cid].india ? "var(--accent)" : "var(--cat-1)"}`}), h("span", {class:"rc-t", style:`left:calc(${Math.max(x, z)}% + 6px)`}, fmt(r.v))]; },
+      marks:r => { const x = X(r.v); return [h("span", {class:"dvb " + (r.v < 0 ? "neg" : "pos"), style:`left:${Math.min(x, z)}%;width:${Math.max(Math.abs(x - z), 0.4)}%;--c:${G.companies[r.cid].india ? "var(--cat-3)" : "var(--accent)"}`}), h("span", {class:"rc-t", style:`left:calc(${Math.max(x, z)}% + 6px)`}, fmt(r.v))]; },
       extra: med != null ? [h("span", {class:"rc-ref", style:`left:${X(med)}%`})] : [],
       tip:r => [fmt(r.v), r.l, [r.x.p, r.x.local, r.x.note].filter(Boolean).join(" · ")]}),
     () => simpleTable([{l:"Insurer", v:r => r.l}, {l:"Market", v:r => r.sub}, {l:m.name, n:1, v:r => fmt(r.v)}, {l:"Period", v:r => r.x.p || "—"}, {l:"As reported", v:r => r.x.local || ""}, {l:"Note", v:r => r.x.note || ""}], rows))));
@@ -2787,8 +3143,540 @@ function viewGlobal(){
   return view;
 }
 
+/* ---------- game layer: crests, levels, grades, medals, badges, missions, rivals, duels, search ---------- */
+const ICON = {
+  home:'<path d="M3.5 10.5 12 4l8.5 6.5V20a1 1 0 0 1-1 1H15v-6H9v6H4.5a1 1 0 0 1-1-1z"/>',
+  trophy:'<path d="M8 4h8v5a4 4 0 0 1-8 0z"/><path d="M8 6H5.5a2.5 2.5 0 0 0 2.6 3.6M16 6h2.5a2.5 2.5 0 0 1-2.6 3.6M12 13v3.5M8.5 20h7M9.5 16.5h5"/>',
+  swords:'<path d="M14.5 17.5 4 7V4h3l10.5 10.5"/><path d="M13 19l6-6M16.5 16.5 20 20"/><path d="M9.5 6.5 13 3h3v3l-3.5 3.5"/><path d="M5 13l6 6M7.5 16.5 4 20"/>',
+  grid:'<rect x="3.5" y="3.5" width="7" height="7" rx="1.8"/><rect x="13.5" y="3.5" width="7" height="7" rx="1.8"/><rect x="3.5" y="13.5" width="7" height="7" rx="1.8"/><rect x="13.5" y="13.5" width="7" height="7" rx="1.8"/>',
+  search:'<circle cx="11" cy="11" r="6.5"/><path d="m20 20-4.2-4.2"/>',
+  star:'<path d="m12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/>',
+  bolt:'<path d="M13 2.5 4.5 14H11l-1 7.5L18.5 10H12z"/>',
+  target:'<circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.8"/><circle cx="12" cy="12" r="1.2"/>',
+  rocket:'<path d="M12 15.5 8.5 12C10 7 13.5 3.8 20 4c.2 6.5-3 10-8 11.5z"/><circle cx="15" cy="9" r="1.6"/><path d="M8.5 12 5 11.5 7.5 8.5H11M12 15.5l.5 3.5 3-2.5V13M6.5 15.5c-1.6.6-2.4 2.3-2.5 4.5 2.2-.1 3.9-.9 4.5-2.5"/>',
+  shield:'<path d="M12 3 19.5 6v5.5c0 4.6-3.2 8.3-7.5 9.5-4.3-1.2-7.5-4.9-7.5-9.5V6z"/><path d="m8.8 12 2.2 2.2 4.4-4.4"/>',
+  heart:'<path d="M12 20s-7.5-4.6-7.5-10.2A4.2 4.2 0 0 1 12 7.3a4.2 4.2 0 0 1 7.5 2.5C19.5 15.4 12 20 12 20z"/>',
+  chart:'<path d="M4 20V11M10 20V5M16 20v-7M21 20H3"/>',
+  coins:'<ellipse cx="9" cy="6.5" rx="5.5" ry="2.5"/><path d="M3.5 6.5v4.5c0 1.4 2.5 2.5 5.5 2.5s5.5-1.1 5.5-2.5V6.5"/><path d="M9.5 15.6c.9.6 2.6 1 4.5 1 3 0 5.5-1.1 5.5-2.5V9.6c0-1.2-1.8-2.2-4.3-2.4M19.5 14.1v3.4c0 1.4-2.5 2.5-5.5 2.5s-5.5-1.1-5.5-2.5V15"/>',
+  users:'<circle cx="9" cy="8" r="3.4"/><path d="M2.8 20c.6-3.3 3.1-5.4 6.2-5.4s5.6 2.1 6.2 5.4"/><path d="M16 4.8a3.4 3.4 0 0 1 0 6.4M17.7 14.8c1.9.7 3.1 2.5 3.5 5.2"/>',
+  bank:'<path d="M3 9.5 12 4.5l9 5"/><path d="M5.5 10.5v7M10 10.5v7M14 10.5v7M18.5 10.5v7M3.5 20.5h17"/>',
+  phone:'<rect x="7" y="2.5" width="10" height="19" rx="2.5"/><path d="M11 18.3h2"/>',
+  flask:'<path d="M9.5 3.5h5M10.5 3.5v5.8L5.3 18.4A1.8 1.8 0 0 0 6.9 21h10.2a1.8 1.8 0 0 0 1.6-2.6l-5.2-9.1V3.5"/><path d="M7.8 15h8.4"/>',
+  feather:'<path d="M20 4C13.5 4 8 7.6 7 16.5L4 20"/><path d="M7 16.5h6.5c3-1 5-3.7 6-7H13.5M9.5 12.5h6"/>',
+  map:'<path d="M9 4.5 3.5 6.5v13L9 17.5l6 2 5.5-2v-13L15 6.5z"/><path d="M9 4.5v13M15 6.5v13"/>',
+  smile:'<circle cx="12" cy="12" r="8.5"/><path d="M8.5 14.3c.9 1.3 2.1 2 3.5 2s2.6-.7 3.5-2M9.2 9.6h.01M14.8 9.6h.01"/>',
+  mega:'<path d="M3.5 10v4h3l7 4.5v-13l-7 4.5z"/><path d="M16.5 9.2a4 4 0 0 1 0 5.6M18.8 6.8a7.5 7.5 0 0 1 0 10.4"/>',
+  crown:'<path d="M3.5 8 7.5 12 12 5.5 16.5 12l4-4-1.8 11H5.3z"/><path d="M5.5 21.5h13"/>',
+  medal:'<circle cx="12" cy="15" r="5.2"/><path d="M8.6 10.6 6 3.5h4l2 4.2 2-4.2h4l-2.6 7.1"/><path d="m12 12.6.8 1.6 1.7.2-1.2 1.2.3 1.7-1.6-.8-1.6.8.3-1.7-1.2-1.2 1.7-.2z"/>',
+  lock:'<rect x="5" y="10.5" width="14" height="10" rx="2"/><path d="M8.5 10.5V8a3.5 3.5 0 0 1 7 0v2.5"/>',
+  up:'<path d="M4 17 10 11l3.5 3.5L20 8"/><path d="M14.5 8H20v5.5"/>',
+  flag:'<path d="M5.5 21V4M5.5 4.5h11.5l-2 4 2 4H5.5"/>',
+  news:'<rect x="3.5" y="4.5" width="14" height="15" rx="2"/><path d="M17.5 8.5h3v9a2 2 0 0 1-2 2M7 8.5h7M7 12.5h7M7 16.5h4"/>',
+  swap:'<path d="M7 4 3.5 7.5 7 11M3.5 7.5h13.5M17 13l3.5 3.5L17 20M20.5 16.5H7"/>',
+  sparkle:'<path d="M12 3.5 13.8 10.2 20.5 12 13.8 13.8 12 20.5 10.2 13.8 3.5 12 10.2 10.2z"/>',
+  doc:'<path d="M6.5 3h7.5l4 4v14h-11.5z"/><path d="M13.5 3v4.5h4.5M9.5 12h5.5M9.5 16h5.5"/>',
+  building:'<path d="M4.5 21V5.5l7.5-3v18.5M12 8.5h7.5V21M3 21h18"/><path d="M8 8h.01M8 11.5h.01M8 15h.01M15.5 12h.01M15.5 15.5h.01"/>',
+  globe:'<circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17M12 3.5c2.3 2.4 3.4 5.2 3.4 8.5s-1.1 6.1-3.4 8.5c-2.3-2.4-3.4-5.2-3.4-8.5S9.7 5.9 12 3.5z"/>'
+};
+function icon(name, cls){
+  const s = document.createElementNS(SVGNS, "svg");
+  [["viewBox", "0 0 24 24"], ["fill", "none"], ["stroke", "currentColor"], ["stroke-width", "1.9"], ["stroke-linecap", "round"], ["stroke-linejoin", "round"], ["aria-hidden", "true"]].forEach(([k, v]) => s.setAttribute(k, v));
+  if (cls) s.setAttribute("class", cls);
+  s.innerHTML = ICON[name] || "";
+  return s;
+}
+const REDUCED = () => !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+function countUp(el, from, to, fmt, ms){
+  if (REDUCED() || from === to || typeof requestAnimationFrame !== "function"){ el.textContent = fmt(to); return el; }
+  const t0 = performance.now(), dur = ms || 800;
+  el.textContent = fmt(from);
+  const step = t => { const k = Math.min(1, (t - t0) / dur), e = 1 - Math.pow(1 - k, 3); el.textContent = fmt(from + (to - from) * e); if (k < 1) requestAnimationFrame(step); };
+  requestAnimationFrame(step);
+  return el;
+}
+function later(fn){ requestAnimationFrame(() => requestAnimationFrame(fn)); }
+const f1 = v => (Math.round(v * 10) / 10).toFixed(1);
+const KEEP_CASE = /^(Android|iOS|IRDAI|Google|Apple)\b/;
+function lc1(t){ const x = String(t || ""); return KEEP_CASE.test(x) || /^[A-Z0-9]{2,}/.test(x) ? x : x.charAt(0).toLowerCase() + x.slice(1); }
+
+const CREST = {lic:"LIC", sbi:"SBI", hdfc:"HDFC", icici:"IPRU", axismax:"AXM", bajaj:"BJL", tataaia:"TAIA", kotak:"KLI", absli:"ABSL", pnbmetlife:"PNBM", canarahsbc:"CHL", indiafirst:"IFL", sud:"SUD", ageasfederal:"AFL", indusindnippon:"INL", bharti:"BLI", generalicentral:"GCL", edelweiss:"ELI", pramerica:"PRL", aviva:"AVL", shriram:"SLI", bandhan:"BDL", creditaccess:"CAL", godigit:"DGT", acko:"ACKO", sahara:"SIL", indiapost:"PLI"};
+function crestOf(cid, cls){
+  const t = CREST[cid] || String(cname(cid) || "?").split(/\s+/).map(w => w.charAt(0)).join("").slice(0, 3).toUpperCase();
+  let x = 7; for (const ch of String(cid)) x = (x * 31 + ch.charCodeAt(0)) % 9973;
+  const f = t.length >= 5 ? 0.26 : t.length === 4 ? 0.3 : 0.36;
+  return h("span", {class:"crest" + (cls ? " " + cls : "") + (cid && cid === S.bench ? " me" : ""), style:`--cc:var(--crest-${x % 8 + 1});--cf:${f}`, "aria-hidden":"true"}, t);
+}
+const LEVELS = [[0, "Rookie", "var(--muted)"], [35, "Challenger", "var(--bronze)"], [45, "Contender", "var(--silver)"], [55, "Pro", "var(--gold)"], [65, "Elite", "var(--plat)"], [75, "Legend", "var(--legend)"]];
+function levelOf(score){
+  let i = 0; LEVELS.forEach((l, k) => { if (score >= l[0]) i = k; });
+  const cur = LEVELS[i], nx = LEVELS[i + 1];
+  return {i, name:cur[1], color:cur[2], nextName:nx ? nx[1] : null, xp:Math.round(score * 10), toNext:nx ? Math.max(1, Math.ceil(nx[0] * 10 - score * 10)) : 0, pct:nx ? clamp((score - cur[0]) / (nx[0] - cur[0]) * 100, 0, 100) : 100};
+}
+function lvlChip(score, cls){ const L = levelOf(score); return h("span", {class:"lvl" + (cls ? " " + cls : ""), style:`--lc:${L.color}`, title:`${L.name} level · index ${nf1.format(score)}`}, h("i"), L.name); }
+function gradeOf(s){ return s >= 80 ? "S" : s >= 60 ? "A" : s > 40 ? "B" : s > 20 ? "C" : "D"; }
+function gradeChip(s){ return h("span", {class:"grade", style:scoreStyle(s), title:`Grade ${gradeOf(s)}: score ${Math.round(s)} of 100`}, gradeOf(s)); }
+function medal(rank, n){ return rank >= 1 && rank <= 3 ? h("span", {class:"medal " + "gsb"[rank - 1], title:`${["Gold", "Silver", "Bronze"][rank - 1]}: ${rk(rank)}${n ? " of " + n : ""}`}, String(rank)) : null; }
+function medalsOf(cid, sc){ const m = [0, 0, 0]; Object.values(sc.ps).forEach(x => { const r = x[cid] && x[cid].rank; if (r >= 1 && r <= 3) m[r - 1]++; }); return m; }
+function medalRow(m){ return m.some(Boolean) ? h("span", {class:"medals", title:`${m[0]} gold, ${m[1]} silver, ${m[2]} bronze department finishes`}, m.map((n, i) => n ? h("span", {class:"mc"}, h("span", {class:"medal sm " + "gsb"[i]}), String(n)) : null)) : h("span", {class:"muted small"}, "—"); }
+function rankedIds(sc){ return Object.entries(sc.idx).sort((a, b) => a[1].rank - b[1].rank).map(x => x[0]); }
+function valRank(k, cid, ids){
+  const m = kmeta(k), x = bval(k, cid);
+  if (!m || !x || typeof x.v !== "number") return null;
+  const set = ids ? new Set(ids) : null;
+  const vs = Object.entries(S.b.values[k] || {}).filter(([c, y]) => typeof y.v === "number" && (!set || set.has(c))).map(([, y]) => y.v);
+  const ahead = m.better === "low" ? vs.filter(v => v < x.v).length : vs.filter(v => v > x.v).length;
+  return {rank:ahead + 1, n:vs.length, v:x.v};
+}
+function seasonInfo(){
+  const key = (S.b && S.b.periods && S.b.periods.monthly) || "", m = /^(\d{4})-(\d{2})$/.exec(key);
+  if (!m) return null;
+  const y = +m[1], mo = +m[2], fy0 = mo >= 4 ? y : y - 1;
+  return {label:"FY" + String(fy0 + 1).slice(2), month:(mo - 4 + 12) % 12 + 1, key};
+}
+function seasonStrip(){
+  const s = seasonInfo(); if (!s) return null;
+  const M = ["Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec", "Jan", "Feb", "Mar"];
+  return h("div", {class:"season"}, h("span", {class:"stag"}, "Season " + s.label),
+    h("span", {class:"months", role:"img", "aria-label":`Month ${s.month} of 12`}, M.map((x, i) => h("i", {class:i + 1 < s.month ? "on" : i + 1 === s.month ? "now" : null, title:x}))),
+    h("span", null, `Month ${s.month} of 12 · monthly sales to ${fmtMonth(s.key)} · annual statistics FY${(S.b.periods || {}).handbook || "—"}`));
+}
+function formOf(cid, n){
+  const ser = S.b.series && S.b.series.nbp_share_monthly, pts = ser && ser.by && ser.by[cid];
+  if (!pts || pts.length < 2) return [];
+  const s = [...pts].sort((a, b) => String(a[0]).localeCompare(String(b[0]))), out = [];
+  for (let i = 1; i < s.length; i++) out.push({p:s[i][0], d:s[i][1] - s[i - 1][1]});
+  return out.slice(-(n || 5));
+}
+function formChips(cid){
+  const f = formOf(cid);
+  if (!f.length) return h("span", {class:"muted small"}, "—");
+  return h("span", {class:"form", role:"img", "aria-label":"Form: " + f.map(x => `${fmtMonth(x.p)} ${x.d > 0 ? "+" : ""}${nf2.format(x.d)} pp`).join(", ")}, f.map(x => {
+    const k = x.d > 0.005 ? "w" : x.d < -0.005 ? "l" : "d";
+    const el = h("i", {class:k}, k === "w" ? "▲" : k === "l" ? "▼" : "•");
+    hover(el, () => [(x.d > 0 ? "+" : "") + nf2.format(x.d) + " pp", `${cname(cid)} · ${fmtMonth(x.p)}`, "Month-on-month change in year-to-date share of new business"]);
+    return el;
+  }));
+}
+function snapMoves(mode, sc){
+  const key = "ip.snap." + mode, today = new Date().toISOString().slice(0, 10), cur = {d:today, r:{}};
+  Object.entries(sc.idx).forEach(([c, x]) => cur.r[c] = x.rank);
+  let st = ls.get(key, null);
+  if (!st || !st.cur) st = {prev:null, cur};
+  else if (st.cur.d !== today) st = {prev:st.cur, cur};
+  else st.cur = cur;
+  ls.set(key, st);
+  return st.prev && st.prev.r ? st.prev : null;
+}
+function moveChip(prev, cid, rank){
+  if (!prev || prev.r[cid] == null || rank == null) return h("span", {class:"move eq", title:"Movement shows from your next visit"}, "–");
+  const d = prev.r[cid] - rank;
+  return h("span", {class:"move " + (d > 0 ? "up" : d < 0 ? "dn" : "eq"), title:`Since your visit on ${fmtDate(prev.d)}`}, d > 0 ? "▲ " + d : d < 0 ? "▼ " + -d : "=");
+}
+
+/* watchlist */
+function toggleWatch(cid){ const i = S.watch.indexOf(cid); if (i >= 0) S.watch.splice(i, 1); else S.watch.push(cid); ls.set("ip.watch", S.watch); }
+function starBtn(cid){
+  const on = S.watch.includes(cid);
+  const b = h("button", {class:"star", type:"button", "aria-pressed":String(on), "aria-label":`${on ? "Remove" : "Add"} ${cname(cid)} ${on ? "from" : "to"} watchlist`, title:on ? "On your watchlist" : "Add to watchlist"}, icon("star"));
+  b.addEventListener("click", ev => { ev.preventDefault(); ev.stopPropagation(); toggleWatch(cid); render(); });
+  return b;
+}
+
+/* badges */
+const BADGE_HUES = {gold:["var(--gold)", "var(--me)"], sales:["var(--cat-1)", "var(--seq-7)"], ops:["var(--cat-3)", "var(--cat-6)"], tech:["var(--rival)", "var(--cat-1)"], fin:["var(--cat-4)", "var(--bronze)"], brand:["var(--cat-5)", "var(--rival)"]};
+const BADGES = [
+  {id:"market", n:"Market Maker", ic:"crown", c:"gold", d:"Top 5 by share of new business, year to date", t:X => X.vr("nbp_share_pct") <= 5},
+  {id:"rocket", n:"Growth Rocket", ic:"rocket", c:"sales", d:"Top-quartile new business growth this year", t:X => X.pk("nbp_ytd_growth_pct") >= 75},
+  {id:"snatch", n:"Share Snatcher", ic:"up", c:"sales", d:"Gained share of new business this year, top quartile", t:X => X.pk("share_change_bps") >= 75 && X.v("share_change_bps") > 0},
+  {id:"agency", n:"Agency Ace", ic:"users", c:"sales", d:"Top 3 in agency sales", t:X => X.pr("agency") <= 3},
+  {id:"banca", n:"Banca Boss", ic:"bank", c:"sales", d:"Top 3 in bancassurance", t:X => X.pr("banca") <= 3},
+  {id:"claims", n:"Claims Champion", ic:"shield", c:"ops", d:"Settles 99% or more of individual death claims by number", t:X => X.v("csr_count_pct") >= 99},
+  {id:"persist", n:"Persistency Pro", ic:"heart", c:"ops", d:"Top-quartile 13th-month persistency", t:X => X.pk("persistency_13") >= 75},
+  {id:"calm", n:"Calm Waters", ic:"feather", c:"ops", d:"Top quartile for fewest grievances per 10,000 policies", t:X => X.pk("grievances_per_10k") >= 75},
+  {id:"branch", n:"Branch Builder", ic:"map", c:"ops", d:"Offices in more states than three in four insurers", t:X => X.pk("office_states") >= 75},
+  {id:"digital", n:"Digital Native", ic:"phone", c:"tech", d:"Top 3 in IT & digital", t:X => X.pr("it") <= 3},
+  {id:"fan", n:"Fan Favourite", ic:"smile", c:"tech", d:"Android app rated 4.5★ or higher", t:X => X.v("android_rating") >= 4.5},
+  {id:"lab", n:"Product Lab", ic:"flask", c:"tech", d:"Top 3 in product", t:X => X.pr("product") <= 3},
+  {id:"lean", n:"Lean Machine", ic:"bolt", c:"fin", d:"Total cost ratio in the leanest quartile", t:X => X.pk("total_cost_ratio_pct") >= 75},
+  {id:"profit", n:"Profit Engine", ic:"coins", c:"fin", d:"Top-quartile return on equity", t:X => X.pk("roe_pct") >= 75},
+  {id:"fortress", n:"Fortress", ic:"building", c:"fin", d:"Solvency ratio of 2.0× or more", t:X => X.v("solvency_ratio") >= 2},
+  {id:"news", n:"Headline Maker", ic:"mega", c:"brand", d:"Top 5 for news mentions in the last 30 days", t:X => X.vr("news_30d") <= 5},
+  {id:"allround", n:"All-rounder", ic:"sparkle", c:"gold", d:"Scored in 12 or more departments, none below 40", t:X => X.ps.length >= 12 && Math.min(...X.ps) > 40},
+  {id:"champ", n:"Department Champion", ic:"medal", c:"gold", d:"Ranked 1st in at least one department", t:X => X.m[0] >= 1}
+];
+function badgeCtx(cid, sc){
+  return {
+    pk:k => (sc.ks[k] && sc.ks[k][cid] != null) ? sc.ks[k][cid] : -1,
+    v:k => { const x = bval(k, cid); return x && typeof x.v === "number" ? x.v : null; },
+    vr:k => { const r = valRank(k, cid, sc.ids); return r ? r.rank : 999; },
+    pr:p => (sc.ps[p] && sc.ps[p][cid]) ? sc.ps[p][cid].rank : 999,
+    ps:Object.values(sc.ps).map(m => m[cid] && m[cid].score).filter(x => x != null),
+    m:medalsOf(cid, sc)
+  };
+}
+function badgesFor(cid, sc){ const X = badgeCtx(cid, sc); return BADGES.map(b => { let got = false; try { got = !!b.t(X); } catch (e) { got = false; } return {...b, got}; }); }
+function badgeHolders(sc){
+  const out = {}; BADGES.forEach(b => out[b.id] = []);
+  sc.ids.forEach(c => { if (!sc.idx[c]) return; badgesFor(c, sc).forEach(b => { if (b.got) out[b.id].push(c); }); });
+  return out;
+}
+function badgeCard(b, holders, me){
+  const [c1, c2] = BADGE_HUES[b.c] || BADGE_HUES.gold, others = (holders[b.id] || []).filter(c => c !== me);
+  return h("div", {class:"badge" + (b.got ? "" : " locked"), title:b.got ? "Unlocked" : "Locked"},
+    h("div", {class:"hex", style:`--b1:${c1};--b2:${c2}`}, icon(b.got ? b.ic : "lock")),
+    h("div", {class:"bn"}, b.n), h("div", {class:"br"}, b.d),
+    h("div", {class:"bh"}, others.length ? `${b.got ? "Also held by" : "Held by"} ${others.slice(0, 3).map(cname).join(", ")}${others.length > 3 ? ` +${others.length - 3}` : ""}` : (b.got ? "Only you hold it" : "Nobody holds it yet")));
+}
+
+/* missions: the top-quartile mark on one KPI, and what reaching it would do to the index */
+const MISSION_UNITS = new Set(["pct", "pp", "bps", "x", "stars", "score", "per10k", "days", "secs", "inr_lakh"]);
+const DIFF = ["", "Quick win", "Stretch", "Moonshot"];
+function missionsFor(cid, sc){
+  const me = sc.idx[cid]; if (!me) return [];
+  const mine = {};
+  scoredPillars().forEach(p => { const x = sc.ps[p.id] && sc.ps[p.id][cid]; if (x) mine[p.id] = x.score; });
+  const pids = Object.keys(mine), tot = sum(pids.map(p => mine[p])), np = pids.length;
+  const others = Object.entries(sc.idx).filter(([c]) => c !== cid).map(([, x]) => x.score), set = new Set(sc.ids), out = [];
+  scoredPillars().forEach(p => {
+    if (mine[p.id] == null) return;
+    const ks = p.kpis.filter(k => sc.ks[k.id] && sc.ks[k.id][cid] != null);
+    ks.forEach(k => {
+      const m = kmeta(k.id) || k, cur = sc.ks[k.id][cid];
+      if (cur >= 70 || !MISSION_UNITS.has(m.unit) || (m.better !== "high" && m.better !== "low")) return;
+      const vals = Object.entries(S.b.values[k.id] || {}).filter(([c, y]) => set.has(c) && typeof y.v === "number").map(([, y]) => y.v).sort((a, b) => a - b);
+      if (vals.length < 4) return;
+      const target = vals[Math.round((m.better === "low" ? 0.25 : 0.75) * (vals.length - 1))], my = bval(k.id, cid).v;
+      if (m.better === "low" ? my <= target : my >= target) return;
+      const newP = sum(ks.map(x => x.id === k.id ? Math.max(75, cur) : sc.ks[x.id][cid])) / ks.length;
+      const newIdx = (tot - mine[p.id] + newP) / np, gain = newIdx - me.score;
+      if (gain < 0.05) return;
+      const newRank = 1 + others.filter(s => s > newIdx).length;
+      out.push({k:m, p, cur, my, target, gain, newRank, up:me.rank - newRank, diff:75 - cur < 25 ? 1 : 75 - cur < 50 ? 2 : 3});
+    });
+  });
+  out.sort((a, b) => b.gain - a.gain);
+  const per = {}, pick = [], take = x => { if (pick.length < 6 && !pick.includes(x) && (per[x.p.id] || 0) < 2){ pick.push(x); per[x.p.id] = (per[x.p.id] || 0) + 1; } };
+  [1, 2, 3].forEach(d => out.filter(x => x.diff === d).slice(0, 2).forEach(take));
+  out.forEach(take);
+  return pick.sort((a, b) => a.diff - b.diff || b.gain - a.gain);
+}
+function missionCard(x){
+  return h("a", {class:"mission", href:"#kpi-" + x.k.id},
+    h("div", {class:"mtop"}, h("span", {class:"eyebrow"}, x.p.name), h("span", {class:"pips", title:DIFF[x.diff]}, [1, 2, 3].map(i => h("i", {class:i <= x.diff ? "on" : null})), h("b", null, DIFF[x.diff]))),
+    h("div", {class:"mt"}, `${x.k.better === "low" ? "Cut" : "Lift"} ${lc1(x.k.name)} to ${fmtK(x.k.id, x.target)}`),
+    h("div", {class:"md"}, `Now ${fmtK(x.k.id, x.my)}, percentile ${Math.round(x.cur)}. The mark is the top-quartile value among peers.`),
+    h("div", {class:"mprog", role:"img", "aria-label":`Percentile ${Math.round(x.cur)}; target 75`}, h("i", {style:`width:${Math.max(2, x.cur)}%`}), h("b", {style:"left:75%"})),
+    h("div", {class:"reward"}, h("span", null, `+${nf1.format(x.gain)} index`), x.up > 0 ? h("span", null, `▲ ${x.up} to ${rk(x.newRank)}`) : null, h("span", {class:"xp2"}, `+${Math.max(1, Math.round(x.gain * 10))} XP`)));
+}
+
+/* rivals and duels */
+function rivalsOf(cid, sc){
+  const ranked = rankedIds(sc), i = ranked.indexOf(cid), out = [];
+  S.watch.forEach(c => { if (c !== cid && sc.idx[c]) out.push(c); });
+  if (i >= 0) [i - 1, i - 2, i + 1, i - 3, i + 2].forEach(j => { if (j >= 0 && j < ranked.length && !out.includes(ranked[j])) out.push(ranked[j]); });
+  return out.slice(0, Math.max(4, Math.min(8, S.watch.length + 2)));
+}
+function duelScore(a, b, sc){
+  let wa = 0, wb = 0, t = 0; const rows = [];
+  scoredPillars().forEach(p => {
+    const x = sc.ps[p.id] && sc.ps[p.id][a], y = sc.ps[p.id] && sc.ps[p.id][b];
+    if (!x || !y) return;
+    const d = x.score - y.score;
+    if (Math.abs(d) < 0.5) t++; else if (d > 0) wa++; else wb++;
+    rows.push({p, x, y, d});
+  });
+  return {wa, wb, t, rows};
+}
+function rivalCard(me, r, sc){
+  const D = duelScore(me, r, sc), ix = sc.idx[r], mi = sc.idx[me], gap = ix && mi ? ix.score - mi.score : null;
+  return h("section", {class:"rival"},
+    h("div", {class:"rtop"}, crestOf(r), h("div", {class:"rn"}, linkTo("insurer-" + r, cname(r)), h("span", {class:"small muted"}, ix ? `${rk(ix.rank)} · index ${f1(ix.score)}` : "not ranked")), starBtn(r)),
+    h("div", {class:"vs", role:"img", "aria-label":`Departments won: ${cname(me)} ${D.wa}, ${cname(r)} ${D.wb}`}, h("div", {class:"vsn me"}, h("b", null, String(D.wa)), h("span", null, cname(me))), h("span", {class:"x"}, "VS"), h("div", {class:"vsn"}, h("b", null, String(D.wb)), h("span", null, cname(r)))),
+    h("div", {class:"small ink2"}, "Departments won" + (D.t ? `, ${D.t} drawn` : "") + (gap == null ? "" : gap > 0 ? ` · ${cname(r)} ahead by ${nf1.format(gap)} index points` : gap < 0 ? ` · you lead by ${nf1.format(-gap)} points` : " · level on index")),
+    h("a", {class:"btn me", href:`#duel-${me}-${r}`}, icon("swords"), "Open duel"));
+}
+
+/* competitor moves: product changes and headlines */
+function movesFeed(ids, n){
+  const set = ids ? new Set(ids) : null, out = [];
+  (S.d.changelog || []).forEach(e => {
+    if (e.type === "baseline" || (set && !set.has(e.company_id))) return;
+    const t = CHANGE_TYPES[e.type] || {l:e.type || "Change"};
+    out.push({d:e.date, c:e.company_id, kind:t.l, t:e.title || "", href:e.uin && S.prod[e.uin] ? "#product-" + S.prod[e.uin].id : "#changes"});
+  });
+  Object.entries((S.b && S.b.news) || {}).forEach(([c, nn]) => {
+    if (set && !set.has(c)) return;
+    arr(nn.items).slice(0, 4).forEach(it => out.push({d:it.date, c, kind:it.theme && it.theme !== "Other" ? it.theme : "News", t:it.title || "", ext:safeUrl(it.link), outlet:it.outlet}));
+  });
+  return out.sort((a, b) => String(b.d || "").localeCompare(String(a.d || ""))).slice(0, n);
+}
+function feedItem(x){
+  return h("div", {class:"fitem"}, crestOf(x.c, "sm"),
+    h("div", {class:"fb"}, h("div", {class:"ft"}, x.ext ? h("a", {href:x.ext, target:"_blank", rel:"noopener"}, x.t) : h("a", {href:x.href}, x.t)),
+      h("div", {class:"fs"}, h("span", {class:"stamp neutral"}, x.kind), cname(x.c), x.outlet ? "· " + x.outlet : null)),
+    h("div", {class:"fd"}, fmtDate(x.d)));
+}
+function secHead(title, sub, right){ return h("div", {class:"shead"}, h("div", null, h("h2", null, title), sub ? h("p", null, sub) : null), right || null); }
+
+/* ---------- home: my company's dugout ---------- */
+const STAT_KPIS = [["nbp_share_pct", "Market share, YTD"], ["nbp_ytd_growth_pct", "New business growth, YTD"], ["persistency_13", "13th-month persistency"], ["csr_count_pct", "Death claims settled"], ["grievances_per_10k", "Grievances per 10k"], ["solvency_ratio", "Solvency"], ["android_rating", "Android app rating"], ["total_cost_ratio_pct", "Total cost ratio"]];
+function viewHome(){
+  if (!S.b) return viewOverview();
+  const me = S.bench && bcomp(S.bench) && bcomp(S.bench).scored ? S.bench : null;
+  if (!me) return pickTeam();
+  const mode = peerMode(), sc = scoresFor(peerIds(mode)), scA = scoresFor(peerIds("all"));
+  const view = h("div", {class:"home"});
+  view.append(heroCard(me, sc, mode, scA));
+  const ss = seasonStrip(); if (ss) view.append(h("div", {style:"margin-top:16px"}, ss));
+  // scoreboard
+  view.append(secHead("Scoreboard", `Where ${cname(me)} ranks on the numbers boards ask about first. Rank among ${peerText(mode).toLowerCase()} with data; tap a card for the full ranking.`, peerPicker()));
+  view.append(h("div", {class:"statgrid"}, STAT_KPIS.filter(([k]) => kmeta(k)).map(([k, l]) => {
+    const r = valRank(k, me, sc.ids), p = sc.ks[k] && sc.ks[k][me];
+    return h("a", {class:"stat", href:"#kpi-" + k}, h("div", {class:"l"}, l), h("div", {class:"v"}, r ? fmtK(k, r.v) : "—"),
+      h("div", {class:"d"}, r ? `${rk(r.rank)} of ${r.n}` + (p != null ? ` · percentile ${Math.round(p)}` : "") : "no data yet"),
+      r ? h("span", {class:"rkp" + (r.rank <= 3 ? " top" : "")}, "#" + r.rank) : null,
+      h("div", {class:"pbar"}, h("i", {style:`width:${p != null ? Math.max(2, p) : 0}%;--c:${p == null ? "var(--line-strong)" : p >= 60 ? "var(--div-pos)" : p <= 40 ? "var(--div-neg)" : "var(--muted)"}`})));
+  })));
+  // department grades
+  view.append(secHead("Department grades", "Grade per department from its score against peers: S 80+, A 60-80, B 40-60, C 20-40, D under 20. Medals mark a top-three finish.", h("a", {class:"btn", href:"#departments"}, icon("grid"), "All departments")));
+  view.append(powerGrid(me, sc));
+  // missions
+  const ms = missionsFor(me, sc);
+  view.append(secHead("Missions", `Reach the top-quartile mark on one KPI and see what it does to the index. Estimates hold every other insurer where it is.`));
+  view.append(ms.length ? h("div", {class:"missions"}, ms.map(missionCard)) : h("div", {class:"empty"}, h("h3", null, "No open missions"),
+    h("p", null, sc.idx[me] ? "Every scored ratio KPI is already at or near the top quartile." : `${cname(me)} has too few departments with data to hold a league position in this peer group.`)));
+  // rivals
+  const rv = rivalsOf(me, sc);
+  view.append(secHead("Rivals", "The insurers just above and below you in the league, plus your watchlist. Star an insurer to keep it here.", h("a", {class:"btn", href:"#duel"}, icon("swords"), "Duel anyone")));
+  view.append(h("div", {class:"rivals"}, rv.map(r => rivalCard(me, r, sc))));
+  // badges
+  const bs = badgesFor(me, scA), holders = badgeHolders(scA), got = bs.filter(b => b.got);
+  view.append(secHead("Trophy cabinet", `${got.length} of ${bs.length} badges unlocked. Badges are judged against all insurers.`));
+  view.append(h("div", {class:"badges"}, [...got, ...bs.filter(b => !b.got)].map(b => badgeCard(b, holders, me))));
+  // intel feed
+  const F = S.feedF || "all", ids = F === "rivals" ? rv : F === "watch" ? S.watch : null;
+  const chips = h("div", {class:"chips"}, [["all", "Everyone"], ["rivals", "Rivals"], ["watch", "Watchlist"]].map(([k, l]) => {
+    const b = h("button", {class:"chip btnchip" + (F === k ? " on" : ""), type:"button", "aria-pressed":String(F === k)}, l);
+    b.addEventListener("click", () => { S.feedF = k; render(); });
+    return b;
+  }));
+  const feed = movesFeed(ids ? ids.filter(c => c !== me) : companies().map(c => c.id).filter(c => c !== me), 14);
+  view.append(secHead("Competitor moves", "Launches, revisions, withdrawals, rating changes and headlines, newest first.", chips));
+  view.append(h("section", {class:"panel"}, feed.length ? h("div", {class:"feed"}, feed.map(feedItem)) : h("p", {class:"muted"}, F === "watch" && !S.watch.length ? "Your watchlist is empty: star an insurer to follow it." : "Nothing new in this feed yet."),
+    h("p", {class:"fn"}, linkTo("changes", "All product changes"), " · ", linkTo("news", "All headlines"))));
+  return view;
+}
+function hs(l, v, d){ return h("div", null, h("div", {class:"l"}, l), h("div", {class:"v"}, v), d ? h("div", {class:"d"}, d) : null); }
+function heroCard(me, sc, mode, scA){
+  const ix = sc.idx[me], bc = bcomp(me) || {}, L = ix ? levelOf(ix.score) : null, med = medalsOf(me, sc), ranked = rankedIds(sc);
+  const above = ix && ix.rank > 1 ? ranked[ix.rank - 2] : null, below = ix && ix.rank < ranked.length ? ranked[ix.rank] : null;
+  const bs = badgesFor(me, scA), prev = snapMoves(mode, sc);
+  const rankEl = h("b", null, ix ? "#" + ix.rank : "–"), bar = h("i");
+  const gap = above ? sc.idx[above].score - ix.score : below ? ix.score - sc.idx[below].score : null;
+  const hero = h("section", {class:"hero"}, h("div", {class:"hero-grid"},
+    h("div", {class:"who"}, crestOf(me, "xl"), h("div", {class:"whot"},
+      h("div", {class:"eyebrow-b"}, "My company · " + peerText(mode)),
+      h("div", {class:"nm"}, cname(me)),
+      h("div", {class:"meta"}, [bc.tier && bc.tier + " tier", bc.model].filter(Boolean).join(" · ") || "Life insurer"),
+      L ? h("div", {class:"lvlrow"}, lvlChip(ix.score, "on-band"), h("span", {class:"xpt"}, `${nfIN.format(L.xp)} XP` + (L.nextName ? ` · ${nfIN.format(L.toNext)} XP to ${L.nextName}` : " · top level"))) : null,
+      L ? h("div", {class:"xp", role:"img", "aria-label":L.nextName ? `${Math.round(L.pct)}% of the way to ${L.nextName}` : "Top level"}, bar) : null)),
+    h("div", {class:"rankbig"}, h("span", null, "League position"), rankEl, h("span", null, ix ? `of ${sc.n}` : "not ranked"), ix && prev ? moveChip(prev, me, ix.rank) : null),
+    h("div", {class:"hx hstat"},
+      hs("Index", ix ? f1(ix.score) : "—", ix ? `average of ${ix.n} department scores` : "too few departments scored"),
+      hs(above ? `Gap to ${rk(ix.rank - 1)}` : "Lead over 2nd", gap == null ? "—" : f1(gap) + " pts", above ? cname(above) : below ? cname(below) : ""),
+      hs("Medals", h("span", {class:"medrow"}, ["g", "s", "b"].map((k, i) => h("span", {class:"mc", title:["Gold", "Silver", "Bronze"][i]}, h("span", {class:"medal sm " + k}), String(med[i])))), "top-three department finishes"),
+      hs("Badges", `${bs.filter(b => b.got).length} / ${bs.length}`, "unlocked"))));
+  if (ix) countUp(rankEl, sc.n, ix.rank, v => "#" + Math.round(v), 1000);
+  if (L) later(() => bar.style.setProperty("--w", L.pct.toFixed(1) + "%"));
+  return hero;
+}
+function powerGrid(me, sc){
+  const wrap = h("div", {class:"pgrid"});
+  families().forEach(g => {
+    const cells = g.ps.filter(p => !p.qualitative).map(p => {
+      const m = sc.ps[p.id] || {}, x = m[me], n = Object.keys(m).length;
+      if (!x) return h("a", {class:"dcell off", href:"#dept-" + p.id}, h("span", {class:"grade none"}, "–"), h("div", {class:"dn"}, pshort(p)), h("div", {class:"dr"}, n ? "Too little data to score" : "Not scored yet"));
+      return h("a", {class:"dcell", href:"#dept-" + p.id, title:`${p.name}: ${nf1.format(x.score)}, ${rk(x.rank)} of ${n}`}, gradeChip(x.score), h("div", {class:"dn"}, pshort(p)),
+        medal(x.rank, n) || h("span", {class:"dpos"}, "#" + x.rank),
+        h("div", {class:"dr"}, `${Math.round(x.score)} pts · ${rk(x.rank)} of ${n}`),
+        h("div", {class:"pbar"}, h("i", {style:`width:${Math.max(2, x.score)}%;--c:var(--me)`})));
+    });
+    if (cells.length) wrap.append(h("div", {class:"pfamh"}, g.f), ...cells);
+  });
+  return wrap;
+}
+function pickTeam(){
+  const view = h("div", {class:"home"}), s = seasonInfo();
+  view.append(h("section", {class:"hero"}, h("div", {class:"whot"}, h("div", {class:"eyebrow-b"}, s ? "Season " + s.label : "Benchmark"), h("div", {class:"nm"}, "Pick your company"),
+    h("p", {class:"meta", style:"max-width:62ch;margin-top:6px"}, "Choose the insurer you work for. Home then tracks its league position, department grades, the missions that would lift its index, its closest rivals and the badges it holds. Change it any time from the header."))));
+  const ranked = scoresFor(peerIds("all")).idx;
+  const list = S.b.companies.filter(c => c.scored && ranked[c.id]).sort((a, b) => cname(a.id).localeCompare(cname(b.id)));
+  view.append(h("div", {class:"teamgrid section"}, list.map(c => h("button", {class:"team", type:"button", onclick:() => { setBench(c.id); render(); }}, crestOf(c.id, "lg"), h("span", {class:"tn"}, cname(c.id)), h("span", {class:"ts"}, [c.tier, c.model].filter(Boolean).join(" · "))))));
+  return view;
+}
+
+/* ---------- league: podium and standings ---------- */
+function leagueBlock(ids, sc, mode){
+  const prev = snapMoves(mode, sc), ranked = rankedIds(sc), wrap = h("div");
+  if (ranked.length >= 3) wrap.append(h("div", {class:"podium", role:"list", "aria-label":"Top three"}, [1, 0, 2].map(i => {
+    const c = ranked[i], x = sc.idx[c];
+    return h("a", {class:"pod p" + (i + 1), href:"#insurer-" + c, role:"listitem"}, crestOf(c, "lg"), h("div", {class:"pn"}, cname(c)), h("div", {class:"ps"}, "index " + f1(x.score)),
+      h("div", {class:"plinth"}, h("span", null, String(i + 1)), h("small", null, ["Gold", "Silver", "Bronze"][i])));
+  })));
+  const top = ranked.length ? sc.idx[ranked[0]].score : 0, unranked = ids.filter(c => !sc.idx[c]);
+  const tbl = h("div", {class:"tablewrap"}, h("table", {class:"league sticky1"},
+    h("thead", null, h("tr", null, h("th", null, "Insurer"), h("th", null, "Move"), h("th", null, "Level"), h("th", null, "Index"), h("th", null, "Medals"), h("th", {title:"Month-on-month change in year-to-date share of new business"}, "Form"), h("th", {class:"n"}, "Behind leader"))),
+    h("tbody", null, ranked.map((c, i) => { const x = sc.idx[c], bc = bcomp(c) || {};
+      return h("tr", {class:c === S.bench ? "bench" : null},
+        h("td", null, h("div", {class:"lteam"}, h("span", {class:"lrank"}, String(x.rank)), crestOf(c, "sm"), h("div", null, linkTo("insurer-" + c, cname(c)), S.watch.includes(c) ? h("span", {class:"wstar", title:"On your watchlist"}, " ", icon("star")) : null, h("span", {class:"pnote"}, [bc.tier, bc.model].filter(Boolean).join(" · "))))),
+        h("td", null, moveChip(prev, c, x.rank)),
+        h("td", null, lvlChip(x.score)),
+        h("td", null, h("div", {class:"ibar"}, h("span", null, h("i", {style:`width:${clamp(x.score, 0, 100)}%`})), h("b", null, f1(x.score)))),
+        h("td", null, medalRow(medalsOf(c, sc))),
+        h("td", null, formChips(c)),
+        h("td", {class:"n small"}, i === 0 ? "Leader" : f1(top - x.score) + " pts"));
+    }))));
+  wrap.append(h("section", {class:"panel section"}, h("div", {class:"panel-head"}, h("div", {class:"t"}, h("h3", null, "Standings"),
+    h("div", {class:"s"}, `${peerText(mode)} · index = average department score · medals = top-three department finishes · form = monthly change in share of new business · ` + (prev ? `moves since your visit on ${fmtDate(prev.d)}` : "moves show from your next visit")))),
+    tbl, unranked.length ? h("p", {class:"fn"}, `Not ranked: ${unranked.map(cname).join(", ")} (too few departments with data).`) : null));
+  return wrap;
+}
+
+/* ---------- duel: two insurers head to head ---------- */
+function viewDuel(arg){
+  if (!S.b) return benchMissing();
+  const sc = scoresFor(peerIds("all")), ranked = rankedIds(sc);
+  if (ranked.length < 2) return benchMissing();
+  let [a, b] = String(arg || "").split("-");
+  if (!sc.idx[a]) a = S.bench && sc.idx[S.bench] ? S.bench : ranked[0];
+  if (!sc.idx[b] || b === a){ const i = ranked.indexOf(a); b = ranked[i > 0 ? i - 1 : 1]; }
+  const D = duelScore(a, b, sc), A = sc.idx[a], B = sc.idx[b];
+  const ca = a === S.bench ? "var(--me)" : "var(--accent)", cb = b === S.bench ? "var(--me)" : a === S.bench ? "var(--accent)" : "var(--rival)";
+  const view = h("div");
+  view.append(h("div", {class:"view-head"}, h("div", null, h("h2", null, "Duel"), h("p", null, "Two insurers, department by department, scored against all insurers. A department goes to whoever scores higher; under half a point is a draw."))));
+  const opts = sel => S.b.companies.filter(c => sc.idx[c.id]).sort((x, y) => cname(x.id).localeCompare(cname(y.id))).map(c => { const o = h("option", {value:c.id}, cname(c.id)); if (c.id === sel) o.selected = true; return o; });
+  const sa = h("select", {"aria-label":"First insurer"}, opts(a)), sb = h("select", {"aria-label":"Second insurer"}, opts(b));
+  sa.addEventListener("change", () => go(`duel-${sa.value}-${sa.value === b ? a : b}`));
+  sb.addEventListener("change", () => go(`duel-${sb.value === a ? b : a}-${sb.value}`));
+  const swap = h("button", {class:"btn onband", type:"button"}, icon("swap"), "Swap sides");
+  swap.addEventListener("click", () => go(`duel-${b}-${a}`));
+  const win = D.wa > D.wb ? a : D.wb > D.wa ? b : null, nA = h("b", {class:win === a ? "wn" : null}, String(D.wa)), nB = h("b", {class:win === b ? "wn" : null}, String(D.wb));
+  view.append(h("section", {class:"hero duel"}, h("div", {class:"duelhead"},
+    h("div", {class:"dside"}, crestOf(a, "xl"), sa, h("div", {class:"meta"}, `${rk(A.rank)} of ${sc.n} · index ${f1(A.score)}`), lvlChip(A.score, "on-band")),
+    h("div", {class:"dmid"}, h("div", {class:"eyebrow-b"}, "Departments won"), h("div", {class:"dsc", role:"img", "aria-label":`${cname(a)} ${D.wa}, ${cname(b)} ${D.wb}`}, nA, h("span", {class:"dash"}, "–"), nB),
+      h("div", {class:"meta"}, `${D.rows.length} contested` + (D.t ? ` · ${D.t} drawn` : "")),
+      h("div", {class:"wtag"}, icon("crown"), win ? `${cname(win)} wins on departments` : "All square"), swap),
+    h("div", {class:"dside"}, crestOf(b, "xl"), sb, h("div", {class:"meta"}, `${rk(B.rank)} of ${sc.n} · index ${f1(B.score)}`), lvlChip(B.score, "on-band")))));
+  countUp(nA, 0, D.wa, v => String(Math.round(v)), 700); countUp(nB, 0, D.wb, v => String(Math.round(v)), 700);
+  // department by department
+  const bfly = h("div", {class:"bfly", role:"table", "aria-label":"Department scores"},
+    h("div", {class:"bfh"}, cname(a)), h("div", {class:"bfh", style:"text-align:center"}, "Department"), h("div", {class:"bfh", style:"text-align:right"}, cname(b)),
+    D.rows.map(r => { const aw = r.d >= 0.5, bw = r.d <= -0.5;
+      const lrow = h("div", {class:"bl"}, h("span", {class:"vl" + (aw ? " win" : "")}, String(Math.round(r.x.score))), h("span", {class:"tk"}, h("i", {class:aw ? "win" : null, style:`width:${Math.max(2, r.x.score)}%;--c:${ca}`})));
+      const rrow = h("div", {class:"br"}, h("span", {class:"tk"}, h("i", {class:bw ? "win" : null, style:`width:${Math.max(2, r.y.score)}%;--c:${cb}`})), h("span", {class:"vl" + (bw ? " win" : "")}, String(Math.round(r.y.score))));
+      hover(lrow, () => [nf1.format(r.x.score), `${cname(a)} · ${r.p.name}`, `${rk(r.x.rank)} · ${r.x.n} of ${r.x.of} KPIs`]);
+      hover(rrow, () => [nf1.format(r.y.score), `${cname(b)} · ${r.p.name}`, `${rk(r.y.rank)} · ${r.y.n} of ${r.y.of} KPIs`]);
+      return [lrow, h("a", {class:"dl", href:"#dept-" + r.p.id}, pshort(r.p)), rrow]; }));
+  view.append(h("div", {class:"section"}, card("Department by department", "Score out of 100 against all insurers · the stronger bar in each row wins the department",
+    () => bfly,
+    () => simpleTable([{l:"Department", v:r => r.p.name}, {l:cname(a), n:1, v:r => nf1.format(r.x.score)}, {l:cname(b), n:1, v:r => nf1.format(r.y.score)}, {l:"Winner", v:r => Math.abs(r.d) < 0.5 ? "Draw" : r.d > 0 ? cname(a) : cname(b)}], D.rows))));
+  // where each side leads
+  const edges = [];
+  scoredPillars().forEach(p => p.kpis.forEach(k => { const pa = sc.ks[k.id] && sc.ks[k.id][a], pb = sc.ks[k.id] && sc.ks[k.id][b]; if (pa == null || pb == null) return; edges.push({k:kmeta(k.id) || k, p, pa, pb, d:pa - pb}); }));
+  const lead = (list, who) => list.length ? h("ul", {class:"edges"}, list.map(e => h("li", null, h("a", {href:"#kpi-" + e.k.id}, e.k.name), h("span", {class:"ev"}, `${fmtK(e.k.id, bval(e.k.id, a).v)} vs ${fmtK(e.k.id, bval(e.k.id, b).v)} · ${pshort(e.p)}`), h("span", {class:"eg"}, `+${Math.round(Math.abs(e.d))}`)))) : h("p", {class:"muted small"}, `No KPI where ${cname(who)} is ahead.`);
+  view.append(h("div", {class:"grid g2 section"},
+    h("section", {class:"panel"}, h("div", {class:"panel-head"}, h("div", {class:"t"}, h("h3", null, `Where ${cname(a)} leads`), h("div", {class:"s"}, "Largest percentile gaps · values shown left vs right"))), lead(edges.filter(e => e.d > 0).sort((x, y) => y.d - x.d).slice(0, 7), a)),
+    h("section", {class:"panel"}, h("div", {class:"panel-head"}, h("div", {class:"t"}, h("h3", null, `Where ${cname(b)} leads`), h("div", {class:"s"}, "Largest percentile gaps · values shown left vs right"))), lead(edges.filter(e => e.d < 0).sort((x, y) => x.d - y.d).slice(0, 7), b))));
+  view.append(h("div", {class:"section"}, h("details", {class:"fold"}, h("summary", null, h("span", null, h("h3", null, "Every shared KPI"), h("span", {class:"fold-s"}, `${edges.length} core KPIs with data for both`)), h("span", {class:"fold-k"})),
+    simpleTable([{l:"Department", v:e => pshort(e.p)}, {l:"KPI", v:e => linkTo("kpi-" + e.k.id, e.k.name)}, {l:cname(a), n:1, v:e => h("span", {class:e.d > 0 ? "wcell" : null}, fmtK(e.k.id, bval(e.k.id, a).v))}, {l:cname(b), n:1, v:e => h("span", {class:e.d < 0 ? "wcell" : null}, fmtK(e.k.id, bval(e.k.id, b).v))}, {l:"Percentiles", n:1, v:e => `${Math.round(e.pa)} vs ${Math.round(e.pb)}`}], edges))));
+  return view;
+}
+
+/* ---------- search palette: one box for every insurer, department, KPI, product and view ---------- */
+const VIEWS = [["home", "Home", "home", "League position, grades, missions, rivals"], ["benchmark", "League table", "trophy", "Index, podium, department scorecard"], ["duel", "Duel", "swords", "Two insurers head to head"], ["departments", "Departments", "grid", "Every department and its KPIs"], ["overview", "Market", "chart", "Share, growth, claims, app ratings"], ["network", "Branch network", "map", "Offices and share by state"], ["global", "Global peers", "globe", "Asian and global life insurers"], ["strategy", "Strategy", "target", "Purpose, pillars, stated targets"], ["news", "News", "news", "Headlines and share prices"], ["insurers", "Insurers", "building", "All life insurers"], ["ownership", "Ownership", "users", "Promoters and foreign partners"], ["products", "Products", "doc", "The product catalogue"], ["compare", "Compare", "swap", "Products and insurers side by side"], ["changes", "Changes", "sparkle", "Launches, withdrawals, rating changes"], ["about", "About the data", "doc", "Sources and coverage"]];
+let PAL = null;
+function buildPalette(){
+  const q = h("input", {type:"text", id:"palq", placeholder:"Search insurers, departments, KPIs, products…", autocomplete:"off", spellcheck:"false", "aria-label":"Search", "aria-controls":"palres"});
+  const res = h("div", {class:"pal-res", id:"palres", role:"listbox", "aria-label":"Results"});
+  const root = h("div", {class:"pal", id:"pal", hidden:true}, h("div", {class:"pal-box", role:"dialog", "aria-modal":"true", "aria-label":"Search"},
+    h("div", {class:"pal-in"}, icon("search"), q, h("kbd", null, "Esc")), res, h("div", {class:"pal-ft"}, "↑ ↓ move · Enter open · Esc close · press / or Ctrl K to search from anywhere")));
+  root.addEventListener("pointerdown", e => { if (e.target === root) closePal(); });
+  q.addEventListener("input", () => palSearch(q.value));
+  q.addEventListener("keydown", e => {
+    const items = [...res.querySelectorAll(".pal-it")];
+    let i = items.findIndex(x => x.getAttribute("aria-selected") === "true");
+    if (e.key === "ArrowDown" || e.key === "ArrowUp"){
+      e.preventDefault(); if (!items.length) return;
+      i = e.key === "ArrowDown" ? (i + 1) % items.length : (i - 1 + items.length) % items.length;
+      items.forEach((x, k) => x.setAttribute("aria-selected", String(k === i))); items[i].scrollIntoView({block:"nearest"});
+    } else if (e.key === "Enter"){ e.preventDefault(); const it = items[i >= 0 ? i : 0]; if (it) it.click(); }
+    else if (e.key === "Escape"){ e.preventDefault(); closePal(); }
+    else if (e.key === "Tab") e.preventDefault();
+  });
+  res.addEventListener("click", e => { if (e.target.closest(".pal-it")) closePal(true); });
+  document.body.append(root);
+  PAL = {root, q, res, last:null};
+}
+function openPal(){
+  if (!PAL) buildPalette();
+  if (!PAL.root.hidden) return;
+  PAL.last = document.activeElement; PAL.root.hidden = false; PAL.q.value = ""; palSearch("");
+  document.documentElement.classList.add("noscroll"); hideTip();
+  PAL.q.focus(); setTimeout(() => PAL.q.focus(), 0);
+}
+function closePal(navigating){
+  if (!PAL || PAL.root.hidden) return;
+  PAL.root.hidden = true; document.documentElement.classList.remove("noscroll");
+  if (!navigating && PAL.last && PAL.last.focus) PAL.last.focus();
+}
+function palSearch(raw){
+  const q = raw.trim().toLowerCase(), toks = q.split(/\s+/).filter(Boolean);
+  const one = x => { const t = String(x || "").toLowerCase(); if (!t || !toks.every(w => t.includes(w))) return 0; return t.startsWith(toks[0]) ? 3 : t.split(/[\s&(),/.-]+/).some(w => w.startsWith(toks[0])) ? 2 : 1; };
+  const score = (...texts) => toks.length ? Math.max(0, ...texts.map((x, i) => one(x) * (i ? 0.3 : 1))) : 1;
+  const item = (g, t, s, lead, href, sc) => ({g, t, s, lead, href, sc:sc || 0});
+  const out = [];
+  const vs = VIEWS.map(v => ({v, s:score(v[1], v[3])})).filter(x => x.s).sort((a, b) => b.s - a.s).slice(0, toks.length ? 4 : 8);
+  const ins = companies().map(c => ({c, s:score(cname(c.id), c.name, c.legal_name, CREST[c.id])})).filter(x => x.s).sort((a, b) => b.s - a.s || cname(a.c.id).localeCompare(cname(b.c.id))).slice(0, toks.length ? 6 : 0);
+  if (!toks.length){
+    vs.forEach(x => out.push(item("Go to", x.v[1], x.v[3], icon(x.v[2]), "#" + x.v[0])));
+    S.watch.filter(c => S.comp[c]).forEach(c => out.push(item("Watchlist", cname(c), (bcomp(c) || {}).tier || "", crestOf(c, "sm"), "#insurer-" + c)));
+  } else {
+    ins.forEach(x => out.push(item("Insurers", cname(x.c.id), x.c.name, crestOf(x.c.id, "sm"), "#insurer-" + x.c.id, x.s)));
+    if (S.b && S.bench && ins[0] && ins[0].c.id !== S.bench && bcomp(ins[0].c.id)) out.push(item("Actions", `Duel: ${cname(S.bench)} vs ${cname(ins[0].c.id)}`, "Head to head by department", icon("swords"), `#duel-${S.bench}-${ins[0].c.id}`, ins[0].s));
+    if (S.b){
+      allPillars().map(p => ({p, s:score(p.name, pshort(p), p.dept, arr(p.functions).join(" "))})).filter(x => x.s).sort((a, b) => b.s - a.s).slice(0, 5)
+        .forEach(x => out.push(item("Departments", x.p.name, x.p.family || "", icon("grid"), x.p.qualitative ? "#strategy" : "#dept-" + x.p.id, x.s)));
+      Object.values(S.kmeta).map(k => ({k, s:score(k.name, k.id.replace(/_/g, " "))})).filter(x => x.s).sort((a, b) => b.s - a.s).slice(0, 6)
+        .forEach(x => out.push(item("KPIs", x.k.name, (allPillars().find(p => p.id === x.k.pillar) || {}).name || "", icon("chart"), "#kpi-" + x.k.id, x.s)));
+    }
+    if (q.length >= 2) products().map(p => ({p, s:Math.max(score(p.name), p.uin && p.uin.toLowerCase().includes(q) ? 3 : 0)})).filter(x => x.s).sort((a, b) => b.s - a.s || (a.p.status_label === "Active" ? -1 : 1)).slice(0, 8)
+      .forEach(x => out.push(item("Products", x.p.name, `${cname(x.p.company_id)} · ${x.p.category || x.p.segment || ""}${x.p.status_label && x.p.status_label !== "Active" ? " · " + x.p.status_label : ""}`, icon("doc"), "#product-" + x.p.id, x.s)));
+    vs.forEach(x => out.push(item("Go to", x.v[1], x.v[3], icon(x.v[2]), "#" + x.v[0], x.s)));
+    const order = ["Insurers", "Actions", "Departments", "KPIs", "Products", "Go to"], best = {};
+    out.forEach(x => best[x.g] = Math.max(best[x.g] || 0, x.sc));
+    const groups = [...new Set(out.map(x => x.g))].sort((a, b) => (best[b] - best[a]) || order.indexOf(a) - order.indexOf(b));
+    const sorted = groups.flatMap(g => out.filter(x => x.g === g).sort((a, b) => b.sc - a.sc));
+    out.splice(0, out.length, ...sorted);
+  }
+  PAL.res.replaceChildren();
+  if (!out.length){ PAL.res.append(h("div", {class:"pal-empty"}, `Nothing matches “${raw.trim()}”. Try an insurer, a department such as Underwriting, a KPI such as persistency, or a product name or UIN.`)); return; }
+  let g0 = null;
+  out.forEach((x, i) => {
+    if (x.g !== g0){ PAL.res.append(h("div", {class:"pal-grp"}, x.g)); g0 = x.g; }
+    PAL.res.append(h("a", {class:"pal-it", href:x.href, role:"option", "aria-selected":String(i === 0)}, h("span", {class:"pal-ic"}, x.lead), h("span", {class:"pt"}, x.t), x.s ? h("span", {class:"ps"}, x.s) : null));
+  });
+}
+function bottomNav(){
+  const nav = h("nav", {class:"bnav", "aria-label":"Quick navigation"},
+    [["home", "Home", "home", "home"], ["benchmark", "League", "trophy", "benchmark"], ["duel", "Duel", "swords", "duel"], ["departments", "Depts", "grid", "dept"]].map(([hash, l, ic, v]) => h("a", {href:"#" + hash, "data-v":v}, icon(ic), h("span", null, l))),
+    h("button", {type:"button", "aria-label":"Search"}, icon("search"), h("span", null, "Search")));
+  nav.querySelector("button").addEventListener("click", openPal);
+  return nav;
+}
+function updateMyCrest(){ const slot = $("#mycrest"); if (slot) slot.replaceChildren(S.bench && S.comp[S.bench] ? crestOf(S.bench, "sm") : icon("flag")); }
+
 /* ---------- shell ---------- */
-function setBench(id){ S.bench = id; ls.set("ip.bench", id); $("#bench").value = id; }
+function setBench(id){ S.bench = id; ls.set("ip.bench", id); $("#bench").value = id; updateMyCrest(); }
 function updateTray(){
   const n = S.cmpP.length + S.cmpI.length;
   const tray = $("#tray");
@@ -2801,7 +3689,8 @@ function parseHash(){
   if (raw.startsWith("product-")) return {v:"product", id:raw.slice(8)};
   if (raw.startsWith("dept-")) return {v:"dept", id:raw.slice(5)};
   if (raw.startsWith("kpi-")) return {v:"kpi", id:raw.slice(4)};
-  return {v:["overview","benchmark","departments","network","global","strategy","news","insurers","ownership","products","compare","changes","about"].includes(raw) ? raw : "overview", id:null};
+  if (raw === "duel" || raw.startsWith("duel-")) return {v:"duel", id:raw.slice(5) || null};
+  return {v:["home","overview","benchmark","departments","network","global","strategy","news","insurers","ownership","products","compare","changes","about"].includes(raw) ? raw : "home", id:null};
 }
 let lastKey = "";
 function render(){
@@ -2829,7 +3718,9 @@ function render(){
     case "compare": node = viewCompare(); break;
     case "changes": node = viewChanges(); break;
     case "about": node = viewAbout(); break;
-    default: node = viewOverview();
+    case "overview": node = viewOverview(); break;
+    case "duel": node = viewDuel(r.id); break;
+    default: node = viewHome();
   }
   const keepScroll = key === lastKey;
   const y = window.scrollY;
@@ -2848,9 +3739,21 @@ function init(d){
   S.cmpP = (saved.P || []).filter(id => S.prod[id]); S.cmpI = (saved.I || []).filter(id => S.comp[id]);
   const bsel = $("#bench");
   [...d.companies].sort((a,b) => cname(a.id).localeCompare(cname(b.id))).forEach(c => bsel.append(h("option", {value:c.id}, cname(c.id))));
-  const b = ls.get("ip.bench", ""); if (b && S.comp[b]) { S.bench = b; bsel.value = b; }
+  const savedBench = ls.get("ip.bench", null), b = savedBench == null ? (S.comp.bajaj ? "bajaj" : "") : savedBench;
+  if (b && S.comp[b]) { S.bench = b; bsel.value = b; }
   bsel.addEventListener("change", () => { setBench(bsel.value); render(); });
-  $("#asof").textContent = d.meta.data_as_of ? "Data as of " + fmtDate(d.meta.data_as_of) : "";
+  S.watch = arr(ls.get("ip.watch", [])).filter(c => S.comp[c]);
+  const si = S.b ? seasonInfo() : null;
+  $("#asof").textContent = [si ? "Season " + si.label : null, d.meta.data_as_of ? "data as of " + fmtDate(d.meta.data_as_of) : null].filter(Boolean).join(" · ");
+  updateMyCrest();
+  document.body.append(bottomNav());
+  $("#openpal").addEventListener("click", openPal);
+  document.addEventListener("keydown", e => {
+    const t = e.target, typing = t && (/^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName) || t.isContentEditable);
+    if ((e.key === "k" || e.key === "K") && (e.metaKey || e.ctrlKey)){ e.preventDefault(); if (PAL && !PAL.root.hidden) closePal(); else openPal(); }
+    else if (e.key === "/" && !typing){ e.preventDefault(); openPal(); }
+    else if (e.key === "Escape" && PAL && !PAL.root.hidden) closePal();
+  });
   $("#trayclear").addEventListener("click", () => { S.cmpP = []; S.cmpI = []; ls.set("ip.cmp", {P:[], I:[]}); updateTray(); if (S.route.v === "compare") render(); });
   window.addEventListener("hashchange", render);
   let rt; window.addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(() => document.querySelectorAll(".svgchart").forEach(svg => { const holder = svg.parentNode; if (holder && holder._redraw) holder._redraw(); }), 200); });

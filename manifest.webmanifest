@@ -1,13 +1,13 @@
 {
  "name": "Life Insurance Benchmark (India)",
  "short_name": "Life Benchmark",
- "description": "Every Indian life insurer benchmarked across 20 departments, with products, claims, ratings, ownership, strategy and news. Refreshed daily.",
- "start_url": "./#benchmark",
+ "description": "Every Indian life insurer in one league: department grades, missions, head-to-head duels, badges, products, claims, ownership, strategy and news. Refreshed daily.",
+ "start_url": "./#home",
  "scope": "./",
  "display": "standalone",
  "orientation": "any",
- "background_color": "#f1f4f1",
- "theme_color": "#0b6a5a",
+ "background_color": "#eef1f8",
+ "theme_color": "#0d1a45",
  "icons": [
   {
    "src": "icons/icon-192.png",
@@ -30,12 +30,16 @@
  ],
  "shortcuts": [
   {
-   "name": "Scorecard",
+   "name": "Home",
+   "url": "./#home"
+  },
+  {
+   "name": "League table",
    "url": "./#benchmark"
   },
   {
-   "name": "Departments",
-   "url": "./#dept-scale"
+   "name": "Duel",
+   "url": "./#duel"
   },
   {
    "name": "News",

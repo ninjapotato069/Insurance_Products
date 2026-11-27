@@ -19,27 +19,28 @@ MARK = "<!-- BODY -->"
 APP = {
     "name": "Life Insurance Benchmark (India)",
     "short_name": "Life Benchmark",
-    "description": "Every Indian life insurer benchmarked across 20 departments, with products, claims, ratings, ownership, strategy and news. Refreshed daily.",
-    "start_url": "./#benchmark",
+    "description": "Every Indian life insurer in one league: department grades, missions, head-to-head duels, badges, products, claims, ownership, strategy and news. Refreshed daily.",
+    "start_url": "./#home",
     "scope": "./",
     "display": "standalone",
     "orientation": "any",
-    "background_color": "#f1f4f1",
-    "theme_color": "#0b6a5a",
+    "background_color": "#eef1f8",
+    "theme_color": "#0d1a45",
     "icons": [
         {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
         {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
         {"src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"},
     ],
     "shortcuts": [
-        {"name": "Scorecard", "url": "./#benchmark"},
-        {"name": "Departments", "url": "./#dept-scale"},
+        {"name": "Home", "url": "./#home"},
+        {"name": "League table", "url": "./#benchmark"},
+        {"name": "Duel", "url": "./#duel"},
         {"name": "News", "url": "./#news"},
     ],
 }
 
 HEAD_PWA = """<link rel="manifest" href="manifest.webmanifest">
-<meta name="theme-color" content="#0b6a5a">
+<meta name="theme-color" content="#0d1a45">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
